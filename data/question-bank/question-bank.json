@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 313,
+  "Source verified": 325,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -34724,6 +34724,1400 @@
      "source_type": "clinical_reference",
      "supports": "Key A–B",
      "evidence": "Monitor hemodynamic status; assess wound drainage/infection signs.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B37-WAVE28",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-HPM-0041",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "tags": [
+    "west-nile",
+    "mosquito",
+    "community",
+    "HPM",
+    "SATA"
+   ],
+   "stem": "A community nurse teaches a neighbourhood group how to reduce West Nile virus risk. Which instructions are appropriate? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Use an Environmental Protection Agency–registered insect repellent when outdoors during mosquito season."
+    },
+    {
+     "key": "B",
+     "text": "Wear long, loose-fitting shirts and pants to reduce skin exposure to mosquito bites."
+    },
+    {
+     "key": "C",
+     "text": "Avoid outdoor exposure between dusk and dawn when West Nile–carrying mosquitoes are most active, when possible."
+    },
+    {
+     "key": "D",
+     "text": "Rely on a licensed human West Nile vaccine as the primary prevention strategy for everyone."
+    },
+    {
+     "key": "E",
+     "text": "Use window and door screens or air conditioning to keep mosquitoes outside the home."
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: use EPA-registered insect repellent. Merck: personal protective measures including DEET-type repellents.",
+    "B": "Correct. CDC: wear long, loose-fitting shirts and pants. Merck: protective attire to decrease mosquito exposure.",
+    "C": "Correct. CDC: avoid being outside between dusk and dawn when mosquitoes that spread West Nile are most active.",
+    "D": "Incorrect. CDC and Merck: no licensed West Nile vaccines are available for use in humans.",
+    "E": "Correct. CDC: use screens on windows and doors or air conditioning to keep mosquitoes outside."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "West Nile — mosquito bite prevention; no human vaccine",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "west-nile-mosquito-prevention-no-human-vaccine",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-31844644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Preventing West Nile: EPA repellent; long clothing; dusk–dawn; screens/AC; no human vaccine. Merck Prevention: mosquito control + personal protection (DEET, attire, netting); no human vaccines."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Preventing West Nile",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/west-nile-virus/prevention/index.html",
+     "section": "Prevent mosquito bites; Key points",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Keys A–C,E and distractor D",
+     "evidence": "No human vaccine; EPA repellent; long clothing; dusk–dawn; screens/AC.",
+     "added_by": "author"
+    },
+    {
+     "title": "West Nile Virus",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/arboviruses-arenaviridae-and-filoviridae/west-nile-virus",
+     "section": "Prevention of West Nile Virus; Key Points",
+     "source_date": "Last updated: Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Keys A,B and distractor D",
+     "evidence": "Personal protection (DEET, attire, netting); no human vaccines; community mosquito control.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B37-WAVE28",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-HPM-0042",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "heat",
+    "older-adult",
+    "gerontology",
+    "community",
+    "NGN",
+    "matrix",
+    "HPM"
+   ],
+   "stem": "A home-care nurse reviews hot-weather safety with an older adult who lives alone. For each teaching point, select Accurate or Not accurate.",
+   "ngn": {
+    "columns": [
+     "Accurate",
+     "Not accurate"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Stay in air-conditioned spaces as much as possible; use cooling centres or other cool public places if home has no air conditioning"
+     },
+     {
+      "key": "R2",
+      "text": "Rely on a household fan alone as the main cooling method when outdoor temperatures are extremely high"
+     },
+     {
+      "key": "R3",
+      "text": "Drink more water than usual and do not wait until thirst appears (unless a clinician has limited fluids)"
+     },
+     {
+      "key": "R4",
+      "text": "Wear loose, lightweight, light-coloured clothing outdoors in the heat"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Accurate",
+    "R2": "Not accurate",
+    "R3": "Accurate",
+    "R4": "Accurate"
+   },
+   "rationales": {
+    "R1": "Accurate. CDC (older adults): stay in air-conditioned buildings; locate cooling shelters if needed. Merck: older adults should not remain in unventilated residences without air-conditioning in excessive heat.",
+    "R2": "Not accurate. CDC: do not rely on a fan as the main cooling source when it is really hot. Merck emphasizes environmental modification and air-conditioning for older adults.",
+    "R3": "Accurate. CDC: drink more water than usual and do not wait until thirsty; ask clinician if fluids are limited. Merck: maintain adequate hydration.",
+    "R4": "Accurate. CDC: wear loose, lightweight, light-colored clothing. Merck: wear light, loose-fitting clothing."
+   },
+   "specialty": "Gerontology",
+   "topic": "NGN matrix — older adult heat safety: AC/cooling centres, not fan-alone, hydrate, loose clothing",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ngn-matrix-older-adult-heat-ac-not-fan-hydrate-clothing",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-31844644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Heat Older Adults: AC; not fan-alone; hydrate; loose light clothing. Merck Heat Illness Prevention: hydration; light loose clothing; older adults need AC/ventilation."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Heat and Older Adults (Aged 65+)",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/heat-health/risk-factors/heat-and-older-adults-aged-65.html",
+     "section": "Stay safe on hot days",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "All rows",
+     "evidence": "AC preferred; do not rely on fan alone; drink more water; loose light clothing.",
+     "added_by": "author"
+    },
+    {
+     "title": "Overview of Heat Illness",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/heat-illness/overview-of-heat-illness",
+     "section": "Prevention of Heat Illness",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Rows R1,R3,R4",
+     "evidence": "Hydration; light loose clothing; older adults should not stay in unventilated homes without AC.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B37-WAVE28",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "id": "ONRN-PA-0061",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "heatstroke",
+    "heat-illness",
+    "emergency",
+    "PA"
+   ],
+   "stem": "An outdoor worker is brought to triage after collapsing on a hot day. Which finding cluster best supports heatstroke rather than heat exhaustion?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Core temperature greater than 40 °C with altered mental status (confusion, delirium, or coma)"
+    },
+    {
+     "key": "B",
+     "text": "Mild fatigue with intact mental status and temperature clearly below 40 °C"
+    },
+    {
+     "key": "C",
+     "text": "Isolated muscle cramps after exercise with a normal neurologic examination"
+    },
+    {
+     "key": "D",
+     "text": "Afebrile seasonal rhinitis without heat exposure history"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: heatstroke is differentiated by CNS dysfunction and temperature > 40 °C; hallmark is CNS dysfunction with core temperature > 40 °C.",
+    "B": "Incorrect. Merck: heat exhaustion lacks the heatstroke defining pair of CNS dysfunction with temperature > 40 °C (heat exhaustion has intact CNS and usually lower temperature).",
+    "C": "Incorrect. Isolated cramps without CNS dysfunction/high core temperature are not heatstroke (Merck; CDC describes heat stroke as more severe progression).",
+    "D": "Incorrect. No heat-illness picture (Merck)."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "Heatstroke vs heat exhaustion — CNS dysfunction and core temperature > 40 °C",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "heatstroke-cns-dysfunction-temp-over-40",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-31844644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Heatstroke: CNS dysfunction + temp >40 °C. CDC Travelers Heat Illnesses: heat stroke with very high temperature and loss of consciousness is a medical emergency."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Heatstroke",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/heat-illness/heatstroke",
+     "section": "Symptoms and Signs; Diagnosis; Key Points",
+     "source_date": "Last updated: Dec 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A and distractors",
+     "evidence": "Defining: temp >40 °C and altered mental status; differs from exhaustion by CNS dysfunction.",
+     "added_by": "author"
+    },
+    {
+     "title": "Heat Illnesses | Travelers' Health",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://wwwnc.cdc.gov/travel/page/travel-to-hot-climates",
+     "section": "Heat stroke; Heat exhaustion",
+     "source_date": "Page last reviewed: June 25, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A (severe heat stroke: very high temperature and loss of consciousness)",
+     "evidence": "Heat stroke: temperature rises rapidly (≈106 °F/higher) with loss of consciousness; medical emergency.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B37-WAVE28",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "id": "ONRN-PA-0062",
+   "format": "bowtie",
+   "scoring_model": "zero_one",
+   "tags": [
+    "heatstroke",
+    "cooling",
+    "NGN",
+    "bowtie",
+    "emergency",
+    "PA"
+   ],
+   "stem": "A runner collapses after a long race on a humid day. Rectal temperature is 41.2 °C and the client is confused and combative. Complete the bowtie: most likely condition, 2 priority actions, and 2 parameters that support heatstroke.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Heat exhaustion with intact mentation"
+     },
+     {
+      "key": "K2",
+      "text": "Heatstroke with hyperthermia and CNS dysfunction"
+     },
+     {
+      "key": "K3",
+      "text": "Isolated heat cramps without systemic illness"
+     },
+     {
+      "key": "K4",
+      "text": "Mild dehydration without heat illness"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Begin rapid aggressive cooling (cold-water immersion when available, or evaporative cooling) and arrange urgent transport/hospital care"
+     },
+     {
+      "key": "A2",
+      "text": "Delay cooling until laboratory confirmation of a rare pathogen"
+     },
+     {
+      "key": "A3",
+      "text": "Provide only oral fluids and observe outdoors in full sun without cooling"
+     },
+     {
+      "key": "A4",
+      "text": "Support airway/circulation as needed and give intravenous fluid/electrolyte replacement while cooling"
+     },
+     {
+      "key": "A5",
+      "text": "Apply heavy insulating blankets to raise core temperature further"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "Core temperature greater than 40 °C"
+     },
+     {
+      "key": "P2",
+      "text": "Altered mental status (confusion or combativeness)"
+     },
+     {
+      "key": "P3",
+      "text": "Normal mentation with temperature clearly under 39 °C"
+     },
+     {
+      "key": "P4",
+      "text": "Isolated sneezing without heat exposure"
+     },
+     {
+      "key": "P5",
+      "text": "Comfortable rest in a cool room with no symptoms"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K2",
+    "actions": [
+     "A1",
+     "A4"
+    ],
+    "parameters": [
+     "P1",
+     "P2"
+    ]
+   },
+   "rationales": {
+    "K1": "Incorrect. Heat exhaustion has intact CNS and usually lower temperature (Merck).",
+    "K2": "Correct. Heatstroke: hyperthermia with systemic inflammatory response and CNS dysfunction; temp >40 °C (Merck).",
+    "K3": "Incorrect. Cramps alone are not heatstroke (Merck overview).",
+    "K4": "Incorrect. Mild dehydration without CNS/temp criteria is not heatstroke.",
+    "A1": "Correct. Merck: rapid aggressive cooling is essential; cold-water immersion preferred when available; evaporative cooling also effective; transport/hospital care.",
+    "A2": "Incorrect. Cooling must not wait for unrelated lab pathogen workups (Merck emphasizes rapid cooling).",
+    "A3": "Incorrect. Leaving the client in sun without cooling worsens heatstroke (Merck/CDC cool and hydrate principles).",
+    "A4": "Correct. Merck treatment includes IV fluid/electrolyte replacement and supportive care with cooling.",
+    "A5": "Incorrect. Goal is rapid cooling, not further heating (Merck).",
+    "P1": "Correct. Defining feature includes temperature >40 °C (Merck).",
+    "P2": "Correct. CNS dysfunction is the hallmark (Merck).",
+    "P3": "Incorrect. Intact mentation and lower temp fit exhaustion, not stroke (Merck).",
+    "P4": "Incorrect. Unrelated to heatstroke cues.",
+    "P5": "Incorrect. Not a heatstroke parameter."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN bowtie — heatstroke: rapid cooling + IV support; temp >40 °C and CNS change",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "ngn-bowtie-heatstroke-rapid-cooling-iv-fluids",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-31844644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Heatstroke: diagnose by CNS dysfunction + >40 °C; treat with aggressive cooling (immersion/evaporative), IV fluids, support. CDC heat pages: cool and seek care for severe symptoms."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Heatstroke",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/heat-illness/heatstroke",
+     "section": "Treatment; Cooling techniques; Key Points",
+     "source_date": "Last updated: Dec 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Condition, actions, parameters",
+     "evidence": "Rapid cooling; immersion preferred; IV fluids; CNS + temp >40 °C.",
+     "added_by": "author"
+    },
+    {
+     "title": "About Heat and Your Health",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/heat-health/about/index.html",
+     "section": "Stay Cool; Know the Symptoms; For Those at High Risk",
+     "source_date": "July 20, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Actions (cool/seek care context)",
+     "evidence": "Stay cool; know overheating symptoms; seek medical care.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B37-WAVE28",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-MOC-0050",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "TeamSTEPPS",
+    "huddle",
+    "leadership",
+    "communication",
+    "MOC"
+   ],
+   "stem": "During a busy shift, a client's condition changes and the current care plan is no longer working. Which TeamSTEPPS leadership action best fits this moment?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Convene a huddle to communicate adjustments to the plan, update situational awareness, and realign the team"
+    },
+    {
+     "key": "B",
+     "text": "Wait until the next scheduled annual performance appraisal to discuss the change"
+    },
+    {
+     "key": "C",
+     "text": "Avoid telling teammates so each person can invent a separate plan"
+    },
+    {
+     "key": "D",
+     "text": "Delete the prior brief from the record and never revisit goals"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. AHRQ TeamSTEPPS: a huddle monitors/modifies an existing plan when patient condition, team membership, or plan effectiveness changes; any team member can convene. PSNet: huddles share information and raise safety concerns.",
+    "B": "Incorrect. Huddles are timely ad-hoc/shift tools, not annual appraisals (AHRQ).",
+    "C": "Incorrect. TeamSTEPPS requires shared updated plans so the team knows the current care approach (AHRQ).",
+    "D": "Incorrect. Briefs/huddles/debriefs support ongoing plan communication; deleting plans without team update is unsafe (AHRQ)."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "TeamSTEPPS huddle — adjust plan and restore situational awareness when conditions change",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "teamstepps-huddle-modify-plan-situational-awareness",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-31844644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ TeamSTEPPS two-day: huddle = monitoring/modifying plan already in place; any member can convene. AHRQ PSNet: huddles improve situational awareness and safety communication."
+    }
+   ],
+   "sources": [
+    {
+     "title": "TeamSTEPPS Two-Day Training Content — Monitoring and Modifying the Plan (Huddle)",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/teamstepps-program/curriculum/team/teach/two-day.html",
+     "section": "Monitoring and Modifying the Plan (Huddle)",
+     "source_date": "Page last reviewed February 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A and distractors",
+     "evidence": "Huddle communicates adjustments when plan/patient/team changes.",
+     "added_by": "author"
+    },
+    {
+     "title": "Improving Patient Safety and Team Communication through Daily Huddles",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ) — PSNet",
+     "url": "https://psnet.ahrq.gov/primer/improving-patient-safety-and-team-communication-through-daily-huddles",
+     "section": "Background; Definition; Current Context",
+     "source_date": "January 29, 2020",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A",
+     "evidence": "Huddles enhance TeamSTEPPS situational awareness and safety communication.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B37-WAVE28",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "id": "ONRN-PSY-0030",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "PTSD",
+    "trauma",
+    "mental-health",
+    "PSY"
+   ],
+   "stem": "A client with post-traumatic stress disorder (PTSD) reports intrusive memories and hypervigilance. Which nursing priority best aligns with evidence-based initial support?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Help establish personal safety and a supportive environment, then facilitate access to trauma-focused psychotherapy and coordinated care"
+    },
+    {
+     "key": "B",
+     "text": "Argue that the traumatic event never happened until the client agrees"
+    },
+    {
+     "key": "C",
+     "text": "Encourage heavy daily alcohol use to suppress all memories"
+    },
+    {
+     "key": "D",
+     "text": "Isolate the client from all family and community contact permanently"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: treatment includes trauma-focused CBT; self-care begins with personal safety and healthy routines. OpenStax: nurses provide a safe supportive environment, education, self-care strategies, and referrals to psychotherapy/medication.",
+    "B": "Incorrect. Do not invalidate trauma; OpenStax/Merck emphasize supportive processing and evidence-based therapy, not denial.",
+    "C": "Incorrect. Merck: intoxicating substances such as alcohol should be used sparingly if at all after trauma.",
+    "D": "Incorrect. Merck: maintain schedule and social engagement when possible; OpenStax supports coordinated supportive care, not permanent isolation."
+   },
+   "specialty": "Mental Health",
+   "topic": "PTSD — safety/supportive environment and access to trauma-focused psychotherapy",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ptsd-safety-support-trauma-focused-therapy-access",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-31844644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck PTSD: trauma-focused CBT; Self-care includes personal safety, physical health, social engagement; limit intoxicants. OpenStax Nursing Interventions for PTSD: safe supportive environment, education, self-care, referrals."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Posttraumatic Stress Disorder (PTSD)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/anxiety-and-trauma-and-stressor-related-disorders/posttraumatic-stress-disorder-ptsd",
+     "section": "Treatment of PTSD; Self-care; Psychotherapy",
+     "source_date": "Last updated: Apr 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A and distractors C–D",
+     "evidence": "Trauma-focused CBT; safety; healthy routines; limit alcohol/sedatives.",
+     "added_by": "author"
+    },
+    {
+     "title": "17.4 Trauma-Induced and Stress-Related Disorders",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/17-4-trauma-induced-and-stress-related-disorders",
+     "section": "Nursing Interventions for PTSD; Treatment of PTSD",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A and distractors",
+     "evidence": "Safe supportive environment; education; self-care; psychotherapy referrals.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B37-WAVE28",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-BCC-0024",
+   "format": "drop_down_cloze",
+   "scoring_model": "zero_one",
+   "tags": [
+    "sleep-hygiene",
+    "insomnia",
+    "NGN",
+    "cloze",
+    "BCC"
+   ],
+   "stem": "A nurse teaches sleep hygiene to a client with mild insomnia. Complete the statements.",
+   "ngn": {
+    "template": "Clients should keep a {B1} and avoid compensating with frequent irregular daytime naps that fragment night sleep. Before bedtime, they should {B2}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "highly irregular sleep–wake schedule every day"
+      },
+      {
+       "key": "B1b",
+       "text": "consistent sleep–wake schedule, especially a regular wake time"
+      },
+      {
+       "key": "B1c",
+       "text": "24-hour continuous bed rest without rising"
+      },
+      {
+       "key": "B1d",
+       "text": "pattern of sleeping only after large caffeine loads"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "increase late-evening caffeine, alcohol, and bright screen use"
+      },
+      {
+       "key": "B2b",
+       "text": "limit caffeine/alcohol near bedtime and reduce stimulating electronics/bright blue light"
+      },
+      {
+       "key": "B2c",
+       "text": "start vigorous high-intensity exercise immediately before lights out every night"
+      },
+      {
+       "key": "B2d",
+       "text": "watch the clock continuously and remain in bed for hours while fully awake without stimulus control"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1b",
+    "B2": "B2b"
+   },
+   "rationales": {
+    "B1a": "Incorrect. Irregular schedules impair sleep (Merck; OpenStax).",
+    "B1b": "Correct. Merck: regular awakening time; avoid naps that fragment nocturnal sleep. OpenStax: maintain a consistent sleep schedule.",
+    "B1c": "Incorrect. Excessive time in bed is not recommended sleep hygiene (Merck approach/table).",
+    "B1d": "Incorrect. Caffeine near bedtime worsens sleep (Merck; OpenStax).",
+    "B2a": "Incorrect. Avoid caffeine/alcohol and stimulating screens near bedtime (Merck; OpenStax).",
+    "B2b": "Correct. Merck inadequate sleep hygiene lists caffeine/stimulants and late excitement; OpenStax advises limiting caffeine/alcohol before bed and avoiding electronics.",
+    "B2c": "Incorrect. Late vigorous exercise/excitement can impair sleep onset (Merck).",
+    "B2d": "Incorrect. Stimulus control and avoiding clock-watching are preferred (Merck sleep hygiene)."
+   },
+   "specialty": "Fundamentals",
+   "topic": "NGN cloze — sleep hygiene: consistent schedule; limit caffeine/alcohol and screens",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "ngn-cloze-sleep-hygiene-schedule-caffeine-screens",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-31844644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax 28.4: consistent schedule; limit caffeine/alcohol; avoid electronics. Merck Inadequate sleep hygiene / Approach treatment: regular wake time; avoid naps; avoid caffeine/stimulants and late excitement; good sleep hygiene."
+    }
+   ],
+   "sources": [
+    {
+     "title": "28.4 Nursing Care to Promote Sleep and Rest",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/28-4-nursing-care-to-promote-sleep-and-rest",
+     "section": "Maintain a Consistent Schedule; Avoid Electronics Prior to Sleep; Education to Encourage Good Sleep Hygiene",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Both blanks",
+     "evidence": "Consistent schedule; limit caffeine/alcohol; avoid electronics before sleep.",
+     "added_by": "author"
+    },
+    {
+     "title": "Insomnia and Excessive Daytime Sleepiness (EDS)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/sleep-and-wakefulness-disorders/insomnia-and-excessive-daytime-sleepiness-eds",
+     "section": "Inadequate sleep hygiene",
+     "source_date": "Last updated: Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Both blanks",
+     "evidence": "Avoid caffeine/stimulants; avoid late excitement; regular awakening; avoid naps.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B37-WAVE28",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-PPT-0042",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "influenza",
+    "antiviral",
+    "oseltamivir",
+    "PPT"
+   ],
+   "stem": "A high-risk older adult presents on day 1 of influenza-like illness. The provider plans antiviral therapy. Which teaching point is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Antivirals work best when started early—ideally within about 1 to 2 days after symptom onset"
+    },
+    {
+     "key": "B",
+     "text": "Antibiotics are first-line therapy for uncomplicated influenza virus infection"
+    },
+    {
+     "key": "C",
+     "text": "Antivirals only help if started after two full weeks of untreated fever"
+    },
+    {
+     "key": "D",
+     "text": "No influenza antiviral medicines exist for any patient group"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: antivirals work best when started early, ideally within two days of symptom onset. Merck: antivirals given within 1 to 2 days of onset decrease fever duration and severity.",
+    "B": "Incorrect. CDC: antibiotics do not treat viruses such as influenza. Merck: antibiotics only for complicating bacterial infection.",
+    "C": "Incorrect. Benefit is greatest with early start within 1–2 days (CDC; Merck).",
+    "D": "Incorrect. Neuraminidase inhibitors and other antivirals are available (Merck; CDC)."
+   },
+   "specialty": "Pharmacology",
+   "topic": "Influenza antivirals — start within 1–2 days of symptom onset",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "influenza-antiviral-start-within-1-2-days",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-31844644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Flu Treatment: ideally within two days. Merck Medications for influenza: within 1–2 days; recommended for high-risk/hospitalized/severe disease."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Treatment of Flu",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/flu/treatment/index.html",
+     "section": "At a glance; Antiviral drugs can help treat flu illness; What not to do",
+     "source_date": "Sept. 2, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A and distractors B–C",
+     "evidence": "Start early within two days; antibiotics do not treat flu.",
+     "added_by": "author"
+    },
+    {
+     "title": "Influenza",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/respiratory-viruses/influenza",
+     "section": "Medications for influenza; Treatment of Influenza",
+     "source_date": "Last updated: Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A and distractors",
+     "evidence": "Antivirals within 1–2 days; antibiotics only for bacterial complications.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B37-WAVE28",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-RRP-0043",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "pneumococcal",
+    "vaccine",
+    "pneumonia",
+    "prevention",
+    "gerontology",
+    "RRP"
+   ],
+   "stem": "A clinic nurse counsels an older adult about reducing risk of serious pneumococcal disease and community-acquired pneumonia. Which statement is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Pneumococcal vaccination helps protect against serious pneumococcal infection; influenza vaccination also helps prevent some pneumonias"
+    },
+    {
+     "key": "B",
+     "text": "No vaccines exist that reduce risk of any form of community-acquired pneumonia"
+    },
+    {
+     "key": "C",
+     "text": "Only infants ever benefit from pneumococcal vaccination; adults never do"
+    },
+    {
+     "key": "D",
+     "text": "Pneumococcal disease is never serious in older adults"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck CAP Prevention lists pneumococcal and influenza vaccines among vaccines that prevent some forms of CAP. CDC: pneumococcal vaccines protect against serious pneumococcal infections; older adults are at greatest risk of serious illness and death.",
+    "B": "Incorrect. Merck lists several vaccines that prevent some forms of CAP.",
+    "C": "Incorrect. CDC recommends pneumococcal vaccination for adults based on age/risk as well as children.",
+    "D": "Incorrect. CDC: older adults are at greatest risk of serious illness and death from pneumococcal disease."
+   },
+   "specialty": "Gerontology",
+   "topic": "Pneumococcal and influenza vaccines to reduce pneumonia/pneumococcal disease risk",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "pneumococcal-influenza-vaccines-cap-prevention-older-adults",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-31844644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck CAP Prevention: pneumococcal + influenza (and other) vaccines. CDC Pneumococcal Vaccination: vaccines protect against serious infection; older adults greatest risk; adult age/risk recommendations."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Community-Acquired Pneumonia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pulmonary-disorders/pneumonia/community-acquired-pneumonia",
+     "section": "Prevention of Community-Acquired Pneumonia",
+     "source_date": "Last updated: Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A and distractor B",
+     "evidence": "Pneumococcal and influenza vaccines among CAP prevention vaccines.",
+     "added_by": "author"
+    },
+    {
+     "title": "Pneumococcal Vaccination",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/pneumococcal/vaccines/index.html",
+     "section": "Key points; Why getting vaccinated is important; Who should get vaccinated",
+     "source_date": "Feb. 25, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A and distractors C–D",
+     "evidence": "Vaccines protect against serious pneumococcal infection; older adults highest risk.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B37-WAVE28",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "id": "ONRN-SIPC-0031",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "tags": [
+    "rabies",
+    "PEP",
+    "wound-care",
+    "community",
+    "SIPC",
+    "SATA"
+   ],
+   "stem": "A client presents after a possible bat exposure with a small puncture wound. Which immediate actions are appropriate? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Wash the wound thoroughly with soap and water right away"
+    },
+    {
+     "key": "B",
+     "text": "Seek urgent public health/medical assessment for rabies post-exposure prophylaxis (vaccine ± rabies immune globulin as indicated)"
+    },
+    {
+     "key": "C",
+     "text": "Ignore wildlife exposures because human rabies never requires prophylaxis"
+    },
+    {
+     "key": "D",
+     "text": "Report the animal type and circumstances to the healthcare/public health team assessing exposure risk"
+    },
+    {
+     "key": "E",
+     "text": "Delay all wound cleaning for several days to 'seal in' any virus"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: wash wounds immediately with soap and water (flush). Merck: cleanse immediately and thoroughly with soap and water.",
+    "B": "Correct. CDC: PEP includes wound washing, rabies immune globulin, and vaccine as indicated; seek care urgently. Merck: prompt PEP almost always prevents human rabies; bat contact is an absolute indication for PEP.",
+    "C": "Incorrect. CDC/Merck: exposures can require urgent PEP assessment; bat contact is high concern.",
+    "D": "Correct. CDC: tell clinicians the animal type and abnormal behaviour; assessment depends on animal/circumstances (Merck table).",
+    "E": "Incorrect. Immediate cleaning is required; delaying cleaning is opposite of CDC/Merck guidance."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Rabies exposure — immediate soap-and-water wound wash and urgent PEP assessment",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "rabies-immediate-soap-water-wash-urgent-pep",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-31844644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Rabies Prevention: wash 15 min soap/water; urgent PEP (wash, RIG, vaccine). Merck Postexposure: immediate soap/water cleansing; vaccine+RIG per animal; bat contact absolute PEP indication."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Rabies Prevention and Control",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/rabies/prevention/index.html",
+     "section": "Key points; When immediate care is needed",
+     "source_date": "July 1, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Keys A,B,D and distractors",
+     "evidence": "Immediate soap-and-water wash; PEP wash+RIG+vaccine; report animal details.",
+     "added_by": "author"
+    },
+    {
+     "title": "Rabies",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/brain-infections/rabies",
+     "section": "Postexposure rabies prophylaxis; Prevention of Rabies",
+     "source_date": "Last updated: Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Keys A,B,D",
+     "evidence": "Immediate soap/water cleansing; vaccine+RIG; bat contact absolute PEP indication.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B37-WAVE28",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-BCC-0025",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "heat",
+    "older-adult",
+    "hydration",
+    "gerontology",
+    "BCC"
+   ],
+   "stem": "An older adult with limited mobility asks how to stay safer during a heat wave at home. Which instruction is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Use air conditioning or visit a cooling centre; avoid relying on a fan alone when it is extremely hot, and drink fluids as advised"
+    },
+    {
+     "key": "B",
+     "text": "Cook large meals with the oven all afternoon to 'dry out' the apartment air"
+    },
+    {
+     "key": "C",
+     "text": "Stop all prescribed medicines without contacting the clinician because heat always cancels prescriptions"
+    },
+    {
+     "key": "D",
+     "text": "Wear heavy dark layered clothing outdoors at midday to trap heat intentionally"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC older-adult guidance: prioritize air-conditioned spaces/cooling shelters; do not rely on a fan alone when really hot; drink more water unless clinician limits fluids. Merck: older adults should not remain without air-conditioning in excessive heat; maintain hydration.",
+    "B": "Incorrect. CDC: avoid using the stove/oven because it heats the home.",
+    "C": "Incorrect. CDC: do not stop or change medicines until talking with a clinician.",
+    "D": "Incorrect. CDC/Merck: wear loose, lightweight, light-coloured clothing."
+   },
+   "specialty": "Gerontology",
+   "topic": "Older adult heat wave — AC/cooling centre, not fan-alone, hydrate as advised",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "older-adult-heatwave-ac-cooling-centre-hydrate",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-31844644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Heat Older Adults + About Heat: AC/cooling centres; not fan alone; hydrate; avoid oven; do not stop meds without clinician; loose light clothing. Merck Prevention: hydration; AC for older adults."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Heat and Older Adults (Aged 65+)",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/heat-health/risk-factors/heat-and-older-adults-aged-65.html",
+     "section": "Stay safe on hot days",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A and distractors B,D",
+     "evidence": "AC/cooling shelter; not fan alone; hydrate; avoid oven; loose clothing.",
+     "added_by": "author"
+    },
+    {
+     "title": "Overview of Heat Illness",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/heat-illness/overview-of-heat-illness",
+     "section": "Prevention of Heat Illness; Etiology",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "Hydration; light loose clothing; older adults need AC/ventilation in heat.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B37-WAVE28",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-HPM-0043",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "tags": [
+    "heat",
+    "prevention",
+    "community",
+    "HPM",
+    "SATA"
+   ],
+   "stem": "A public health nurse prepares heat-wave messaging for the community. Which prevention messages are appropriate? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Schedule outdoor activity for cooler parts of the day when possible and take shade breaks"
+    },
+    {
+     "key": "B",
+     "text": "Drink fluids regularly; limit excess alcohol and very sugary drinks during extreme heat"
+    },
+    {
+     "key": "C",
+     "text": "Check on older neighbours and people who live alone during heat waves"
+    },
+    {
+     "key": "D",
+     "text": "Leave infants and older adults in closed parked cars during midday heat to 'acclimatize'"
+    },
+    {
+     "key": "E",
+     "text": "Wear light, loose-fitting clothing outdoors in hot weather"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: do outdoor activities during coolest parts of day; stay in shade; take breaks. Merck: rest breaks in shade; modify environment.",
+    "B": "Correct. CDC: stay hydrated; limit sugary, caffeinated, and alcoholic drinks. Merck: maintain adequate hydration.",
+    "C": "Correct. CDC: check on family, friends, and neighbours, especially those who live alone or have chronic illness; older adults are high risk.",
+    "D": "Incorrect. Merck: older adults and children must not be left in automobiles in the hot sun. CDC identifies infants and older adults as high risk.",
+    "E": "Correct. CDC and Merck: wear light, loose-fitting clothing."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Community heat-wave prevention — cool hours, hydrate, check-ins, loose clothing; never leave people in hot cars",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "community-heatwave-cool-hours-hydrate-check-neighbors",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-31844644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC About Heat: cool hours/shade; hydrate; limit alcohol/sugar; check on neighbours; high-risk older adults/infants. Merck Prevention: hydration; light clothing; shade breaks; never leave older adults/children in hot cars."
+    }
+   ],
+   "sources": [
+    {
+     "title": "About Heat and Your Health",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/heat-health/about/index.html",
+     "section": "Stay Cool; Stay Hydrated; For Those at High Risk",
+     "source_date": "July 20, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Keys A–C,E and distractor D",
+     "evidence": "Cool hours/shade; hydrate; check neighbours; high-risk groups.",
+     "added_by": "author"
+    },
+    {
+     "title": "Overview of Heat Illness",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/heat-illness/overview-of-heat-illness",
+     "section": "Prevention of Heat Illness",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Keys A,B,E and distractor D",
+     "evidence": "Hydration; light clothing; shade breaks; no hot-car exposure for older adults/children.",
      "added_by": "author"
     }
    ],
