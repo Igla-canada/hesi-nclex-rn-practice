@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 665,
+  "Source verified": 679,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -76204,6 +76204,1670 @@
      "date": "2026-11-25",
      "result": "confirmed",
      "checks": "O.Reg 799/93 item 6 + CNO Code 6.7–6.8 cloze dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B63-WAVE54",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0079",
+   "format": "multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "Naltrexone for AUD — opioid antagonist reduces alcohol craving/reward; used with counseling",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "naltrexone-aud-craving",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "PSY",
+    "naltrexone",
+    "AUD",
+    "NGN-partner"
+   ],
+   "stem": "A client with alcohol use disorder is prescribed oral naltrexone with counseling. Which teaching is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Naltrexone is an opioid antagonist that can reduce alcohol craving and block some of the pleasurable effects of drinking; it is used along with counseling/support, not as a standalone cure"
+    },
+    {
+     "key": "B",
+     "text": "Naltrexone works like disulfiram and always causes severe flushing and vomiting after any alcohol"
+    },
+    {
+     "key": "C",
+     "text": "Naltrexone replaces alcohol craving with opioid dependence and should be stopped after one dose"
+    },
+    {
+     "key": "D",
+     "text": "Naltrexone prevents alcohol withdrawal seizures and is the only treatment needed without counseling"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. MedlinePlus: naltrexone decreases craving for alcohol and is used with counseling/social support. OpenStax PMH: naltrexone is an opioid antagonist that blocks the pleasurable parts of drinking; adherence and counseling matter.",
+    "B": "Incorrect. Disulfiram (not naltrexone) causes the aversive alcohol reaction.",
+    "C": "Incorrect. Naltrexone is not an opioid agonist and is not addictive replacement therapy.",
+    "D": "Incorrect. It does not treat withdrawal as monotherapy; counseling/support remain part of care."
+   },
+   "sources": [
+    {
+     "title": "Naltrexone",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/druginfo/meds/a685041.html",
+     "section": "Why is this medication prescribed?",
+     "source_date": "Last Revised - 09/15/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Used along with counseling and social support to help people who have stopped drinking alcohol reduce cravings and help control dependence; works by decreasing the craving for alcohol and blocking the effects of opioids."
+    },
+    {
+     "title": "19.2 Alcohol Use Disorder",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/19-2-alcohol-use-disorder",
+     "section": "Medications — Naltrexone",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Naltrexone is an opioid antagonist that blocks opioid receptors and the pleasurable parts of drinking; oral adherence is necessary to avoid relapse; extended-release injectable monthly option exists."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-332ffd3c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus naltrexone + OpenStax PMH 19.2 dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B63-WAVE54",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0080",
+   "format": "matrix_multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "NGN matrix — naltrexone AUD teaching indicated vs not",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "naltrexone-aud-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PSY",
+    "naltrexone",
+    "AUD"
+   ],
+   "stem": "For a client prescribed naltrexone for alcohol use disorder, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Explain that naltrexone can reduce alcohol craving and block some of the rewarding effects of drinking"
+     },
+     {
+      "key": "R2",
+      "text": "Reinforce that counseling/support remains part of treatment while taking naltrexone"
+     },
+     {
+      "key": "R3",
+      "text": "Warn not to use opioids while on naltrexone because effects are blocked and high doses can be dangerous"
+     },
+     {
+      "key": "R4",
+      "text": "Teach that naltrexone always causes a disulfiram-like vomiting reaction after one sip of beer"
+     },
+     {
+      "key": "R5",
+      "text": "Tell the client counseling is unnecessary once the first tablet is swallowed"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. MedlinePlus/OpenStax: reduces craving and blocks rewarding effects.",
+    "R2": "Indicated. Used with counseling/social support (MedlinePlus/OpenStax).",
+    "R3": "Indicated. MedlinePlus: do not take opioids; high doses while blocked can cause serious harm.",
+    "R4": "Not indicated. That describes disulfiram, not naltrexone.",
+    "R5": "Not indicated. Counseling/support remain part of treatment."
+   },
+   "sources": [
+    {
+     "title": "Naltrexone",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/druginfo/meds/a685041.html",
+     "section": "Why prescribed; precautions — opioids",
+     "source_date": "Last Revised - 09/15/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Decreases craving; used with counseling; blocks opioid effects; high-dose opioids while on naltrexone may cause serious injury/coma/death."
+    },
+    {
+     "title": "19.2 Alcohol Use Disorder",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/19-2-alcohol-use-disorder",
+     "section": "Medications — Naltrexone",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Blocks pleasurable parts of drinking; adherence important; medications paired with behavioral approaches."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-332ffd3c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus + OpenStax PMH naltrexone matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B63-WAVE54",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0081",
+   "format": "multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "Second-generation antipsychotics — monitor weight/BMI, fasting glucose, and lipids for metabolic syndrome",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "sga-metabolic-monitoring",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "PSY",
+    "antipsychotic",
+    "metabolic",
+    "NGN-partner"
+   ],
+   "stem": "A client starts a second-generation (atypical) antipsychotic. Which monitoring plan best addresses a common class risk?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Assess weight/BMI and, per orders, fasting glucose and lipids at intervals; teach diet/activity because metabolic syndrome risk (weight gain, insulin resistance, dyslipidemia) is increased"
+    },
+    {
+     "key": "B",
+     "text": "Ignore weight and labs because atypical agents never affect metabolism"
+    },
+    {
+     "key": "C",
+     "text": "Only monitor for agranulocytosis weekly and skip metabolic measures for all atypical agents"
+    },
+    {
+     "key": "D",
+     "text": "Restrict all fluid intake permanently to prevent metabolic syndrome"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: metabolic side effects include insulin resistance, hyperglycemia, dyslipidemia, weight gain; nursing interventions include assess weight/BMI, fasting glucose and lipids, educate on diet/exercise. Merck: metabolic syndrome risk is greater with second-generation antipsychotics.",
+    "B": "Incorrect. Metabolic effects are a recognized SGA risk.",
+    "C": "Incorrect. ANC monitoring is specific to clozapine; metabolic monitoring applies more broadly to SGAs.",
+    "D": "Incorrect. Fluid restriction is not the metabolic prevention strategy."
+   },
+   "sources": [
+    {
+     "title": "15.1 Schizophrenia",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/15-1-schizophrenia",
+     "section": "Second-Generation Antipsychotics; Table 15.4 Metabolic side effects",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Metabolic side effects (insulin resistance, hyperglycemia, dyslipidemia, weight gain); assess weight/BMI before and during therapy; assess fasting glucose and lipids with provider orders; educate on healthy diet and exercise."
+    },
+    {
+     "title": "Schizophrenia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/schizophrenia-and-related-disorders/schizophrenia",
+     "section": "Treatment — Antipsychotic medications; metabolic syndrome",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Risk of metabolic syndrome (excess abdominal fat, insulin resistance, dyslipidemia, and hypertension) is greater with second-generation antipsychotics than with first-generation antipsychotics; monitor for effectiveness and side effects."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-332ffd3c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax PMH 15.1 + Merck schizophrenia metabolic dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B63-WAVE54",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0082",
+   "format": "matrix_multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "NGN matrix — SGA metabolic monitoring actions indicated vs not",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "sga-metabolic-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PSY",
+    "antipsychotic",
+    "metabolic"
+   ],
+   "stem": "For a client starting a second-generation antipsychotic, indicate whether each nursing action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Obtain baseline and ongoing weight/BMI"
+     },
+     {
+      "key": "R2",
+      "text": "Monitor fasting glucose and lipids per provider orders and communicate abnormal results"
+     },
+     {
+      "key": "R3",
+      "text": "Teach healthy diet and physical activity to help mitigate metabolic risk"
+     },
+     {
+      "key": "R4",
+      "text": "Reassure that weight gain and hyperglycemia never occur with any atypical antipsychotic"
+     },
+     {
+      "key": "R5",
+      "text": "Skip all metabolic labs forever because EPS monitoring alone is sufficient"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. OpenStax: assess weight/BMI before and at regular intervals.",
+    "R2": "Indicated. OpenStax/Merck: metabolic lab monitoring and side-effect surveillance.",
+    "R3": "Indicated. OpenStax: educate on diet and exercise.",
+    "R4": "Not indicated. Metabolic effects are well documented.",
+    "R5": "Not indicated. Metabolic monitoring is required in addition to movement-disorder assessment."
+   },
+   "sources": [
+    {
+     "title": "15.1 Schizophrenia",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/15-1-schizophrenia",
+     "section": "Table 15.4 Metabolic side effects interventions",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Assess weight/BMI; assess fasting glucose and lipids; communicate findings; educate on diet and exercise."
+    },
+    {
+     "title": "Schizophrenia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/schizophrenia-and-related-disorders/schizophrenia",
+     "section": "Treatment — metabolic syndrome risk with SGAs",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Greater metabolic syndrome risk with SGAs; monitor all antipsychotic use for effectiveness and side effects."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-332ffd3c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + Merck SGA metabolic matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B63-WAVE54",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0080",
+   "format": "multiple_choice",
+   "specialty": "Pediatrics",
+   "topic": "Supervised tummy time while awake — supports development and helps prevent positional flat head; sleep on back",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "infant-supervised-tummy-time",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "BCC",
+    "tummy-time",
+    "infant",
+    "NGN-partner"
+   ],
+   "stem": "Parents of a healthy term newborn ask how to balance safe sleep with preventing a flat spot on the baby’s head. Which teaching is best?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Place the baby on the back to sleep, and provide supervised tummy time when the baby is awake (CPS suggests about 10–15 minutes at least 3 times/day)"
+    },
+    {
+     "key": "B",
+     "text": "Put the baby to sleep prone every night to flatten the tummy instead of the head"
+    },
+    {
+     "key": "C",
+     "text": "Never allow the baby on the tummy while awake because tummy time is unsafe at any age"
+    },
+    {
+     "key": "D",
+     "text": "Leave the baby alone on a soft pillow for unsupervised tummy sleep naps"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CPS Caring for Kids: back sleep for SIDS risk reduction; supervised tummy time when awake 10–15 minutes at least 3 times/day helps prevent flat head and supports development. CDC HIOPS: ensure infants have supervised tummy time every day when awake.",
+    "B": "Incorrect. Prone sleep increases SIDS risk.",
+    "C": "Incorrect. Supervised awake tummy time is recommended.",
+    "D": "Incorrect. Tummy time must be supervised; soft bedding/sleep on tummy is unsafe."
+   },
+   "sources": [
+    {
+     "title": "Preventing flat heads in babies who sleep on their backs",
+     "publisher": "Canadian Paediatric Society — Caring for Kids",
+     "url": "https://caringforkids.cps.ca/handouts/pregnancy-and-babies/preventing_flat_heads",
+     "section": "What else can I do to prevent my baby from getting a flat head?",
+     "source_date": "Last updated: March 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Babies should have supervised tummy time when awake for 10 to 15 minutes, at least 3 times a day; back sleep remains safest for SIDS risk reduction."
+    },
+    {
+     "title": "HIOPS for Physical Activity",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/early-care-education/php/obesity-prevention-standards/physical-activity.html",
+     "section": "Physical activity standards — supervised tummy time",
+     "source_date": "Apr. 3, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Ensure that infants have supervised tummy time every day when they are awake."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-332ffd3c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CPS Caring for Kids + CDC HIOPS tummy time dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B63-WAVE54",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0081",
+   "format": "matrix_multiple_choice",
+   "specialty": "Pediatrics",
+   "topic": "NGN matrix — infant tummy time / safe sleep teaching indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "infant-tummy-time-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "BCC",
+    "tummy-time",
+    "infant"
+   ],
+   "stem": "For caregivers of a young infant, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Provide supervised tummy time every day while the infant is awake"
+     },
+     {
+      "key": "R2",
+      "text": "Aim for about 10–15 minutes of tummy time at least 3 times daily when feasible"
+     },
+     {
+      "key": "R3",
+      "text": "Continue placing the infant on the back for sleep"
+     },
+     {
+      "key": "R4",
+      "text": "Use tummy time as a substitute for back-to-sleep at night without supervision"
+     },
+     {
+      "key": "R5",
+      "text": "Leave the infant alone on a raised soft surface for tummy naps"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. CDC/CPS: supervised awake tummy time daily.",
+    "R2": "Indicated. CPS timing guidance.",
+    "R3": "Indicated. Back sleep remains safest.",
+    "R4": "Not indicated. Prone sleep increases SIDS risk.",
+    "R5": "Not indicated. Supervision and safe surface required."
+   },
+   "sources": [
+    {
+     "title": "Preventing flat heads in babies who sleep on their backs",
+     "publisher": "Canadian Paediatric Society — Caring for Kids",
+     "url": "https://caringforkids.cps.ca/handouts/pregnancy-and-babies/preventing_flat_heads",
+     "section": "Supervised tummy time; back sleep",
+     "source_date": "Last updated: March 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Supervised tummy time 10–15 min ≥3×/day; back is safest sleep position."
+    },
+    {
+     "title": "HIOPS for Physical Activity",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/early-care-education/php/obesity-prevention-standards/physical-activity.html",
+     "section": "Supervised tummy time when awake",
+     "source_date": "Apr. 3, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Infants need supervised tummy time every day when awake."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-332ffd3c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CPS + CDC tummy time matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B63-WAVE54",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0080",
+   "format": "multiple_choice",
+   "specialty": "Maternity/Newborn",
+   "topic": "Neonatal hypoglycemia prevention — early feeding and skin-to-skin for at-risk newborns; monitor glucose",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "neonatal-hypoglycemia-early-feeding",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "RRP",
+    "hypoglycemia",
+    "newborn",
+    "NGN-partner"
+   ],
+   "stem": "An infant of a diabetic mother is at risk for neonatal hypoglycemia. Which nursing action best supports prevention in the first hours of life?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Encourage early breastfeeding initiation (within about 30–60 minutes), promote skin-to-skin to reduce cold stress, and follow facility protocol for glucose monitoring of at-risk newborns"
+    },
+    {
+     "key": "B",
+     "text": "Delay the first feed for 12 hours so the infant sleeps uninterrupted"
+    },
+    {
+     "key": "C",
+     "text": "Avoid all glucose checks because asymptomatic term newborns never become hypoglycemic"
+    },
+    {
+     "key": "D",
+     "text": "Place the infant under a cold draft to increase metabolic rate and raise glucose"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: encourage breastfeeding within 30–60 minutes, skin-to-skin to prevent cold stress, frequent feeds, and monitoring of at-risk newborns (IDM, SGA/LGA, etc.). Merck: at-risk neonates who are not sick should start early, frequent feedings; high-risk infants often treated preventively.",
+    "B": "Incorrect. Delayed feeding increases hypoglycemia risk.",
+    "C": "Incorrect. At-risk infants require protocolized screening even before symptoms.",
+    "D": "Incorrect. Cold stress depletes glucose stores."
+   },
+   "sources": [
+    {
+     "title": "24.2 Care of Common Problems in the Newborn",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/24-2-care-of-common-problems-in-the-newborn",
+     "section": "Care of the Newborn with Hypoglycemia",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Encourage breastfeeding initiation within the first 30 to 60 minutes; promote skin-to-skin to prevent cold stress; encourage frequent feeds; monitor at-risk newborns (IDM, SGA, LGA, FGR)."
+    },
+    {
+     "title": "Neonatal Hypoglycemia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/metabolic-electrolyte-and-toxic-disorders-in-neonates/neonatal-hypoglycemia",
+     "section": "Treatment — prevention/early feeding",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Most high-risk neonates are treated preventively; other at-risk neonates who are not sick should be started on early, frequent formula feedings to provide carbohydrates; risk factors include maternal diabetes."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-332ffd3c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Maternal-Newborn + Merck neonatal hypoglycemia dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B63-WAVE54",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0081",
+   "format": "matrix_multiple_choice",
+   "specialty": "Maternity/Newborn",
+   "topic": "NGN matrix — neonatal hypoglycemia prevention actions indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "neonatal-hypoglycemia-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "RRP",
+    "hypoglycemia",
+    "newborn"
+   ],
+   "stem": "For an at-risk newborn (e.g., infant of a diabetic mother), indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Support early breastfeeding initiation within about the first hour when possible"
+     },
+     {
+      "key": "R2",
+      "text": "Promote skin-to-skin contact to help prevent cold stress"
+     },
+     {
+      "key": "R3",
+      "text": "Follow protocol for blood glucose monitoring of at-risk infants"
+     },
+     {
+      "key": "R4",
+      "text": "Delay all feeds for 12 hours to ‘let the baby rest’"
+     },
+     {
+      "key": "R5",
+      "text": "Expose the infant to cold air to ‘stimulate metabolism’"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. OpenStax early feeding guidance.",
+    "R2": "Indicated. Skin-to-skin reduces cold stress/glucose depletion.",
+    "R3": "Indicated. At-risk infants require monitoring (OpenStax/Merck).",
+    "R4": "Not indicated. Delayed feeding increases risk.",
+    "R5": "Not indicated. Cold stress worsens hypoglycemia risk."
+   },
+   "sources": [
+    {
+     "title": "24.2 Care of Common Problems in the Newborn",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/24-2-care-of-common-problems-in-the-newborn",
+     "section": "Hypoglycemia prevention actions",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Early breastfeeding, skin-to-skin, frequent feeds, monitoring at-risk newborns."
+    },
+    {
+     "title": "Neonatal Hypoglycemia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/metabolic-electrolyte-and-toxic-disorders-in-neonates/neonatal-hypoglycemia",
+     "section": "Prevention/early feeding of at-risk neonates",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Preventive treatment and early frequent feedings for at-risk neonates."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-332ffd3c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + Merck neonatal hypoglycemia matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B63-WAVE54",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0082",
+   "format": "multiple_choice",
+   "specialty": "Pediatrics",
+   "topic": "DDH — Pavlik harness holds hips abducted/externally rotated; double diapering is ineffective",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ddh-pavlik-harness",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "RRP",
+    "DDH",
+    "Pavlik",
+    "NGN-partner"
+   ],
+   "stem": "An infant is fitted with a Pavlik harness for developmental dysplasia of the hip (DDH). Which caregiver teaching is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "The harness holds the hips abducted and externally rotated to keep the femoral head in the acetabulum; keep it on as directed by the care team—padded/double diapering alone is not effective treatment"
+    },
+    {
+     "key": "B",
+     "text": "Remove the harness permanently after one hour and rely only on triple diapering"
+    },
+    {
+     "key": "C",
+     "text": "The harness should force the hips into full adduction against the midline"
+    },
+    {
+     "key": "D",
+     "text": "Parents should freely cut and redesign all straps without clinician guidance"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: Pavlik harness holds affected hips abducted and externally rotated; padded diapers and double/triple diapering are not effective. AboutKidsHealth: soft straps keep legs bent up and apart; worn as directed (often nearly continuous early).",
+    "B": "Incorrect. Double/triple diapering is ineffective; harness wear follows care-team plan.",
+    "C": "Incorrect. Goal is abduction/external rotation, not forced adduction.",
+    "D": "Incorrect. Application/adjustment is by/with health professionals; straps are marked."
+   },
+   "sources": [
+    {
+     "title": "Developmental Dysplasia of the Hip (DDH)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/congenital-musculoskeletal-anomalies/developmental-dysplasia-of-the-hip-ddh",
+     "section": "Treatment of DDH — Pavlik harness",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Treatment is with devices, most commonly the Pavlik harness, which hold the affected hips abducted and externally rotated; padded diapers and double or triple diapering are not effective measures."
+    },
+    {
+     "title": "Pavlik harness",
+     "publisher": "AboutKidsHealth (SickKids)",
+     "url": "https://www.aboutkidshealth.ca/pavlik-harness",
+     "section": "What is the Pavlik harness?; Application",
+     "source_date": "Last updated: October 17th 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Soft straps keep baby’s legs in a hip-healthy position with legs bent up and apart; applied by orthotist; often worn 24 hours/day at beginning of treatment; straps marked; do not alter without guidance."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-332ffd3c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck DDH + AboutKidsHealth Pavlik dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B63-WAVE54",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0083",
+   "format": "matrix_multiple_choice",
+   "specialty": "Pediatrics",
+   "topic": "NGN matrix — Pavlik harness teaching indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ddh-pavlik-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "RRP",
+    "DDH",
+    "Pavlik"
+   ],
+   "stem": "For caregivers of an infant in a Pavlik harness for DDH, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Explain that the harness positions the hips abducted with legs flexed/apart to support hip seating"
+     },
+     {
+      "key": "R2",
+      "text": "Follow the care team’s wear schedule (often nearly continuous at the start)"
+     },
+     {
+      "key": "R3",
+      "text": "Contact the care team if kicking/leg movement markedly decreases (possible femoral nerve palsy cue)"
+     },
+     {
+      "key": "R4",
+      "text": "Stop the harness after one day and use only triple diapering as definitive treatment"
+     },
+     {
+      "key": "R5",
+      "text": "Cut unmarked straps shorter without clinician review whenever clothing feels tight"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Merck/AboutKidsHealth positioning purpose.",
+    "R2": "Indicated. Early treatment often continuous wear per team.",
+    "R3": "Indicated. AboutKidsHealth: reduced kicking may signal femoral nerve palsy—remove and contact team.",
+    "R4": "Not indicated. Double/triple diapering ineffective (Merck).",
+    "R5": "Not indicated. Adjustments by/with professionals; straps marked."
+   },
+   "sources": [
+    {
+     "title": "Developmental Dysplasia of the Hip (DDH)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/congenital-musculoskeletal-anomalies/developmental-dysplasia-of-the-hip-ddh",
+     "section": "Pavlik harness; ineffective diapering",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Pavlik holds hips abducted and externally rotated; double/triple diapering not effective."
+    },
+    {
+     "title": "Pavlik harness",
+     "publisher": "AboutKidsHealth (SickKids)",
+     "url": "https://www.aboutkidshealth.ca/pavlik-harness",
+     "section": "Application; femoral nerve palsy; tips",
+     "source_date": "Last updated: October 17th 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Wear as directed; watch for reduced kicking/femoral nerve palsy; straps marked; contact team for concerns."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-332ffd3c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck + AboutKidsHealth Pavlik matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B63-WAVE54",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0105",
+   "format": "multiple_choice",
+   "specialty": "Leadership/Management",
+   "topic": "Medication error/near miss — report via incident report for system learning, not blame",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "incident-report-near-miss",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "MOC",
+    "leadership",
+    "incident-report",
+    "NGN-partner"
+   ],
+   "stem": "A nurse intercepts a wrong-dose medication before administration (near miss). What is the priority leadership/safety action after ensuring the client remains safe?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Report the near miss/error according to agency policy (incident/event report) so the organization can analyze system factors and improve safety—not to assign personal blame"
+    },
+    {
+     "key": "B",
+     "text": "Hide the event because no harm occurred and reporting is never useful"
+    },
+    {
+     "key": "C",
+     "text": "Document only in a personal diary and never notify the supervisor or safety system"
+    },
+    {
+     "key": "D",
+     "text": "Publicly shame the pharmacist on social media instead of using the event reporting system"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax Fund 11.3: after ensuring safety and notifying the team, document via incident report; aim is not blame but identifying system issues and continuous improvement. AHRQ PSNet: incident reporting captures events/near misses from frontline staff to detect safety problems for further investigation.",
+    "B": "Incorrect. Near misses should be reported for learning.",
+    "C": "Incorrect. Use the formal reporting pathway and notify appropriate leaders.",
+    "D": "Incorrect. Unprofessional and not a safety system."
+   },
+   "sources": [
+    {
+     "title": "11.3 The Medication Administration Process",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/11-3-the-medication-administration-process",
+     "section": "Reporting Errors",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Ensure patient safety first; notify manager/charge nurse and provider; document via incident report detailing the error, response, and actions; aim is not to assign blame but to identify system-wide issues and foster continuous quality improvement."
+    },
+    {
+     "title": "Reporting Patient Safety Events",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ) — PSNet",
+     "url": "https://psnet.ahrq.gov/primer/reporting-patient-safety-events",
+     "section": "Background — incident reporting / near misses",
+     "source_date": "Last reviewed 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Voluntary event reporting systems rely on frontline personnel to report events; used for surveillance of near misses or unsafe conditions and to identify issues requiring further investigation."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-332ffd3c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Fund 11.3 + AHRQ PSNet incident reporting dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B63-WAVE54",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0106",
+   "format": "drop_down_cloze",
+   "specialty": "Leadership/Management",
+   "topic": "NGN cloze — near miss reporting for system improvement",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "incident-report-ngn-cloze",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "cloze",
+    "MOC",
+    "leadership",
+    "incident-report"
+   ],
+   "stem": "Complete the safety teaching about reporting medication near misses.",
+   "ngn": {
+    "template": "After ensuring the client is safe, the nurse should {B1} the near miss using the agency {B2}. The primary goal of reporting is {B3}, not {B4}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "report"
+      },
+      {
+       "key": "B1b",
+       "text": "conceal"
+      },
+      {
+       "key": "B1c",
+       "text": "ignore"
+      },
+      {
+       "key": "B1d",
+       "text": "mock"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "incident/event reporting system"
+      },
+      {
+       "key": "B2b",
+       "text": "personal social media account"
+      },
+      {
+       "key": "B2c",
+       "text": "unrelated gossip network"
+      },
+      {
+       "key": "B2d",
+       "text": "client’s public visitor log"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "identifying system issues and improving safety"
+      },
+      {
+       "key": "B3b",
+       "text": "publicly humiliating coworkers"
+      },
+      {
+       "key": "B3c",
+       "text": "increasing overtime for punishment"
+      },
+      {
+       "key": "B3d",
+       "text": "hiding problems from leadership"
+      }
+     ],
+     "B4": [
+      {
+       "key": "B4a",
+       "text": "assigning personal blame"
+      },
+      {
+       "key": "B4b",
+       "text": "learning from events"
+      },
+      {
+       "key": "B4c",
+       "text": "protecting future clients"
+      },
+      {
+       "key": "B4d",
+       "text": "quality improvement"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a",
+    "B4": "B4a"
+   },
+   "rationales": {
+    "B1a": "Correct. Report the near miss after ensuring safety (OpenStax/AHRQ).",
+    "B1b": "Incorrect. Concealing near misses blocks learning.",
+    "B1c": "Incorrect. Ignoring near misses leaves hazards unaddressed.",
+    "B1d": "Incorrect. Mocking is unprofessional and not a safety action.",
+    "B2a": "Correct. Use the agency incident/event reporting system.",
+    "B2b": "Incorrect. Social media is not an incident reporting system.",
+    "B2c": "Incorrect. Gossip is not a safety reporting pathway.",
+    "B2d": "Incorrect. Visitor logs are not for safety event reporting.",
+    "B3a": "Correct. Goal is identifying system issues and improving safety.",
+    "B3b": "Incorrect. Public humiliation is not the goal of reporting.",
+    "B3c": "Incorrect. Reporting is not a punitive overtime tool.",
+    "B3d": "Incorrect. Hiding problems from leadership undermines safety.",
+    "B4a": "Correct. Reporting is not primarily about assigning personal blame.",
+    "B4b": "Incorrect. Learning from events is a desired outcome, not what to avoid.",
+    "B4c": "Incorrect. Protecting clients is a desired outcome.",
+    "B4d": "Incorrect. Quality improvement is a desired outcome."
+   },
+   "sources": [
+    {
+     "title": "11.3 The Medication Administration Process",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/11-3-the-medication-administration-process",
+     "section": "Reporting Errors",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B1–B4",
+     "evidence": "Incident report after ensuring safety and notifying team; aim is not blame but system improvement."
+    },
+    {
+     "title": "Reporting Patient Safety Events",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ) — PSNet",
+     "url": "https://psnet.ahrq.gov/primer/reporting-patient-safety-events",
+     "section": "Incident reporting systems",
+     "source_date": "Last reviewed 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "B1–B4",
+     "evidence": "Frontline reporting of events/near misses to detect problems for investigation and improvement."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-332ffd3c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + AHRQ PSNet incident-report cloze dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B63-WAVE54",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Ontario Child, Youth and Family Services Act, 2017 (CYFSA) s.125 duty to report; CNO accountability guidance.",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0107",
+   "format": "multiple_choice",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Ontario CYFSA — duty to report child under 16 in need of protection directly to children’s aid society",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ontario-cyfsa-duty-to-report",
+   "jurisdiction": "Ontario-specific",
+   "tags": [
+    "MOC",
+    "Ontario",
+    "duty-to-report",
+    "child-protection",
+    "NGN-partner"
+   ],
+   "stem": "An Ontario nurse has reasonable grounds to suspect that a 10-year-old client may be in need of protection because of neglect. What is the nurse’s legal duty?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Promptly report the suspicion and the information on which it is based directly to a children’s aid society; the nurse must not rely on someone else to report on their behalf"
+    },
+    {
+     "key": "B",
+     "text": "Wait until absolute proof of abuse is obtained in court before telling anyone"
+    },
+    {
+     "key": "C",
+     "text": "Only tell a coworker and assume the coworker will call if they feel like it"
+    },
+    {
+     "key": "D",
+     "text": "Post the child’s identifying details on social media instead of contacting a society"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Ontario CYFSA guidance: anyone with reasonable grounds to suspect a child is/may be in need of protection must promptly report to a children’s aid society; must report directly and not rely on someone else (s.125). CNO: if abuse involves a child/youth, CYFSA requires health professionals to report suspected abuse.",
+    "B": "Incorrect. Reasonable grounds to suspect are enough; certainty is not required.",
+    "C": "Incorrect. Cannot rely on someone else to report.",
+    "D": "Incorrect. Report to a society; protect confidentiality except as required for the report."
+   },
+   "sources": [
+    {
+     "title": "Reporting Child Abuse and Neglect: It's Your Duty",
+     "publisher": "Government of Ontario — Ministry of Children, Community and Social Services",
+     "url": "https://files.ontario.ca/pdf-3/mccss-report-child-abuse-and-neglect-en-2022-03-31.pdf",
+     "section": "CYFSA s.125 duty to report; cannot rely on someone else",
+     "source_date": "August 2021 / Reprint",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Anyone with reasonable grounds to suspect a child is or may be in need of protection must promptly report to a society; duty applies under age 16; must report directly and not rely on anyone else; professionals including nurses have special responsibilities."
+    },
+    {
+     "title": "Accountability to report",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/standards-learning/practice-support/practice-support-faqs/accountability-to-report",
+     "section": "Child, Youth and Family Services Act, 2017",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "If the client abuse involves a child or youth, the Child, Youth and Family Services Act, 2017 requires all health care professionals to report the suspected abuse."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-332ffd3c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Ontario CYFSA duty brochure + CNO accountability dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B63-WAVE54",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Ontario Child, Youth and Family Services Act, 2017 (CYFSA) s.125 duty to report; CNO accountability guidance.",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0108",
+   "format": "drop_down_cloze",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "NGN cloze — Ontario CYFSA duty to report to children’s aid society",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ontario-cyfsa-duty-ngn-cloze",
+   "jurisdiction": "Ontario-specific",
+   "tags": [
+    "NGN",
+    "cloze",
+    "MOC",
+    "Ontario",
+    "duty-to-report"
+   ],
+   "stem": "Complete the Ontario duty-to-report teaching for suspected child maltreatment.",
+   "ngn": {
+    "template": "With reasonable grounds to suspect a child under 16 is in need of protection, the nurse must {B1} report to a {B2}. The nurse {B3} rely on a coworker to make the report instead.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "promptly"
+      },
+      {
+       "key": "B1b",
+       "text": "never"
+      },
+      {
+       "key": "B1c",
+       "text": "optionally after months"
+      },
+      {
+       "key": "B1d",
+       "text": "only after a criminal conviction"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "children’s aid society"
+      },
+      {
+       "key": "B2b",
+       "text": "social media influencer"
+      },
+      {
+       "key": "B2c",
+       "text": "random stranger in the lobby"
+      },
+      {
+       "key": "B2d",
+       "text": "unrelated retail store"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "must not"
+      },
+      {
+       "key": "B3b",
+       "text": "must always"
+      },
+      {
+       "key": "B3c",
+       "text": "should preferably"
+      },
+      {
+       "key": "B3d",
+       "text": "is required to"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a"
+   },
+   "rationales": {
+    "B1a": "Correct. CYFSA guidance requires prompt reporting.",
+    "B1b": "Incorrect. Never reporting violates the duty to report.",
+    "B1c": "Incorrect. Delaying for months is not prompt reporting.",
+    "B1d": "Incorrect. Certainty/conviction is not required before reporting.",
+    "B2a": "Correct. Report to a children’s aid society.",
+    "B2b": "Incorrect. Social media is not the mandated report pathway.",
+    "B2c": "Incorrect. Strangers are not children’s aid societies.",
+    "B2d": "Incorrect. Retail stores are not children’s aid societies.",
+    "B3a": "Correct. Must not rely on someone else to report (CYFSA guidance).",
+    "B3b": "Incorrect. Must not rely on a coworker to report instead.",
+    "B3c": "Incorrect. Preferring to delegate the report is not allowed.",
+    "B3d": "Incorrect. The nurse is not required to rely on a coworker."
+   },
+   "sources": [
+    {
+     "title": "Reporting Child Abuse and Neglect: It's Your Duty",
+     "publisher": "Government of Ontario — Ministry of Children, Community and Social Services",
+     "url": "https://files.ontario.ca/pdf-3/mccss-report-child-abuse-and-neglect-en-2022-03-31.pdf",
+     "section": "Duty to report; report directly",
+     "source_date": "August 2021 / Reprint",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "added_by": "author",
+     "supports": "B1–B3",
+     "evidence": "Promptly report suspicions to a society; must report directly; must not rely on anyone else."
+    },
+    {
+     "title": "Accountability to report",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/standards-learning/practice-support/practice-support-faqs/accountability-to-report",
+     "section": "CYFSA child/youth reporting",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "B1–B3",
+     "evidence": "Health care professionals must report suspected child/youth abuse under CYFSA."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-332ffd3c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Ontario CYFSA + CNO cloze dual-cite."
     }
    ],
    "exam_version_published": null,
