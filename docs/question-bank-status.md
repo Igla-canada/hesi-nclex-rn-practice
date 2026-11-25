@@ -37,7 +37,7 @@ Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after mer
 | RRP | Reduction of Risk Potential | 3 | 15 |
 | PA | Physiological Adaptation | 5 | 16 |
 
-\*Quota for one 150-item HESI-style form (see blueprint). Five forms need ~750 Source-verified → clinically reviewed items. **No form is publishable yet.**
+*Quota for one 150-item HESI-style form (see blueprint). Five forms need ~750 Source-verified → clinically reviewed items. **No form is publishable yet.**
 
 ---
 
