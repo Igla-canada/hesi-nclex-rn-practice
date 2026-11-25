@@ -1,0 +1,1696 @@
+{
+ "batch_id": "B68-WAVE59",
+ "author": "AI author (Composer, Cursor subagent bc-20c80346) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 59 final stretch to ≥750 Source verified — thinner CN PSY/BCC/PA/RRP with NGN matrix/cloze and underrepresented Maternity/Critical Care/Gero/Med-Surg. PSY: acamprosate AUD maintenance with counseling (Merck+MedlinePlus); postpartum psychosis emergency (Merck+OpenStax Maternal-Newborn). BCC: Braden lower score = higher risk (OpenStax Fundamentals+AHRQ); tracheostomy suction limit pass/intermittent/sterile (NCBI Open RN+Merck). RRP: AV fistula no BP/IV on access arm + thrill (MedlinePlus+OpenStax Skills). PA: SIADH fluid restriction (Merck+OpenStax Med-Surg); opioid overdose naloxone + call 911 (CDC+Health Canada). Strict dual independent publishers; zero single-source.",
+ "items": [
+  {
+   "batch": "B68-WAVE59",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PSY-0086",
+   "format": "multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "Acamprosate — maintain abstinence after stopping alcohol; use with counseling",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "acamprosate-aud-maintenance",
+   "tags": [
+    "PSY",
+    "acamprosate",
+    "AUD",
+    "NGN-partner",
+    "mental-health"
+   ],
+   "stem": "A client with alcohol use disorder who has stopped drinking is prescribed acamprosate with counseling. Which teaching point is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Acamprosate is used with counseling to help maintain abstinence after drinking has stopped"
+    },
+    {
+     "key": "B",
+     "text": "Acamprosate alone replaces the need for counseling or psychosocial support"
+    },
+    {
+     "key": "C",
+     "text": "Acamprosate is the first treatment for active alcohol withdrawal seizures"
+    },
+    {
+     "key": "D",
+     "text": "Crushing the delayed-release tablets improves absorption and is preferred"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. MedlinePlus: acamprosate is used with counseling/social support to help people who have stopped drinking avoid drinking again. Merck: medications (including acamprosate) should be used with counseling; acamprosate is a first-line option that may decrease relapse.",
+    "B": "Incorrect. Both sources emphasize counseling/psychosocial support with medication, not medication alone.",
+    "C": "Incorrect. Acamprosate is for maintenance of abstinence after stopping, not acute withdrawal seizure treatment.",
+    "D": "Incorrect. MedlinePlus: swallow tablets whole; do not split, chew, or crush."
+   },
+   "sources": [
+    {
+     "title": "Alcohol Use Disorder and Rehabilitation",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/alcohol-use-disorder/alcohol-use-disorder-and-rehabilitation",
+     "section": "Treatment of and Rehabilitation for Alcohol Use Disorder — Maintenance / Medications",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "First-line pharmacotherapy includes acamprosate; use with counseling rather than as sole treatment; may decrease relapse/drinking days."
+    },
+    {
+     "title": "Acamprosate: MedlinePlus Drug Information",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/druginfo/meds/a604028.html",
+     "section": "Why is this medication prescribed? / How should this medicine be used?",
+     "source_date": "Last Revised - 08/15/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Used along with counseling and social support to help people who have stopped drinking avoid drinking again; swallow whole."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-20c80346) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck AUD rehab + MedlinePlus acamprosate dual-cite for maintenance abstinence with counseling."
+    }
+   ]
+  },
+  {
+   "batch": "B68-WAVE59",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PSY-0087",
+   "format": "matrix_multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "NGN matrix — acamprosate teaching indicated vs not",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "acamprosate-aud-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PSY",
+    "acamprosate",
+    "AUD"
+   ],
+   "stem": "For a client starting acamprosate after achieving abstinence from alcohol, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Continue counseling/psychosocial support while taking acamprosate"
+     },
+     {
+      "key": "R2",
+      "text": "Swallow delayed-release tablets whole; do not crush or chew"
+     },
+     {
+      "key": "R3",
+      "text": "Stop the medication permanently if one drink occurs, without contacting the clinician"
+     },
+     {
+      "key": "R4",
+      "text": "Report new or worsening depression or suicidal thoughts promptly"
+     },
+     {
+      "key": "R5",
+      "text": "Tell the client acamprosate replaces all need for psychosocial support"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. MedlinePlus and Merck: use with counseling/psychosocial support.",
+    "R2": "Indicated. MedlinePlus: swallow whole; do not split, chew, or crush.",
+    "R3": "Not indicated. MedlinePlus: if you drink while taking acamprosate, continue the medication and call the doctor.",
+    "R4": "Indicated. MedlinePlus warns depression/suicidality risk and to call the doctor right away.",
+    "R5": "Not indicated. Medication is adjunctive to counseling, not a replacement."
+   },
+   "sources": [
+    {
+     "title": "Alcohol Use Disorder and Rehabilitation",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/alcohol-use-disorder/alcohol-use-disorder-and-rehabilitation",
+     "section": "Treatment of and Rehabilitation for Alcohol Use Disorder — Maintenance / Medications",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1,R5",
+     "evidence": "Medications should be used in combination with counseling rather than as the sole treatment; acamprosate is first-line."
+    },
+    {
+     "title": "Acamprosate: MedlinePlus Drug Information",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/druginfo/meds/a604028.html",
+     "section": "Why is this medication prescribed? / How should this medicine be used?",
+     "source_date": "Last Revised - 08/15/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Counseling/support; swallow whole; continue and call if drinking; report depression/suicidality."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-20c80346) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck + MedlinePlus acamprosate NGN matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B68-WAVE59",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PSY-0088",
+   "format": "multiple_choice",
+   "specialty": "Maternity/Newborn",
+   "topic": "Postpartum psychosis — psychiatric emergency; hallucinations/delusions require urgent evaluation/hospitalization",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Prioritize Hypotheses",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "postpartum-psychosis-emergency",
+   "tags": [
+    "PSY",
+    "postpartum-psychosis",
+    "maternity",
+    "NGN-partner",
+    "emergency"
+   ],
+   "stem": "On postpartum day 3, a client has new auditory hallucinations and delusional beliefs about harming the infant. Which nursing interpretation and action priority is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Treat as a psychiatric emergency: ensure safety and arrange urgent psychiatric evaluation/hospitalization as indicated"
+    },
+    {
+     "key": "B",
+     "text": "Reassure that this is expected baby blues that always resolves without evaluation within 48 hours"
+    },
+    {
+     "key": "C",
+     "text": "Advise waiting two weeks before any mental-health referral because EPDS screening is only done then"
+    },
+    {
+     "key": "D",
+     "text": "Discharge home with only a follow-up phone call in one month and no safety plan"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: postpartum psychosis is an emergency (homicide/infanticide/suicide risk) and may require inpatient care. Merck: hallucinations/delusions/psychotic behavior → evaluate for postpartum psychosis; treatment typically requires psychiatric hospitalization and antipsychotics.",
+    "B": "Incorrect. Baby blues are milder and self-limited; psychosis is rare and dangerous—not 'expected blues.'",
+    "C": "Incorrect. Psychotic symptoms require immediate evaluation, not a two-week delay.",
+    "D": "Incorrect. Unsafe; urgent evaluation and safety measures are required."
+   },
+   "sources": [
+    {
+     "title": "Postpartum Depression",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/postpartum-care-and-associated-disorders/postpartum-depression",
+     "section": "Diagnosis / Treatment of Postpartum Depression — postpartum psychosis",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Evaluate hallucinations/delusions/psychotic behavior for postpartum psychosis; treatment typically requires psychiatric hospitalization and antipsychotics."
+    },
+    {
+     "title": "21.5 Postpartum Mood Disorders and Psychiatric Disorders",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/21-5-postpartum-mood-disorders-and-psychiatric-disorders",
+     "section": "Postpartum Psychosis",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "PPP is an emergency because paranoid thoughts can lead to homicide, infanticide, or suicide; inpatient recovery may be needed."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-20c80346) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck PPD + OpenStax Maternal-Newborn postpartum psychosis dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B68-WAVE59",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PSY-0089",
+   "format": "matrix_multiple_choice",
+   "specialty": "Maternity/Newborn",
+   "topic": "NGN matrix — postpartum psychosis safety actions indicated vs not",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "postpartum-psychosis-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PSY",
+    "postpartum-psychosis",
+    "maternity"
+   ],
+   "stem": "A postpartum client develops hallucinations and delusional thoughts involving the infant. Indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Treat as a psychiatric emergency and notify the provider/arrange urgent psychiatric evaluation"
+     },
+     {
+      "key": "R2",
+      "text": "Prioritize safety of the client and infant while evaluation proceeds"
+     },
+     {
+      "key": "R3",
+      "text": "Label symptoms as normal baby blues and defer any mental-health assessment"
+     },
+     {
+      "key": "R4",
+      "text": "Anticipate possible psychiatric hospitalization and antipsychotic treatment as ordered"
+     },
+     {
+      "key": "R5",
+      "text": "Leave the infant alone with the symptomatic client without observation or support"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Merck: evaluate psychosis; OpenStax: PPP is an emergency.",
+    "R2": "Indicated. Risk of harm to self/infant makes safety the priority.",
+    "R3": "Not indicated. Psychosis is not baby blues.",
+    "R4": "Indicated. Merck: psychosis typically needs psychiatric hospitalization and antipsychotics.",
+    "R5": "Not indicated. Unsafe given infanticide/homicide risk described in sources."
+   },
+   "sources": [
+    {
+     "title": "Postpartum Depression",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/postpartum-care-and-associated-disorders/postpartum-depression",
+     "section": "Diagnosis / Treatment of Postpartum Depression — postpartum psychosis",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1,R3,R4",
+     "evidence": "Evaluate for postpartum psychosis; hospitalization and antipsychotics typically required; suicide/infanticide are severe risks."
+    },
+    {
+     "title": "21.5 Postpartum Mood Disorders and Psychiatric Disorders",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/21-5-postpartum-mood-disorders-and-psychiatric-disorders",
+     "section": "Postpartum Psychosis",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1,R2,R5",
+     "evidence": "PPP is an emergency (homicide/infanticide/suicide); inpatient care may aid safe recovery."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-20c80346) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck + OpenStax MN postpartum psychosis NGN matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B68-WAVE59",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-BCC-0086",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "Braden Scale — lower total score indicates higher pressure-injury risk",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "braden-scale-lower-higher-risk",
+   "tags": [
+    "BCC",
+    "Braden",
+    "pressure-injury",
+    "NGN-partner",
+    "fundamentals"
+   ],
+   "stem": "When interpreting a Braden Scale total score for pressure-injury risk, which statement is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "A lower total score indicates a higher risk of pressure injury"
+    },
+    {
+     "key": "B",
+     "text": "A lower total score always means the client has no risk"
+    },
+    {
+     "key": "C",
+     "text": "Only the friction/shear subscale is used; the total score is ignored"
+    },
+    {
+     "key": "D",
+     "text": "Higher total scores always mean Stage 4 injury is already present"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax Fundamentals: the lower the score, the greater the risk. AHRQ: a lower score indicates higher levels of risk; ≤18 generally indicates at-risk status.",
+    "B": "Incorrect. Lower scores mean higher risk, not no risk.",
+    "C": "Incorrect. Six subscales are totaled; clinical judgment also matters, but the total score is used.",
+    "D": "Incorrect. The Braden Scale estimates risk; it does not stage an existing injury."
+   },
+   "sources": [
+    {
+     "title": "24.3 Wound Classification",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/24-3-wound-classification",
+     "section": "Braden Scale",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "The lower the score, the greater is the risk for development of a pressure injury; score range 6–23."
+    },
+    {
+     "title": "Module 3: Best Practices in Pressure Injury Prevention",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/patient-safety/settings/hospital/resource/pressureinjury/workshop/guide3.html",
+     "section": "Slide 18 — Braden Scale scoring and interpretation",
+     "source_date": "Last reviewed October 2017",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "A lower score indicates higher levels of risk for pressure injury development; ≤18 generally at-risk."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-20c80346) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Fundamentals Braden + AHRQ Module 3 Braden dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B68-WAVE59",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-BCC-0087",
+   "format": "matrix_multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "NGN matrix — Braden risk interpretation and prevention actions",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "braden-scale-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "BCC",
+    "Braden",
+    "gerontology"
+   ],
+   "stem": "An older adult’s Braden Scale total is 14 (at risk). Indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Interpret the lower score as higher pressure-injury risk and implement a prevention-focused care plan"
+     },
+     {
+      "key": "R2",
+      "text": "Use clinical judgment with the scale (not the score alone) when planning prevention"
+     },
+     {
+      "key": "R3",
+      "text": "Assume a score of 14 means no prevention measures are needed"
+     },
+     {
+      "key": "R4",
+      "text": "Reassess risk regularly per facility schedule for at-risk clients"
+     },
+     {
+      "key": "R5",
+      "text": "Tell the team that a lower Braden score means lower risk than a higher score"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Lower score = higher risk; AHRQ/OpenStax support prevention planning for at-risk scores.",
+    "R2": "Indicated. AHRQ: scales are only part of risk assessment and are used with clinical judgment.",
+    "R3": "Not indicated. Score 14 is at risk and warrants prevention.",
+    "R4": "Indicated. OpenStax: reassess regularly for scores ≤18.",
+    "R5": "Not indicated. Lower score means higher risk."
+   },
+   "sources": [
+    {
+     "title": "24.3 Wound Classification",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/24-3-wound-classification",
+     "section": "Braden Scale",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1,R4,R5",
+     "evidence": "Lower score = greater risk; ≤18 reassess regularly."
+    },
+    {
+     "title": "Module 3: Best Practices in Pressure Injury Prevention",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/patient-safety/settings/hospital/resource/pressureinjury/workshop/guide3.html",
+     "section": "Slide 18 — Braden Scale scoring and interpretation",
+     "source_date": "Last reviewed October 2017",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "R1–R3,R5",
+     "evidence": "Lower score = higher risk; ≤18 at-risk; scales used with clinical judgment."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-20c80346) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Fundamentals + AHRQ Braden NGN matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B68-WAVE59",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-BCC-0088",
+   "format": "multiple_choice",
+   "specialty": "Critical Care/Emergency",
+   "topic": "Tracheostomy suctioning — limit pass duration; intermittent suction; sterile open technique",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "tracheostomy-suction-limit-pass",
+   "tags": [
+    "BCC",
+    "tracheostomy",
+    "suction",
+    "NGN-partner",
+    "critical-care"
+   ],
+   "stem": "When performing open tracheostomy suctioning for thick secretions the client cannot clear, which practice is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Limit each suction pass (do not exceed about 15 seconds), use intermittent suction, and maintain sterile technique for the catheter"
+    },
+    {
+     "key": "B",
+     "text": "Apply continuous suction for several uninterrupted minutes to clear all secretions at once"
+    },
+    {
+     "key": "C",
+     "text": "Never suction through a tracheostomy tube; only suction the mouth"
+    },
+    {
+     "key": "D",
+     "text": "Suction on a fixed schedule every 5 minutes even when the airway is clear"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Open RN/NCBI: do not suction more than 15 seconds per pass; sterile catheter/gloves for open suction; suction when indicated. Merck: suction can be inserted through a tracheostomy; apply intermittent bursts (2–5 seconds).",
+    "B": "Incorrect. Prolonged continuous suctioning increases hypoxemia/complication risk; limit pass duration and use intermittent suction.",
+    "C": "Incorrect. Merck and Open RN both describe suctioning through a tracheostomy tube.",
+    "D": "Incorrect. Open RN: suction when clinically indicated, not indiscriminately on a rigid timer when clear."
+   },
+   "sources": [
+    {
+     "title": "Chapter 22 Tracheostomy Care & Suctioning — Nursing Skills",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK593189/",
+     "section": "22.5 Checklist for Tracheostomy Suctioning",
+     "source_date": "updated 2020",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Do not suction for more than 15 seconds per pass; sterile technique for open suction; suction when clinically indicated."
+    },
+    {
+     "title": "Suctioning",
+     "publisher": "Merck Manual Consumer Version",
+     "url": "https://www.merckmanuals.com/home/lung-and-airway-disorders/diagnosis-of-and-procedures-for-lung-disorders/suctioning",
+     "section": "Suctioning — tracheostomy/endotracheal application",
+     "source_date": "Last updated: Nov 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Suction catheter can be inserted into tracheostomy/ET tube; apply intermittent bursts lasting 2 to 5 seconds to remove secretions when cough is inadequate."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-20c80346) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "NCBI Open RN trach suction + Merck suctioning dual-cite (limit duration/intermittent; trach route)."
+    }
+   ]
+  },
+  {
+   "batch": "B68-WAVE59",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-BCC-0089",
+   "format": "matrix_multiple_choice",
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN matrix — tracheostomy suctioning actions indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "tracheostomy-suction-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "BCC",
+    "tracheostomy",
+    "critical-care"
+   ],
+   "stem": "For open tracheostomy suctioning to clear secretions, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Limit each suction pass (≤ about 15 seconds) and allow recovery between passes"
+     },
+     {
+      "key": "R2",
+      "text": "Use sterile technique for the open suction catheter/dominant hand"
+     },
+     {
+      "key": "R3",
+      "text": "Apply continuous uninterrupted suction for several minutes without breaks"
+     },
+     {
+      "key": "R4",
+      "text": "Suction through the tracheostomy tube when secretions cannot be cleared by cough"
+     },
+     {
+      "key": "R5",
+      "text": "Suction only on a rigid every-5-minute schedule even with a clear airway"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Open RN: ≤15 seconds per pass; allow recovery. Merck: intermittent short bursts.",
+    "R2": "Indicated. Open RN open-suction checklist uses sterile gloves/catheter.",
+    "R3": "Not indicated. Prolonged continuous suction increases hazards.",
+    "R4": "Indicated. Merck/Open RN: suction via tracheostomy to remove secretions.",
+    "R5": "Not indicated. Suction when clinically indicated."
+   },
+   "sources": [
+    {
+     "title": "Chapter 22 Tracheostomy Care & Suctioning — Nursing Skills",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK593189/",
+     "section": "22.5 Checklist for Tracheostomy Suctioning",
+     "source_date": "updated 2020",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "≤15 sec/pass; sterile open suction; suction when indicated; recovery between passes."
+    },
+    {
+     "title": "Suctioning",
+     "publisher": "Merck Manual Consumer Version",
+     "url": "https://www.merckmanuals.com/home/lung-and-airway-disorders/diagnosis-of-and-procedures-for-lung-disorders/suctioning",
+     "section": "Suctioning — tracheostomy/endotracheal application",
+     "source_date": "Last updated: Nov 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1,R3,R4",
+     "evidence": "Intermittent 2–5 sec bursts; may suction via tracheostomy when cough inadequate."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-20c80346) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "NCBI Open RN + Merck tracheostomy suction NGN matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B68-WAVE59",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-RRP-0088",
+   "format": "multiple_choice",
+   "specialty": "Medical-Surgical",
+   "topic": "AV fistula — no BP/IV/blood draws on access arm; assess thrill/bruit",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "av-fistula-access-arm-protection",
+   "tags": [
+    "RRP",
+    "AV-fistula",
+    "hemodialysis",
+    "NGN-partner",
+    "med-surg"
+   ],
+   "stem": "A client has a mature arteriovenous (AV) fistula in the left forearm for hemodialysis. Which instruction is most important?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Do not use the access arm for blood pressure, IVs, or blood draws; check the thrill daily"
+    },
+    {
+     "key": "B",
+     "text": "Prefer the fistula arm for all blood pressures because the pulse is stronger"
+    },
+    {
+     "key": "C",
+     "text": "Sleep only on the access arm to protect the fistula"
+    },
+    {
+     "key": "D",
+     "text": "Ignore loss of the thrill because it is a normal finding overnight"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. MedlinePlus: do not let anyone take BP, start an IV, or draw blood from the access arm; check thrill daily. OpenStax Skills: no BP cuffs/tourniquets on that arm; no BP/IVFs/blood draws on the affected side; assess thrill/bruit and report if absent.",
+    "B": "Incorrect. BP on the access arm is contraindicated.",
+    "C": "Incorrect. MedlinePlus: do not sleep on the access arm.",
+    "D": "Incorrect. Loss/slowing of thrill requires prompt contact with the provider."
+   },
+   "sources": [
+    {
+     "title": "Taking care of your vascular access for hemodialysis",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000591.htm",
+     "section": "Day-to-day Care of Your Vascular Access",
+     "source_date": "Review Date 10/28/2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Do not let anyone take BP, start an IV, or draw blood from the access arm; check thrill daily; call if thrill slows/absent."
+    },
+    {
+     "title": "19.4 Nursing Management of Elimination",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/19-4-nursing-management-of-elimination",
+     "section": "Nursing Management of Hemodialysis — Assessment of the Access Site",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "No BP cuffs/tourniquets on access arm; no BP/IVFs/blood draws on affected side; assess thrill/bruit; contact nephrology/HD if absent."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-20c80346) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus AV access care + OpenStax Clinical Nursing Skills HD dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B68-WAVE59",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-RRP-0089",
+   "format": "matrix_multiple_choice",
+   "specialty": "Medical-Surgical",
+   "topic": "NGN matrix — AV fistula precautions indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "av-fistula-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "RRP",
+    "AV-fistula",
+    "hemodialysis"
+   ],
+   "stem": "For a client with an upper-arm AV fistula, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Avoid blood pressure measurement on the access arm"
+     },
+     {
+      "key": "R2",
+      "text": "Avoid IVs and venipuncture on the access arm"
+     },
+     {
+      "key": "R3",
+      "text": "Palpate for a thrill (and auscultate for a bruit) to confirm flow"
+     },
+     {
+      "key": "R4",
+      "text": "Place a tourniquet tightly over the fistula for routine lab draws"
+     },
+     {
+      "key": "R5",
+      "text": "Notify nephrology/dialysis promptly if thrill/bruit is absent"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. MedlinePlus/OpenStax: no BP on access arm.",
+    "R2": "Indicated. No IV/blood draws on access arm.",
+    "R3": "Indicated. Assess thrill/bruit for patency.",
+    "R4": "Not indicated. No tourniquets on the access arm.",
+    "R5": "Indicated. Absent thrill/bruit → contact nephrology/HD."
+   },
+   "sources": [
+    {
+     "title": "Taking care of your vascular access for hemodialysis",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000591.htm",
+     "section": "Day-to-day Care of Your Vascular Access",
+     "source_date": "Review Date 10/28/2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "No BP/IV/blood draws on access arm; check thrill; call if thrill absent."
+    },
+    {
+     "title": "19.4 Nursing Management of Elimination",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/19-4-nursing-management-of-elimination",
+     "section": "Nursing Management of Hemodialysis — Assessment of the Access Site",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "No BP/tourniquets/IVFs/blood draws on affected side; thrill/bruit assessment; notify if absent."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-20c80346) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus + OpenStax Skills AV fistula NGN matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B68-WAVE59",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-RRP-0090",
+   "format": "drop_down_cloze",
+   "specialty": "Medical-Surgical",
+   "topic": "NGN cloze — AV fistula: no BP/IV on access arm; check thrill",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "av-fistula-ngn-cloze",
+   "tags": [
+    "NGN",
+    "cloze",
+    "RRP",
+    "AV-fistula"
+   ],
+   "stem": "Complete the hemodialysis access teaching for a client with an AV fistula.",
+   "ngn": {
+    "template": "Do not use the access arm for {B1}. Check the {B2} daily and contact the provider if it is {B3}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "blood pressure, IVs, or blood draws"
+      },
+      {
+       "key": "B1b",
+       "text": "hand hygiene before dialysis only"
+      },
+      {
+       "key": "B1c",
+       "text": "all oral medications"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "thrill (flow vibration)"
+      },
+      {
+       "key": "B2b",
+       "text": "capillary refill only on the opposite foot"
+      },
+      {
+       "key": "B2c",
+       "text": "urine specific gravity"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "absent or markedly slowed"
+      },
+      {
+       "key": "B3b",
+       "text": "present and unchanged"
+      },
+      {
+       "key": "B3c",
+       "text": "stronger after sleeping on that arm"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a"
+   },
+   "rationales": {
+    "B1a": "Correct. No BP/IV/blood draws on the access arm (MedlinePlus/OpenStax).",
+    "B1b": "Incorrect. Hand hygiene is important but is not the access-arm restriction taught here.",
+    "B1c": "Incorrect. Oral medications are unrelated to protecting the fistula arm.",
+    "B2a": "Correct. Check thrill daily.",
+    "B2b": "Incorrect. Access assessment focuses on thrill/bruit of the fistula.",
+    "B2c": "Incorrect. Not an AV fistula assessment.",
+    "B3a": "Correct. Call if thrill slows or is absent.",
+    "B3b": "Incorrect. Present/unchanged thrill is reassuring, not a call trigger.",
+    "B3c": "Incorrect. Clients should not sleep on the access arm; stronger thrill is not the teaching point for calling."
+   },
+   "sources": [
+    {
+     "title": "Taking care of your vascular access for hemodialysis",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000591.htm",
+     "section": "Day-to-day Care of Your Vascular Access",
+     "source_date": "Review Date 10/28/2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "B1–B3",
+     "evidence": "No BP/IV/blood draws on access arm; check thrill daily; call if thrill slows/absent."
+    },
+    {
+     "title": "19.4 Nursing Management of Elimination",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/19-4-nursing-management-of-elimination",
+     "section": "Nursing Management of Hemodialysis — Assessment of the Access Site",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B1–B3",
+     "evidence": "No BP/IVFs/blood draws on affected side; thrill indicates flow; notify if thrill/bruit absent."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-20c80346) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus + OpenStax Skills AV fistula NGN cloze dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B68-WAVE59",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PA-0088",
+   "format": "multiple_choice",
+   "specialty": "Medical-Surgical",
+   "topic": "SIADH — fluid/water restriction as core treatment; monitor sodium/I&O",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "siadh-fluid-restriction",
+   "tags": [
+    "PA",
+    "SIADH",
+    "hyponatremia",
+    "NGN-partner",
+    "med-surg"
+   ],
+   "stem": "A euvolemic client with SIADH has hyponatremia. Which collaborative/nursing priority is most appropriate for mild symptoms?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Implement prescribed fluid/water restriction and monitor intake/output and serum sodium"
+    },
+    {
+     "key": "B",
+     "text": "Encourage free water intake of several litres daily to flush ADH"
+    },
+    {
+     "key": "C",
+     "text": "Stop all sodium monitoring because SIADH does not affect sodium"
+    },
+    {
+     "key": "D",
+     "text": "Immediately give hypotonic IV fluids to lower sodium further"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: treatment includes fluid/water restriction. OpenStax: oral fluid restriction for mild hyponatremia; nurse monitors I&O, weights, labs/sodium.",
+    "B": "Incorrect. Excess free water worsens hyponatremia in SIADH.",
+    "C": "Incorrect. Hyponatremia is the key result of SIADH and must be monitored.",
+    "D": "Incorrect. Hypotonic fluids can worsen hyponatremia; severe symptoms may need careful hypertonic saline, not hypotonic fluids."
+   },
+   "sources": [
+    {
+     "title": "Syndrome of Inappropriate ADH Secretion (SIADH)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/nephrology/electrolyte-disorders/syndrome-of-inappropriate-adh-secretion-siadh",
+     "section": "Treatment of SIADH",
+     "source_date": "Last updated: Jun 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Treatment includes fluid restriction; water restriction and treatment of cause may be adequate."
+    },
+    {
+     "title": "21.4 Pituitary Disorders",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-4-pituitary-disorders",
+     "section": "Syndrome of Inappropriate Antidiuretic Hormone Release — Medical Therapies and Related Care",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Mild hyponatremia: oral fluid restriction (<800 mL/day); monitor I&O and sodium; evaluate fluid-restriction compliance."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-20c80346) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck SIADH + OpenStax Med-Surg SIADH fluid restriction dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B68-WAVE59",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PA-0089",
+   "format": "matrix_multiple_choice",
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN matrix — SIADH nursing actions indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "siadh-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PA",
+    "SIADH",
+    "critical-care"
+   ],
+   "stem": "For a client with SIADH and hyponatremia, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Enforce the prescribed fluid/water restriction"
+     },
+     {
+      "key": "R2",
+      "text": "Monitor intake and output and trends in serum sodium"
+     },
+     {
+      "key": "R3",
+      "text": "Encourage unrestricted free-water intake to treat hyponatremia"
+     },
+     {
+      "key": "R4",
+      "text": "Initiate seizure precautions when sodium is severely low/symptomatic as ordered"
+     },
+     {
+      "key": "R5",
+      "text": "Rapidly push large volumes of hypotonic IV fluid to raise sodium"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Fluid/water restriction is core SIADH treatment (Merck/OpenStax).",
+    "R2": "Indicated. OpenStax emphasizes I&O and sodium monitoring.",
+    "R3": "Not indicated. Free water worsens SIADH hyponatremia.",
+    "R4": "Indicated. OpenStax: seizure risk from low sodium; initiate seizure precautions.",
+    "R5": "Not indicated. Hypotonic fluid worsens hyponatremia; severe cases may need careful hypertonic saline, not rapid hypotonic volume."
+   },
+   "sources": [
+    {
+     "title": "Syndrome of Inappropriate ADH Secretion (SIADH)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/nephrology/electrolyte-disorders/syndrome-of-inappropriate-adh-secretion-siadh",
+     "section": "Treatment of SIADH",
+     "source_date": "Last updated: Jun 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1,R3,R5",
+     "evidence": "Fluid/water restriction; hypertonic saline only for severe symptomatic hyponatremia with cautious correction."
+    },
+    {
+     "title": "21.4 Pituitary Disorders",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-4-pituitary-disorders",
+     "section": "Syndrome of Inappropriate Antidiuretic Hormone Release — Medical Therapies and Related Care",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Fluid restriction; I&O/sodium monitoring; seizure precautions; hypertonic saline for severe symptoms—not free water."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-20c80346) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck + OpenStax Med-Surg SIADH NGN matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B68-WAVE59",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Naloxone emergency response concordant (CDC + Health Canada); kits available without prescription in Canada.",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PA-0090",
+   "format": "multiple_choice",
+   "specialty": "Critical Care/Emergency",
+   "topic": "Opioid overdose — give naloxone and call emergency services; stay with the person",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "opioid-overdose-naloxone-911",
+   "tags": [
+    "PA",
+    "naloxone",
+    "opioid",
+    "NGN-partner",
+    "critical-care",
+    "Canada"
+   ],
+   "stem": "A bystander finds an adult with suspected opioid overdose and slowed/stopped breathing. Naloxone is available. Which action sequence is best?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Call emergency services (911), administer naloxone, and stay with the person until help arrives"
+    },
+    {
+     "key": "B",
+     "text": "Wait 30 minutes to see if breathing improves before giving naloxone or calling for help"
+    },
+    {
+     "key": "C",
+     "text": "Give naloxone and immediately leave so the person can sleep alone"
+    },
+    {
+     "key": "D",
+     "text": "Avoid naloxone because it is harmful if the overdose is not opioid-related"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Health Canada: call 911 and administer naloxone if available. CDC: give naloxone and stay until emergency help arrives (or at least four hours); call 911.",
+    "B": "Incorrect. Delay risks death; naloxone and emergency activation are urgent.",
+    "C": "Incorrect. CDC: stay with the person; effects can wear off and breathing may stop again (Health Canada).",
+    "D": "Incorrect. CDC: naloxone will not harm someone overdosing on non-opioids; use if overdose is suspected."
+   },
+   "sources": [
+    {
+     "title": "Lifesaving Naloxone",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/stop-overdose/caring/naloxone.html",
+     "section": "How does naloxone work and how do you use it? / Don't hesitate to call 911",
+     "source_date": "June 11, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Naloxone reverses opioid overdose; stay until emergency help arrives; call 911; won't harm if non-opioid overdose."
+    },
+    {
+     "title": "Naloxone",
+     "publisher": "Health Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/health-canada/services/opioids/naloxone.html",
+     "section": "How naloxone works / If you suspect an overdose",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Call 911; administer naloxone; effects temporary (30–120 min) so stay/help; repeat dosing may be needed."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-20c80346) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Stop Overdose naloxone + Health Canada naloxone dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B68-WAVE59",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PA-0091",
+   "format": "matrix_multiple_choice",
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN matrix — opioid overdose naloxone response indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "opioid-overdose-naloxone-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PA",
+    "naloxone",
+    "opioid",
+    "critical-care"
+   ],
+   "stem": "For suspected opioid overdose with respiratory depression, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Call emergency services (911 / local emergency line)"
+     },
+     {
+      "key": "R2",
+      "text": "Administer naloxone if available"
+     },
+     {
+      "key": "R3",
+      "text": "Stay with the person and monitor breathing after naloxone"
+     },
+     {
+      "key": "R4",
+      "text": "Leave immediately after one dose because a single dose always lasts longer than any opioid"
+     },
+     {
+      "key": "R5",
+      "text": "Give a repeat naloxone dose if there is no response in about 2–3 minutes, as directed"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. CDC and Health Canada: call 911.",
+    "R2": "Indicated. Administer naloxone for suspected opioid overdose.",
+    "R3": "Indicated. Stay and monitor; effects can wear off.",
+    "R4": "Not indicated. Health Canada: naloxone is temporary (30–120 min); opioids may outlast it.",
+    "R5": "Indicated. Health Canada: if no response in 2–3 minutes, subsequent doses can be given; CDC notes more than one dose may be required."
+   },
+   "sources": [
+    {
+     "title": "Lifesaving Naloxone",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/stop-overdose/caring/naloxone.html",
+     "section": "How does naloxone work and how do you use it? / Don't hesitate to call 911",
+     "source_date": "June 11, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Call 911; give naloxone; stay until help arrives; more than one dose may be required."
+    },
+    {
+     "title": "Naloxone",
+     "publisher": "Health Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/health-canada/services/opioids/naloxone.html",
+     "section": "How naloxone works / If you suspect an overdose",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Call 911; administer naloxone; temporary effect 30–120 min; repeat in 2–3 minutes if no response."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-20c80346) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC + Health Canada naloxone NGN matrix dual-cite."
+    }
+   ]
+  }
+ ],
+ "excluded_items": []
+}
