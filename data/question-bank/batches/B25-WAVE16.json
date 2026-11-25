@@ -1,0 +1,1294 @@
+{
+ "batch_id": "B25-WAVE16",
+ "author": "AI author (Composer, Cursor subagent bc-b2dabcfd) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 16 multi-exam depth expansion prioritizing underrepresented specialties (Gerontology, Leadership/Management, Community/Public Health, Pediatrics) and NGN formats (matrix + SATA), dual-cited originals only.",
+ "items": [
+  {
+   "batch": "B25-WAVE16",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b2dabcfd) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck start lowest effective dose + fewest meds; OpenStax least complicated regimen"
+    }
+   ],
+   "id": "ONRN-PPT-0027",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An 82-year-old client with several chronic conditions is starting a new oral medication. According to safe prescribing principles for older adults, which nursing action best reduces medication-related risk?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Encourage starting at the highest labelled adult dose to achieve a rapid effect."
+    },
+    {
+     "key": "B",
+     "text": "Advocate for starting at the lowest effective dose and using the fewest medications necessary."
+    },
+    {
+     "key": "C",
+     "text": "Advise crushing all extended-release tablets to improve absorption."
+    },
+    {
+     "key": "D",
+     "text": "Recommend adding two over-the-counter supplements without reviewing the current regimen."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Older adults are more susceptible to adverse effects; starting at the highest adult dose increases toxicity risk.",
+    "B": "Correct. Merck advises starting medications at the lowest effective dose and using the fewest medications necessary; OpenStax urges the least complicated regimen and review for drugs that can be discontinued.",
+    "C": "Incorrect. OpenStax notes some capsules and extended-release pills should remain intact.",
+    "D": "Incorrect. Adding supplements without reconciliation increases polypharmacy and interaction risk."
+   },
+   "specialty": "Gerontology",
+   "topic": "Older adults — start lowest effective dose; fewest medications",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "enemy_group": "older-adult-start-lowest-effective-dose-fewest-meds",
+   "tags": [
+    "gerontology",
+    "polypharmacy",
+    "PPT"
+   ],
+   "sources": [
+    {
+     "title": "Medication-Related Problems in Older Adults",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/geriatrics/pharmacologic-therapy-in-older-adults/medication-related-problems-in-older-adults",
+     "section": "Prevention — Before starting a new medication",
+     "source_date": "Last updated: Apr 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,D",
+     "evidence": "Start with the lowest effective dose; use the fewest medications necessary.",
+     "added_by": "author"
+    },
+    {
+     "title": "1.4 Special Considerations",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/1-4-special-considerations",
+     "section": "The Aging Client and Pharmacology",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationale C",
+     "evidence": "Encourage the least complicated drug regimen; some extended-release pills should remain intact.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B25-WAVE16",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b2dabcfd) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck stop/adjust fall-risk meds; OpenStax narcotics increase fall risk"
+    }
+   ],
+   "id": "ONRN-RRP-0020",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An ambulatory older adult who has fallen twice in the past year takes several medications, including an opioid analgesic. Which intervention should the nurse prioritize to reduce future fall risk related to medications?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Advise that fall-risk medications cannot be changed once prescribed."
+    },
+    {
+     "key": "B",
+     "text": "Collaborate for a medication review to stop or minimize fall-risk drugs when possible and use the lowest effective dose."
+    },
+    {
+     "key": "C",
+     "text": "Increase the opioid dose at bedtime so the client sleeps through the night and avoids toileting."
+    },
+    {
+     "key": "D",
+     "text": "Discourage medication review because falls are inevitable with aging."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Merck states medications that increase fall risk should be stopped when possible or adjusted to the lowest effective dose.",
+    "B": "Correct. Merck recommends reviewing medications for fall-risk impact and stopping or dose-adjusting when possible; OpenStax notes narcotics increase fall risk in older adults and require caution and teaching.",
+    "C": "Incorrect. Increasing an opioid can worsen sedation and fall risk.",
+    "D": "Incorrect. Fall risk can be reduced with multifactorial interventions including medication review."
+   },
+   "specialty": "Gerontology",
+   "topic": "Falls — medication review to reduce fall-risk drugs",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "enemy_group": "older-adult-falls-medication-review-stop-or-minimize",
+   "tags": [
+    "falls",
+    "gerontology",
+    "RRP"
+   ],
+   "sources": [
+    {
+     "title": "Falls in Older Adults",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/geriatrics/falls-in-older-adults/falls-in-older-adults",
+     "section": "Prevention of Falls and Injury Mitigation — Medical management",
+     "source_date": "Last updated: Aug 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Medications that increase fall risk should be stopped when possible, or dosage adjusted to the lowest effective dose.",
+     "added_by": "author"
+    },
+    {
+     "title": "9.1 Safety: Individual and Environmental",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/9-1-safety-individual-and-environmental",
+     "section": "Narcotic Use and Risk of Falls in Older Adults",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Narcotics can increase the risk of falls, particularly for older adults; educate patients about increased fall risk.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B25-WAVE16",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b2dabcfd) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck face speaker; OpenStax hearing aids + reduce noise"
+    }
+   ],
+   "id": "ONRN-BCC-0016",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "The nurse is teaching a family how to communicate with an older adult who has age-related hearing loss (presbycusis). Which actions should the nurse include? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Face the client so the speaker’s mouth is visible."
+    },
+    {
+     "key": "B",
+     "text": "Reduce competing background noise when possible."
+    },
+    {
+     "key": "C",
+     "text": "Encourage use of prescribed hearing aids or assistive listening devices."
+    },
+    {
+     "key": "D",
+     "text": "Speak only from another room so the client practices listening."
+    },
+    {
+     "key": "E",
+     "text": "Shout directly into one ear from behind the client."
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "rationales": {
+    "A": "Correct. Merck notes lip-/speech-reading helps discrimination and that professionals should position so the listener can see the speaker’s mouth.",
+    "B": "Correct. OpenStax identifies noise as a physical communication barrier and advises reducing extraneous noise; Merck describes modifying noisy listening environments.",
+    "C": "Correct. OpenStax recommends hearing aids or assistive listening devices for age-related hearing loss.",
+    "D": "Incorrect. Speaking from another room removes visual speech cues and worsens understanding.",
+    "E": "Incorrect. Shouting from behind prevents lip-reading and can distort speech."
+   },
+   "specialty": "Gerontology",
+   "topic": "Hearing impairment — face client, reduce noise, use assistive devices",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "review_flags": [],
+   "enemy_group": "presbycusis-communication-face-noise-hearing-aid-sata",
+   "tags": [
+    "NGN",
+    "SATA",
+    "hearing",
+    "gerontology",
+    "BCC"
+   ],
+   "sources": [
+    {
+     "title": "Hearing Loss",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/ear-nose-and-throat-disorders/hearing-loss/hearing-loss",
+     "section": "Assistive strategies and technologies",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Keys A,B; rationales D,E",
+     "evidence": "Listener must see the speaker’s mouth; modify or avoid noisy listening situations.",
+     "added_by": "author"
+    },
+    {
+     "title": "29.2 Impaired Sensory Function",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/29-2-impaired-sensory-function",
+     "section": "Alterations in Senses with Aging — Hearing",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key C",
+     "evidence": "Encourage use of hearing aids or assistive listening devices to improve communication.",
+     "added_by": "author"
+    },
+    {
+     "title": "2.5 Barriers to Communication",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/2-5-barriers-to-communication",
+     "section": "Physical Barriers — Stimuli/noise",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Nurses should strive to reduce extraneous noise for their patients.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B25-WAVE16",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b2dabcfd) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck environmental/situational hazards; OpenStax clear pathways and rug/lighting risks"
+    }
+   ],
+   "id": "ONRN-RRP-0021",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An older adult living alone reports nearly falling at home after tripping on a throw rug in a dim hallway. For each nursing recommendation, indicate whether it is indicated or not indicated to reduce environmental fall risk.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Clear walkways of clutter and secure or remove loose throw rugs."
+     },
+     {
+      "key": "R2",
+      "text": "Improve lighting in hallways and pathways used at night."
+     },
+     {
+      "key": "R3",
+      "text": "Encourage rushing to the bathroom in the dark to minimize time out of bed."
+     },
+     {
+      "key": "R4",
+      "text": "Keep frequently used paths free of furniture that blocks movement."
+     },
+     {
+      "key": "R5",
+      "text": "Add more loose scatter rugs for softer flooring in every room."
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. OpenStax advises clearing pathways and notes rugs increase fall risk; Merck identifies environmental hazards as extrinsic fall factors.",
+    "R2": "Indicated. Inadequate lighting, especially at night, is a situational/environmental fall risk addressed by improving lighting.",
+    "R3": "Not indicated. Merck lists rushing to the bathroom at night with inadequate lighting as a situational fall risk.",
+    "R4": "Indicated. Clearing furniture that obstructs pathways reduces environmental hazards.",
+    "R5": "Not indicated. Additional loose rugs increase trip hazards rather than reduce them."
+   },
+   "specialty": "Gerontology",
+   "topic": "NGN matrix — home environmental fall-hazard interventions",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "review_flags": [],
+   "enemy_group": "ngn-matrix-home-fall-hazards-clear-paths-lighting",
+   "tags": [
+    "NGN",
+    "matrix",
+    "falls",
+    "gerontology",
+    "RRP"
+   ],
+   "sources": [
+    {
+     "title": "Falls in Older Adults",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/geriatrics/falls-in-older-adults/falls-in-older-adults",
+     "section": "Etiology of Falls — Extrinsic and situational factors",
+     "source_date": "Last updated: Aug 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Keys R1–R5",
+     "evidence": "Environmental hazards and rushing to the bathroom at night with inadequate lighting increase fall risk.",
+     "added_by": "author"
+    },
+    {
+     "title": "9.1 Safety: Individual and Environmental",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/9-1-safety-individual-and-environmental",
+     "section": "Impaired Mobility",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Keys R1,R2,R4,R5",
+     "evidence": "Rugs, furniture, and dim lighting increase fall risk; clear pathways into and around the home.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B25-WAVE16",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CNO Working With Unregulated Care Providers practice guideline is the Ontario authority for RN–UCP assignment decisions; OpenStax ANA-NCSBN five rights provide concordant stability guidance.",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b2dabcfd) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Appendix A client factors + competence; OpenStax Right Circumstance stable expected outcomes"
+    }
+   ],
+   "id": "ONRN-MOC-0030",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An Ontario RN is deciding whether aspects of care may be performed by an unregulated care provider (UCP). Which client situation best supports assigning or having a UCP perform the activity?",
+   "options": [
+    {
+     "key": "A",
+     "text": "The client’s condition is unstable and expected to change unpredictably over the shift."
+    },
+    {
+     "key": "B",
+     "text": "The client has established, well-defined care needs, a well-controlled condition not expected to change, and the UCP’s competence for the activity has been verified."
+    },
+    {
+     "key": "C",
+     "text": "The RN has never verified the UCP’s competence but the procedure looks straightforward."
+    },
+    {
+     "key": "D",
+     "text": "The activity requires nursing evaluation of an evolving response to a new medication titration."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. CNO’s decision tree asks whether the client’s condition is well controlled/managed and not expected to change; OpenStax likewise requires stable condition with expected outcomes before delegating.",
+    "B": "Correct. CNO lists established well-defined needs and a well-controlled condition not expected to change among client factors, and requires knowing the UCP is competent for the client in the given circumstances; OpenStax right circumstance requires stability with expected outcomes.",
+    "C": "Incorrect. CNO states a nurse cannot assume UCP competence regardless of how straightforward a procedure appears.",
+    "D": "Incorrect. Evaluating response to treatment requires nursing judgment and is not appropriate UCP work in this context."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "Ontario UCP assignment — stable, well-defined needs and verified competence",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "Ontario-specific",
+   "review_flags": [
+    "legal-ontario"
+   ],
+   "enemy_group": "cno-ucp-stable-well-defined-needs-verified-competence",
+   "tags": [
+    "delegation",
+    "UCP",
+    "Ontario",
+    "MOC"
+   ],
+   "sources": [
+    {
+     "title": "Working With Unregulated Care Providers",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41014_workingucp.pdf",
+     "section": "Appendix A: Decision Tree — The Client Assessment; Expectations for nurses who work with UCPs",
+     "source_date": "Updated July 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key B; rationales A,C",
+     "evidence": "Client condition well controlled/managed and not expected to change; nurse must know UCP is competent for the client in the given circumstances.",
+     "added_by": "author"
+    },
+    {
+     "title": "15.4 Nursing Standards of Delegation",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/15-4-nursing-standards-of-delegation",
+     "section": "Right Circumstance",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationale A",
+     "evidence": "Patients must be in stable condition with expected outcomes before a nurse can delegate care responsibilities.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B25-WAVE16",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b2dabcfd) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax near miss reporting example; AHRQ culture of safety blame-free reporting of near misses"
+    }
+   ],
+   "id": "ONRN-MOC-0031",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "While preparing an intravenous antibiotic, a nurse notices the wrong vial was nearly selected and stops before administration. What is the most appropriate next action in a culture of safety?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Discard the near miss quietly without reporting because no harm occurred."
+    },
+    {
+     "key": "B",
+     "text": "Report the near miss through the organization’s safety reporting process so system improvements can be made."
+    },
+    {
+     "key": "C",
+     "text": "Administer a double dose of the correct antibiotic to compensate for the almost-error."
+    },
+    {
+     "key": "D",
+     "text": "Blame a coworker publicly at the nursing station without documenting the event."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Near misses are learning opportunities; failing to report prevents system improvement.",
+    "B": "Correct. OpenStax describes reporting near-miss incidents so practice and policy can improve; AHRQ defines a culture of safety as including a blame-free environment where individuals can report errors or near misses without fear of reprimand.",
+    "C": "Incorrect. Administering an unauthorized double dose is unsafe and unrelated to near-miss learning.",
+    "D": "Incorrect. A just/safety culture emphasizes nonpunitive reporting and system learning, not public blaming."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "Near miss — report to support culture of safety",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "review_flags": [],
+   "enemy_group": "near-miss-report-culture-of-safety",
+   "tags": [
+    "patient-safety",
+    "near-miss",
+    "leadership",
+    "MOC"
+   ],
+   "sources": [
+    {
+     "title": "9.1 Safety: Individual and Environmental",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/9-1-safety-individual-and-environmental",
+     "section": "Near Events or Misses; Near Miss with Medication",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationales A,D",
+     "evidence": "A near miss is identified before harm; reporting allows changes to practice and policy.",
+     "added_by": "author"
+    },
+    {
+     "title": "Culture of Safety",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ) — PSNet",
+     "url": "https://psnet.ahrq.gov/primer/culture-safety",
+     "section": "Background",
+     "source_date": "Last reviewed in 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B",
+     "evidence": "A blame-free environment where individuals are able to report errors or near misses without fear of reprimand or punishment.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B25-WAVE16",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Item tests secondary-prevention concept (early detection), not a specific start-age recommendation that differs across jurisdictions.",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b2dabcfd) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax secondary prevention early detection; CDC CRC screening finds polyps/cancer early"
+    }
+   ],
+   "id": "ONRN-HPM-0019",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A public health nurse helps organize a community program that offers fecal immunochemical testing (FIT) to asymptomatic adults to detect colorectal cancer early. Which level of prevention does this activity represent?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Primary prevention"
+    },
+    {
+     "key": "B",
+     "text": "Secondary prevention"
+    },
+    {
+     "key": "C",
+     "text": "Tertiary prevention"
+    },
+    {
+     "key": "D",
+     "text": "Quaternary prevention"
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Primary prevention aims to prevent disease occurrence (for example, immunization campaigns), not detect existing subclinical disease.",
+    "B": "Correct. OpenStax defines secondary prevention as early disease detection in healthy-appearing individuals with subclinical disease; CDC explains colorectal screening finds polyps/cancer early when treatment works best.",
+    "C": "Incorrect. Tertiary prevention targets clinical disease to reduce severity and sequelae after diagnosis.",
+    "D": "Incorrect. Quaternary prevention is not the OpenStax framework level described for population screening programs in this context."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Secondary prevention — asymptomatic colorectal screening",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "jurisdiction": "General (Canada/US concordant)",
+   "review_flags": [],
+   "enemy_group": "secondary-prevention-colorectal-screening-early-detection",
+   "tags": [
+    "community",
+    "prevention",
+    "HPM"
+   ],
+   "sources": [
+    {
+     "title": "15.2 Health Promotion and Disease Prevention Interventions",
+     "publisher": "OpenStax — Population Health for Nurses",
+     "url": "https://openstax.org/books/population-health/pages/15-2-health-promotion-and-disease-prevention-interventions",
+     "section": "Levels of Prevention",
+     "source_date": "May 15, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationales A,C",
+     "evidence": "Secondary prevention emphasizes early disease detection in healthy-appearing individuals with subclinical forms of disease.",
+     "added_by": "author"
+    },
+    {
+     "title": "Screening for Colorectal Cancer",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/colorectal-cancer/screening/",
+     "section": "Overview",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B",
+     "evidence": "Screening can find polyps before they turn into cancer and find colorectal cancer early, when treatment works best.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B25-WAVE16",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b2dabcfd) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax preparedness accumulate supplies; Ready.gov multi-day kit in designated place"
+    }
+   ],
+   "id": "ONRN-HPM-0020",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A community health nurse teaches a household preparedness class. Which teaching point best reflects recommended personal disaster preparedness?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Wait until a disaster is announced before gathering any water or food supplies."
+    },
+    {
+     "key": "B",
+     "text": "Assemble a household emergency kit in advance with multi-day water and non-perishable food, and know where the kit is kept."
+    },
+    {
+     "key": "C",
+     "text": "Rely solely on neighbours to provide all medications after an emergency begins."
+    },
+    {
+     "key": "D",
+     "text": "Store the only household kit in a locked attic that no family member can access quickly."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Preparedness includes accumulating supplies before a disaster occurs.",
+    "B": "Correct. OpenStax states preparedness plans include accumulating disaster supplies; Ready.gov recommends a multi-day water/food kit kept in a designated, ready-to-grab location.",
+    "C": "Incorrect. Ready.gov advises organizing prescription medications as part of the kit because pharmacies may be inaccessible.",
+    "D": "Incorrect. The kit should be ready and known to household members for quick use or evacuation."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Disaster preparedness — household emergency supply kit",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "review_flags": [],
+   "enemy_group": "disaster-preparedness-household-emergency-kit",
+   "tags": [
+    "community",
+    "disaster",
+    "HPM"
+   ],
+   "sources": [
+    {
+     "title": "32.4 The Disaster Management Cycle",
+     "publisher": "OpenStax — Population Health for Nurses",
+     "url": "https://openstax.org/books/population-health/pages/32-4-the-disaster-management-cycle",
+     "section": "Preparedness",
+     "source_date": "May 15, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationale A",
+     "evidence": "Disaster preparedness plan includes accumulating disaster supplies/equipment and knowing what to do.",
+     "added_by": "author"
+    },
+    {
+     "title": "Build A Kit",
+     "publisher": "U.S. Department of Homeland Security — Ready.gov",
+     "url": "https://www.ready.gov/kit",
+     "section": "Basic Disaster Supplies Kit; Kit Storage Locations",
+     "source_date": "Last Updated: 07/01/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B; rationales C,D",
+     "evidence": "Water one gallon/person/day for several days and non-perishable food; keep kit in a designated place ready if you must leave quickly.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B25-WAVE16",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b2dabcfd) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck avoid aspirin Reye; CPS Caring for Kids do not use ASA for fever with viral illness"
+    }
+   ],
+   "id": "ONRN-PA-0026",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A parent asks what fever medicine is safe for a 7-year-old with influenza-like illness. Which teaching is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Give aspirin (ASA) because it is the preferred antipyretic for influenza."
+    },
+    {
+     "key": "B",
+     "text": "Avoid aspirin (ASA); use acetaminophen or ibuprofen as directed because aspirin increases Reye syndrome risk with certain viral illnesses."
+    },
+    {
+     "key": "C",
+     "text": "Any salicylate-containing product is required to prevent Reye syndrome."
+    },
+    {
+     "key": "D",
+     "text": "Aspirin is safer than acetaminophen for chickenpox and influenza in school-age children."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Merck and CPS advise avoiding aspirin in children because of Reye syndrome risk with illnesses such as influenza and varicella.",
+    "B": "Correct. Merck states aspirin should be avoided in children because it increases Reye syndrome risk with influenza and varicella; CPS Caring for Kids likewise warns not to use ASA for fever when chickenpox, influenza, or certain other viral infections are present.",
+    "C": "Incorrect. Salicylates increase, rather than prevent, Reye syndrome risk in this setting.",
+    "D": "Incorrect. Aspirin is specifically discouraged for chickenpox and influenza in children."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Pediatric fever — avoid aspirin due to Reye syndrome risk",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "review_flags": [
+    "pediatric",
+    "high-alert-medication"
+   ],
+   "enemy_group": "pediatric-fever-avoid-aspirin-reye-syndrome",
+   "tags": [
+    "pediatrics",
+    "Reye",
+    "aspirin",
+    "PA"
+   ],
+   "sources": [
+    {
+     "title": "Fever in Infants and Children",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/symptoms-in-infants-and-children/fever-in-infants-and-children",
+     "section": "Treatment of Fever in Infants and Children",
+     "source_date": "Last updated: Sept 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Aspirin should be avoided in children because it increases the risk of Reye syndrome if influenza and varicella are present.",
+     "added_by": "author"
+    },
+    {
+     "title": "Fever and temperature taking",
+     "publisher": "Canadian Paediatric Society — Caring for Kids",
+     "url": "https://caringforkids.cps.ca/handouts/health-conditions-and-treatments/fever_and_temperature_taking",
+     "section": "What about medications?",
+     "source_date": "Last updated: June 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key B",
+     "evidence": "Do not use aspirin (ASA) to treat a child’s fever; ASA with chickenpox, influenza or certain viral infections increases Reye syndrome risk.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B25-WAVE16",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b2dabcfd) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CPS dexamethasone for mild-to-severe croup; Merck glucocorticoid/dexamethasone for mild croup"
+    }
+   ],
+   "id": "ONRN-PPT-0028",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A toddler presents to the emergency department with a barky cough and mild croup without stridor at rest. Which pharmacologic intervention is most consistent with evidence-based croup management?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Withhold all corticosteroids because mild croup never benefits from steroids."
+    },
+    {
+     "key": "B",
+     "text": "Administer a single dose of dexamethasone as directed, which is recommended across mild to severe croup presentations."
+    },
+    {
+     "key": "C",
+     "text": "Start broad-spectrum intravenous antibiotics as first-line therapy for typical viral croup."
+    },
+    {
+     "key": "D",
+     "text": "Give repeated high-dose aspirin for airway inflammation."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. CPS recommends considering corticosteroids for all children presenting with croup from mild to severe; Merck also uses a long-acting glucocorticoid such as dexamethasone for mild disease.",
+    "B": "Correct. CPS states dexamethasone (commonly 0.6 mg/kg orally once) is highly efficacious and steroids are the cornerstone across severity; Merck lists a single dose of long-acting glucocorticoid (e.g., dexamethasone) for mild croup.",
+    "C": "Incorrect. Typical croup is viral; antibiotics are not first-line for uncomplicated viral croup.",
+    "D": "Incorrect. Aspirin is not croup therapy and is unsafe in children with viral illness because of Reye syndrome risk."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Croup — single-dose dexamethasone across severities",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "review_flags": [
+    "pediatric"
+   ],
+   "enemy_group": "croup-single-dose-dexamethasone-mild-to-severe",
+   "tags": [
+    "pediatrics",
+    "croup",
+    "dexamethasone",
+    "PPT"
+   ],
+   "sources": [
+    {
+     "title": "Acute management of croup in the emergency department",
+     "publisher": "Canadian Paediatric Society",
+     "url": "https://cps.ca/en/documents/position/acute-management-of-croup",
+     "section": "Corticosteroids",
+     "source_date": "Updated: Mar 6, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key B; rationale A",
+     "evidence": "Corticosteroids should be considered for all children with croup from mild to severe; oral dexamethasone is highly efficacious.",
+     "added_by": "author"
+    },
+    {
+     "title": "Croup",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/respiratory-disorders-in-young-children/croup",
+     "section": "Treatment of Croup — Mild croup",
+     "source_date": "Last updated: Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B",
+     "evidence": "For mild disease, cool humidified air and often a single dose of a long-acting glucocorticoid (eg, dexamethasone).",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B25-WAVE16",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b2dabcfd) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck enzymes with all meals and snacks; OpenStax administer pancreatic enzymes for CF GI care"
+    }
+   ],
+   "id": "ONRN-PPT-0029",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A school-age client with cystic fibrosis and pancreatic insufficiency is preparing to eat lunch. Which medication teaching is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Skip pancreatic enzyme capsules on days when stools look normal."
+    },
+    {
+     "key": "B",
+     "text": "Take pancreatic enzyme replacement with meals and snacks as prescribed."
+    },
+    {
+     "key": "C",
+     "text": "Take pancreatic enzymes only at bedtime, never with food."
+    },
+    {
+     "key": "D",
+     "text": "Stop enzymes permanently once antibiotic therapy for a pulmonary exacerbation begins."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Enzyme replacement is ongoing therapy for pancreatic insufficiency, not based on a single stool observation.",
+    "B": "Correct. Merck states pancreatic enzyme replacement should be given with all meals and snacks in pancreatic insufficiency; OpenStax identifies administering pancreatic enzymes as a key gastrointestinal nursing intervention for CF.",
+    "C": "Incorrect. Enzymes are timed with food to aid digestion/absorption, not reserved for bedtime only.",
+    "D": "Incorrect. Antibiotics treat infection; they do not replace the need for enzyme therapy for pancreatic insufficiency."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Cystic fibrosis — pancreatic enzymes with meals and snacks",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "review_flags": [
+    "pediatric"
+   ],
+   "enemy_group": "cf-pancreatic-enzymes-with-meals-and-snacks",
+   "tags": [
+    "pediatrics",
+    "cystic-fibrosis",
+    "enzymes",
+    "PPT"
+   ],
+   "sources": [
+    {
+     "title": "Cystic Fibrosis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/cystic-fibrosis-cf/cystic-fibrosis",
+     "section": "Treatment of gastrointestinal manifestations",
+     "source_date": "Last updated: Mar 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Pancreatic enzyme replacement should be given with all meals and snacks to patients with pancreatic insufficiency.",
+     "added_by": "author"
+    },
+    {
+     "title": "11.9 Disorders of the Lower Respiratory System: Cystic Fibrosis",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/11-9-disorders-of-the-lower-respiratory-system-cystic-fibrosis",
+     "section": "Prioritizing Hypotheses, Generating Solutions, and Taking Action",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Gastrointestinal interventions may include administering pancreatic enzymes and salt tablets.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B25-WAVE16",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b2dabcfd) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax 5 Ps neurovascular checks; Merck neurovascular injury/compartment syndrome signs"
+    }
+   ],
+   "id": "ONRN-PA-0027",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An older adult is admitted after a fall with a suspected lower-extremity fracture. Which assessment finding set should the nurse prioritize when monitoring the injured limb?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Only wound drainage colour, ignoring pulses and sensation."
+    },
+    {
+     "key": "B",
+     "text": "Neurovascular checks including pain, pulse, pallor, paresthesia, and paralysis (the 5 Ps)."
+    },
+    {
+     "key": "C",
+     "text": "Skin turgor on the contralateral arm as the sole priority assessment."
+    },
+    {
+     "key": "D",
+     "text": "Capillary blood glucose every hour instead of limb perfusion checks."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Fracture nursing care requires neurovascular monitoring for perfusion and nerve function, not drainage colour alone.",
+    "B": "Correct. OpenStax directs frequent neurovascular examinations using the 5 Ps; Merck likewise emphasizes assessing for neurovascular injury and compartment syndrome signs (pain, pallor, paresthesias, coolness, pulselessness).",
+    "C": "Incorrect. Contralateral skin turgor does not assess distal perfusion of the injured extremity.",
+    "D": "Incorrect. Glucose monitoring does not replace neurovascular assessment of a fractured limb."
+   },
+   "specialty": "Gerontology",
+   "topic": "Fracture care — neurovascular 5 Ps assessment",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "review_flags": [
+    "emergency"
+   ],
+   "enemy_group": "fracture-distal-neurovascular-5ps-assessment",
+   "tags": [
+    "gerontology",
+    "fracture",
+    "neurovascular",
+    "PA"
+   ],
+   "sources": [
+    {
+     "title": "13.3 Bone Fractures",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/13-3-bone-fractures",
+     "section": "Nursing Care of the Patient with Bone Fractures",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Perform frequent neurovascular examinations for the 5 P’s: pain, pulse, pallor, paresthesia, and paralysis.",
+     "added_by": "author"
+    },
+    {
+     "title": "Overview of Fractures",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/fractures/overview-of-fractures",
+     "section": "Physical examination",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B",
+     "evidence": "Assess for neurovascular injury and compartment syndrome (pain out of proportion, pallor, paresthesias, coolness, pulselessness).",
+     "added_by": "author"
+    }
+   ]
+  }
+ ],
+ "excluded_items": [
+  {
+   "draft_topic": "START triage colour tags (red/yellow/green/black)",
+   "reason": "OpenStax Population Health describes START colours, but an independent second-publisher page (CHEMM/ASPR) returned 404 this session; excluded rather than single-source."
+  },
+  {
+   "draft_topic": "Average-risk colorectal screening start age 45 vs 50",
+   "reason": "CDC recommends begin at 45; Canadian PHAC page emphasizes age >50 as a risk factor without a clear dual-confirmed start-age match this session — tested secondary-prevention concept instead without keying start age."
+  },
+  {
+   "draft_topic": "Disaster management cycle ordered response (mitigation→preparedness→response→recovery)",
+   "reason": "OpenStax lists the four phases clearly, but a second independent publisher confirming the identical ordered sequence was not successfully fetched this session (Ready.gov kit fetched instead for preparedness supplies)."
+  }
+ ],
+ "notes": "Accuracy over volume; 12 Source-verified items. Keep Prisma.InputJsonValue casts with static import type { Prisma } in import-question-bank.ts. Approved/clinically reviewed remain 0."
+}
