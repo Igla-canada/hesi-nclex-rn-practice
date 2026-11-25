@@ -1,9 +1,9 @@
 {
  "generated": "2026-11-25",
- "total_items": 301,
+ "total_items": 313,
  "by_status": {
   "Draft": 0,
-  "Source verified": 301,
+  "Source verified": 313,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -13,7 +13,7 @@
  "by_client_needs_x_status": {
   "MOC": {
    "Draft": 0,
-   "Source verified": 47,
+   "Source verified": 49,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -22,7 +22,7 @@
   },
   "SIPC": {
    "Draft": 0,
-   "Source verified": 28,
+   "Source verified": 30,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -31,7 +31,7 @@
   },
   "HPM": {
    "Draft": 0,
-   "Source verified": 38,
+   "Source verified": 40,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -49,7 +49,7 @@
   },
   "BCC": {
    "Draft": 0,
-   "Source verified": 22,
+   "Source verified": 23,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -67,7 +67,7 @@
   },
   "RRP": {
    "Draft": 0,
-   "Source verified": 40,
+   "Source verified": 42,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -76,7 +76,7 @@
   },
   "PA": {
    "Draft": 0,
-   "Source verified": 56,
+   "Source verified": 59,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -100,29 +100,29 @@
  },
  "all_active": {
   "by_format": {
-   "multiple_choice": 233,
-   "select_all_that_apply": 33,
-   "matrix_multiple_choice": 14,
-   "drop_down_cloze": 9,
-   "bowtie": 9,
+   "multiple_choice": 240,
+   "select_all_that_apply": 35,
+   "matrix_multiple_choice": 15,
+   "drop_down_cloze": 10,
+   "bowtie": 10,
    "ordered_response": 2,
    "calculation": 1
   },
   "by_jurisdiction": {
-   "General (Canada/US concordant)": 261,
+   "General (Canada/US concordant)": 273,
    "Ontario-specific": 31,
    "Canada-specific": 9
   }
  },
- "excluded_draft_topics": 96,
+ "excluded_draft_topics": 102,
  "archived_items": 0,
  "source_citations_by_publisher": {
-  "Merck Manual Professional Edition": 208,
-  "OpenStax — Medical-Surgical Nursing": 69,
-  "OpenStax — Fundamentals of Nursing": 64,
-  "U.S. Centers for Disease Control and Prevention (CDC)": 38,
+  "Merck Manual Professional Edition": 219,
+  "OpenStax — Medical-Surgical Nursing": 72,
+  "OpenStax — Fundamentals of Nursing": 65,
+  "U.S. Centers for Disease Control and Prevention (CDC)": 42,
   "College of Nurses of Ontario": 33,
-  "OpenStax — Pharmacology for Nurses": 31,
+  "OpenStax — Pharmacology for Nurses": 32,
   "OpenStax — Maternal-Newborn Nursing": 30,
   "OpenStax — Psychiatric-Mental Health Nursing": 26,
   "OpenStax — Clinical Nursing Skills": 18,
@@ -130,9 +130,9 @@
   "OpenStax — Population Health for Nurses": 9,
   "Government of Ontario — e-Laws": 7,
   "U.S. National Library of Medicine — DailyMed": 7,
+  "Agency for Healthcare Research and Quality (AHRQ)": 7,
   "Agency for Healthcare Research and Quality (AHRQ) — PSNet": 7,
   "Canadian Paediatric Society": 6,
-  "Agency for Healthcare Research and Quality (AHRQ)": 5,
   "World Health Organization": 5,
   "StatPearls / NCBI Bookshelf": 5,
   "NCBI Bookshelf (Open RN / WisTech Open)": 4,
@@ -143,6 +143,7 @@
   "NCSBN / American Nurses Association": 2,
   "Centers for Disease Control and Prevention": 2,
   "Health Canada / Canada.ca": 2,
+  "American Heart Association / American Academy of Pediatrics": 2,
   "U.S. Centers for Disease Control and Prevention (CDC/HICPAC)": 1,
   "Health Canada Drug Product Database — Sandoz Canada Inc. product monograph": 1,
   "Health Canada Drug Product Database — Taro Pharmaceuticals Inc. product monograph": 1,
