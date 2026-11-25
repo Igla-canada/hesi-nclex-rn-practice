@@ -1,0 +1,1306 @@
+{
+ "batch_id": "B26-WAVE17",
+ "author": "AI author (Composer, Cursor subagent bc-14a56f04) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 17 multi-exam depth expansion prioritizing underrepresented specialties (Gerontology, Pediatrics, Leadership/Management, Community/Public Health) and NGN formats (matrix + ordered response + SATA), dual-cited originals only.",
+ "items": [
+  {
+   "batch": "B26-WAVE17",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-14a56f04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck General measures + OpenStax Nursing Treatment of Delirium for orientation cues, sensory aids, family, avoid restraints"
+    }
+   ],
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "tags": [
+    "NGN",
+    "matrix",
+    "delirium",
+    "gerontology",
+    "RRP"
+   ],
+   "id": "ONRN-RRP-0022",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An 79-year-old hospitalized client develops acute fluctuating confusion consistent with delirium. For each nursing action, indicate whether it is indicated or not indicated as supportive care while the underlying cause is treated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Keep the room quiet and well lit, with a clock and calendar visible."
+     },
+     {
+      "key": "R2",
+      "text": "Encourage use of the client's eyeglasses and hearing aids if needed."
+     },
+     {
+      "key": "R3",
+      "text": "Apply physical restraints routinely at the first sign of restlessness."
+     },
+     {
+      "key": "R4",
+      "text": "Invite familiar family members to spend time at the bedside when appropriate."
+     },
+     {
+      "key": "R5",
+      "text": "Move the client frequently between unfamiliar rooms to provide stimulation."
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Merck advises a stable, quiet, well-lit environment with visual cues such as clocks and calendars; OpenStax lists a quiet well-lit room and clocks/calendars within view.",
+    "R2": "Indicated. Merck and OpenStax both support minimizing sensory deficits by ensuring eyeglasses and hearing aids are used.",
+    "R3": "Not indicated. OpenStax advises avoiding restraints; Merck states physical restraints should be minimized because they can worsen agitation and injury risk.",
+    "R4": "Indicated. Both sources support involving family for reorientation, familiarity, and safety.",
+    "R5": "Not indicated. Frequent unfamiliar room changes increase environmental stress; Merck emphasizes a stable environment and frequent reorientation in a consistent setting."
+   },
+   "specialty": "Gerontology",
+   "topic": "NGN matrix — delirium supportive nursing interventions",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "ngn-matrix-delirium-supportive-clocks-aids-avoid-restraints",
+   "sources": [
+    {
+     "title": "Delirium",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/delirium-and-dementia/delirium",
+     "section": "Treatment — General measures",
+     "source_date": "Last updated: Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Keys R1–R5",
+     "evidence": "Stable quiet well-lit environment; clocks/calendars; hearing aids/eyeglasses; minimize physical restraints; family reorientation.",
+     "added_by": "author"
+    },
+    {
+     "title": "14.2 Delirium",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/14-2-delirium",
+     "section": "Nursing Treatment of Delirium",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Keys R1–R5",
+     "evidence": "Quiet well-lit room; clocks and calendars; family; hearing aids and glasses; avoid restraints.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B26-WAVE17",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-14a56f04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Etiology precipitating factors + OpenStax Incidence and Causes"
+    }
+   ],
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "tags": [
+    "SATA",
+    "delirium",
+    "gerontology",
+    "PSY"
+   ],
+   "id": "ONRN-PSY-0018",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "An older adult is admitted with new fluctuating confusion. Which factors should the nurse recognize as common precipitants or contributors to delirium? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Urinary tract infection or other acute infection"
+    },
+    {
+     "key": "B",
+     "text": "Dehydration"
+    },
+    {
+     "key": "C",
+     "text": "Recently started anticholinergic or opioid medications"
+    },
+    {
+     "key": "D",
+     "text": "A lifelong gradual decline in memory over several years without acute change"
+    },
+    {
+     "key": "E",
+     "text": "Sleep deprivation during hospitalization"
+    },
+    {
+     "key": "F",
+     "text": "Stable, well-controlled hypothyroidism treated for decades with no recent change"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. Merck and OpenStax identify infection (including UTI) as a common precipitant of delirium in older adults.",
+    "B": "Correct. Dehydration is listed by both Merck and OpenStax among common causes/precipitants.",
+    "C": "Correct. Medications—especially anticholinergics and opioids—are leading causes of delirium in both sources.",
+    "D": "Incorrect. Lifelong gradual memory decline describes dementia's slower course, not an acute delirium precipitant; delirium has sudden onset.",
+    "E": "Correct. Sleep deprivation is a precipitating factor in Merck and a listed cause in OpenStax.",
+    "F": "Incorrect. Long-stable treated hypothyroidism without change is not identified as an acute precipitant; acute metabolic/endocrine crises can be, but this option describes a non-acute stable state."
+   },
+   "specialty": "Gerontology",
+   "topic": "Delirium — common precipitating factors in older adults",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "delirium-precipitants-infection-dehydration-meds-sleep",
+   "sources": [
+    {
+     "title": "Delirium",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/delirium-and-dementia/delirium",
+     "section": "Etiology of Delirium — precipitating factors",
+     "source_date": "Last updated: Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Keys A,B,C,E; distractors D,F",
+     "evidence": "Infection, dehydration, medications (anticholinergics/opioids), sleep deprivation precipitate delirium.",
+     "added_by": "author"
+    },
+    {
+     "title": "14.2 Delirium",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/14-2-delirium",
+     "section": "Incidence and Causes of Delirium",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Keys A,B,C,E",
+     "evidence": "Causes include dehydration, infection (UTI), sedatives/opioids/anticholinergics, and sleep deprivation.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B26-WAVE17",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-14a56f04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Nonpharmacologic interventions rise slowly + OpenStax Fundamentals older-adult dangling/early ambulation"
+    }
+   ],
+   "review_flags": [],
+   "tags": [
+    "gerontology",
+    "falls",
+    "orthostatic",
+    "RRP"
+   ],
+   "id": "ONRN-RRP-0023",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An older adult reports light-headedness and near-falls when standing up from bed. Orthostatic hypotension is suspected. Which teaching best reduces orthostatic symptom risk?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Rise slowly from a lying or sitting position and pause before walking."
+    },
+    {
+     "key": "B",
+     "text": "Stand up as quickly as possible to shorten the dizzy period."
+    },
+    {
+     "key": "C",
+     "text": "Limit daytime fluid intake to keep blood pressure from rising."
+    },
+    {
+     "key": "D",
+     "text": "Remain on strict bed rest for several days to rest the cardiovascular system."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck nonpharmacologic care advises patients to rise slowly from a recumbent or sitting position; OpenStax supports progressive mobilization such as dangling at the bedside before standing.",
+    "B": "Incorrect. Rapid standing worsens orthostatic drops; Merck links sudden upright posture to symptoms.",
+    "C": "Incorrect. Merck advises adequate fluids; fluid restriction can worsen orthostasis.",
+    "D": "Incorrect. Prolonged bed rest contributes to orthostatic intolerance; Merck encourages sitting up daily and activity when feasible."
+   },
+   "specialty": "Gerontology",
+   "topic": "Orthostatic hypotension — rise slowly; progressive mobilization",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "orthostatic-hypotension-rise-slowly-from-recumbent",
+   "sources": [
+    {
+     "title": "Orthostatic Hypotension",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/symptoms-of-cardiovascular-disorders/orthostatic-hypotension",
+     "section": "Treatment — Nonpharmacologic interventions",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; rationales B–D",
+     "evidence": "Patients should rise slowly from a recumbent or sitting position and consume adequate fluids; prolonged bed rest should be interrupted with sitting and exercise.",
+     "added_by": "author"
+    },
+    {
+     "title": "41.3 Health Risks for Older Adults",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/41-3-health-risks-for-older-adults",
+     "section": "Functional Ability — mobility progression",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Progressive mobilization includes dangling on the edge of the bed before sitting and ambulating.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B26-WAVE17",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-14a56f04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Diagnosis/Treatment airway priority + CPS croup differential red flags for epiglottitis presentation"
+    }
+   ],
+   "review_flags": [
+    "pediatric",
+    "emergency"
+   ],
+   "tags": [
+    "pediatrics",
+    "airway",
+    "epiglottitis",
+    "PA"
+   ],
+   "id": "ONRN-PA-0028",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A toddler arrives with sudden high fever, drooling, and inspiratory stridor and is suspected to have epiglottitis. Which nursing action is the priority until a secure airway is available?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Avoid upsetting interventions such as forcing an oral exam, and keep the child as calm as possible while preparing for urgent airway management."
+    },
+    {
+     "key": "B",
+     "text": "Immediately use a tongue blade to visualize the pharynx at the bedside."
+    },
+    {
+     "key": "C",
+     "text": "Force the child flat supine for a full physical examination before calling for help."
+    },
+    {
+     "key": "D",
+     "text": "Send the child alone to radiology for a neck film without airway-capable staff present."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck states airway assessment/management takes priority and that in children with stridor, upsetting interventions that could trigger obstruction should be avoided until an airway is established; visualization is not done until full respiratory support is available.",
+    "B": "Incorrect. Direct visualization is deferred until full respiratory support is available because agitation can precipitate obstruction.",
+    "C": "Incorrect. Children often maintain a forward sniffing/tripod posture; forcing supine and unnecessary stimulation can worsen airway compromise.",
+    "D": "Incorrect. Suspected epiglottitis requires hospitalization and airway-capable management; unattended transport for imaging is unsafe."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Epiglottitis — prioritize airway; avoid upsetting exam until support available",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Hard",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "epiglottitis-avoid-upsetting-interventions-until-airway",
+   "sources": [
+    {
+     "title": "Epiglottitis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/ear-nose-and-throat-disorders/oral-and-pharyngeal-disorders/epiglottitis",
+     "section": "Diagnosis; Treatment of Epiglottitis",
+     "source_date": "Last updated: Jun 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; rationales B–D",
+     "evidence": "Visualization not until full respiratory support available; airway management paramount; avoid upsetting interventions that could trigger obstruction until airway established.",
+     "added_by": "author"
+    },
+    {
+     "title": "Acute management of croup in the emergency department",
+     "publisher": "Canadian Paediatric Society",
+     "url": "https://cps.ca/en/documents/position/acute-management-of-croup",
+     "section": "Differential diagnosis — Epiglottitis",
+     "source_date": "Updated: Mar 6, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Stem recognition cues",
+     "evidence": "Epiglottitis: sudden high fever, dysphagia, drooling, toxic/anxious appearance, sitting forward in sniffing position; absence of barky cough.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B26-WAVE17",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-14a56f04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CPS Table 1 Epiglottitis characteristics + Merck Symptoms and Signs / differentiating table"
+    }
+   ],
+   "review_flags": [
+    "pediatric",
+    "emergency"
+   ],
+   "tags": [
+    "pediatrics",
+    "epiglottitis",
+    "croup",
+    "PA"
+   ],
+   "id": "ONRN-PA-0029",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "Which presentation should lead the nurse to suspect epiglottitis rather than typical viral croup?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Sudden high fever, drooling, toxic appearance, and sitting forward without a barky cough"
+    },
+    {
+     "key": "B",
+     "text": "Gradual onset of a barky cough with mild fever after a few days of upper respiratory symptoms"
+    },
+    {
+     "key": "C",
+     "text": "Isolated nasal congestion without fever or respiratory distress"
+    },
+    {
+     "key": "D",
+     "text": "Chronic night-time cough for several weeks without acute distress"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CPS and Merck describe epiglottitis with sudden high fever, drooling, toxic/anxious appearance, forward sniffing posture, and absence of barky cough.",
+    "B": "Incorrect. That pattern fits typical croup (more gradual; barky cough characteristic).",
+    "C": "Incorrect. Lacks red-flag airway findings of epiglottitis.",
+    "D": "Incorrect. Chronic cough without acute toxicity is not the fulminant epiglottitis pattern."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Epiglottitis recognition — drooling, toxic, sniffing; no barky cough",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "epiglottitis-vs-croup-drooling-toxic-sniffing",
+   "sources": [
+    {
+     "title": "Acute management of croup in the emergency department",
+     "publisher": "Canadian Paediatric Society",
+     "url": "https://cps.ca/en/documents/position/acute-management-of-croup",
+     "section": "Differential diagnosis — Table 1 Epiglottitis",
+     "source_date": "Updated: Mar 6, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A; rationale B",
+     "evidence": "Epiglottitis: absence of barky cough, sudden high fever, dysphagia, drooling, toxic appearance, sniffing position.",
+     "added_by": "author"
+    },
+    {
+     "title": "Epiglottitis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/ear-nose-and-throat-disorders/oral-and-pharyngeal-disorders/epiglottitis",
+     "section": "Symptoms and Signs; Differentiating Epiglottitis From Croup",
+     "source_date": "Last updated: Jun 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; rationale B",
+     "evidence": "Drooling without barking cough is hallmark; acute fulminant onset vs more gradual croup with characteristic bark.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B26-WAVE17",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CNO Working with Unregulated Care Providers sets Ontario expectations for verifying UCP competence; OpenStax/NCSBN five rights provide concordant Right Person principle.",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-14a56f04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Working with UCPs competence expectation + OpenStax Right Person"
+    }
+   ],
+   "review_flags": [
+    "legal-ontario"
+   ],
+   "tags": [
+    "leadership",
+    "delegation",
+    "UCP",
+    "Ontario",
+    "MOC"
+   ],
+   "id": "ONRN-MOC-0032",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A charge nurse on an Ontario medical unit is assigning care that involves an unregulated care provider (UCP). Which action best reflects safe assignment based on competence?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Confirm the UCP is competent to perform the specific activity safely for this client in these circumstances before assigning it."
+    },
+    {
+     "key": "B",
+     "text": "Assume any UCP can perform every procedure because the tasks look simple."
+    },
+    {
+     "key": "C",
+     "text": "Assign complex unstable assessments to the UCP so the RN can finish charting."
+    },
+    {
+     "key": "D",
+     "text": "Avoid verifying competence once the UCP has completed a general orientation week."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO requires nurses who assign to UCPs to know the UCP is competent for the particular procedure/activity for the client in the given circumstances; OpenStax Right Person requires verified education/competencies before delegation.",
+    "B": "Incorrect. CNO states a nurse cannot assume a UCP is competent regardless of how straightforward a procedure appears.",
+    "C": "Incorrect. OpenStax Right Circumstance requires stable clients with expected outcomes for assistive personnel; nursing assessment/judgment stays with the RN.",
+    "D": "Incorrect. Competence must be known for the particular activity and circumstances, not assumed from generic orientation alone."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "Ontario UCP assignment — verify competence for specific activity and circumstances",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "Ontario-specific",
+   "enemy_group": "cno-ucp-verify-competence-specific-activity-circumstances",
+   "sources": [
+    {
+     "title": "Working With Unregulated Care Providers",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41014_workingucp.pdf",
+     "section": "Expectations for nurses who work with UCPs",
+     "source_date": "Updated July 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A; rationales B,D",
+     "evidence": "Nurse must know the UCP is competent to perform the particular procedure or activity safely for the client in the given circumstances; cannot assume competence.",
+     "added_by": "author"
+    },
+    {
+     "title": "15.4 Nursing Standards of Delegation",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/15-4-nursing-standards-of-delegation",
+     "section": "Right Person",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; rationale C",
+     "evidence": "RN ensures the delegatee completed required education and has necessary competencies before assigning the care.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B26-WAVE17",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "OpenStax/NCSBN Right Circumstance is general; CNO reinforces appropriateness of UCP assignment to client circumstances in Ontario practice.",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-14a56f04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Right Circumstance + CNO competence/appropriateness for client situation"
+    }
+   ],
+   "review_flags": [],
+   "tags": [
+    "leadership",
+    "delegation",
+    "MOC"
+   ],
+   "id": "ONRN-MOC-0033",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "Which client situation is most appropriate for an RN to assign basic assistive care to unregulated care provider (UCP/assistive personnel) under the Right Circumstance principle?",
+   "options": [
+    {
+     "key": "A",
+     "text": "A stable client with expected outcomes who needs assistance with routine hygiene"
+    },
+    {
+     "key": "B",
+     "text": "A newly admitted client with unstable vital signs requiring continuous reassessment"
+    },
+    {
+     "key": "C",
+     "text": "A client with sudden respiratory distress needing immediate clinical judgment"
+    },
+    {
+     "key": "D",
+     "text": "A client whose condition just changed and has not yet been reassessed by the RN"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax states patients must be stable with expected outcomes before care responsibilities are delegated to assistive personnel; CNO likewise ties UCP assignment to appropriate client circumstances and competence.",
+    "B": "Incorrect. Unstable clients needing continuous RN reassessment are not appropriate for AP/UCP-led care without direct RN management.",
+    "C": "Incorrect. Acute distress requires RN clinical judgment and Take Action, not assistive-only assignment.",
+    "D": "Incorrect. OpenStax requires the RN to reassess after condition changes before deciding whether delegation remains appropriate."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "Delegation — Right Circumstance requires stable client with expected outcomes",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Prioritize Hypotheses",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "delegation-right-circumstance-stable-expected-outcomes",
+   "sources": [
+    {
+     "title": "15.4 Nursing Standards of Delegation",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/15-4-nursing-standards-of-delegation",
+     "section": "Right Circumstance",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; rationales B–D",
+     "evidence": "Patients must be in stable condition with expected outcomes before a nurse can delegate care responsibilities; reassess if condition changes.",
+     "added_by": "author"
+    },
+    {
+     "title": "Working With Unregulated Care Providers",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41014_workingucp.pdf",
+     "section": "Expectations for nurses who work with UCPs",
+     "source_date": "Updated July 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A",
+     "evidence": "Nurse must determine appropriateness in each client situation and know competence for the activity in the given circumstances.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B26-WAVE17",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-14a56f04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Levels of Prevention tertiary + CDC stroke rehabilitation therapies"
+    }
+   ],
+   "review_flags": [],
+   "tags": [
+    "community",
+    "prevention",
+    "stroke",
+    "HPM"
+   ],
+   "id": "ONRN-HPM-0021",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "Which community nursing intervention is the best example of tertiary prevention?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Referring a stroke survivor to physical, occupational, and speech rehabilitation to reduce disability"
+    },
+    {
+     "key": "B",
+     "text": "Administering routine childhood immunizations to prevent vaccine-preventable disease"
+    },
+    {
+     "key": "C",
+     "text": "Organizing asymptomatic breast-cancer screening for early detection"
+    },
+    {
+     "key": "D",
+     "text": "Teaching a healthy community how to begin exercise before any disease risk factors appear"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax defines tertiary prevention as lessening impact and preventing complications through therapies and rehabilitation; CDC describes post-stroke rehabilitation with PT/OT/speech to treat stroke effects and support recovery.",
+    "B": "Incorrect. Immunization is primary prevention (prevent disease before it occurs).",
+    "C": "Incorrect. Screening asymptomatic people is secondary prevention (early detection).",
+    "D": "Incorrect. Primordial/primary risk-factor prevention precedes disease; it is not tertiary care of established illness."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Tertiary prevention — rehabilitation after stroke to reduce disability",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "tertiary-prevention-stroke-rehabilitation-pt-ot-speech",
+   "sources": [
+    {
+     "title": "2.5 Levels of Prevention",
+     "publisher": "OpenStax — Population Health for Nurses",
+     "url": "https://openstax.org/books/population-health/pages/2-5-levels-of-prevention",
+     "section": "Levels of Prevention — Tertiary prevention",
+     "source_date": "May 15, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; rationales B–D",
+     "evidence": "Tertiary prevention lessens negative impact and prevents complications via treatment, therapies, and rehabilitation.",
+     "added_by": "author"
+    },
+    {
+     "title": "Treatment and Intervention for Stroke",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/stroke/treatment/index.html",
+     "section": "Recovery — stroke rehabilitation",
+     "source_date": "Published: May 15, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A",
+     "evidence": "Rehabilitation after stroke includes speech, physical, and occupational therapy to treat side effects and support recovery.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B26-WAVE17",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-14a56f04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Prevent Aspiration Pneumonia + Merck Prevention of aspiration pneumonia"
+    }
+   ],
+   "review_flags": [],
+   "tags": [
+    "SATA",
+    "aspiration",
+    "gerontology",
+    "BCC"
+   ],
+   "id": "ONRN-BCC-0017",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "A nurse is teaching aspiration-prevention strategies for an older adult with dysphagia. Which actions should be included? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Maintain an upright position (at least 30 degrees) during and after meals"
+    },
+    {
+     "key": "B",
+     "text": "Encourage a slow pace while eating and drinking"
+    },
+    {
+     "key": "C",
+     "text": "Support oral hygiene and dental care to reduce harmful oral bacteria"
+    },
+    {
+     "key": "D",
+     "text": "Collaborate with a speech-language pathologist for safe-swallowing strategies"
+    },
+    {
+     "key": "E",
+     "text": "Have the client eat while fully flat in bed to conserve energy"
+    },
+    {
+     "key": "F",
+     "text": "Rush meal trays so feeding finishes in under five minutes"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax advises upright positioning at least 30 degrees during/after eating; Merck likewise elevates the head of bed >30° for aspiration-risk clients with decreased LOC.",
+    "B": "Correct. OpenStax notes many patients benefit from a slow eating/drinking pace.",
+    "C": "Correct. Both OpenStax and Merck support optimized oral hygiene to reduce pneumonia risk related to aspirated oral organisms.",
+    "D": "Correct. OpenStax recommends SLP collaboration; Merck notes speech pathologist training in strategies such as chin tuck.",
+    "E": "Incorrect. Flat positioning increases aspiration risk; upright positioning is indicated.",
+    "F": "Incorrect. Rushing contradicts slow-pace guidance and increases aspiration risk."
+   },
+   "specialty": "Gerontology",
+   "topic": "Aspiration precautions — upright meals, slow pace, oral hygiene, SLP",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "aspiration-mealtime-upright-slow-oral-hygiene-slp",
+   "sources": [
+    {
+     "title": "11.7 Disorders of the Lower Respiratory System: Pneumonia and Aspiration",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/11-7-disorders-of-the-lower-respiratory-system-pneumonia-and-aspiration",
+     "section": "Evidence-Based Practice: Strategies to Prevent Aspiration Pneumonia",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Keys A–D; distractors E,F",
+     "evidence": "Upright at least 30 degrees; slow pace; oral hygiene; collaborate with speech-language pathologists.",
+     "added_by": "author"
+    },
+    {
+     "title": "Chemical Pneumonitis and Aspiration Pneumonia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pulmonary-disorders/pneumonia/chemical-pneumonitis-and-aspiration-pneumonia",
+     "section": "Prevention of Chemical Pneumonitis and Aspiration Pneumonia",
+     "source_date": "Last updated: Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Keys A,C,D",
+     "evidence": "Elevate head of bed >30°; speech pathologist strategies; optimize oral hygiene and dental care.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B26-WAVE17",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-14a56f04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC PPE sequence PDF + OpenStax Clinical Nursing Skills donning steps"
+    }
+   ],
+   "review_flags": [],
+   "tags": [
+    "NGN",
+    "ordered-response",
+    "PPE",
+    "SIPC"
+   ],
+   "id": "ONRN-SIPC-0021",
+   "format": "ordered_response",
+   "scoring_model": "dichotomous",
+   "stem": "A nurse is donning full isolation PPE (gown, mask, eye protection, and gloves) before entering a client's room. Place the actions in the recommended order from first to last.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Don gloves, extending cuffs over the gown wrists"
+    },
+    {
+     "key": "B",
+     "text": "Don the isolation gown and fasten neck and waist ties"
+    },
+    {
+     "key": "C",
+     "text": "Don goggles or a face shield and adjust to fit"
+    },
+    {
+     "key": "D",
+     "text": "Don the mask or respirator and secure it snugly"
+    }
+   ],
+   "correct_answer": [
+    "B",
+    "D",
+    "C",
+    "A"
+   ],
+   "rationales": {
+    "B": "Correct (1st). CDC and OpenStax place gown first: cover torso and fasten neck/waist.",
+    "D": "Correct (2nd). Mask or respirator is donned after the gown.",
+    "C": "Correct (3rd). Goggles/face shield are applied after the mask.",
+    "A": "Correct (4th). Gloves are last so cuffs cover the gown wrists."
+   },
+   "specialty": "Fundamentals",
+   "topic": "PPE donning sequence — gown, mask, eye protection, gloves",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "ppe-donning-sequence-gown-mask-goggles-gloves",
+   "sources": [
+    {
+     "title": "Sequence for Putting On Personal Protective Equipment (PPE)",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/hai/pdfs/ppe/ppe-sequence.pdf",
+     "section": "Sequence for putting on PPE — steps 1–4",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Order B-D-C-A",
+     "evidence": "Donning order: gown; mask/respirator; goggles/face shield; gloves extending over gown wrist.",
+     "added_by": "author"
+    },
+    {
+     "title": "6.2 Asepsis and PPE",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/6-2-asepsis-and-ppe",
+     "section": "QSEN Competency: Donning Personal Protective Equipment",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Order B-D-C-A",
+     "evidence": "CDC-aligned steps: gown first, then mask/N95, then goggles/face shield, then gloves over gown cuff.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B26-WAVE17",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-14a56f04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Determination of Clinical Ability + CNO competence for activity/circumstances"
+    }
+   ],
+   "review_flags": [],
+   "tags": [
+    "leadership",
+    "assignment",
+    "float",
+    "MOC"
+   ],
+   "id": "ONRN-MOC-0034",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A float nurse arrives to help on a telemetry unit. Which charge-nurse action best applies determination of clinical ability when making assignments?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Match assignment complexity to the float nurse's demonstrated proficiency with similar tasks and current competencies"
+    },
+    {
+     "key": "B",
+     "text": "Give the float nurse the most unstable clients without reviewing competencies because all RNs have the same license"
+    },
+    {
+     "key": "C",
+     "text": "Assign tasks outside the float nurse's role description without training because the unit is short-staffed"
+    },
+    {
+     "key": "D",
+     "text": "Ignore the float nurse's current workload when adding multiple complex admissions"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax leadership guidance requires assessing skills/competencies and matching care complexity to demonstrated proficiency with similar tasks; CNO likewise requires knowing competence for the activity and circumstances.",
+    "B": "Incorrect. Shared RN licensure does not replace unit-specific competency assessment for complex unstable assignments.",
+    "C": "Incorrect. OpenStax Right Task requires activities within job description/policies and training for skilled competencies.",
+    "D": "Incorrect. OpenStax requires considering current workload and impact on safe care when determining clinical ability."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "Assignment — match complexity to demonstrated clinical ability/competency",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "float-assignment-match-complexity-to-demonstrated-competency",
+   "sources": [
+    {
+     "title": "18.3 Implementing Leadership and Management into Nursing Practice",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/18-3-implementing-leadership-and-management-into-nursing-practice",
+     "section": "Determination of Clinical Ability",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; rationales B–D",
+     "evidence": "Consider complexity of care needs and whether the staff member has demonstrated proficiency in similar tasks; also consider workload.",
+     "added_by": "author"
+    },
+    {
+     "title": "Working With Unregulated Care Providers",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41014_workingucp.pdf",
+     "section": "Expectations for nurses who work with UCPs",
+     "source_date": "Updated July 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A (competence principle)",
+     "evidence": "Nurses must know competence for the particular activity safely for the client in given circumstances; appropriateness is determined per situation.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B26-WAVE17",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-14a56f04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Etiology/Prevention reduce meds + OpenStax causes and discontinue contributing medications"
+    }
+   ],
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "tags": [
+    "gerontology",
+    "delirium",
+    "medications",
+    "PPT"
+   ],
+   "id": "ONRN-PPT-0030",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An 84-year-old client becomes newly confused after several psychoactive medications are started in hospital. Which nursing action best addresses a common medication-related contributor to delirium?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Collaborate to review and minimize newly added anticholinergic or opioid medications when clinically appropriate"
+    },
+    {
+     "key": "B",
+     "text": "Add another sedative at bedtime to ensure the client sleeps through the night without reassessment"
+    },
+    {
+     "key": "C",
+     "text": "Encourage the family to bring all home anticholinergic OTC products for unrestricted use"
+    },
+    {
+     "key": "D",
+     "text": "Ignore medication review because delirium is never related to drugs in older adults"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck identifies medications—particularly anticholinergics and opioids—as leading causes of delirium and advises reducing number/doses when possible; OpenStax lists sedatives, opioids, anticholinergics among common causes and supports discontinuing contributing medications.",
+    "B": "Incorrect. Adding sedatives can worsen delirium; OpenStax notes sedation can worsen symptoms.",
+    "C": "Incorrect. Unreviewed anticholinergic OTCs increase delirium risk.",
+    "D": "Incorrect. Both sources identify drug exposure as a major delirium etiology."
+   },
+   "specialty": "Gerontology",
+   "topic": "Delirium — minimize anticholinergic/opioid contributors in older adults",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "delirium-minimize-anticholinergic-opioid-contributors",
+   "sources": [
+    {
+     "title": "Delirium",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/delirium-and-dementia/delirium",
+     "section": "Etiology; Prevention of Delirium",
+     "source_date": "Last updated: Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; rationales B–D",
+     "evidence": "Medications especially anticholinergics and opioids are common causes; number and doses of medications should be reduced if possible.",
+     "added_by": "author"
+    },
+    {
+     "title": "14.2 Delirium",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/14-2-delirium",
+     "section": "Incidence and Causes; Nursing Treatment of Delirium",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; rationale B",
+     "evidence": "Causes include sedatives, opioids, anticholinergics; treatment includes discontinuing contributing medications; sedation can worsen delirium.",
+     "added_by": "author"
+    }
+   ]
+  }
+ ],
+ "excluded_items": [
+  {
+   "draft_topic": "Infant choking/foreign-body airway maneuvers",
+   "reason": "Merck/CPS choking URLs returned 404 this session; CDC choking page 403 — no dual live fetch confirmed."
+  },
+  {
+   "draft_topic": "WHO primary/secondary/tertiary prevention Q&A page",
+   "reason": "WHO URL 404; used OpenStax + CDC stroke rehab for tertiary item instead."
+  },
+  {
+   "draft_topic": "Household secondhand-smoke community counseling item",
+   "reason": "Health Canada/CDC secondhand smoke pages failed fetch this session; OpenStax environmental page alone insufficient for dual independent publishers on the keyed counseling fact."
+  }
+ ],
+ "notes": "Accuracy over volume. All keyed facts live-fetched 2026-11-25. AI may set Source verified only; Approved remains 0."
+}

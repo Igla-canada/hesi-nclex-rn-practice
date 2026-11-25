@@ -1,0 +1,736 @@
+{
+ "generated": "2026-11-25",
+ "total_items": 525,
+ "by_status": {
+  "Draft": 0,
+  "Source verified": 525,
+  "Awaiting clinical review": 0,
+  "Clinically reviewed": 0,
+  "Approved": 0,
+  "Requires revision": 0,
+  "Archived": 0
+ },
+ "by_client_needs_x_status": {
+  "MOC": {
+   "Draft": 0,
+   "Source verified": 79,
+   "Awaiting clinical review": 0,
+   "Clinically reviewed": 0,
+   "Approved": 0,
+   "Requires revision": 0,
+   "Archived": 0
+  },
+  "SIPC": {
+   "Draft": 0,
+   "Source verified": 61,
+   "Awaiting clinical review": 0,
+   "Clinically reviewed": 0,
+   "Approved": 0,
+   "Requires revision": 0,
+   "Archived": 0
+  },
+  "HPM": {
+   "Draft": 0,
+   "Source verified": 72,
+   "Awaiting clinical review": 0,
+   "Clinically reviewed": 0,
+   "Approved": 0,
+   "Requires revision": 0,
+   "Archived": 0
+  },
+  "PSY": {
+   "Draft": 0,
+   "Source verified": 60,
+   "Awaiting clinical review": 0,
+   "Clinically reviewed": 0,
+   "Approved": 0,
+   "Requires revision": 0,
+   "Archived": 0
+  },
+  "BCC": {
+   "Draft": 0,
+   "Source verified": 59,
+   "Awaiting clinical review": 0,
+   "Clinically reviewed": 0,
+   "Approved": 0,
+   "Requires revision": 0,
+   "Archived": 0
+  },
+  "PPT": {
+   "Draft": 0,
+   "Source verified": 61,
+   "Awaiting clinical review": 0,
+   "Clinically reviewed": 0,
+   "Approved": 0,
+   "Requires revision": 0,
+   "Archived": 0
+  },
+  "RRP": {
+   "Draft": 0,
+   "Source verified": 59,
+   "Awaiting clinical review": 0,
+   "Clinically reviewed": 0,
+   "Approved": 0,
+   "Requires revision": 0,
+   "Archived": 0
+  },
+  "PA": {
+   "Draft": 0,
+   "Source verified": 74,
+   "Awaiting clinical review": 0,
+   "Clinically reviewed": 0,
+   "Approved": 0,
+   "Requires revision": 0,
+   "Archived": 0
+  }
+ },
+ "published_items": 0,
+ "clinically_reviewed_or_approved": 0,
+ "awaiting_clinical_review": {
+  "total": 0,
+  "high_priority": 0,
+  "with_2plus_independent_publishers": 0,
+  "by_client_needs": {},
+  "by_format": {},
+  "by_specialty": {},
+  "by_jurisdiction": {},
+  "by_difficulty": {},
+  "by_cj_step": {},
+  "by_cognitive_level": {}
+ },
+ "all_active": {
+  "by_format": {
+   "multiple_choice": 363,
+   "matrix_multiple_choice": 57,
+   "select_all_that_apply": 46,
+   "drop_down_cloze": 31,
+   "bowtie": 25,
+   "ordered_response": 2,
+   "calculation": 1
+  },
+  "by_jurisdiction": {
+   "General (Canada/US concordant)": 459,
+   "Ontario-specific": 48,
+   "Canada-specific": 18
+  }
+ },
+ "excluded_draft_topics": 147,
+ "archived_items": 0,
+ "source_citations_by_publisher": {
+  "Merck Manual Professional Edition": 306,
+  "U.S. Centers for Disease Control and Prevention (CDC)": 95,
+  "OpenStax — Medical-Surgical Nursing": 91,
+  "OpenStax — Fundamentals of Nursing": 86,
+  "OpenStax — Psychiatric-Mental Health Nursing": 58,
+  "College of Nurses of Ontario": 54,
+  "OpenStax — Pharmacology for Nurses": 51,
+  "OpenStax — Maternal-Newborn Nursing": 42,
+  "MedlinePlus / U.S. National Library of Medicine": 34,
+  "OpenStax — Clinical Nursing Skills": 29,
+  "Agency for Healthcare Research and Quality (AHRQ)": 21,
+  "NCBI Bookshelf (Open RN / WisTech Open)": 14,
+  "Public Health Agency of Canada / Canada.ca": 13,
+  "Health Canada / Canada.ca": 12,
+  "Agency for Healthcare Research and Quality (AHRQ) — PSNet": 12,
+  "U.S. National Library of Medicine — DailyMed": 9,
+  "OpenStax — Population Health for Nurses": 9,
+  "StatPearls / NCBI Bookshelf": 9,
+  "Canadian Paediatric Society": 8,
+  "Canadian Paediatric Society — Caring for Kids": 8,
+  "Government of Ontario — e-Laws": 7,
+  "Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC)": 7,
+  "Centers for Disease Control and Prevention": 7,
+  "World Health Organization": 6,
+  "Merck Manual Consumer Version": 6,
+  "American Academy of Orthopaedic Surgeons (OrthoInfo)": 6,
+  "U.S. Occupational Safety and Health Administration (OSHA)": 5,
+  "Diabetes Canada": 4,
+  "Public Health Ontario": 4,
+  "American Heart Association / American Academy of Pediatrics": 4,
+  "Substance Abuse and Mental Health Services Administration (SAMHSA)": 4,
+  "SHEA / IDSA / APIC (Infect Control Hosp Epidemiol)": 4,
+  "Mayo Clinic": 3,
+  "U.S. Food and Drug Administration": 3,
+  "NHS Greater Glasgow and Clyde": 3,
+  "U.S. Department of Veterans Affairs National Center for PTSD": 3,
+  "Health Canada Drug Product Database — Pharmascience Inc. product monograph": 2,
+  "NCSBN / American Nurses Association": 2,
+  "National Fire Protection Association (NFPA)": 2,
+  "COPD Foundation": 2,
+  "Alberta Health Services / MyHealth Alberta": 2,
+  "American College of Surgeons / Surgical Infection Society": 2,
+  "Cleveland Clinic": 2,
+  "U.S. Centers for Disease Control and Prevention (CDC) / NIOSH": 2,
+  "College of Traditional Chinese Medicine Practitioners and Acupuncturists of Ontario (PHIPA guide)": 2,
+  "Radiological Society of North America / RadiologyInfo.org": 2,
+  "U.S. Centers for Disease Control and Prevention (CDC/HICPAC)": 1,
+  "Health Canada Drug Product Database — Sandoz Canada Inc. product monograph": 1,
+  "Health Canada Drug Product Database — Taro Pharmaceuticals Inc. product monograph": 1,
+  "Heart & Stroke — Canadian Stroke Best Practices": 1,
+  "Government of Ontario (e-Laws)": 1,
+  "Health Canada (Hikma Canada)": 1,
+  "Health Canada Drug Product Database — Laboratoire Riva Inc. product monograph": 1,
+  "Health Canada Drug Product Database — Apotex Inc. product monograph": 1,
+  "U.S. Centers for Disease Control and Prevention (CDC) / SHEA (stacks.cdc.gov)": 1,
+  "U.S. National Highway Traffic Safety Administration (NHTSA)": 1,
+  "U.S. Department of Homeland Security — Ready.gov": 1,
+  "American Diabetes Association": 1,
+  "OpenStax — Microbiology": 1,
+  "OpenStax — Anatomy and Physiology 2e": 1,
+  "American Hospital Association (AHA) — TeamSTEPPS Video Toolkit": 1,
+  "Ohio Department of Commerce — Division of State Fire Marshal": 1,
+  "MedlinePlus / National Institute on Aging": 1,
+  "National Institute on Deafness and Other Communication Disorders (NIDCD)": 1,
+  "Steps to Justice (Community Legal Education Ontario)": 1,
+  "Simcoe Muskoka District Health Unit": 1,
+  "Virginia Department of Health": 1
+ },
+ "near_duplicate_pairs": [],
+ "merge_problems": [],
+ "exam_versions": {
+  "publishable": {
+   "V1": {
+    "assigned_items": 0,
+    "complete": false,
+    "by_client_needs": {
+     "MOC": {
+      "quota": 27,
+      "assigned": 0,
+      "gap": 27
+     },
+     "SIPC": {
+      "quota": 20,
+      "assigned": 0,
+      "gap": 20
+     },
+     "HPM": {
+      "quota": 14,
+      "assigned": 0,
+      "gap": 14
+     },
+     "PSY": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "BCC": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PPT": {
+      "quota": 24,
+      "assigned": 0,
+      "gap": 24
+     },
+     "RRP": {
+      "quota": 18,
+      "assigned": 0,
+      "gap": 18
+     },
+     "PA": {
+      "quota": 21,
+      "assigned": 0,
+      "gap": 21
+     }
+    }
+   },
+   "V2": {
+    "assigned_items": 0,
+    "complete": false,
+    "by_client_needs": {
+     "MOC": {
+      "quota": 27,
+      "assigned": 0,
+      "gap": 27
+     },
+     "SIPC": {
+      "quota": 20,
+      "assigned": 0,
+      "gap": 20
+     },
+     "HPM": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PSY": {
+      "quota": 14,
+      "assigned": 0,
+      "gap": 14
+     },
+     "BCC": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PPT": {
+      "quota": 24,
+      "assigned": 0,
+      "gap": 24
+     },
+     "RRP": {
+      "quota": 18,
+      "assigned": 0,
+      "gap": 18
+     },
+     "PA": {
+      "quota": 21,
+      "assigned": 0,
+      "gap": 21
+     }
+    }
+   },
+   "V3": {
+    "assigned_items": 0,
+    "complete": false,
+    "by_client_needs": {
+     "MOC": {
+      "quota": 27,
+      "assigned": 0,
+      "gap": 27
+     },
+     "SIPC": {
+      "quota": 20,
+      "assigned": 0,
+      "gap": 20
+     },
+     "HPM": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PSY": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "BCC": {
+      "quota": 14,
+      "assigned": 0,
+      "gap": 14
+     },
+     "PPT": {
+      "quota": 24,
+      "assigned": 0,
+      "gap": 24
+     },
+     "RRP": {
+      "quota": 18,
+      "assigned": 0,
+      "gap": 18
+     },
+     "PA": {
+      "quota": 21,
+      "assigned": 0,
+      "gap": 21
+     }
+    }
+   },
+   "V4": {
+    "assigned_items": 0,
+    "complete": false,
+    "by_client_needs": {
+     "MOC": {
+      "quota": 27,
+      "assigned": 0,
+      "gap": 27
+     },
+     "SIPC": {
+      "quota": 20,
+      "assigned": 0,
+      "gap": 20
+     },
+     "HPM": {
+      "quota": 14,
+      "assigned": 0,
+      "gap": 14
+     },
+     "PSY": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "BCC": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PPT": {
+      "quota": 24,
+      "assigned": 0,
+      "gap": 24
+     },
+     "RRP": {
+      "quota": 18,
+      "assigned": 0,
+      "gap": 18
+     },
+     "PA": {
+      "quota": 21,
+      "assigned": 0,
+      "gap": 21
+     }
+    }
+   },
+   "V5": {
+    "assigned_items": 0,
+    "complete": false,
+    "by_client_needs": {
+     "MOC": {
+      "quota": 27,
+      "assigned": 0,
+      "gap": 27
+     },
+     "SIPC": {
+      "quota": 20,
+      "assigned": 0,
+      "gap": 20
+     },
+     "HPM": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PSY": {
+      "quota": 14,
+      "assigned": 0,
+      "gap": 14
+     },
+     "BCC": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PPT": {
+      "quota": 24,
+      "assigned": 0,
+      "gap": 24
+     },
+     "RRP": {
+      "quota": 18,
+      "assigned": 0,
+      "gap": 18
+     },
+     "PA": {
+      "quota": 21,
+      "assigned": 0,
+      "gap": 21
+     }
+    }
+   }
+  },
+  "provisional": {
+   "V1": {
+    "assigned_items": 0,
+    "complete": false,
+    "by_client_needs": {
+     "MOC": {
+      "quota": 27,
+      "assigned": 0,
+      "gap": 27
+     },
+     "SIPC": {
+      "quota": 20,
+      "assigned": 0,
+      "gap": 20
+     },
+     "HPM": {
+      "quota": 14,
+      "assigned": 0,
+      "gap": 14
+     },
+     "PSY": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "BCC": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PPT": {
+      "quota": 24,
+      "assigned": 0,
+      "gap": 24
+     },
+     "RRP": {
+      "quota": 18,
+      "assigned": 0,
+      "gap": 18
+     },
+     "PA": {
+      "quota": 21,
+      "assigned": 0,
+      "gap": 21
+     }
+    },
+    "difficulty_mix": {
+     "Easy": 0,
+     "Moderate": 0,
+     "Hard": 0
+    },
+    "format_mix": {},
+    "percent_of_assigned": {
+     "MOC": 0,
+     "SIPC": 0,
+     "HPM": 0,
+     "PSY": 0,
+     "BCC": 0,
+     "PPT": 0,
+     "RRP": 0,
+     "PA": 0
+    }
+   },
+   "V2": {
+    "assigned_items": 0,
+    "complete": false,
+    "by_client_needs": {
+     "MOC": {
+      "quota": 27,
+      "assigned": 0,
+      "gap": 27
+     },
+     "SIPC": {
+      "quota": 20,
+      "assigned": 0,
+      "gap": 20
+     },
+     "HPM": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PSY": {
+      "quota": 14,
+      "assigned": 0,
+      "gap": 14
+     },
+     "BCC": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PPT": {
+      "quota": 24,
+      "assigned": 0,
+      "gap": 24
+     },
+     "RRP": {
+      "quota": 18,
+      "assigned": 0,
+      "gap": 18
+     },
+     "PA": {
+      "quota": 21,
+      "assigned": 0,
+      "gap": 21
+     }
+    },
+    "difficulty_mix": {
+     "Easy": 0,
+     "Moderate": 0,
+     "Hard": 0
+    },
+    "format_mix": {},
+    "percent_of_assigned": {
+     "MOC": 0,
+     "SIPC": 0,
+     "HPM": 0,
+     "PSY": 0,
+     "BCC": 0,
+     "PPT": 0,
+     "RRP": 0,
+     "PA": 0
+    }
+   },
+   "V3": {
+    "assigned_items": 0,
+    "complete": false,
+    "by_client_needs": {
+     "MOC": {
+      "quota": 27,
+      "assigned": 0,
+      "gap": 27
+     },
+     "SIPC": {
+      "quota": 20,
+      "assigned": 0,
+      "gap": 20
+     },
+     "HPM": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PSY": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "BCC": {
+      "quota": 14,
+      "assigned": 0,
+      "gap": 14
+     },
+     "PPT": {
+      "quota": 24,
+      "assigned": 0,
+      "gap": 24
+     },
+     "RRP": {
+      "quota": 18,
+      "assigned": 0,
+      "gap": 18
+     },
+     "PA": {
+      "quota": 21,
+      "assigned": 0,
+      "gap": 21
+     }
+    },
+    "difficulty_mix": {
+     "Easy": 0,
+     "Moderate": 0,
+     "Hard": 0
+    },
+    "format_mix": {},
+    "percent_of_assigned": {
+     "MOC": 0,
+     "SIPC": 0,
+     "HPM": 0,
+     "PSY": 0,
+     "BCC": 0,
+     "PPT": 0,
+     "RRP": 0,
+     "PA": 0
+    }
+   },
+   "V4": {
+    "assigned_items": 0,
+    "complete": false,
+    "by_client_needs": {
+     "MOC": {
+      "quota": 27,
+      "assigned": 0,
+      "gap": 27
+     },
+     "SIPC": {
+      "quota": 20,
+      "assigned": 0,
+      "gap": 20
+     },
+     "HPM": {
+      "quota": 14,
+      "assigned": 0,
+      "gap": 14
+     },
+     "PSY": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "BCC": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PPT": {
+      "quota": 24,
+      "assigned": 0,
+      "gap": 24
+     },
+     "RRP": {
+      "quota": 18,
+      "assigned": 0,
+      "gap": 18
+     },
+     "PA": {
+      "quota": 21,
+      "assigned": 0,
+      "gap": 21
+     }
+    },
+    "difficulty_mix": {
+     "Easy": 0,
+     "Moderate": 0,
+     "Hard": 0
+    },
+    "format_mix": {},
+    "percent_of_assigned": {
+     "MOC": 0,
+     "SIPC": 0,
+     "HPM": 0,
+     "PSY": 0,
+     "BCC": 0,
+     "PPT": 0,
+     "RRP": 0,
+     "PA": 0
+    }
+   },
+   "V5": {
+    "assigned_items": 0,
+    "complete": false,
+    "by_client_needs": {
+     "MOC": {
+      "quota": 27,
+      "assigned": 0,
+      "gap": 27
+     },
+     "SIPC": {
+      "quota": 20,
+      "assigned": 0,
+      "gap": 20
+     },
+     "HPM": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PSY": {
+      "quota": 14,
+      "assigned": 0,
+      "gap": 14
+     },
+     "BCC": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PPT": {
+      "quota": 24,
+      "assigned": 0,
+      "gap": 24
+     },
+     "RRP": {
+      "quota": 18,
+      "assigned": 0,
+      "gap": 18
+     },
+     "PA": {
+      "quota": 21,
+      "assigned": 0,
+      "gap": 21
+     }
+    },
+    "difficulty_mix": {
+     "Easy": 0,
+     "Moderate": 0,
+     "Hard": 0
+    },
+    "format_mix": {},
+    "percent_of_assigned": {
+     "MOC": 0,
+     "SIPC": 0,
+     "HPM": 0,
+     "PSY": 0,
+     "BCC": 0,
+     "PPT": 0,
+     "RRP": 0,
+     "PA": 0
+    }
+   }
+  }
+ }
+}
