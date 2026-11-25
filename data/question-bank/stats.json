@@ -1,9 +1,9 @@
 {
  "generated": "2026-11-25",
- "total_items": 609,
+ "total_items": 623,
  "by_status": {
   "Draft": 0,
-  "Source verified": 609,
+  "Source verified": 623,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -13,7 +13,7 @@
  "by_client_needs_x_status": {
   "MOC": {
    "Draft": 0,
-   "Source verified": 93,
+   "Source verified": 97,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -22,7 +22,7 @@
   },
   "SIPC": {
    "Draft": 0,
-   "Source verified": 73,
+   "Source verified": 75,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -31,7 +31,7 @@
   },
   "HPM": {
    "Draft": 0,
-   "Source verified": 78,
+   "Source verified": 80,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -40,7 +40,7 @@
   },
   "PSY": {
    "Draft": 0,
-   "Source verified": 72,
+   "Source verified": 74,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -49,7 +49,7 @@
   },
   "BCC": {
    "Draft": 0,
-   "Source verified": 73,
+   "Source verified": 75,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -67,7 +67,7 @@
   },
   "RRP": {
    "Draft": 0,
-   "Source verified": 71,
+   "Source verified": 73,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -100,18 +100,18 @@
  },
  "all_active": {
   "by_format": {
-   "multiple_choice": 405,
-   "matrix_multiple_choice": 82,
-   "drop_down_cloze": 47,
+   "multiple_choice": 412,
+   "matrix_multiple_choice": 87,
+   "drop_down_cloze": 49,
    "select_all_that_apply": 46,
    "bowtie": 26,
    "ordered_response": 2,
    "calculation": 1
   },
   "by_jurisdiction": {
-   "General (Canada/US concordant)": 527,
-   "Ontario-specific": 56,
-   "Canada-specific": 26
+   "General (Canada/US concordant)": 537,
+   "Ontario-specific": 58,
+   "Canada-specific": 28
   }
  },
  "excluded_draft_topics": 147,
@@ -119,26 +119,26 @@
  "source_citations_by_publisher": {
   "Merck Manual Professional Edition": 330,
   "OpenStax — Medical-Surgical Nursing": 105,
-  "OpenStax — Fundamentals of Nursing": 103,
-  "U.S. Centers for Disease Control and Prevention (CDC)": 101,
+  "U.S. Centers for Disease Control and Prevention (CDC)": 105,
+  "OpenStax — Fundamentals of Nursing": 105,
   "OpenStax — Psychiatric-Mental Health Nursing": 72,
-  "College of Nurses of Ontario": 64,
+  "College of Nurses of Ontario": 68,
   "OpenStax — Pharmacology for Nurses": 57,
-  "OpenStax — Maternal-Newborn Nursing": 44,
+  "OpenStax — Maternal-Newborn Nursing": 46,
   "OpenStax — Clinical Nursing Skills": 43,
-  "MedlinePlus / U.S. National Library of Medicine": 38,
-  "Agency for Healthcare Research and Quality (AHRQ)": 25,
-  "NCBI Bookshelf (Open RN / WisTech Open)": 18,
+  "MedlinePlus / U.S. National Library of Medicine": 40,
+  "Agency for Healthcare Research and Quality (AHRQ)": 29,
+  "NCBI Bookshelf (Open RN / WisTech Open)": 20,
+  "Health Canada / Canada.ca": 18,
   "Agency for Healthcare Research and Quality (AHRQ) — PSNet": 18,
-  "Health Canada / Canada.ca": 16,
   "Public Health Agency of Canada / Canada.ca": 15,
   "World Health Organization": 12,
+  "Canadian Paediatric Society — Caring for Kids": 12,
   "Government of Ontario — e-Laws": 9,
   "U.S. National Library of Medicine — DailyMed": 9,
   "OpenStax — Population Health for Nurses": 9,
   "StatPearls / NCBI Bookshelf": 9,
   "Canadian Paediatric Society": 8,
-  "Canadian Paediatric Society — Caring for Kids": 8,
   "American Academy of Orthopaedic Surgeons (OrthoInfo)": 8,
   "Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC)": 7,
   "Centers for Disease Control and Prevention": 7,
@@ -175,6 +175,7 @@
   "Transport Canada / Canada.ca": 2,
   "National Institute on Aging": 2,
   "Thompson Rivers University — Personal Care Skills for Health Care Assistants (Pressbooks)": 2,
+  "Canadian Cancer Society": 2,
   "U.S. Centers for Disease Control and Prevention (CDC/HICPAC)": 1,
   "Health Canada Drug Product Database — Sandoz Canada Inc. product monograph": 1,
   "Health Canada Drug Product Database — Taro Pharmaceuticals Inc. product monograph": 1,
