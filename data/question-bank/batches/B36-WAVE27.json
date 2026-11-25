@@ -1,0 +1,1412 @@
+{
+ "batch_id": "B36-WAVE27",
+ "author": "AI author (Composer, Cursor subagent bc-d886d716) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 27 multi-exam depth — Pediatrics-first (thinnest specialty) plus Community/Public Health, Gerontology, Leadership/Management; NGN matrix/cloze/bowtie; dual-cited originals only (CDC, Merck, OpenStax, AHA/AAP, AHRQ).",
+ "items": [
+  {
+   "batch": "B36-WAVE27",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric"
+   ],
+   "id": "ONRN-HPM-0039",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "tags": [
+    "pinworm",
+    "enterobiasis",
+    "pediatrics",
+    "household",
+    "HPM",
+    "SATA"
+   ],
+   "stem": "A school nurse teaches caregivers after a child is diagnosed with pinworm (enterobiasis). Which instructions are appropriate? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Treat the infected child, household members, and caregivers with the same timed medication course as directed."
+    },
+    {
+     "key": "B",
+     "text": "Wash hands with soap and warm water after toileting, after diaper changes, and before handling food."
+    },
+    {
+     "key": "C",
+     "text": "Wash clothing, towels, and bedding used by the affected person in hot water and dry on high heat when possible."
+    },
+    {
+     "key": "D",
+     "text": "Give only one lifetime dose of anthelmintic medication because eggs are also killed permanently by a single dose."
+    },
+    {
+     "key": "E",
+     "text": "Ignore household contacts because pinworms never spread within families."
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: treat infected persons, caretakers, and household members at the same time (two-dose schedule). Merck: multiple household infestations are common; treatment of the entire family may be necessary.",
+    "B": "Correct. CDC and Merck: handwashing with soap and warm water after toilet/diapers and before food is the key prevention step.",
+    "C": "Correct. CDC: wash clothes/washcloths/towels/bedding in hot water and dry hot. Merck: frequently wash clothing, bedding, and toys.",
+    "D": "Incorrect. CDC: two doses about two weeks apart because medication kills worms but not eggs. Merck: single dose repeated in 2 weeks.",
+    "E": "Incorrect. CDC and Merck: household members and caregivers are at increased risk; concurrent treatment/prevention is needed."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Pinworm — concurrent household treatment, handwashing, hot laundry; two-dose schedule",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "pinworm-treat-household-handwash-hot-laundry-two-dose",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-d886d716) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Pinworm About/Prevention: treat household+caretakers same two-dose course; handwashing; hot laundry. Merck: family treatment may be necessary; handwashing; wash bedding; dose repeated in 2 weeks"
+    }
+   ],
+   "sources": [
+    {
+     "title": "About Pinworm Infection",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/pinworm/about/index.html",
+     "section": "Prevention; Treatment and recovery",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A–C and distractors",
+     "evidence": "Treat household/caretakers same two-dose course; handwashing key.",
+     "added_by": "author"
+    },
+    {
+     "title": "Pinworm Infestation",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/nematodes-roundworms/pinworm-infestation",
+     "section": "Treatment; Prevention; Key Points",
+     "source_date": "Last updated: Jan 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A–C and distractors",
+     "evidence": "Dose repeated in 2 weeks; treat entire family may be necessary; handwashing; wash bedding.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B36-WAVE27",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric"
+   ],
+   "id": "ONRN-HPM-0040",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "head-lice",
+    "pediculosis",
+    "community",
+    "pediatrics",
+    "NGN",
+    "matrix",
+    "HPM"
+   ],
+   "stem": "A public health nurse teaches a family about head lice. For each statement, select Accurate or Not accurate.",
+   "ngn": {
+    "columns": [
+     "Accurate",
+     "Not accurate"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Head lice spread mainly by direct head-to-head (hair-to-hair) contact"
+     },
+     {
+      "key": "R2",
+      "text": "Children diagnosed with head lice must be sent home from school immediately mid-day and kept out until every nit is removed"
+     },
+     {
+      "key": "R3",
+      "text": "Avoid sharing hats, combs, brushes, and towels; wash recently used linens and clothing in hot water when possible"
+     },
+     {
+      "key": "R4",
+      "text": "Fumigant sprays or fogs are required to disinfect the entire home after any lice case"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Accurate",
+    "R2": "Not accurate",
+    "R3": "Accurate",
+    "R4": "Not accurate"
+   },
+   "rationales": {
+    "R1": "Accurate. CDC: most common spread is head-to-head contact. Merck: easily transmitted by close contact in households/classrooms.",
+    "R2": "Not accurate. CDC: children need not be sent home early; go home end of day, start treatment, return after treatment begun. Merck cites CDC school guidance.",
+    "R3": "Accurate. CDC: do not share hats/combs/brushes/towels; hot-water laundry for recent items. Merck discusses washing/drying hot for personal items.",
+    "R4": "Not accurate. CDC: do not use fumigant sprays/fogs — not necessary and can be toxic."
+   },
+   "specialty": "Pediatrics",
+   "topic": "NGN matrix — head lice head-to-head spread, school return after treatment started, laundry, no fumigants",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ngn-matrix-head-lice-head-contact-school-return-no-fumigant",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-d886d716) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC About Head Lice: head-to-head primary; no early exclusion; hot laundry; no fumigants. Merck Lice: close-contact spread; CDC school return after treatment started"
+    }
+   ],
+   "sources": [
+    {
+     "title": "About Head Lice",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/lice/about/head-lice.html",
+     "section": "How it spreads; Prevention; Reminder school guidance",
+     "source_date": "June 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "All rows",
+     "evidence": "Head-to-head spread; no early send-home; no fumigants; hot laundry.",
+     "added_by": "author"
+    },
+    {
+     "title": "Lice (Pediculosis)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/dermatologic-disorders/parasitic-skin-infections/lice",
+     "section": "Head lice — transmission and school guidance",
+     "source_date": "Last updated: Nov 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Rows R1–R3",
+     "evidence": "Close-contact transmission; CDC: return after treatment started.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B36-WAVE27",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric"
+   ],
+   "id": "ONRN-PA-0058",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "Wilms",
+    "nephroblastoma",
+    "pediatrics",
+    "PA"
+   ],
+   "stem": "A toddler is referred after a caregiver notices a firm swelling in the abdomen. Imaging is consistent with Wilms tumor (nephroblastoma). Which finding is the most frequent presenting feature of Wilms tumor?",
+   "options": [
+    {
+     "key": "A",
+     "text": "A painless, palpable abdominal mass"
+    },
+    {
+     "key": "B",
+     "text": "Night sweats with migratory polyarthritis as the sole finding"
+    },
+    {
+     "key": "C",
+     "text": "Painless jaundice from birth without a mass"
+    },
+    {
+     "key": "D",
+     "text": "Isolated petechiae covering the trunk without organomegaly"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: the most frequent finding is a painless, palpable abdominal mass. OpenStax: Wilms tumor/nephroblastoma presents in childhood with kidney enlargement (and often hypertension).",
+    "B": "Incorrect. Not the classic primary presentation of Wilms tumor (Merck lists mass as most frequent).",
+    "C": "Incorrect. Jaundice is not the most frequent Wilms presentation (Merck).",
+    "D": "Incorrect. Petechiae alone are not the characteristic Wilms presentation (Merck)."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Wilms tumor — painless palpable abdominal mass most frequent finding",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Remembering",
+   "enemy_group": "wilms-tumor-painless-palpable-abdominal-mass",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-d886d716) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Wilms Symptoms: most frequent = painless palpable abdominal mass. OpenStax Pharm 33.1: Wilms presents in childhood with hypertension and kidney enlargement"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wilms Tumor",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/oncology/pediatric-cancers/wilms-tumor",
+     "section": "Symptoms and Signs of Wilms Tumor",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Most frequent finding is a painless, palpable abdominal mass.",
+     "added_by": "author"
+    },
+    {
+     "title": "33.1 Introduction to the Renal System",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/33-1-introduction-to-the-renal-system",
+     "section": "Common Conditions — Wilms tumor/nephroblastoma",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key concordance",
+     "evidence": "Wilms tumor presents in childhood with hypertension and kidney enlargement.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B36-WAVE27",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric"
+   ],
+   "id": "ONRN-BCC-0023",
+   "format": "drop_down_cloze",
+   "scoring_model": "zero_one",
+   "tags": [
+    "celiac",
+    "gluten-free",
+    "pediatrics",
+    "NGN",
+    "cloze",
+    "BCC"
+   ],
+   "stem": "A school-age client newly diagnosed with celiac disease is learning diet teaching. Complete the statements.",
+   "ngn": {
+    "template": "Celiac disease is treated with a {B1} diet. The client must avoid gluten proteins found in {B2}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "short-term low-fat only"
+      },
+      {
+       "key": "B1b",
+       "text": "lifelong strict gluten-free"
+      },
+      {
+       "key": "B1c",
+       "text": "high-purine unrestricted"
+      },
+      {
+       "key": "B1d",
+       "text": "clear-liquid forever"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "wheat, barley, and rye"
+      },
+      {
+       "key": "B2b",
+       "text": "only pure table salt"
+      },
+      {
+       "key": "B2c",
+       "text": "all fresh fruits forever"
+      },
+      {
+       "key": "B2d",
+       "text": "only purified water"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1b",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Incorrect. Treatment is lifelong gluten-free diet, not a short-term low-fat diet (OpenStax; Merck).",
+    "B1b": "Correct. OpenStax: lifelong strict gluten-free diet. Merck: mucosal changes resolve with a strict gluten-free diet.",
+    "B1c": "Incorrect. Not the celiac diet prescription (OpenStax; Merck).",
+    "B1d": "Incorrect. Clear liquids are not lifelong celiac therapy (OpenStax; Merck).",
+    "B2a": "Correct. Merck: gliadin fraction of gluten in wheat; similar proteins in rye and barley. OpenStax: gluten in wheat, barley, and rye.",
+    "B2b": "Incorrect. Salt is not the gluten source to avoid (Merck; OpenStax).",
+    "B2c": "Incorrect. Fresh fruit is not the gluten source requiring lifelong exclusion (Merck; OpenStax).",
+    "B2d": "Incorrect. Water is not a gluten grain protein (Merck; OpenStax)."
+   },
+   "specialty": "Pediatrics",
+   "topic": "NGN cloze — celiac lifelong gluten-free diet; avoid wheat/barley/rye",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "ngn-cloze-celiac-lifelong-gluten-free-wheat-barley-rye",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-d886d716) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Med-Surg 19.5: lifelong strict gluten-free; gluten in wheat/barley/rye. Merck Celiac: strict gluten-free diet; wheat/rye/barley"
+    }
+   ],
+   "sources": [
+    {
+     "title": "19.5 Disorders of the Lower GI System",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-5-disorders-of-the-lower-gi-system",
+     "section": "Celiac Disease — Medical Therapies",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Both blanks",
+     "evidence": "Lifelong strict gluten-free diet; gluten in wheat, barley, rye.",
+     "added_by": "author"
+    },
+    {
+     "title": "Celiac Disease",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gastrointestinal-disorders/malabsorption-syndromes/celiac-disease",
+     "section": "Etiology; Treatment overview",
+     "source_date": "Last updated: Apr 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Both blanks",
+     "evidence": "Gluten in wheat; similar proteins rye/barley; strict gluten-free diet.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B36-WAVE27",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric",
+    "emergency"
+   ],
+   "id": "ONRN-PA-0059",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "choking",
+    "FBAO",
+    "infant",
+    "pediatrics",
+    "emergency",
+    "PA"
+   ],
+   "stem": "An infant younger than 1 year has severe foreign-body airway obstruction (cannot cry effectively, weak cough, cyanosis). Which action is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Give repeated cycles of 5 back blows alternating with 5 chest thrusts until the object is expelled or the infant becomes unresponsive; do not use abdominal thrusts."
+    },
+    {
+     "key": "B",
+     "text": "Perform only abdominal thrusts (Heimlich) as the sole first-line method for infants."
+    },
+    {
+     "key": "C",
+     "text": "Do blind finger sweeps immediately to dig deeply in the mouth before any other action."
+    },
+    {
+     "key": "D",
+     "text": "Offer the infant a large drink of water to wash the object into the stomach."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. AHA/AAP Pediatric BLS 2025: infants with severe FBAO — cycles of 5 back blows + 5 chest thrusts; abdominal thrusts not recommended. Merck: back blows followed by chest thrusts for severe infant choking.",
+    "B": "Incorrect. Abdominal thrusts are not recommended in infants (AHA/AAP; Merck uses chest thrusts for infants).",
+    "C": "Incorrect. AHA/AAP: blind finger sweeps should not be performed.",
+    "D": "Incorrect. Giving fluids does not relieve severe FBAO and delays effective relief (AHA/AAP; Merck procedure)."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Infant severe FBAO — 5 back blows + 5 chest thrusts; no abdominal thrusts",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "infant-fbao-back-blows-chest-thrusts-no-abdominal",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-d886d716) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHA/AAP Peds BLS 2025: infant severe FBAO 5 back blows + 5 chest thrusts; no abdominal thrusts; no blind finger sweeps. Merck choking conscious infant: back blows then chest thrusts"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Part 6: Pediatric Basic Life Support",
+     "publisher": "American Heart Association / American Academy of Pediatrics",
+     "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-basic-life-support",
+     "section": "6.3 Foreign-Body Airway Obstruction recommendations",
+     "source_date": "Updated December 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key and distractors",
+     "evidence": "Infant severe FBAO: 5 back blows alternating with 5 chest thrusts; abdominal thrusts not recommended; no blind finger sweeps.",
+     "added_by": "author"
+    },
+    {
+     "title": "How To Treat the Choking Conscious Infant",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/critical-care-medicine/how-to-do-basic-airway-procedures/how-to-treat-the-choking-conscious-infant",
+     "section": "Step-by-Step Description of Procedure",
+     "source_date": "Last updated: Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key",
+     "evidence": "Up to 5 back blows then up to 5 chest thrusts; continue until expelled or unconscious.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B36-WAVE27",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric",
+    "emergency"
+   ],
+   "id": "ONRN-PA-0060",
+   "format": "bowtie",
+   "scoring_model": "zero_one",
+   "tags": [
+    "choking",
+    "FBAO",
+    "infant",
+    "NGN",
+    "bowtie",
+    "pediatrics",
+    "PA"
+   ],
+   "stem": "An 8-month-old suddenly cannot cry, has a weak cough, and looks blue around the lips after playing with a small toy. Complete the bowtie: most likely condition, 2 priority actions, and 2 parameters that support severe obstruction.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Mild foreign-body airway obstruction with effective cough"
+     },
+     {
+      "key": "K2",
+      "text": "Severe foreign-body airway obstruction in an infant"
+     },
+     {
+      "key": "K3",
+      "text": "Simple nasal congestion without airway compromise"
+     },
+     {
+      "key": "K4",
+      "text": "Resolved choking with no residual risk"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Activate emergency response and begin cycles of 5 back blows alternating with 5 chest thrusts"
+     },
+     {
+      "key": "A2",
+      "text": "Perform abdominal thrusts only as first-line infant relief"
+     },
+     {
+      "key": "A3",
+      "text": "Allow the infant to keep trying without intervention while severe signs persist"
+     },
+     {
+      "key": "A4",
+      "text": "If the infant becomes unresponsive, start CPR beginning with compressions and remove a visible object when opening the airway"
+     },
+     {
+      "key": "A5",
+      "text": "Give a bottle of milk to push the object down"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "Inability to cry or make much sound"
+     },
+     {
+      "key": "P2",
+      "text": "Strong, effective coughing with good air movement"
+     },
+     {
+      "key": "P3",
+      "text": "Cyanosis or color change with severe obstruction signs"
+     },
+     {
+      "key": "P4",
+      "text": "Quiet comfortable play with normal feeding"
+     },
+     {
+      "key": "P5",
+      "text": "Afebrile ear tugging without respiratory distress"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K2",
+    "actions": [
+     "A1",
+     "A4"
+    ],
+    "parameters": [
+     "P1",
+     "P3"
+    ]
+   },
+   "rationales": {
+    "K1": "Incorrect. Mild FBAO allows effective cough/sounds; this infant cannot cry effectively (AHA/AAP; Merck).",
+    "K2": "Correct. Severe infant FBAO: cannot cry effectively, weak cough, cyanosis (AHA/AAP; Merck).",
+    "K3": "Incorrect. Presentation matches severe FBAO, not simple congestion.",
+    "K4": "Incorrect. Severe signs are present now.",
+    "A1": "Correct. Activate EMS and cycles of 5 back blows + 5 chest thrusts (AHA/AAP; Merck).",
+    "A2": "Incorrect. Abdominal thrusts not recommended in infants (AHA/AAP).",
+    "A3": "Incorrect. Severe FBAO requires immediate intervention (AHA/AAP; Merck).",
+    "A4": "Correct. If unresponsive, start CPR with compressions; remove visible object when opening airway (AHA/AAP).",
+    "A5": "Incorrect. Fluids do not relieve FBAO and delay care.",
+    "P1": "Correct. Inability to cry/make sound indicates severe obstruction (AHA/AAP; Merck).",
+    "P2": "Incorrect. Strong effective cough suggests mild FBAO — observe rather than force relief maneuvers (AHA/AAP; Merck).",
+    "P3": "Correct. Cyanosis/color change is a severe obstruction sign (AHA/AAP; Merck).",
+    "P4": "Incorrect. Not consistent with severe FBAO.",
+    "P5": "Incorrect. Ear tugging without distress does not identify this airway emergency."
+   },
+   "specialty": "Pediatrics",
+   "topic": "NGN bowtie — infant severe FBAO recognition and back-blow/chest-thrust relief",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "ngn-bowtie-infant-severe-fbao-back-blows-chest-thrusts",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-d886d716) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHA/AAP: severe FBAO signs; infant 5+5; CPR if unresponsive; no abdominal thrusts. Merck: severe signs and back blows/chest thrusts"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Part 6: Pediatric Basic Life Support",
+     "publisher": "American Heart Association / American Academy of Pediatrics",
+     "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-basic-life-support",
+     "section": "Foreign-Body Airway Obstruction",
+     "source_date": "Updated December 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Condition, actions, parameters",
+     "evidence": "Severe vs mild FBAO; infant 5 back blows + 5 chest thrusts; CPR if unresponsive.",
+     "added_by": "author"
+    },
+    {
+     "title": "How To Treat the Choking Conscious Infant",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/critical-care-medicine/how-to-do-basic-airway-procedures/how-to-treat-the-choking-conscious-infant",
+     "section": "Indications; Procedure",
+     "source_date": "Last updated: Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Condition, actions, parameters",
+     "evidence": "Severe obstruction signs; back blows and chest thrusts.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B36-WAVE27",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-SIPC-0029",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "meningococcal",
+    "chemoprophylaxis",
+    "community",
+    "SIPC"
+   ],
+   "stem": "A client is hospitalized with invasive meningococcal disease. Which action best protects close contacts?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Offer recommended antibiotic chemoprophylaxis to close contacts (for example household contacts and others with unprotected exposure to respiratory secretions) as directed by public health/clinician guidance."
+    },
+    {
+     "key": "B",
+     "text": "Tell household contacts that antibiotics are never used after meningococcal exposure."
+    },
+    {
+     "key": "C",
+     "text": "Advise casual hallway passersby with no close contact that they all require the same immediate chemoprophylaxis as household members."
+    },
+    {
+     "key": "D",
+     "text": "Wait until the index client finishes a full month of therapy before considering any contact measures."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: close contacts should receive prophylactic antibiotics. CDC isolation appendix: postexposure chemoprophylaxis for household contacts and HCWs exposed to respiratory secretions.",
+    "B": "Incorrect. Chemoprophylaxis is recommended for close contacts (Merck; CDC).",
+    "C": "Incorrect. Prophylaxis targets close contacts/unprotected respiratory exposure, not all casual contacts (Merck; CDC).",
+    "D": "Incorrect. Close-contact prophylaxis is timely after exposure; do not delay for a month (Merck; CDC)."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Meningococcal disease — antibiotic chemoprophylaxis for close contacts",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "meningococcal-close-contact-antibiotic-chemoprophylaxis",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-d886d716) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Meningococcal Prevention: close contacts receive prophylactic antibiotic. CDC Appendix A: postexposure chemoprophylaxis for household contacts/HCWs exposed to respiratory secretions"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Meningococcal Diseases",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/gram-negative-cocci-and-coccobacilli/meningococcal-diseases",
+     "section": "Prevention — Antibiotic prophylaxis",
+     "source_date": "Last updated: Dec 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Close contacts should receive a prophylactic antibiotic.",
+     "added_by": "author"
+    },
+    {
+     "title": "Appendix A: Type and Duration of Precautions",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html",
+     "section": "Meningococcal disease comments",
+     "source_date": "Updated: September 11, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key and distractors",
+     "evidence": "Postexposure chemoprophylaxis for household contacts; HCWs exposed to respiratory secretions.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B36-WAVE27",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-MOC-0048",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "medication-reconciliation",
+    "transitions",
+    "gerontology",
+    "leadership",
+    "MOC"
+   ],
+   "stem": "An older adult is being transferred from hospital to a skilled nursing facility. Which nursing action best reduces medication-related harm during the transition?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Perform medication reconciliation — identify and communicate an accurate list of current medications (name, dose, frequency, route) and resolve discrepancies at the handoff."
+    },
+    {
+     "key": "B",
+     "text": "Omit the medication list from the transfer so the receiving nurse can rediscover drugs by trial and error."
+    },
+    {
+     "key": "C",
+     "text": "Stop all chronic medications without review because hospitalization always eliminates every prior indication."
+    },
+    {
+     "key": "D",
+     "text": "Rely only on the client's memory for high-alert drug doses and skip verification with the record."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: inadequate communication at care transitions is a major cause of adverse drug effects; medication reconciliation at admission/discharge/other transitions can prevent many problems. AHRQ MATCH toolkit: medication reconciliation at transitions and clinical handoffs.",
+    "B": "Incorrect. Omitting the list increases transition errors (Merck; AHRQ).",
+    "C": "Incorrect. Ongoing need should be reevaluated, not blindly stopped without reconciliation (Merck).",
+    "D": "Incorrect. Reconciliation uses a verified current list, not memory alone (Merck; AHRQ)."
+   },
+   "specialty": "Gerontology",
+   "topic": "Medication reconciliation at care transitions to prevent adverse drug events",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "med-reconciliation-care-transitions-older-adults",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-d886d716) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Medication-Related Problems: poor communication at transitions; med reconciliation prevents ADEs. AHRQ MATCH toolkit: med reconciliation at transitions/handoffs"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Medication-Related Problems in Older Adults",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/geriatrics/pharmacologic-therapy-in-older-adults/medication-related-problems-in-older-adults",
+     "section": "Poor communication; Ongoing — medication reconciliation",
+     "source_date": "Last updated: Apr 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Transition communication failures cause ADEs; medication reconciliation at transitions.",
+     "added_by": "author"
+    },
+    {
+     "title": "Medications at Transitions and Clinical Handoffs (MATCH) Toolkit",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/patient-safety/settings/hospital/match/index.html",
+     "section": "Toolkit overview — medication reconciliation",
+     "source_date": "last reviewed April 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key",
+     "evidence": "MATCH toolkit for medication reconciliation at transitions and clinical handoffs.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B36-WAVE27",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-MOC-0049",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "TeamSTEPPS",
+    "call-out",
+    "closed-loop",
+    "leadership",
+    "MOC"
+   ],
+   "stem": "During a rapid response, the team lead needs to share critical information with everyone at once and assign a named person to act. Which TeamSTEPPS tool fits best?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Call-out — communicate important or critical information to all team members simultaneously, help them anticipate next steps, and direct responsibility by name to the person accountable for the task."
+    },
+    {
+     "key": "B",
+     "text": "Remain silent so no one hears vital changes until after the event."
+    },
+    {
+     "key": "C",
+     "text": "Send only an unsigned sticky note without confirming who will act."
+    },
+    {
+     "key": "D",
+     "text": "Whisper to one person while others continue unaware of the critical change."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. AHRQ TeamSTEPPS: a call-out communicates important/critical information, informs all members simultaneously, helps anticipate next steps, and directs responsibility by name. Closed-loop communication uses call-outs (with check-backs/teach-back). OpenStax: TeamSTEPPS is an AHRQ teamwork/communication framework nurses use to enhance performance and safety.",
+    "B": "Incorrect. TeamSTEPPS emphasizes timely critical communication (AHRQ).",
+    "C": "Incorrect. Call-outs direct accountability to a named individual (AHRQ).",
+    "D": "Incorrect. Call-outs inform the whole team simultaneously (AHRQ)."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "TeamSTEPPS call-out — critical info to all; named accountability",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "teamstepps-call-out-critical-info-named-accountability",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-d886d716) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ Communication overview Call-Out definition; AHRQ Closed-Loop lists call-outs. OpenStax Med-Surg 6.2: TeamSTEPPS AHRQ communication/teamwork framework"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Section 1: Overview of Key Concepts and Tools",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/overview/index.html",
+     "section": "Communication Tools — Call-Out; Closed-Loop Communication",
+     "source_date": "last reviewed June 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key and distractors",
+     "evidence": "Call-out: critical info to all; anticipate next steps; direct responsibility by name.",
+     "added_by": "author"
+    },
+    {
+     "title": "6.2 Effective Communication in the Nurse-Patient Relationship",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/6-2-effective-communication-in-the-nurse-patient-relationship",
+     "section": "TeamSTEPPS",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key concordance",
+     "evidence": "TeamSTEPPS is AHRQ/DoD teamwork and communication training used to enhance teamwork and patient outcomes.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B36-WAVE27",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric"
+   ],
+   "id": "ONRN-RRP-0041",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "appendicitis",
+    "pediatrics",
+    "abdominal-pain",
+    "RRP"
+   ],
+   "stem": "An adolescent reports abdominal pain that began near the umbilicus with anorexia and nausea and later settled in the right lower quadrant. Which condition does this classic pattern most strongly suggest?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Acute appendicitis"
+    },
+    {
+     "key": "B",
+     "text": "Uncomplicated seasonal allergic rhinitis alone"
+    },
+    {
+     "key": "C",
+     "text": "Simple tension headache without abdominal findings"
+    },
+    {
+     "key": "D",
+     "text": "Stable healed fracture of a finger"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: classic acute appendicitis — epigastric/periumbilical pain followed by nausea/vomiting/anorexia, then pain shifts to the right lower quadrant. OpenStax: appendicitis presents with right lower quadrant or periumbilical pain; anorexia, nausea, vomiting.",
+    "B": "Incorrect. Allergic rhinitis does not explain this abdominal pain pattern.",
+    "C": "Incorrect. Headache alone does not match the described abdominal progression.",
+    "D": "Incorrect. Irrelevant musculoskeletal finding."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Appendicitis — periumbilical pain shifting to right lower quadrant with anorexia/nausea",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "appendicitis-periumbilical-to-rlq-anorexia-nausea",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-d886d716) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Appendicitis Symptoms: periumbilical then RLQ with anorexia/nausea. OpenStax Med-Surg 19.5: RLQ or periumbilical pain; anorexia, nausea, vomiting"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Appendicitis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gastrointestinal-disorders/acute-abdomen-and-surgical-gastroenterology/appendicitis",
+     "section": "Symptoms and Signs of Appendicitis",
+     "source_date": "Last updated: Jul 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Epigastric/periumbilical pain then RLQ; anorexia, nausea, vomiting.",
+     "added_by": "author"
+    },
+    {
+     "title": "19.5 Disorders of the Lower GI System",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-5-disorders-of-the-lower-gi-system",
+     "section": "Appendicitis — Clinical Manifestations",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key",
+     "evidence": "RLQ or periumbilical pain; anorexia, nausea, vomiting.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B36-WAVE27",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric"
+   ],
+   "id": "ONRN-SIPC-0030",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "pediculosis",
+    "lice",
+    "contact-precautions",
+    "SIPC",
+    "pediatrics"
+   ],
+   "stem": "A child is admitted with active head lice infestation requiring inpatient care. Which transmission-based precaution plan is appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Contact Precautions plus Standard Precautions until 24 hours after initiation of effective therapy."
+    },
+    {
+     "key": "B",
+     "text": "Airborne infection isolation with N95 for all staff indefinitely, regardless of treatment."
+    },
+    {
+     "key": "C",
+     "text": "No precautions beyond open cohorting with immunocompromised roommates."
+    },
+    {
+     "key": "D",
+     "text": "Droplet Precautions only, without considering contact measures for lice."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC Appendix A: Pediculosis (lice) — Contact + Standard until 24 hours after initiation of effective therapy. Merck: head lice transmitted by close contact; treat with topical pediculicides.",
+    "B": "Incorrect. Lice are not managed with indefinite airborne isolation (CDC lists Contact + Standard for pediculosis).",
+    "C": "Incorrect. Contact Precautions are indicated until 24 hours after effective therapy begins (CDC).",
+    "D": "Incorrect. CDC specifies Contact + Standard for pediculosis, not Droplet-only."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Pediculosis — Contact Precautions until 24 hours after effective therapy",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "pediculosis-contact-precautions-until-24h-therapy",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-d886d716) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Appendix A Pediculosis: Contact+Standard until 24h after effective therapy. Merck Lice: close-contact transmission; topical treatment"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Appendix A: Type and Duration of Precautions",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html",
+     "section": "Pediculosis (lice)",
+     "source_date": "Updated: September 11, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key and distractors",
+     "evidence": "Contact + Standard until 24 hours after initiation of effective therapy.",
+     "added_by": "author"
+    },
+    {
+     "title": "Lice (Pediculosis)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/dermatologic-disorders/parasitic-skin-infections/lice",
+     "section": "Head lice — transmission and treatment",
+     "source_date": "Last updated: Nov 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key concordance",
+     "evidence": "Head lice transmitted by close contact; topical pediculicide treatment.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B36-WAVE27",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric",
+    "emergency"
+   ],
+   "id": "ONRN-RRP-0042",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "tags": [
+    "postoperative",
+    "hemorrhage",
+    "tonsillectomy",
+    "pediatrics",
+    "RRP",
+    "SATA"
+   ],
+   "stem": "A child is in the PACU after tonsillectomy. Which nursing actions help detect postoperative hemorrhage early? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Monitor vital signs and oxygen saturation for hypotension, tachycardia, or other instability."
+    },
+    {
+     "key": "B",
+     "text": "Assess the surgical site and dressings/drainage for bleeding, including hidden pooling."
+    },
+    {
+     "key": "C",
+     "text": "Notify the surgical team promptly if hemorrhage is suspected and prepare for ordered interventions."
+    },
+    {
+     "key": "D",
+     "text": "Assume bright red continuous bleeding is expected and never reassess the wound."
+    },
+    {
+     "key": "E",
+     "text": "Skip circulation checks because bleeding never occurs after tonsillectomy."
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax Fundamentals: PACU nurse monitors for hypotension, shock, and hemorrhage using vital signs/oxygenation. Merck postop: monitor hemodynamic status.",
+    "B": "Correct. OpenStax: frequent wound checks for drainage/pooling reveal bleeding. Merck: check wound for increasing drainage/infection signs.",
+    "C": "Correct. OpenStax: if hemorrhaging, notify charge/surgeon/anesthesia and prepare fluids/blood products/possible return to OR.",
+    "D": "Incorrect. Continuous bright bleeding requires reassessment and escalation (OpenStax hemorrhage intervention).",
+    "E": "Incorrect. Hemorrhage is a key PACU risk to monitor after surgery, including tonsillectomy scenarios (OpenStax)."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Post-tonsillectomy PACU — monitor vitals/wound for hemorrhage and escalate",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "post-tonsillectomy-pacu-hemorrhage-vitals-wound-escalate",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-d886d716) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Fundamentals 31.4: monitor hypotension/shock/hemorrhage; wound checks; notify surgeon and prepare fluids/OR. Merck Postoperative Care: hemodynamic monitoring; wound drainage assessment"
+    }
+   ],
+   "sources": [
+    {
+     "title": "31.4 Postoperative Phase",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/31-4-postoperative-phase",
+     "section": "PACU monitoring; Intervening in Hemorrhage; Pediatric tonsillectomy scenario",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A–C and distractors",
+     "evidence": "Monitor for hemorrhage; wound checks; notify surgeon; prepare fluids/return to OR.",
+     "added_by": "author"
+    },
+    {
+     "title": "Postoperative Care",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/special-subjects/care-of-the-surgical-patient/postoperative-care",
+     "section": "Fluids and hemodynamic status; Wound care",
+     "source_date": "Last updated: Jun 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A–B",
+     "evidence": "Monitor hemodynamic status; assess wound drainage/infection signs.",
+     "added_by": "author"
+    }
+   ]
+  }
+ ],
+ "excluded_items": [
+  {
+   "draft_topic": "Wilms tumor — avoid repeated abdominal palpation as sole keyed teaching",
+   "reason": "Merck/OpenStax confirm mass presentation and biopsy risk but do not dual-cite a nursing 'never palpate' rule clearly enough; excluded for accuracy."
+  },
+  {
+   "draft_topic": "AGS Beers Criteria item as standalone with JAGS full text",
+   "reason": "AGS journal fetch 403; avoided single-publisher Beers-only item. Used med reconciliation (Merck+AHRQ) instead."
+  },
+  {
+   "draft_topic": "Varicella airborne+contact until crusted",
+   "reason": "Enemy group already covered in compiled bank."
+  },
+  {
+   "draft_topic": "Pertussis droplet until 5 days antibiotics",
+   "reason": "Enemy group already covered."
+  },
+  {
+   "draft_topic": "Severe hypoglycemia glucagon if unconscious",
+   "reason": "Enemy group already covered."
+  },
+  {
+   "draft_topic": "Infant choking abdominal thrusts myth as calculation item",
+   "reason": "Not a calculation; covered as MC + bowtie instead."
+  }
+ ],
+ "notes": "IDs continue from wave 26 maxima (HPM≤38, PSY≤29, PPT≤41, PA≤57, RRP≤40, MOC≤47, BCC≤22, SIPC≤28). All items Source verified by author live fetch only; not clinically reviewed. Keep import script Prisma.InputJsonValue casts with static import type { Prisma } unchanged. Accuracy over volume."
+}
