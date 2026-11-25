@@ -1,0 +1,1433 @@
+{
+ "batch_id": "B34-WAVE25",
+ "author": "AI author (Composer, Cursor subagent bc-de3d7da4) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 25 multi-exam depth — underrepresented specialties (Community/Public Health, Pediatrics, Gerontology, Leadership/Management, Maternity/Newborn, Mental Health, Critical Care/Emergency) plus NGN matrix/cloze/bowtie; dual-cited originals only.",
+ "items": [
+  {
+   "batch": "B34-WAVE25",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-de3d7da4) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: LTBI asymptomatic and not infectious; active pulmonary TB contagious via airborne droplet nuclei. OpenStax Population Health: LTBI no symptoms/cannot transmit; active TB highly contagious with cough/fever/night sweats"
+    }
+   ],
+   "review_flags": [],
+   "id": "ONRN-HPM-0035",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "TB",
+    "LTBI",
+    "community",
+    "NGN",
+    "matrix",
+    "HPM"
+   ],
+   "stem": "A public health nurse teaches a community group about tuberculosis. For each statement, select Accurate or Not accurate.",
+   "ngn": {
+    "columns": [
+     "Accurate",
+     "Not accurate"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Latent TB infection (LTBI) means the person has M. tuberculosis but is not ill and cannot transmit TB to others"
+     },
+     {
+      "key": "R2",
+      "text": "Active pulmonary TB disease can be contagious and is spread by airborne droplet nuclei from cough or similar respiratory force"
+     },
+     {
+      "key": "R3",
+      "text": "Everyone with a positive TB skin or blood test is highly contagious and must be placed in airborne isolation indefinitely without further evaluation"
+     },
+     {
+      "key": "R4",
+      "text": "Active TB disease may cause cough, fever, night sweats, weight loss, and other symptoms and requires treatment"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Accurate",
+    "R2": "Accurate",
+    "R3": "Not accurate",
+    "R4": "Accurate"
+   },
+   "rationales": {
+    "R1": "Accurate. Merck: LTBI is asymptomatic and not infectious. OpenStax: LTBI — no symptoms; cannot transmit the bacteria.",
+    "R2": "Accurate. Merck: TB is transmitted almost exclusively by inhalation of airborne particles (droplet nuclei) from people with active pulmonary TB. OpenStax: active TB is highly contagious via airborne transmission.",
+    "R3": "Not accurate. A positive test indicates infection but further evaluation distinguishes LTBI from active disease; LTBI is not contagious (Merck; OpenStax).",
+    "R4": "Accurate. Merck and OpenStax list cough, fever, night sweats, weight loss among active TB symptoms; active disease requires treatment."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "NGN matrix — latent TB not infectious vs active TB contagious teaching",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ngn-matrix-ltbi-not-infectious-vs-active-tb-airborne",
+   "sources": [
+    {
+     "title": "Tuberculosis (TB)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/mycobacteria/tuberculosis-tb",
+     "section": "Pathophysiology — Latent TB infection; Etiology — transmission",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "LTBI asymptomatic and not infectious; airborne droplet nuclei transmit active TB.",
+     "added_by": "author"
+    },
+    {
+     "title": "13.2 Types of Infectious Disease Outbreaks",
+     "publisher": "OpenStax — Population Health for Nurses",
+     "url": "https://openstax.org/books/population-health/pages/13-2-types-of-infectious-disease-outbreaks",
+     "section": "Tuberculosis — Table 13.3 LTBI vs TB disease",
+     "source_date": "May 15, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "LTBI: no symptoms, cannot transmit; active TB highly contagious with cough/fever/night sweats.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B34-WAVE25",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-de3d7da4) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: if elder abuse suspected, interview patient alone at least part of time; refer to Adult Protective Services when identified/suspected. OpenStax: report suspected abuse to adult protective services/ombudsman/police; listen to older adults"
+    }
+   ],
+   "review_flags": [],
+   "id": "ONRN-PSY-0026",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "elder-abuse",
+    "gerontology",
+    "safety",
+    "PSY"
+   ],
+   "stem": "An older adult arrives with unexplained bruises in several stages of healing and appears fearful when the caregiver answers for them. Which nursing action is the priority first step when elder abuse is suspected?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Interview the older adult alone (at least for part of the encounter) using private, direct questions about safety and possible mistreatment, and follow mandatory reporting pathways (e.g., adult protective services) when abuse is suspected or identified."
+    },
+    {
+     "key": "B",
+     "text": "Allow only the caregiver to provide the entire history and never speak with the older adult privately."
+    },
+    {
+     "key": "C",
+     "text": "Ignore bruising because all older adults bruise easily and never document findings."
+    },
+    {
+     "key": "D",
+     "text": "Confront the caregiver angrily in front of the client and refuse any further assessment."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: if elder abuse is suspected, interview the patient alone at least part of the time and ask direct questions; referral to Adult Protective Services is required in most jurisdictions when abuse is identified or suspected. OpenStax: report suspected elder abuse to adult protective services (or equivalent) and listen to older adults.",
+    "B": "Incorrect. Merck warns caregiver reluctance to leave the older adult alone with a clinician is concerning; private interview is essential.",
+    "C": "Incorrect. Unexplained injuries and inconsistent histories are red flags requiring assessment and documentation (Merck).",
+    "D": "Incorrect. Merck advises avoiding confrontation that escalates risk; structured private assessment and reporting are required."
+   },
+   "specialty": "Gerontology",
+   "topic": "Elder abuse — private interview and mandatory protective-services reporting",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "elder-abuse-interview-alone-report-aps",
+   "sources": [
+    {
+     "title": "Elder Abuse",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/geriatrics/elder-abuse/elder-abuse",
+     "section": "Diagnosis — History; Physical examination",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Interview alone if abuse suspected; refer to Adult Protective Services when identified/suspected.",
+     "added_by": "author"
+    },
+    {
+     "title": "26.5 Older Adult Health",
+     "publisher": "OpenStax — Population Health for Nurses",
+     "url": "https://openstax.org/books/population-health/pages/26-5-older-adult-health",
+     "section": "Elder abuse — mechanisms nurses can use to prevent",
+     "source_date": "May 15, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Report abuse or suspected abuse to adult protective services, ombudsmen, or police; listen to older adults.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B34-WAVE25",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-de3d7da4) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: corticosteroids for fetal benefit ~24–34 weeks; tocolytics may delay labor ≥48h to allow steroids; MgSO4 neuroprotection <32 weeks. OpenStax: corticosteroids (betamethasone/dexamethasone) before 34 weeks promote fetal lung maturity/surfactant"
+    }
+   ],
+   "review_flags": [
+    "maternity-newborn"
+   ],
+   "id": "ONRN-PPT-0041",
+   "format": "drop_down_cloze",
+   "scoring_model": "zero_one",
+   "tags": [
+    "preterm-labor",
+    "corticosteroids",
+    "NGN",
+    "cloze",
+    "PPT",
+    "maternity"
+   ],
+   "stem": "A client at 30 weeks gestation is in preterm labour. Complete the teaching/plan: Antenatal {B1} are given primarily to promote {B2}, and short-term tocolysis may be used mainly to {B3}.",
+   "ngn": {
+    "template": "A client at 30 weeks gestation is in preterm labour. Complete the teaching/plan: Antenatal {B1} are given primarily to promote {B2}, and short-term tocolysis may be used mainly to {B3}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "corticosteroids (e.g., betamethasone or dexamethasone)"
+      },
+      {
+       "key": "B1b",
+       "text": "high-dose vitamin C only"
+      },
+      {
+       "key": "B1c",
+       "text": "routine antitussives"
+      },
+      {
+       "key": "B1d",
+       "text": "topical antifungal cream only"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "fetal lung maturity / reduce neonatal respiratory distress risk"
+      },
+      {
+       "key": "B2b",
+       "text": "maternal hair growth"
+      },
+      {
+       "key": "B2c",
+       "text": "elective induction at 28 weeks without indication"
+      },
+      {
+       "key": "B2d",
+       "text": "immediate permanent sterilization"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "gain time (often ~48 hours) for corticosteroids to take effect before birth"
+      },
+      {
+       "key": "B3b",
+       "text": "replace the need for any neonatal resuscitation planning"
+      },
+      {
+       "key": "B3c",
+       "text": "guarantee delivery will never occur preterm"
+      },
+      {
+       "key": "B3d",
+       "text": "stop all fetal monitoring permanently"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a"
+   },
+   "rationales": {
+    "B1a": "Correct. Merck and OpenStax: antenatal corticosteroids are standard when preterm birth is anticipated in the eligible gestational window.",
+    "B1b": "Incorrect. Vitamin C is not the antenatal therapy that accelerates fetal lung maturity in preterm labour.",
+    "B1c": "Incorrect. Antitussives are unrelated to fetal lung maturation.",
+    "B1d": "Incorrect. Topical antifungals do not promote fetal surfactant/lung maturity.",
+    "B2a": "Correct. OpenStax: corticosteroids promote fetal lung maturity/surfactant and reduce RDS risk; Merck: corticosteroids given in the preterm window for fetal benefit.",
+    "B2b": "Incorrect. Not a fetal lung indication.",
+    "B2c": "Incorrect. Goal is fetal maturation, not elective early induction.",
+    "B2d": "Incorrect. Unrelated to antenatal corticosteroid purpose.",
+    "B3a": "Correct. Merck: tocolytics can usually delay labour for at least 48 hours so corticosteroids can be given.",
+    "B3b": "Incorrect. Tocolysis does not eliminate need for neonatal preparedness.",
+    "B3c": "Incorrect. Tocolysis does not permanently prevent preterm birth.",
+    "B3d": "Incorrect. Monitoring continues; tocolysis is time-limited bridge therapy."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "NGN cloze — preterm labour antenatal corticosteroids for fetal lung maturity",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ngn-cloze-preterm-antenatal-corticosteroids-lung-maturity",
+   "sources": [
+    {
+     "title": "Preterm Labor",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/antenatal-complications/preterm-labor",
+     "section": "Treatment — Tocolytics; Corticosteroids",
+     "source_date": "Last updated: Jul 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Corticosteroids in preterm window; tocolytics may delay labor ≥48 hours for steroid benefit.",
+     "added_by": "author"
+    },
+    {
+     "title": "12.2 Conditions Limited to Pregnancy",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+     "section": "Preterm Labor — Corticosteroid Medications",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Betamethasone/dexamethasone before 34 weeks promote fetal lung maturity and reduce RDS risk.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B34-WAVE25",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-de3d7da4) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: uterine tenderness, fever, malaise, possible foul discharge; treat with broad-spectrum antibiotics; higher after cesarean. OpenStax: uterine tenderness/pain, foul lochia, fever; administer antibiotics; monitor for sepsis"
+    }
+   ],
+   "review_flags": [
+    "maternity-newborn"
+   ],
+   "id": "ONRN-PA-0052",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "tags": [
+    "endometritis",
+    "postpartum",
+    "infection",
+    "SATA",
+    "PA",
+    "maternity"
+   ],
+   "stem": "A client on postpartum day 2 after cesarean birth has fever, uterine tenderness, and foul-smelling lochia. Which nursing actions are appropriate? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Notify the provider and anticipate ordered broad-spectrum antibiotic therapy"
+    },
+    {
+     "key": "B",
+     "text": "Monitor vital signs and assess for worsening infection or early sepsis cues"
+    },
+    {
+     "key": "C",
+     "text": "Document uterine tenderness, lochia characteristics, and fever trend"
+    },
+    {
+     "key": "D",
+     "text": "Reassure that fever and foul lochia after cesarean never require evaluation"
+    },
+    {
+     "key": "E",
+     "text": "Withhold all assessment of the fundus and discharge home without follow-up teaching"
+    },
+    {
+     "key": "F",
+     "text": "Teach the client to report increasing pain, rising fever, or worsening foul discharge"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "F"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: treatment is broad-spectrum antibiotics; OpenStax: nurse administers ordered antibiotics for endometritis.",
+    "B": "Correct. OpenStax: monitor for worsening infection/sepsis; Merck notes potential progression to severe infection.",
+    "C": "Correct. Both sources describe fever, uterine tenderness, and abnormal/foul discharge as key findings to track.",
+    "D": "Incorrect. These findings indicate postpartum endometritis needing prompt evaluation/treatment (Merck; OpenStax).",
+    "E": "Incorrect. Assessment and teaching are required; endometritis can progress (OpenStax).",
+    "F": "Correct. OpenStax discharge teaching includes contacting the provider for worsening infection signs."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Postpartum endometritis — antibiotics, monitoring, and warning-sign teaching",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "postpartum-endometritis-antibiotics-monitor-sepsis-teaching",
+   "sources": [
+    {
+     "title": "Postpartum Endometritis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/postpartum-care-and-associated-disorders/postpartum-endometritis",
+     "section": "Symptoms and Signs; Treatment",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Fever, uterine tenderness, malaise, possible foul discharge; broad-spectrum antibiotics.",
+     "added_by": "author"
+    },
+    {
+     "title": "21.1 Postpartum Infections",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/21-1-postpartum-infections",
+     "section": "Care of the Postpartum Person with Endometritis",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Uterine tenderness, foul lochia, fever; antibiotics; monitor for sepsis; teach warning signs.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B34-WAVE25",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-de3d7da4) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: DKA treatment volume expansion, insulin replacement, prevent hypokalemia. OpenStax: IV insulin, aggressive IV fluids, monitor/correct electrolytes especially potassium"
+    }
+   ],
+   "review_flags": [
+    "emergency",
+    "high-alert-medication"
+   ],
+   "id": "ONRN-PA-0053",
+   "format": "bowtie",
+   "scoring_model": "zero_one",
+   "tags": [
+    "DKA",
+    "insulin",
+    "fluids",
+    "NGN",
+    "bowtie",
+    "PA"
+   ],
+   "stem": "A young adult with type 1 diabetes presents with nausea, vomiting, Kussmaul respirations, glucose markedly elevated, and anion-gap metabolic acidosis. Complete the bowtie: priority condition, two actions, and two parameters to monitor.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Diabetic ketoacidosis (DKA) with hyperglycemia, ketosis, and metabolic acidosis"
+     },
+     {
+      "key": "K2",
+      "text": "Uncomplicated seasonal allergic rhinitis"
+     },
+     {
+      "key": "K3",
+      "text": "Isolated cerumen impaction"
+     },
+     {
+      "key": "K4",
+      "text": "Stable euglycemia without acid-base disturbance"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Initiate ordered IV fluid volume resuscitation and continuous IV insulin per protocol"
+     },
+     {
+      "key": "A2",
+      "text": "Monitor and replace potassium as ordered while insulin/fluids are given"
+     },
+     {
+      "key": "A3",
+      "text": "Withhold all fluids and insulin because hyperglycemia is always self-limited"
+     },
+     {
+      "key": "A4",
+      "text": "Discharge home immediately without laboratory follow-up"
+     },
+     {
+      "key": "A5",
+      "text": "Encourage unsupervised intense exercise before treatment"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "Blood glucose trend and resolution of acidosis/ketosis"
+     },
+     {
+      "key": "P2",
+      "text": "Serum potassium and cardiac/neurologic status during insulin and fluid therapy"
+     },
+     {
+      "key": "P3",
+      "text": "Only hair colour changes"
+     },
+     {
+      "key": "P4",
+      "text": "Only shoe size"
+     },
+     {
+      "key": "P5",
+      "text": "Only preferred music genre"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K1",
+    "actions": [
+     "A1",
+     "A2"
+    ],
+    "parameters": [
+     "P1",
+     "P2"
+    ]
+   },
+   "rationales": {
+    "K1": "Correct. Merck/OpenStax: DKA features hyperglycemia with ketonemia/acidosis; clinical picture matches.",
+    "K2": "Incorrect. Allergic rhinitis does not explain ketoacidosis.",
+    "K3": "Incorrect. Unrelated to metabolic emergency.",
+    "K4": "Incorrect. Client has marked hyperglycemia and acidosis.",
+    "A1": "Correct. Merck: volume expansion and insulin replacement; OpenStax: aggressive IV fluids and IV insulin.",
+    "A2": "Correct. Merck: prevent hypokalemia; OpenStax: monitor/correct potassium especially during treatment.",
+    "A3": "Incorrect. DKA requires prompt fluids and insulin (both sources).",
+    "A4": "Incorrect. DKA is an ICU/emergency condition needing monitored therapy.",
+    "A5": "Incorrect. Exercise is not initial DKA management.",
+    "P1": "Correct. Therapy is titrated to glucose and clearing of ketoacidosis (both sources).",
+    "P2": "Correct. Potassium shifts with insulin; both sources emphasize potassium monitoring.",
+    "P3": "Incorrect. Not a DKA monitoring parameter.",
+    "P4": "Incorrect. Not clinically relevant here.",
+    "P5": "Incorrect. Not clinically relevant here."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN bowtie — DKA fluids, IV insulin, and potassium monitoring",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "ngn-bowtie-dka-iv-fluids-insulin-potassium",
+   "sources": [
+    {
+     "title": "Acute Complications of Diabetes Mellitus — Diabetic Ketoacidosis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/diabetes-mellitus-and-hypoglycemia/acute-complications-of-diabetes-mellitus",
+     "section": "Diabetic Ketoacidosis — Treatment",
+     "source_date": "Last updated: May 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Treatment: volume expansion, insulin replacement, prevention of hypokalemia.",
+     "added_by": "author"
+    },
+    {
+     "title": "21.2 Diabetes Mellitus",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-2-diabetes-mellitus",
+     "section": "Table 21.6 DKA treatment",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "IV insulin, aggressive IV fluid hydration, monitor/correct electrolytes especially potassium.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B34-WAVE25",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-de3d7da4) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: serious fluid/electrolyte disturbances especially hypokalemia; measure electrolytes. OpenStax: hypokalemia/arrhythmia risk; daily labs and electrolyte replacement; monitor after meals to prevent purging"
+    }
+   ],
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "id": "ONRN-PSY-0027",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "bulimia",
+    "hypokalemia",
+    "electrolytes",
+    "PSY"
+   ],
+   "stem": "A client with bulimia nervosa who induces vomiting after binge episodes reports palpitations. Which nursing priority is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Obtain ordered electrolyte laboratory studies (especially potassium), monitor cardiac status, and support supervised nutrition/anti-purging interventions while notifying the provider of concerning findings."
+    },
+    {
+     "key": "B",
+     "text": "Encourage unsupervised intense laxative use after every meal."
+    },
+    {
+     "key": "C",
+     "text": "Ignore palpitations because electrolyte imbalance never occurs in bulimia."
+    },
+    {
+     "key": "D",
+     "text": "Withhold all vital signs and laboratory monitoring permanently."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: serious electrolyte disturbances, especially hypokalemia, can occur; measure electrolytes. OpenStax: hypokalemia and arrhythmia risk; interventions include labs, electrolyte replacement, and interrupting purging.",
+    "B": "Incorrect. Laxative misuse worsens fluid/electrolyte imbalance (both sources describe purging harms).",
+    "C": "Incorrect. Hypokalemia is a recognized complication (Merck; OpenStax).",
+    "D": "Incorrect. Monitoring labs and cardiac status is essential (OpenStax care plan)."
+   },
+   "specialty": "Mental Health",
+   "topic": "Bulimia nervosa — electrolyte (hypokalemia) and cardiac monitoring priority",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "bulimia-hypokalemia-electrolyte-cardiac-monitoring",
+   "sources": [
+    {
+     "title": "Bulimia Nervosa",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/feeding-and-eating-disorders/bulimia-nervosa",
+     "section": "Complications; Diagnosis",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Serious fluid/electrolyte disturbances especially hypokalemia; laboratory electrolytes.",
+     "added_by": "author"
+    },
+    {
+     "title": "20.4 Bulimia Nervosa",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/20-4-bulimia-nervosa",
+     "section": "Nursing Care Planning; Life-Threatening Complications; Interventions",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Hypokalemia/arrhythmia risk; daily labs and electrolyte replacement; interrupt purging.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B34-WAVE25",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-de3d7da4) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax: remain calm; slow deep breathing; quiet environment; reassure attack will pass; rule out medical causes for chest pain/dyspnea. Merck: panic attack intense fear with somatic symptoms (chest pain, SOB, palpitations); may warrant medical evaluation; not medically dangerous once medical causes excluded; CBT/exposure"
+    }
+   ],
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "id": "ONRN-PSY-0028",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "panic-attack",
+    "anxiety",
+    "PSY"
+   ],
+   "stem": "A client suddenly develops intense fear with palpitations, shortness of breath, and a sense of doom. Immediate ECG and medical evaluation have ruled out acute coronary syndrome and other life-threatening medical causes. Which nursing intervention is most appropriate during the panic attack?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Remain calm, move the client to a quieter less stimulating environment if possible, coach slow deep breathing, and offer brief reassurance that the attack will pass while continuing to monitor."
+    },
+    {
+     "key": "B",
+     "text": "Crowd the client with loud multiple conversations and argue that the fear is imaginary."
+    },
+    {
+     "key": "C",
+     "text": "Leave the client completely alone without observation in an unsafe isolated area."
+    },
+    {
+     "key": "D",
+     "text": "Force the client to sprint immediately to 'burn off' the attack without assessment."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: nurse remains calm, encourages slow deep breathing, offers reassurance, and uses a quiet calm environment. Merck: after medical causes are considered/excluded, panic attacks themselves are not medically dangerous; supportive care and psychotherapy approaches are used.",
+    "B": "Incorrect. OpenStax advises reducing stimuli and remaining calm, not escalating sensory load or arguing.",
+    "C": "Incorrect. Supportive presence and monitoring are indicated during intense symptoms (OpenStax).",
+    "D": "Incorrect. Intense exercise is not the immediate panic-attack nursing intervention described in the sources."
+   },
+   "specialty": "Mental Health",
+   "topic": "Panic attack — calm environment, slow breathing, reassurance after medical rule-out",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "panic-attack-calm-quiet-slow-breathing-reassure",
+   "sources": [
+    {
+     "title": "17.2 Anxiety-Related Disorders",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/17-2-anxiety-related-disorders",
+     "section": "Panic Attack — Nursing Strategies and Interventions",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Remain calm; slow deep breathing; quiet environment; reassure; rule out medical causes.",
+     "added_by": "author"
+    },
+    {
+     "title": "Panic Attacks and Panic Disorder",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/anxiety-and-trauma-and-stressor-related-disorders/panic-attacks-and-panic-disorder",
+     "section": "Symptoms and Signs; Treatment",
+     "source_date": "Last updated: Apr 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Somatic symptoms may prompt medical evaluation; attacks uncomfortable but not medically dangerous; CBT/pharmacotherapy.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B34-WAVE25",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-de3d7da4) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: prevention includes labeling clearly and keeping poisons out of reach of children; advise calling local poison center. OpenStax: store toxic products safely away from children; keep poison control numbers nearby"
+    }
+   ],
+   "review_flags": [
+    "pediatric"
+   ],
+   "id": "ONRN-HPM-0036",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "tags": [
+    "poisoning",
+    "prevention",
+    "pediatrics",
+    "community",
+    "SATA",
+    "HPM"
+   ],
+   "stem": "A nurse teaches caregivers of toddlers about household poisoning prevention. Which instructions are appropriate? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Store medications, cleaning products, and other toxic substances in secure locations out of children's reach"
+    },
+    {
+     "key": "B",
+     "text": "Keep the local poison control centre number readily available and call for advice after a possible poisoning exposure"
+    },
+    {
+     "key": "C",
+     "text": "Leave laundry pods and concentrated cleaners on low open shelves where toddlers play"
+    },
+    {
+     "key": "D",
+     "text": "Assume unlabeled household chemicals are always safe for children to taste"
+    },
+    {
+     "key": "E",
+     "text": "Use clear labeling of medication containers and never transfer poisons into food/drink containers"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: keep poisons out of reach of children. OpenStax: store toxic products safely away from children and pets.",
+    "B": "Correct. Merck: call local poison center for advice; OpenStax: keep poison control numbers nearby and know when to get help.",
+    "C": "Incorrect. Opposite of safe storage guidance (both sources).",
+    "D": "Incorrect. Education includes recognizing toxic household products (OpenStax).",
+    "E": "Correct. Merck emphasizes clear medication labeling as prevention; safe storage/identification prevents accidental ingestion."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Pediatric household poisoning prevention — secure storage and poison control contact",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "pediatric-poisoning-prevention-secure-storage-poison-control",
+   "sources": [
+    {
+     "title": "General Principles of Poisoning",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/poisoning/general-principles-of-poisoning",
+     "section": "Prevention of Poisoning; General principles",
+     "source_date": "Last updated: Mar 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Label medications clearly; keep poisons out of children's reach; call poison center for advice.",
+     "added_by": "author"
+    },
+    {
+     "title": "9.1 Safety: Individual and Environmental",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/9-1-safety-individual-and-environmental",
+     "section": "Risk for Poisoning",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Store toxic products away from children; keep poison control numbers nearby.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B34-WAVE25",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-de3d7da4) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: hypothermia core ≤35°C; mild (32–35°C) passive rewarming with heated blankets and warm fluids. OpenStax Clinical Nursing Skills: hypothermia when temperature <95°F (35°C); OpenStax Fundamentals: dress appropriately / remove cold exposure risk for hypothermia prevention—treatment concordance via Merck passive rewarming + OpenStax definition"
+    }
+   ],
+   "review_flags": [
+    "emergency"
+   ],
+   "id": "ONRN-PA-0054",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "hypothermia",
+    "rewarming",
+    "gerontology",
+    "PA"
+   ],
+   "stem": "An older adult found outdoors has a measured core temperature of 33.5°C, is shivering, and has intact circulation without cardiovascular instability. Which intervention best matches initial management of mild hypothermia?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Begin passive rewarming: move to a warm environment, apply insulating/heated blankets, and provide warm oral fluids if the client can safely swallow, while monitoring core temperature and perfusion."
+    },
+    {
+     "key": "B",
+     "text": "Leave wet cold clothing on and keep the client in a drafty unheated area."
+    },
+    {
+     "key": "C",
+     "text": "Apply ice packs to the trunk to further lower core temperature."
+    },
+    {
+     "key": "D",
+     "text": "Withhold all temperature monitoring because shivering always means normal temperature."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: mild hypothermia (about 32–35°C) with intact thermoregulation is treated with passive rewarming (warm environment, heated blankets, warm fluids). OpenStax Clinical Skills defines hypothermia as core temperature <35°C (95°F), matching this presentation.",
+    "B": "Incorrect. Merck/OpenStax emphasize removing cold exposure and supporting rewarming, not continued heat loss.",
+    "C": "Incorrect. Cooling worsens hypothermia.",
+    "D": "Incorrect. Core temperature guides severity and treatment (Merck Key Points)."
+   },
+   "specialty": "Gerontology",
+   "topic": "Mild hypothermia — passive rewarming with warm environment and blankets",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "mild-hypothermia-passive-rewarming-blankets-warm-fluids",
+   "sources": [
+    {
+     "title": "Hypothermia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/cold-injury/hypothermia",
+     "section": "Treatment — Passive rewarming; Key Points",
+     "source_date": "Last updated: Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Mild hypothermia 32–35°C: passive rewarming with heated blankets and warm fluids.",
+     "added_by": "author"
+    },
+    {
+     "title": "15.4 Temperature",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/15-4-temperature",
+     "section": "The Danger of Low Temperature — hypothermia definition",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Hypothermia when temperature is less than 95°F (35°C).",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B34-WAVE25",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CPS and Merck both support analgesia for AOM and selective observation for nonsevere cases with reliable follow-up.",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-de3d7da4) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: analgesia for all children with AOM (acetaminophen/ibuprofen); observation option for selected nonsevere cases. CPS Caring for Kids: acetaminophen/ibuprofen for pain; wait 24–48h if not too much discomfort/high fever"
+    }
+   ],
+   "review_flags": [
+    "pediatric"
+   ],
+   "id": "ONRN-RRP-0037",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "otitis-media",
+    "analgesia",
+    "pediatrics",
+    "RRP"
+   ],
+   "stem": "A 3-year-old with nonsevere acute otitis media is mildly ill, afebrile to low-grade fever only, and has reliable caregiver follow-up. Which teaching point is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Provide appropriate analgesia (e.g., acetaminophen or ibuprofen as directed) for ear pain, and understand that selected nonsevere cases may be observed for about 24–48 hours with planned reassessment, starting antibiotics if symptoms worsen or fail to improve."
+    },
+    {
+     "key": "B",
+     "text": "Never treat pain because analgesics are never used in ear infections."
+    },
+    {
+     "key": "C",
+     "text": "Immediate IV vancomycin is required for every mild earache without examination."
+    },
+    {
+     "key": "D",
+     "text": "Ignore fever ≥39°C with severe systemic illness because observation is always mandatory."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: analgesia for all children with AOM; observation is an option for selected nonsevere cases with follow-up. CPS Caring for Kids: acetaminophen/ibuprofen for pain; watchful waiting 24–48 hours when illness is not severe, with antibiotics if no improvement or worsening.",
+    "B": "Incorrect. Both sources emphasize treating pain.",
+    "C": "Incorrect. Not first-line for uncomplicated nonsevere AOM (Merck prefers oral amoxicillin when antibiotics are indicated).",
+    "D": "Incorrect. High fever/severe illness warrants prompt antimicrobials (CPS; Merck)."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Acute otitis media — analgesia for all and selective 24–48h observation",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "aom-analgesia-and-selective-watchful-waiting-24-48h",
+   "sources": [
+    {
+     "title": "Otitis Media (Acute)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/ear-nose-and-throat-disorders/middle-ear-and-tympanic-membrane-disorders/otitis-media-acute",
+     "section": "Treatment of Acute Otitis Media",
+     "source_date": "Last updated: Jun 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Analgesia for all; observation option for selected nonsevere AOM with follow-up.",
+     "added_by": "author"
+    },
+    {
+     "title": "Ear infections",
+     "publisher": "Canadian Paediatric Society — Caring for Kids",
+     "url": "https://caringforkids.cps.ca/handouts/health-conditions-and-treatments/ear_infections",
+     "section": "How is an ear infection treated?",
+     "source_date": "Last updated: March 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key and distractors",
+     "evidence": "Acetaminophen/ibuprofen for pain; wait 24–48 hours if not too ill; antibiotics if severe/worsening.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B34-WAVE25",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-de3d7da4) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ: brief shares care plan, roles, goals at start of shift/case. OpenStax Fundamentals: TeamSTEPPS brief checklist at beginning so all understand the plan; debrief checklist at end"
+    }
+   ],
+   "review_flags": [],
+   "id": "ONRN-MOC-0046",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "TeamSTEPPS",
+    "brief",
+    "leadership",
+    "MOC"
+   ],
+   "stem": "A charge nurse wants to improve shared understanding of goals and roles before a high-risk shift. Which TeamSTEPPS leadership strategy best fits this need?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Conduct a brief (short team session) at the start to clarify membership/roles, patient status, the care plan/goals, and resource/workload issues so everyone understands the plan."
+    },
+    {
+     "key": "B",
+     "text": "Avoid any pre-shift communication so team members discover the plan only after errors occur."
+    },
+    {
+     "key": "C",
+     "text": "Assign roles silently without stating goals or contingency plans."
+    },
+    {
+     "key": "D",
+     "text": "Delay all discussion of the care plan until after discharge paperwork is filed."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. AHRQ: briefs share the care plan, team roles, patient status, and operational issues; often at beginning of shift/case. OpenStax: TeamSTEPPS recommends a brief checklist at the beginning so all members understand the plan.",
+    "B": "Incorrect. Briefs exist to establish shared mental model before work begins (AHRQ; OpenStax).",
+    "C": "Incorrect. Role clarity and articulated goals are core brief content (AHRQ).",
+    "D": "Incorrect. Planning communication occurs before/during care, not only after discharge."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "TeamSTEPPS brief — share plan, roles, and goals at start of shift/case",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "teamstepps-brief-start-of-shift-share-plan-roles",
+   "sources": [
+    {
+     "title": "Sharing the Care Plan: Brief",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/teamstepps-program/curriculum/team/tools/briefs.html",
+     "section": "Sharing the Care Plan: Brief",
+     "source_date": "last reviewed December 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key and distractors",
+     "evidence": "Brief discusses team roles, patient status, care plan/goals, and operational issues at start.",
+     "added_by": "author"
+    },
+    {
+     "title": "15.6 Interprofessional Approach to Health Care",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/15-6-interprofessional-approach-to-health-care",
+     "section": "Providing Leadership Training — Brief Checklist",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "TeamSTEPPS brief checklist at beginning so all team members understand the plan.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B34-WAVE25",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-de3d7da4) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: jaundice in first 24 hours is pathologic criterion; evaluate promptly. OpenStax: jaundice in first 24 hours is pathologic/nonphysiologic and needs earlier treatment evaluation"
+    }
+   ],
+   "review_flags": [
+    "maternity-newborn",
+    "pediatric"
+   ],
+   "id": "ONRN-RRP-0038",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "jaundice",
+    "newborn",
+    "hyperbilirubinemia",
+    "RRP",
+    "maternity"
+   ],
+   "stem": "A term newborn develops visible jaundice at 18 hours of life. Which interpretation and action is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Treat as potentially pathologic jaundice: notify the provider promptly, obtain ordered bilirubin evaluation, and prepare for indicated therapy (often phototherapy) based on level and risk."
+    },
+    {
+     "key": "B",
+     "text": "Assume all jaundice before 24 hours is always harmless physiologic jaundice requiring no evaluation."
+    },
+    {
+     "key": "C",
+     "text": "Discharge without assessment because early jaundice never needs follow-up."
+    },
+    {
+     "key": "D",
+     "text": "Start adult chemotherapy protocols for jaundice."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: pathologic hyperbilirubinemia includes jaundice appearing in the first 24 hours. OpenStax: jaundice in the first 24 hours is pathologic/nonphysiologic and warrants earlier evaluation/treatment, often phototherapy.",
+    "B": "Incorrect. Physiologic jaundice typically appears after the first 24 hours (OpenStax; Merck timing).",
+    "C": "Incorrect. Early-onset jaundice requires prompt evaluation (both sources).",
+    "D": "Incorrect. Not the treatment pathway for neonatal hyperbilirubinemia."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Neonatal jaundice in first 24 hours — pathologic, prompt bilirubin evaluation",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "neonatal-jaundice-first-24h-pathologic-prompt-evaluation",
+   "sources": [
+    {
+     "title": "Neonatal Hyperbilirubinemia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/metabolic-electrolyte-and-toxic-disorders-in-neonates/neonatal-hyperbilirubinemia",
+     "section": "Causes — pathologic criteria; Timing",
+     "source_date": "Last updated: Jun 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Pathologic if jaundice appears in the first 24 hours; early jaundice most likely pathologic.",
+     "added_by": "author"
+    },
+    {
+     "title": "24.2 Care of Common Problems in the Newborn",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/24-2-care-of-common-problems-in-the-newborn",
+     "section": "Care of the Newborn with Hyperbilirubinemia",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Jaundice in first 24 hours is pathologic/nonphysiologic; earlier treatment often phototherapy.",
+     "added_by": "author"
+    }
+   ]
+  }
+ ],
+ "excluded_items": [
+  {
+   "draft_topic": "AOM exact amoxicillin mg/kg dosing recall",
+   "reason": "Merck and CPS support amoxicillin first-line when antibiotics indicated, but keyed numeric pediatric dosing was not dual-confirmed as a single teachable number this session; authored analgesia + watchful-waiting item instead."
+  },
+  {
+   "draft_topic": "Hypothermia active core rewarming modality sequence detail",
+   "reason": "Merck details multiple active rewarming methods; OpenStax Clinical Skills confirmed <35°C definition but lacked a matching multi-step active-rewarming algorithm — limited item to mild passive rewarming."
+  },
+  {
+   "draft_topic": "TeamSTEPPS huddle exact scripted wording",
+   "reason": "Authored brief (start-of-shift plan sharing) with AHRQ+OpenStax dual cite; huddle ad-hoc wording not required for this wave."
+  },
+  {
+   "draft_topic": "Neonatal phototherapy eye-shield technique as sole key",
+   "reason": "Retained prior exclusion pattern: OpenStax states eye protection under lights; Merck phototherapy section did not independently key eye shields this session — keyed pathologic first-24h jaundice instead."
+  },
+  {
+   "draft_topic": "Preterm labour exact betamethasone 12 mg ×2 schedule as calculation key",
+   "reason": "OpenStax lists betamethasone 12 mg IM ×2; Merck confirms corticosteroids without requiring that exact schedule in the fetched treatment section — keyed indication/purpose rather than dose recall."
+  },
+  {
+   "draft_topic": "Alcohol withdrawal CIWA benzodiazepines",
+   "reason": "Retained exclusion: Merck alcohol-withdrawal URL probes failed earlier waves; not re-confirmed with dual live sources this session."
+  }
+ ],
+ "notes": "IDs continue from wave 24 maxima (HPM≤34, PSY≤25, PPT≤40, PA≤51, RRP≤36, MOC≤45, BCC≤21, SIPC≤26). All items Source verified by author live fetch only; not clinically reviewed. Keep import script Prisma.InputJsonValue casts unchanged."
+}
