@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 94,
+  "Source verified": 105,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -9969,6 +9969,1184 @@
      "by": "AI author (Composer, Cursor subagent bc-2b86d02e) — not a licensed clinician",
      "date": "2026-11-25",
      "result": "Keys A/B/D confirmed vs CNO Code Principles 1/3/5; advocacy also supported by OpenStax Fundamentals 16.4."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B19-WAVE10",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "Annual influenza immunization is concordant in Canadian and US public-health guidance for nearly all people ≥6 months.",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "integrated_process": "Teaching/Learning",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-HPM-0012",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A community clinic nurse teaches adults about seasonal influenza prevention. Which statement by a client indicates accurate understanding?",
+   "options": [
+    {
+     "key": "A",
+     "text": "One flu vaccine in childhood provides lifelong protection against seasonal flu."
+    },
+    {
+     "key": "B",
+     "text": "Getting a flu vaccine every year is the best way to reduce the risk of flu and its complications."
+    },
+    {
+     "key": "C",
+     "text": "The flu vaccine causes influenza infection in most healthy adults."
+    },
+    {
+     "key": "D",
+     "text": "Only adults older than 65 years should ever receive a flu vaccine."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Protection decreases over time and circulating viruses change, so annual vaccination is recommended.",
+    "B": "Correct. Both Canadian and US public-health guidance identify annual influenza vaccination as the primary prevention strategy for flu and its complications for nearly everyone 6 months of age and older.",
+    "C": "Incorrect. You cannot get the flu from the flu vaccine; local arm soreness may occur, but the vaccine does not cause influenza infection.",
+    "D": "Incorrect. Annual vaccination is recommended for almost everyone 6 months and older, not only older adults (though older adults are at higher risk of complications)."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Seasonal influenza — annual vaccination",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Evaluate Outcomes",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "influenza-annual-vaccination-primary-prevention",
+   "tags": [
+    "influenza",
+    "immunization",
+    "primary-prevention",
+    "HPM"
+   ],
+   "sources": [
+    {
+     "title": "Flu (seasonal influenza): Spread, prevention and risks",
+     "publisher": "Public Health Agency of Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/public-health/services/diseases/flu-influenza/prevention-risks.html",
+     "section": "Preventing the flu — Vaccination",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Flu vaccine is the best way to prevent flu and complications; recommended almost everyone ≥6 months; need every year because protection decreases and viruses change; cannot get flu from the vaccine.",
+     "added_by": "author"
+    },
+    {
+     "title": "Preventing Seasonal Flu",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/flu/prevention/index.html",
+     "section": "Take time to get a flu vaccine",
+     "source_date": "Updated September 1, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B; rationales A,D",
+     "evidence": "Best way to reduce seasonal flu risk is a flu vaccine every year; everyone 6 months and older should get a flu vaccine every season.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-8c80de49) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: PHAC flu prevention-risks (annual vaccine best prevention; ≥6 months) + CDC flu/prevention (yearly vaccine first/most important action)."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B19-WAVE10",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "integrated_process": "Teaching/Learning",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-HPM-0013",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A nurse counsels a sexually active adult about reducing sexually transmitted infection (STI) risk. Which teaching point is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "External condoms are useful only for pregnancy prevention and do not reduce STI transmission."
+    },
+    {
+     "key": "B",
+     "text": "Correct, consistent condom use is one of the most effective ways to reduce STI exposure, including HIV."
+    },
+    {
+     "key": "C",
+     "text": "Condoms provide 100% protection against every STI, including infections that cause genital ulcers outside the covered area."
+    },
+    {
+     "key": "D",
+     "text": "Condoms should be reused for multiple acts of intercourse if they look intact."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. External condoms provide both contraception and STI protection when used correctly.",
+    "B": "Correct. WHO and OpenStax (citing barrier contraception evidence) state that correct, consistent condom use is among the most effective methods to reduce STI transmission, including HIV.",
+    "C": "Incorrect. Condoms are highly effective but do not fully protect against STIs that cause extra-genital ulcers (for example, syphilis or genital herpes lesions outside the covered area).",
+    "D": "Incorrect. A new condom must be used from start to finish for every sexual act; condoms are not reused."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "STI prevention — correct consistent condom use",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "sti-prevention-condoms-correct-consistent-use",
+   "tags": [
+    "STI",
+    "condoms",
+    "sexual-health",
+    "HPM"
+   ],
+   "sources": [
+    {
+     "title": "Sexually transmitted infections (STIs)",
+     "publisher": "World Health Organization",
+     "url": "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-(stis)",
+     "section": "Prevention of STIs",
+     "source_date": "19 November 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B; rationales C",
+     "evidence": "When used correctly and consistently, condoms offer one of the most effective methods of protection against STIs, including HIV; do not fully protect STIs causing extra-genital ulcers.",
+     "added_by": "author"
+    },
+    {
+     "title": "5.3 Barrier Methods of Contraception",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/5-3-barrier-methods-of-contraception",
+     "section": "External Condom / Noncontraceptive Uses of Condoms",
+     "source_date": "Citation date Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationales A,D",
+     "evidence": "External condoms provide contraception and STI protection; use a new condom every sexual act; condoms are the most effective method for STI prevention though not 100%.",
+     "added_by": "author"
+    },
+    {
+     "title": "How to Prevent STIs",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/sti/prevention/index.html",
+     "section": "Prevention steps and strategies",
+     "source_date": "Apr. 9, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B",
+     "evidence": "Using condoms the right way every time you have sex reduces STI exposure; sex without a condom increases risk.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-8c80de49) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual/triple-confirmed: WHO STI fact sheet Prevention + OpenStax Maternal-Newborn 5.3 External/Noncontraceptive condom uses + CDC STI prevention."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B19-WAVE10",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "integrated_process": "Nursing Process",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-BCC-0012",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An adult with heart failure reports dyspnea that worsens when lying flat and improves after sitting up. Which nursing action best supports comfort and breathing?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Keep the client strictly flat in a supine position to rest the heart."
+    },
+    {
+     "key": "B",
+     "text": "Place the client in high Fowler’s (upright sitting) position to relieve dyspnea."
+    },
+    {
+     "key": "C",
+     "text": "Encourage the client to lie prone with the head of the bed flat."
+    },
+    {
+     "key": "D",
+     "text": "Restrict the client to Trendelenburg position with the head lower than the feet."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Lying flat commonly worsens orthopnea; upright positioning relieves this symptom pattern.",
+    "B": "Correct. Orthopnea is dyspnea on lying flat that is relieved by sitting up; OpenStax nursing care for heart failure specifically uses high Fowler’s to alleviate dyspnea.",
+    "C": "Incorrect. Prone with a flat head of bed does not address orthopnea and is not the priority comfort position for this complaint.",
+    "D": "Incorrect. Head-down positioning increases venous return and is inappropriate for orthopneic dyspnea related to heart failure."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Dyspnea/orthopnea — high Fowler’s / upright positioning",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "orthopnea-high-fowlers-upright-positioning",
+   "tags": [
+    "positioning",
+    "dyspnea",
+    "orthopnea",
+    "BCC",
+    "heart-failure"
+   ],
+   "sources": [
+    {
+     "title": "12.3 Heart Failure",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/12-3-heart-failure",
+     "section": "Prioritizing Hypotheses, Generating Solutions, and Taking Action",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Putting the patient in high Fowlers will alleviate dyspnea; supplemental oxygen may also be ordered.",
+     "added_by": "author"
+    },
+    {
+     "title": "Chronic Heart Failure",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/heart-failure/chronic-heart-failure",
+     "section": "Symptoms and Signs of Chronic Heart Failure",
+     "source_date": "Last updated Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Orthopnea: dyspnea on lying flat relieved promptly by sitting up; common as heart failure advances.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-8c80de49) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: OpenStax Med-Surg 12.3 high Fowler’s for dyspnea + Merck Chronic HF orthopnea relieved by sitting up."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B19-WAVE10",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "integrated_process": "Nursing Process",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-BCC-0013",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "Which positions are appropriate nursing options to ease breathing effort for a dyspneic client? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Fowler’s position with the head of the bed elevated"
+    },
+    {
+     "key": "B",
+     "text": "Orthopneic (tripod) position, sitting and leaning on an overbed table"
+    },
+    {
+     "key": "C",
+     "text": "Strict flat supine positioning with no head elevation"
+    },
+    {
+     "key": "D",
+     "text": "Upright sitting as soon as dyspnea begins when lying flat"
+    },
+    {
+     "key": "E",
+     "text": "Trendelenburg (head lower than feet) for all dyspnea"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "rationales": {
+    "A": "Correct. Fowler’s (head of bed raised) is a common position used for immobile/dyspneic clients needing upright posture.",
+    "B": "Correct. The orthopneic (tripod) position—sitting and leaning on an overbed table—is a standard option to ease breathing work.",
+    "C": "Incorrect. Flat supine positioning commonly worsens orthopnea and does not ease dyspnea of this type.",
+    "D": "Correct. Orthopnea improves promptly with sitting up; upright sitting is an evidence-aligned comfort response.",
+    "E": "Incorrect. Trendelenburg is not a general dyspnea-relief position and can worsen congestion-related breathlessness."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Positioning for dyspnea — Fowler’s, orthopneic, upright sitting",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Generate Solutions",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "dyspnea-positioning-fowlers-orthopneic-sata",
+   "tags": [
+    "positioning",
+    "dyspnea",
+    "Fowlers",
+    "orthopneic",
+    "SATA",
+    "BCC"
+   ],
+   "sources": [
+    {
+     "title": "9.4 Positioning in Bed",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/9-4-positioning-in-bed",
+     "section": "Common Positions for Immobile Patients (Table 9.6)",
+     "source_date": "Citation date Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Keys A,B",
+     "evidence": "Common positions include Fowler’s (supine with head of bed raised) and orthopneic/tripod (sitting, leaning on overbed table).",
+     "added_by": "author"
+    },
+    {
+     "title": "Chronic Heart Failure",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/heart-failure/chronic-heart-failure",
+     "section": "Symptoms and Signs of Chronic Heart Failure",
+     "source_date": "Last updated Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key D; rationales C,E",
+     "evidence": "Orthopnea is dyspnea on lying flat relieved promptly by sitting up.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-8c80de49) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Keys A/B dual-supported by OpenStax Clinical Skills 9.4 Table 9.6; Key D + orthopnea physiology dual-supported by Merck Chronic HF."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B19-WAVE10",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "integrated_process": "Caring",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PSY-0011",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with escalating anxiety is restless and reports feeling overwhelmed in a noisy unit hallway. Which nursing action is the priority environmental intervention?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Move the client to a quieter, calmer setting and reduce unnecessary stimulation."
+    },
+    {
+     "key": "B",
+     "text": "Leave the client alone in the busiest hallway so they learn to cope with noise."
+    },
+    {
+     "key": "C",
+     "text": "Immediately start a detailed group therapy session with multiple new peers."
+    },
+    {
+     "key": "D",
+     "text": "Increase hallway traffic and overhead announcements to distract the client."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Nursing care for anxiety includes creating a quiet, soothing environment to reduce anxiety and promote relaxation.",
+    "B": "Incorrect. Leaving an overwhelmed client in a high-stimulation setting increases distress rather than reducing anxiety.",
+    "C": "Incorrect. New, complex social stimulation is not the first environmental action for acute escalating anxiety.",
+    "D": "Incorrect. Increasing noise and stimulation worsens anxiety rather than calming the client."
+   },
+   "specialty": "Mental Health",
+   "topic": "Anxiety — quiet calming environment",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "anxiety-quiet-soothing-environment",
+   "tags": [
+    "anxiety",
+    "environment",
+    "therapeutic-milieu",
+    "PSY"
+   ],
+   "sources": [
+    {
+     "title": "17.1 Stress and Anxiety",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/17-1-stress-and-anxiety",
+     "section": "Nursing Care for Clients with Anxiety",
+     "source_date": "Citation date Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; rationales B,C,D",
+     "evidence": "Common interventions include creating a quiet and soothing environment, which can help reduce anxiety and promote relaxation.",
+     "added_by": "author"
+    },
+    {
+     "title": "Overview of Anxiety Disorders",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/anxiety-and-trauma-and-stressor-related-disorders/overview-of-anxiety-disorders",
+     "section": "Psychoeducation and relaxation techniques",
+     "source_date": "Last updated Apr 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "Relaxation techniques are taught early because fear/anxiety are fundamental; techniques help patients control anxiety during treatment.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-8c80de49) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: OpenStax PMH 17.1 quiet soothing environment + Merck Anxiety overview (relaxation/anxiety control as core early treatment)."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B19-WAVE10",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "integrated_process": "Teaching/Learning",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PSY-0012",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A nurse prepares to teach a client with an anxiety disorder a skill that can be practised between visits. Which intervention is most appropriate to introduce early?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Relaxation techniques such as paced breathing or progressive muscle relaxation."
+    },
+    {
+     "key": "B",
+     "text": "Advise the client to stop all prescribed medications without clinician input."
+    },
+    {
+     "key": "C",
+     "text": "Tell the client that anxiety means they must avoid all outpatient follow-up."
+    },
+    {
+     "key": "D",
+     "text": "Recommend unlimited caffeine intake to stay alert during anxious episodes."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Both OpenStax and Merck support teaching relaxation strategies (for example, deep breathing, muscle relaxation) early so clients can manage anxiety symptoms.",
+    "B": "Incorrect. Stopping prescribed medications without clinical guidance is unsafe and not an anxiety self-management teaching priority.",
+    "C": "Incorrect. Follow-up and continued care support anxiety treatment rather than abandoning care.",
+    "D": "Incorrect. Merck notes limiting caffeine as a lifestyle measure that may reduce anxiety symptoms."
+   },
+   "specialty": "Mental Health",
+   "topic": "Anxiety — early teaching of relaxation techniques",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Generate Solutions",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "anxiety-teach-relaxation-techniques-early",
+   "tags": [
+    "anxiety",
+    "relaxation",
+    "breathing",
+    "PSY"
+   ],
+   "sources": [
+    {
+     "title": "17.1 Stress and Anxiety",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/17-1-stress-and-anxiety",
+     "section": "Nursing Care for Clients with Anxiety",
+     "source_date": "Citation date Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Encourage relaxation techniques such as deep breathing exercises, progressive muscle relaxation, and guided imagery.",
+     "added_by": "author"
+    },
+    {
+     "title": "Overview of Anxiety Disorders",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/anxiety-and-trauma-and-stressor-related-disorders/overview-of-anxiety-disorders",
+     "section": "Psychoeducation and relaxation techniques / Treatment of Anxiety Disorders",
+     "source_date": "Last updated Apr 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; rationales D",
+     "evidence": "Relaxation techniques should be taught early; may include muscle relaxation, breathing management, yoga, hypnosis, and/or meditation; limiting caffeine may reduce anxiety.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-8c80de49) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: OpenStax PMH 17.1 encourage relaxation techniques + Merck Anxiety overview teach relaxation early (breathing/muscle relaxation)."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B19-WAVE10",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "integrated_process": "Communication and Documentation",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PSY-0013",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A nurse cares for a client with moderate dementia who becomes distressed when repeatedly told the current year and that a deceased spouse has died. Which approach is most therapeutic?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Continue forceful reorientation every few minutes until the client agrees with every fact."
+    },
+    {
+     "key": "B",
+     "text": "Use simple, calm communication; avoid insisting on reorientation when it clearly increases distress, and support a familiar, low-stress routine."
+    },
+    {
+     "key": "C",
+     "text": "Argue loudly with the client to correct every inaccurate memory."
+    },
+    {
+     "key": "D",
+     "text": "Isolate the client in a dark, quiet private room with no familiar cues or staff contact."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. OpenStax notes that if reorienting causes stress in Alzheimer disease, it is better not to force factual correction that increases frustration.",
+    "B": "Correct. Nursing guidance supports calm, simple communication and avoiding distress-producing confrontation of reality; Merck emphasizes familiar surroundings, simple explanations, and low-stress routines.",
+    "C": "Incorrect. Arguing intensifies agitation and is nontherapeutic for dementia-related memory distortion.",
+    "D": "Incorrect. Merck advises against quiet, dark, private rooms without sensory cues; a reasonably bright, familiar environment with staff contact supports orientation and safety."
+   },
+   "specialty": "Mental Health",
+   "topic": "Dementia — calm simple communication; avoid distressing forced reorientation",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "dementia-avoid-distressing-forced-reorientation",
+   "tags": [
+    "dementia",
+    "communication",
+    "reorientation",
+    "PSY"
+   ],
+   "sources": [
+    {
+     "title": "14.3 Dementia",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/14-3-dementia",
+     "section": "Planning Nursing Care for a Client with Major NCD",
+     "source_date": "Citation date Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationales A,C",
+     "evidence": "Communicate with simple questions in a calm manner; if reorienting causes stress in Alzheimer disease, better to go along with the client’s beliefs than force correction that increases frustration.",
+     "added_by": "author"
+    },
+    {
+     "title": "Dementia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/delirium-and-dementia/dementia",
+     "section": "Environmental measures",
+     "source_date": "Last updated Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationale D",
+     "evidence": "Mild–moderate dementia: familiar surroundings; explain changes precisely and simply; regular low-stress activities; avoid quiet dark private rooms; rooms reasonably bright with sensory stimuli.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-8c80de49) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: OpenStax PMH 14.3 calm simple communication / avoid stress-producing reorientation + Merck Dementia Environmental measures (familiar, simple explanations, low-stress)."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B19-WAVE10",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "integrated_process": "Nursing Process",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-RRP-0016",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An adult has a closed tibial fracture in a cast. Which assessment is the nurse’s priority to detect early neurovascular compromise?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Inspect only the cast colour and postpone any distal limb checks until the next day."
+    },
+    {
+     "key": "B",
+     "text": "Perform frequent neurovascular checks distal to the injury (pain, pulse, pallor, paresthesia, paralysis)."
+    },
+    {
+     "key": "C",
+     "text": "Assess only the contralateral uninjured limb for comparison and skip the injured side."
+    },
+    {
+     "key": "D",
+     "text": "Limit assessment to asking about appetite and bowel pattern."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Distal neurovascular status must be monitored frequently; delaying checks risks missing ischemia or compartment syndrome.",
+    "B": "Correct. OpenStax emphasizes frequent neurovascular examinations of the affected extremity using the 5 P’s; Merck requires vascular and neurologic assessment distal to the injury.",
+    "C": "Incorrect. The injured extremity distal to the cast/fracture is the priority site for neurovascular assessment.",
+    "D": "Incorrect. Appetite and bowel pattern are not the priority assessments for acute neurovascular compromise after fracture."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Fracture/cast — distal neurovascular checks (5 P’s)",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Recognize Cues",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "fracture-distal-neurovascular-5ps-assessment",
+   "tags": [
+    "fracture",
+    "cast",
+    "neurovascular",
+    "compartment-syndrome",
+    "RRP"
+   ],
+   "sources": [
+    {
+     "title": "13.3 Bone Fractures",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/13-3-bone-fractures",
+     "section": "Recognizing Cues and Analyzing Cues",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Perform frequent neurovascular examinations on the affected extremity; neurovascular checks involve the 5 P’s: pain, pulse, pallor, paresthesia, paralysis.",
+     "added_by": "author"
+    },
+    {
+     "title": "Overview of Fractures",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/fractures/overview-of-fractures",
+     "section": "Physical examination / Evaluation of Fractures",
+     "source_date": "Last updated Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C",
+     "evidence": "Examination includes vascular and neurologic assessment distal to the injury; check for symptoms/signs of neurovascular injury and compartment syndrome.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-8c80de49) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: OpenStax Med-Surg 13.3 frequent neurovascular 5 P’s + Merck Fractures PE distal vascular/neurologic assessment."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B19-WAVE10",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "integrated_process": "Teaching/Learning",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-RRP-0017",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A nurse teaches a client being discharged with a new cast. Which instruction about cast danger signs is most important?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Ignore increasing pain and new numbness because casting always feels tight."
+    },
+    {
+     "key": "B",
+     "text": "Seek medical care immediately for progressively worsening pain or any new numbness or weakness."
+    },
+    {
+     "key": "C",
+     "text": "Insert pencils inside the cast to scratch deep itching."
+    },
+    {
+     "key": "D",
+     "text": "Keep the cast dependent and never elevate the limb even if swelling increases."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Worsening pain and new sensory/motor changes may signal compartment syndrome or neurovascular compromise and require urgent evaluation.",
+    "B": "Correct. Merck cast teaching directs clients to seek care immediately for progressively worsening pain or new numbness/weakness; OpenStax likewise requires monitoring distal sensation, pulses, and acute pain with tight casts.",
+    "C": "Incorrect. Objects should never be placed inside a cast (skin injury/infection risk).",
+    "D": "Incorrect. Elevation helps control swelling; keeping the cast dependent can worsen edema and tightness."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Cast care — seek care for worsening pain or new numbness/weakness",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Evaluate Outcomes",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cast-seek-care-worsening-pain-numbness",
+   "tags": [
+    "cast",
+    "compartment-syndrome",
+    "patient-teaching",
+    "RRP"
+   ],
+   "sources": [
+    {
+     "title": "Overview of Fractures",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/fractures/overview-of-fractures",
+     "section": "Immobilization — patient cast instructions",
+     "source_date": "Last updated Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Seek care immediately for progressively worsening pain or any new numbness or weakness (may indicate compartment syndrome); never put an object inside the cast; elevate cast to control swelling.",
+     "added_by": "author"
+    },
+    {
+     "title": "9.5 Limited Movement Devices",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/9-5-limited-movement-devices",
+     "section": "Casts and Braces",
+     "source_date": "Citation date Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "If cast too tight or limb swollen, pressure can disrupt blood flow causing compartment syndrome; monitor capillary refill, pulses, temperature, motor function, edema, sensation, and acute pain.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-8c80de49) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: Merck Fractures Immobilization cast instructions (worsening pain/numbness) + OpenStax Clinical Skills 9.5 cast tightness → neurovascular monitoring/compartment risk."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B19-WAVE10",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "integrated_process": "Nursing Process",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-RRP-0018",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "While assessing a fresh abdominal surgical incision, the nurse sees bowel protruding through a completely separated wound. What is the priority nursing action?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Push the bowel back into the abdomen with clean bare hands and apply a dry nonsterile towel."
+    },
+    {
+     "key": "B",
+     "text": "Cover the area with a sterile towel soaked with sterile 0.9% sodium chloride, place the client in low Fowler’s with knees slightly bent, keep NPO, stay with the client, and notify the provider immediately."
+    },
+    {
+     "key": "C",
+     "text": "Have the client perform vigorous coughing exercises to strengthen the incision."
+    },
+    {
+     "key": "D",
+     "text": "Leave the wound uncovered and delay notification until the next routine rounds."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Do not attempt to replace eviscerated viscera at the bedside; nonsterile handling increases infection and injury risk.",
+    "B": "Correct. OpenStax directs emergency management of evisceration with sterile saline-moist coverage, low Fowler’s with knees bent to reduce abdominal pressure, NPO, remaining with the client, and immediate provider notification for surgical intervention; Merck likewise treats evisceration as an indication for urgent operative management.",
+    "C": "Incorrect. Coughing and straining increase wound stress and are risk factors for dehiscence/evisceration, not treatments.",
+    "D": "Incorrect. Evisceration is a surgical emergency; delaying coverage and notification is unsafe."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Wound evisceration — sterile saline cover, low Fowler’s, notify",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "difficulty": "Hard",
+   "cognitive_level": "Applying",
+   "enemy_group": "wound-evisceration-sterile-saline-low-fowlers-notify",
+   "tags": [
+    "evisceration",
+    "dehiscence",
+    "postop",
+    "emergency",
+    "RRP"
+   ],
+   "sources": [
+    {
+     "title": "8.3 Wound Management",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/8-3-wound-management",
+     "section": "Dehiscence and Evisceration",
+     "source_date": "Citation date Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Treat as medical emergency: low Fowler’s, cover with sterile towel soaked with sterile 0.9% sodium chloride, notify provider immediately, remain with patient, keep NPO; surgical intervention required.",
+     "added_by": "author"
+    },
+    {
+     "title": "Overview of Abdominal Trauma",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/abdominal-trauma/overview-of-abdominal-trauma",
+     "section": "Treatment of Abdominal Trauma — Laparotomy",
+     "source_date": "Last updated Oct 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B (emergency surgical management)",
+     "evidence": "Patients with evisceration are among those who require exploratory laparotomy rather than expectant testing alone.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-8c80de49) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Nursing sequence dual-supported primarily by OpenStax Clinical Skills 8.3; Merck Abdominal Trauma confirms evisceration as indication for urgent laparotomy/surgical management."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B19-WAVE10",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "integrated_process": "Nursing Process",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PSY-0014",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "Which nursing interventions are appropriate for a client with clinically significant anxiety? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Create a quieter, soothing environment when stimulation is high"
+    },
+    {
+     "key": "B",
+     "text": "Teach relaxation techniques such as deep breathing or progressive muscle relaxation"
+    },
+    {
+     "key": "C",
+     "text": "Help the client practise coping strategies such as positive self-talk or problem-solving"
+    },
+    {
+     "key": "D",
+     "text": "Advise unlimited caffeine as a first-line anxiety treatment"
+    },
+    {
+     "key": "E",
+     "text": "Provide brief psychoeducation about anxiety and available treatments"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. A quiet, soothing environment can reduce anxiety and promote relaxation.",
+    "B": "Correct. Relaxation techniques (deep breathing, progressive muscle relaxation) are standard nursing and clinical interventions for anxiety.",
+    "C": "Correct. Assisting with coping strategies such as positive self-talk, distraction, and problem-solving is recommended nursing care.",
+    "D": "Incorrect. Limiting caffeine is advised because caffeine can worsen anxiety; unlimited caffeine is not treatment.",
+    "E": "Correct. Educating clients about anxiety and treatments (psychoeducation) is fundamental to anxiety care."
+   },
+   "specialty": "Mental Health",
+   "topic": "Anxiety interventions SATA — environment, relaxation, coping, education",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Generate Solutions",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "anxiety-interventions-sata-environment-relax-cope-educate",
+   "tags": [
+    "anxiety",
+    "SATA",
+    "relaxation",
+    "psychoeducation",
+    "PSY"
+   ],
+   "sources": [
+    {
+     "title": "17.1 Stress and Anxiety",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/17-1-stress-and-anxiety",
+     "section": "Nursing Care for Clients with Anxiety",
+     "source_date": "Citation date Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Keys A,B,C,E",
+     "evidence": "Quiet soothing environment; relaxation techniques; assist with coping strategies; educate client/family about anxiety and treatments.",
+     "added_by": "author"
+    },
+    {
+     "title": "Overview of Anxiety Disorders",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/anxiety-and-trauma-and-stressor-related-disorders/overview-of-anxiety-disorders",
+     "section": "Treatment of Anxiety Disorders / Psychoeducation and relaxation techniques",
+     "source_date": "Last updated Apr 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Keys B,E; rationale D",
+     "evidence": "Psychoeducation is typically fundamental; teach relaxation early; limiting caffeine may significantly reduce anxiety symptoms.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-8c80de49) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Keys A/B/C/E dual-supported across OpenStax PMH 17.1 nursing care and Merck Anxiety treatment (psychoeducation + relaxation; caffeine limit supports excluding D)."
     }
    ],
    "exam_version_published": null,
