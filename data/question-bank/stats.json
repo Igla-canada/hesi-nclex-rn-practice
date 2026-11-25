@@ -1,9 +1,9 @@
 {
  "generated": "2026-11-25",
- "total_items": 553,
+ "total_items": 567,
  "by_status": {
   "Draft": 0,
-  "Source verified": 553,
+  "Source verified": 567,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -13,7 +13,7 @@
  "by_client_needs_x_status": {
   "MOC": {
    "Draft": 0,
-   "Source verified": 85,
+   "Source verified": 87,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -31,7 +31,7 @@
   },
   "HPM": {
    "Draft": 0,
-   "Source verified": 72,
+   "Source verified": 74,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -40,7 +40,7 @@
   },
   "PSY": {
    "Draft": 0,
-   "Source verified": 64,
+   "Source verified": 66,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -49,7 +49,7 @@
   },
   "BCC": {
    "Draft": 0,
-   "Source verified": 63,
+   "Source verified": 67,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -58,7 +58,7 @@
   },
   "PPT": {
    "Draft": 0,
-   "Source verified": 65,
+   "Source verified": 67,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -67,7 +67,7 @@
   },
   "RRP": {
    "Draft": 0,
-   "Source verified": 63,
+   "Source verified": 65,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -100,36 +100,36 @@
  },
  "all_active": {
   "by_format": {
-   "multiple_choice": 377,
-   "matrix_multiple_choice": 64,
+   "multiple_choice": 384,
+   "matrix_multiple_choice": 68,
    "select_all_that_apply": 46,
-   "drop_down_cloze": 37,
+   "drop_down_cloze": 40,
    "bowtie": 26,
    "ordered_response": 2,
    "calculation": 1
   },
   "by_jurisdiction": {
-   "General (Canada/US concordant)": 485,
-   "Ontario-specific": 50,
-   "Canada-specific": 18
+   "General (Canada/US concordant)": 495,
+   "Ontario-specific": 52,
+   "Canada-specific": 20
   }
  },
  "excluded_draft_topics": 147,
  "archived_items": 0,
  "source_citations_by_publisher": {
-  "Merck Manual Professional Edition": 316,
-  "OpenStax — Medical-Surgical Nursing": 97,
-  "U.S. Centers for Disease Control and Prevention (CDC)": 95,
-  "OpenStax — Fundamentals of Nursing": 92,
-  "OpenStax — Psychiatric-Mental Health Nursing": 64,
+  "Merck Manual Professional Edition": 324,
+  "OpenStax — Medical-Surgical Nursing": 101,
+  "U.S. Centers for Disease Control and Prevention (CDC)": 97,
+  "OpenStax — Fundamentals of Nursing": 95,
+  "OpenStax — Psychiatric-Mental Health Nursing": 66,
+  "College of Nurses of Ontario": 58,
   "OpenStax — Pharmacology for Nurses": 57,
-  "College of Nurses of Ontario": 56,
   "OpenStax — Maternal-Newborn Nursing": 42,
-  "OpenStax — Clinical Nursing Skills": 35,
+  "OpenStax — Clinical Nursing Skills": 37,
   "MedlinePlus / U.S. National Library of Medicine": 34,
   "Agency for Healthcare Research and Quality (AHRQ)": 23,
   "NCBI Bookshelf (Open RN / WisTech Open)": 18,
-  "Public Health Agency of Canada / Canada.ca": 13,
+  "Public Health Agency of Canada / Canada.ca": 15,
   "Health Canada / Canada.ca": 12,
   "Agency for Healthcare Research and Quality (AHRQ) — PSNet": 12,
   "Government of Ontario — e-Laws": 9,
@@ -149,6 +149,7 @@
   "American Heart Association / American Academy of Pediatrics": 4,
   "Substance Abuse and Mental Health Services Administration (SAMHSA)": 4,
   "SHEA / IDSA / APIC (Infect Control Hosp Epidemiol)": 4,
+  "Cleveland Clinic": 4,
   "American Hospital Association (AHA) — TeamSTEPPS Video Toolkit": 3,
   "Mayo Clinic": 3,
   "U.S. Food and Drug Administration": 3,
@@ -160,7 +161,6 @@
   "COPD Foundation": 2,
   "Alberta Health Services / MyHealth Alberta": 2,
   "American College of Surgeons / Surgical Infection Society": 2,
-  "Cleveland Clinic": 2,
   "U.S. Centers for Disease Control and Prevention (CDC) / NIOSH": 2,
   "College of Traditional Chinese Medicine Practitioners and Acupuncturists of Ontario (PHIPA guide)": 2,
   "Radiological Society of North America / RadiologyInfo.org": 2,
@@ -185,7 +185,8 @@
   "National Institute on Deafness and Other Communication Disorders (NIDCD)": 1,
   "Steps to Justice (Community Legal Education Ontario)": 1,
   "Simcoe Muskoka District Health Unit": 1,
-  "Virginia Department of Health": 1
+  "Virginia Department of Health": 1,
+  "OpenStax — Nutrition for Nurses": 1
  },
  "near_duplicate_pairs": [],
  "merge_problems": [],

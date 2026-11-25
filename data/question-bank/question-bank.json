@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 553,
+  "Source verified": 567,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -62922,6 +62922,1629 @@
      "date": "2026-11-25",
      "result": "confirmed",
      "checks": "OpenStax Pharm 2.3 + OpenStax CNS 12.5 high-alert double-check dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B55-WAVE46",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0064",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "Immobility — active/passive ROM to prevent contractures",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "immobility-rom-prevent-contractures",
+   "tags": [
+    "BCC",
+    "ROM",
+    "contractures",
+    "immobility",
+    "fundamentals"
+   ],
+   "stem": "An immobilized client is at risk for joint contractures. Which nursing intervention best helps prevent contractures?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Perform or assist with regular active or passive range-of-motion exercises and encourage early mobility as tolerated"
+    },
+    {
+     "key": "B",
+     "text": "Keep all joints locked in full flexion continuously to \"rest\" the muscles"
+    },
+    {
+     "key": "C",
+     "text": "Avoid all joint movement until the client is fully ambulatory without assistance"
+    },
+    {
+     "key": "D",
+     "text": "Place the client in one position for the entire shift to reduce turning-related fatigue"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax CNS: immobility contributes to joint contractures; mitigate with range-of-motion exercises, weight-bearing, and proper positioning. OpenStax Med-Surg: prolonged immobilization causes contractures; promote early mobility and assess ROM. Merck PT: passive ROM when clients cannot move joints themselves; active ROM when able.",
+    "B": "Incorrect. Prolonged fixed positioning promotes contractures rather than preventing them.",
+    "C": "Incorrect. Waiting until full independent ambulation delays needed ROM and mobility interventions.",
+    "D": "Incorrect. Prolonged single positioning increases musculoskeletal and skin complications."
+   },
+   "sources": [
+    {
+     "title": "9.2 Assessing Mobility",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/9-2-assessing-mobility",
+     "section": "Effects of Immobility — Musculoskeletal Effects / ROM",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Immobility: muscle atrophy, joint contractures, foot drop; mitigate with ROM exercises, weight-bearing, proper positioning."
+    },
+    {
+     "title": "Physical Therapy (PT)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/special-subjects/rehabilitation/physical-therapy-pt",
+     "section": "Range of motion — active / active-assistive / passive",
+     "source_date": "Last updated: Dec 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "ROM exercises stretch stiff joints; passive ROM when patients cannot actively participate; active when they can move without assistance."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-10e5febf) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax CNS 9.2 immobility/ROM + Merck PT ROM dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B55-WAVE46",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0065",
+   "format": "matrix_multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "NGN matrix — immobility ROM/contracture prevention indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "immobility-rom-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "BCC",
+    "ROM",
+    "contractures"
+   ],
+   "stem": "For a bedbound client at risk for contractures from immobility, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Perform scheduled passive ROM for joints the client cannot move independently"
+     },
+     {
+      "key": "R2",
+      "text": "Encourage active ROM for joints the client can safely move"
+     },
+     {
+      "key": "R3",
+      "text": "Promote early mobility/ambulation as condition allows"
+     },
+     {
+      "key": "R4",
+      "text": "Keep extremities rigidly flexed in one position all day to \"protect\" joints"
+     },
+     {
+      "key": "R5",
+      "text": "Omit all ROM because bed rest alone prevents musculoskeletal decline"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Passive ROM maintains joint motion when the client cannot participate.",
+    "R2": "Indicated. Active ROM is preferred when the client can move safely.",
+    "R3": "Indicated. Early mobility helps prevent atrophy and contractures.",
+    "R4": "Not indicated. Prolonged fixed positioning causes contractures.",
+    "R5": "Not indicated. Bed rest without ROM increases musculoskeletal complications."
+   },
+   "sources": [
+    {
+     "title": "35.8 Musculoskeletal Concerns",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/35-8-musculoskeletal-concerns",
+     "section": "Prevention of atrophy/contractures — early mobility and ROM assessment",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Immobility causes atrophy and contractures; prioritize musculoskeletal assessment, early mobility, PT/OT."
+    },
+    {
+     "title": "Physical Therapy (PT)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/special-subjects/rehabilitation/physical-therapy-pt",
+     "section": "Range of motion exercise types",
+     "source_date": "Last updated: Dec 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Rows R1–R2",
+     "evidence": "Active, active-assistive, and passive ROM used according to patient ability."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-10e5febf) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Med-Surg 35.8 + Merck PT dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B55-WAVE46",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "opioid-pca"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0066",
+   "format": "multiple_choice",
+   "specialty": "Pharmacology",
+   "topic": "PCA — only the patient presses the demand button; lockout prevents overdose",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "pca-only-patient-presses-button",
+   "tags": [
+    "PPT",
+    "PCA",
+    "opioid",
+    "safety"
+   ],
+   "stem": "A postoperative client has IV patient-controlled analgesia (PCA). Which teaching is most important for safe use?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Only the client should press the PCA button; family/staff must not press it for the client, and the lockout interval limits extra doses"
+    },
+    {
+     "key": "B",
+     "text": "Family members should press the button whenever the client looks uncomfortable, even if sedated"
+    },
+    {
+     "key": "C",
+     "text": "The nurse should press the button every 5 minutes around the clock regardless of sedation"
+    },
+    {
+     "key": "D",
+     "text": "Anyone may press the button freely because PCA pumps have no dose or time limits"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax Fundamentals: no one but the patient should press the button; lockout and alertness are safety measures against overmedication/respiratory depression. Merck: only the patient may push the administration button; lockout dosage/interval prevent extra boluses.",
+    "B": "Incorrect. PCA-by-proxy (others pressing) can cause oversedation and respiratory depression.",
+    "C": "Incorrect. Staff should not press the demand button for the client as routine \"proxy\" dosing.",
+    "D": "Incorrect. PCA pumps are programmed with lockout and maximum limits."
+   },
+   "sources": [
+    {
+     "title": "30.5 Pain Management",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/30-5-pain-management",
+     "section": "Patient-Controlled Analgesia — button safety and lockout",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "No one but the patient should press the button; lockout time prevents overdose; alertness required."
+    },
+    {
+     "title": "Treatment of Pain",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/pain/treatment-of-pain",
+     "section": "Patient-controlled analgesia — only patient pushes button; lockout",
+     "source_date": "Last updated: Jun 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Only the patient is allowed to push the administration button; lockout dosage/interval; sedation adds safety because sedated patients stop pushing."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-10e5febf) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Fund 30.5 PCA + Merck Treatment of Pain PCA dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B55-WAVE46",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "opioid-pca"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0067",
+   "format": "drop_down_cloze",
+   "specialty": "Pharmacology",
+   "topic": "NGN cloze — PCA patient-only button and lockout",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "pca-ngn-cloze-patient-button-lockout",
+   "tags": [
+    "NGN",
+    "cloze",
+    "PPT",
+    "PCA"
+   ],
+   "stem": "Complete accurate PCA safety teaching for a postoperative client and family.",
+   "ngn": {
+    "template": "The demand button should be pressed only by {B1}. The pump's lockout interval helps {B2}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "the client (not family, visitors, or staff as proxy)"
+      },
+      {
+       "key": "B1b",
+       "text": "any visitor who thinks the client looks sleepy"
+      },
+      {
+       "key": "B1c",
+       "text": "only the housekeeping staff"
+      },
+      {
+       "key": "B1d",
+       "text": "anyone nearby without teaching"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "prevent another bolus too soon and reduce overdose risk"
+      },
+      {
+       "key": "B2b",
+       "text": "deliver unlimited opioid doses with every button press"
+      },
+      {
+       "key": "B2c",
+       "text": "remove the need to monitor sedation and respirations"
+      },
+      {
+       "key": "B2d",
+       "text": "allow family to press repeatedly during sleep"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. Only the client presses the demand button.",
+    "B1b": "Incorrect. Proxy dosing is unsafe.",
+    "B1c": "Incorrect. Housekeeping does not operate PCA.",
+    "B1d": "Incorrect. Untrained proxy use is unsafe.",
+    "B2a": "Correct. Lockout limits frequency of boluses.",
+    "B2b": "Incorrect. Lockout prevents unlimited dosing.",
+    "B2c": "Incorrect. Sedation/respiratory monitoring remains essential.",
+    "B2d": "Incorrect. Family must not press during sleep/sedation."
+   },
+   "sources": [
+    {
+     "title": "30.5 Pain Management",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/30-5-pain-management",
+     "section": "PCA nursing considerations — patient-only button; lockout",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Patient-only button; lockout time; monitor for oversedation/respiratory depression."
+    },
+    {
+     "title": "Treatment of Pain",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/pain/treatment-of-pain",
+     "section": "PCA systems — patient-only button; lockout dosage",
+     "source_date": "Last updated: Jun 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Only the patient pushes the button; lockout prevents bolus when interval/max not met."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-10e5febf) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Fund + Merck PCA cloze dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B55-WAVE46",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "opioid-pca",
+    "respiratory-depression"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0064",
+   "format": "multiple_choice",
+   "specialty": "Critical Care/Emergency",
+   "topic": "PCA opioids — monitor sedation and respiratory depression",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "pca-monitor-sedation-respiratory-depression",
+   "tags": [
+    "RRP",
+    "PCA",
+    "opioid",
+    "respiratory-depression"
+   ],
+   "stem": "A client receiving opioid PCA becomes increasingly difficult to arouse with a decreasing respiratory rate. What is the nurse's priority action?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Stop/hold further opioid dosing per protocol, support airway/breathing with oxygen as needed, stimulate the client, and notify the provider/rapid response as indicated"
+    },
+    {
+     "key": "B",
+     "text": "Increase the PCA basal rate so pain will not wake the client"
+    },
+    {
+     "key": "C",
+     "text": "Ask family to keep pressing the PCA button until the client is fully asleep"
+    },
+    {
+     "key": "D",
+     "text": "Ignore sedation because PCA lockout makes respiratory depression impossible"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: PCA overmedication can cause sedation and respiratory depression; monitor and intervene. Merck: opioids cause respiratory depression/sedation risk; PCA lockout helps but does not eliminate need for monitoring and response to oversedation.",
+    "B": "Incorrect. Increasing opioid infusion worsens respiratory depression.",
+    "C": "Incorrect. Proxy dosing during sedation is dangerous.",
+    "D": "Incorrect. Lockout reduces but does not eliminate opioid adverse-effect risk; monitoring is required."
+   },
+   "sources": [
+    {
+     "title": "30.5 Pain Management",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/30-5-pain-management",
+     "section": "PCA safety — oversedation and respiratory depression",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "PCA settings and patient-only button are safety measures to prevent overmedication that can cause sedation and respiratory depression."
+    },
+    {
+     "title": "Treatment of Pain",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/pain/treatment-of-pain",
+     "section": "Opioid adverse effects / PCA safety layers",
+     "source_date": "Last updated: Jun 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Opioids: respiratory depression risk; PCA lockout and sedation (client stops pushing) are safety layers—oversedation still requires clinical response."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-10e5febf) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Fund PCA resp depression + Merck opioid/PCA dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B55-WAVE46",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "opioid-pca"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0065",
+   "format": "matrix_multiple_choice",
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN matrix — PCA opioid safety monitoring indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "pca-safety-monitoring-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "RRP",
+    "PCA"
+   ],
+   "stem": "For a client receiving opioid PCA, indicate whether each nursing action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Monitor sedation level and respiratory rate/effort at regular intervals"
+     },
+     {
+      "key": "R2",
+      "text": "Teach that only the client presses the demand button"
+     },
+     {
+      "key": "R3",
+      "text": "Keep the call light within reach and assess fall risk related to opioids"
+     },
+     {
+      "key": "R4",
+      "text": "Encourage family to press the button while the client is deeply sedated"
+     },
+     {
+      "key": "R5",
+      "text": "Skip respiratory checks because the lockout interval guarantees safety"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Opioid PCA requires sedation/respiratory monitoring.",
+    "R2": "Indicated. Patient-only button is a core safety teaching.",
+    "R3": "Indicated. Opioids increase fall risk; call light access supports safety.",
+    "R4": "Not indicated. Proxy dosing during sedation risks overdose.",
+    "R5": "Not indicated. Lockout does not replace monitoring."
+   },
+   "sources": [
+    {
+     "title": "16.5 Pain Management",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/16-5-pain-management",
+     "section": "PCA nursing considerations — monitoring and patient-only button",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Patient-only button; lockout; monitor for oversedation/respiratory depression; confused/sedated clients are poor PCA candidates."
+    },
+    {
+     "title": "Treatment of Pain",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/pain/treatment-of-pain",
+     "section": "PCA — patient-only button; lockout; opioid respiratory depression risk",
+     "source_date": "Last updated: Jun 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Only patient pushes button; lockout limits; opioids risk respiratory depression—clinical monitoring required."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-10e5febf) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax CNS 16.5 + Merck PCA monitoring dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B55-WAVE46",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Canada — PHAC/Canada.ca tick removal guidance aligned with CDC technique",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "Canada-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-HPM-0073",
+   "format": "multiple_choice",
+   "specialty": "Community/Public Health",
+   "topic": "Tick removal — fine tweezers, steady pull; no petroleum jelly",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "tick-removal-fine-tweezers-steady-pull",
+   "tags": [
+    "HPM",
+    "tick",
+    "Lyme",
+    "community",
+    "Canada"
+   ],
+   "stem": "A community client finds an attached tick after hiking. Which teaching is correct for immediate removal?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Use clean fine-tipped tweezers to grasp close to the skin and pull upward with steady, even pressure; then clean the area—do not use petroleum jelly or heat to force detachment"
+    },
+    {
+     "key": "B",
+     "text": "Cover the tick with petroleum jelly or nail polish and wait for it to back out on its own"
+    },
+    {
+     "key": "C",
+     "text": "Burn the tick with a hot match while it is still attached"
+    },
+    {
+     "key": "D",
+     "text": "Twist and jerk the tick body forcefully to remove it quickly"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: fine-tipped tweezers close to skin; steady even pressure; clean site; avoid petroleum jelly/heat/nail polish. Canada.ca/PHAC: fine-point tweezers, slow straight pull; do not burn or smother with petroleum jelly/nail polish.",
+    "B": "Incorrect. Smothering methods can agitate the tick and increase infection risk.",
+    "C": "Incorrect. Burning is unsafe and not recommended.",
+    "D": "Incorrect. Twisting/jerking can leave mouthparts in the skin."
+   },
+   "sources": [
+    {
+     "title": "What to Do After a Tick Bite",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/ticks/after-a-tick-bite/",
+     "section": "How to remove a tick / caution against petroleum jelly and heat",
+     "source_date": "June 9, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Fine-tipped tweezers; steady even pressure; no twist/jerk; clean site; do not use petroleum jelly, heat, or nail polish."
+    },
+    {
+     "title": "Lyme disease: How to remove a tick",
+     "publisher": "Public Health Agency of Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/public-health/services/diseases/lyme-disease/removing-submitting-ticks-testing.html",
+     "section": "How to remove a tick — tweezers; do not burn or smother",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Fine-point tweezers; slow straight pull; wash site; do not burn or smother with petroleum jelly/nail polish."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-10e5febf) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC tick removal + PHAC/Canada.ca tick removal dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B55-WAVE46",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Canada — PHAC/Canada.ca tick removal guidance aligned with CDC technique",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "Canada-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-HPM-0074",
+   "format": "matrix_multiple_choice",
+   "specialty": "Community/Public Health",
+   "topic": "NGN matrix — attached tick removal teaching indicated vs not",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "tick-removal-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "HPM",
+    "tick",
+    "community"
+   ],
+   "stem": "For a client with an attached tick, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Grasp the tick with fine-tipped tweezers as close to the skin as possible"
+     },
+     {
+      "key": "R2",
+      "text": "Pull upward with steady, even pressure without twisting"
+     },
+     {
+      "key": "R3",
+      "text": "Clean the bite area and hands after removal"
+     },
+     {
+      "key": "R4",
+      "text": "Smother the tick with petroleum jelly to force it to detach"
+     },
+     {
+      "key": "R5",
+      "text": "Burn the attached tick with a match"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Fine tweezers close to the skin is recommended.",
+    "R2": "Indicated. Steady pull without twisting reduces mouthpart breakage.",
+    "R3": "Indicated. Clean site and hands after removal.",
+    "R4": "Not indicated. Petroleum jelly/smothering methods are unsafe.",
+    "R5": "Not indicated. Burning is not recommended."
+   },
+   "sources": [
+    {
+     "title": "What to Do After a Tick Bite",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/ticks/after-a-tick-bite/",
+     "section": "Tick removal steps and cautions",
+     "source_date": "June 9, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Tweezers; steady pull; clean; avoid petroleum jelly/heat/nail polish."
+    },
+    {
+     "title": "Lyme disease: How to remove a tick",
+     "publisher": "Public Health Agency of Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/public-health/services/diseases/lyme-disease/removing-submitting-ticks-testing.html",
+     "section": "Removal instructions and what not to do",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Fine-point tweezers; slow straight pull; wash; do not burn or smother."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-10e5febf) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC + PHAC tick removal matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B55-WAVE46",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0065",
+   "format": "multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "Panic attack — stay with client; calm presence; reduce stimuli; coach slow breathing",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "panic-attack-stay-with-client-calm-breathing",
+   "tags": [
+    "PSY",
+    "panic",
+    "anxiety",
+    "MH"
+   ],
+   "stem": "A client begins an acute panic attack with intense fear and hyperventilation. Which nursing action is best initially?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Stay with the client, reduce environmental stimuli, speak in short calm statements, and coach slow deep breathing"
+    },
+    {
+     "key": "B",
+     "text": "Leave the client alone in a crowded hallway so they can \"tough it out\""
+    },
+    {
+     "key": "C",
+     "text": "Argue that nothing is wrong and demand they immediately stop all symptoms"
+    },
+    {
+     "key": "D",
+     "text": "Start a long detailed lecture on cognitive theory while the client cannot process information"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax Psych (Peplau): for panic, stay with the client, keep within eyesight, move to a safe quieter space. OpenStax 17.2: remain calm; coach slow deep breathing; quiet environment; reassure the attack will pass. Cleveland Clinic: stay with them, remain calm, short sentences, deep breathing, reassure temporary safety.",
+    "B": "Incorrect. Leaving a panicking client alone increases safety risk and distress.",
+    "C": "Incorrect. Arguing increases stimulation and does not help panic-level anxiety.",
+    "D": "Incorrect. Complex teaching is ineffective at panic level when processing is impaired."
+   },
+   "sources": [
+    {
+     "title": "2.2 Interpersonal Theories and Therapies",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/2-2-interpersonal-theories-and-therapies",
+     "section": "Peplau anxiety levels — Panic nursing interventions",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Panic: stay with the client; keep within eyesight; move to safe space; protect from injury."
+    },
+    {
+     "title": "Panic Attacks & Panic Disorder",
+     "publisher": "Cleveland Clinic",
+     "url": "https://my.clevelandclinic.org/health/diseases/4451-panic-attack-panic-disorder",
+     "section": "How can I help someone having a panic attack?",
+     "source_date": "Last updated: 02/12/2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Stay with them and remain calm; short simple sentences; deep breathing; reassure safe and temporary."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-10e5febf) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Psych 2.2 stay-with-client + Cleveland Clinic panic help dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B55-WAVE46",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0066",
+   "format": "drop_down_cloze",
+   "specialty": "Mental Health",
+   "topic": "NGN cloze — panic attack nursing presence and breathing support",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "panic-attack-ngn-cloze",
+   "tags": [
+    "NGN",
+    "cloze",
+    "PSY",
+    "panic"
+   ],
+   "stem": "Complete the priority nursing response during an acute panic attack.",
+   "ngn": {
+    "template": "The nurse should {B1} and help the client {B2}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "stay with the client in a quieter, safer space"
+      },
+      {
+       "key": "B1b",
+       "text": "leave immediately so the client can self-isolate without support"
+      },
+      {
+       "key": "B1c",
+       "text": "crowd the client with many loud staff for distraction"
+      },
+      {
+       "key": "B1d",
+       "text": "begin complex multi-step teaching about long-term pharmacology only"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "slow their breathing with calm coaching and brief reassurance"
+      },
+      {
+       "key": "B2b",
+       "text": "breathe as fast as possible to \"blow off\" all carbon dioxide"
+      },
+      {
+       "key": "B2c",
+       "text": "argue until they admit the fear is imaginary"
+      },
+      {
+       "key": "B2d",
+       "text": "run alone to an unlocked stairwell without observation"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. Stay with the client; reduce stimuli/safer quieter space.",
+    "B1b": "Incorrect. Do not leave the client alone during panic.",
+    "B1c": "Incorrect. Added stimulation worsens panic.",
+    "B1d": "Incorrect. Complex teaching is ineffective at panic level.",
+    "B2a": "Correct. Coach slow breathing and offer calm reassurance.",
+    "B2b": "Incorrect. Rapid breathing worsens symptoms.",
+    "B2c": "Incorrect. Arguing is nontherapeutic.",
+    "B2d": "Incorrect. Unsafe and abandons supportive presence."
+   },
+   "sources": [
+    {
+     "title": "2.2 Interpersonal Theories and Therapies",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/2-2-interpersonal-theories-and-therapies",
+     "section": "Panic-level interventions — stay with client; safe space",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Stay with the client; keep within eyesight; help move to safe space."
+    },
+    {
+     "title": "Panic Attacks & Panic Disorder",
+     "publisher": "Cleveland Clinic",
+     "url": "https://my.clevelandclinic.org/health/diseases/4451-panic-attack-panic-disorder",
+     "section": "Helping someone during a panic attack",
+     "source_date": "Last updated: 02/12/2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Stay with them; remain calm; short sentences; deep breathing; reassure temporary safety."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-10e5febf) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Psych 2.2 + Cleveland Clinic panic cloze dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B55-WAVE46",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0066",
+   "format": "multiple_choice",
+   "specialty": "Medical-Surgical",
+   "topic": "Acute uncomplicated diverticulitis — clear liquid diet; avoid high fiber during inflammation",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "diverticulitis-clear-liquid-avoid-high-fiber-acute",
+   "tags": [
+    "BCC",
+    "diverticulitis",
+    "diet",
+    "GI"
+   ],
+   "stem": "A client with uncomplicated diverticulitis is being managed with bowel rest at home. Which dietary teaching is most appropriate during the acute inflammatory phase?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Use a clear liquid diet for a short period as directed, then advance as pain improves; high-fiber foods are avoided while the bowel is inflamed"
+    },
+    {
+     "key": "B",
+     "text": "Immediately start a very high-fiber diet with raw vegetables, nuts, and seeds during peak inflammation"
+    },
+    {
+     "key": "C",
+     "text": "Eat only fried fatty meats and stop all fluids"
+    },
+    {
+     "key": "D",
+     "text": "Force large high-fiber meals every hour to \"scrub\" the diverticula"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: clear liquid diet for 2–3 days in uncomplicated diverticulitis with advancement when pain abates. OpenStax Med-Surg: liquid diet to rest intestines. OpenStax Nutrition: high fiber contraindicated during diverticulitis inflammation.",
+    "B": "Incorrect. High fiber is contraindicated during acute GI inflammation/diverticulitis.",
+    "C": "Incorrect. Fluids/clear liquids support bowel rest; fried meats are not the acute plan.",
+    "D": "Incorrect. Aggressive high-fiber feeding during acute inflammation is contraindicated."
+   },
+   "sources": [
+    {
+     "title": "Colonic Diverticulitis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gastrointestinal-disorders/diverticular-disease/colonic-diverticulitis",
+     "section": "Treatment — clear liquid diet for uncomplicated diverticulitis",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Uncomplicated diverticulitis: clear liquid diet for 2–3 days; advance when pain abates."
+    },
+    {
+     "title": "18.2 Nutrition and Chronic Gastrointestinal Illnesses",
+     "publisher": "OpenStax — Nutrition for Nurses",
+     "url": "https://openstax.org/books/nutrition/pages/18-2-nutrition-and-chronic-gastrointestinal-illnesses",
+     "section": "Contraindications for High Fiber Intake — diverticulitis",
+     "source_date": "Mar 20, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "High fiber contraindicated during diverticulitis/acute GI inflammation because it can irritate lining and increase inflammation."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-10e5febf) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck diverticulitis clear liquid + OpenStax Nutrition high-fiber contraindication dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B55-WAVE46",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0067",
+   "format": "matrix_multiple_choice",
+   "specialty": "Medical-Surgical",
+   "topic": "NGN matrix — acute diverticulitis diet actions indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "diverticulitis-diet-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "BCC",
+    "diverticulitis"
+   ],
+   "stem": "For a client with acute uncomplicated diverticulitis on a short bowel-rest plan, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Follow a clear liquid diet for a short period as directed"
+     },
+     {
+      "key": "R2",
+      "text": "Advance the diet as pain improves per clinician guidance"
+     },
+     {
+      "key": "R3",
+      "text": "Avoid high-fiber foods while acute inflammation is present"
+     },
+     {
+      "key": "R4",
+      "text": "Start large servings of raw vegetables, nuts, and seeds during peak inflammation"
+     },
+     {
+      "key": "R5",
+      "text": "Stop all oral fluids and refuse clinician-directed liquid intake"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Clear liquids rest the bowel in uncomplicated diverticulitis.",
+    "R2": "Indicated. Diet is advanced when pain abates.",
+    "R3": "Indicated. High fiber is contraindicated during acute inflammation.",
+    "R4": "Not indicated. High-fiber roughage can worsen acute inflammation.",
+    "R5": "Not indicated. Clear liquids are part of the acute plan when oral intake is used."
+   },
+   "sources": [
+    {
+     "title": "19.5 Disorders of the Lower GI System",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-5-disorders-of-the-lower-gi-system",
+     "section": "Diverticular Disease — Interdisciplinary Management liquid diet",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Rows R1–R2",
+     "evidence": "Treatment may include a liquid diet to rest the intestines, reduce inflammation, and promote healing."
+    },
+    {
+     "title": "Colonic Diverticulitis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gastrointestinal-disorders/diverticular-disease/colonic-diverticulitis",
+     "section": "Clear liquid diet; advance when pain abates",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Clear liquid 2–3 days; advance when pain abates."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-10e5febf) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Med-Surg diverticular liquid diet + Merck clear liquid dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B55-WAVE46",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Ontario — CNO Professional Misconduct + Code of Conduct reporting accountabilities",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "ontario-regulation"
+   ],
+   "jurisdiction": "Ontario-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0086",
+   "format": "multiple_choice",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "CNO — report unsafe practice/unethical conduct to employer or appropriate authority",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cno-report-unsafe-practice-employer-authority",
+   "tags": [
+    "MOC",
+    "Ontario",
+    "CNO",
+    "reporting",
+    "professional-practice"
+   ],
+   "stem": "An Ontario nurse observes a colleague's unsafe practice that places clients at risk. Aside from mandatory sexual-abuse reporting rules, what is the nurse's professional accountability?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Report the unsafe practice or unethical conduct to the appropriate authority (typically the employer/supervisor, and CNO when indicated) because client safety comes first"
+    },
+    {
+     "key": "B",
+     "text": "Stay silent forever because only sexual abuse can ever be reported"
+    },
+    {
+     "key": "C",
+     "text": "Post the colleague's name and client details on social media for public shaming"
+    },
+    {
+     "key": "D",
+     "text": "Ignore client risk to avoid uncomfortable workplace conversations"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO Professional Misconduct: failing to report unsafe practice/unethical conduct to the employer/other authority or CNO is misconduct; generally report to employer. OpenStax Med-Surg: nurses must act on incompetent/unethical practice—address colleague/manager and escalate to licensing boards if uncorrected. Client safety is primary.",
+    "B": "Incorrect. Sexual-abuse reporting is mandatory to CNO, but nurses also must address/report other unsafe/unethical conduct.",
+    "C": "Incorrect. Public posting of PHI and unprofessional shaming violates privacy and professional standards.",
+    "D": "Incorrect. Client safety is the primary responsibility."
+   },
+   "sources": [
+    {
+     "title": "Professional Misconduct",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://cno.org/Assets/CNO/Documents/Protect-the-public/42007_misconduct.pdf",
+     "section": "Failure to comply with reporting obligations — unsafe practice/unethical conduct",
+     "source_date": "Updated 2023–2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "Key A / cloze B1–B2",
+     "evidence": "Failing to report unsafe practice or unethical conduct to employer/authority or CNO is professional misconduct; generally report to employer."
+    },
+    {
+     "title": "5.2 Patient Care and Safety",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/5-2-patient-care-and-safety",
+     "section": "Ethical Care and Safety — duty to act on incompetent/unethical practice",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A / cloze B1–B2",
+     "evidence": "Nurses must act on incompetent, unethical, illegal, or impaired practice; express concern to colleague/manager; escalate to external authorities (licensing boards) if uncorrected."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-10e5febf) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Professional Misconduct reporting + OpenStax Med-Surg 5.2 duty to act dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B55-WAVE46",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Ontario — CNO reporting of unsafe practice",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "ontario-regulation"
+   ],
+   "jurisdiction": "Ontario-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0087",
+   "format": "drop_down_cloze",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "NGN cloze — report unsafe practice to appropriate authority",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cno-report-unsafe-practice-ngn-cloze",
+   "tags": [
+    "NGN",
+    "cloze",
+    "MOC",
+    "Ontario",
+    "CNO"
+   ],
+   "stem": "Complete the Ontario professional accountability after observing a colleague's unsafe practice that risks client harm.",
+   "ngn": {
+    "template": "The nurse should report the unsafe practice to {B1}. Failing to report unsafe practice or unethical conduct can constitute {B2}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "the appropriate authority (typically the employer/supervisor, and CNO when indicated)"
+      },
+      {
+       "key": "B1b",
+       "text": "only a public anonymous meme account"
+      },
+      {
+       "key": "B1c",
+       "text": "no one, because silence always protects clients"
+      },
+      {
+       "key": "B1d",
+       "text": "the client’s family via a social-media livestream"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "professional misconduct under CNO standards"
+      },
+      {
+       "key": "B2b",
+       "text": "an award for teamwork"
+      },
+      {
+       "key": "B2c",
+       "text": "proof that reporting is illegal in all cases"
+      },
+      {
+       "key": "B2d",
+       "text": "automatic exemption from the Code of Conduct"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. Report to employer/appropriate authority; CNO when indicated.",
+    "B1b": "Incorrect. Public memes are not professional reporting.",
+    "B1c": "Incorrect. Silence can leave clients at risk.",
+    "B1d": "Incorrect. Public livestreaming breaches privacy and is unprofessional.",
+    "B2a": "Correct. Failure to report unsafe practice/unethical conduct is professional misconduct.",
+    "B2b": "Incorrect. Not an award situation.",
+    "B2c": "Incorrect. Reporting unsafe practice is required, not illegal.",
+    "B2d": "Incorrect. Code of Conduct requires reporting."
+   },
+   "sources": [
+    {
+     "title": "Professional Misconduct",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://cno.org/Assets/CNO/Documents/Protect-the-public/42007_misconduct.pdf",
+     "section": "Failure to comply with reporting obligations — unsafe practice/unethical conduct",
+     "source_date": "Updated 2023–2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "Key A / cloze B1–B2",
+     "evidence": "Failing to report unsafe practice or unethical conduct to employer/authority or CNO is professional misconduct; generally report to employer."
+    },
+    {
+     "title": "5.2 Patient Care and Safety",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/5-2-patient-care-and-safety",
+     "section": "Ethical Care and Safety — duty to act on incompetent/unethical practice",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A / cloze B1–B2",
+     "evidence": "Nurses must act on incompetent, unethical, illegal, or impaired practice; express concern to colleague/manager; escalate to external authorities (licensing boards) if uncorrected."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-10e5febf) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Professional Misconduct reporting + OpenStax Med-Surg 5.2 duty to act dual-cite."
     }
    ],
    "exam_version_published": null,
