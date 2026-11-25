@@ -1,9 +1,9 @@
 {
  "generated": "2026-11-25",
- "total_items": 349,
+ "total_items": 361,
  "by_status": {
   "Draft": 0,
-  "Source verified": 349,
+  "Source verified": 361,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -13,7 +13,7 @@
  "by_client_needs_x_status": {
   "MOC": {
    "Draft": 0,
-   "Source verified": 56,
+   "Source verified": 62,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -31,7 +31,7 @@
   },
   "HPM": {
    "Draft": 0,
-   "Source verified": 48,
+   "Source verified": 50,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -49,7 +49,7 @@
   },
   "BCC": {
    "Draft": 0,
-   "Source verified": 26,
+   "Source verified": 27,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -67,7 +67,7 @@
   },
   "RRP": {
    "Draft": 0,
-   "Source verified": 45,
+   "Source verified": 47,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -76,7 +76,7 @@
   },
   "PA": {
    "Draft": 0,
-   "Source verified": 66,
+   "Source verified": 67,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -100,34 +100,34 @@
  },
  "all_active": {
   "by_format": {
-   "multiple_choice": 261,
-   "select_all_that_apply": 41,
-   "matrix_multiple_choice": 18,
-   "drop_down_cloze": 13,
-   "bowtie": 13,
+   "multiple_choice": 269,
+   "select_all_that_apply": 42,
+   "matrix_multiple_choice": 19,
+   "drop_down_cloze": 14,
+   "bowtie": 14,
    "ordered_response": 2,
    "calculation": 1
   },
   "by_jurisdiction": {
-   "General (Canada/US concordant)": 307,
-   "Ontario-specific": 33,
-   "Canada-specific": 9
+   "General (Canada/US concordant)": 313,
+   "Ontario-specific": 37,
+   "Canada-specific": 11
   }
  },
- "excluded_draft_topics": 119,
+ "excluded_draft_topics": 123,
  "archived_items": 0,
  "source_citations_by_publisher": {
-  "Merck Manual Professional Edition": 245,
-  "OpenStax — Medical-Surgical Nursing": 78,
-  "OpenStax — Fundamentals of Nursing": 69,
-  "U.S. Centers for Disease Control and Prevention (CDC)": 60,
-  "College of Nurses of Ontario": 36,
-  "OpenStax — Psychiatric-Mental Health Nursing": 33,
+  "Merck Manual Professional Edition": 249,
+  "OpenStax — Medical-Surgical Nursing": 81,
+  "OpenStax — Fundamentals of Nursing": 70,
+  "U.S. Centers for Disease Control and Prevention (CDC)": 63,
+  "College of Nurses of Ontario": 40,
+  "OpenStax — Psychiatric-Mental Health Nursing": 39,
   "OpenStax — Pharmacology for Nurses": 32,
   "OpenStax — Maternal-Newborn Nursing": 30,
   "OpenStax — Clinical Nursing Skills": 20,
+  "Agency for Healthcare Research and Quality (AHRQ)": 16,
   "Public Health Agency of Canada / Canada.ca": 13,
-  "Agency for Healthcare Research and Quality (AHRQ)": 12,
   "OpenStax — Population Health for Nurses": 9,
   "Agency for Healthcare Research and Quality (AHRQ) — PSNet": 8,
   "Government of Ontario — e-Laws": 7,
@@ -135,6 +135,7 @@
   "StatPearls / NCBI Bookshelf": 7,
   "Canadian Paediatric Society": 6,
   "World Health Organization": 5,
+  "Health Canada / Canada.ca": 4,
   "NCBI Bookshelf (Open RN / WisTech Open)": 4,
   "Canadian Paediatric Society — Caring for Kids": 4,
   "Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC)": 3,
@@ -142,7 +143,6 @@
   "Health Canada Drug Product Database — Pharmascience Inc. product monograph": 2,
   "NCSBN / American Nurses Association": 2,
   "Centers for Disease Control and Prevention": 2,
-  "Health Canada / Canada.ca": 2,
   "American Heart Association / American Academy of Pediatrics": 2,
   "U.S. Centers for Disease Control and Prevention (CDC/HICPAC)": 1,
   "Health Canada Drug Product Database — Sandoz Canada Inc. product monograph": 1,
@@ -159,7 +159,8 @@
   "American Diabetes Association": 1,
   "OpenStax — Microbiology": 1,
   "OpenStax — Anatomy and Physiology 2e": 1,
-  "Substance Abuse and Mental Health Services Administration (SAMHSA)": 1
+  "Substance Abuse and Mental Health Services Administration (SAMHSA)": 1,
+  "American Hospital Association (AHA) — TeamSTEPPS Video Toolkit": 1
  },
  "near_duplicate_pairs": [],
  "merge_problems": [],
