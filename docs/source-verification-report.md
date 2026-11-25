@@ -1,6 +1,6 @@
 # Source verification report — Ontario/Canada question bank
 
-**Updated:** 2026-11-25, ~3:20 PM (America/New_York)
+**Updated:** 2026-11-25, ~3:45 PM (America/New_York)
 **Scope:** Author-level **Source verified** only. Not an independent verifier pass. Not clinical review.
 **Rule:** Every keyed answer and rationale rests on sources fetched in-session; citations were not invented.
 
@@ -10,35 +10,35 @@
 
 | Metric | Count |
 | --- | ---: |
-| Items Source verified | **693** |
+| Items Source verified | **707** |
 | Items with independent verifier `confirmed` | 0 |
 | Items clinically reviewed / approved / published | **0** |
 | Excluded draft topics logged | 147 |
 
 ### Citation publishers (citation instances across items)
 
-Compiled from `internal/question-bank/build/stats.json` / item sources after wave 55. Leading publishers remain Merck Manual, OpenStax nursing texts, CDC, CNO, AHRQ, and Canadian regulators. Wave 55 added CDC + Merck (Cryptosporidium hand hygiene/prevention; Legionella aerosol transmission); Merck + OpenStax Medical-Surgical (fat embolism; hepatic encephalopathy/lactulose); Merck + MedlinePlus (testicular torsion emergency); OpenStax Fundamentals + AHRQ PSNet (Right Person competency / acuity–skill-mix staffing); Ontario e-Laws O. Reg. 799/93 + OpenStax Fundamentals (directing incompetent nursing functions). **No single-source flags.**
+Compiled from `internal/question-bank/build/stats.json` / item sources after wave 56. Leading publishers remain Merck Manual, OpenStax nursing texts, CDC, CNO, AHRQ, MedlinePlus, and Canadian regulators. Wave 56 added Merck + MedlinePlus (GERD HOB/lifestyle); Merck + OpenStax Medical-Surgical (CVI elevation/compression); OpenStax Pharmacology + MedlinePlus (phenytoin gingival hyperplasia/oral care); Health Canada DPD fentanyl PM + NCBI Open RN Skills / FDA consumer (fentanyl patch no-cut/no-heat/disposal); Health Canada DPD allopurinol PM + MedlinePlus (stop for rash; fluids); OpenStax Clinical Nursing Skills + MedlinePlus (otic pinna adult vs young child). **No single-source flags.**
 
 ---
 
-## Wave 55 item inventory (B64-WAVE55)
+## Wave 56 item inventory (B65-WAVE56)
 
 | ID | Format | Client Needs | Jurisdiction | Sources | High-priority clinical review | Flags |
 | --- | --- | ---: | --- | ---: | ---: | --- |
-| ONRN-SIPC-0081 | multiple_choice | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | — |
-| ONRN-SIPC-0082 | matrix_multiple_choice | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | — |
-| ONRN-SIPC-0083 | multiple_choice | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | — |
-| ONRN-SIPC-0084 | matrix_multiple_choice | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | — |
-| ONRN-PA-0082 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | emergency |
-| ONRN-PA-0083 | matrix_multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | emergency |
-| ONRN-PA-0084 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | no | — |
-| ONRN-PA-0085 | matrix_multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | no | — |
-| ONRN-PA-0086 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | pediatric, emergency |
-| ONRN-PA-0087 | matrix_multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | pediatric, emergency |
-| ONRN-MOC-0109 | multiple_choice | Management of Care | General (Canada/US concordant) | 2 | no | — |
-| ONRN-MOC-0110 | drop_down_cloze | Management of Care | General (Canada/US concordant) | 2 | no | — |
-| ONRN-MOC-0111 | multiple_choice | Management of Care | Ontario-specific | 2 | yes | legal-ontario |
-| ONRN-MOC-0112 | drop_down_cloze | Management of Care | Ontario-specific | 2 | yes | legal-ontario |
+| ONRN-BCC-0082 | multiple_choice | Basic Care and Comfort | General (Canada/US concordant) | 2 | no | — |
+| ONRN-BCC-0083 | matrix_multiple_choice | Basic Care and Comfort | General (Canada/US concordant) | 2 | no | — |
+| ONRN-BCC-0084 | multiple_choice | Basic Care and Comfort | General (Canada/US concordant) | 2 | no | — |
+| ONRN-BCC-0085 | matrix_multiple_choice | Basic Care and Comfort | General (Canada/US concordant) | 2 | no | — |
+| ONRN-PPT-0082 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | no | — |
+| ONRN-PPT-0083 | matrix_multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | no | — |
+| ONRN-PPT-0084 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | no | — |
+| ONRN-PPT-0085 | matrix_multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 3 | no | — |
+| ONRN-PPT-0086 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | no | — |
+| ONRN-PPT-0087 | drop_down_cloze | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | no | — |
+| ONRN-PPT-0088 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | no | — |
+| ONRN-PPT-0089 | matrix_multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | no | — |
+| ONRN-PPT-0090 | drop_down_cloze | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | no | — |
+| ONRN-PPT-0091 | drop_down_cloze | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | no | — |
 
 Validator: `TOTAL ERRORS: 0`. Near-duplicate pairs after merge: **0**.
 
