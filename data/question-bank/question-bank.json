@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 581,
+  "Source verified": 595,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -66164,6 +66164,1617 @@
      "date": "2026-11-25",
      "result": "confirmed",
      "checks": "MedlinePlus + OpenStax insulin mixing cloze dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B57-WAVE48",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0068",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "WHO My 5 Moments — hand hygiene before touching a patient",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "who-5-moments-before-touching-patient",
+   "tags": [
+    "SIPC",
+    "hand-hygiene",
+    "WHO-5-moments",
+    "fundamentals",
+    "NGN-partner"
+   ],
+   "stem": "According to the WHO “My 5 Moments for Hand Hygiene,” when must the nurse clean hands to protect the client from germs carried on the nurse’s hands from the health-care area?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Before touching the patient when approaching them (e.g., before taking a pulse or assisting with personal care)"
+    },
+    {
+     "key": "B",
+     "text": "Only at the start of the shift, then gloves replace further hand hygiene"
+    },
+    {
+     "key": "C",
+     "text": "Only after leaving the facility at the end of the day"
+    },
+    {
+     "key": "D",
+     "text": "Only if the nurse notices visible dirt, never before clean contact"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. WHO Moment 1: clean hands before touching a patient when approaching them to protect against colonization/exogenous infection. OpenStax Fundamentals links timely hand hygiene before direct patient contact to WHO’s Five Moments.",
+    "B": "Incorrect. Gloves are not a substitute for hand hygiene; moments apply throughout care.",
+    "C": "Incorrect. End-of-day hygiene does not replace point-of-care moments.",
+    "D": "Incorrect. Moment 1 applies before patient contact even when hands are not visibly soiled (ABHR is typically appropriate then)."
+   },
+   "sources": [
+    {
+     "title": "Hand Hygiene: Why, How & When?",
+     "publisher": "World Health Organization",
+     "url": "https://www.who.int/docs/default-source/documents/health-topics/hand-hygiene-why-how-and-when-brochure.pdf",
+     "section": "Your 5 Moments — Before touching a patient",
+     "source_date": "Revised August 2009",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Moment 1: clean hands before touching a patient when approaching him/her; protects patient from harmful germs on HCW hands; applies before pulse/BP/personal care."
+    },
+    {
+     "title": "10.2 Asepsis and PPE",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/10-2-asepsis-and-ppe",
+     "section": "Hand Hygiene — WHO Five Moments",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Hand hygiene before direct contact with a patient; references WHO Five Moments of Hand Hygiene."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6c75da6a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "WHO Why/How/When Moment 1 + OpenStax Fund 10.2 Five Moments dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B57-WAVE48",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0069",
+   "format": "matrix_multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "NGN matrix — WHO My 5 Moments for Hand Hygiene indications",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "who-5-moments-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "SIPC",
+    "hand-hygiene",
+    "WHO-5-moments"
+   ],
+   "stem": "Using the WHO “My 5 Moments for Hand Hygiene,” indicate whether each action requires hand hygiene at that moment (Indicated) or does not match a required moment as stated (Not indicated).",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Clean hands before touching the patient when approaching them"
+     },
+     {
+      "key": "R2",
+      "text": "Clean hands immediately before a clean/aseptic procedure (e.g., accessing an invasive device)"
+     },
+     {
+      "key": "R3",
+      "text": "Clean hands after body-fluid exposure risk and after glove removal"
+     },
+     {
+      "key": "R4",
+      "text": "Skip hand hygiene after touching the patient if gloves were worn the whole time"
+     },
+     {
+      "key": "R5",
+      "text": "Skip hand hygiene after touching patient surroundings because the patient was not touched"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. WHO Moment 1 — before touching a patient.",
+    "R2": "Indicated. WHO Moment 2 — before clean/aseptic procedure.",
+    "R3": "Indicated. WHO Moment 3 — after body-fluid exposure risk (and after glove removal).",
+    "R4": "Not indicated. WHO notes hand hygiene is required in the indications whether or not gloves are used; Moment 4 is after touching a patient.",
+    "R5": "Not indicated. WHO Moment 5 requires hand hygiene after touching patient surroundings even without touching the patient."
+   },
+   "sources": [
+    {
+     "title": "Hand Hygiene: Why, How & When?",
+     "publisher": "World Health Organization",
+     "url": "https://www.who.int/docs/default-source/documents/health-topics/hand-hygiene-why-how-and-when-brochure.pdf",
+     "section": "Your 5 Moments for Hand Hygiene",
+     "source_date": "Revised August 2009",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Lists Moments 1–5; note that HH must be performed in all indications regardless of glove use; Moment 5 after surroundings without patient contact."
+    },
+    {
+     "title": "10.2 Asepsis and PPE",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/10-2-asepsis-and-ppe",
+     "section": "Hand Hygiene; glove removal",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R4",
+     "evidence": "HH before direct contact; after contact with skin; before/after glove use; references WHO Five Moments."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6c75da6a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "WHO 5 Moments brochure + OpenStax Fund 10.2 matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B57-WAVE48",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0070",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "Gloves are not a substitute for hand hygiene — HH before donning and after removal",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "gloves-not-substitute-hand-hygiene",
+   "tags": [
+    "SIPC",
+    "gloves",
+    "hand-hygiene",
+    "CDC",
+    "fundamentals",
+    "NGN-partner"
+   ],
+   "stem": "A nurse plans to wear gloves for anticipated contact with body fluids. Which statement best reflects infection-prevention guidance about gloves and hand hygiene?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Gloves are not a substitute for hand hygiene; clean hands before donning gloves and after removing them"
+    },
+    {
+     "key": "B",
+     "text": "Once gloves are on, hand hygiene is unnecessary for the rest of the shift"
+    },
+    {
+     "key": "C",
+     "text": "Hand hygiene is needed only before gloves, never after removal"
+    },
+    {
+     "key": "D",
+     "text": "Gloves replace hand hygiene when caring for every client on Contact Precautions"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: gloves are not a substitute for hand hygiene; perform HH before donning gloves and always after removing gloves. WHO: HH indications apply whether or not gloves are used.",
+    "B": "Incorrect. Moments continue throughout care; gloves do not eliminate HH.",
+    "C": "Incorrect. CDC requires cleaning hands after glove removal because dirty gloves can soil hands.",
+    "D": "Incorrect. Contact Precautions still require HH; gloves are additive, not a replacement."
+   },
+   "sources": [
+    {
+     "title": "Clinical Safety: Hand Hygiene for Healthcare Workers",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/clean-hands/hcp/clinical-safety/index.html",
+     "section": "Know when to wear (and change) gloves",
+     "source_date": "Updated February 2019",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Gloves are not a substitute for hand hygiene. Perform HH before donning gloves; always clean hands after removing gloves."
+    },
+    {
+     "title": "Hand Hygiene: Why, How & When?",
+     "publisher": "World Health Organization",
+     "url": "https://www.who.int/docs/default-source/documents/health-topics/hand-hygiene-why-how-and-when-brochure.pdf",
+     "section": "Note on glove use with 5 Moments",
+     "source_date": "Revised August 2009",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Hand hygiene must be performed in all indications described regardless of whether gloves are used or not."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6c75da6a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC glove/HH guidance + WHO glove note dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B57-WAVE48",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0071",
+   "format": "matrix_multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "NGN matrix — glove use with hand hygiene indicated vs not",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "gloves-hh-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "SIPC",
+    "gloves",
+    "hand-hygiene"
+   ],
+   "stem": "For glove use during client care, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Perform hand hygiene before donning gloves when the task requires gloves"
+     },
+     {
+      "key": "R2",
+      "text": "Clean hands after removing gloves"
+     },
+     {
+      "key": "R3",
+      "text": "Change gloves and clean hands when moving from a soiled body site to a clean body site on the same patient"
+     },
+     {
+      "key": "R4",
+      "text": "Rely on gloves alone and skip hand hygiene for the entire shift"
+     },
+     {
+      "key": "R5",
+      "text": "Continue wearing the same gloves from one patient to the next without changing"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. CDC: HH before donning gloves.",
+    "R2": "Indicated. CDC: always clean hands after glove removal.",
+    "R3": "Indicated. CDC: change gloves and clean hands when moving from soiled to clean site.",
+    "R4": "Not indicated. Gloves are not a substitute for hand hygiene.",
+    "R5": "Not indicated. Change gloves when moving from one patient to another."
+   },
+   "sources": [
+    {
+     "title": "Clinical Safety: Hand Hygiene for Healthcare Workers",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/clean-hands/hcp/clinical-safety/index.html",
+     "section": "Know when to wear (and change) gloves",
+     "source_date": "Updated February 2019",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Gloves not a substitute; HH before/after; change gloves soiled→clean site and between patients."
+    },
+    {
+     "title": "Hand Hygiene: Why, How & When?",
+     "publisher": "World Health Organization",
+     "url": "https://www.who.int/docs/default-source/documents/health-topics/hand-hygiene-why-how-and-when-brochure.pdf",
+     "section": "5 Moments note regarding gloves",
+     "source_date": "Revised August 2009",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "R4",
+     "evidence": "HH required in all indications regardless of glove use."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6c75da6a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC glove change/HH + WHO glove-independent HH dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B57-WAVE48",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0068",
+   "format": "multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "Total hip replacement — avoid hip flexion >90°, crossing legs, and use abduction pillow as directed",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "tha-posterior-precautions-no-flex90-no-cross-abduction",
+   "tags": [
+    "RRP",
+    "THA",
+    "hip",
+    "gerontology",
+    "dislocation",
+    "NGN-partner"
+   ],
+   "stem": "A nurse teaches an older adult after total hip replacement about positioning to reduce dislocation risk. Which instruction is most appropriate when postoperative hip precautions are ordered?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Avoid bending the hip more than about 90°, do not cross the legs (avoid adduction), and use an abduction pillow in bed as directed"
+    },
+    {
+     "key": "B",
+     "text": "Cross the operative leg over the other leg frequently to stretch the joint"
+    },
+    {
+     "key": "C",
+     "text": "Sit in low soft chairs so the knees are higher than the hips"
+    },
+    {
+     "key": "D",
+     "text": "Bend forward to tie shoes immediately after surgery without adaptive equipment"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax Clinical Nursing Skills: after THR avoid adduction/crossing legs, use abduction pillow, do not bend more than 90° forward, use raised seats so knees stay lower than hips. AAOS: special precautions when sitting/bending/sleeping to prevent dislocation; home planning includes raised seating and aids to avoid excessive bending.",
+    "B": "Incorrect. Crossing legs adducts the hip and increases dislocation risk.",
+    "C": "Incorrect. Low soft chairs promote excessive flexion; raised seating keeps knees lower than hips.",
+    "D": "Incorrect. Excessive bending is avoided; adaptive equipment is recommended."
+   },
+   "sources": [
+    {
+     "title": "25.2 Physical Assessment",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/25-2-physical-assessment",
+     "section": "Take Action: Postoperative Total Hip Replacement Patient",
+     "source_date": "2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Avoid twisting/adduction; do not cross legs; abduction pillow; do not bend more than 90°; raised seats with knees lower than hips."
+    },
+    {
+     "title": "Total Hip Replacement",
+     "publisher": "American Academy of Orthopaedic Surgeons (OrthoInfo)",
+     "url": "https://orthoinfo.aaos.org/en/treatment/total-hip-replacement/",
+     "section": "Other Precautions; Home Planning",
+     "source_date": "OrthoInfo patient education (accessed 2026-11-25)",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A; distractors C–D",
+     "evidence": "Special precautions when sitting, bending, or sleeping to prevent dislocation (often ~6 weeks; approach-specific). Home planning: raised toilet/seat so knees remain lower than hips; dressing aids to avoid excessive bending."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6c75da6a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax CNS 25.2 THR precautions + AAOS OrthoInfo dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B57-WAVE48",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0069",
+   "format": "matrix_multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "NGN matrix — postoperative total hip replacement dislocation precautions",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "tha-dislocation-precautions-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "RRP",
+    "THA",
+    "gerontology"
+   ],
+   "stem": "For a client with ordered postoperative total hip replacement precautions, indicate whether each action is Indicated or Not indicated to reduce dislocation risk.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Avoid crossing the legs / adduction of the operative leg"
+     },
+     {
+      "key": "R2",
+      "text": "Use an abduction pillow for positioning in bed as directed"
+     },
+     {
+      "key": "R3",
+      "text": "Avoid bending forward more than about 90° at the hip"
+     },
+     {
+      "key": "R4",
+      "text": "Prefer raised seating so knees remain lower than hips"
+     },
+     {
+      "key": "R5",
+      "text": "Sit in a deep low couch and bend to pick items off the floor without aids"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Avoid adduction/crossing legs.",
+    "R2": "Indicated. Abduction pillow keeps hips aligned.",
+    "R3": "Indicated. Limit flexion beyond ~90°.",
+    "R4": "Indicated. Raised seats maintain safer hip angle.",
+    "R5": "Not indicated. Deep low seating and floor reaches increase flexion/dislocation risk."
+   },
+   "sources": [
+    {
+     "title": "25.2 Physical Assessment",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/25-2-physical-assessment",
+     "section": "Postoperative Total Hip Replacement Patient",
+     "source_date": "2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "No cross/adduction; abduction pillow; ≤90° bend; raised seats knees lower than hips."
+    },
+    {
+     "title": "Total Hip Replacement",
+     "publisher": "American Academy of Orthopaedic Surgeons (OrthoInfo)",
+     "url": "https://orthoinfo.aaos.org/en/treatment/total-hip-replacement/",
+     "section": "Home Planning / Other Precautions",
+     "source_date": "OrthoInfo patient education (accessed 2026-11-25)",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R3–R5",
+     "evidence": "Avoid excessive bending; firm raised seating with knees lower than hips; reacher/dressing aids."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6c75da6a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax CNS + AAOS THA matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B57-WAVE48",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0070",
+   "format": "multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "Hospital universal fall precautions — call light within reach and nonslip footwear",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "hospital-fall-call-light-nonslip-footwear",
+   "tags": [
+    "RRP",
+    "falls",
+    "gerontology",
+    "universal-precautions",
+    "NGN-partner"
+   ],
+   "stem": "Which nursing action best reflects universal hospital fall precautions for an older adult?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Keep the call bell within reach, ensure the patient can use it, and provide nonslip footwear when out of bed"
+    },
+    {
+     "key": "B",
+     "text": "Place the call bell across the room so the patient walks for exercise before calling"
+    },
+    {
+     "key": "C",
+     "text": "Encourage walking in socks without footwear to improve “grip” on linoleum"
+    },
+    {
+     "key": "D",
+     "text": "Keep personal items out of reach so the patient must stand unassisted to retrieve them"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax Clinical Nursing Skills (AHRQ-aligned universal fall precautions): call bell within reach and demonstrated; nonslip well-fitting footwear. AHRQ PSNet: universal precautions include placing call light and necessary items within reach.",
+    "B": "Incorrect. Call light must remain within reach.",
+    "C": "Incorrect. Nonslip footwear is recommended; socks alone increase slip risk.",
+    "D": "Incorrect. Personal possessions should be within safe reach."
+   },
+   "sources": [
+    {
+     "title": "9.1 Assessing Functional Ability",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/9-1-assessing-functional-ability",
+     "section": "QSEN Safety: Fall Risk Prevention — universal fall precautions",
+     "source_date": "2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Have patient demonstrate call bell use and keep within reach; personal possessions within safe reach; provide nonslip, comfortable, well-fitting footwear."
+    },
+    {
+     "title": "Falling Through the Crack (in the Bedrails)",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ) — PSNet",
+     "url": "https://psnet.ahrq.gov/web-mm/falling-through-crack-bedrails",
+     "section": "Table 3 — Universal Fall Precautions",
+     "source_date": "May 1, 2016",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Universal fall precautions: place necessary items (call light, telephone, water) within patient’s reach; ensure safe environment."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6c75da6a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax CNS 9.1 universal fall precautions + AHRQ PSNet dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B57-WAVE48",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0071",
+   "format": "matrix_multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "NGN matrix — hospital universal fall-precaution actions",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "hospital-universal-fall-precautions-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "RRP",
+    "falls",
+    "gerontology"
+   ],
+   "stem": "For universal fall precautions in hospital, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Keep the call bell within reach and confirm the patient can use it"
+     },
+     {
+      "key": "R2",
+      "text": "Keep personal possessions within safe reach"
+     },
+     {
+      "key": "R3",
+      "text": "Provide nonslip footwear when the patient is out of bed"
+     },
+     {
+      "key": "R4",
+      "text": "Keep floor surfaces dry, clean, and uncluttered"
+     },
+     {
+      "key": "R5",
+      "text": "Place the call bell far from the bed so the patient must walk to it each time"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Call bell access is a core universal precaution.",
+    "R2": "Indicated. Items within reach reduce risky reaching/climbing.",
+    "R3": "Indicated. Nonslip footwear reduces slips.",
+    "R4": "Indicated. Clear dry floors reduce trip hazards.",
+    "R5": "Not indicated. Call bell must stay within reach."
+   },
+   "sources": [
+    {
+     "title": "9.1 Assessing Functional Ability",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/9-1-assessing-functional-ability",
+     "section": "Universal fall precautions list",
+     "source_date": "2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Call bell within reach; possessions within reach; nonslip footwear; floors dry/clean/uncluttered."
+    },
+    {
+     "title": "Falling Through the Crack (in the Bedrails)",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ) — PSNet",
+     "url": "https://psnet.ahrq.gov/web-mm/falling-through-crack-bedrails",
+     "section": "Universal Fall Precautions",
+     "source_date": "May 1, 2016",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R2",
+     "evidence": "Call light and necessary items within reach; clutter-free path."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6c75da6a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax CNS + AHRQ PSNet fall-precaution matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B57-WAVE48",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CNO Professional Boundaries and Nurse-Client Relationships practice standard",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "Ontario-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0088",
+   "format": "multiple_choice",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "CNO boundaries — avoid inappropriately sharing personal information (boundary crossing)",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cno-boundary-crossing-inappropriate-self-disclosure",
+   "tags": [
+    "MOC",
+    "CNO",
+    "boundaries",
+    "professional-practice",
+    "Ontario",
+    "NGN-partner"
+   ],
+   "stem": "During a therapeutic interaction, a nurse begins sharing detailed personal life problems with a client to “feel closer.” What is the best analysis of this action under Ontario professional standards?",
+   "options": [
+    {
+     "key": "A",
+     "text": "It risks a boundary crossing; nurses should avoid inappropriately sharing personal information and keep the focus on the client’s needs"
+    },
+    {
+     "key": "B",
+     "text": "It is required by CNO as mandatory personal disclosure with every client"
+    },
+    {
+     "key": "C",
+     "text": "It is always appropriate because any personal sharing strengthens professional boundaries"
+    },
+    {
+     "key": "D",
+     "text": "It is acceptable if the nurse posts the same details on social media about the client"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO: boundary crossings may include inappropriately sharing personal information; nurses must clarify/reinforce therapeutic boundaries. OpenStax: maintain professional boundaries—general talk may be OK, but avoid specific personal details; keep rapport without crossing boundaries.",
+    "B": "Incorrect. Personal disclosure is not a mandatory CNO requirement.",
+    "C": "Incorrect. Inappropriate personal sharing can create role confusion and harm.",
+    "D": "Incorrect. Discussing/posting client-related content on social media violates privacy/boundaries."
+   },
+   "sources": [
+    {
+     "title": "Professional Boundaries and Nurse-Client Relationships",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41033_therapeutic.pdf",
+     "section": "Boundary crossing",
+     "source_date": "Revised December 2025 (in effect Mar 1, 2026)",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Boundary crossing examples may include preferential attention, socializing, or inappropriately sharing personal information; reflect and re-establish boundaries."
+    },
+    {
+     "title": "6.1 Nurse-Client Relationship",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/6-1-nurse-client-relationship",
+     "section": "Boundaries in the Therapeutic Relationship",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "May talk about family in a general way but would not provide specific personal details; maintain professional boundaries while building rapport."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6c75da6a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO boundary crossing personal information + OpenStax PMH 6.1 dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B57-WAVE48",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CNO Professional Boundaries and Nurse-Client Relationships practice standard",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "Ontario-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0089",
+   "format": "drop_down_cloze",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "NGN cloze — recognize boundary crossing and re-establish therapeutic boundaries",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cno-boundary-crossing-reestablish-ngn-cloze",
+   "tags": [
+    "NGN",
+    "cloze",
+    "MOC",
+    "CNO",
+    "boundaries",
+    "Ontario"
+   ],
+   "stem": "Complete the statement about maintaining a therapeutic nurse–client relationship in Ontario.",
+   "ngn": {
+    "template": "Inappropriately sharing personal information with a client can be a {B1}. After recognizing a boundary breach, the nurse should {B2}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "boundary crossing that may create role confusion and increase client vulnerability"
+      },
+      {
+       "key": "B1b",
+       "text": "required CNO documentation element for every visit"
+      },
+      {
+       "key": "B1c",
+       "text": "preferred method to equalize power in all therapeutic relationships"
+      },
+      {
+       "key": "B1d",
+       "text": "substitute for informed consent"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "reflect, take action to protect the client, and re-establish appropriate boundaries"
+      },
+      {
+       "key": "B2b",
+       "text": "deepen personal disclosure until the client reciprocates equally"
+      },
+      {
+       "key": "B2c",
+       "text": "ignore the issue because crossings never escalate"
+      },
+      {
+       "key": "B2d",
+       "text": "invite the client to become a personal friend on social media"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. CNO lists inappropriately sharing personal information among boundary-crossing examples.",
+    "B1b": "Incorrect. Not a documentation requirement.",
+    "B1c": "Incorrect. Personal oversharing is not a recommended power-equalizing strategy.",
+    "B1d": "Incorrect. Unrelated to consent.",
+    "B2a": "Correct. CNO: reflect, recognize the breach, and re-establish appropriate boundaries.",
+    "B2b": "Incorrect. Further personal disclosure worsens the crossing.",
+    "B2c": "Incorrect. Crossings can escalate if unaddressed.",
+    "B2d": "Incorrect. Social dual relationships are inappropriate."
+   },
+   "sources": [
+    {
+     "title": "Professional Boundaries and Nurse-Client Relationships",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41033_therapeutic.pdf",
+     "section": "Boundary crossing",
+     "source_date": "Revised December 2025 (in effect Mar 1, 2026)",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Inappropriately sharing personal information as boundary crossing; reflect/recognize and re-establish boundaries."
+    },
+    {
+     "title": "6.1 Nurse-Client Relationship",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/6-1-nurse-client-relationship",
+     "section": "Boundaries in the Therapeutic Relationship",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Maintain professional boundaries; avoid specific personal details; reinforce boundaries if clients seek dual contact."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6c75da6a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO + OpenStax PMH boundary cloze dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B57-WAVE48",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0072",
+   "format": "multiple_choice",
+   "specialty": "Leadership/Management",
+   "topic": "WHO Surgical Safety Checklist — confirm sponge/instrument/needle counts before patient leaves OR",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "who-ssc-confirm-sponge-instrument-needle-counts",
+   "tags": [
+    "SIPC",
+    "surgical-safety",
+    "counts",
+    "leadership",
+    "never-event",
+    "NGN-partner"
+   ],
+   "stem": "During the WHO Surgical Safety Checklist “sign out,” before the patient leaves the operating room, which confirmation is the circulating/scrub nurse expected to make to help prevent retained surgical items?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Verbally confirm that instrument, sponge, and needle counts are complete (and alert the team if counts do not reconcile)"
+    },
+    {
+     "key": "B",
+     "text": "Skip counts if the case finished quickly, because retained items are impossible in short procedures"
+    },
+    {
+     "key": "C",
+     "text": "Assume counts are correct without verbal confirmation once the surgeon starts closing"
+    },
+    {
+     "key": "D",
+     "text": "Discard sponges outside the room before the final count to save time"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. WHO SSC implementation: nurse verbally confirms completion of instrument, sponge and needle counts before the patient leaves the OR; if counts do not reconcile, alert the team. AHRQ: unintended retention of a foreign object after surgery is a serious reportable “never event.”",
+    "B": "Incorrect. Retained items are uncommon but persistent; counts are required for eligible cases.",
+    "C": "Incorrect. Verbal confirmation is an explicit checklist step.",
+    "D": "Incorrect. Items should not be removed from the OR until counts are complete/reconciled."
+   },
+   "sources": [
+    {
+     "title": "Implementation Manual WHO Surgical Safety Checklist 2009",
+     "publisher": "World Health Organization",
+     "url": "https://www.who.int/docs/default-source/patient-safety/9789241598590-eng.pdf",
+     "section": "Before patient leaves operating room — Completion of instrument, sponge and needle counts",
+     "source_date": "2009",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Scrub/circulating nurse verbally confirms completeness of final sponge and needle counts; instrument counts when open cavity; alert team if not reconciled."
+    },
+    {
+     "title": "Never Events",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ) — PSNet",
+     "url": "https://psnet.ahrq.gov/primer/never-events",
+     "section": "Surgical or invasive procedural events — Unintended retention of a foreign object",
+     "source_date": "Last reviewed in 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "NQF serious reportable events include unintended retention of a foreign object in a patient after surgery or other invasive procedure."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6c75da6a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "WHO SSC count confirmation + AHRQ Never Events retained foreign object dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B57-WAVE48",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0073",
+   "format": "matrix_multiple_choice",
+   "specialty": "Leadership/Management",
+   "topic": "NGN matrix — surgical count / sign-out actions to prevent retained items",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "surgical-count-signout-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "SIPC",
+    "surgical-safety",
+    "leadership"
+   ],
+   "stem": "Before the patient leaves the operating room after an open abdominal case, indicate whether each action is Indicated or Not indicated to prevent retained surgical items.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Verbally confirm completion of sponge and needle counts"
+     },
+     {
+      "key": "R2",
+      "text": "Confirm instrument counts are complete for the open-cavity case"
+     },
+     {
+      "key": "R3",
+      "text": "Alert the team if counts do not reconcile so search/imaging steps can be taken"
+     },
+     {
+      "key": "R4",
+      "text": "Skip verbal count confirmation because retained sponges are a never event that cannot occur"
+     },
+     {
+      "key": "R5",
+      "text": "Remove counted sponges from the OR before the final count is finished to speed turnover"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. WHO SSC sign-out requires verbal confirmation of sponge/needle counts.",
+    "R2": "Indicated. Instrument counts confirmed when a cavity was open.",
+    "R3": "Indicated. Unreconciled counts require team alert and search/imaging as needed.",
+    "R4": "Not indicated. Retention is preventable but does occur; counts are required.",
+    "R5": "Not indicated. Counted items should remain available until final reconciliation."
+   },
+   "sources": [
+    {
+     "title": "Implementation Manual WHO Surgical Safety Checklist 2009",
+     "publisher": "World Health Organization",
+     "url": "https://www.who.int/docs/default-source/patient-safety/9789241598590-eng.pdf",
+     "section": "Completion of instrument, sponge and needle counts",
+     "source_date": "2009",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Verbal confirmation; open-cavity instrument counts; alert team if not reconciled (search drapes/garbage/wound; imaging if needed)."
+    },
+    {
+     "title": "Never Events",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ) — PSNet",
+     "url": "https://psnet.ahrq.gov/primer/never-events",
+     "section": "Unintended retention of a foreign object",
+     "source_date": "Last reviewed in 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R4",
+     "evidence": "Unintended retention after surgery is a listed serious reportable never event—prevention systems (including counts) matter."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6c75da6a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "WHO SSC + AHRQ Never Events surgical-count matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B57-WAVE48",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Health Canada AUVI-Q prescribing/patient information aligns with MedlinePlus epinephrine autoinjector site teaching",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "jurisdiction": "Canada-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0072",
+   "format": "multiple_choice",
+   "specialty": "Critical Care/Emergency",
+   "topic": "Epinephrine autoinjector — inject into middle outer thigh; not buttocks, digits, or IV",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "epinephrine-autoinjector-outer-thigh-not-buttocks-digits",
+   "tags": [
+    "PPT",
+    "epinephrine",
+    "anaphylaxis",
+    "autoinjector",
+    "critical-care",
+    "NGN-partner"
+   ],
+   "stem": "A client with a history of severe allergy asks where to use an epinephrine autoinjector in an emergency. Which teaching is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Inject into the middle of the outer thigh (anterolateral thigh); do not inject into the buttocks, fingers/hands/feet, or a vein"
+    },
+    {
+     "key": "B",
+     "text": "Inject into a fingertip for fastest absorption"
+    },
+    {
+     "key": "C",
+     "text": "Inject into the buttock as the preferred adult site"
+    },
+    {
+     "key": "D",
+     "text": "Give only as an intravenous push at home without emergency follow-up"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Health Canada AUVI-Q: inject into middle outer/anterolateral thigh; do not inject IV, buttocks, or digits/hands/feet. MedlinePlus: inject only in the middle of the outer side of the thigh; do not inject buttocks, fingers, hands, feet, or into a vein.",
+    "B": "Incorrect. Digit injection risks severe vasoconstriction/ischemia.",
+    "C": "Incorrect. Buttock injection is specifically contraindicated for autoinjectors.",
+    "D": "Incorrect. Autoinjectors are IM/SC into the thigh and emergency care must still be sought."
+   },
+   "sources": [
+    {
+     "title": "AUVI-Q prescribing information",
+     "publisher": "Health Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/announcements/auvi-q-prescribing-information.html",
+     "section": "Dosage and administration / Warnings — injection site",
+     "source_date": "Revised: 11/2017 (Health Canada posting)",
+     "accessed_date": "2026-11-25",
+     "source_type": "drug_monograph_label",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Inject IM or SC into anterolateral aspect of the thigh; ONLY outer thigh; do not inject IV, buttocks, digits/hands/feet."
+    },
+    {
+     "title": "Epinephrine Injection",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/druginfo/meds/a603002.html",
+     "section": "How should this medicine be used?",
+     "source_date": "Last Revised - 06/15/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Inject only in the middle of the outer side of the thigh; may inject through clothing; do not inject buttocks, fingers, hands, feet, or into a vein."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6c75da6a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Health Canada AUVI-Q + MedlinePlus epinephrine injection site dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B57-WAVE48",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Health Canada AUVI-Q + MedlinePlus autoinjector teaching",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "jurisdiction": "Canada-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0073",
+   "format": "drop_down_cloze",
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN cloze — epinephrine autoinjector site and immediate emergency care",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "epinephrine-autoinjector-site-ngn-cloze",
+   "tags": [
+    "NGN",
+    "cloze",
+    "PPT",
+    "epinephrine",
+    "anaphylaxis"
+   ],
+   "stem": "Complete accurate epinephrine autoinjector teaching for anaphylaxis.",
+   "ngn": {
+    "template": "Inject the autoinjector into the {B1}. After use, the client should {B2}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "middle of the outer thigh (anterolateral thigh), through clothing if needed"
+      },
+      {
+       "key": "B1b",
+       "text": "buttock as first-line site"
+      },
+      {
+       "key": "B1c",
+       "text": "index finger for rapid absorption"
+      },
+      {
+       "key": "B1d",
+       "text": "forearm vein with a home IV start"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "seek emergency medical care right away even if symptoms improve"
+      },
+      {
+       "key": "B2b",
+       "text": "drive home and skip evaluation if breathing feels better"
+      },
+      {
+       "key": "B2c",
+       "text": "inject a second dose into a fingertip prophylactically"
+      },
+      {
+       "key": "B2d",
+       "text": "discard teaching and reuse the same device on another person later that day"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. Outer/anterolateral thigh is the labeled site.",
+    "B1b": "Incorrect. Buttock injection is contraindicated.",
+    "B1c": "Incorrect. Digit injection is dangerous.",
+    "B1d": "Incorrect. Not for home IV administration.",
+    "B2a": "Correct. MedlinePlus/emergency teaching: get emergency help after epinephrine; biphasic reactions possible.",
+    "B2b": "Incorrect. Emergency evaluation is required after anaphylaxis treatment.",
+    "B2c": "Incorrect. Do not inject digits.",
+    "B2d": "Incorrect. Devices are single-use for the prescribed patient."
+   },
+   "sources": [
+    {
+     "title": "AUVI-Q prescribing information",
+     "publisher": "Health Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/announcements/auvi-q-prescribing-information.html",
+     "section": "Injection site / single-use",
+     "source_date": "Revised: 11/2017 (Health Canada posting)",
+     "accessed_date": "2026-11-25",
+     "source_type": "drug_monograph_label",
+     "added_by": "author",
+     "supports": "B1",
+     "evidence": "Middle outer/anterolateral thigh; through clothing if needed; single-use device."
+    },
+    {
+     "title": "Epinephrine Injection",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/druginfo/meds/a603002.html",
+     "section": "How should this medicine be used? / emergency care",
+     "source_date": "Last Revised - 06/15/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Outer thigh site; after injecting, get emergency medical treatment immediately."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6c75da6a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Health Canada AUVI-Q + MedlinePlus epinephrine cloze dual-cite."
     }
    ],
    "exam_version_published": null,
