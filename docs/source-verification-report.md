@@ -1,6 +1,6 @@
 # Source verification report — Ontario/Canada question bank
 
-**Updated:** 2026-11-25, ~8:00 AM (America/New_York)
+**Updated:** 2026-11-25, ~7:55 AM (America/New_York)
 **Scope:** Author-level **Source verified** only. Not an independent verifier pass. Not clinical review.
 **Rule:** Every keyed answer and rationale rests on sources fetched in-session; citations were not invented.
 
@@ -10,25 +10,25 @@
 
 | Metric | Count |
 | --- | ---: |
-| Items Source verified | **94** |
+| Items Source verified | **105** |
 | Items with independent verifier `confirmed` | 0 |
 | Items clinically reviewed / approved / published | **0** |
-| Excluded draft topics logged | 31 |
+| Excluded draft topics logged | 35 |
 
 ### Citation publishers (citation instances across items)
 
 | Publisher | Citations |
 | --- | ---: |
-| Merck Manual Professional Edition | 64 |
-| OpenStax — Medical-Surgical Nursing | 30 |
+| Merck Manual Professional Edition | 73 |
+| OpenStax — Medical-Surgical Nursing | 32 |
 | OpenStax — Fundamentals of Nursing | 19 |
-| U.S. Centers for Disease Control and Prevention (CDC) | 10 |
+| OpenStax — Psychiatric-Mental Health Nursing | 13 |
+| U.S. Centers for Disease Control and Prevention (CDC) | 12 |
 | OpenStax — Pharmacology for Nurses | 10 |
 | College of Nurses of Ontario | 9 |
-| OpenStax — Psychiatric-Mental Health Nursing | 9 |
-| OpenStax — Clinical Nursing Skills | 5 |
-| Public Health Agency of Canada / Canada.ca | 5 |
-| OpenStax — Maternal-Newborn Nursing | 4 |
+| OpenStax — Clinical Nursing Skills | 8 |
+| Public Health Agency of Canada / Canada.ca | 6 |
+| OpenStax — Maternal-Newborn Nursing | 5 |
 | Government of Ontario — e-Laws | 3 |
 | Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC) | 3 |
 | Diabetes Canada | 2 |
@@ -50,7 +50,7 @@
 | Canadian Paediatric Society | 1 |
 | OpenStax — Population Health for Nurses | 1 |
 | Agency for Healthcare Research and Quality (AHRQ) | 1 |
-| World Health Organization | 1 |
+| World Health Organization | 2 |
 
 ---
 
@@ -153,6 +153,17 @@
 | ONRN-HPM-0010 | B18-WAVE9 | multiple_choice | Health Promotion and Maintenance | Canada-specific | 2 | yes | maternity-newborn, canada-us-difference |
 | ONRN-HPM-0011 | B18-WAVE9 | multiple_choice | Health Promotion and Maintenance | Canada-specific | 2 | yes | maternity-newborn, canada-us-difference |
 | ONRN-MOC-0010 | B18-WAVE9 | select_all_that_apply | Management of Care | Ontario-specific | 2 | no | legal-ontario |
+| ONRN-HPM-0012 | B19-WAVE10 | multiple_choice | Health Promotion and Maintenance | General (Canada/US concordant) | 2 | no | — |
+| ONRN-HPM-0013 | B19-WAVE10 | multiple_choice | Health Promotion and Maintenance | General (Canada/US concordant) | 3 | no | — |
+| ONRN-BCC-0012 | B19-WAVE10 | multiple_choice | Basic Care and Comfort | General (Canada/US concordant) | 2 | no | — |
+| ONRN-BCC-0013 | B19-WAVE10 | select_all_that_apply | Basic Care and Comfort | General (Canada/US concordant) | 2 | no | — |
+| ONRN-PSY-0011 | B19-WAVE10 | multiple_choice | Psychosocial Integrity | General (Canada/US concordant) | 2 | yes | mental-health-safety |
+| ONRN-PSY-0012 | B19-WAVE10 | multiple_choice | Psychosocial Integrity | General (Canada/US concordant) | 2 | yes | mental-health-safety |
+| ONRN-PSY-0013 | B19-WAVE10 | multiple_choice | Psychosocial Integrity | General (Canada/US concordant) | 2 | no | — |
+| ONRN-RRP-0016 | B19-WAVE10 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | emergency |
+| ONRN-RRP-0017 | B19-WAVE10 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | emergency |
+| ONRN-RRP-0018 | B19-WAVE10 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | emergency |
+| ONRN-PSY-0014 | B19-WAVE10 | select_all_that_apply | Psychosocial Integrity | General (Canada/US concordant) | 2 | yes | mental-health-safety |
 
 ---
 
@@ -160,4 +171,5 @@
 
 - Wave 8 (`B17-WAVE8`): 13 dual-cited items focused on SIPC/RRP; validator `TOTAL ERRORS: 0`.
 - Wave 9 (`B18-WAVE9`): 13 dual-cited items focused on MOC/PSY/BCC/HPM/PA; validator `TOTAL ERRORS: 0`.
+- Wave 10 (`B19-WAVE10`): 11 dual-cited items focused on thinner CN gaps HPM/BCC/PSY/RRP; validator `TOTAL ERRORS: 0`.
 - Approved / clinically reviewed remains **0** until licensed clinician review.
