@@ -1,0 +1,1304 @@
+{
+ "batch_id": "B24-WAVE15",
+ "author": "AI author (Composer, Cursor subagent bc-88ec77be) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 15 multi-exam depth expansion prioritizing underrepresented specialties (Pediatrics, Mental Health, Maternity/Newborn, Community/Public Health) and NGN formats (matrix + SATA), with dual-cited originals only.",
+ "items": [
+  {
+   "batch": "B24-WAVE15",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-88ec77be) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax stop infusion + notify on toxicity signs; Merck calcium gluconate for significant Mg toxicity symptoms"
+    }
+   ],
+   "id": "ONRN-PPT-0025",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A postpartum client receiving a continuous intravenous magnesium sulfate infusion for preeclampsia with severe features develops loss of deep tendon reflexes and respiratory depression. According to maternity nursing practice standards for magnesium toxicity, what should the nurse do first?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Continue the infusion at the same rate and reassess reflexes in 1 hour."
+    },
+    {
+     "key": "B",
+     "text": "Stop the magnesium sulfate infusion immediately and notify the health-care provider."
+    },
+    {
+     "key": "C",
+     "text": "Increase the infusion rate to deepen the anticonvulsant effect."
+    },
+    {
+     "key": "D",
+     "text": "Administer an additional 4 g magnesium sulfate bolus now."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Continuing the infusion when toxicity signs (absent reflexes, respiratory depression) are present allows magnesium levels to rise further.",
+    "B": "Correct. OpenStax directs the nurse to stop the magnesium infusion immediately and notify the provider when toxicity signs appear (loss of deep tendon reflexes, respiratory depression); Merck likewise treats significant magnesium toxicity symptoms with calcium gluconate after recognizing toxic levels.",
+    "C": "Incorrect. Increasing the rate would worsen magnesium toxicity.",
+    "D": "Incorrect. An additional bolus is used for seizure prevention/treatment dosing, not when toxicity is already evident."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Magnesium sulfate toxicity — stop infusion immediately",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "review_flags": [
+    "high-alert-medication",
+    "maternity-newborn",
+    "emergency"
+   ],
+   "enemy_group": "magnesium-sulfate-toxicity-stop-infusion-first",
+   "tags": [
+    "magnesium-sulfate",
+    "preeclampsia",
+    "toxicity",
+    "PPT"
+   ],
+   "sources": [
+    {
+     "title": "12.2 Conditions Limited to Pregnancy",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+     "section": "Safe Administration and Monitoring of Magnesium Sulfate during Pregnancy",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Stop infusion immediately and notify health-care provider; ensure accessibility of calcium gluconate as antidote.",
+     "added_by": "author"
+    },
+    {
+     "title": "Preeclampsia and Eclampsia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/antenatal-complications/preeclampsia-and-eclampsia",
+     "section": "Magnesium sulfate",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B",
+     "evidence": "Patients with very high magnesium levels and significant symptoms can be treated with calcium gluconate 1 g IV.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B24-WAVE15",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-88ec77be) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax toxicity response sequence; Merck calcium gluconate for significant symptoms"
+    }
+   ],
+   "id": "ONRN-PA-0023",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A labouring client with preeclampsia with severe features is receiving intravenous magnesium sulfate. The nurse notes absent deep tendon reflexes, respiratory rate 10/min, and oxygen saturation 89% on room air. For each nursing action, indicate whether it is indicated or not indicated at this time.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Stop the magnesium sulfate infusion immediately."
+     },
+     {
+      "key": "R2",
+      "text": "Notify the health-care provider of the toxicity findings."
+     },
+     {
+      "key": "R3",
+      "text": "Ensure calcium gluconate is available and administer as ordered."
+     },
+     {
+      "key": "R4",
+      "text": "Increase the magnesium sulfate infusion rate to deepen neuromuscular blockade."
+     },
+     {
+      "key": "R5",
+      "text": "Draw a serum magnesium level as directed after stopping the infusion."
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. OpenStax lists stopping the infusion immediately as the first response to magnesium toxicity signs such as decreased deep tendon reflexes and respiratory depression.",
+    "R2": "Indicated. The provider must be notified promptly when toxicity signs appear so antidote therapy and further orders can be given.",
+    "R3": "Indicated. OpenStax identifies calcium gluconate as the antidote that should be accessible (usually at the bedside) and administered as ordered; Merck supports calcium gluconate IV for significant magnesium toxicity symptoms.",
+    "R4": "Not indicated. Increasing the infusion would worsen toxicity and is opposite to the required action.",
+    "R5": "Indicated. OpenStax directs the nurse to draw a magnesium level immediately after stopping the infusion as part of the toxicity response."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "NGN matrix — magnesium toxicity indicated nursing actions",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "review_flags": [
+    "high-alert-medication",
+    "maternity-newborn",
+    "emergency"
+   ],
+   "enemy_group": "ngn-matrix-magnesium-toxicity-indicated-actions",
+   "tags": [
+    "NGN",
+    "matrix",
+    "magnesium-sulfate",
+    "PA"
+   ],
+   "sources": [
+    {
+     "title": "12.2 Conditions Limited to Pregnancy",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+     "section": "Safe Administration and Monitoring of Magnesium Sulfate during Pregnancy",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Keys R1–R5",
+     "evidence": "Stop infusion immediately; notify provider; draw magnesium level; ensure calcium gluconate accessibility as antidote.",
+     "added_by": "author"
+    },
+    {
+     "title": "Preeclampsia and Eclampsia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/antenatal-complications/preeclampsia-and-eclampsia",
+     "section": "Magnesium sulfate",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key R3",
+     "evidence": "Significant magnesium toxicity symptoms can be treated with calcium gluconate 1 g IV.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B24-WAVE15",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-88ec77be) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax severe headache/visual changes; Merck severe headache/visual disturbances as severe features"
+    }
+   ],
+   "id": "ONRN-PA-0024",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client at 34 weeks’ gestation with known preeclampsia reports a new severe headache and blurred vision. What is the nurse’s priority action?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Reassure the client that headache is common in late pregnancy and document the report."
+    },
+    {
+     "key": "B",
+     "text": "Encourage ambulation in the hallway to relieve tension headache."
+    },
+    {
+     "key": "C",
+     "text": "Notify the health-care provider promptly of possible worsening preeclampsia with severe features."
+    },
+    {
+     "key": "D",
+     "text": "Delay assessment until the next scheduled prenatal visit in 1 week."
+    }
+   ],
+   "correct_answer": [
+    "C"
+   ],
+   "rationales": {
+    "A": "Incorrect. New severe headache with visual change is a warning sign of severe-feature preeclampsia, not a benign late-pregnancy complaint to only document.",
+    "B": "Incorrect. Ambulation does not address evolving neurologic end-organ involvement and may delay needed evaluation.",
+    "C": "Correct. OpenStax and Merck identify severe headache and visual disturbances as features of preeclampsia with severe features that require prompt recognition and reporting so seizure prevention and delivery decisions can be made.",
+    "D": "Incorrect. Waiting a week risks progression to eclampsia or other organ injury."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Preeclampsia severe features — headache and visual changes require prompt reporting",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "review_flags": [
+    "maternity-newborn",
+    "emergency"
+   ],
+   "enemy_group": "preeclampsia-severe-features-headache-visual-report",
+   "tags": [
+    "preeclampsia",
+    "maternity",
+    "PA"
+   ],
+   "sources": [
+    {
+     "title": "12.2 Conditions Limited to Pregnancy",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+     "section": "Preeclampsia",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key C",
+     "evidence": "Signs of preeclampsia include headaches and vision changes; significant clinical change should be immediately reported.",
+     "added_by": "author"
+    },
+    {
+     "title": "Preeclampsia and Eclampsia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/antenatal-complications/preeclampsia-and-eclampsia",
+     "section": "Symptoms and Signs of Preeclampsia and Eclampsia",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key C",
+     "evidence": "Preeclampsia with severe features may cause severe headache and visual disturbances.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B24-WAVE15",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-88ec77be) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck continue breastfeeding/pumping + empty breast; WHO effective milk removal / continue breastfeeding"
+    }
+   ],
+   "id": "ONRN-HPM-0016",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A breastfeeding client at 3 weeks postpartum has unilateral breast erythema, warmth, and tenderness with fever. The provider diagnoses mastitis and starts oral antistaphylococcal antibiotics. Which teaching is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Stop breastfeeding immediately and wean permanently to prevent spreading infection to the infant."
+    },
+    {
+     "key": "B",
+     "text": "Continue breastfeeding and/or pumping to empty the affected breast during treatment."
+    },
+    {
+     "key": "C",
+     "text": "Apply ice packs only and avoid emptying the breast until the fever resolves."
+    },
+    {
+     "key": "D",
+     "text": "Bind both breasts tightly and withhold feeds for 48 hours."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Merck states breastfeeding and/or pumping should continue during treatment because emptying the affected breast is part of therapy.",
+    "B": "Correct. Merck and WHO identify effective emptying of the affected breast—continuing breastfeeding and/or expressing/pumping—as essential treatment; stopping breastfeeding is not required for therapy.",
+    "C": "Incorrect. Avoiding emptying promotes engorgement and works against recommended therapy.",
+    "D": "Incorrect. Binding and withholding feeds are not recommended management for mastitis."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Mastitis — continue breastfeeding/pumping to empty the affected breast",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "review_flags": [
+    "maternity-newborn"
+   ],
+   "enemy_group": "mastitis-continue-breastfeeding-empty-affected-breast",
+   "tags": [
+    "mastitis",
+    "breastfeeding",
+    "HPM"
+   ],
+   "sources": [
+    {
+     "title": "Mastitis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/postpartum-care-and-associated-disorders/mastitis",
+     "section": "Treatment of Mastitis",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Complete emptying of breast milk; breastfeeding and/or pumping should be continued during treatment.",
+     "added_by": "author"
+    },
+    {
+     "title": "Mastitis: Causes and Management",
+     "publisher": "World Health Organization",
+     "url": "https://iris.who.int/bitstream/handle/10665/66230/WHO_FCH_CAH_00.13_eng.pdf",
+     "section": "9.2 Mastitis — Effective milk removal / Supportive counselling",
+     "source_date": "WHO/FCH/CAH/00.13 (document date not restated on extracted text; revised ed. 1997 noted in related WHO materials)",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key B",
+     "evidence": "Effective milk removal is the most essential part of treatment; encourage frequent breastfeeding; reassure it is safe to continue.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B24-WAVE15",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-88ec77be) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CPS Caring for Kids rear-facing infants; NHTSA rear-facing under age 1 and keep rear-facing as long as possible"
+    }
+   ],
+   "id": "ONRN-HPM-0017",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "Parents of a 6-week-old infant ask how their child should ride in the family vehicle. Which instruction is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Place the infant in a forward-facing seat with a lap belt only in the front passenger seat."
+    },
+    {
+     "key": "B",
+     "text": "Use a rear-facing car seat installed in the back seat according to the manufacturer’s limits."
+    },
+    {
+     "key": "C",
+     "text": "Hold the infant securely on an adult’s lap if the trip is shorter than 30 minutes."
+    },
+    {
+     "key": "D",
+     "text": "Use an adult seat belt alone because infants under 3 months do not need a car seat."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Infants must ride rear-facing; the front seat is not the safest location for young children.",
+    "B": "Correct. Canadian Paediatric Society Caring for Kids and NHTSA both state infants should use a rear-facing car seat and remain rear-facing as long as they fit the manufacturer’s height and weight limits; the back seat is safest.",
+    "C": "Incorrect. Holding an infant on a lap does not provide crash protection.",
+    "D": "Incorrect. All infants require an appropriate child restraint; adult belts alone are unsafe."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Infant car seat — rear-facing in the back seat",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "CPS Caring for Kids (Canada) and NHTSA (US) concord on rear-facing for infants and maximizing rear-facing duration within manufacturer limits.",
+   "review_flags": [
+    "pediatric"
+   ],
+   "enemy_group": "infant-car-seat-rear-facing-back-seat",
+   "tags": [
+    "car-seat",
+    "pediatrics",
+    "HPM",
+    "injury-prevention"
+   ],
+   "sources": [
+    {
+     "title": "Car seat safety",
+     "publisher": "Canadian Paediatric Society — Caring for Kids",
+     "url": "https://caringforkids.cps.ca/handouts/safety-and-injury-prevention/car_seat_safety",
+     "section": "What type of car seat should I use? — Rear-facing car seat",
+     "source_date": "Last updated: December 2020",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B",
+     "evidence": "All infants must use a rear-facing car seat; safest using rear-facing until 2, 3, or even 4 years within manufacturer limits.",
+     "added_by": "author"
+    },
+    {
+     "title": "Car Seats and Booster Seats",
+     "publisher": "U.S. National Highway Traffic Safety Administration (NHTSA)",
+     "url": "https://www.nhtsa.gov/vehicle-safety/car-seats-and-booster-seats",
+     "section": "Rear-Facing Car Seat — Birth–12 Months / 1–3 Years",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B",
+     "evidence": "Child under age 1 should always ride rear-facing; keep rear-facing as long as possible until manufacturer height/weight limit.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B24-WAVE15",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-88ec77be) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck ORT mild/moderate; Merck dehydration IV for severe; CDC MMWR ORS for mild–moderate"
+    }
+   ],
+   "id": "ONRN-PA-0025",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An alert 18-month-old with gastroenteritis has mild to moderate dehydration, is able to drink, and has no signs of shock. Which fluid plan is most appropriate initially?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Immediate intravenous isotonic fluid boluses as first-line therapy for all mild dehydration."
+    },
+    {
+     "key": "B",
+     "text": "Oral rehydration solution in frequent small amounts, reserving IV fluids for severe dehydration or inability to take oral fluids."
+    },
+    {
+     "key": "C",
+     "text": "Undiluted fruit juice ad libitum as the preferred rehydration fluid."
+    },
+    {
+     "key": "D",
+     "text": "Nothing by mouth for 12 hours to rest the bowel before any fluids."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Merck and CDC recommend oral rehydration for mild to moderate dehydration; IV is for severe dehydration or when oral intake is not possible.",
+    "B": "Correct. AAP/WHO/Merck and CDC guidance support oral rehydration therapy for mild to moderate dehydration when the child can take fluids orally; severe dehydration with circulatory compromise needs IV fluids.",
+    "C": "Incorrect. Commercial ORS with appropriate glucose–sodium composition is preferred over high-sugar juices that can worsen diarrhea.",
+    "D": "Incorrect. Gut rest with prolonged NPO is not recommended; rehydration and early feeding are preferred."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Pediatric mild–moderate dehydration — oral rehydration first",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "review_flags": [
+    "pediatric"
+   ],
+   "enemy_group": "pediatric-mild-moderate-dehydration-oral-rehydration-first",
+   "tags": [
+    "ORS",
+    "dehydration",
+    "pediatrics",
+    "PA"
+   ],
+   "sources": [
+    {
+     "title": "Dehydration in Children",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/dehydration-and-fluid-therapy-in-children/dehydration-in-children",
+     "section": "Treatment of Dehydration in Children",
+     "source_date": "Last updated: Dec 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B",
+     "evidence": "AAP and WHO recommend oral rehydration for mild and moderate dehydration; children with severe dehydration should receive fluids IV.",
+     "added_by": "author"
+    },
+    {
+     "title": "Managing Acute Gastroenteritis Among Children: Oral Rehydration, Maintenance, and Nutritional Therapy",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5216a1.htm",
+     "section": "Acute Gastroenteritis Therapy Based on Degree of Dehydration",
+     "source_date": "2003 MMWR Recommendations and Reports",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B",
+     "evidence": "ORS is first-line for mild to moderate dehydration; many clinicians inappropriately use IV for mild/moderate cases.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B24-WAVE15",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-88ec77be) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CPS supportive care + no routine salbutamol; Merck supportive therapy + bronchodilators not uniformly effective"
+    }
+   ],
+   "id": "ONRN-RRP-0019",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An otherwise healthy 8-month-old is diagnosed with typical viral bronchiolitis. Which statement best reflects evidence-based management?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Routine nebulized salbutamol should be given to every wheezing infant with bronchiolitis."
+    },
+    {
+     "key": "B",
+     "text": "Management is primarily supportive (hydration, gentle nasal suctioning, oxygen if needed); routine salbutamol is not recommended when the diagnosis is clear."
+    },
+    {
+     "key": "C",
+     "text": "Systemic corticosteroids are first-line therapy to shorten every hospital stay."
+    },
+    {
+     "key": "D",
+     "text": "Chest physiotherapy with percussion is required for all admitted infants."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. CPS states that when bronchiolitis diagnosis is clear, a trial of salbutamol is not recommended; Merck notes bronchodilators are not uniformly effective.",
+    "B": "Correct. CPS and Merck describe supportive care as the mainstay (hydration, oxygen as needed, comfort measures); CPS explicitly does not recommend routine salbutamol for clear bronchiolitis.",
+    "C": "Incorrect. CPS states corticosteroids are not recommended for routine use in bronchiolitis.",
+    "D": "Incorrect. CPS states chest physiotherapy is not recommended for bronchiolitis treatment."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Bronchiolitis — supportive care; no routine salbutamol",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "CPS (Canada) and Merck (general) concord that care is primarily supportive and bronchodilators are not routinely effective/recommended in typical bronchiolitis.",
+   "review_flags": [
+    "pediatric"
+   ],
+   "enemy_group": "bronchiolitis-supportive-care-no-routine-salbutamol",
+   "tags": [
+    "bronchiolitis",
+    "RSV",
+    "pediatrics",
+    "RRP"
+   ],
+   "sources": [
+    {
+     "title": "Bronchiolitis: Recommendations for diagnosis, monitoring and management of children one to 24 months",
+     "publisher": "Canadian Paediatric Society",
+     "url": "https://cps.ca/en/documents/position/bronchiolitis",
+     "section": "Management / Therapies not recommended — Salbutamol",
+     "source_date": "Updated: Nov 30, 2021",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Management primarily supportive; when diagnosis of bronchiolitis is clear, a trial of salbutamol is not recommended.",
+     "added_by": "author"
+    },
+    {
+     "title": "Bronchiolitis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/respiratory-disorders-in-young-children/bronchiolitis",
+     "section": "Treatment of Bronchiolitis",
+     "source_date": "Last updated: Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B",
+     "evidence": "Treatment is usually supportive; oxygen and IV hydration as needed; bronchodilators are not uniformly effective.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B24-WAVE15",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-88ec77be) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax least restrictive alternatives; Merck seclusion/restraint last resort after lesser restrictive interventions"
+    }
+   ],
+   "id": "ONRN-PSY-0016",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client on a mental health unit becomes increasingly agitated but is not yet physically assaultive. Which nursing approach best reflects the right to least restrictive treatment?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Apply four-point restraints immediately to prevent any future escalation."
+    },
+    {
+     "key": "B",
+     "text": "Place the client in locked seclusion as the first intervention."
+    },
+    {
+     "key": "C",
+     "text": "Attempt de-escalation first (calm communication, reduce stimuli, offer time-out or PRN medication as appropriate) before seclusion or restraint."
+    },
+    {
+     "key": "D",
+     "text": "Ignore the agitation until violence occurs, then call security only."
+    }
+   ],
+   "correct_answer": [
+    "C"
+   ],
+   "rationales": {
+    "A": "Incorrect. Restraint is among the most restrictive measures and is reserved for last resort after less restrictive options fail.",
+    "B": "Incorrect. Seclusion is a highly restrictive intervention used when less restrictive measures have not been effective.",
+    "C": "Correct. OpenStax requires least restrictive measures first (de-escalation, reduce stimuli, time-out, PRN medication). Merck likewise states seclusion or restraint is a last resort after lesser restrictive interventions have been attempted.",
+    "D": "Incorrect. Early intervention with least restrictive strategies is required; waiting for violence is unsafe and not therapeutic."
+   },
+   "specialty": "Mental Health",
+   "topic": "Aggression — least restrictive alternatives before seclusion/restraint",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "Least-restrictive principles are general; Ontario also has Patient Restraints Minimization Act for hospital restraints (tested separately).",
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "enemy_group": "mh-least-restrictive-before-seclusion-restraint",
+   "tags": [
+    "seclusion",
+    "restraint",
+    "de-escalation",
+    "PSY"
+   ],
+   "sources": [
+    {
+     "title": "11.2 Violence and Safety",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/11-2-violence-and-safety",
+     "section": "Least Restrictive Alternatives to Managing Aggression / The Use of Seclusion",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key C",
+     "evidence": "Providers must use the least restrictive measures that are safe; seclusion/restraint are last resort for severe agitation.",
+     "added_by": "author"
+    },
+    {
+     "title": "Behavioral Emergencies",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/approach-to-the-patient-with-psychiatric-symptoms/behavioral-emergencies",
+     "section": "Seclusion or Physical Restraints / Potentially violent patients",
+     "source_date": "not stated on page (fetched 2026-11-25)",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key C",
+     "evidence": "Seclusion or restraint should be used as a last resort when all lesser restrictive interventions have been attempted; first use measures to defuse agitation.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B24-WAVE15",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-88ec77be) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax 2 weeks start / 4–6 weeks full + notify suicidality; Merck improvement may take 1–4 weeks"
+    }
+   ],
+   "id": "ONRN-PPT-0026",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A young adult starts a selective serotonin reuptake inhibitor (SSRI) for major depressive disorder and asks when to expect full benefit. Which teaching is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Full therapeutic effects are usually immediate within the first dose."
+    },
+    {
+     "key": "B",
+     "text": "Effects may begin in about 2 weeks, with full therapeutic effects often by 4 to 6 weeks; report worsening depression or suicidal thoughts promptly."
+    },
+    {
+     "key": "C",
+     "text": "If mood is not fully improved by day 3, stop the medication without contacting the provider."
+    },
+    {
+     "key": "D",
+     "text": "SSRIs never require monitoring for mood changes after starting therapy."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. OpenStax and Merck indicate antidepressant benefit is delayed, not immediate after one dose.",
+    "B": "Correct. OpenStax nursing implications state effects may start in about 2 weeks with full effects in 4–6 weeks, and clients must report increased depression or suicidal ideation; Merck notes improvement may not be apparent until after 1 to 4 weeks.",
+    "C": "Incorrect. Stopping abruptly without guidance is unsafe; delayed onset is expected and the provider should be contacted for concerns.",
+    "D": "Incorrect. Antidepressants require monitoring for worsening mood and suicidality, especially in younger clients."
+   },
+   "specialty": "Pharmacology",
+   "topic": "SSRI/antidepressant — delayed onset; monitor for worsening mood/suicidality",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Evaluate Outcomes",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "review_flags": [
+    "mental-health-safety",
+    "high-alert-medication"
+   ],
+   "enemy_group": "ssri-delayed-onset-2-to-6-weeks-monitor-suicidality",
+   "tags": [
+    "SSRI",
+    "antidepressant",
+    "PPT",
+    "mental-health"
+   ],
+   "sources": [
+    {
+     "title": "13.1 Antidepressants",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/13-1-antidepressants",
+     "section": "Nursing Implications",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "These drugs can take 2 weeks to start seeing effects and 4–6 weeks for full therapeutic effects; notify provider about increased depression or suicidal ideations.",
+     "added_by": "author"
+    },
+    {
+     "title": "Depressive Disorders",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/mood-disorders/depressive-disorders",
+     "section": "Treatment of Depressive Disorders — Pharmacotherapy",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B",
+     "evidence": "Improvement may not be apparent until after 1 to 4 weeks of pharmacotherapy.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B24-WAVE15",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-88ec77be) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax suicide case SATA actions; OpenStax means restriction; Merck suicide monitoring need"
+    }
+   ],
+   "id": "ONRN-PSY-0017",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "A hospitalized client with major depression discloses a specific plan to die by suicide using available bed linens and refuses to leave the room. Which nursing actions are appropriate? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Arrange for the client to be placed under observation."
+    },
+    {
+     "key": "B",
+     "text": "Communicate therapeutically and provide emotional support."
+    },
+    {
+     "key": "C",
+     "text": "Leave the client alone in the room with the door closed for privacy."
+    },
+    {
+     "key": "D",
+     "text": "Work to limit access to lethal means as part of the safety plan."
+    },
+    {
+     "key": "E",
+     "text": "Validate the client’s experiences and feelings."
+    },
+    {
+     "key": "F",
+     "text": "Withhold all prescribed medications permanently without an order."
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "D",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax case guidance includes arranging observation for a client with an active inpatient suicide plan.",
+    "B": "Correct. Therapeutic communication and emotional support are core nursing actions for a suicidal client.",
+    "C": "Incorrect. Leaving a high-risk client alone reduces observation and safety.",
+    "D": "Correct. Limiting access to lethal means is a crucial part of a safety plan.",
+    "E": "Correct. Validating experiences and feelings supports engagement and assessment.",
+    "F": "Incorrect. Withholding medications without an order is not an appropriate suicide-prevention action and may worsen depression."
+   },
+   "specialty": "Mental Health",
+   "topic": "Suicide safety SATA — observation, means restriction, therapeutic support",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "enemy_group": "suicide-inpatient-observation-means-restriction-sata",
+   "tags": [
+    "suicide",
+    "SATA",
+    "PSY",
+    "safety"
+   ],
+   "sources": [
+    {
+     "title": "16.3 Self-Harm and Suicide",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/16-3-self-harm-and-suicide",
+     "section": "Depression: Part 3 / Methods Used in Suicide",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Keys A,B,D,E",
+     "evidence": "Arrange observation; communicate therapeutically; provide emotional support; validate feelings; limit access to lethal means in the safety plan.",
+     "added_by": "author"
+    },
+    {
+     "title": "Depressive Disorders",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/mood-disorders/depressive-disorders",
+     "section": "Symptoms and Signs / Treatment",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Keys A,D",
+     "evidence": "Patients require appropriate counseling and monitoring for suicide risk; ask directly about thoughts and plans to harm themselves.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B24-WAVE15",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-88ec77be) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC primary prevention remove hazards; Health Canada dust/paint child exposure + avoid sanding"
+    }
+   ],
+   "id": "ONRN-HPM-0018",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A community health nurse teaches a caregiver about preventing childhood lead exposure in an older home. Which statement indicates correct understanding of primary prevention?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Primary prevention means waiting until a blood lead level is high before any environmental action."
+    },
+    {
+     "key": "B",
+     "text": "The most effective approach is to prevent exposure by controlling or removing lead hazards in the environment before a child is exposed."
+    },
+    {
+     "key": "C",
+     "text": "Lead in household dust is harmless to toddlers because they do not ingest dust."
+    },
+    {
+     "key": "D",
+     "text": "Sanding old lead paint without dust control is the preferred way to renovate a child’s bedroom."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. That describes delayed secondary action; CDC defines primary prevention as removing hazards before exposure.",
+    "B": "Correct. CDC states primary prevention—removing lead hazards before a child is exposed—is the most effective approach; Health Canada likewise emphasizes reducing environmental lead exposure and safely managing lead paint/dust risks for children.",
+    "C": "Incorrect. Health Canada notes babies and small children can ingest household dust through mouthing behaviours.",
+    "D": "Incorrect. Health Canada warns mechanical removal/sanding can release hazardous lead dust and should be avoided."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Childhood lead — primary prevention by removing environmental hazards",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "CDC primary-prevention framing and Health Canada lead exposure reduction/safe paint management are concordant on preventing childhood exposure.",
+   "review_flags": [
+    "pediatric",
+    "canada-us-difference"
+   ],
+   "enemy_group": "childhood-lead-primary-prevention-remove-hazards",
+   "tags": [
+    "lead",
+    "community",
+    "HPM",
+    "primary-prevention"
+   ],
+   "sources": [
+    {
+     "title": "Preventing Childhood Lead Poisoning",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/lead-prevention/prevention/index.html",
+     "section": "Lead poisoning prevention — Primary prevention",
+     "source_date": "June 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B",
+     "evidence": "Primary prevention is the removal of lead hazards from the environment before a child is lead exposed; most effective approach.",
+     "added_by": "author"
+    },
+    {
+     "title": "Lead information package — some commonly asked questions about lead and human health",
+     "publisher": "Health Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/health-canada/services/environmental-workplace-health/environmental-contaminants/lead/lead-information-package-some-commonly-asked-questions-about-lead-human-health.html",
+     "section": "Household dust / What should I do about lead-based paint in my home?",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B; rationales C,D",
+     "evidence": "Young children can ingest household dust; mechanical sanding of lead paint should be avoided because it releases leaded dust.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B24-WAVE15",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-88ec77be) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax full bladder displaces uterus; Merck postpartum afterpains during involution"
+    }
+   ],
+   "id": "ONRN-BCC-0015",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A nurse is teaching a client on day 1 after a vaginal birth about reducing uterine afterpains and keeping the fundus firm. Which instruction is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Limit fluid intake so the bladder stays full to cushion the uterus."
+    },
+    {
+     "key": "B",
+     "text": "Empty the bladder often because a full bladder can displace the uterus and increase cramping."
+    },
+    {
+     "key": "C",
+     "text": "Avoid breastfeeding for 48 hours to prevent oxytocin release."
+    },
+    {
+     "key": "D",
+     "text": "Remain on complete bed rest without ambulating to the bathroom."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. A full bladder displaces the uterus and worsens afterpains; fluids should not be limited for that purpose.",
+    "B": "Correct. OpenStax teaches that a full bladder displaces the uterus, requiring stronger contractions to stay firm and increasing pain; frequent emptying is encouraged. Merck notes early postpartum uterine afterpains during involution.",
+    "C": "Incorrect. Breastfeeding-related oxytocin supports involution; avoiding feeding is not appropriate teaching for afterpain control.",
+    "D": "Incorrect. Clients need to void; preventing bathroom access promotes bladder distention."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Postpartum — empty bladder often to prevent uterine displacement and afterpains",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "review_flags": [
+    "maternity-newborn"
+   ],
+   "enemy_group": "postpartum-empty-bladder-prevent-uterine-displacement",
+   "tags": [
+    "postpartum",
+    "bladder",
+    "fundus",
+    "BCC"
+   ],
+   "sources": [
+    {
+     "title": "20.3 Nursing Care During the Postpartum Period",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/20-3-nursing-care-during-the-postpartum-period",
+     "section": "Uterine Discomforts",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Encourage the postpartum person to empty their bladder often; a full bladder displaces the uterus, causing it to contract more to stay firm.",
+     "added_by": "author"
+    },
+    {
+     "title": "Postpartum Care",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/postpartum-care-and-associated-disorders/postpartum-care",
+     "section": "Clinical parameters — uterus involution / afterpains",
+     "source_date": "Last updated: Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B",
+     "evidence": "During the first few days postpartum, contractions of the involuting uterus may be painful (afterpains) and may require analgesics.",
+     "added_by": "author"
+    }
+   ]
+  }
+ ],
+ "excluded_items": [
+  {
+   "draft_topic": "Bronchiolitis continuous vs intermittent SpO2 monitoring thresholds",
+   "reason": "CPS notes controversy and insufficient evidence for a single dichotomous teaching key without facility-specific targets."
+  },
+  {
+   "draft_topic": "Exact magnesium loading/maintenance dose recall item",
+   "reason": "OpenStax and Merck dose ranges differ slightly (4–6 g load / 1–4 g/h vs 4 g then 2 g/h); excluded to avoid testing non-concordant numbers."
+  },
+  {
+   "draft_topic": "CDC RSV clinical-care page dual cite for bronchiolitis",
+   "reason": "CDC RSV clinical-care URL returned 404 this session; used CPS + Merck instead."
+  }
+ ],
+ "notes": "Single-form Client Needs quotas already met before this wave. Accuracy over volume; 12 Source-verified items. Keep Prisma.InputJsonValue casts in import-question-bank.ts unchanged."
+}
