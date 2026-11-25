@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 386,
+  "Source verified": 400,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -43402,6 +43402,1654 @@
      "supports": "All rows",
      "evidence": "Nutrition supplementation; bradycardia/electrolyte risks.",
      "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B43-WAVE34",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "gait-belt",
+    "ambulation",
+    "transfer",
+    "BCC",
+    "fundamentals"
+   ],
+   "id": "ONRN-BCC-0030",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Fundamentals",
+   "topic": "Gait belt — snug over clothing; fingers fit underneath; nonskid footwear",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "gait-belt-over-clothing-fingers-nonskid",
+   "stem": "The nurse prepares to ambulate an unsteady adult client with a gait belt. Which action is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Apply the gait belt snugly over clothing around the waist so fingers can fit underneath, and ensure nonskid footwear"
+    },
+    {
+     "key": "B",
+     "text": "Apply the gait belt directly on bare skin as tightly as possible with no finger space"
+    },
+    {
+     "key": "C",
+     "text": "Skip footwear because the belt alone prevents falls"
+    },
+    {
+     "key": "D",
+     "text": "Place the belt loosely around the chest over the breasts"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: place gait belt snugly over a layer of clothing with two fingers fitting between belt and client; ensure nonslip footwear. Open RN (NCBI): apply gait belt on top of clothing/gown and snugly over clothing with proper footwear such as nonslip socks or shoes.",
+    "B": "Incorrect. Belt goes over clothing to protect skin; it should allow finger space for safe hold, not maximum tightness on bare skin.",
+    "C": "Incorrect. Both sources emphasize nonskid/nonslip footwear before ambulation or transfer.",
+    "D": "Incorrect. Gait belts are placed around the waist, not loosely around the chest."
+   },
+   "sources": [
+    {
+     "title": "9.3 Transferring Patients",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/9-3-transferring-patients",
+     "section": "Gait Belt",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Nonslip footwear; belt snug over clothing; two fingers fit.",
+     "added_by": "author"
+    },
+    {
+     "title": "Chapter 13 Mobility — Nursing Fundamentals",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK591828/",
+     "section": "Gait Belts / Ambulating a Patient",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Apply on top of clothing; snug over clothing; proper nonslip footwear.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a20b7b51) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax CNS gait belt steps; Open RN NBK591828 gait belt over clothing + footwear."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B43-WAVE34",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "cane",
+    "assistive-device",
+    "ambulation",
+    "BCC",
+    "fundamentals"
+   ],
+   "id": "ONRN-BCC-0031",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Fundamentals",
+   "topic": "Cane — hold on stronger (opposite) side of weak limb",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cane-held-stronger-opposite-weak-side",
+   "stem": "A client with left leg weakness is learning to walk with a single-point cane. Which teaching point is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Hold the cane in the right (stronger) hand so it moves with the weaker left leg"
+    },
+    {
+     "key": "B",
+     "text": "Always hold the cane in the left hand next to the weak leg"
+    },
+    {
+     "key": "C",
+     "text": "Carry the cane in both hands in front of the body"
+    },
+    {
+     "key": "D",
+     "text": "Use the cane only when sitting, never when walking"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: hold the cane in the opposite hand of the weak or painful limb; cane moves with the affected leg. Open RN Nursing Assistant: place the cane on the stronger side.",
+    "B": "Incorrect. Holding the cane on the weak side reduces the widened base of support that opposite-hand use provides.",
+    "C": "Incorrect. A single cane is held in one hand for balance and support during gait.",
+    "D": "Incorrect. Canes are assistive devices for ambulation/balance when walking."
+   },
+   "sources": [
+    {
+     "title": "9.3 Transferring Patients",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/9-3-transferring-patients",
+     "section": "Cane",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Hold cane opposite weak/painful limb; moves with affected leg.",
+     "added_by": "author"
+    },
+    {
+     "title": "Chapter 8 Mobility — Nursing Assistant",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK599393/",
+     "section": "8.5 Assisting with Ambulation",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Cane placed on the resident’s stronger side.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a20b7b51) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax cane opposite weak limb; Open RN NA cane on stronger side."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B43-WAVE34",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "sensory-overload",
+    "ICU",
+    "gerontology",
+    "NGN",
+    "BCC"
+   ],
+   "id": "ONRN-BCC-0032",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Gerontology",
+   "topic": "NGN matrix — sensory overload: reduce noise/lights; earplugs; quiet supportive environment",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "ngn-matrix-sensory-overload-reduce-stimuli",
+   "stem": "An older adult in a monitored unit becomes agitated amid continuous alarms, bright lights, and frequent interruptions. For each intervention, indicate whether it is Indicated or Not indicated to reduce sensory overload.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Dim lights and reduce unnecessary noise when safe"
+     },
+     {
+      "key": "R2",
+      "text": "Offer earplugs or headphones to limit auditory overload"
+     },
+     {
+      "key": "R3",
+      "text": "Keep the environment continuously loud to maintain alertness"
+     },
+     {
+      "key": "R4",
+      "text": "Provide a calmer, quieter setting with orientation cues as able"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. OpenStax: dim lights and reduce noise levels to minimize sensory input.",
+    "R2": "Indicated. OpenStax: provide earplugs or headphones; ICU exemplar used earplugs/noise-canceling headphones.",
+    "R3": "Not indicated. Increasing noise worsens overload; Merck delirium care uses a quiet, stable environment.",
+    "R4": "Indicated. OpenStax supports calming supportive environment; Merck: stable, quiet, well-lit setting with orientation cues."
+   },
+   "sources": [
+    {
+     "title": "29.2 Impaired Sensory Function",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/29-2-impaired-sensory-function",
+     "section": "Causes of Sensory Overload",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "All rows",
+     "evidence": "Dim lights, reduce noise, earplugs/headphones; calming environment.",
+     "added_by": "author"
+    },
+    {
+     "title": "Delirium",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/delirium-and-dementia/delirium",
+     "section": "General measures",
+     "source_date": "Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "R3–R4",
+     "evidence": "Stable, quiet, well-lit environment with visual orientation cues.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a20b7b51) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax sensory overload interventions; Merck delirium general environmental measures."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B43-WAVE34",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric"
+   ],
+   "tags": [
+    "RSV",
+    "Contact-Precautions",
+    "pediatrics",
+    "SIPC"
+   ],
+   "id": "ONRN-SIPC-0034",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Pediatrics",
+   "topic": "RSV — Contact Precautions for duration of illness (infants/young children)",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "rsv-contact-precautions-duration-of-illness",
+   "stem": "An infant is admitted with respiratory syncytial virus (RSV) bronchiolitis. Which isolation plan is appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Contact Precautions for the duration of illness, with gown and gloves for patient-care contact"
+    },
+    {
+     "key": "B",
+     "text": "Airborne Precautions only in a negative-pressure room with N95 for all staff"
+    },
+    {
+     "key": "C",
+     "text": "No transmission-based precautions beyond Standard Precautions"
+    },
+    {
+     "key": "D",
+     "text": "Droplet Precautions only until the first afebrile hour"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC Appendix A: RSV in infants, young children, and immunocompromised adults — Contact + Standard for duration of illness. OpenStax: Contact Precautions use gown and gloves for direct/indirect contact pathogens.",
+    "B": "Incorrect. CDC lists Contact (not Airborne) for RSV in this population.",
+    "C": "Incorrect. Transmission-based Contact Precautions are indicated for RSV in infants/young children.",
+    "D": "Incorrect. CDC duration is duration of illness for Contact Precautions, not a one-hour fever rule."
+   },
+   "sources": [
+    {
+     "title": "Appendix A: Type and Duration of Precautions",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html",
+     "section": "Respiratory syncytial virus infection",
+     "source_date": "Updated: September 11, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "RSV: Contact + Standard; duration of illness.",
+     "added_by": "author"
+    },
+    {
+     "title": "10.4 Infection Control and Patient Safety",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/10-4-infection-control-and-patient-safety",
+     "section": "Contact Precautions",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Contact: gown and gloves; single patient space.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a20b7b51) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Appendix A RSV Contact duration of illness; OpenStax Contact PPE."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B43-WAVE34",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric"
+   ],
+   "tags": [
+    "impetigo",
+    "Contact-Precautions",
+    "pediatrics",
+    "SIPC"
+   ],
+   "id": "ONRN-SIPC-0035",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Pediatrics",
+   "topic": "Impetigo — Contact Precautions until 24 hours after effective therapy",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "impetigo-contact-until-24h-effective-therapy",
+   "stem": "A school-age child is admitted with widespread impetigo and started on effective antimicrobial therapy. Which precaution guidance is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Use Contact Precautions until 24 hours after initiation of effective therapy"
+    },
+    {
+     "key": "B",
+     "text": "Use Airborne Precautions for 7 days after the rash appears"
+    },
+    {
+     "key": "C",
+     "text": "Discontinue all precautions immediately when therapy is ordered, before the first dose"
+    },
+    {
+     "key": "D",
+     "text": "Use only Droplet Precautions without gown or gloves"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC Appendix A: Impetigo — Contact + Standard until 24 hours after initiation of effective therapy. OpenStax: Contact Precautions include gown and gloves for contact-transmitted infections.",
+    "B": "Incorrect. Impetigo is not managed with Airborne Precautions per CDC Appendix A.",
+    "C": "Incorrect. CDC continues Contact Precautions until 24 hours after effective therapy starts.",
+    "D": "Incorrect. CDC specifies Contact Precautions for impetigo."
+   },
+   "sources": [
+    {
+     "title": "Appendix A: Type and Duration of Precautions",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html",
+     "section": "Impetigo",
+     "source_date": "Updated: September 11, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Impetigo: Contact + Standard until 24 h after effective therapy.",
+     "added_by": "author"
+    },
+    {
+     "title": "10.4 Infection Control and Patient Safety",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/10-4-infection-control-and-patient-safety",
+     "section": "Contact Precautions",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Contact Precautions: gown and gloves.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a20b7b51) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Impetigo Contact until 24h; OpenStax Contact Precautions."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B43-WAVE34",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "tags": [
+    "enoxaparin",
+    "LMWH",
+    "injection",
+    "PPT",
+    "pharmacology"
+   ],
+   "id": "ONRN-PPT-0047",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Pharmacology",
+   "topic": "Enoxaparin — do not expel air bubble; subcutaneous abdomen; do not rub",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "enoxaparin-do-not-expel-air-bubble-abdomen",
+   "stem": "A client will self-inject enoxaparin from a prefilled syringe at home. Which instruction is essential?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Do not expel the air bubble before injection; inject subcutaneously in the abdomen and do not rub the site"
+    },
+    {
+     "key": "B",
+     "text": "Expel all air from the syringe, then inject intramuscularly into the deltoid"
+    },
+    {
+     "key": "C",
+     "text": "Inject through clothing into any bruised area to hide the site"
+    },
+    {
+     "key": "D",
+     "text": "Massage the site vigorously for 5 minutes after each dose"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax and DailyMed Lovenox: avoid ejecting/expelling the air bubble; inject into abdominal wall sites; do not rub after injection.",
+    "B": "Incorrect. Expelling the air bubble can lose drug; route is subcutaneous, not IM deltoid.",
+    "C": "Incorrect. Both sources: do not inject through clothing or into bruised/scarred skin.",
+    "D": "Incorrect. Rubbing increases bruising risk; teaching is not to rub."
+   },
+   "sources": [
+    {
+     "title": "20.2 Anticoagulants",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/20-2-anticoagulants",
+     "section": "Enoxaparin",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Avoid ejecting air bubble; SQ abdomen; avoid rubbing.",
+     "added_by": "author"
+    },
+    {
+     "title": "LOVENOX (enoxaparin sodium) injection",
+     "publisher": "U.S. National Library of Medicine — DailyMed",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59",
+     "section": "2.5 Administration",
+     "source_date": "Updated May 28, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "drug_monograph_label",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Do not expel air bubble; abdominal wall sites; do not rub.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a20b7b51) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax enoxaparin teaching; DailyMed Lovenox administration technique."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B43-WAVE34",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "emergency"
+   ],
+   "tags": [
+    "ACE-inhibitor",
+    "angioedema",
+    "NGN",
+    "PPT",
+    "pharmacology"
+   ],
+   "id": "ONRN-PPT-0048",
+   "format": "drop_down_cloze",
+   "scoring_model": "zero_one",
+   "specialty": "Pharmacology",
+   "topic": "NGN cloze — ACE inhibitor angioedema: stop drug; seek emergency care for face/tongue swelling",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "acei-angioedema-stop-drug-emergency-airway",
+   "stem": "A client starts lisinopril for hypertension. Complete the teaching using the drop-down choices.",
+   "ngn": {
+    "template": "Teach the client that a serious adverse effect of ACE inhibitors is {B1}. If swelling of the face, lips, tongue, or throat occurs, the client should {B2} and {B3}. ACE inhibitors are also {B4} in pregnancy.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "angioedema"
+      },
+      {
+       "key": "B1b",
+       "text": "photosensitivity only"
+      },
+      {
+       "key": "B1c",
+       "text": "orange urine"
+      },
+      {
+       "key": "B1d",
+       "text": "excessive hair growth"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "stop the ACE inhibitor and seek emergency care"
+      },
+      {
+       "key": "B2b",
+       "text": "double the next dose"
+      },
+      {
+       "key": "B2c",
+       "text": "switch to a potassium supplement"
+      },
+      {
+       "key": "B2d",
+       "text": "wait one week before calling anyone"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "treat airway swelling as an emergency because oropharyngeal angioedema can be fatal"
+      },
+      {
+       "key": "B3b",
+       "text": "ignore mild tongue swelling"
+      },
+      {
+       "key": "B3c",
+       "text": "restart the drug once swelling decreases slightly"
+      },
+      {
+       "key": "B3d",
+       "text": "take an extra dose with food"
+      }
+     ],
+     "B4": [
+      {
+       "key": "B4a",
+       "text": "contraindicated"
+      },
+      {
+       "key": "B4b",
+       "text": "preferred first-line"
+      },
+      {
+       "key": "B4c",
+       "text": "required"
+      },
+      {
+       "key": "B4d",
+       "text": "harmless"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a",
+    "B4": "B4a"
+   },
+   "rationales": {
+    "B1a": "Correct. OpenStax and Merck list angioedema as a serious ACE inhibitor adverse effect.",
+    "B1b": "Incorrect. Photosensitivity is not the key ACEI safety teaching here.",
+    "B1c": "Incorrect. Not an ACEI hallmark adverse effect.",
+    "B1d": "Incorrect. Not associated with ACE inhibitors.",
+    "B2a": "Correct. Prior angioedema is a contraindication; stop the drug and seek urgent care for swelling.",
+    "B2b": "Incorrect. Increasing the dose worsens risk.",
+    "B2c": "Incorrect. Potassium supplements increase hyperkalemia risk with ACEIs.",
+    "B2d": "Incorrect. Airway-threatening angioedema requires immediate care.",
+    "B3a": "Correct. Merck: angioedema affecting the oropharynx can be fatal.",
+    "B3b": "Incorrect. Tongue/airway swelling is an emergency.",
+    "B3c": "Incorrect. History of ACEI angioedema contraindicates rechallenge.",
+    "B3d": "Incorrect. Not a treatment for angioedema.",
+    "B4a": "Correct. OpenStax and Merck: ACE inhibitors are contraindicated in pregnancy.",
+    "B4b": "Incorrect. ACE inhibitors are contraindicated in pregnancy, not preferred first-line then.",
+    "B4c": "Incorrect. Pregnancy is a contraindication; ACE inhibitors are not required therapy in pregnancy.",
+    "B4d": "Incorrect. Fetal harm risk means they are not harmless in pregnancy."
+   },
+   "sources": [
+    {
+     "title": "18.2 Angiotensin-Converting Enzyme (ACE) Inhibitors",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/18-2-angiotensin-converting-enzyme-ace-inhibitors",
+     "section": "Adverse Effects and Contraindications",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "All blanks",
+     "evidence": "Angioedema; contraindicated in pregnancy; prior angioedema contraindication.",
+     "added_by": "author"
+    },
+    {
+     "title": "Medications for Hypertension",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/hypertension/medications-for-hypertension",
+     "section": "ACE Inhibitors for Hypertension",
+     "source_date": "Dec 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "B1,B3,B4",
+     "evidence": "Angioedema most serious; oropharynx can be fatal; contraindicated in pregnancy.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a20b7b51) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax ACEI angioedema/pregnancy; Merck ACEI angioedema fatality risk and pregnancy contraindication."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B43-WAVE34",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric"
+   ],
+   "tags": [
+    "dehydration",
+    "fontanelle",
+    "pediatrics",
+    "RRP"
+   ],
+   "id": "ONRN-RRP-0049",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Pediatrics",
+   "topic": "Infant dehydration — sunken fontanelle/eyes are warning signs needing prompt care",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "infant-dehydration-sunken-fontanelle-seek-care",
+   "stem": "A parent of a 6-month-old with gastroenteritis asks which finding means the infant needs prompt medical evaluation for dehydration. Which finding should the nurse emphasize?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Sunken soft spot (fontanelle) and sunken eyes"
+    },
+    {
+     "key": "B",
+     "text": "One loose stool with normal wet diapers and tears"
+    },
+    {
+     "key": "C",
+     "text": "Brief spit-up after feeding with a moist mouth"
+    },
+    {
+     "key": "D",
+     "text": "Occasional hiccups after burping"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CPS Caring for Kids lists sunken fontanelle and sunken eyes among dehydration warning signs needing medical advice. Merck: moderate dehydration includes sunken eyes and fontanelles.",
+    "B": "Incorrect. CPS notes healthy children may have an occasional loose stool without dehydration danger when other signs are absent.",
+    "C": "Incorrect. Isolated spit-up with moist mucosa is not a dehydration red flag.",
+    "D": "Incorrect. Hiccups are not a dehydration indicator."
+   },
+   "sources": [
+    {
+     "title": "Dehydration and diarrhea in children: Prevention and treatment",
+     "publisher": "Canadian Paediatric Society — Caring for Kids",
+     "url": "https://caringforkids.cps.ca/handouts/health-conditions-and-treatments/dehydration_and_diarrhea",
+     "section": "What are the signs of dehydration?",
+     "source_date": "Last updated: July 2018",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Sunken soft spot (fontanelle); sunken eyes; seek medical advice.",
+     "added_by": "author"
+    },
+    {
+     "title": "Dehydration in Children",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/dehydration-and-fluid-therapy-in-children/dehydration-in-children",
+     "section": "Symptoms and Signs of Dehydration in Children",
+     "source_date": "Dec 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "Moderate dehydration: sunken eyes and fontanelles.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a20b7b51) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CPS sunken fontanelle/eyes; Merck moderate dehydration sunken fontanelles/eyes."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B43-WAVE34",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Blood lead testing as detection method is concordant; housing paint eras differ by country (US often cites pre-1978; Health Canada emphasizes older pre-1960 homes)—item tests testing + paint-dust risk without a contested year cutoff.",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric",
+    "canada-us-difference"
+   ],
+   "tags": [
+    "lead",
+    "community",
+    "screening",
+    "HPM",
+    "pediatrics"
+   ],
+   "id": "ONRN-HPM-0056",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Community/Public Health",
+   "topic": "Childhood lead — blood test is how exposure is detected; older housing paint dust risk",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "childhood-lead-blood-test-older-paint-dust",
+   "stem": "A community nurse teaches caregivers of toddlers living in aging housing about lead exposure. Which statement is the priority teaching point?",
+   "options": [
+    {
+     "key": "A",
+     "text": "A blood lead test is the best way to know if a child has been exposed; peeling paint dust in older homes is an important risk"
+    },
+    {
+     "key": "B",
+     "text": "Lead exposure always causes an obvious bright red rash, so testing is unnecessary if the skin looks normal"
+    },
+    {
+     "key": "C",
+     "text": "Only outdoor soil matters; indoor paint dust cannot affect children"
+    },
+    {
+     "key": "D",
+     "text": "Home sanding of old paint is the safest way to remove lead without professional advice"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: blood lead test is the best way to detect exposure; children often have no obvious symptoms; older housing paint dust is a key source. Health Canada: babies/small children ingest household dust including from lead-based paints; older homes more likely painted with lead-based paint.",
+    "B": "Incorrect. CDC: most children with lead in blood have no obvious immediate symptoms.",
+    "C": "Incorrect. Health Canada and CDC describe indoor paint dust as an important pathway for young children.",
+    "D": "Incorrect. Health Canada warns mechanical removal/sanding can release hazardous lead dust."
+   },
+   "sources": [
+    {
+     "title": "Testing for Lead Poisoning in Children",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/lead-prevention/testing/index.html",
+     "section": "Why get tested / Who should be screened",
+     "source_date": "Updated: November 25, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractor B",
+     "evidence": "Blood lead test best way to know; often no obvious symptoms; older housing risk.",
+     "added_by": "author"
+    },
+    {
+     "title": "Lead Information Package — Human Health",
+     "publisher": "Health Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/health-canada/services/environmental-workplace-health/environmental-contaminants/lead/lead-information-package-some-commonly-asked-questions-about-lead-human-health.html",
+     "section": "Indoor Environments / Leaded Paint",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors C–D",
+     "evidence": "Children ingest household dust from lead-based paints; older homes; avoid sanding.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a20b7b51) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC blood test + asymptomatic; HC paint dust in older homes and sanding hazard. Avoided conflicting US/Canada year cutoffs in keyed answer."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B43-WAVE34",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "tags": [
+    "therapeutic-communication",
+    "PSY",
+    "mental-health"
+   ],
+   "id": "ONRN-PSY-0040",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Mental Health",
+   "topic": "Therapeutic communication — abruptly changing the subject is nontherapeutic",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "nontherapeutic-changing-the-subject",
+   "stem": "A client begins crying while describing fear about a new cancer diagnosis. Which nurse response is nontherapeutic?",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"Let's not talk about that—tell me what you want for lunch instead.\""
+    },
+    {
+     "key": "B",
+     "text": "\"This sounds frightening. What worries you most right now?\""
+    },
+    {
+     "key": "C",
+     "text": "Sitting quietly for a moment, then saying, \"I'm here with you; go on when you are ready.\""
+    },
+    {
+     "key": "D",
+     "text": "\"Help me understand what the diagnosis means for you.\""
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax PMH: changing the subject is a barrier that can feel insensitive. Open RN Nursing Assistant: changing the subject blocks communication and conveys lack of empathy.",
+    "B": "Incorrect. Open-ended exploration of feelings is therapeutic.",
+    "C": "Incorrect. Silence/presence supporting the client is therapeutic.",
+    "D": "Incorrect. Clarifying/exploring meaning is therapeutic."
+   },
+   "sources": [
+    {
+     "title": "3.1 Therapeutic Communication and Relationships",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/3-1-therapeutic-communication-and-relationships",
+     "section": "Changing the Subject",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Changing the subject may be viewed as insensitive and uncaring.",
+     "added_by": "author"
+    },
+    {
+     "title": "Chapter 1 Communicate Professionally — Nursing Assistant",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK599382/",
+     "section": "Nontherapeutic Responses",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Changing the Subject blocks further communication; demonstrates lack of empathy.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a20b7b51) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax PMH changing the subject barrier; Open RN NA nontherapeutic changing the subject."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B43-WAVE34",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CNO Consent practice guideline (July 2025) interpreting Ontario HCCA requirements for informed consent.",
+   "jurisdiction": "Ontario-specific",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario",
+    "single-source"
+   ],
+   "tags": [
+    "CNO",
+    "consent",
+    "Ontario",
+    "MOC",
+    "professional-practice"
+   ],
+   "id": "ONRN-MOC-0068",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "CNO Consent — informed consent includes nature, benefits, risks, alternatives, consequences of refusal",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cno-informed-consent-elements-nature-risks-alternatives",
+   "stem": "Before a planned invasive procedure in Ontario, the nurse reviews whether consent is informed. Which set of information must have been provided for consent to be considered informed under CNO guidance?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Nature of the treatment, expected benefits, material risks and side effects, alternative courses of action, and likely consequences of not having the treatment"
+    },
+    {
+     "key": "B",
+     "text": "Only the scheduled time of the procedure, without discussion of risks or alternatives"
+    },
+    {
+     "key": "C",
+     "text": "A guarantee that no adverse effects are possible"
+    },
+    {
+     "key": "D",
+     "text": "The nurse’s personal preference about whether the client should proceed"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO Consent guideline: informed consent requires information a reasonable person would need, including nature, expected benefits, material risks/side effects, alternatives, and likely consequences of not having the treatment.",
+    "B": "Incorrect. Scheduling alone does not meet informed-consent content requirements.",
+    "C": "Incorrect. Material risks must be disclosed; guarantees of no adverse effects are not the standard.",
+    "D": "Incorrect. Consent must be voluntary and free of misrepresentation; the nurse’s personal preference is not the required content."
+   },
+   "sources": [
+    {
+     "title": "Consent practice guideline",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41020_consent.pdf",
+     "section": "What is informed consent?",
+     "source_date": "Updated July 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Nature; benefits; material risks/side effects; alternatives; consequences of not having treatment.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a20b7b51) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Consent July 2025 informed-consent elements. Single regulatory authority for Ontario nursing practice expectations (flagged single-source); HCCA e-Laws page did not extract reliably this session."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B43-WAVE34",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "septic-shock",
+    "NGN",
+    "bowtie",
+    "PA",
+    "critical-care"
+   ],
+   "id": "ONRN-PA-0071",
+   "format": "bowtie",
+   "scoring_model": "zero_one",
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN bowtie — septic shock: early fluids, cultures, antibiotics; monitor lactate/perfusion",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "ngn-bowtie-septic-shock-fluids-cultures-antibiotics-lactate",
+   "stem": "A hospitalized adult develops fever, confusion, tachycardia, and hypotension concerning for septic shock. Complete the bowtie: most likely condition, two priority actions, and two parameters to monitor.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Allergic rhinitis"
+     },
+     {
+      "key": "K2",
+      "text": "Septic shock from dysregulated response to infection with hypoperfusion"
+     },
+     {
+      "key": "K3",
+      "text": "Simple tension headache"
+     },
+     {
+      "key": "K4",
+      "text": "Uncomplicated localized bruise"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Obtain cultures and start prompt broad-spectrum antibiotics"
+     },
+     {
+      "key": "A2",
+      "text": "Begin aggressive IV fluid resuscitation per sepsis protocol"
+     },
+     {
+      "key": "A3",
+      "text": "Delay all fluids until cultures return in 72 hours"
+     },
+     {
+      "key": "A4",
+      "text": "Discharge home without treatment"
+     },
+     {
+      "key": "A5",
+      "text": "Give only oral acetaminophen and reassess next week"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "Blood pressure / MAP and perfusion response after fluids (and pressors if needed)"
+     },
+     {
+      "key": "P2",
+      "text": "Serum lactate and ongoing organ perfusion indicators (e.g., urine output)"
+     },
+     {
+      "key": "P3",
+      "text": "Fashion preference for hospital gown color"
+     },
+     {
+      "key": "P4",
+      "text": "Favorite television channel"
+     },
+     {
+      "key": "P5",
+      "text": "Number of visitors on the unit whiteboard only"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K2",
+    "actions": [
+     "A1",
+     "A2"
+    ],
+    "parameters": [
+     "P1",
+     "P2"
+    ]
+   },
+   "rationales": {
+    "K1": "Incorrect. Allergic rhinitis does not explain hypotension and organ hypoperfusion.",
+    "K2": "Correct. Merck/OpenStax: septic shock is sepsis with persistent hypotension/hypoperfusion related to infection.",
+    "K3": "Incorrect. Headache alone does not match this shock picture.",
+    "K4": "Incorrect. Localized bruise is not systemic septic shock.",
+    "A1": "Correct. Merck: collect cultures then give prompt empiric broad-spectrum antibiotics; OpenStax one-hour bundle includes cultures and antibiotics.",
+    "A2": "Correct. Merck and OpenStax: aggressive IV fluid resuscitation is foundational; vasopressors if hypotension persists.",
+    "A3": "Incorrect. Delaying fluids for culture results increases mortality risk.",
+    "A4": "Incorrect. Septic shock requires urgent inpatient/ICU-level care.",
+    "A5": "Incorrect. Antipyretic alone is not sepsis resuscitation.",
+    "P1": "Correct. OpenStax targets MAP ~65 mm Hg with fluids/vasopressors; monitor perfusion response.",
+    "P2": "Correct. OpenStax bundle includes lactate; Merck monitors lactate and urine output as perfusion markers.",
+    "P3": "Incorrect. Irrelevant to septic shock monitoring.",
+    "P4": "Incorrect. Irrelevant.",
+    "P5": "Incorrect. Irrelevant."
+   },
+   "sources": [
+    {
+     "title": "23.3 Septic Shock",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/23-3-septic-shock",
+     "section": "Medical Therapies and Related Care",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Condition, actions, parameters",
+     "evidence": "One-hour bundle: lactate, cultures, antibiotics, volume resuscitation, possible vasopressors; MAP 65.",
+     "added_by": "author"
+    },
+    {
+     "title": "Sepsis and Septic Shock",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/critical-care-medicine/sepsis-and-septic-shock/sepsis-and-septic-shock",
+     "section": "Treatment / Antibiotics",
+     "source_date": "Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Condition, actions, parameters",
+     "evidence": "IV fluids, pressors, prompt antibiotics after cultures; monitor lactate and urine output.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a20b7b51) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax sepsis one-hour bundle + MAP; Merck fluids/antibiotics/lactate monitoring. Distinct enemy_group from PA-0050 SATA."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B43-WAVE34",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Concordant prevention teaching; year cutoffs for lead paint differ by country and are not keyed.",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric",
+    "canada-us-difference"
+   ],
+   "tags": [
+    "lead",
+    "SATA",
+    "community",
+    "HPM"
+   ],
+   "id": "ONRN-HPM-0057",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "specialty": "Community/Public Health",
+   "topic": "Lead exposure teaching SATA — blood test; older paint dust; avoid sanding; children often asymptomatic",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "lead-exposure-teaching-sata-test-paint-no-sanding",
+   "stem": "Which teaching points about childhood lead exposure are appropriate? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "A blood lead test is the best way to determine whether a child has been exposed"
+    },
+    {
+     "key": "B",
+     "text": "Children may have lead in their blood without obvious immediate symptoms"
+    },
+    {
+     "key": "C",
+     "text": "Peeling lead-based paint dust in older homes is an important exposure pathway for young children"
+    },
+    {
+     "key": "D",
+     "text": "Dry sanding old lead paint at home is the preferred first action for families"
+    },
+    {
+     "key": "E",
+     "text": "Young children are at higher risk because of hand-to-mouth behavior and floor-level exposure"
+    },
+    {
+     "key": "F",
+     "text": "Lead exposure is impossible if the child has never left the city limits"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: blood lead test is the best way to know exposure.",
+    "B": "Correct. CDC: most children with lead in blood have no obvious immediate symptoms.",
+    "C": "Correct. CDC and Health Canada identify paint dust in older homes as a key pathway.",
+    "D": "Incorrect. Health Canada: mechanical removal/sanding can release hazardous lead dust.",
+    "E": "Correct. Health Canada: hand-to-mouth activity and low breathing zone increase risk.",
+    "F": "Incorrect. Lead sources exist indoors (paint, dust, products) regardless of city limits."
+   },
+   "sources": [
+    {
+     "title": "Testing for Lead Poisoning in Children",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/lead-prevention/testing/index.html",
+     "section": "Why get tested",
+     "source_date": "Updated: November 25, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "A,B",
+     "evidence": "Blood test best; often no obvious symptoms.",
+     "added_by": "author"
+    },
+    {
+     "title": "Preventing Childhood Lead Poisoning",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/lead-prevention/prevention/",
+     "section": "Sources of lead",
+     "source_date": "Updated: November 25, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "C",
+     "evidence": "Pre-1978 homes; peeling paint makes lead dust.",
+     "added_by": "author"
+    },
+    {
+     "title": "Lead Information Package — Human Health",
+     "publisher": "Health Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/health-canada/services/environmental-workplace-health/environmental-contaminants/lead/lead-information-package-some-commonly-asked-questions-about-lead-human-health.html",
+     "section": "Indoor Environments / Leaded Paint",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "C,D,E",
+     "evidence": "Children and household dust; avoid sanding; older lead-based paint.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a20b7b51) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC testing/prevention + HC paint dust/sanding/children risk. Two CDC URLs same publisher; HC is independent second publisher."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B43-WAVE34",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "DVT",
+    "ambulation",
+    "postoperative",
+    "RRP",
+    "med-surg"
+   ],
+   "id": "ONRN-RRP-0050",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Medical-Surgical",
+   "topic": "Postoperative DVT prevention — early and frequent ambulation",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "postop-dvt-prevention-early-frequent-ambulation",
+   "stem": "On the first postoperative day after major abdominal surgery, which nursing action best helps prevent deep vein thrombosis?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Promote early and frequent ambulation as soon as the client is cleared to mobilize"
+    },
+    {
+     "key": "B",
+     "text": "Keep the client on strict bed rest for one week without leg movement"
+    },
+    {
+     "key": "C",
+     "text": "Limit all fluids to concentrate the blood"
+    },
+    {
+     "key": "D",
+     "text": "Elevate only the head of the bed and avoid moving the legs"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: early and frequent ambulation stimulates blood flow and avoids stasis. Merck DVT prevention: ambulation and prevention of immobility are core preventive measures.",
+    "B": "Incorrect. Immobility increases DVT risk.",
+    "C": "Incorrect. Fluid restriction to concentrate blood is not a DVT prevention strategy.",
+    "D": "Incorrect. Leg movement/ambulation is needed to reduce venous stasis."
+   },
+   "sources": [
+    {
+     "title": "27.3 Hospitalized Postoperative Patient",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/27-3-hospitalized-postoperative-patient",
+     "section": "Identifying Normal versus Concerning Findings",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Early and frequent ambulation key to preventing DVT/PE.",
+     "added_by": "author"
+    },
+    {
+     "title": "Deep Venous Thrombosis (DVT) Prevention",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/peripheral-venous-disorders/deep-venous-thrombosis-dvt-prevention",
+     "section": "Method of DVT Prevention",
+     "source_date": "May 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "Ambulation and prevention of immobility among preventive measures.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a20b7b51) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax early ambulation DVT prevention; Merck ambulation/immobility prevention."
     }
    ],
    "exam_version_published": null,
