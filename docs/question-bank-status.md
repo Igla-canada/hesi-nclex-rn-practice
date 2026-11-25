@@ -1,6 +1,6 @@
 # Question bank status — Ontario/Canada HESI/NCLEX practice
 
-**Updated:** 2026-11-25, ~1:13 PM (America/New_York)  
+**Updated:** 2026-11-25, ~1:25 PM (America/New_York)  
 **Honesty:** Counts below are **actual**. AI authoring may reach **Source verified** only. **Published / clinically reviewed = 0.** No claim of HESI/NCLEX item authenticity.
 
 Companion: [source-verification-report.md](./source-verification-report.md) · bank root: `/cursor/stores/self/internal/question-bank/`
@@ -11,8 +11,8 @@ Companion: [source-verification-report.md](./source-verification-report.md) · b
 
 | Metric | Count |
 | --- | ---: |
-| **Total active items** | **525** |
-| **Source verified** | **525** |
+| **Total active items** | **539** |
+| **Source verified** | **539** |
 | Awaiting clinical review | 0 |
 | Clinically reviewed | 0 |
 | Approved / published | **0** |
@@ -20,7 +20,7 @@ Companion: [source-verification-report.md](./source-verification-report.md) · b
 | Archived | 0 |
 | Excluded draft topics (logged) | 147 |
 
-Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after merge of `B00-PILOT` + `B11-WAVE2` + `B12-WAVE3` + `B13-WAVE4` + `B14-WAVE5` + `B15-WAVE6` + `B16-WAVE7` + `B17-WAVE8` + `B18-WAVE9` + `B19-WAVE10` + `B20-WAVE11` + `B21-WAVE12` + `B22-WAVE13` + `B23-WAVE14` + `B24-WAVE15` + `B25-WAVE16` + `B26-WAVE17` + `B27-WAVE18` + `B28-WAVE19` + `B29-WAVE20` + `B30-WAVE21` + `B31-WAVE22` + `B32-WAVE23` + `B33-WAVE24` + `B34-WAVE25` + `B35-WAVE26` + `B36-WAVE27` + `B37-WAVE28` + `B38-WAVE29` + `B39-WAVE30` + `B40-WAVE31` + `B41-WAVE32` + `B42-WAVE33` + `B43-WAVE34` + `B44-WAVE35` + `B45-WAVE36` + `B46-WAVE37` + `B47-WAVE38` + `B48-WAVE39` + `B49-WAVE40` + `B50-WAVE41` + `B51-WAVE42` + `B52-WAVE43`.
+Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after merge of `B00-PILOT` + `B11-WAVE2` + `B12-WAVE3` + `B13-WAVE4` + `B14-WAVE5` + `B15-WAVE6` + `B16-WAVE7` + `B17-WAVE8` + `B18-WAVE9` + `B19-WAVE10` + `B20-WAVE11` + `B21-WAVE12` + `B22-WAVE13` + `B23-WAVE14` + `B24-WAVE15` + `B25-WAVE16` + `B26-WAVE17` + `B27-WAVE18` + `B28-WAVE19` + `B29-WAVE20` + `B30-WAVE21` + `B31-WAVE22` + `B32-WAVE23` + `B33-WAVE24` + `B34-WAVE25` + `B35-WAVE26` + `B36-WAVE27` + `B37-WAVE28` + `B38-WAVE29` + `B39-WAVE30` + `B40-WAVE31` + `B41-WAVE32` + `B42-WAVE33` + `B43-WAVE34` + `B44-WAVE35` + `B45-WAVE36` + `B46-WAVE37` + `B47-WAVE38` + `B48-WAVE39` + `B49-WAVE40` + `B50-WAVE41` + `B51-WAVE42` + `B52-WAVE43` + `B53-WAVE44`.
 
 ---
 
@@ -28,19 +28,19 @@ Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after mer
 
 | Code | Subcategory | Source verified | Gap vs 150-item form quota* |
 | --- | --- | ---: | ---: |
-| MOC | Management of Care | 79 | 0† |
-| SIPC | Safety and Infection Prevention and Control | 61 | 0† |
+| MOC | Management of Care | 81 | 0† |
+| SIPC | Safety and Infection Prevention and Control | 63 | 0† |
 | HPM | Health Promotion and Maintenance | 72 | 0† |
-| PSY | Psychosocial Integrity | 60 | 0† |
-| BCC | Basic Care and Comfort | 59 | 0† |
-| PPT | Pharmacological and Parenteral Therapies | 61 | 0† |
-| RRP | Reduction of Risk Potential | 59 | 0† |
-| PA | Physiological Adaptation | 74 | 0† |
+| PSY | Psychosocial Integrity | 62 | 0† |
+| BCC | Basic Care and Comfort | 61 | 0† |
+| PPT | Pharmacological and Parenteral Therapies | 63 | 0† |
+| RRP | Reduction of Risk Potential | 61 | 0† |
+| PA | Physiological Adaptation | 76 | 0† |
 
 *Quota for one 150-item HESI-style form (see blueprint). Five forms need ~750 Source-verified → clinically reviewed items. **No form is publishable yet.**  
-†Surplus vs base single-form quota supports multi-form depth (MOC 79/27, SIPC 61/20, HPM 72/13–14, PSY 60/13–14, BCC 59/13–14, PPT 61/24, RRP 59/18, PA 74/21).
+†Surplus vs base single-form quota supports multi-form depth (MOC 81/27, SIPC 63/20, HPM 72/13–14, PSY 62/13–14, BCC 61/13–14, PPT 63/24, RRP 61/18, PA 76/21).
 
-Wave 43 added Safety/IPC (PASS fire extinguisher MC + NGN matrix — Leadership; SSI antimicrobial prophylaxis timing / stop-after-closure MC + NGN cloze), Pharmacological Therapies (vancomycin flushing syndrome MC + NGN cloze; vesicant extravasation MC + NGN bowtie), HPM Community (fifth disease school return after rash MC + NGN matrix — pregnancy exposure teaching), Physiological Adaptation Pediatrics (child severe FBAO 5 back blows + 5 abdominal thrusts MC + NGN bowtie — AHA/AAP 2025), Reduction of Risk Potential Pediatrics (PSGN after strep MC + NGN matrix); dual-cited originals (OSHA, NCBI Open RN, OpenStax Pharm/CNS, Merck, CDC, VDH, MedlinePlus, AHA/AAP, SHEA). **All eight Client Needs single-form quotas remain met at Source verified.**
+Wave 44 added Basic Care and Comfort Gerontology (dysphagia thickened liquids MC + NGN matrix), Pharmacological Therapies (HIT stop heparin / nonheparin MC + NGN matrix), Physiological Adaptation Critical Care (malignant hyperthermia stop triggers + dantrolene MC + NGN bowtie), Psychosocial Integrity MH (thiamine before IV glucose / Wernicke prevention MC + NGN cloze), Management of Care Leadership (TeamSTEPPS CUS MC + NGN cloze), Safety/IPC Fundamentals (two patient identifiers — not room number — MC + NGN matrix), Reduction of Risk Potential Critical Care (adult CPR 100–120/min + full recoil MC + NGN cloze); dual-cited originals (OpenStax Fund/Med-Surg/Pharm/Psych/CNS, Merck, GeneReviews/NCBI, AHRQ, AHA TeamSTEPPS, AHA BLS). **All eight Client Needs single-form quotas remain met at Source verified.**
 
 ---
 
@@ -48,17 +48,17 @@ Wave 43 added Safety/IPC (PASS fire extinguisher MC + NGN matrix — Leadership;
 
 | Format | n |
 | --- | ---: |
-| multiple_choice | 363 |
+| multiple_choice | 370 |
 | select_all_that_apply | 46 |
-| matrix_multiple_choice | 57 |
-| drop_down_cloze | 31 |
-| bowtie | 25 |
+| matrix_multiple_choice | 60 |
+| drop_down_cloze | 34 |
+| bowtie | 26 |
 | ordered_response | 2 |
 | calculation | 1 |
 
 | Jurisdiction | n |
 | --- | ---: |
-| General (Canada/US concordant) | 459 |
+| General (Canada/US concordant) | 473 |
 | Ontario-specific | 48 |
 | Canada-specific | 18 |
 
@@ -111,6 +111,7 @@ Wave 43 added Safety/IPC (PASS fire extinguisher MC + NGN matrix — Leadership;
 | B50-WAVE41 | 14 | Source verified (wave 41 — Leadership/Ontario PP/SIPC/PPT/Gero RRP-BCC + NGN matrix/cloze) |
 | B51-WAVE42 | 14 | Source verified (wave 42 — PSY/BCC + Maternity/Community HPM + NGN matrix/cloze) |
 | B52-WAVE43 | 14 | Source verified (wave 43 — SIPC/PPT/RRP + Leadership/Community/Peds + NGN matrix/cloze/bowtie) |
+| B53-WAVE44 | 14 | Source verified (wave 44 — BCC/PPT/PSY/SIPC/RRP + Leadership/Critical Care/Gero + NGN matrix/cloze/bowtie) |
 | B01–B10 | 0 JSON | Prior fetch logs only; no authored batches completed |
 
 ---
@@ -132,7 +133,7 @@ Compiled bank copied into the GitHub app repo under `data/question-bank/` with a
 
 ## Next priorities
 
-1. Independent verifier pass on B00 + B11–B52 → Awaiting clinical review.  
+1. Independent verifier pass on B00 + B11–B53 → Awaiting clinical review.  
 2. Licensed clinician review (especially high-priority items flagged in clinical-review-queue).  
-3. Continue authoring toward **five-form** depth (~750 Source-verified → clinically reviewed), prioritizing remaining thinner specialties (Leadership/Management 41; Community 43; Critical Care 41).  
+3. Continue authoring toward **five-form** depth (~750 Source-verified → clinically reviewed), prioritizing remaining thinner specialties (Professional Practice 42; Community 43; Leadership 43).  
 4. Do **not** pad counts; exclude when a second independent source cannot be confirmed.

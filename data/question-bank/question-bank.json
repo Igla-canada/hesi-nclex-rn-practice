@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 525,
+  "Source verified": 539,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -59617,6 +59617,1681 @@
      "date": "2026-11-25",
      "result": "confirmed",
      "checks": "SHEA 2022 + CDC 2017 SSI cloze dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B53-WAVE44",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0060",
+   "format": "multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "Dysphagia — thickened liquids slow flow to reduce aspiration risk; follow SLP orders",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "dysphagia-thickened-liquids-aspiration-prevention",
+   "tags": [
+    "BCC",
+    "dysphagia",
+    "thickened-liquids",
+    "gero",
+    "aspiration"
+   ],
+   "stem": "An older adult with dysphagia is ordered nectar-thick liquids after a swallow evaluation. Which teaching best explains the purpose of thickened liquids?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Thickened liquids move more slowly, which can improve swallowing control and help reduce aspiration risk as directed by the speech-language pathologist"
+    },
+    {
+     "key": "B",
+     "text": "Thickened liquids permanently cure stroke-related dysphagia within 24 hours"
+    },
+    {
+     "key": "C",
+     "text": "Thickened liquids replace the need for upright positioning during meals"
+    },
+    {
+     "key": "D",
+     "text": "Any thin liquid is safer than thickened liquid for clients who cough when drinking"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax Fundamentals: thickening increases viscosity so liquids move more slowly and improve swallowing; nurses collaborate with speech pathologists. OpenStax Med-Surg: thickened liquids and texture modification are primary methods to prevent aspiration in at-risk older adults.",
+    "B": "Incorrect. Thickened liquids are a compensatory strategy, not a cure for dysphagia.",
+    "C": "Incorrect. Upright positioning remains an important aspiration-prevention strategy alongside texture modification.",
+    "D": "Incorrect. Thin liquids often increase aspiration risk when dysphagia is present; the ordered thickened consistency is safer when indicated."
+   },
+   "sources": [
+    {
+     "title": "21.3 Specialized Diets",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/21-3-specialized-diets",
+     "section": "Consistency Modification Diets — Clear Liquid / thickened liquids",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Thickening agent increases viscosity so liquids move more slowly and improve swallowing; nectar/honey/pudding thick; collaborate with speech pathologists."
+    },
+    {
+     "title": "11.7 Disorders of the Lower Respiratory System: Pneumonia and Aspiration",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/11-7-disorders-of-the-lower-respiratory-system-pneumonia-and-aspiration",
+     "section": "Gerontological Considerations / Evidence-Based Practice — thickened liquids",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Older adults at aspiration risk: texture modification of food/liquids and thickened liquids among primary prevention methods; collaborate with SLP."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f00b06ec) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Fundamentals thickened liquids + OpenStax Med-Surg aspiration prevention dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B53-WAVE44",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0061",
+   "format": "matrix_multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "NGN matrix — dysphagia thickened-liquid and aspiration precautions indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "dysphagia-thickened-liquids-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "BCC",
+    "dysphagia",
+    "thickened-liquids"
+   ],
+   "stem": "For an older adult ordered nectar-thick liquids after a swallow evaluation for aspiration risk, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Provide liquids at the ordered thickened consistency (nectar-thick)"
+     },
+     {
+      "key": "R2",
+      "text": "Keep the client upright (at least 30 degrees) during oral intake"
+     },
+     {
+      "key": "R3",
+      "text": "Collaborate with speech-language pathology on safe swallowing strategies"
+     },
+     {
+      "key": "R4",
+      "text": "Offer thin water between thickened sips because 'a little thin liquid is always fine'"
+     },
+     {
+      "key": "R5",
+      "text": "Tell the client to lie flat immediately while drinking to 'protect the airway'"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Follow the prescribed thickened consistency to slow liquid flow and support safer swallowing.",
+    "R2": "Indicated. Upright positioning during intake decreases aspiration risk.",
+    "R3": "Indicated. Nurses collaborate with SLP for dysphagia diets and swallowing strategies.",
+    "R4": "Not indicated. Adding unauthorized thin liquids undermines the dysphagia plan and can increase aspiration risk.",
+    "R5": "Not indicated. Lying flat while drinking increases aspiration risk; upright positioning is preferred."
+   },
+   "sources": [
+    {
+     "title": "21.3 Specialized Diets",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/21-3-specialized-diets",
+     "section": "Consistency Modification Diets — Clear Liquid / thickened liquids",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Thickened liquids for aspiration on thin liquids; collaborate with speech pathologists; viscosity levels nectar/honey/pudding thick."
+    },
+    {
+     "title": "11.7 Disorders of the Lower Respiratory System: Pneumonia and Aspiration",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/11-7-disorders-of-the-lower-respiratory-system-pneumonia-and-aspiration",
+     "section": "Gerontological Considerations / Evidence-Based Practice — thickened liquids",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Thickened liquids; upright ≥30°; slow pace; specialized textures; swallow study referral."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f00b06ec) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Fundamentals + Med-Surg dysphagia matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B53-WAVE44",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0062",
+   "format": "multiple_choice",
+   "specialty": "Pharmacology",
+   "topic": "Heparin-induced thrombocytopenia (HIT) — stop all heparin; start nonheparin anticoagulant",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "heparin-induced-thrombocytopenia-stop-heparin",
+   "tags": [
+    "PPT",
+    "HIT",
+    "heparin",
+    "anticoagulant",
+    "high-alert"
+   ],
+   "stem": "On day 7 of unfractionated heparin, a client's platelets fall by more than 50% and a new lower-extremity clot is suspected. Which action is the priority pending HIT evaluation?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Stop all heparin products immediately and anticipate a nonheparin anticoagulant per protocol/orders"
+    },
+    {
+     "key": "B",
+     "text": "Switch only to low-molecular-weight heparin because HIT never cross-reacts with LMWH"
+    },
+    {
+     "key": "C",
+     "text": "Double the heparin infusion rate to overcome platelet clumping"
+    },
+    {
+     "key": "D",
+     "text": "Ignore the platelet drop because HIT causes bleeding, not thrombosis"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: stop heparin immediately and use a non-heparin anticoagulant. Merck: stop heparin if platelets drop >50% or new thrombosis occurs; substitute a nonheparin agent.",
+    "B": "Incorrect. Merck: most HIT antibodies cross-react with LMWH, so LMWH is not an acceptable substitute.",
+    "C": "Incorrect. Continuing/increasing heparin worsens the immune process and thrombosis risk.",
+    "D": "Incorrect. HIT is typically a prothrombotic state; bleeding is uncommon."
+   },
+   "sources": [
+    {
+     "title": "20.2 Anticoagulants",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/20-2-anticoagulants",
+     "section": "Heparin — Heparin-induced thrombocytopenia (HIT)",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "HIT: immune-mediated platelet drop with hypercoagulability; discontinue heparin immediately; use non-heparin anticoagulant; do not give heparin again."
+    },
+    {
+     "title": "Thrombocytopenia: Other Causes",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/hematology/thrombocytopenia-and-platelet-dysfunction/thrombocytopenia-other-causes",
+     "section": "Heparin-induced thrombocytopenia",
+     "source_date": "Last updated: Jun 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Stop heparin immediately if thrombocytopenia with new thrombosis or >50% platelet drop; substitute nonheparin anticoagulant; LMWH cross-reacts and cannot be used."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f00b06ec) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Pharm HIT + Merck HIT stop-heparin dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B53-WAVE44",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0063",
+   "format": "matrix_multiple_choice",
+   "specialty": "Pharmacology",
+   "topic": "NGN matrix — suspected HIT actions indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "hit-ngn-matrix-stop-heparin-nonheparin",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PPT",
+    "HIT",
+    "heparin"
+   ],
+   "stem": "For suspected heparin-induced thrombocytopenia (platelet drop >50% with possible new thrombosis while on heparin), indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Stop unfractionated heparin immediately (including heparin flushes if ordered/protocol)"
+     },
+     {
+      "key": "R2",
+      "text": "Anticipate a nonheparin anticoagulant (e.g., argatroban) per protocol/provider orders"
+     },
+     {
+      "key": "R3",
+      "text": "Notify the provider/anticoagulation team and obtain ordered HIT laboratory evaluation"
+     },
+     {
+      "key": "R4",
+      "text": "Switch the client to enoxaparin (LMWH) as the preferred HIT treatment"
+     },
+     {
+      "key": "R5",
+      "text": "Increase the heparin infusion rate to 'overcome' thrombocytopenia"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. All heparin exposure should be stopped when HIT is suspected.",
+    "R2": "Indicated. A nonheparin anticoagulant is substituted until platelets recover.",
+    "R3": "Indicated. Evaluation and coordinated management are required.",
+    "R4": "Not indicated. LMWH usually cross-reacts with HIT antibodies and is not used to treat HIT.",
+    "R5": "Not indicated. Continuing/increasing heparin is harmful in HIT."
+   },
+   "sources": [
+    {
+     "title": "20.2 Anticoagulants",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/20-2-anticoagulants",
+     "section": "Heparin — Heparin-induced thrombocytopenia (HIT)",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Discontinue heparin immediately; non-heparin anticoagulant; history of HIT → never receive heparin again."
+    },
+    {
+     "title": "Thrombocytopenia: Other Causes",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/hematology/thrombocytopenia-and-platelet-dysfunction/thrombocytopenia-other-causes",
+     "section": "Heparin-induced thrombocytopenia",
+     "source_date": "Last updated: Jun 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Stop heparin; nonheparin anticoagulant; LMWH contraindicated due to cross-reactivity; do not substitute warfarin alone acutely for HIT."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f00b06ec) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Pharm + Merck HIT matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B53-WAVE44",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "perioperative-emergency"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PA-0076",
+   "format": "multiple_choice",
+   "specialty": "Critical Care/Emergency",
+   "topic": "Malignant hyperthermia — stop triggering anesthetics/succinylcholine and give IV dantrolene",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "malignant-hyperthermia-stop-triggers-dantrolene",
+   "tags": [
+    "PA",
+    "malignant-hyperthermia",
+    "dantrolene",
+    "critical-care",
+    "perioperative"
+   ],
+   "stem": "During general anesthesia with a volatile agent and succinylcholine, a client develops rising end-tidal CO₂, jaw rigidity, and tachycardia. Which intervention set is the priority for suspected malignant hyperthermia?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Stop triggering volatile anesthetics/succinylcholine and administer IV dantrolene with rapid cooling/support per protocol"
+    },
+    {
+     "key": "B",
+     "text": "Continue the volatile anesthetic and give only an antipyretic tablet"
+    },
+    {
+     "key": "C",
+     "text": "Give a non-dihydropyridine calcium-channel blocker as first-line therapy instead of dantrolene"
+    },
+    {
+     "key": "D",
+     "text": "Ignore rising ETCO₂ because malignant hyperthermia never occurs after the first anesthetic exposure"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: stop volatile agents, give dantrolene, and cool rapidly. GeneReviews: discontinue potent inhalation agents and succinylcholine and give IV dantrolene promptly.",
+    "B": "Incorrect. Triggering agents must be stopped; antipyretics are not the treatment for MH.",
+    "C": "Incorrect. Calcium-channel blockers are avoided with dantrolene (hyperkalemia risk); dantrolene is the specific therapy.",
+    "D": "Incorrect. MH can occur after prior uneventful anesthetics; rising ETCO₂ with rigidity/tachycardia is a classic early pattern."
+   },
+   "sources": [
+    {
+     "title": "Malignant Hyperthermia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/heat-illness/malignant-hyperthermia",
+     "section": "Treatment of Malignant Hyperthermia",
+     "source_date": "Last updated: May 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Stop volatile anesthetic agents; administer dantrolene; rapid cooling and supportive care."
+    },
+    {
+     "title": "Nonsyndromic Malignant Hyperthermia Susceptibility",
+     "publisher": "GeneReviews / NCBI Bookshelf",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK1146/",
+     "section": "Management — Targeted therapy / Treatment of manifestations",
+     "source_date": "Last Update: August 7, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "peer_reviewed",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "IV dantrolene as early as possible; discontinue potent inhalation agents and succinylcholine; cooling; avoid calcium channel blockers with dantrolene."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f00b06ec) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck MH + GeneReviews NCBI dantrolene dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B53-WAVE44",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "perioperative-emergency"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PA-0077",
+   "format": "bowtie",
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN bowtie — malignant hyperthermia: stop triggers + dantrolene; monitor ETCO2/temp/rigidity",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "malignant-hyperthermia-ngn-bowtie",
+   "tags": [
+    "NGN",
+    "bowtie",
+    "PA",
+    "malignant-hyperthermia",
+    "dantrolene"
+   ],
+   "stem": "A client under volatile anesthesia develops rising end-tidal CO₂, masseter rigidity, and tachycardia. Complete the bowtie: most likely condition, two priority actions, and two parameters to monitor.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Malignant hyperthermia crisis related to triggering anesthetics"
+     },
+     {
+      "key": "K2",
+      "text": "Uncomplicated seasonal allergic rhinitis without anesthesia"
+     },
+     {
+      "key": "K3",
+      "text": "Resolved ankle sprain in clinic without airway issues"
+     },
+     {
+      "key": "K4",
+      "text": "Dietary preference for caffeine only"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Stop volatile anesthetics/succinylcholine (triggering agents) per protocol"
+     },
+     {
+      "key": "A2",
+      "text": "Administer IV dantrolene and initiate rapid cooling/supportive care"
+     },
+     {
+      "key": "A3",
+      "text": "Increase the volatile anesthetic concentration to deepen anesthesia only"
+     },
+     {
+      "key": "A4",
+      "text": "Give verapamil as the first-line antidote instead of dantrolene"
+     },
+     {
+      "key": "A5",
+      "text": "Discharge home without monitoring because fever is expected after surgery"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "End-tidal CO₂ / ventilation response and core temperature"
+     },
+     {
+      "key": "P2",
+      "text": "Muscle rigidity and signs of rhabdomyolysis (e.g., dark urine, rising CK per labs)"
+     },
+     {
+      "key": "P3",
+      "text": "Favourite sports team ranking"
+     },
+     {
+      "key": "P4",
+      "text": "Shoe size"
+     },
+     {
+      "key": "P5",
+      "text": "Contact lens brand only"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K1",
+    "actions": [
+     "A1",
+     "A2"
+    ],
+    "parameters": [
+     "P1",
+     "P2"
+    ]
+   },
+   "rationales": {
+    "K1": "Correct. Rising ETCO₂, rigidity, and tachycardia after triggering anesthetics indicate MH.",
+    "K2": "Incorrect. Irrelevant.",
+    "K3": "Incorrect. Irrelevant.",
+    "K4": "Incorrect. Irrelevant.",
+    "A1": "Correct. Stop triggering volatile agents/succinylcholine.",
+    "A2": "Correct. IV dantrolene plus rapid cooling/support are priority treatments.",
+    "A3": "Incorrect. Continuing/increasing triggers worsens MH.",
+    "A4": "Incorrect. Calcium-channel blockers are avoided; dantrolene is the specific therapy.",
+    "A5": "Incorrect. MH is a life-threatening emergency requiring intensive monitoring.",
+    "P1": "Correct. ETCO₂ and temperature guide response to therapy.",
+    "P2": "Correct. Rigidity and rhabdomyolysis markers are key MH complications to track.",
+    "P3": "Incorrect. Irrelevant.",
+    "P4": "Incorrect. Irrelevant.",
+    "P5": "Incorrect. Irrelevant."
+   },
+   "sources": [
+    {
+     "title": "Malignant Hyperthermia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/heat-illness/malignant-hyperthermia",
+     "section": "Treatment of Malignant Hyperthermia",
+     "source_date": "Last updated: May 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Condition/actions/parameters",
+     "evidence": "Stop volatile agents; dantrolene; rapid cooling; monitor for hyperthermia, rigidity, rising ETCO2, rhabdomyolysis."
+    },
+    {
+     "title": "Nonsyndromic Malignant Hyperthermia Susceptibility",
+     "publisher": "GeneReviews / NCBI Bookshelf",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK1146/",
+     "section": "Management — Targeted therapy / Treatment of manifestations",
+     "source_date": "Last Update: August 7, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "peer_reviewed",
+     "added_by": "author",
+     "supports": "Condition/actions/parameters",
+     "evidence": "Discontinue triggers; IV dantrolene; cooling; monitor labs/temperature/ETCO2."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f00b06ec) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck + GeneReviews MH bowtie dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B53-WAVE44",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "alcohol-withdrawal"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0061",
+   "format": "multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "Alcohol use disorder — give IV thiamine before (or with) IV glucose to prevent Wernicke encephalopathy",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "wernicke-thiamine-before-iv-glucose",
+   "tags": [
+    "PSY",
+    "thiamine",
+    "Wernicke",
+    "alcohol",
+    "high-alert-adjacent"
+   ],
+   "stem": "A client with heavy alcohol use arrives hypoglycemic and is about to receive IV dextrose. Which action best prevents precipitating Wernicke encephalopathy?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Administer IV thiamine before (or concurrently with) the IV glucose/dextrose as ordered/protocol"
+    },
+    {
+     "key": "B",
+     "text": "Withhold all thiamine because vitamins worsen hypoglycemia"
+    },
+    {
+     "key": "C",
+     "text": "Give a large oral carbohydrate meal instead of any parenteral vitamins"
+    },
+    {
+     "key": "D",
+     "text": "Start a monoamine oxidase inhibitor before the dextrose infusion"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: give IV thiamine before IV glucose in alcohol use disorder because glucose can worsen thiamine deficiency. OpenStax: IV thiamine with dextrose helps prevent Wernicke encephalopathy.",
+    "B": "Incorrect. Thiamine is protective; withholding it increases Wernicke risk.",
+    "C": "Incorrect. Carbohydrate loading without thiamine can worsen deficiency; parenteral thiamine is indicated in at-risk clients.",
+    "D": "Incorrect. MAOIs are unrelated and unsafe here."
+   },
+   "sources": [
+    {
+     "title": "Thiamine Deficiency",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/nutritional-disorders/vitamin-deficiency-dependency-and-toxicity/thiamin-deficiency",
+     "section": "Treatment — Pearls & Pitfalls (thiamine before IV glucose)",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Give thiamine 100 mg IV before IV glucose to people with alcohol use disorder; IV glucose can worsen thiamine deficiency / precipitate Wernicke."
+    },
+    {
+     "title": "19.2 Alcohol Use Disorder",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/19-2-alcohol-use-disorder",
+     "section": "Treatment for Withdrawal from Alcohol Use — thiamine / Wernicke",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Alcohol withdrawal treatment: IV thiamine with dextrose to prevent Wernicke’s encephalopathy (nystagmus, ataxia, confusion)."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f00b06ec) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck thiamine-before-glucose + OpenStax Psych Wernicke dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B53-WAVE44",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "alcohol-withdrawal"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0062",
+   "format": "drop_down_cloze",
+   "specialty": "Mental Health",
+   "topic": "NGN cloze — thiamine before IV glucose to prevent Wernicke encephalopathy",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "wernicke-thiamine-ngn-cloze",
+   "tags": [
+    "NGN",
+    "cloze",
+    "PSY",
+    "thiamine",
+    "Wernicke"
+   ],
+   "stem": "Complete the safe-practice teaching for a client with alcohol use disorder who needs IV dextrose.",
+   "ngn": {
+    "template": "To help prevent Wernicke encephalopathy, the nurse should ensure {B1} is given before or with IV glucose/dextrose. Untreated Wernicke encephalopathy can progress to {B2}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "IV thiamine"
+      },
+      {
+       "key": "B1b",
+       "text": "an MAOI"
+      },
+      {
+       "key": "B1c",
+       "text": "high-dose vitamin C only"
+      },
+      {
+       "key": "B1d",
+       "text": "no vitamins of any kind"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "Korsakoff syndrome (chronic memory disorder)"
+      },
+      {
+       "key": "B2b",
+       "text": "complete lifelong immunity to alcohol withdrawal"
+      },
+      {
+       "key": "B2c",
+       "text": "immediate cure of all neuropathies without treatment"
+      },
+      {
+       "key": "B2d",
+       "text": "mandatory therapeutic lithium levels"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. Merck/OpenStax: give thiamine with/before glucose to prevent Wernicke.",
+    "B1b": "Incorrect. MAOIs are unrelated.",
+    "B1c": "Incorrect. Vitamin C alone does not replace thiamine for Wernicke prevention.",
+    "B1d": "Incorrect. Thiamine is indicated.",
+    "B2a": "Correct. OpenStax: untreated Wernicke can progress to irreversible Korsakoff syndrome.",
+    "B2b": "Incorrect. Not a sequela described.",
+    "B2c": "Incorrect. Untreated Wernicke does not spontaneously cure neuropathies; it can progress to Korsakoff syndrome.",
+    "B2d": "Incorrect. Irrelevant."
+   },
+   "sources": [
+    {
+     "title": "Thiamine Deficiency",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/nutritional-disorders/vitamin-deficiency-dependency-and-toxicity/thiamin-deficiency",
+     "section": "Treatment — Pearls & Pitfalls (thiamine before IV glucose)",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Thiamine before IV glucose; Wernicke-Korsakoff from thiamine deficiency in alcohol use disorder."
+    },
+    {
+     "title": "19.2 Alcohol Use Disorder",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/19-2-alcohol-use-disorder",
+     "section": "Treatment for Withdrawal from Alcohol Use — thiamine / Wernicke",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "IV thiamine with dextrose prevents Wernicke; untreated Wernicke can progress to Korsakoff."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f00b06ec) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck + OpenStax Psych thiamine/Wernicke cloze dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B53-WAVE44",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0080",
+   "format": "multiple_choice",
+   "specialty": "Leadership/Management",
+   "topic": "TeamSTEPPS CUS — Concerned, Uncomfortable, Safety issue to escalate a patient-safety concern",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "teamstepps-cus-concerned-uncomfortable-safety",
+   "tags": [
+    "MOC",
+    "CUS",
+    "TeamSTEPPS",
+    "leadership",
+    "communication"
+   ],
+   "stem": "A nurse believes a planned action is unsafe and prior statements were not heard. Using TeamSTEPPS CUS, which sequence best escalates the concern?",
+   "options": [
+    {
+     "key": "A",
+     "text": "State 'I am Concerned,' then 'I am Uncomfortable,' then 'This is a Safety issue,' and notify a supervisor if the safety issue is not acknowledged"
+    },
+    {
+     "key": "B",
+     "text": "Say only 'whatever you think' and document nothing"
+    },
+    {
+     "key": "C",
+     "text": "Use CUS for routine interpersonal disagreements about lunch breaks"
+    },
+    {
+     "key": "D",
+     "text": "Start with insults about competence instead of stating a safety concern"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. AHRQ/AHA TeamSTEPPS: CUS = Concerned, Uncomfortable, Safety issue; escalate to a supervisor if unresolved.",
+    "B": "Incorrect. Silence fails mutual support and advocacy responsibilities.",
+    "C": "Incorrect. CUS is for urgent safety concerns, not routine interpersonal issues.",
+    "D": "Incorrect. CUS uses structured assertive language focused on the safety issue, not personal attacks."
+   },
+   "sources": [
+    {
+     "title": "Tool: CUS",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/teamstepps-program/curriculum/mutual/tools/cus.html",
+     "section": "CUS technique — Concerned, Uncomfortable, Safety",
+     "source_date": "Page last reviewed May 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "CUS: state Concern; state why Uncomfortable; state Safety issue; notify supervisor if not acknowledged."
+    },
+    {
+     "title": "CUS | AHA TeamSTEPPS Video Toolkit",
+     "publisher": "American Hospital Association (AHA) — TeamSTEPPS Video Toolkit",
+     "url": "https://www.aha.org/center/project-firstline/teamstepps-video-toolkit/cus",
+     "section": "What is CUS? / Concerned, Uncomfortable, Safety issue",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "CUS key words: Concerned, Uncomfortable, Safety issue; escalate to stop the line for patient safety."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f00b06ec) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ CUS tool + AHA TeamSTEPPS CUS dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B53-WAVE44",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0081",
+   "format": "drop_down_cloze",
+   "specialty": "Leadership/Management",
+   "topic": "NGN cloze — TeamSTEPPS CUS mnemonic letters",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Easy",
+   "cognitive_level": "Remembering",
+   "enemy_group": "teamstepps-cus-ngn-cloze",
+   "tags": [
+    "NGN",
+    "cloze",
+    "MOC",
+    "CUS",
+    "TeamSTEPPS"
+   ],
+   "stem": "Complete the TeamSTEPPS CUS escalation phrases used for patient-safety advocacy.",
+   "ngn": {
+    "template": "In CUS, C stands for {B1}, U stands for Uncomfortable, and S stands for {B2}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "Concerned"
+      },
+      {
+       "key": "B1b",
+       "text": "Casual"
+      },
+      {
+       "key": "B1c",
+       "text": "Complacent"
+      },
+      {
+       "key": "B1d",
+       "text": "Celebratory"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "Safety issue"
+      },
+      {
+       "key": "B2b",
+       "text": "Social event"
+      },
+      {
+       "key": "B2c",
+       "text": "Shift gossip"
+      },
+      {
+       "key": "B2d",
+       "text": "Silent treatment"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. C = Concerned.",
+    "B1b": "Incorrect. C stands for Concerned, not Casual.",
+    "B1c": "Incorrect. C stands for Concerned, not Complacent.",
+    "B1d": "Incorrect. C stands for Concerned, not Celebratory.",
+    "B2a": "Correct. S = Safety issue.",
+    "B2b": "Incorrect. S stands for Safety issue, not Social event.",
+    "B2c": "Incorrect. S stands for Safety issue, not Shift gossip.",
+    "B2d": "Incorrect. S stands for Safety issue, not Silent treatment."
+   },
+   "sources": [
+    {
+     "title": "Tool: CUS",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/teamstepps-program/curriculum/mutual/tools/cus.html",
+     "section": "CUS technique — Concerned, Uncomfortable, Safety",
+     "source_date": "Page last reviewed May 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "C = concern; U = uncomfortable; S = safety issue; notify supervisor if not acknowledged."
+    },
+    {
+     "title": "CUS | AHA TeamSTEPPS Video Toolkit",
+     "publisher": "American Hospital Association (AHA) — TeamSTEPPS Video Toolkit",
+     "url": "https://www.aha.org/center/project-firstline/teamstepps-video-toolkit/cus",
+     "section": "What is CUS? / Concerned, Uncomfortable, Safety issue",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Key words Concerned, Uncomfortable, Safety issue to escalate."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f00b06ec) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ + AHA CUS cloze dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B53-WAVE44",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0062",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "Medication safety — verify identity with two identifiers; room number is not valid",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "two-patient-identifiers-not-room-number",
+   "tags": [
+    "SIPC",
+    "patient-identification",
+    "medication-safety",
+    "fundamentals"
+   ],
+   "stem": "Before administering a scheduled oral medication, which identification method is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Ask the client to state full name and date of birth, then compare with the armband and MAR (at least two identifiers)"
+    },
+    {
+     "key": "B",
+     "text": "Use room number alone because it uniquely identifies every client"
+    },
+    {
+     "key": "C",
+     "text": "Skip identification if the nurse recognizes the client's face from yesterday"
+    },
+    {
+     "key": "D",
+     "text": "Ask only for the client's favourite colour as the sole identifier"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax CNS/Fundamentals: use at least two identifiers such as name and DOB and compare to armband/MAR.",
+    "B": "Incorrect. Room number is not a unique identifier and must not be used to confirm identity.",
+    "C": "Incorrect. Identity must be confirmed every time medications are administered.",
+    "D": "Incorrect. Favourite colour is not an approved patient identifier."
+   },
+   "sources": [
+    {
+     "title": "11.1 Rights of Medication Administration",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/11-1-rights-of-medication-administration",
+     "section": "Patient Identification — two identifiers; room number not unique",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "At least two identifiers (name and DOB); confirm with armband/MAR; room number is not a unique identifier."
+    },
+    {
+     "title": "11.2 Fundamental Principles of Medication Administration",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/11-2-fundamental-principles-of-medication-administration",
+     "section": "Patient Identification — two identifiers; room number not unique",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Two identifiers required; name and DOB most common; room number not unique and should not be used."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f00b06ec) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax CNS + Fundamentals two-identifier dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B53-WAVE44",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0063",
+   "format": "matrix_multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "NGN matrix — two-patient-identifier checks indicated vs not",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "two-patient-identifiers-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "SIPC",
+    "patient-identification"
+   ],
+   "stem": "Before medication administration, indicate whether each identification action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Ask the client to state full name and date of birth"
+     },
+     {
+      "key": "R2",
+      "text": "Compare stated identifiers with the armband and MAR"
+     },
+     {
+      "key": "R3",
+      "text": "Use at least two unique identifiers every time medications are given"
+     },
+     {
+      "key": "R4",
+      "text": "Rely on room number alone as the client identifier"
+     },
+     {
+      "key": "R5",
+      "text": "Skip the check because the nurse 'knows this client well'"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Name and DOB are the most common two identifiers.",
+    "R2": "Indicated. Cross-check verbal identifiers with armband and MAR.",
+    "R3": "Indicated. Two identifiers are required at each medication administration.",
+    "R4": "Not indicated. Room number is not a unique identifier.",
+    "R5": "Not indicated. Familiarity does not replace the two-identifier process."
+   },
+   "sources": [
+    {
+     "title": "11.1 Rights of Medication Administration",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/11-1-rights-of-medication-administration",
+     "section": "Patient Identification — two identifiers; room number not unique",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Two identifiers; name/DOB; compare armband/MAR; room number invalid; confirm every administration."
+    },
+    {
+     "title": "11.2 Fundamental Principles of Medication Administration",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/11-2-fundamental-principles-of-medication-administration",
+     "section": "Patient Identification — two identifiers; room number not unique",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Same two-identifier rules; room number not unique."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f00b06ec) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax CNS + Fundamentals ID matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B53-WAVE44",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "resuscitation"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0060",
+   "format": "multiple_choice",
+   "specialty": "Critical Care/Emergency",
+   "topic": "Adult high-quality CPR — chest compression rate 100 to 120/min",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Remembering",
+   "enemy_group": "adult-cpr-compression-rate-100-120",
+   "tags": [
+    "RRP",
+    "CPR",
+    "resuscitation",
+    "critical-care"
+   ],
+   "stem": "During adult CPR for pulseless cardiac arrest, which chest compression rate is recommended for high-quality CPR?",
+   "options": [
+    {
+     "key": "A",
+     "text": "100 to 120 compressions per minute"
+    },
+    {
+     "key": "B",
+     "text": "40 to 50 compressions per minute"
+    },
+    {
+     "key": "C",
+     "text": "20 compressions per minute with long pauses after every compression"
+    },
+    {
+     "key": "D",
+     "text": "200 to 240 compressions per minute without allowing chest recoil"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. AHA adult BLS: reasonable to perform compressions at 100 to 120/min. OpenStax: high-quality CPR uses 100 to 120 compressions per minute.",
+    "B": "Incorrect. Too slow; inadequate rate.",
+    "C": "Incorrect. Far too slow; minimize interruptions.",
+    "D": "Incorrect. Excessively fast and without recoil is not high-quality CPR."
+   },
+   "sources": [
+    {
+     "title": "Part 7: Adult Basic Life Support",
+     "publisher": "American Heart Association (AHA)",
+     "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support",
+     "section": "7.3 Chest Compression Depth and Rate — 100 to 120/min",
+     "source_date": "Updated December 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "For adults in cardiac arrest, perform chest compressions at a rate of 100 to 120/min."
+    },
+    {
+     "title": "12.2 Dysrhythmia",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/12-2-dysrhythmia",
+     "section": "Safety: Interventions with CPR and the Defibrillator — compression rate 100–120",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "High-quality CPR compression rate of 100 to 120 compressions per minute with full recoil and ~2-inch depth."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f00b06ec) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHA adult BLS 100–120 + OpenStax Med-Surg CPR dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B53-WAVE44",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "resuscitation"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0061",
+   "format": "drop_down_cloze",
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN cloze — adult CPR rate 100–120/min and allow full chest recoil",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "adult-cpr-ngn-cloze-rate-recoil",
+   "tags": [
+    "NGN",
+    "cloze",
+    "RRP",
+    "CPR"
+   ],
+   "stem": "Complete the high-quality adult CPR performance teaching.",
+   "ngn": {
+    "template": "Adult chest compressions should be delivered at {B1}. Between compressions, the rescuer should {B2}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "100 to 120 compressions per minute"
+      },
+      {
+       "key": "B1b",
+       "text": "10 compressions per minute"
+      },
+      {
+       "key": "B1c",
+       "text": "300 compressions per minute"
+      },
+      {
+       "key": "B1d",
+       "text": "one compression every 30 seconds"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "allow complete chest wall recoil (avoid leaning on the chest)"
+      },
+      {
+       "key": "B2b",
+       "text": "keep continuous pressure on the sternum without release"
+      },
+      {
+       "key": "B2c",
+       "text": "pause for 1 minute after every single compression"
+      },
+      {
+       "key": "B2d",
+       "text": "switch to abdominal thrusts only"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. AHA/OpenStax: 100–120 compressions/min.",
+    "B1b": "Incorrect. Too slow.",
+    "B1c": "Incorrect. Excessively fast.",
+    "B1d": "Incorrect. Far too slow.",
+    "B2a": "Correct. AHA: allow complete chest wall recoil; do not lean on the chest.",
+    "B2b": "Incorrect. Failure to recoil reduces CPR quality.",
+    "B2c": "Incorrect. Minimize interruptions in compressions.",
+    "B2d": "Incorrect. Abdominal thrusts are not the CPR compression technique."
+   },
+   "sources": [
+    {
+     "title": "Part 7: Adult Basic Life Support",
+     "publisher": "American Heart Association (AHA)",
+     "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support",
+     "section": "7.3 Chest Compression Depth and Rate — 100 to 120/min",
+     "source_date": "Updated December 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Compression rate 100–120/min; depth at least 2 inches (5 cm) while avoiding >2.4 inches; allow complete recoil."
+    },
+    {
+     "title": "12.2 Dysrhythmia",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/12-2-dysrhythmia",
+     "section": "Safety: Interventions with CPR and the Defibrillator — compression rate 100–120",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "100–120/min; full recoil; depth of two inches; minimize interruptions."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f00b06ec) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHA BLS + OpenStax Med-Surg CPR cloze dual-cite."
     }
    ],
    "exam_version_published": null,
