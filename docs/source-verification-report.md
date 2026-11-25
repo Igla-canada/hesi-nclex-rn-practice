@@ -1,6 +1,6 @@
 # Source verification report — Ontario/Canada question bank
 
-**Updated:** 2026-11-25, ~8:41 AM (America/New_York)
+**Updated:** 2026-11-25, ~8:50 AM (America/New_York)
 **Scope:** Author-level **Source verified** only. Not an independent verifier pass. Not clinical review.
 **Rule:** Every keyed answer and rationale rests on sources fetched in-session; citations were not invented.
 
@@ -10,30 +10,30 @@
 
 | Metric | Count |
 | --- | ---: |
-| Items Source verified | **181** |
+| Items Source verified | **193** |
 | Items with independent verifier `confirmed` | 0 |
 | Items clinically reviewed / approved / published | **0** |
-| Excluded draft topics logged | 57 |
+| Excluded draft topics logged | 60 |
 
 ### Citation publishers (citation instances across items)
 
 | Publisher | Citations |
 | --- | ---: |
-| Merck Manual Professional Edition | 115 |
-| OpenStax — Medical-Surgical Nursing | 45 |
-| OpenStax — Fundamentals of Nursing | 45 |
-| College of Nurses of Ontario | 28 |
-| U.S. Centers for Disease Control and Prevention (CDC) | 23 |
+| Merck Manual Professional Edition | 122 |
+| OpenStax — Fundamentals of Nursing | 49 |
+| OpenStax — Medical-Surgical Nursing | 46 |
+| College of Nurses of Ontario | 31 |
+| U.S. Centers for Disease Control and Prevention (CDC) | 25 |
 | OpenStax — Pharmacology for Nurses | 20 |
-| OpenStax — Psychiatric-Mental Health Nursing | 15 |
+| OpenStax — Psychiatric-Mental Health Nursing | 18 |
+| OpenStax — Clinical Nursing Skills | 11 |
 | OpenStax — Maternal-Newborn Nursing | 10 |
-| OpenStax — Clinical Nursing Skills | 10 |
 | Public Health Agency of Canada / Canada.ca | 10 |
 | Government of Ontario — e-Laws | 7 |
 | U.S. National Library of Medicine — DailyMed | 5 |
+| Canadian Paediatric Society | 5 |
+| OpenStax — Population Health for Nurses | 4 |
 | Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC) | 3 |
-| Canadian Paediatric Society | 3 |
-| OpenStax — Population Health for Nurses | 3 |
 | World Health Organization | 3 |
 | Agency for Healthcare Research and Quality (AHRQ) | 2 |
 | Agency for Healthcare Research and Quality (AHRQ) — PSNet | 1 |
@@ -57,24 +57,24 @@
 | U.S. Department of Homeland Security — Ready.gov | 1 |
 | U.S. National Highway Traffic Safety Administration (NHTSA) | 1 |
 
-## Wave 16 item inventory (B25-WAVE16)
+## Wave 17 item inventory (B26-WAVE17)
 
 | ID | Format | Client Needs | Jurisdiction | Sources | High-priority clinical review | Flags |
 | --- | --- | --- | --- | ---: | --- | --- |
-| ONRN-PPT-0027 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | high-alert-medication |
-| ONRN-RRP-0020 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | high-alert-medication |
-| ONRN-BCC-0016 | select_all_that_apply | Basic Care and Comfort | General (Canada/US concordant) | 3 | no | — |
-| ONRN-RRP-0021 | matrix_multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | no | — |
-| ONRN-MOC-0030 | multiple_choice | Management of Care | Ontario-specific | 2 | yes | legal-ontario |
-| ONRN-MOC-0031 | multiple_choice | Management of Care | General (Canada/US concordant) | 2 | no | — |
-| ONRN-HPM-0019 | multiple_choice | Health Promotion and Maintenance | General (Canada/US concordant) | 2 | no | — |
-| ONRN-HPM-0020 | multiple_choice | Health Promotion and Maintenance | General (Canada/US concordant) | 2 | no | — |
-| ONRN-PA-0026 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | pediatric, high-alert-medication |
-| ONRN-PPT-0028 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | pediatric |
-| ONRN-PPT-0029 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | pediatric |
-| ONRN-PA-0027 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | emergency |
+| ONRN-RRP-0022 | matrix_multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | mental-health-safety |
+| ONRN-PSY-0018 | select_all_that_apply | Psychosocial Integrity | General (Canada/US concordant) | 2 | yes | mental-health-safety |
+| ONRN-RRP-0023 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | no | — |
+| ONRN-PA-0028 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | pediatric, emergency |
+| ONRN-PA-0029 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | pediatric, emergency |
+| ONRN-MOC-0032 | multiple_choice | Management of Care | Ontario-specific | 2 | yes | legal-ontario |
+| ONRN-MOC-0033 | multiple_choice | Management of Care | General (Canada/US concordant) | 2 | yes | — |
+| ONRN-HPM-0021 | multiple_choice | Health Promotion and Maintenance | General (Canada/US concordant) | 2 | no | — |
+| ONRN-BCC-0017 | select_all_that_apply | Basic Care and Comfort | General (Canada/US concordant) | 2 | yes | — |
+| ONRN-SIPC-0021 | ordered_response | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | — |
+| ONRN-MOC-0034 | multiple_choice | Management of Care | General (Canada/US concordant) | 2 | no | — |
+| ONRN-PPT-0030 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | high-alert-medication |
 
-Full compiled inventory: `internal/question-bank/build/question-bank.json` / `question-bank.csv` (181 Source-verified items). Prior waves B00 + B11–B24 remain Source verified; no clinical approval.
+Full compiled inventory: `internal/question-bank/build/question-bank.json` / `question-bank.csv` (193 Source-verified items). Prior waves B00 + B11–B25 remain Source verified; no clinical approval.
 
 ## Verification method (unchanged)
 
