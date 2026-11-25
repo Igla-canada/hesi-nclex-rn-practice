@@ -1,0 +1,1395 @@
+{
+ "batch_id": "B22-WAVE13",
+ "author": "AI author (Composer, Cursor subagent bc-6659b924) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 13 expansion prioritizing thinner Client Needs MOC then PPT/SIPC/PA with dual-cited originals (CNO, Ontario HCCA e-Laws, NCSBN, CDC, DailyMed, Merck, OpenStax).",
+ "items": [
+  {
+   "batch": "B22-WAVE13",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario",
+    "guideline-version-sensitive"
+   ],
+   "id": "ONRN-MOC-0018",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A nurse finishes a dressing change and is about to leave the unit for break. According to College of Nurses of Ontario documentation expectations and standard nursing documentation practice, which action is required?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Document the dressing change before providing the care so the record is ready."
+    },
+    {
+     "key": "B",
+     "text": "Document the care at the time it is provided or as soon as possible afterward, including date and time."
+    },
+    {
+     "key": "C",
+     "text": "Wait until the end of the week and write one summary note for all dressing changes."
+    },
+    {
+     "key": "D",
+     "text": "Ask a colleague who did not provide the care to document the dressing change later."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. CNO states nurses do not document before the care is provided.",
+    "B": "Correct. CNO requires documentation in a timely manner at the time care is provided or as soon as possible afterward, with date and time; OpenStax emphasizes charting in real time to keep records accurate and current.",
+    "C": "Incorrect. Delayed weekly summary charting does not meet timely, contemporaneous documentation expectations.",
+    "D": "Incorrect. CNO directs nurses to document care they provide and not document care provided by another individual (except designated recorder situations)."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Documentation — timely; do not document before care",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "Ontario-specific",
+   "jurisdiction_note": "CNO Documentation practice standard sets Ontario nursing documentation accountabilities; OpenStax supports real-time charting as general best practice.",
+   "enemy_group": "cno-documentation-timely-not-before-care",
+   "tags": [
+    "CNO",
+    "documentation",
+    "timeliness",
+    "MOC"
+   ],
+   "sources": [
+    {
+     "title": "Documentation",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41001_documentation.pdf",
+     "section": "Accountabilities — timely documentation; do not document before care",
+     "source_date": "Revised September 2025 (in effect Feb 1, 2026)",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Document in a timely manner, either at the time they provide care or as soon as possible after; nurses do not document before the care is provided.",
+     "added_by": "author"
+    },
+    {
+     "title": "14.5 Guidelines for Effective Documentation",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/14-5-guidelines-for-effective-documentation",
+     "section": "Chart in Real Time",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Charting in real time is necessary for maintaining accurate and up-to-date patient records.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6659b924) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Documentation timely/not-before-care + OpenStax Chart in Real Time"
+    }
+   ]
+  },
+  {
+   "batch": "B22-WAVE13",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario",
+    "guideline-version-sensitive"
+   ],
+   "id": "ONRN-MOC-0019",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A former inpatient sends a personal social media friend request to the nurse who provided care. Which response best maintains professional boundaries?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Accept the request and discuss the client’s hospital stay privately in direct messages."
+    },
+    {
+     "key": "B",
+     "text": "Decline connecting on personal social media and maintain professional boundaries online."
+    },
+    {
+     "key": "C",
+     "text": "Accept the request only if the client promises not to mention health information."
+    },
+    {
+     "key": "D",
+     "text": "Accept the request because the therapeutic relationship ended at discharge, so boundaries no longer apply."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Discussing care on personal social media risks privacy breaches and blurs professional boundaries.",
+    "B": "Correct. CNO directs nurses not to accept friend requests from clients on personal social media; NCSBN advises caution with online social contact because it blurs professional and personal relationships even if the patient initiates contact.",
+    "C": "Incorrect. Conditional acceptance still creates an inappropriate personal online relationship.",
+    "D": "Incorrect. NCSBN notes online contact with former patients also blurs professional and personal relationships; CNO requires maintaining boundaries."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Professional boundaries — no personal social media connections with clients",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "Ontario-specific",
+   "jurisdiction_note": "CNO Professional Boundaries is the Ontario regulator authority; NCSBN social media guidance independently supports avoiding personal online relationships with patients/former patients.",
+   "enemy_group": "cno-boundaries-no-personal-social-media-friend-requests",
+   "tags": [
+    "CNO",
+    "professional-boundaries",
+    "social-media",
+    "MOC"
+   ],
+   "sources": [
+    {
+     "title": "Professional Boundaries and Nurse-Client Relationships",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41033_therapeutic.pdf",
+     "section": "Technology use / social media — refrain from friend requests",
+     "source_date": "Revised December 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Nurses must refrain from connecting with clients, following clients, or accepting friend requests from clients on their personal social media accounts.",
+     "added_by": "author"
+    },
+    {
+     "title": "A Nurse's Guide to the Use of Social Media",
+     "publisher": "NCSBN / American Nurses Association",
+     "url": "https://www.ncsbn.org/public-files/NCSBN_SocialMedia.pdf",
+     "section": "Professional boundaries in electronic media",
+     "source_date": "Copyright ©2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "exam_body",
+     "supports": "Key B; rationale D",
+     "evidence": "Use caution when having online social contact with patients or former patients; online contact blurs professional and personal relationships; patient initiation does not permit a personal relationship.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6659b924) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO no friend requests + NCSBN online contact blurs boundaries"
+    }
+   ]
+  },
+  {
+   "batch": "B22-WAVE13",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario"
+   ],
+   "id": "ONRN-MOC-0020",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "Under Ontario’s Health Care Consent Act and CNO Consent guidance, which statement about decision-making capacity is accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "A finding of incapacity for one treatment means the person is incapable for all treatments indefinitely."
+    },
+    {
+     "key": "B",
+     "text": "A person may be incapable with respect to some treatments and capable with respect to others."
+    },
+    {
+     "key": "C",
+     "text": "Only a court can ever determine that a person is capable of consenting to treatment."
+    },
+    {
+     "key": "D",
+     "text": "Capacity is assessed once on admission and never reassessed during the hospital stay."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Capacity is treatment-specific; incapacity for one treatment does not automatically apply to all treatments.",
+    "B": "Correct. HCCA s.15 and CNO Consent state a person may be capable for some treatments and incapable for others; capacity can also change over time.",
+    "C": "Incorrect. Health practitioners assess capacity related to specific treatment decisions under the HCCA framework.",
+    "D": "Incorrect. HCCA recognizes capacity may change with time; consent is an ongoing process."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Capacity — treatment-specific under HCCA",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Understanding",
+   "jurisdiction": "Ontario-specific",
+   "jurisdiction_note": "HCCA s.15 and CNO Consent are Ontario authorities for capacity assessment.",
+   "enemy_group": "hcca-capacity-treatment-specific",
+   "tags": [
+    "HCCA",
+    "capacity",
+    "consent",
+    "MOC"
+   ],
+   "sources": [
+    {
+     "title": "Health Care Consent Act, 1996",
+     "publisher": "Government of Ontario — e-Laws",
+     "url": "https://www.ontario.ca/laws/statute/96h02",
+     "section": "s. 15 Capacity depends on treatment",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "supports": "Key B; rationales A,D",
+     "evidence": "A person may be incapable with respect to some treatments and capable with respect to others; a person may be incapable at one time and capable at another.",
+     "added_by": "author"
+    },
+    {
+     "title": "Consent",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41020_consent.pdf",
+     "section": "HCCA — capacity relates to a specific treatment",
+     "source_date": "Updated July 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key B; rationale C",
+     "evidence": "Consent to treatment, and assessing capacity to consent, must relate to a specific treatment or plan of treatment; a person could be capable for one treatment but incapable with respect to another.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6659b924) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "HCCA s.15 + CNO Consent treatment-specific capacity"
+    }
+   ]
+  },
+  {
+   "batch": "B22-WAVE13",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario",
+    "guideline-version-sensitive"
+   ],
+   "id": "ONRN-MOC-0021",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client becomes angry about a delayed procedure and raises their voice at the nurse. Which initial conflict-management action best aligns with College of Nurses of Ontario guidance?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Argue that the delay is not the nurse’s fault and criticize the client’s tone."
+    },
+    {
+     "key": "B",
+     "text": "Remain calm, encourage the client to express concerns, and avoid arguing or judging."
+    },
+    {
+     "key": "C",
+     "text": "Ignore the behaviour because conflict is never an issue nurses should address."
+    },
+    {
+     "key": "D",
+     "text": "Immediately permanently discontinue all nursing services without assessing safety or planning alternatives."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. CNO advises nurses to avoid arguing, criticizing, defending, or judging.",
+    "B": "Correct. CNO conflict-management strategies include remaining calm, encouraging expression of concerns, and avoiding arguing/criticizing; OpenStax notes good communication promotes better handling of conflicts and emphasizes respectful, assertive professional communication.",
+    "C": "Incorrect. CNO states unmanaged conflict can hinder care and escalate into violence/abuse; nurses must be prepared to prevent or manage conflict.",
+    "D": "Incorrect. Withdrawal of services is a last-resort safety option with decision-tree guidance, not the first response to voiced frustration."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Conflict prevention and management — calm, non-argumentative response",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "Ontario-specific",
+   "jurisdiction_note": "CNO Conflict Prevention and Management is the Ontario practice guideline; OpenStax supports communication skills that help manage conflict.",
+   "enemy_group": "cno-conflict-remain-calm-avoid-arguing",
+   "tags": [
+    "CNO",
+    "conflict-management",
+    "therapeutic-communication",
+    "MOC"
+   ],
+   "sources": [
+    {
+     "title": "Conflict Prevention and Management",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/47004_conflict_prev.pdf",
+     "section": "Nurse-Client Conflict — Management strategies",
+     "source_date": "Updated March 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Remain calm and encourage the client to express concerns; avoid arguing, criticizing, defending or judging.",
+     "added_by": "author"
+    },
+    {
+     "title": "2.3 Effective Communication",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/2-3-effective-communication",
+     "section": "Importance of Communication; professional communication",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Good communication among healthcare providers also promotes better handling of conflicts; professional communication includes courtesy, empathy, and assertiveness.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6659b924) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO conflict remain calm/avoid arguing + OpenStax communication/conflict"
+    }
+   ]
+  },
+  {
+   "batch": "B22-WAVE13",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario",
+    "guideline-version-sensitive"
+   ],
+   "id": "ONRN-MOC-0022",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "Which documentation practices meet College of Nurses of Ontario accountabilities? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Include the date and time with documentation entries."
+    },
+    {
+     "key": "B",
+     "text": "Document care before it is provided to save time."
+    },
+    {
+     "key": "C",
+     "text": "Clearly identify a late entry and refer to the date and time the care occurred."
+    },
+    {
+     "key": "D",
+     "text": "Falsify a record if asked by a colleague to “fix” a missed note."
+    },
+    {
+     "key": "E",
+     "text": "Document in a timely manner at or soon after the care or event."
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "C",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. CNO requires all documentation entries include the date and time; OpenStax notes entries need an accurate date and time stamp.",
+    "B": "Incorrect. CNO states nurses do not document before care is provided.",
+    "C": "Correct. CNO requires late entries to be indicated with the date/time the care or action occurred.",
+    "D": "Incorrect. CNO prohibits falsifying a record relating to practice.",
+    "E": "Correct. CNO requires timely documentation at the time of care or as soon as possible afterward; OpenStax supports real-time charting."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Documentation accountabilities SATA — date/time, timely, late entry, no falsify",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "Ontario-specific",
+   "jurisdiction_note": "CNO Documentation is Ontario regulator authority; OpenStax supports date/time stamp and timely documentation principles.",
+   "enemy_group": "cno-documentation-accountabilities-sata-date-time-timely-late-entry",
+   "tags": [
+    "CNO",
+    "documentation",
+    "SATA",
+    "MOC"
+   ],
+   "sources": [
+    {
+     "title": "Documentation",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41001_documentation.pdf",
+     "section": "Accountabilities — date/time, timely, late entry, no falsify",
+     "source_date": "Revised September 2025 (in effect Feb 1, 2026)",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Keys A,C,E; rationales B,D",
+     "evidence": "Ensure entries include date and time; document timely; indicate a late entry; do not falsify a record; do not document before care.",
+     "added_by": "author"
+    },
+    {
+     "title": "14.5 Guidelines for Effective Documentation",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/14-5-guidelines-for-effective-documentation",
+     "section": "ANA documentation principles; Chart in Real Time",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Keys A,E",
+     "evidence": "Each documented entry must be authenticated with an accurate date and time stamp; charting in real time maintains accurate, up-to-date records.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6659b924) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO documentation SATA keys + OpenStax date/time and real-time charting"
+    }
+   ]
+  },
+  {
+   "batch": "B22-WAVE13",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario"
+   ],
+   "id": "ONRN-MOC-0023",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "According to Ontario’s Health Care Consent Act definition of capacity (also reflected in CNO Consent guidance), a person is capable with respect to a treatment if the person is able to:",
+   "options": [
+    {
+     "key": "A",
+     "text": "Recite the hospital mission statement from memory."
+    },
+    {
+     "key": "B",
+     "text": "Understand relevant information and appreciate the reasonably foreseeable consequences of a decision or lack of decision."
+    },
+    {
+     "key": "C",
+     "text": "Name three nurses on the unit and state their years of experience."
+    },
+    {
+     "key": "D",
+     "text": "Sign any form placed in front of them, regardless of understanding."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Capacity concerns decision-relevant treatment information, not institutional trivia.",
+    "B": "Correct. HCCA s.4 and CNO Consent define capacity as ability to understand relevant information and appreciate reasonably foreseeable consequences of a decision or lack of decision.",
+    "C": "Incorrect. Naming staff is unrelated to treatment decision-making capacity.",
+    "D": "Incorrect. A signature without understanding does not constitute capable informed consent."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Capacity definition — understand and appreciate consequences",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Understanding",
+   "jurisdiction": "Ontario-specific",
+   "jurisdiction_note": "HCCA s.4 capacity definition is Ontario statute; CNO Consent restates the understand/appreciate test for nurses.",
+   "enemy_group": "hcca-capacity-understand-and-appreciate",
+   "tags": [
+    "HCCA",
+    "capacity",
+    "consent",
+    "MOC"
+   ],
+   "sources": [
+    {
+     "title": "Health Care Consent Act, 1996",
+     "publisher": "Government of Ontario — e-Laws",
+     "url": "https://www.ontario.ca/laws/statute/96h02",
+     "section": "s. 4 Capacity",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "supports": "Key B",
+     "evidence": "A person is capable if able to understand information relevant to making a decision and able to appreciate the reasonably foreseeable consequences of a decision or lack of decision.",
+     "added_by": "author"
+    },
+    {
+     "title": "Consent",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41020_consent.pdf",
+     "section": "Definitions — capable person",
+     "source_date": "Updated July 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Capable if understands information relevant to making a decision concerning treatment and appreciates the reasonably possible consequences of a decision or lack of a decision.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6659b924) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "HCCA s.4 + CNO Consent understand/appreciate capacity definition"
+    }
+   ]
+  },
+  {
+   "batch": "B22-WAVE13",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "emergency"
+   ],
+   "id": "ONRN-PPT-0022",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "Fifteen minutes after a packed red blood cell transfusion is started, the client develops chills, fever, and low back pain. Which action should the nurse take FIRST?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Slow the transfusion rate and reassess in 30 minutes."
+    },
+    {
+     "key": "B",
+     "text": "Stop the transfusion immediately and keep the IV line open with normal saline."
+    },
+    {
+     "key": "C",
+     "text": "Administer prescribed acetaminophen and continue the same unit at the previous rate."
+    },
+    {
+     "key": "D",
+     "text": "Complete the remaining unit quickly so the reaction can be evaluated afterward."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Suspected transfusion reactions require immediate stop, not merely slowing the infusion.",
+    "B": "Correct. Merck directs stopping the transfusion immediately and keeping the IV open with normal saline; OpenStax likewise prioritizes immediately stopping the transfusion when a reaction is occurring.",
+    "C": "Incorrect. Continuing the same unit after systemic reaction symptoms is unsafe; the unit should not be restarted.",
+    "D": "Incorrect. Completing the unit would increase exposure to the implicated product."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Transfusion reaction — stop transfusion immediately",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "enemy_group": "transfusion-reaction-stop-immediately-ns-open",
+   "tags": [
+    "transfusion",
+    "reaction",
+    "blood-products",
+    "PPT"
+   ],
+   "sources": [
+    {
+     "title": "Complications of Transfusion",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/hematology-and-oncology/transfusion-medicine/complications-of-transfusion",
+     "section": "Early recognition — stop transfusion",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "If reaction symptoms occur (other than localized urticaria/itching), the transfusion should be stopped immediately and the IV line kept open with normal saline; the unit should not be restarted.",
+     "added_by": "author"
+    },
+    {
+     "title": "16.7 Blood Products and Transfusion Principles",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/16-7-blood-products-and-transfusion-principles",
+     "section": "Prioritizing Hypotheses, Generating Solutions, and Taking Action",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Immediately stopping the blood transfusion when a reaction is occurring is important; Stop the transfusion.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6659b924) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck stop transfusion + NS open; OpenStax stop transfusion first"
+    }
+   ]
+  },
+  {
+   "batch": "B22-WAVE13",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "id": "ONRN-PPT-0023",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A nurse is teaching a client newly started on warfarin. Which instruction is the priority safety teaching point?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Stop all follow-up blood tests once you feel well."
+    },
+    {
+     "key": "B",
+     "text": "Report signs and symptoms of bleeding and keep scheduled INR monitoring appointments."
+    },
+    {
+     "key": "C",
+     "text": "Double the next dose if a dose is missed, without contacting the prescriber."
+    },
+    {
+     "key": "D",
+     "text": "Take an extra aspirin daily to enhance warfarin’s effect."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. DailyMed requires regular INR monitoring in all treated patients.",
+    "B": "Correct. DailyMed boxed warning instructs patients about prevention measures and to report bleeding signs/symptoms, with regular INR monitoring; Merck notes warfarin requires close INR monitoring and carries bleeding risk.",
+    "C": "Incorrect. Missed-dose management should follow prescriber/label guidance; doubling without advice increases bleeding risk.",
+    "D": "Incorrect. Combining with antiplatelet agents can increase bleeding risk and is not routine teaching."
+   },
+   "specialty": "Pharmacology",
+   "topic": "Warfarin — report bleeding; INR monitoring",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "DailyMed is a US FDA label source; bleeding risk and INR monitoring teaching is concordant with Canadian warfarin practice.",
+   "enemy_group": "warfarin-report-bleeding-inr-monitoring-teaching",
+   "tags": [
+    "warfarin",
+    "INR",
+    "bleeding",
+    "PPT"
+   ],
+   "sources": [
+    {
+     "title": "WARFARIN SODIUM tablet",
+     "publisher": "U.S. National Library of Medicine — DailyMed",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ba8b4ead-d080-91e7-e053-2995a90a82fe",
+     "section": "WARNING: BLEEDING RISK; patient counseling",
+     "source_date": "Updated July 10, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "drug_monograph_label",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Warfarin can cause major or fatal bleeding; perform regular INR monitoring; instruct patients about prevention measures to minimize bleeding risk and to report signs and symptoms of bleeding.",
+     "added_by": "author"
+    },
+    {
+     "title": "Deep Venous Thrombosis (DVT)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/peripheral-venous-disorders/deep-venous-thrombosis-dvt",
+     "section": "Anticoagulation strategies — warfarin INR monitoring; bleeding",
+     "source_date": "Last updated: May 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B",
+     "evidence": "Warfarin with close INR monitoring; compared with DOACs, warfarin requires ongoing laboratory testing and has serious bleeding risk considerations.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6659b924) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "DailyMed warfarin bleeding/INR teaching + Merck DVT warfarin INR monitoring"
+    }
+   ]
+  },
+  {
+   "batch": "B22-WAVE13",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "id": "ONRN-PPT-0024",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client is receiving IV gentamicin. Which adverse effects should the nurse monitor for most closely because of aminoglycoside toxicity?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Nephrotoxicity and ototoxicity (vestibular/auditory)."
+    },
+    {
+     "key": "B",
+     "text": "Only mild transient hair loss without other risks."
+    },
+    {
+     "key": "C",
+     "text": "Hyperglycemia as the primary expected effect."
+    },
+    {
+     "key": "D",
+     "text": "Permanent blue-green skin discoloration in all clients."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck states all aminoglycosides cause renal toxicity and vestibular/auditory toxicity; DailyMed gentamicin boxed warning highlights nephrotoxicity and ototoxicity (vestibular and auditory).",
+    "B": "Incorrect. Hair loss is not the primary boxed aminoglycoside toxicity concern.",
+    "C": "Incorrect. Hyperglycemia is not the hallmark aminoglycoside toxicity described in these sources.",
+    "D": "Incorrect. Not a described primary toxicity of gentamicin/aminoglycosides in the cited sources."
+   },
+   "specialty": "Pharmacology",
+   "topic": "Aminoglycosides — nephrotoxicity and ototoxicity monitoring",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "enemy_group": "aminoglycoside-nephrotoxicity-ototoxicity-monitoring",
+   "tags": [
+    "gentamicin",
+    "aminoglycoside",
+    "ototoxicity",
+    "nephrotoxicity",
+    "PPT"
+   ],
+   "sources": [
+    {
+     "title": "Aminoglycosides",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/bacteria-and-antibacterial-drugs/aminoglycosides",
+     "section": "Adverse Effects of Aminoglycosides",
+     "source_date": "Last updated: May 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales B,C,D",
+     "evidence": "All aminoglycosides cause renal toxicity (often reversible) and vestibular and auditory toxicity (often irreversible).",
+     "added_by": "author"
+    },
+    {
+     "title": "GENTAMICIN sulfate injection",
+     "publisher": "U.S. National Library of Medicine — DailyMed",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=84f6eb1c-a287-489a-8c3e-aa5954cf1992",
+     "section": "BOXED WARNINGS — nephrotoxicity and ototoxicity",
+     "source_date": "Updated November 2, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "drug_monograph_label",
+     "supports": "Key B",
+     "evidence": "Gentamicin is potentially nephrotoxic; neurotoxicity manifested by ototoxicity, both vestibular and auditory, can occur.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6659b924) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck aminoglycoside renal/oto toxicity + DailyMed gentamicin boxed warning"
+    }
+   ]
+  },
+  {
+   "batch": "B22-WAVE13",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric"
+   ],
+   "id": "ONRN-SIPC-0018",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client is admitted with suspected chickenpox (varicella) and active vesicular lesions. Which transmission-based precautions are indicated?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Standard Precautions only; no room placement considerations."
+    },
+    {
+     "key": "B",
+     "text": "Airborne Precautions plus Contact Precautions (with Standard Precautions)."
+    },
+    {
+     "key": "C",
+     "text": "Droplet Precautions alone without airborne controls."
+    },
+    {
+     "key": "D",
+     "text": "Protective (neutropenic) precautions only, without isolation of the infectious client."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. CDC lists varicella as Airborne + Contact + Standard, not Standard alone.",
+    "B": "Correct. CDC Appendix A specifies Airborne + Contact + Standard for varicella until lesions are dry and crusted; Merck describes spread by infected airborne droplets/aerosolized particles and by direct contact with virus from skin lesions.",
+    "C": "Incorrect. Droplet alone is insufficient for varicella; airborne controls are required.",
+    "D": "Incorrect. Protective precautions protect immunocompromised hosts; the infectious varicella client needs source isolation."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Varicella (chickenpox) — Airborne and Contact Precautions",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "enemy_group": "varicella-airborne-plus-contact-precautions",
+   "tags": [
+    "varicella",
+    "chickenpox",
+    "airborne",
+    "contact",
+    "SIPC"
+   ],
+   "sources": [
+    {
+     "title": "Isolation Precautions Appendix A — Type and Duration",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html",
+     "section": "Varicella Zoster",
+     "source_date": "Updated: September 11, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Varicella Zoster: Airborne + Contact + Standard until lesions dry and crusted.",
+     "added_by": "author"
+    },
+    {
+     "title": "Chickenpox (Varicella)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/herpesviruses/chickenpox",
+     "section": "Transmission",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B",
+     "evidence": "Spread by mucosal inoculation via infected airborne droplets or aerosolized particles and by direct contact with the virus (eg, via skin lesions).",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6659b924) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC varicella Airborne+Contact; Merck airborne droplets + direct contact"
+    }
+   ]
+  },
+  {
+   "batch": "B22-WAVE13",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric"
+   ],
+   "id": "ONRN-SIPC-0019",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client is diagnosed with pertussis (whooping cough). Which precautions should the nurse implement?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Airborne Precautions with an airborne infection isolation room as first-line for all cases."
+    },
+    {
+     "key": "B",
+     "text": "Droplet Precautions (with Standard Precautions), continued per guidance until effective antibiotic therapy criteria are met."
+    },
+    {
+     "key": "C",
+     "text": "Contact Precautions only, because pertussis is spread solely by fomites."
+    },
+    {
+     "key": "D",
+     "text": "No precautions are needed after the first hour of hospitalization."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. CDC lists pertussis under Droplet Precautions, not Airborne.",
+    "B": "Correct. CDC specifies Droplet + Standard for pertussis until 5 days after initiation of effective antibiotic therapy; Merck notes droplet transmission and recommends respiratory droplet isolation until antibiotics have been given for 5 days.",
+    "C": "Incorrect. Merck states transmission by contaminated articles is rare; primary spread is respiratory droplets.",
+    "D": "Incorrect. Isolation continues for the CDC/Merck antibiotic-duration window, not one hour."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Pertussis — Droplet Precautions",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "enemy_group": "pertussis-droplet-precautions-until-5-days-antibiotics",
+   "tags": [
+    "pertussis",
+    "droplet",
+    "isolation",
+    "SIPC"
+   ],
+   "sources": [
+    {
+     "title": "Isolation Precautions Appendix A — Type and Duration",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html",
+     "section": "Pertussis (whooping cough)",
+     "source_date": "Updated: September 11, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Pertussis: Droplet + Standard until 5 days after initiation of effective antibiotic therapy.",
+     "added_by": "author"
+    },
+    {
+     "title": "Pertussis (Whooping Cough)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/gram-negative-bacilli/pertussis",
+     "section": "Transmission; Treatment — droplet isolation",
+     "source_date": "Last updated: Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationale C",
+     "evidence": "Transmission mainly via droplets of respiratory secretions; hospitalization with respiratory droplet isolation until antibiotics have been given for 5 days.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6659b924) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC pertussis Droplet until 5 days antibiotics; Merck droplet isolation 5 days"
+    }
+   ]
+  },
+  {
+   "batch": "B22-WAVE13",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "Merck uses mg/dL and mmol/L for calcium; reference intervals vary by laboratory.",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "lab-range-varies"
+   ],
+   "id": "ONRN-PA-0020",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A postoperative client after thyroid surgery has perioral tingling and a positive Chvostek sign. Which electrolyte imbalance should the nurse suspect?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Hypernatremia"
+    },
+    {
+     "key": "B",
+     "text": "Hypocalcemia"
+    },
+    {
+     "key": "C",
+     "text": "Hypermagnesemia as the only explanation"
+    },
+    {
+     "key": "D",
+     "text": "Isolated hyperchloremia without calcium change"
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Hypernatremia presents with thirst/neurologic changes, not Chvostek sign as the classic bedside cue.",
+    "B": "Correct. Merck identifies Chvostek and Trousseau signs for latent tetany of hypocalcemia; OpenStax lists positive Chvostek’s and Trousseau’s signs among hypocalcemia manifestations, including paresthesia around the lips.",
+    "C": "Incorrect. Hypermagnesemia is not the classic association for Chvostek sign in these sources.",
+    "D": "Incorrect. Chloride imbalance is not linked to Chvostek sign in the cited sources."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Hypocalcemia — Chvostek/Trousseau and perioral paresthesia",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "enemy_group": "hypocalcemia-chvostek-trousseau-perioral-paresthesia",
+   "tags": [
+    "hypocalcemia",
+    "Chvostek",
+    "Trousseau",
+    "electrolytes",
+    "PA"
+   ],
+   "sources": [
+    {
+     "title": "Hypocalcemia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/electrolyte-disorders/hypocalcemia",
+     "section": "Neurologic manifestations — Chvostek and Trousseau",
+     "source_date": "Last updated: Jun 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Chvostek and Trousseau signs are easily elicited to identify latent tetany; tetany includes paresthesias of the lips, tongue, fingers, and feet.",
+     "added_by": "author"
+    },
+    {
+     "title": "10.3 Electrolyte Imbalance",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-3-electrolyte-imbalance",
+     "section": "Calcium Imbalances — hypocalcemia clinical manifestations",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Hypocalcemia manifestations include paresthesia (especially around the lips, tongue, hands, and feet) and positive Chvostek’s and Trousseau’s signs.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6659b924) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Chvostek/Trousseau hypocalcemia; OpenStax same cues"
+    }
+   ]
+  },
+  {
+   "batch": "B22-WAVE13",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "Potassium mmol/L = mEq/L. Reference interval varies by laboratory.",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "lab-range-varies",
+    "high-alert-medication"
+   ],
+   "id": "ONRN-PA-0021",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client taking a loop diuretic reports new muscle weakness and polyuria. Serum potassium is 2.8 mmol/L. Which interpretation is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Findings are consistent with hypokalemia, which can cause muscle weakness and cardiac effects."
+    },
+    {
+     "key": "B",
+     "text": "Hypokalemia never affects skeletal muscle or the heart."
+    },
+    {
+     "key": "C",
+     "text": "A potassium of 2.8 mmol/L is above the usual reference interval and indicates hyperkalemia."
+    },
+    {
+     "key": "D",
+     "text": "Polyuria rules out any potassium imbalance."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck lists muscle weakness and polyuria among hypokalemia features and notes cardiac hyperexcitability with severe hypokalemia; OpenStax lists muscle weakness/cramps and ECG changes among hypokalemia manifestations, with serum potassium <3.5 mEq/L.",
+    "B": "Incorrect. Both sources describe neuromuscular and cardiac effects of hypokalemia.",
+    "C": "Incorrect. 2.8 mmol/L is below the usual ~3.5 mmol/L threshold cited for hypokalemia.",
+    "D": "Incorrect. Merck includes polyuria among hypokalemia clinical features."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Hypokalemia — muscle weakness and cardiac risk",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "enemy_group": "hypokalemia-muscle-weakness-cardiac-effects",
+   "tags": [
+    "hypokalemia",
+    "electrolytes",
+    "diuretic",
+    "PA"
+   ],
+   "sources": [
+    {
+     "title": "Hypokalemia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/electrolyte-disorders/hypokalemia",
+     "section": "Definition; Symptoms and Signs",
+     "source_date": "Last updated: Dec 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales B,C,D",
+     "evidence": "Hypokalemia is serum potassium <3.5 mEq/L (<3.5 mmol/L); clinical features include muscle weakness and polyuria; cardiac hyperexcitability may occur with severe hypokalemia.",
+     "added_by": "author"
+    },
+    {
+     "title": "10.3 Electrolyte Imbalance",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-3-electrolyte-imbalance",
+     "section": "Potassium Imbalances — hypokalemia",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Hypokalemia manifestations include muscle weakness or cramps; serum potassium level (<3.5 mEq/L); both types of potassium imbalance can cause cardiac dysrhythmias.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6659b924) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck hypokalemia weakness/polyuria/cardiac; OpenStax hypokalemia muscle weakness <3.5"
+    }
+   ]
+  }
+ ],
+ "excluded_items": [
+  {
+   "draft_topic": "Chest tube continuous bubbling = air leak as PA key",
+   "reason": "OpenStax pneumothorax chapter states bubbles are expected in the water seal while air is evacuating from a pneumothorax; continuous-bubbling-as-system-leak teaching was not dual-confirmed without ambiguity this session."
+  },
+  {
+   "draft_topic": "PPE doffing gloves-first sequence as SIPC key",
+   "reason": "OpenStax directs following CDC doffing guidelines but does not list the full gloves-first sequence in-text; CDC Appendix B/PPE sequence fetches were blocked (403/404) this session — excluded rather than single-source a sequence item."
+  },
+  {
+   "draft_topic": "Two-client identifiers before medication as SIPC/MOC key",
+   "reason": "Previously excluded; OpenStax NPSG discussion this session did not provide an explicit dual-cited two-identifier procedural key with a second independent publisher."
+  },
+  {
+   "draft_topic": "Wound evisceration saline dressing",
+   "reason": "Retained exclusion from prior wave; matching dual actionable nursing steps not re-confirmed this session."
+  }
+ ],
+ "notes": "Accuracy over volume. Prefer MOC gap closure. No Clinically reviewed/Approved statuses. Actual authored count equals len(items)."
+}
