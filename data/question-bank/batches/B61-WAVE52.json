@@ -1,0 +1,1674 @@
+{
+ "batch_id": "B61-WAVE52",
+ "author": "AI author (Composer, Cursor subagent bc-df9718ea) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 52 multi-exam depth — thinner CN SIPC/RRP + Leadership/Critical Care/Gerontology specialties with NGN matrix/cloze/bowtie. SIPC: VRE Contact (CDC+OpenStax); latex alternatives (OpenStax+OSHA); pharyngeal diphtheria Droplet (CDC+Merck). RRP: dumping diet (Merck+MedlinePlus); Parkinson fall safety (Merck+OpenStax Med-Surg). PA Critical Care: ACS chewed aspirin (Merck+OpenStax). MOC Leadership: Five Rights of Delegation (OpenStax+NCSBN/ANA). MOC Ontario PP: signing/issuing false/misleading document (O.Reg 799/93+CNO Documentation). Strict dual independent publishers; zero single-source.",
+ "items": [
+  {
+   "batch": "B61-WAVE52",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0076",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "VRE/MDRO — Contact Precautions (gown and gloves) in acute care",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "vre-mdro-contact-precautions",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "SIPC",
+    "VRE",
+    "MDRO",
+    "Contact-Precautions",
+    "NGN-partner"
+   ],
+   "stem": "A hospitalized client is colonized with vancomycin-resistant Enterococcus (VRE). Which infection-control action is most appropriate in acute care?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Place the client on Contact Precautions and wear a gown and gloves for care involving contact with the client or environment"
+    },
+    {
+     "key": "B",
+     "text": "Use Airborne Precautions with a negative-pressure room and N95 for all VRE colonization"
+    },
+    {
+     "key": "C",
+     "text": "No PPE is needed because colonization never transmits in hospitals"
+    },
+    {
+     "key": "D",
+     "text": "Use Droplet Precautions with a surgical mask only and leave the door open to the hallway"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC Appendix A lists MDROs including VRE for Contact + Standard Precautions when judged clinically/epidemiologically significant; OpenStax lists VRE among MDROs and Contact Precautions require gown and gloves.",
+    "B": "Incorrect. Airborne/AIIR is not the routine category for VRE colonization.",
+    "C": "Incorrect. Contact transmission of MDROs is a recognized healthcare risk.",
+    "D": "Incorrect. Droplet-only PPE does not address contact/environmental transmission of VRE."
+   },
+   "sources": [
+    {
+     "title": "Appendix A: Type and Duration of Precautions",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html",
+     "section": "Multidrug-resistant organisms (MDROs) — MRSA, VRE, etc.",
+     "source_date": "Published May 15, 2024; Updated Sep 11, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "MDROs including VRE: Contact + Standard Precautions when judged of clinical/epidemiologic significance; Contact recommended in acute care settings with increased transmission risk."
+    },
+    {
+     "title": "10.4 Infection Control and Patient Safety",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/10-4-infection-control-and-patient-safety",
+     "section": "Contact Precautions; Dealing with Multidrug-Resistant Organisms",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Examples of MDROs include VRE; Contact Precautions PPE includes gloves and isolation gown whenever touching the patient; discard before exiting."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-df9718ea) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Appendix A VRE/MDRO Contact + OpenStax Fund Contact PPE/VRE dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B61-WAVE52",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0077",
+   "format": "matrix_multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "NGN matrix — VRE Contact Precautions actions indicated vs not",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "vre-mdro-contact-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "SIPC",
+    "VRE",
+    "MDRO"
+   ],
+   "stem": "For a client on Contact Precautions for VRE colonization in acute care, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Don gown and gloves before contact with the client or potentially contaminated environment"
+     },
+     {
+      "key": "R2",
+      "text": "Prefer a single-patient room when available"
+     },
+     {
+      "key": "R3",
+      "text": "Remove PPE before exiting the room and perform hand hygiene"
+     },
+     {
+      "key": "R4",
+      "text": "Place the client in a negative-pressure AIIR solely because of VRE colonization"
+     },
+     {
+      "key": "R5",
+      "text": "Enter without gown/gloves for routine bed-making because colonization is asymptomatic"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Contact Precautions: gown and gloves for interactions that may involve contact with the client/environment (CDC/OpenStax).",
+    "R2": "Indicated. Single-patient room preferred for Contact Precautions (OpenStax/CDC).",
+    "R3": "Indicated. Discard PPE before exit; hand hygiene (OpenStax/CDC).",
+    "R4": "Not indicated. Negative-pressure AIIR is for airborne pathogens, not routine VRE colonization.",
+    "R5": "Not indicated. Asymptomatic colonization still warrants Contact PPE in acute care when indicated."
+   },
+   "sources": [
+    {
+     "title": "III. Precautions to Prevent Transmission of Infectious Agents",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/precautions.html",
+     "section": "III.B.1 Contact precautions — VRE example",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Contact Precautions: gown and gloves for interactions involving contact with patient/environment; don on entry and discard before exit; pathogens implicated via environment include VRE."
+    },
+    {
+     "title": "10.4 Infection Control and Patient Safety",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/10-4-infection-control-and-patient-safety",
+     "section": "Contact Precautions; MDROs including VRE",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Contact: single patient space; gloves and gown; discard before exiting; VRE listed among MDROs."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-df9718ea) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Contact Precautions overview + OpenStax Fund dual-cite VRE matrix."
+    }
+   ]
+  },
+  {
+   "batch": "B61-WAVE52",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0078",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "Latex allergy — provide latex-free / alternative gloves for allergic staff or clients",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "latex-allergy-alternative-gloves",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "SIPC",
+    "latex",
+    "PPE",
+    "allergy",
+    "NGN-partner"
+   ],
+   "stem": "A nurse reports a latex allergy. Which workplace action best protects the nurse while maintaining infection-control barriers?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Provide readily accessible suitable non-latex (or otherwise appropriate alternative) gloves so barrier protection continues without latex exposure"
+    },
+    {
+     "key": "B",
+     "text": "Require continued powdered latex gloves because ‘hypoallergenic’ always means latex-free"
+    },
+    {
+     "key": "C",
+     "text": "Stop all glove use for blood exposure tasks so the allergy resolves"
+    },
+    {
+     "key": "D",
+     "text": "Only wear latex gloves inside-out to neutralize proteins"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: use latex-free alternatives such as neoprene or vinyl for latex sensitivity. OSHA BBP: hypoallergenic gloves, liners, powderless gloves, or similar alternatives shall be readily accessible to employees allergic to the gloves normally provided.",
+    "B": "Incorrect. Hypoallergenic labeling must not be assumed to mean latex-free.",
+    "C": "Incorrect. Barrier protection is still required for blood/OPIM exposure.",
+    "D": "Incorrect. Inside-out latex still exposes the wearer to latex proteins."
+   },
+   "sources": [
+    {
+     "title": "10.4 Infection Control and Patient Safety",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/10-4-infection-control-and-patient-safety",
+     "section": "Latex Sensitivity",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "If latex sensitivity is indicated, use alternative products such as latex-free gloves made of neoprene or vinyl."
+    },
+    {
+     "title": "1910.1030 Bloodborne pathogens",
+     "publisher": "U.S. Occupational Safety and Health Administration (OSHA)",
+     "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+     "section": "1910.1030(d)(3)(iii) Accessibility",
+     "source_date": "effective Mar 6, 1992 (standard)",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Hypoallergenic gloves, glove liners, powderless gloves, or other similar alternatives shall be readily accessible to employees allergic to the gloves normally provided."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-df9718ea) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax latex-free alternatives + OSHA 1910.1030 alternative gloves dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B61-WAVE52",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0079",
+   "format": "matrix_multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "NGN matrix — latex allergy prevention actions indicated vs not",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "latex-allergy-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "SIPC",
+    "latex",
+    "PPE"
+   ],
+   "stem": "For a latex-allergic nurse providing care that requires gloves, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Use facility-provided non-latex/alternative gloves appropriate for the task"
+     },
+     {
+      "key": "R2",
+      "text": "Avoid high aerosol latex-powder exposure areas when feasible"
+     },
+     {
+      "key": "R3",
+      "text": "Assume any glove labeled ‘hypoallergenic’ is automatically latex-free"
+     },
+     {
+      "key": "R4",
+      "text": "Continue powdered natural rubber latex gloves for all sterile procedures despite allergy"
+     },
+     {
+      "key": "R5",
+      "text": "Omit gloves entirely for anticipated blood contact to avoid latex"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Use latex-free/alternative gloves (OpenStax/OSHA).",
+    "R2": "Indicated. OpenStax advises avoiding areas where latex is likely inhaled when sensitive.",
+    "R3": "Not indicated. Hypoallergenic ≠ latex-free assumption.",
+    "R4": "Not indicated. Continued latex exposure is inappropriate with known allergy.",
+    "R5": "Not indicated. Barrier protection remains required for blood/OPIM exposure."
+   },
+   "sources": [
+    {
+     "title": "10.4 Infection Control and Patient Safety",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/10-4-infection-control-and-patient-safety",
+     "section": "Latex Sensitivity",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Latex-free alternatives (neoprene/vinyl); avoid areas of high latex inhalation exposure when sensitive."
+    },
+    {
+     "title": "1910.1030 Bloodborne pathogens",
+     "publisher": "U.S. Occupational Safety and Health Administration (OSHA)",
+     "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+     "section": "1910.1030(d)(3)(iii)",
+     "source_date": "effective Mar 6, 1992 (standard)",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Alternatives must be readily accessible for employees allergic to normally provided gloves; PPE still required for occupational exposure."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-df9718ea) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + OSHA latex allergy matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B61-WAVE52",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0080",
+   "format": "multiple_choice",
+   "specialty": "Critical Care/Emergency",
+   "topic": "Pharyngeal diphtheria — Droplet Precautions until cultures negative after therapy",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "diphtheria-pharyngeal-droplet",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "SIPC",
+    "diphtheria",
+    "Droplet-Precautions",
+    "critical-care"
+   ],
+   "stem": "A client is admitted with suspected pharyngeal diphtheria. Which isolation plan is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Use Droplet Precautions (with Contact as indicated) and continue until the client is off effective antimicrobial therapy and follow-up cultures are negative per guidance"
+    },
+    {
+     "key": "B",
+     "text": "No isolation is needed because diphtheria is only foodborne"
+    },
+    {
+     "key": "C",
+     "text": "Use Airborne Precautions in an AIIR for the entire hospital stay regardless of cultures"
+    },
+    {
+     "key": "D",
+     "text": "Use Contact Precautions only for 2 hours after the first antibiotic dose, then discontinue all precautions"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC Appendix A: pharyngeal diphtheria — Droplet + Standard until off antimicrobial treatment and culture-negative (2 cultures 24 h apart). Merck: isolation with respiratory-droplet (and contact) precautions until sequential cultures after antibiotics are negative.",
+    "B": "Incorrect. Respiratory diphtheria spreads by droplets/secretions.",
+    "C": "Incorrect. Routine category is Droplet (+ Contact as indicated), not indefinite Airborne/AIIR solely for diphtheria.",
+    "D": "Incorrect. Precautions continue until treatment completion and culture clearance criteria are met."
+   },
+   "sources": [
+    {
+     "title": "Appendix A: Type and Duration of Precautions",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html",
+     "section": "Diphtheria Pharyngeal",
+     "source_date": "Published May 15, 2024; Updated Sep 11, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Diphtheria Pharyngeal: Droplet + Standard until off antimicrobial treatment and culture-negative; until 2 cultures taken 24 hours apart negative."
+    },
+    {
+     "title": "Diphtheria",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/gram-positive-bacilli/diphtheria",
+     "section": "Treatment — Isolation",
+     "source_date": "Last updated Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Isolation with respiratory-droplet and contact precautions required until 2 sequential cultures after antibiotics are stopped are negative."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-df9718ea) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Appendix A pharyngeal diphtheria Droplet + Merck isolation dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B61-WAVE52",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0076",
+   "format": "multiple_choice",
+   "specialty": "Medical-Surgical",
+   "topic": "Dumping syndrome — smaller, more frequent meals and decreased carbohydrate intake",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "dumping-syndrome-diet-teaching",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "RRP",
+    "dumping-syndrome",
+    "nutrition",
+    "post-gastrectomy",
+    "NGN-partner"
+   ],
+   "stem": "After gastric resection, a client develops postprandial weakness, sweating, dizziness, and palpitations suggestive of dumping syndrome. Which dietary teaching is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Eat smaller, more frequent meals and decrease carbohydrate (especially hyperosmolar/high-sugar) intake"
+    },
+    {
+     "key": "B",
+     "text": "Drink large volumes of sugary soda with every large meal to ‘dilute’ the stomach contents"
+    },
+    {
+     "key": "C",
+     "text": "Eat only two very large high-carbohydrate meals daily"
+    },
+    {
+     "key": "D",
+     "text": "Replace all meals with undiluted fruit juice boluses for rapid emptying"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: dumping after gastric surgery — dietary modifications with smaller, more frequent meals and decreased carbohydrate intake usually help. MedlinePlus post–gastric bypass: eat 6 small meals; avoid foods/drinks high in sugar/carbohydrates; do not drink while eating.",
+    "B": "Incorrect. Sugary liquids with large meals worsen dumping/hyperosmolar symptoms.",
+    "C": "Incorrect. Large high-carbohydrate meals provoke dumping.",
+    "D": "Incorrect. Rapid carbohydrate boluses worsen symptoms."
+   },
+   "sources": [
+    {
+     "title": "Peptic Ulcer Disease",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gastrointestinal-disorders/gastritis-and-peptic-ulcer-disease/peptic-ulcer-disease",
+     "section": "Surgery — Dumping syndrome",
+     "source_date": "Last updated Jan 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Dumping syndrome after gastric surgical procedures: dietary modifications with smaller, more frequent meals and decreased carbohydrate intake usually help."
+    },
+    {
+     "title": "Your diet after gastric bypass surgery",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000173.htm",
+     "section": "A New Way of Eating; Calories Still Count",
+     "source_date": "Review Date 7/6/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Eat 6 small meals instead of 3 big meals; do not drink while eating; do not eat foods/drinks with a lot of sugar or carbohydrates."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-df9718ea) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck dumping diet + MedlinePlus small meals/low sugar dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B61-WAVE52",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0077",
+   "format": "matrix_multiple_choice",
+   "specialty": "Medical-Surgical",
+   "topic": "NGN matrix — dumping syndrome diet teaching indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "dumping-syndrome-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "RRP",
+    "dumping-syndrome",
+    "nutrition"
+   ],
+   "stem": "For a client with early dumping syndrome after gastric surgery, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Eat smaller, more frequent meals rather than a few large meals"
+     },
+     {
+      "key": "R2",
+      "text": "Limit high-sugar / high simple-carbohydrate foods and drinks"
+     },
+     {
+      "key": "R3",
+      "text": "Avoid drinking large amounts of fluid with solid meals"
+     },
+     {
+      "key": "R4",
+      "text": "Drink concentrated sugary beverages with every large carbohydrate meal"
+     },
+     {
+      "key": "R5",
+      "text": "Eat only two very large high-carbohydrate meals daily to ‘get it over with’"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Smaller, more frequent meals (Merck/MedlinePlus).",
+    "R2": "Indicated. Decreased carbohydrate/high-sugar intake (Merck/MedlinePlus).",
+    "R3": "Indicated. MedlinePlus: do not drink while eating; liquids fill the pouch and can worsen intake patterns linked to symptoms.",
+    "R4": "Not indicated. Sugary liquids with large meals provoke dumping.",
+    "R5": "Not indicated. Large high-carbohydrate meals worsen dumping."
+   },
+   "sources": [
+    {
+     "title": "Peptic Ulcer Disease",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gastrointestinal-disorders/gastritis-and-peptic-ulcer-disease/peptic-ulcer-disease",
+     "section": "Dumping syndrome",
+     "source_date": "Last updated Jan 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Smaller, more frequent meals and decreased carbohydrate intake usually help early dumping."
+    },
+    {
+     "title": "Your diet after gastric bypass surgery",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000173.htm",
+     "section": "Small meals; avoid sugar/carbohydrate drinks with meals",
+     "source_date": "Review Date 7/6/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Six small meals; avoid high sugar/carbohydrate foods and calorie-dense drinks; do not drink while eating."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-df9718ea) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck + MedlinePlus dumping matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B61-WAVE52",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0078",
+   "format": "multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "Parkinson disease — promote safety and reduce fall risk (balance/home adaptations)",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "parkinson-fall-safety-adaptations",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "RRP",
+    "Parkinson",
+    "falls",
+    "gerontology",
+    "NGN-partner"
+   ],
+   "stem": "A client with Parkinson disease has impaired balance and a shuffling gait. Which nursing action best reduces fall risk?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Teach fall-prevention strategies and support home safety adaptations (for example grab bars) while maximizing safe activity"
+    },
+    {
+     "key": "B",
+     "text": "Encourage running on wet floors without assistive devices to ‘challenge balance’"
+    },
+    {
+     "key": "C",
+     "text": "Remove all lighting so the client learns to walk in the dark"
+    },
+    {
+     "key": "D",
+     "text": "Keep pathways cluttered with cords to build agility"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: therapists may teach adaptive strategies and home adaptations (e.g., grab bars) to reduce fall risk while maximizing activity. OpenStax: environments should promote safety and help clients avoid falls and other hazards.",
+    "B": "Incorrect. Unsafe challenge increases fall/injury risk.",
+    "C": "Incorrect. Poor lighting increases fall risk.",
+    "D": "Incorrect. Clutter and cords are fall hazards."
+   },
+   "sources": [
+    {
+     "title": "Parkinson Disease",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/movement-and-cerebellar-disorders/parkinson-disease",
+     "section": "Treatment — Maximizing activity",
+     "source_date": "Last updated Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Therapists may teach adaptive strategies and suggest appropriate adaptations in the home (eg, installing grab bars to reduce the risk of falls); maximize activity safely."
+    },
+    {
+     "title": "17.4 Major Neurocognitive Disorder and Neurodegenerative Diseases",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/17-4-major-neurocognitive-disorder-and-neurodegenerative-diseases",
+     "section": "Nursing Care of the Patient with Parkinson Disease",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Home and other environments should promote safety and help patients avoid falls and other hazards."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-df9718ea) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Parkinson fall adaptations + OpenStax Med-Surg safety dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B61-WAVE52",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0079",
+   "format": "matrix_multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "NGN matrix — Parkinson fall-prevention actions indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "parkinson-fall-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "RRP",
+    "Parkinson",
+    "falls",
+    "gerontology"
+   ],
+   "stem": "For a client with Parkinson-related postural instability, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Collaborate on home safety adaptations such as grab bars"
+     },
+     {
+      "key": "R2",
+      "text": "Encourage safe daily activity/exercise as tolerated with therapy guidance"
+     },
+     {
+      "key": "R3",
+      "text": "Clear clutter and reduce trip hazards in walking paths"
+     },
+     {
+      "key": "R4",
+      "text": "Encourage jogging on wet, poorly lit floors without support"
+     },
+     {
+      "key": "R5",
+      "text": "Keep cords and throw rugs across primary walkways to ‘practice stepping’"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Grab bars/home adaptations reduce fall risk (Merck).",
+    "R2": "Indicated. Maximize activity with therapy support (Merck/OpenStax).",
+    "R3": "Indicated. Safety-promoting environment to avoid falls (OpenStax).",
+    "R4": "Not indicated. Unsafe and increases fall risk.",
+    "R5": "Not indicated. Trip hazards increase falls."
+   },
+   "sources": [
+    {
+     "title": "Parkinson Disease",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/movement-and-cerebellar-disorders/parkinson-disease",
+     "section": "Treatment — activity and home adaptations",
+     "source_date": "Last updated Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Maximize activity; home adaptations such as grab bars to reduce falls."
+    },
+    {
+     "title": "17.4 Major Neurocognitive Disorder and Neurodegenerative Diseases",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/17-4-major-neurocognitive-disorder-and-neurodegenerative-diseases",
+     "section": "Parkinson — promote safety / avoid falls",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Environments should promote safety and help avoid falls and other hazards."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-df9718ea) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck + OpenStax Parkinson fall matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B61-WAVE52",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PA-0078",
+   "format": "multiple_choice",
+   "specialty": "Critical Care/Emergency",
+   "topic": "Suspected ACS/MI — chewed non–enteric-coated aspirin 160–325 mg unless contraindicated",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "acs-mi-chewed-aspirin",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "PA",
+    "ACS",
+    "MI",
+    "aspirin",
+    "critical-care",
+    "NGN-partner"
+   ],
+   "stem": "A client arrives with suspected acute coronary syndrome. Unless contraindicated, which antiplatelet action is appropriate on arrival?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Give non–enteric-coated aspirin 160–325 mg for the client to chew (then swallow) to speed absorption"
+    },
+    {
+     "key": "B",
+     "text": "Give only enteric-coated aspirin 81 mg to swallow whole without chewing, and delay any antiplatelet therapy for 24 hours"
+    },
+    {
+     "key": "C",
+     "text": "Never give aspirin in ACS because it always worsens thrombosis"
+    },
+    {
+     "key": "D",
+     "text": "Administer aspirin as an intramuscular injection into the deltoid for fastest effect"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: all patients given aspirin 160–325 mg (not enteric-coated) if not contraindicated; chewing the first dose quickens absorption. OpenStax: administer 325 mg aspirin for platelet aggregation in MI care.",
+    "B": "Incorrect. Initial ACS dosing is chewed non–enteric-coated 160–325 mg, not delayed enteric 81 mg only.",
+    "C": "Incorrect. Early aspirin reduces mortality risk in ACS/MI.",
+    "D": "Incorrect. Oral chewed aspirin is the standard initial route described here, not IM."
+   },
+   "sources": [
+    {
+     "title": "Medications for Acute Coronary Syndromes",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/coronary-artery-disease/medications-for-acute-coronary-syndromes",
+     "section": "Antiplatelet Agents — Aspirin",
+     "source_date": "Last updated Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Aspirin 160–325 mg (not enteric-coated) if not contraindicated; chewing the first dose before swallowing quickens absorption; reduces short- and long-term mortality risk."
+    },
+    {
+     "title": "12.5 Myocardial Infarction",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/12-5-myocardial-infarction",
+     "section": "Evidence-Based Practice / Medical Therapies — aspirin",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Administer 325 mg aspirin for platelet aggregation; common acute antiplatelet therapy is aspirin 325 mg."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-df9718ea) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck ACS chewed aspirin + OpenStax MI 325 mg dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B61-WAVE52",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PA-0079",
+   "format": "bowtie",
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN bowtie — suspected ACS: chewed aspirin; monitor perfusion/bleeding cues",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "acs-mi-aspirin-ngn-bowtie",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "bowtie",
+    "PA",
+    "ACS",
+    "MI",
+    "aspirin",
+    "critical-care"
+   ],
+   "stem": "A client with crushing chest pain and suspected ACS is being treated on arrival. Complete the bowtie: the priority condition, two priority actions, and two parameters to monitor.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Suspected acute coronary syndrome needing urgent antiplatelet therapy"
+     },
+     {
+      "key": "K2",
+      "text": "Uncomplicated seasonal allergic rhinitis without chest pain"
+     },
+     {
+      "key": "K3",
+      "text": "Resolved ankle sprain awaiting discharge teaching only"
+     },
+     {
+      "key": "K4",
+      "text": "Dietary preference for caffeine without cardiac symptoms"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Give non–enteric-coated aspirin 160–325 mg for the client to chew unless contraindicated"
+     },
+     {
+      "key": "A2",
+      "text": "Initiate continuous cardiac monitoring and support oxygenation/perfusion per protocol"
+     },
+     {
+      "key": "A3",
+      "text": "Delay all evaluation for 48 hours to see if pain resolves spontaneously"
+     },
+     {
+      "key": "A4",
+      "text": "Tell the client to run a marathon immediately to ‘open the arteries’"
+     },
+     {
+      "key": "A5",
+      "text": "Give only intramuscular aspirin into the buttocks as first-line therapy"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "Chest pain, ECG changes, and hemodynamic/perfusion status"
+     },
+     {
+      "key": "P2",
+      "text": "Bleeding cues (e.g., bruising, GI bleeding signs) while on antiplatelet therapy"
+     },
+     {
+      "key": "P3",
+      "text": "Favourite sports team ranking"
+     },
+     {
+      "key": "P4",
+      "text": "Shoe size"
+     },
+     {
+      "key": "P5",
+      "text": "Contact lens brand only"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K1",
+    "actions": [
+     "A1",
+     "A2"
+    ],
+    "parameters": [
+     "P1",
+     "P2"
+    ]
+   },
+   "rationales": {
+    "K1": "Correct. Crushing chest pain with suspected ACS is the priority condition.",
+    "K2": "Incorrect. Rhinitis is unrelated.",
+    "K3": "Incorrect. Ankle sprain is unrelated to ACS care.",
+    "K4": "Incorrect. Dietary caffeine alone is not the priority.",
+    "A1": "Correct. Chewed non–enteric-coated aspirin 160–325 mg unless contraindicated (Merck/OpenStax).",
+    "A2": "Correct. OpenStax: telemetry/hemodynamic monitoring and oxygenation/perfusion support are key acute MI nursing actions.",
+    "A3": "Incorrect. ACS requires rapid evaluation/treatment.",
+    "A4": "Incorrect. Unsafe and not indicated.",
+    "A5": "Incorrect. Initial therapy described is oral chewed aspirin, not IM.",
+    "P1": "Correct. Monitor ischemic and perfusion status.",
+    "P2": "Correct. OpenStax notes monitoring for bleeding/bruising on antiplatelet therapy.",
+    "P3": "Incorrect. Irrelevant.",
+    "P4": "Incorrect. Irrelevant.",
+    "P5": "Incorrect. Irrelevant."
+   },
+   "sources": [
+    {
+     "title": "Medications for Acute Coronary Syndromes",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/coronary-artery-disease/medications-for-acute-coronary-syndromes",
+     "section": "Aspirin dosing/chewing",
+     "source_date": "Last updated Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Condition/actions",
+     "evidence": "Aspirin 160–325 mg chewed (not enteric-coated) unless contraindicated."
+    },
+    {
+     "title": "12.5 Myocardial Infarction",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/12-5-myocardial-infarction",
+     "section": "Nursing care / aspirin / monitoring",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Actions/parameters",
+     "evidence": "Aspirin 325 mg; maintain oxygenation/perfusion monitoring; monitor for bleeding/bruising on antiplatelet therapy."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-df9718ea) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck ACS aspirin + OpenStax MI nursing/monitoring bowtie dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B61-WAVE52",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0100",
+   "format": "multiple_choice",
+   "specialty": "Leadership/Management",
+   "topic": "Five Rights of Delegation — right task, circumstance, person, communication, supervision",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "five-rights-of-delegation",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "MOC",
+    "delegation",
+    "leadership",
+    "Five-Rights",
+    "NGN-partner"
+   ],
+   "stem": "Which statement best reflects the Five Rights of Nursing Delegation?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Delegation decisions should address the right task, right circumstance, right person, right communication/directions, and right supervision/evaluation"
+    },
+    {
+     "key": "B",
+     "text": "Once a task is delegated, the RN has no accountability for patient outcomes"
+    },
+    {
+     "key": "C",
+     "text": "Any unstable critical-care task may be freely delegated without assessing competence"
+    },
+    {
+     "key": "D",
+     "text": "The Five Rights replace the need for facility policies and nurse practice act compliance"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax and NCSBN/ANA National Guidelines list the Five Rights: right task, circumstance, person, communication/directions, and supervision/evaluation.",
+    "B": "Incorrect. The RN retains accountability for appropriate delegation and outcomes.",
+    "C": "Incorrect. Right circumstance requires stable/appropriate conditions; competence must be verified.",
+    "D": "Incorrect. Delegation still must comply with law, standards, and employer policy."
+   },
+   "sources": [
+    {
+     "title": "15.4 Nursing Standards of Delegation",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/15-4-nursing-standards-of-delegation",
+     "section": "Five Rights of Nursing Delegation",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Five rights: right task, right circumstance, right person, right communication, and right supervision."
+    },
+    {
+     "title": "National Guidelines for Nursing Delegation",
+     "publisher": "NCSBN / American Nurses Association",
+     "url": "https://www.ncsbn.org/public-files/NGND-PosPaper_06.pdf",
+     "section": "Five Rights of Delegation",
+     "source_date": "Effective Date 4/29/2019",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Five Rights: right task; right circumstance; right person; right directions and communication; right supervision and evaluation."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-df9718ea) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Five Rights + NCSBN/ANA NGND dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B61-WAVE52",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0101",
+   "format": "drop_down_cloze",
+   "specialty": "Leadership/Management",
+   "topic": "NGN cloze — Five Rights of Delegation components",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "five-rights-delegation-ngn-cloze",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "cloze",
+    "MOC",
+    "delegation",
+    "leadership"
+   ],
+   "stem": "Complete the teaching about safe nursing delegation using the Five Rights.",
+   "ngn": {
+    "template": "Before delegating, the RN confirms the {B1}, ensures the {B2}, verifies the {B3} is competent, provides clear {B4}, and plans {B5}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "right task (within policies/role)"
+      },
+      {
+       "key": "B1b",
+       "text": "right vacation schedule only"
+      },
+      {
+       "key": "B1c",
+       "text": "right cafeteria menu"
+      },
+      {
+       "key": "B1d",
+       "text": "right parking spot"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "right circumstance (patient sufficiently stable for the delegation)"
+      },
+      {
+       "key": "B2b",
+       "text": "right weather forecast"
+      },
+      {
+       "key": "B2c",
+       "text": "right social media trend"
+      },
+      {
+       "key": "B2d",
+       "text": "right shoe colour"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "right person"
+      },
+      {
+       "key": "B3b",
+       "text": "right radio station"
+      },
+      {
+       "key": "B3c",
+       "text": "right lottery number"
+      },
+      {
+       "key": "B3d",
+       "text": "right sports team"
+      }
+     ],
+     "B4": [
+      {
+       "key": "B4a",
+       "text": "directions and communication"
+      },
+      {
+       "key": "B4b",
+       "text": "silence with no opportunity for questions"
+      },
+      {
+       "key": "B4c",
+       "text": "vague instructions only after the shift ends"
+      },
+      {
+       "key": "B4d",
+       "text": "no expectations at all"
+      }
+     ],
+     "B5": [
+      {
+       "key": "B5a",
+       "text": "right supervision and evaluation of outcomes"
+      },
+      {
+       "key": "B5b",
+       "text": "abandonment of the unit with no follow-up"
+      },
+      {
+       "key": "B5c",
+       "text": "ignoring abnormal findings reported by the delegatee"
+      },
+      {
+       "key": "B5d",
+       "text": "no documentation of care"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a",
+    "B4": "B4a",
+    "B5": "B5a"
+   },
+   "rationales": {
+    "B1a": "Correct. Right task is within job description/policies (OpenStax/NCSBN).",
+    "B1b": "Incorrect. Irrelevant.",
+    "B1c": "Incorrect. Irrelevant.",
+    "B1d": "Incorrect. Irrelevant.",
+    "B2a": "Correct. Right circumstance requires appropriate patient condition/stability.",
+    "B2b": "Incorrect. Irrelevant.",
+    "B2c": "Incorrect. Irrelevant.",
+    "B2d": "Incorrect. Irrelevant.",
+    "B3a": "Correct. Right person with verified competence.",
+    "B3b": "Incorrect. Irrelevant.",
+    "B3c": "Incorrect. Irrelevant.",
+    "B3d": "Incorrect. Irrelevant.",
+    "B4a": "Correct. Clear directions/communication with opportunity for questions.",
+    "B4b": "Incorrect. Communication must be clear and two-way.",
+    "B4c": "Incorrect. Timing/clarity must support safe performance.",
+    "B4d": "Incorrect. Expectations must be communicated.",
+    "B5a": "Correct. Right supervision and evaluation of outcomes.",
+    "B5b": "Incorrect. Supervision/follow-up is required.",
+    "B5c": "Incorrect. RN must respond to concerning findings.",
+    "B5d": "Incorrect. Documentation expectations remain."
+   },
+   "sources": [
+    {
+     "title": "15.4 Nursing Standards of Delegation",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/15-4-nursing-standards-of-delegation",
+     "section": "Five Rights of Nursing Delegation",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B1–B5",
+     "evidence": "Right task, circumstance, person, communication, supervision."
+    },
+    {
+     "title": "National Guidelines for Nursing Delegation",
+     "publisher": "NCSBN / American Nurses Association",
+     "url": "https://www.ncsbn.org/public-files/NGND-PosPaper_06.pdf",
+     "section": "Five Rights of Delegation",
+     "source_date": "Effective Date 4/29/2019",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "B1–B5",
+     "evidence": "Right task; circumstance; person; directions and communication; supervision and evaluation."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-df9718ea) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + NCSBN/ANA Five Rights cloze dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B61-WAVE52",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "O. Reg. 799/93 s.1 item 15 + CNO Documentation",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0102",
+   "format": "multiple_choice",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Ontario — signing/issuing a false or misleading professional document is misconduct",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "ontario-false-misleading-document",
+   "jurisdiction": "Ontario-specific",
+   "tags": [
+    "MOC",
+    "Ontario",
+    "professional-misconduct",
+    "documentation",
+    "CNO"
+   ],
+   "stem": "An Ontario nurse is asked to sign a letter that intentionally misstates a client’s clinical status. Which statement is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Signing or issuing, in a professional capacity, a document the nurse knows or ought to know contains a false or misleading statement is professional misconduct"
+    },
+    {
+     "key": "B",
+     "text": "False statements are acceptable if the employer requests them for convenience"
+    },
+    {
+     "key": "C",
+     "text": "Only physicians can commit documentation-related professional misconduct in Ontario"
+    },
+    {
+     "key": "D",
+     "text": "Nurses may knowingly issue misleading documents if no one is expected to read them"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. O. Reg. 799/93 lists signing/issuing a known false or misleading professional document as misconduct. CNO Documentation likewise prohibits falsifying records and signing/issuing documents with false or misleading statements.",
+    "B": "Incorrect. Employer convenience does not authorize false professional documents.",
+    "C": "Incorrect. The Nursing Act regulation applies to nurses.",
+    "D": "Incorrect. Knowingly issuing false/misleading documents is misconduct regardless of expected readership."
+   },
+   "sources": [
+    {
+     "title": "O. Reg. 799/93 Professional Misconduct",
+     "publisher": "Government of Ontario — e-Laws",
+     "url": "https://www.ontario.ca/laws/regulation/930799",
+     "section": "s. 1 item 15",
+     "source_date": "Current consolidation accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Signing or issuing, in the member’s professional capacity, a document that the member knows or ought to know contains a false or misleading statement is professional misconduct."
+    },
+    {
+     "title": "Documentation",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41001_documentation.pdf",
+     "section": "Documentation requirements — falsify / false or misleading statement",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Nurses do not falsify a record relating to their practice, including signing or issuing a document that they know or ought to know includes a false or misleading statement."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-df9718ea) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "O.Reg 799/93 item 15 + CNO Documentation false/misleading dual-cite."
+    }
+   ]
+  }
+ ]
+}
