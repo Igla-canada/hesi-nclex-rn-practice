@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 241,
+  "Source verified": 253,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -26215,6 +26215,1410 @@
      "source_type": "government_public_health",
      "supports": "Key A; distractors B–D",
      "evidence": "MMR 1st dose recommended at 12–15 months.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B31-WAVE22",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6a937967) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: ileocolic intussusception treated with air enema (sometimes surgery); StatPearls: enema reduction success >80%, surgery if unsuccessful"
+    }
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PA-0045",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "review_flags": [
+    "pediatric",
+    "emergency"
+   ],
+   "tags": [
+    "intussusception",
+    "air-enema",
+    "pediatrics",
+    "PA"
+   ],
+   "stem": "A 14-month-old has intermittent severe colicky abdominal pain with vomiting and later passes a currant-jelly stool. Ultrasound confirms ileocolic intussusception without perforation. Which intervention is the priority nonoperative treatment for the most common type?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Arrange prompt air (pneumatic) enema reduction for ileocolic intussusception, with surgical consultation available if reduction fails or complications develop."
+    },
+    {
+     "key": "B",
+     "text": "Discharge home with oral antacids and a high-fibre diet as the only therapy."
+    },
+    {
+     "key": "C",
+     "text": "Start routine outpatient acupuncture and delay imaging follow-up for 2 weeks."
+    },
+    {
+     "key": "D",
+     "text": "Give a single dose of oral castor oil and advise watchful waiting without reduction."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck states treatment is with an air enema for the most common (ileocolic) type and sometimes surgery. StatPearls notes enema reduction confirms and treats most pediatric cases (>80% success) with surgery if unsuccessful.",
+    "B": "Incorrect. Antacids and diet do not reduce telescoped bowel or prevent ischemia.",
+    "C": "Incorrect. Delayed care risks ischemia, gangrene, and perforation.",
+    "D": "Incorrect. Laxatives are not treatment for intussusception and may worsen injury."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Ileocolic intussusception — air enema reduction",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "intussusception-ileocolic-air-enema",
+   "sources": [
+    {
+     "title": "Intussusception",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/gastrointestinal-disorders-in-neonates-and-infants/intussusception",
+     "section": "Treatment of Intussusception",
+     "source_date": "Last updated: Aug 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Treatment is with an air enema (ileocolic) and sometimes surgery.",
+     "added_by": "author"
+    },
+    {
+     "title": "Child Intussusception (StatPearls)",
+     "publisher": "StatPearls / NCBI Bookshelf",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK431078/",
+     "section": "Treatment / Management",
+     "source_date": "Last Update: April 10, 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Enema reduction success >80%; surgery if not successful.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B31-WAVE22",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6a937967) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: McRoberts, suprapubic pressure among maneuvers; OpenStax: McRoberts + posterolateral suprapubic pressure; do NOT give fundal pressure"
+    }
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-RRP-0032",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "review_flags": [
+    "maternity-newborn",
+    "emergency"
+   ],
+   "tags": [
+    "shoulder-dystocia",
+    "McRoberts",
+    "suprapubic",
+    "maternity",
+    "RRP"
+   ],
+   "stem": "During a vaginal birth, the fetal head delivers then retracts (turtle sign) and the anterior shoulder will not deliver with gentle downward traction. Which nursing action is correct while assisting the provider?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Call for help, flex the client’s thighs toward the abdomen (McRoberts), and apply ordered posterolateral suprapubic pressure — avoid fundal pressure."
+    },
+    {
+     "key": "B",
+     "text": "Apply firm continuous fundal pressure as the first and only maneuver."
+    },
+    {
+     "key": "C",
+     "text": "Leave the room to complete charting before summoning assistance."
+    },
+    {
+     "key": "D",
+     "text": "Place the client in Trendelenburg and pull hard on the fetal head alone."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck lists McRoberts and suprapubic pressure among initial maneuvers after announcing dystocia and calling for help. OpenStax: McRoberts then posterolateral suprapubic pressure; the nurse does not give fundal pressure because it further impacts the shoulder.",
+    "B": "Incorrect. OpenStax states fundal pressure impacts the shoulder further and is not used.",
+    "C": "Incorrect. Shoulder dystocia is an obstetric emergency requiring immediate help and maneuvers.",
+    "D": "Incorrect. Traction alone without proper maneuvers risks brachial plexus injury; Merck warns against relying on gentle downward traction alone once dystocia is diagnosed."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Shoulder dystocia — McRoberts and suprapubic pressure, not fundal",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "shoulder-dystocia-mcroberts-suprapubic-no-fundal",
+   "sources": [
+    {
+     "title": "Shoulder Dystocia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/intrapartum-complications/shoulder-dystocia",
+     "section": "Management of Shoulder Dystocia",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Call for help; perform McRoberts, suprapubic pressure, and other maneuvers.",
+     "added_by": "author"
+    },
+    {
+     "title": "19.7 Obstetrical Emergencies",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/19-7-obstetrical-emergencies",
+     "section": "Shoulder Dystocia",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "McRoberts then posterolateral suprapubic pressure; do not give fundal pressure.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B31-WAVE22",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6a937967) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: remove from source + 100% oxygen (nonrebreather); StatPearls: remove from source and administer 100% oxygen"
+    }
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PA-0046",
+   "format": "bowtie",
+   "scoring_model": "zero_one",
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "carbon-monoxide",
+    "oxygen",
+    "NGN",
+    "bowtie",
+    "PA"
+   ],
+   "stem": "Several household members develop headache, nausea, and confusion after using a poorly vented heater indoors. Carboxyhemoglobin is elevated. Complete the bowtie: priority condition, two actions, and two parameters to monitor.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Carbon monoxide poisoning with elevated carboxyhemoglobin"
+     },
+     {
+      "key": "K2",
+      "text": "Uncomplicated seasonal allergic rhinitis without systemic symptoms"
+     },
+     {
+      "key": "K3",
+      "text": "Localized contact dermatitis from laundry detergent"
+     },
+     {
+      "key": "K4",
+      "text": "Mild cerumen impaction without neurologic change"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Remove the client from the CO source and give high-flow 100% oxygen (e.g., nonrebreather) as ordered"
+     },
+     {
+      "key": "A2",
+      "text": "Support airway/breathing and prepare for higher-level care (e.g., hyperbaric consult) if severe neurologic or cardiac findings"
+     },
+     {
+      "key": "A3",
+      "text": "Return the client to the unventilated heater room without oxygen"
+     },
+     {
+      "key": "A4",
+      "text": "Withhold all oxygen and advise outdoor jogging as sole therapy"
+     },
+     {
+      "key": "A5",
+      "text": "Apply topical antifungal cream as the only intervention"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "Neurologic status (alertness, headache, confusion) and vital signs including oxygenation/cardiac status"
+     },
+     {
+      "key": "P2",
+      "text": "Carboxyhemoglobin trend and response to oxygen therapy"
+     },
+     {
+      "key": "P3",
+      "text": "Preferred cafeteria dessert flavours"
+     },
+     {
+      "key": "P4",
+      "text": "Favourite television channel"
+     },
+     {
+      "key": "P5",
+      "text": "Shoe colour preference"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K1",
+    "actions": [
+     "A1",
+     "A2"
+    ],
+    "parameters": [
+     "P1",
+     "P2"
+    ]
+   },
+   "rationales": {
+    "K1": "Correct. Headache, nausea, confusion with shared indoor heater exposure and elevated COHb indicate CO poisoning (Merck; StatPearls).",
+    "K2": "Incorrect. Allergic rhinitis does not elevate carboxyhemoglobin.",
+    "K3": "Incorrect. Contact dermatitis does not explain systemic CO toxicity.",
+    "K4": "Incorrect. Cerumen impaction is unrelated to COHb elevation.",
+    "A1": "Correct. Merck and StatPearls: remove from source and give 100% oxygen (nonrebreather).",
+    "A2": "Correct. Severe cases may need advanced airway/ventilatory support; hyperbaric oxygen is considered for severe neurologic/cardiac findings (both sources).",
+    "A3": "Incorrect. Continued exposure without oxygen worsens toxicity.",
+    "A4": "Incorrect. Oxygen therapy is first-line; withholding oxygen is unsafe.",
+    "A5": "Incorrect. Antifungals do not treat CO poisoning.",
+    "P1": "Correct. Neurologic and cardiopulmonary status guide severity and response (Merck symptoms; StatPearls monitoring).",
+    "P2": "Correct. COHb and clinical response to oxygen track clearance (both sources).",
+    "P3": "Incorrect. Unrelated parameter.",
+    "P4": "Incorrect. Unrelated parameter.",
+    "P5": "Incorrect. Unrelated parameter."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN bowtie — carbon monoxide poisoning oxygen therapy",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "ngn-bowtie-co-poisoning-100-percent-oxygen",
+   "sources": [
+    {
+     "title": "Carbon Monoxide Poisoning",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/poisoning/carbon-monoxide-poisoning",
+     "section": "Treatment of CO Poisoning",
+     "source_date": "Last updated: Apr 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Remove from source; give 100% oxygen; consider hyperbaric for severe cases.",
+     "added_by": "author"
+    },
+    {
+     "title": "Carbon Monoxide Toxicity (StatPearls)",
+     "publisher": "StatPearls / NCBI Bookshelf",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK430740/",
+     "section": "Treatment / Management",
+     "source_date": "Last Update: April 19, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Remove from source; administer 100% oxygen promptly.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B31-WAVE22",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6a937967) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Prevention: install CO detectors; never leave car running in enclosed garage; StatPearls Deterrence: install functional CO detectors; never use generators in enclosed spaces"
+    }
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-HPM-0030",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "review_flags": [],
+   "tags": [
+    "carbon-monoxide",
+    "detectors",
+    "community",
+    "prevention",
+    "HPM"
+   ],
+   "stem": "A community health nurse teaches a family about preventing carbon monoxide poisoning at home. Which teaching point is the priority primary-prevention action?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Install and maintain functional carbon monoxide detectors, ensure fuel-burning appliances are correctly vented outdoors, and never run a car or generator in an enclosed space such as a garage."
+    },
+    {
+     "key": "B",
+     "text": "Disable all smoke and CO alarms to avoid false alerts."
+    },
+    {
+     "key": "C",
+     "text": "Idle the car overnight in a closed garage during cold weather for warmth."
+    },
+    {
+     "key": "D",
+     "text": "Place a charcoal grill inside the bedroom for overnight heating."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: install CO detectors; correctly vent indoor combustion; never leave cars running in enclosed garages. StatPearls: educate on installing functional CO detectors; never use generators/alternative heaters in enclosed spaces.",
+    "B": "Incorrect. Detectors provide early warning; disabling them increases harm risk.",
+    "C": "Incorrect. Running a car in an enclosed garage is a classic CO source (Merck).",
+    "D": "Incorrect. Indoor charcoal combustion produces CO and is unsafe."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Carbon monoxide — household detectors and safe venting",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "co-household-detectors-venting-no-enclosed-combustion",
+   "sources": [
+    {
+     "title": "Carbon Monoxide Poisoning",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/poisoning/carbon-monoxide-poisoning",
+     "section": "Prevention of CO Poisoning",
+     "source_date": "Last updated: Apr 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Install CO detectors; vent combustion outdoors; never run cars in enclosed garages.",
+     "added_by": "author"
+    },
+    {
+     "title": "Carbon Monoxide Toxicity (StatPearls)",
+     "publisher": "StatPearls / NCBI Bookshelf",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK430740/",
+     "section": "Deterrence and Patient Education",
+     "source_date": "Last Update: April 19, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Install functional CO detectors; never use generators in enclosed spaces.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B31-WAVE22",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6a937967) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: MgSO4 prevents/treats seizures in severe preeclampsia/eclampsia; calcium gluconate for significant toxicity. OpenStax: MgSO4 for seizure prevention in severe features; toxicity treated with IV calcium gluconate/chloride"
+    }
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PPT-0035",
+   "format": "drop_down_cloze",
+   "scoring_model": "zero_one",
+   "review_flags": [
+    "maternity-newborn",
+    "high-alert-medication"
+   ],
+   "tags": [
+    "magnesium-sulfate",
+    "preeclampsia",
+    "calcium-gluconate",
+    "NGN",
+    "PPT"
+   ],
+   "stem": "Complete the teaching points for magnesium sulfate used in preeclampsia with severe features.",
+   "ngn": {
+    "template": "Intravenous magnesium sulfate is given primarily to {B1}. If significant magnesium toxicity develops (e.g., loss of reflexes with respiratory depression), the ordered antidote is typically {B2}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "prevent or treat eclamptic seizures"
+      },
+      {
+       "key": "B1b",
+       "text": "cure preeclampsia so delivery is never needed"
+      },
+      {
+       "key": "B1c",
+       "text": "replace routine childhood vaccines"
+      },
+      {
+       "key": "B1d",
+       "text": "treat bacterial meningitis as monotherapy"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "intravenous calcium gluconate (or calcium chloride) as ordered"
+      },
+      {
+       "key": "B2b",
+       "text": "oral iron tablets only"
+      },
+      {
+       "key": "B2c",
+       "text": "topical antifungal cream"
+      },
+      {
+       "key": "B2d",
+       "text": "high-dose vitamin C gummies"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. Merck: magnesium sulfate prevents seizures in severe preeclampsia and treats eclampsia. OpenStax: magnesium sulfate is started to prevent progression to seizures.",
+    "B1b": "Incorrect. Delivery is definitive treatment for preeclampsia; magnesium does not cure the disease.",
+    "B1c": "Incorrect. Magnesium sulfate is not a vaccine substitute.",
+    "B1d": "Incorrect. Not indicated as monotherapy for bacterial meningitis.",
+    "B2a": "Correct. Merck: treat significant toxicity with calcium gluconate 1 g IV. OpenStax Pharmacology: treatment for magnesium toxicity is IV calcium gluconate or calcium chloride.",
+    "B2b": "Incorrect. Iron does not reverse magnesium toxicity.",
+    "B2c": "Incorrect. Antifungals are unrelated.",
+    "B2d": "Incorrect. Vitamin C gummies are not the antidote."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "NGN cloze — magnesium sulfate seizure prevention and calcium antidote",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "mgso4-seizure-prevention-calcium-gluconate-antidote-cloze",
+   "sources": [
+    {
+     "title": "Preeclampsia and Eclampsia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/antenatal-complications/preeclampsia-and-eclampsia",
+     "section": "Magnesium sulfate",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "MgSO4 prevents/treats seizures; calcium gluconate for significant toxicity.",
+     "added_by": "author"
+    },
+    {
+     "title": "36.3 Uterine Motility Drugs and Lactation Considerations",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/36-3-uterine-motility-drugs-and-lactation-considerations",
+     "section": "Tocolytics",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Primary use controlling seizures of preeclampsia/eclampsia; toxicity treated with IV calcium gluconate or chloride.",
+     "added_by": "author"
+    },
+    {
+     "title": "12.2 Conditions Limited to Pregnancy",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+     "section": "Preeclampsia",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Magnesium sulfate to prevent progression to seizures in severe features.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B31-WAVE22",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6a937967) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ PSNet TeamSTEPPS: Two-Challenge Rule — state concern, restate if unresolved, then escalate via other team members or chain of command. OpenStax: when in doubt follow chain of command for notifications/advice"
+    }
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-MOC-0042",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "review_flags": [],
+   "tags": [
+    "TeamSTEPPS",
+    "two-challenge",
+    "chain-of-command",
+    "leadership",
+    "MOC"
+   ],
+   "stem": "A nurse identifies a wrong-patient safety concern during a procedure timeout. The nurse states the concern clearly, but the team continues without acknowledging it. What is the priority next action?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Restate the concern assertively (two-challenge), and if it remains unresolved, escalate by engaging another team member or going up the chain of command before the unsafe action proceeds."
+    },
+    {
+     "key": "B",
+     "text": "Remain silent to avoid conflict and allow the procedure to continue unchanged."
+    },
+    {
+     "key": "C",
+     "text": "Leave the unit permanently without notifying anyone."
+    },
+    {
+     "key": "D",
+     "text": "Delete the timeout checklist so the discrepancy cannot be reviewed."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. AHRQ PSNet describes the Two-Challenge Rule: state the concern, restate if not resolved, then escalate to other team members or the chain of command. OpenStax advises following the agency chain of command when seeking advice/notifications.",
+    "B": "Incorrect. Silence allows a preventable never-event risk to continue.",
+    "C": "Incorrect. Abandonment without escalation does not protect the client.",
+    "D": "Incorrect. Destroying safety documentation worsens system learning and accountability."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "Two-challenge rule then escalate via chain of command",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "two-challenge-then-escalate-chain-of-command",
+   "sources": [
+    {
+     "title": "A Double “Never Event”: Wrong Patient and Wrong Side.",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ) — PSNet",
+     "url": "https://psnet.ahrq.gov/web-mm/double-never-event-wrong-patient-and-wrong-side",
+     "section": "TeamSTEPPS Framework",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key and distractors",
+     "evidence": "Two-Challenge Rule: restate concern; if unresolved escalate via team members or chain of command.",
+     "added_by": "author"
+    },
+    {
+     "title": "16.3 Legal Dimensions of Care",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/16-3-legal-dimensions-of-care",
+     "section": "Prevention of Liability for Nurses",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "When in doubt, follow the chain of command for notifications and seeking advice.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B31-WAVE22",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6a937967) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: PE is the most common fatal complication of serious hip/pelvic fractures due to vascular injury and immobilization. OpenStax: immobility/trauma increase VTE/PE risk; recognize sudden dyspnea/chest pain"
+    }
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-RRP-0033",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "hip-fracture",
+    "pulmonary-embolism",
+    "gerontology",
+    "RRP"
+   ],
+   "stem": "An older adult is hospitalized with a hip fracture and limited mobility. Which complication should the nurse prioritize teaching and monitoring for as the most common fatal complication of serious hip or pelvic fractures?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Pulmonary embolism related to vascular injury and immobilization — monitor for sudden dyspnea, chest pain, or oxygen desaturation and support ordered VTE prevention."
+    },
+    {
+     "key": "B",
+     "text": "Isolated mild seasonal allergic rhinitis as the leading fatal risk."
+    },
+    {
+     "key": "C",
+     "text": "Benign hangnail infection as the primary life-threatening complication."
+    },
+    {
+     "key": "D",
+     "text": "Tooth enamel staining unrelated to mobility as the main fatal risk."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: pulmonary embolism is the most common fatal complication of serious hip or pelvic fractures. OpenStax links immobility/trauma to VTE/PE and emphasizes recognizing sudden respiratory symptoms.",
+    "B": "Incorrect. Allergic rhinitis is not the leading fatal fracture complication.",
+    "C": "Incorrect. Hangnails are not life-threatening in this context.",
+    "D": "Incorrect. Unrelated to fracture mortality."
+   },
+   "specialty": "Gerontology",
+   "topic": "Hip/pelvic fracture — pulmonary embolism as fatal complication",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "hip-pelvic-fracture-pe-most-common-fatal",
+   "sources": [
+    {
+     "title": "Overview of Fractures",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/fractures/overview-of-fractures",
+     "section": "Complications",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "PE is the most common fatal complication of serious hip or pelvic fractures.",
+     "added_by": "author"
+    },
+    {
+     "title": "16.6 Thrombotic Disorder",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/16-6-thrombotic-disorder",
+     "section": "Venous Thromboembolism; Clinical Manifestations of VTE",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Immobility/trauma raise VTE/PE risk; PE presents with sudden dyspnea/chest pain.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B31-WAVE22",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6a937967) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: acute toxicity — gross tremor, vomiting, confusion; more likely with NSAIDs/diuretics/older adults. OpenStax: hold lithium, notify provider, monitor closely for suspected toxicity"
+    }
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PSY-0022",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "review_flags": [
+    "mental-health-safety",
+    "high-alert-medication"
+   ],
+   "tags": [
+    "lithium",
+    "toxicity",
+    "mental-health",
+    "PSY"
+   ],
+   "stem": "A client on lithium develops coarse tremor, persistent vomiting, and new confusion. Which nursing action is the priority?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Hold further lithium doses, notify the provider immediately, and closely monitor vital signs and neurologic status while awaiting ordered lithium level and management."
+    },
+    {
+     "key": "B",
+     "text": "Double the next lithium dose to overcome the symptoms."
+    },
+    {
+     "key": "C",
+     "text": "Encourage the client to take extra NSAIDs and a thiazide diuretic without review."
+    },
+    {
+     "key": "D",
+     "text": "Ignore the findings because mild fine tremor always means toxicity is impossible."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: for suspected lithium toxicity, stop lithium, notify the provider, and monitor closely. Merck describes acute toxicity with gross tremor, vomiting, and confusion that can progress to seizures/arrhythmias.",
+    "B": "Incorrect. Increasing the dose worsens toxicity.",
+    "C": "Incorrect. Merck: NSAIDs (other than aspirin) and thiazide diuretics can contribute to hyperlithemia.",
+    "D": "Incorrect. Coarse tremor with vomiting/confusion indicates possible toxicity, not a benign finding."
+   },
+   "specialty": "Mental Health",
+   "topic": "Lithium toxicity — hold drug and notify provider",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "lithium-toxicity-hold-notify-monitor",
+   "sources": [
+    {
+     "title": "Medications for Treatment of Bipolar Disorders",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/mood-disorders/medications-for-treatment-of-bipolar-disorders",
+     "section": "Lithium",
+     "source_date": "Last updated: Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Acute toxicity: gross tremor, vomiting, confusion; NSAIDs/diuretics increase risk.",
+     "added_by": "author"
+    },
+    {
+     "title": "16.4 Bipolar Disorders",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/16-4-bipolar-disorders",
+     "section": "Medications",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Suspected toxicity: stop lithium, notify provider, monitor vitals/levels.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B31-WAVE22",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6a937967) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck and StatPearls prevention concordant on detectors, venting, no enclosed generator/car"
+    }
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-SIPC-0025",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "review_flags": [],
+   "tags": [
+    "carbon-monoxide",
+    "prevention",
+    "NGN",
+    "matrix",
+    "community",
+    "SIPC"
+   ],
+   "stem": "For household carbon monoxide safety teaching, indicate whether each action is indicated or not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Install and test functional carbon monoxide detectors in the home."
+     },
+     {
+      "key": "R2",
+      "text": "Ensure fuel-burning appliances are correctly installed and vented outdoors."
+     },
+     {
+      "key": "R3",
+      "text": "Run a gasoline generator inside a closed living room during a power outage."
+     },
+     {
+      "key": "R4",
+      "text": "Never leave a car running in an enclosed garage."
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Merck and StatPearls recommend installing functional CO detectors for early warning.",
+    "R2": "Indicated. Merck: check indoor combustion sources are correctly installed and vented outdoors.",
+    "R3": "Not indicated. StatPearls: generators must never be used in enclosed spaces; indoor combustion raises CO risk.",
+    "R4": "Indicated. Merck: cars should never be left running in an enclosed garage."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "NGN matrix — carbon monoxide household prevention actions",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ngn-matrix-co-household-prevention-actions",
+   "sources": [
+    {
+     "title": "Carbon Monoxide Poisoning",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/poisoning/carbon-monoxide-poisoning",
+     "section": "Prevention of CO Poisoning",
+     "source_date": "Last updated: Apr 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Detectors, outdoor venting, never run cars in enclosed garages.",
+     "added_by": "author"
+    },
+    {
+     "title": "Carbon Monoxide Toxicity (StatPearls)",
+     "publisher": "StatPearls / NCBI Bookshelf",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK430740/",
+     "section": "Deterrence and Patient Education",
+     "source_date": "Last Update: April 19, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Install detectors; never use generators in enclosed spaces.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B31-WAVE22",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6a937967) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: thiazides, ACE inhibitors, NSAIDs (other than aspirin) contribute to hyperlithemia; OpenStax Pharmacology: diuretics, NSAIDs, ACE inhibitors alter lithium"
+    }
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PPT-0036",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "review_flags": [
+    "mental-health-safety",
+    "high-alert-medication"
+   ],
+   "tags": [
+    "lithium",
+    "NSAID",
+    "diuretic",
+    "interactions",
+    "PPT",
+    "SATA"
+   ],
+   "stem": "A client stabilized on lithium asks which new medications require extra caution because they may raise lithium levels. Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Thiazide diuretics"
+    },
+    {
+     "key": "B",
+     "text": "Nonsteroidal anti-inflammatory drugs (NSAIDs) other than aspirin"
+    },
+    {
+     "key": "C",
+     "text": "Angiotensin-converting enzyme (ACE) inhibitors"
+    },
+    {
+     "key": "D",
+     "text": "Topical sunscreen used only on intact skin"
+    },
+    {
+     "key": "E",
+     "text": "Ordinary oral rehydration with consistent salt intake as previously taught"
+    },
+    {
+     "key": "F",
+     "text": "Acetaminophen used occasionally for mild headache if otherwise appropriate"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "rationales": {
+    "A": "Correct. Merck and OpenStax: thiazide diuretics can contribute to elevated lithium levels.",
+    "B": "Correct. Merck: NSAIDs other than aspirin may contribute to hyperlithemia; OpenStax lists NSAIDs as interacting.",
+    "C": "Correct. Both sources list ACE inhibitors among drugs that can raise lithium levels.",
+    "D": "Incorrect. Topical sunscreen on intact skin is not identified as a lithium-elevating interaction in these sources.",
+    "E": "Incorrect. Consistent hydration/salt as taught supports stability; this is not a hyperlithemia-causing drug.",
+    "F": "Incorrect. Acetaminophen is not listed like NSAIDs as a classic lithium-elevating interaction in these citations."
+   },
+   "specialty": "Mental Health",
+   "topic": "Lithium — drugs that raise levels (thiazides, NSAIDs, ACEI)",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "lithium-hyperlithemia-nsaids-thiazides-acei",
+   "sources": [
+    {
+     "title": "Medications for Treatment of Bipolar Disorders",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/mood-disorders/medications-for-treatment-of-bipolar-disorders",
+     "section": "Lithium",
+     "source_date": "Last updated: Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Thiazides, ACE inhibitors, and NSAIDs other than aspirin may contribute to hyperlithemia.",
+     "added_by": "author"
+    },
+    {
+     "title": "13.3 Mood Stabilizers",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/13-3-mood-stabilizers",
+     "section": "Lithium — Adverse Effects and Contraindications",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Diuretics, NSAIDs, and ACE inhibitors may alter lithium concentrations.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B31-WAVE22",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6a937967) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: MgSO4 for preeclampsia with severe features to prevent seizures; OpenStax Maternal: MgSO4 to prevent progression to seizures"
+    }
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PPT-0037",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "review_flags": [
+    "maternity-newborn",
+    "high-alert-medication"
+   ],
+   "tags": [
+    "magnesium-sulfate",
+    "preeclampsia",
+    "seizure-prevention",
+    "PPT"
+   ],
+   "stem": "A client at 34 weeks’ gestation is hospitalized with preeclampsia with severe features. Which medication purpose should the nurse emphasize when intravenous magnesium sulfate is ordered?",
+   "options": [
+    {
+     "key": "A",
+     "text": "To prevent eclamptic seizures while plans for monitoring and timed delivery proceed."
+    },
+    {
+     "key": "B",
+     "text": "To permanently dissolve all placental tissue so pregnancy continues indefinitely without delivery."
+    },
+    {
+     "key": "C",
+     "text": "To replace the need for blood pressure assessment forever."
+    },
+    {
+     "key": "D",
+     "text": "To treat iron-deficiency anemia as the sole indication."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: in preeclampsia with severe features, magnesium sulfate is given to prevent seizures. OpenStax: magnesium sulfate is started to prevent progression to seizures.",
+    "B": "Incorrect. Delivery remains definitive treatment; magnesium does not dissolve the placenta or eliminate need for delivery decisions.",
+    "C": "Incorrect. BP monitoring remains essential.",
+    "D": "Incorrect. Magnesium sulfate is not treatment for iron-deficiency anemia."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Magnesium sulfate — prevent seizures in severe preeclampsia",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Prioritize Hypotheses",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "mgso4-severe-preeclampsia-prevent-seizures",
+   "sources": [
+    {
+     "title": "Preeclampsia and Eclampsia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/antenatal-complications/preeclampsia-and-eclampsia",
+     "section": "Magnesium sulfate",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "If severe features, magnesium sulfate is given to prevent seizures.",
+     "added_by": "author"
+    },
+    {
+     "title": "12.2 Conditions Limited to Pregnancy",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+     "section": "Preeclampsia",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Magnesium sulfate to prevent progression of preeclampsia to seizures.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B31-WAVE22",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6a937967) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: older adults high risk — diminished temperature sensation, impaired mobility/communication, less subcutaneous fat; can occur indoors in cool rooms. OpenStax: impaired thermoregulation can lead to hypothermia; older adults have age-related safety vulnerabilities including living alone"
+    }
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-BCC-0019",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "review_flags": [],
+   "tags": [
+    "hypothermia",
+    "older-adult",
+    "gerontology",
+    "BCC"
+   ],
+   "stem": "Which teaching point best reflects why community-dwelling older adults need proactive protection from cold indoor environments?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Older adults are at higher risk for hypothermia because of diminished temperature sensation, impaired mobility/communication, and less subcutaneous fat — even in cool indoor rooms — so keep living spaces adequately warm and address mobility limits."
+    },
+    {
+     "key": "B",
+     "text": "Older adults never develop hypothermia indoors under any circumstances."
+    },
+    {
+     "key": "C",
+     "text": "Only infants can lose heat; adults are immune to cold injury."
+    },
+    {
+     "key": "D",
+     "text": "Hypothermia occurs only after immersion in tropical swimming pools above 30°C."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: older adults are at high risk due to diminished temperature sensation, impaired mobility/communication, and diminished subcutaneous fat; hypothermia can occur indoors in cool rooms. OpenStax links impaired thermoregulation to hypothermia risk and notes older-adult environmental vulnerabilities.",
+    "B": "Incorrect. Merck explicitly notes indoor hypothermia risk for older adults.",
+    "C": "Incorrect. Both age extremes are at risk (Merck).",
+    "D": "Incorrect. Cool environments and impaired heat conservation drive hypothermia; tropical warm water is not the defining scenario."
+   },
+   "specialty": "Gerontology",
+   "topic": "Older adults — indoor hypothermia risk and prevention",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "older-adult-indoor-hypothermia-risk-prevention",
+   "sources": [
+    {
+     "title": "Hypothermia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/cold-injury/hypothermia",
+     "section": "Etiology of Hypothermia",
+     "source_date": "Last updated: Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Older adults at high risk; hypothermia can occur indoors in cool rooms.",
+     "added_by": "author"
+    },
+    {
+     "title": "9.1 Safety: Individual and Environmental",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/9-1-safety-individual-and-environmental",
+     "section": "Risk for Impaired Thermoregulation; Older Adults",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Impaired thermoregulation can lead to hypothermia; older adults have heightened environmental safety risks.",
      "added_by": "author"
     }
    ],

@@ -1,6 +1,6 @@
 # Question bank status — Ontario/Canada HESI/NCLEX practice
 
-**Updated:** 2026-11-25, ~10:15 AM (America/New_York)  
+**Updated:** 2026-11-25, ~10:45 AM (America/New_York)  
 **Honesty:** Counts below are **actual**. AI authoring may reach **Source verified** only. **Published / clinically reviewed = 0.** No claim of HESI/NCLEX item authenticity.
 
 Companion: [source-verification-report.md](./source-verification-report.md) · bank root: `/cursor/stores/self/internal/question-bank/`
@@ -11,16 +11,16 @@ Companion: [source-verification-report.md](./source-verification-report.md) · b
 
 | Metric | Count |
 | --- | ---: |
-| **Total active items** | **241** |
-| **Source verified** | **241** |
+| **Total active items** | **253** |
+| **Source verified** | **253** |
 | Awaiting clinical review | 0 |
 | Clinically reviewed | 0 |
 | Approved / published | **0** |
 | Draft (in compiled bank) | 0 |
 | Archived | 0 |
-| Excluded draft topics (logged) | 72 |
+| Excluded draft topics (logged) | 75 |
 
-Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after merge of `B00-PILOT` + `B11-WAVE2` + `B12-WAVE3` + `B13-WAVE4` + `B14-WAVE5` + `B15-WAVE6` + `B16-WAVE7` + `B17-WAVE8` + `B18-WAVE9` + `B19-WAVE10` + `B20-WAVE11` + `B21-WAVE12` + `B22-WAVE13` + `B23-WAVE14` + `B24-WAVE15` + `B25-WAVE16` + `B26-WAVE17` + `B27-WAVE18` + `B28-WAVE19` + `B29-WAVE20` + `B30-WAVE21`.
+Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after merge of `B00-PILOT` + `B11-WAVE2` + `B12-WAVE3` + `B13-WAVE4` + `B14-WAVE5` + `B15-WAVE6` + `B16-WAVE7` + `B17-WAVE8` + `B18-WAVE9` + `B19-WAVE10` + `B20-WAVE11` + `B21-WAVE12` + `B22-WAVE13` + `B23-WAVE14` + `B24-WAVE15` + `B25-WAVE16` + `B26-WAVE17` + `B27-WAVE18` + `B28-WAVE19` + `B29-WAVE20` + `B30-WAVE21` + `B31-WAVE22`.
 
 ---
 
@@ -28,19 +28,19 @@ Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after mer
 
 | Code | Subcategory | Source verified | Gap vs 150-item form quota* |
 | --- | --- | ---: | ---: |
-| MOC | Management of Care | 41 | 0† |
-| SIPC | Safety and Infection Prevention and Control | 24 | 0† |
-| HPM | Health Promotion and Maintenance | 29 | 0† |
-| PSY | Psychosocial Integrity | 21 | 0† |
-| BCC | Basic Care and Comfort | 18 | 0† |
-| PPT | Pharmacological and Parenteral Therapies | 34 | 0† |
-| RRP | Reduction of Risk Potential | 31 | 0† |
-| PA | Physiological Adaptation | 43 | 0† |
+| MOC | Management of Care | 42 | 0† |
+| SIPC | Safety and Infection Prevention and Control | 25 | 0† |
+| HPM | Health Promotion and Maintenance | 30 | 0† |
+| PSY | Psychosocial Integrity | 22 | 0† |
+| BCC | Basic Care and Comfort | 19 | 0† |
+| PPT | Pharmacological and Parenteral Therapies | 37 | 0† |
+| RRP | Reduction of Risk Potential | 33 | 0† |
+| PA | Physiological Adaptation | 45 | 0† |
 
 \*Quota for one 150-item HESI-style form (see blueprint). Five forms need ~750 Source-verified → clinically reviewed items. **No form is publishable yet.**  
-†Surplus vs base single-form quota supports multi-form depth (MOC 41/27, SIPC 24/20, HPM 29/13–14, PSY 21/13–14, BCC 18/13–14, PPT 34/24, RRP 31/18, PA 43/21).
+†Surplus vs base single-form quota supports multi-form depth (MOC 42/27, SIPC 25/20, HPM 30/13–14, PSY 22/13–14, BCC 19/13–14, PPT 37/24, RRP 33/18, PA 45/21).
 
-Wave 21 added multi-exam depth with underrepresented specialties (Pediatrics, Maternity/Newborn, Community/Public Health, Leadership/Management, Critical Care/Emergency, Mental Health) and NGN **bowtie** + **drop-down cloze** + **matrix**, dual-cited originals only (Merck, OpenStax, CPS, CNO, CDC, PHAC/Canada.ca, AHRQ). **All eight Client Needs single-form quotas remain met at Source verified.**
+Wave 22 added multi-exam depth with underrepresented specialties (Pediatrics, Maternity/Newborn, Community/Public Health, Leadership/Management, Gerontology, Mental Health, Critical Care/Emergency) and NGN **bowtie** + **drop-down cloze** + **matrix**, dual-cited originals only (Merck, OpenStax, StatPearls/NCBI, AHRQ PSNet). **All eight Client Needs single-form quotas remain met at Source verified.**
 
 ---
 
@@ -48,17 +48,17 @@ Wave 21 added multi-exam depth with underrepresented specialties (Pediatrics, Ma
 
 | Format | n |
 | --- | ---: |
-| multiple_choice | 196 |
-| select_all_that_apply | 26 |
-| matrix_multiple_choice | 8 |
-| drop_down_cloze | 4 |
-| bowtie | 4 |
+| multiple_choice | 204 |
+| select_all_that_apply | 27 |
+| matrix_multiple_choice | 9 |
+| drop_down_cloze | 5 |
+| bowtie | 5 |
 | ordered_response | 2 |
 | calculation | 1 |
 
 | Jurisdiction | n |
 | --- | ---: |
-| General (Canada/US concordant) | 201 |
+| General (Canada/US concordant) | 213 |
 | Ontario-specific | 31 |
 | Canada-specific | 9 |
 
@@ -89,6 +89,7 @@ Wave 21 added multi-exam depth with underrepresented specialties (Pediatrics, Ma
 | B28-WAVE19 | 12 | Source verified (wave 19 — critical care/community/leadership/peds + NGN bowtie/cloze/matrix) |
 | B29-WAVE20 | 12 | Source verified (wave 20 — critical care/community/leadership/peds + NGN bowtie/cloze/matrix) |
 | B30-WAVE21 | 12 | Source verified (wave 21 — peds/maternity/community/leadership/critical care/MH + NGN bowtie/cloze/matrix) |
+| B31-WAVE22 | 12 | Source verified (wave 22 — peds/maternity/community/leadership/gero/MH/critical care + NGN bowtie/cloze/matrix) |
 | B01–B10 | 0 JSON | Prior fetch logs only; no authored batches completed |
 
 ---
@@ -110,7 +111,7 @@ Compiled bank copied into the GitHub app repo under `data/question-bank/` with a
 
 ## Next priorities
 
-1. Independent verifier pass on B00 + B11–B30 → Awaiting clinical review.  
+1. Independent verifier pass on B00 + B11–B31 → Awaiting clinical review.  
 2. Licensed clinician review (especially high-priority items flagged in clinical-review-queue).  
 3. Continue authoring toward **five-form** depth (~750 Source-verified → clinically reviewed), prioritizing underrepresented specialties (Pediatrics, Gerontology, Community/Public Health, Leadership/Management, Critical Care/Emergency, Maternity/Newborn) with live-fetched dual sources only.  
 4. Do **not** pad counts; exclude when a second independent source cannot be confirmed.
