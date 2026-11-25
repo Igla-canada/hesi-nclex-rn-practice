@@ -1,0 +1,1387 @@
+{
+ "batch_id": "B28-WAVE19",
+ "author": "AI author (Composer, Cursor subagent bc-04ec14df) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 19 multi-exam depth — underrepresented specialties (Critical Care/Emergency, Community/Public Health, Leadership/Management, Pediatrics) plus NGN bowtie/cloze/matrix; dual-cited originals only.",
+ "items": [
+  {
+   "batch": "B28-WAVE19",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "2.8 mmol/L ≈ 50 mg/dL; hypoglycemia threshold commonly <3.9 mmol/L (<70 mg/dL).",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-04ec14df) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck rule of 15s + glucagon if unable to eat/drink; OpenStax 15–15 rule + glucagon if unconscious/unable to eat or drink"
+    }
+   ],
+   "review_flags": [
+    "emergency",
+    "high-alert-medication"
+   ],
+   "tags": [
+    "hypoglycemia",
+    "glucagon",
+    "diabetes",
+    "critical-care",
+    "PA"
+   ],
+   "id": "ONRN-PA-0033",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with diabetes becomes diaphoretic and confused. Capillary glucose is 2.8 mmol/L (50 mg/dL). The client is now unconscious and cannot swallow. Which action is the priority?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Administer glucagon as ordered/protocol because the client cannot safely take oral carbohydrate."
+    },
+    {
+     "key": "B",
+     "text": "Give orange juice by mouth immediately while the client remains unconscious."
+    },
+    {
+     "key": "C",
+     "text": "Wait 30 minutes to recheck glucose before any treatment."
+    },
+    {
+     "key": "D",
+     "text": "Encourage the client to walk briskly to raise blood glucose without medication."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck states adults/children unable to eat or drink can receive glucagon; OpenStax states glucagon may be given IV/IM/SC if the client is unable to eat or drink or is unconscious.",
+    "B": "Incorrect. Oral carbohydrate is unsafe in an unconscious client who cannot protect the airway; both sources reserve oral sugar for clients who can eat or drink.",
+    "C": "Incorrect. Both sources emphasize prompt treatment of hypoglycemia; delaying risks worsening neurologic injury.",
+    "D": "Incorrect. Exercise does not treat severe hypoglycemia and delays definitive glucose/glucagon therapy."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "Severe hypoglycemia — glucagon when unconscious/unable to swallow",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "severe-hypoglycemia-glucagon-if-unconscious",
+   "sources": [
+    {
+     "title": "Hypoglycemia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/diabetes-mellitus-and-hypoglycemia/hypoglycemia",
+     "section": "Treatment in patients taking antihyperglycemic medications",
+     "source_date": "Last updated: Dec 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Rule of 15s for oral glucose; glucagon if unable to eat or drink.",
+     "added_by": "author"
+    },
+    {
+     "title": "28.1 Introduction to Diabetes",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/28-1-introduction-to-diabetes",
+     "section": "Hypoglycemia",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "15–15 rule; glucagon IV/IM/SC if unable to eat/drink or unconscious.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B28-WAVE19",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-04ec14df) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC BE FAST signs + call emergency; Merck sudden focal deficits/acute stroke evaluation"
+    }
+   ],
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "NGN",
+    "bowtie",
+    "stroke",
+    "BEFAST",
+    "critical-care",
+    "PA"
+   ],
+   "id": "ONRN-PA-0034",
+   "format": "bowtie",
+   "scoring_model": "zero_one",
+   "stem": "A community nurse finds an older adult with sudden right-arm weakness, facial droop, and slurred speech that began 20 minutes ago. Complete the bowtie: identify the priority condition, two nursing actions, and two parameters to monitor.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Suspected acute stroke"
+     },
+     {
+      "key": "K2",
+      "text": "Uncomplicated ankle sprain"
+     },
+     {
+      "key": "K3",
+      "text": "Stable essential hypertension without acute neurologic change"
+     },
+     {
+      "key": "K4",
+      "text": "Isolated cerumen impaction"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Activate emergency medical services immediately (call for ambulance/911-equivalent)"
+     },
+     {
+      "key": "A2",
+      "text": "Note the time symptoms were first noticed"
+     },
+     {
+      "key": "A3",
+      "text": "Advise driving privately to a clinic appointment tomorrow"
+     },
+     {
+      "key": "A4",
+      "text": "Have the client take a long nap before seeking care"
+     },
+     {
+      "key": "A5",
+      "text": "Apply ice to the face and wait for speech to improve overnight"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "Airway patency and ability to protect the airway"
+     },
+     {
+      "key": "P2",
+      "text": "Level of consciousness and evolving neurologic deficits"
+     },
+     {
+      "key": "P3",
+      "text": "Preference for daytime television channels"
+     },
+     {
+      "key": "P4",
+      "text": "Shoe size for future footwear shopping"
+     },
+     {
+      "key": "P5",
+      "text": "Favourite dessert after discharge"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K1",
+    "actions": [
+     "A1",
+     "A2"
+    ],
+    "parameters": [
+     "P1",
+     "P2"
+    ]
+   },
+   "rationales": {
+    "K1": "Correct. Sudden unilateral weakness, facial droop, and speech difficulty are classic stroke signs (CDC); Merck notes diagnosis is suggested by sudden neurologic deficits.",
+    "K2": "Incorrect. Ankle sprain does not explain acute facial droop and speech change.",
+    "K3": "Incorrect. Chronic stable hypertension alone does not explain new focal deficits.",
+    "K4": "Incorrect. Cerumen impaction does not cause acute hemiparesis and dysarthria.",
+    "A1": "Correct. CDC advises calling emergency services right away and not driving privately so treatment can begin en route.",
+    "A2": "Correct. CDC states noting the time symptoms first appear helps determine treatment eligibility; time-sensitive care is emphasized.",
+    "A3": "Incorrect. Delaying care overnight/to tomorrow risks missing time-limited stroke therapies.",
+    "A4": "Incorrect. Sleeping instead of emergency activation delays reperfusion opportunities.",
+    "A5": "Incorrect. Ice and watchful waiting are inappropriate for suspected stroke.",
+    "P1": "Correct. Airway protection is a primary safety priority while awaiting/en route to emergency care.",
+    "P2": "Correct. Evolving neurologic status/consciousness must be monitored as stroke can progress (Merck clinical assessment).",
+    "P3": "Incorrect. Entertainment preferences are irrelevant emergency parameters.",
+    "P4": "Incorrect. Shoe size is not an acute stroke monitoring parameter.",
+    "P5": "Incorrect. Food preferences are not priority stroke parameters."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN bowtie — suspected acute stroke recognition and emergency activation",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "ngn-bowtie-stroke-be-fast-call-ems",
+   "sources": [
+    {
+     "title": "Signs and Symptoms of Stroke",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html",
+     "section": "Signs and symptoms / B.E. F.A.S.T / When to seek emergency help",
+     "source_date": "May 19, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "K1, A1–A2, P1–P2",
+     "evidence": "Sudden numbness/weakness, speech trouble; call 9-1-1; note symptom onset time; do not drive privately.",
+     "added_by": "author"
+    },
+    {
+     "title": "Ischemic Stroke",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/stroke/ischemic-stroke",
+     "section": "Diagnosis of Ischemic Stroke",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "K1, P2",
+     "evidence": "Diagnosis suggested by sudden neurologic deficits; neuroimaging/acute evaluation.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B28-WAVE19",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-04ec14df) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck earliest symptom pain out of proportion worsened by passive stretch; OpenStax five Ps same"
+    }
+   ],
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "compartment-syndrome",
+    "fracture",
+    "neurovascular",
+    "RRP"
+   ],
+   "id": "ONRN-RRP-0026",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with a tibial fracture reports severe leg pain that seems worse than expected for the injury and intensifies when the nurse passively stretches the toes. Distal pulses are still palpable. What should the nurse suspect?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Compartment syndrome — notify the provider urgently because pain out of proportion and pain with passive stretch are early cues."
+    },
+    {
+     "key": "B",
+     "text": "A normal healing response that never requires provider notification while pulses remain present."
+    },
+    {
+     "key": "C",
+     "text": "Only anxiety, so analgesics can be deferred indefinitely without reassessment."
+    },
+    {
+     "key": "D",
+     "text": "Isolated cerumen impaction unrelated to the injured limb."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: earliest symptom is pain out of proportion, exacerbated by passive stretch; treat before pallor/pulselessness. OpenStax lists pain out of proportion worsened by passive stretch among the five Ps and requires urgent provider notification.",
+    "B": "Incorrect. Intact pulses do not exclude compartment syndrome; Merck notes perfusion can fail before pulses disappear.",
+    "C": "Incorrect. Disproportionate pain after fracture is a surgical emergency cue, not reassurance that anxiety alone explains findings.",
+    "D": "Incorrect. Ear findings are unrelated to limb compartment ischemia."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "Compartment syndrome — pain out of proportion / passive stretch",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "compartment-syndrome-pain-passive-stretch",
+   "sources": [
+    {
+     "title": "Compartment Syndrome",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/fractures/compartment-syndrome",
+     "section": "Symptoms and Signs of Compartment Syndrome",
+     "source_date": "Last updated: Mar 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractor B",
+     "evidence": "Earliest symptom worsening pain out of proportion; exacerbated by passive stretch; pulses may still be present.",
+     "added_by": "author"
+    },
+    {
+     "title": "25.2 Physical Assessment",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/25-2-physical-assessment",
+     "section": "Compartment Syndrome",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Pain out of proportion worsened by passive stretch; notify provider immediately.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B28-WAVE19",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-04ec14df) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax low Fowler + sterile saline towel + notify + NPO; StatPearls moist saline gauze + emergent surgical prep"
+    }
+   ],
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "evisceration",
+    "postoperative",
+    "wound",
+    "PA"
+   ],
+   "id": "ONRN-PA-0035",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "While changing a dressing on postoperative day 5 after abdominal surgery, the nurse sees bowel protruding through a fully separated incision. Which action is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Cover the exposed bowel with a sterile dressing moistened with sterile saline, position to reduce wound tension (e.g., low Fowler’s with knees slightly flexed), keep NPO, and notify the surgeon immediately."
+    },
+    {
+     "key": "B",
+     "text": "Push the bowel firmly back into the abdomen with clean bare hands and send the client home."
+    },
+    {
+     "key": "C",
+     "text": "Leave the wound uncovered and encourage coughing exercises to “work the bowel back in.”"
+    },
+    {
+     "key": "D",
+     "text": "Apply a dry nonsterile towel from the bathroom and schedule routine follow-up in 2 weeks."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: medical emergency — low Fowler’s, sterile towel soaked with sterile 0.9% sodium chloride, notify provider, remain NPO. StatPearls: wrap bowel in gauze moistened with warm saline and prepare for emergent exploration.",
+    "B": "Incorrect. Forcing reduction with bare hands is unsafe and delays sterile protection and surgical care.",
+    "C": "Incorrect. Leaving bowel exposed and encouraging cough increases injury/desiccation risk.",
+    "D": "Incorrect. Nonsterile delayed follow-up is inappropriate for evisceration, a surgical emergency."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "Wound evisceration — sterile moist cover, positioning, emergent notify",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "evisceration-sterile-moist-saline-notify",
+   "sources": [
+    {
+     "title": "24.4 Wound Healing",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/24-4-wound-healing",
+     "section": "Dehiscence and Evisceration",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Low Fowler; sterile towel with sterile 0.9% NaCl; notify immediately; NPO.",
+     "added_by": "author"
+    },
+    {
+     "title": "Fascial Dehiscence",
+     "publisher": "StatPearls / NCBI Bookshelf",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK551644/",
+     "section": "Treatment / Management",
+     "source_date": "Last Update: January 23, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "peer_reviewed",
+     "supports": "Key A",
+     "evidence": "Wrap bowel in gauze moistened with warm saline; prepare for emergent abdominal exploration.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B28-WAVE19",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-04ec14df) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC annual flu vaccine especially important ≥65; Merck annual vaccine for all eligible without contraindication; higher risk >65"
+    }
+   ],
+   "review_flags": [],
+   "tags": [
+    "influenza",
+    "immunization",
+    "older-adult",
+    "community",
+    "HPM"
+   ],
+   "id": "ONRN-HPM-0025",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A community health nurse is counselling a healthy 72-year-old client before influenza season. Which teaching point is accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "An annual influenza vaccine is recommended because adults 65 years and older are at higher risk for serious flu complications."
+    },
+    {
+     "key": "B",
+     "text": "Influenza vaccine is unnecessary after age 65 because older adults no longer benefit from immunization."
+    },
+    {
+     "key": "C",
+     "text": "One childhood influenza vaccine provides lifelong immunity, so boosters are never needed."
+    },
+    {
+     "key": "D",
+     "text": "Only people under age 18 should receive influenza vaccine."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC states flu vaccination is especially important for people ≥65 because of higher complication risk; Merck states the influenza vaccine should be given annually to eligible patients and notes higher mortality in adults >65.",
+    "B": "Incorrect. Both sources emphasize vaccination importance in older adults rather than abandoning immunization.",
+    "C": "Incorrect. Merck and CDC frame influenza immunization as an annual need due to antigenic change/seasonal risk.",
+    "D": "Incorrect. Adults, especially those ≥65, are a priority group for influenza vaccination."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Influenza — annual vaccination especially important at age ≥65",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "influenza-annual-vaccine-age-65-plus",
+   "sources": [
+    {
+     "title": "Flu and People 65 Years and Older",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/flu/highrisk/65over.htm",
+     "section": "At a glance / Prevention",
+     "source_date": "Sept. 4, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A",
+     "evidence": "Flu vaccination especially important ≥65; annual flu vaccine best protection.",
+     "added_by": "author"
+    },
+    {
+     "title": "Influenza",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/respiratory-viruses/influenza",
+     "section": "Prevention of Influenza / Epidemiology",
+     "source_date": "Last updated: Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "Vaccine annually for eligible patients; mortality higher in adults >65.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B28-WAVE19",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-04ec14df) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC key times to wash hands + ≥60% alcohol if no soap/water; OpenStax Microbiology cites CDC key times"
+    }
+   ],
+   "review_flags": [],
+   "tags": [
+    "SATA",
+    "handwashing",
+    "community",
+    "infection-prevention",
+    "HPM"
+   ],
+   "id": "ONRN-HPM-0026",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "A public health nurse teaches families about everyday hand hygiene. Which instructions should the nurse include? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Wash hands with soap and clean running water before preparing food and before eating."
+    },
+    {
+     "key": "B",
+     "text": "Wash hands after using the toilet and after changing diapers."
+    },
+    {
+     "key": "C",
+     "text": "Wash hands after blowing the nose, coughing, or sneezing."
+    },
+    {
+     "key": "D",
+     "text": "Skip handwashing after handling garbage because household trash is sterile."
+    },
+    {
+     "key": "E",
+     "text": "If soap and water are not available, use an alcohol-based hand sanitizer with at least 60% alcohol."
+    },
+    {
+     "key": "F",
+     "text": "Avoid washing hands after touching animals or animal waste."
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. CDC lists before/during/after food preparation and before eating as key times; OpenStax Microbiology restates CDC food-related key times.",
+    "B": "Correct. CDC and OpenStax include after toileting and after diaper changes.",
+    "C": "Correct. CDC and OpenStax include after coughing, sneezing, or blowing the nose.",
+    "D": "Incorrect. CDC lists after touching garbage as a key time to wash hands.",
+    "E": "Correct. CDC advises alcohol-based sanitizer with ≥60% alcohol when soap and water are not available.",
+    "F": "Incorrect. CDC and OpenStax include after interacting with animals/animal waste as a key time."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Handwashing — key times and alcohol sanitizer ≥60%",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "handwashing-key-times-sanitizer-60",
+   "sources": [
+    {
+     "title": "About Handwashing",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/clean-hands/about/index.html",
+     "section": "Key times to wash hands / Use hand sanitizer when you can't use soap and water",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Keys A–C, E; distractors D, F",
+     "evidence": "Key times include food, toilet/diapers, cough/sneeze, garbage, animals; ≥60% alcohol sanitizer if no soap/water.",
+     "added_by": "author"
+    },
+    {
+     "title": "13.3 Using Chemicals to Control Microorganisms",
+     "publisher": "OpenStax — Microbiology",
+     "url": "https://openstax.org/books/microbiology/pages/13-3-using-chemicals-to-control-microorganisms",
+     "section": "Handwashing the Right Way",
+     "source_date": "Nov 1, 2016",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Keys A–C, F rationale",
+     "evidence": "Restates CDC key times for public handwashing including food, illness contact, toilet/diapers, cough/sneeze, garbage, animals.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B28-WAVE19",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-04ec14df) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax chest pain before ankle injury; Merck do not attend dramatic non-deadly injuries before life threats / ABCDE primary survey"
+    }
+   ],
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "triage",
+    "prioritization",
+    "leadership",
+    "MOC"
+   ],
+   "id": "ONRN-MOC-0037",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An emergency department triage nurse has two waiting clients: one with sudden crushing chest pain and diaphoresis, and one with an isolated ankle injury who is stable and in moderate pain. Who should be prioritized first and why?",
+   "options": [
+    {
+     "key": "A",
+     "text": "The client with chest pain, because potentially life-threatening cardiopulmonary problems take priority over a painful but non–life-threatening extremity injury."
+    },
+    {
+     "key": "B",
+     "text": "The client with the ankle injury, because extremity trauma is always more urgent than chest symptoms."
+    },
+    {
+     "key": "C",
+     "text": "Neither client — triage is unnecessary if both can sit in chairs."
+    },
+    {
+     "key": "D",
+     "text": "Whoever arrived first, regardless of acuity or ABC priorities."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: chest pain is prioritized before an ankle injury because MI risk is more life-threatening. Merck warns that attending to dramatic but not deadly injuries before immediate life threats can be fatal; primary survey uses ABCDE.",
+    "B": "Incorrect. Both sources prioritize life-threatening conditions over isolated extremity injury.",
+    "C": "Incorrect. Triage exists specifically to prioritize by acuity.",
+    "D": "Incorrect. Arrival order alone ignores ABC/acuity prioritization taught in both sources."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "Triage prioritization — chest pain before stable extremity injury",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Prioritize Hypotheses",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "triage-chest-pain-before-ankle-injury",
+   "sources": [
+    {
+     "title": "33.1 Triage and Assessment",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/33-1-triage-and-assessment",
+     "section": "Triage / Prioritizing Findings",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Chest pain prioritized before ankle injury; ABC before other interventions.",
+     "added_by": "author"
+    },
+    {
+     "title": "Approach to the Trauma Patient",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/approach-to-the-trauma-patient/approach-to-the-trauma-patient",
+     "section": "Evaluation and Treatment / Primary Survey",
+     "source_date": "Last updated: Apr 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "ABCDE primary survey; attending to dramatic non-deadly injuries before life threats can be fatal.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B28-WAVE19",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-04ec14df) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax ABCDE airway first; Merck ABCDE primary survey simultaneous evaluation/stabilization"
+    }
+   ],
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "ABCDE",
+    "primary-survey",
+    "leadership",
+    "MOC"
+   ],
+   "id": "ONRN-MOC-0038",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "During a mass-casualty intake, which statement best reflects correct initial prioritization using the ABCDE approach?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Assess and address airway first, then breathing and circulation, before less immediate concerns."
+    },
+    {
+     "key": "B",
+     "text": "Complete a detailed social history interview before checking airway patency."
+    },
+    {
+     "key": "C",
+     "text": "Ignore breathing problems until after arranging outpatient physiotherapy."
+    },
+    {
+     "key": "D",
+     "text": "Skip circulation assessment if the client can speak about favourite hobbies."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax ABCDE triage assesses airway first, then breathing and circulation. Merck primary survey uses A-B-C-D-E and begins with systems posing the most immediate threat to life.",
+    "B": "Incorrect. Social history is not the first primary-survey priority over airway.",
+    "C": "Incorrect. Breathing threats are addressed early in ABCDE, not deferred to outpatient planning.",
+    "D": "Incorrect. Circulation remains a core primary-survey element even if the client can converse."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "ABCDE primary survey — airway before less immediate concerns",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Prioritize Hypotheses",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "abcde-airway-first-primary-survey",
+   "sources": [
+    {
+     "title": "33.1 Triage and Assessment",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/33-1-triage-and-assessment",
+     "section": "Airway, Breathing, Circulation, Disability, and Exposure (ABCDE)",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "ABCDE performed in order; airway assessed/treated first.",
+     "added_by": "author"
+    },
+    {
+     "title": "Approach to the Trauma Patient",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/approach-to-the-trauma-patient/approach-to-the-trauma-patient",
+     "section": "Primary Survey",
+     "source_date": "Last updated: Apr 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "Primary survey mnemonic A,B,C,D,E; begin with most immediate life threats.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B28-WAVE19",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-04ec14df) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax hold if HR <60 + toxicity anorexia/nausea/vomiting/visual changes; Merck nausea/vomiting/anorexia/arrhythmias/narrow window"
+    }
+   ],
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "tags": [
+    "NGN",
+    "cloze",
+    "digoxin",
+    "toxicity",
+    "PPT"
+   ],
+   "id": "ONRN-PPT-0032",
+   "format": "drop_down_cloze",
+   "scoring_model": "zero_one",
+   "stem": "Complete the teaching for a client newly prescribed digoxin.",
+   "ngn": {
+    "template": "Before each dose, the nurse assesses the pulse for 1 minute and withholds digoxin if the heart rate is less than {B1}. The client should report possible toxicity signs such as {B2}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "60 beats per minute"
+      },
+      {
+       "key": "B1b",
+       "text": "120 beats per minute only"
+      },
+      {
+       "key": "B1c",
+       "text": "200 beats per minute"
+      },
+      {
+       "key": "B1d",
+       "text": "10 breaths per minute"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "anorexia, nausea/vomiting, and visual changes (e.g., yellow-green halos)"
+      },
+      {
+       "key": "B2b",
+       "text": "improved appetite with no other symptoms"
+      },
+      {
+       "key": "B2c",
+       "text": "painless toenail growth only"
+      },
+      {
+       "key": "B2d",
+       "text": "desire to rearrange furniture"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. OpenStax: assess pulse 1 minute; do not administer if HR <60.",
+    "B1b": "Incorrect. 120 bpm is not the OpenStax withhold threshold for digoxin.",
+    "B1c": "Incorrect. 200 bpm is not the nursing withhold parameter taught for digoxin.",
+    "B1d": "Incorrect. Respiratory rate is not the digoxin pre-dose pulse withhold criterion.",
+    "B2a": "Correct. OpenStax lists anorexia, nausea, vomiting, visual changes/halos; Merck lists nausea, vomiting, anorexia and serious arrhythmias among toxic effects.",
+    "B2b": "Incorrect. Improved appetite alone is not a toxicity warning cluster.",
+    "B2c": "Incorrect. Toenail growth is unrelated to digoxin toxicity monitoring.",
+    "B2d": "Incorrect. Furniture rearrangement is not a digoxin toxicity cue."
+   },
+   "specialty": "Pharmacology",
+   "topic": "NGN cloze — digoxin withhold HR <60 and toxicity cues",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Evaluate Outcomes",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "ngn-cloze-digoxin-hr60-toxicity-cues",
+   "sources": [
+    {
+     "title": "19.6 Adjunct Medications Used in Heart Failure",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/19-6-adjunct-medications-used-in-heart-failure",
+     "section": "Cardiac Glycosides / Nursing Implications",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "B1a, B2a",
+     "evidence": "Withhold if HR <60; toxicity includes anorexia, nausea, vomiting, visual halos.",
+     "added_by": "author"
+    },
+    {
+     "title": "Medications for Heart Failure",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/heart-failure/medications-for-heart-failure",
+     "section": "Digoxin",
+     "source_date": "Last updated: Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "B2a",
+     "evidence": "Narrow therapeutic window; nausea, vomiting, anorexia; life-threatening arrhythmias.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B28-WAVE19",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-04ec14df) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck analgesics + IV hydration (+ oxygen if hypoxic); OpenStax IV fluids + IV opioids for acute crisis"
+    }
+   ],
+   "review_flags": [
+    "pediatric",
+    "emergency"
+   ],
+   "tags": [
+    "sickle-cell",
+    "vaso-occlusive",
+    "pediatrics",
+    "PA"
+   ],
+   "id": "ONRN-PA-0036",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An adolescent with sickle cell disease presents with a severe vaso-occlusive pain crisis. Which nursing plan is most appropriate initially?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Provide prompt analgesia (often IV opioids as ordered) and maintain hydration (IV fluids as ordered), while monitoring oxygenation."
+    },
+    {
+     "key": "B",
+     "text": "Withhold all pain medication until laboratory cultures return in 48 hours."
+    },
+    {
+     "key": "C",
+     "text": "Encourage prolonged fasting without fluids to “dry out” sickled cells."
+    },
+    {
+     "key": "D",
+     "text": "Discharge immediately without analgesia because pain crises are never treated in hospital."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: analgesics (usually opioids) and IV hydration are mainstays for vaso-occlusive pain crisis; oxygen if hypoxic. OpenStax: acute crisis may require IV fluid replacement and analgesics (predominantly IV opioids).",
+    "B": "Incorrect. Delaying analgesia for routine culture wait is not supported; pain treatment is central.",
+    "C": "Incorrect. Dehydration precipitates/worsens sickling; both sources emphasize hydration.",
+    "D": "Incorrect. Both sources describe hospital management with fluids and analgesia for acute crises."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Sickle cell vaso-occlusive crisis — analgesia and hydration",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "sickle-cell-voc-analgesia-hydration",
+   "sources": [
+    {
+     "title": "Sickle Cell Disease",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/hematology/anemias-caused-by-hemolysis/sickle-cell-disease",
+     "section": "Treatment / Analgesics / Intravenous hydration / Oxygen",
+     "source_date": "Last updated: Apr 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "Analgesics usually opioids; maintain intravascular volume; oxygen for hypoxia.",
+     "added_by": "author"
+    },
+    {
+     "title": "16.2 Hereditary Disorders",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/16-2-hereditary-disorders",
+     "section": "Prioritizing Hypotheses... / Patient-Centered Care: Sickle Cell Crisis",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "IV fluid replacement and IV opioids for acute vaso-occlusive crisis; hospitalization with IV fluids and pain management.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B28-WAVE19",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-04ec14df) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck urgent recognition before pulselessness/fasciotomy treatment; OpenStax notify immediately; elevate? careful - OpenStax says notify; avoid elevating above heart sometimes - stick to notify, neurovascular checks, do not ignore, do not tighten cast further"
+    }
+   ],
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "NGN",
+    "matrix",
+    "compartment-syndrome",
+    "RRP"
+   ],
+   "id": "ONRN-RRP-0027",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client in a cast develops increasing pain out of proportion to injury and pain with passive stretch. For each nursing action, indicate whether it is indicated or not indicated now.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Notify the provider/rapid response pathway immediately for suspected compartment syndrome."
+     },
+     {
+      "key": "R2",
+      "text": "Continue frequent neurovascular assessments of the affected limb."
+     },
+     {
+      "key": "R3",
+      "text": "Apply a tighter circumferential bandage over the cast to “reduce swelling space.”"
+     },
+     {
+      "key": "R4",
+      "text": "Assume intact distal pulses mean compartment syndrome is impossible and document only “reassured.”"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. OpenStax: appearance of five-P findings is urgent — notify provider immediately. Merck: diagnosis/treatment must occur before pallor/pulselessness; treatment is fasciotomy.",
+    "R2": "Indicated. OpenStax emphasizes frequent assessment of the at-risk limb; Merck stresses clinical vigilance for evolving ischemia.",
+    "R3": "Not indicated. Tight circumferential devices can worsen compartment pressure (Merck lists tight bandages/casts among causes).",
+    "R4": "Not indicated. Merck notes cellular perfusion can stop before pulses disappear; intact pulses do not exclude the diagnosis."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN matrix — suspected compartment syndrome nursing actions",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "ngn-matrix-compartment-notify-neurovascular",
+   "sources": [
+    {
+     "title": "Compartment Syndrome",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/fractures/compartment-syndrome",
+     "section": "Symptoms and Signs / Diagnosis / Treatment / Etiology",
+     "source_date": "Last updated: Mar 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "R1–R4",
+     "evidence": "Treat before pulselessness; tight bandages/casts can cause; fasciotomy is treatment.",
+     "added_by": "author"
+    },
+    {
+     "title": "25.2 Physical Assessment",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/25-2-physical-assessment",
+     "section": "Compartment Syndrome",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "R1–R2",
+     "evidence": "Frequent assessment; notify provider immediately for symptoms.",
+     "added_by": "author"
+    }
+   ]
+  },
+  {
+   "batch": "B28-WAVE19",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-04ec14df) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax: alcohol OK if not visibly soiled; soap/water for C. diff and visibly dirty; CDC community: soap best, ≥60% alcohol if no soap/water"
+    }
+   ],
+   "review_flags": [],
+   "tags": [
+    "hand-hygiene",
+    "C-diff",
+    "asepsis",
+    "SIPC"
+   ],
+   "id": "ONRN-SIPC-0022",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "After caring for a client with Clostridioides difficile diarrhea, which hand hygiene action is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Wash hands with soap and water rather than relying on alcohol-based sanitizer alone."
+    },
+    {
+     "key": "B",
+     "text": "Use only alcohol-based sanitizer because soap never removes C. difficile spores."
+    },
+    {
+     "key": "C",
+     "text": "Skip hand hygiene if gloves were worn at any point."
+    },
+    {
+     "key": "D",
+     "text": "Rinse hands with sterile water only, without soap, after every C. difficile contact."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax states C. difficile is an example of organisms not removed by hand sanitizers and requires soap and water. CDC states washing with soap and water is the best way to remove germs in most situations.",
+    "B": "Incorrect. OpenStax explicitly advises soap and water rather than sanitizer for C. difficile.",
+    "C": "Incorrect. OpenStax requires hand hygiene after glove removal; gloves do not replace hand hygiene.",
+    "D": "Incorrect. Soap (with water) is required; water alone is not the recommended method."
+   },
+   "specialty": "Fundamentals",
+   "topic": "C. difficile — soap-and-water hand hygiene after care",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "cdiff-hand-hygiene-soap-and-water",
+   "sources": [
+    {
+     "title": "6.2 Asepsis and PPE",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/6-2-asepsis-and-ppe",
+     "section": "Hand Hygiene",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–C",
+     "evidence": "Alcohol sanitizer if not visibly soiled; C. diff requires soap and water; hand hygiene after glove removal.",
+     "added_by": "author"
+    },
+    {
+     "title": "About Handwashing",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/clean-hands/about/index.html",
+     "section": "How it works / Use hand sanitizer when you can't use soap and water",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A",
+     "evidence": "Soap and water best way to get rid of germs in most situations; sanitizer when soap/water unavailable.",
+     "added_by": "author"
+    }
+   ]
+  }
+ ],
+ "excluded_items": [
+  {
+   "draft_topic": "TeamSTEPPS check-back closed-loop communication",
+   "reason": "AHRQ check-back page fetched, but second independent publisher with explicit check-back steps not dual-confirmed (OpenStax mentions TeamSTEPPS without check-back procedure; pocket PDF tool lacked pypdf). Excluded for accuracy."
+  },
+  {
+   "draft_topic": "Preferential high-dose/adjuvanted flu vaccine details for ≥65",
+   "reason": "CDC supports preferential higher-dose/adjuvanted vaccines; Merck page confirmed annual vaccine and age risk but not the preferential product detail in the extracted Prevention text used for dual keying. Kept annual-vaccine ≥65 item only."
+  },
+  {
+   "draft_topic": "Hypoglycemia 15-15 oral rule stand-alone MC",
+   "reason": "Folded into severe/unconscious glucagon priority item to avoid near-duplicate with oral 15-15 teaching already partially covered by prior insulin-peak cloze context; unconscious pathway dual-cited cleanly."
+  }
+ ],
+ "notes": "12 Source-verified originals. Specialty focus: Critical Care/Emergency, Community/Public Health, Leadership/Management, Pediatrics. NGN: bowtie (stroke), cloze (digoxin), matrix (compartment). Validator must pass before merge."
+}

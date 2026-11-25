@@ -1,0 +1,1655 @@
+{
+ "batch_id": "B58-WAVE49",
+ "author": "AI author (Composer, Cursor subagent bc-4d9f4224) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 49 multi-exam depth — thinner Client Needs PSY/BCC + underrepresented Leadership/Community/Maternity/Professional Practice/Gerontology with NGN matrix/cloze. PSY Mental Health: therapeutic reflection/restating (OpenStax Fund+PMH). BCC Maternity: postpartum sitz bath (OpenStax Maternal+NYGH). HPM Community: seat belts every trip (CDC+Transport Canada). MOC Leadership: verbal/telephone order read-back (AHRQ PSNet+TeamSTEPPS). MOC Ontario PP: CNO brief therapeutic self-disclosure (CNO Dear CNO+case scenarios). PSY Gerontology: dementia wandering ID bracelet (MedlinePlus+NIA). BCC Gerontology: TED hose wrinkles/nonslip (OpenStax Med-Surg). Dual-cited originals.",
+ "items": [
+  {
+   "batch": "B58-WAVE49",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0069",
+   "format": "multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "Therapeutic communication — reflection restates the client’s words to show active listening",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "therapeutic-reflect-restate-active-listening",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "PSY",
+    "therapeutic-communication",
+    "reflecting",
+    "mental-health",
+    "NGN-partner"
+   ],
+   "stem": "A client says, “Nobody on this unit listens to me.” Which nurse response best uses reflection (restating) as a therapeutic communication technique?",
+   "options": [
+    {
+     "key": "A",
+     "text": "“You’re feeling as though staff are not listening to you.”"
+    },
+    {
+     "key": "B",
+     "text": "“You shouldn’t feel that way—everyone here cares about you.”"
+    },
+    {
+     "key": "C",
+     "text": "“Let’s talk about your discharge plans instead.”"
+    },
+    {
+     "key": "D",
+     "text": "“Why are you being so negative about the nurses?”"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax Fundamentals: reflection restates what the patient said so they hear their own words, encourages continued communication, and shows active listening. OpenStax PMH emphasizes active listening to capture meaning without judgment.",
+    "B": "Incorrect. Minimizing/false reassurance is a nontherapeutic barrier.",
+    "C": "Incorrect. Changing the subject is a barrier to therapeutic communication.",
+    "D": "Incorrect. Asking “why” can feel accusatory and is generally nontherapeutic."
+   },
+   "sources": [
+    {
+     "title": "2.4 Therapeutic Communication",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/2-4-therapeutic-communication",
+     "section": "Reflect on the Response",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Nurses who use reflection should restate what the patient has said; allows patient to hear own words; shows active listening."
+    },
+    {
+     "title": "3.1 Therapeutic Communication and Relationships",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/3-1-therapeutic-communication-and-relationships",
+     "section": "Active listening; Barriers (changing the subject; false reassurance)",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Active listening captures meaning/intention without judgment; barriers include false reassurance and changing the subject."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-4d9f4224) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Fund 2.4 reflection/restate + OpenStax PMH 3.1 active listening/barriers dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B58-WAVE49",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0070",
+   "format": "matrix_multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "NGN matrix — reflection/active listening vs nontherapeutic barriers",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "therapeutic-reflect-vs-barriers-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PSY",
+    "therapeutic-communication",
+    "reflecting"
+   ],
+   "stem": "For a client who states, “I feel invisible here,” indicate whether each nurse response is Indicated (therapeutic reflection/active listening) or Not indicated (nontherapeutic barrier).",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Restate: “You’re feeling as though you’re not being noticed.”"
+     },
+     {
+      "key": "R2",
+      "text": "Offer presence and encourage elaboration (e.g., “Go on…” / sit and listen)"
+     },
+     {
+      "key": "R3",
+      "text": "Change the subject to unit meal times to cheer the client up"
+     },
+     {
+      "key": "R4",
+      "text": "Say, “Don’t worry—everyone feels that way sometimes; you’ll be fine.”"
+     },
+     {
+      "key": "R5",
+      "text": "Ask, “Why do you always complain about the staff?”"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Reflection restates the client’s message to show active listening.",
+    "R2": "Indicated. Active listening / offering self supports continued communication.",
+    "R3": "Not indicated. Changing the subject is a barrier.",
+    "R4": "Not indicated. False reassurance/minimizing is nontherapeutic.",
+    "R5": "Not indicated. Accusatory “why” questions are nontherapeutic."
+   },
+   "sources": [
+    {
+     "title": "2.4 Therapeutic Communication",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/2-4-therapeutic-communication",
+     "section": "Therapeutic Communication Techniques; Reflect on the Response; Nontherapeutic Communication Techniques",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Reflection restates patient’s words; active listening (“Go on”); nontherapeutic techniques include changing subject and false reassurance."
+    },
+    {
+     "title": "3.1 Therapeutic Communication and Relationships",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/3-1-therapeutic-communication-and-relationships",
+     "section": "Active listening; Barriers — Changing the Subject; Providing False Reassurance",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R2–R4",
+     "evidence": "Active listening without judgment; barriers include changing the subject and false reassurance."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-4d9f4224) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Fund 2.4 + PMH 3.1 therapeutic vs barrier matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B58-WAVE49",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "OpenStax Maternal-Newborn concordant with Ontario hospital postpartum teaching (NYGH)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0070",
+   "format": "multiple_choice",
+   "specialty": "Maternity/Newborn",
+   "topic": "Postpartum sitz bath — warm shallow soak without soap; pat dry",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "postpartum-sitz-bath-warm-no-soap",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "BCC",
+    "sitz-bath",
+    "postpartum",
+    "maternity",
+    "NGN-partner"
+   ],
+   "stem": "A postpartum client with perineal discomfort after vaginal birth asks how to use a sitz bath at home. Which teaching is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Prepare a warm shallow bath; sit in water without soap for about 10–15 minutes up to three times daily, then gently pat the perineum dry"
+    },
+    {
+     "key": "B",
+     "text": "Add bubble bath and scrub vigorously with a washcloth after each soak"
+    },
+    {
+     "key": "C",
+     "text": "Use only ice water for 45 minutes continuously once a day"
+    },
+    {
+     "key": "D",
+     "text": "Fill the basin with hot undiluted antiseptic and leave the area wet without drying"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: warm shallow bath without soap, soak up to three times/day for 10–15 minutes, gently pat dry; do not add additives unless instructed. NYGH: warm water, do not add soap/bubble bath; sit ~10 minutes ≥3 times/day; pat dry, do not rub.",
+    "B": "Incorrect. Soap/bubble bath is not advised; rubbing can irritate healing tissue.",
+    "C": "Incorrect. Guidance is warm (not ice-only prolonged) soaks for comfort/healing; ice packs are a separate early measure.",
+    "D": "Incorrect. Do not add chemicals unless instructed; pat dry after soaking."
+   },
+   "sources": [
+    {
+     "title": "20.3 Nursing Care During the Postpartum Period",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/20-3-nursing-care-during-the-postpartum-period",
+     "section": "Table 20.6 Sitz bath",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Warm shallow bath; sit without soap up to 3×/day for 10–15 min; gently pat dry; do not add iodine/Epsom/baking soda unless instructed."
+    },
+    {
+     "title": "Mother’s Care After Delivery",
+     "publisher": "North York General Hospital",
+     "url": "https://www.nygh.on.ca/areas-care/maternal-newborn-and-paediatric-care/pregnancy-and-birth/mothers-care-after-delivery/",
+     "section": "Care after a vaginal delivery — Take sitz baths",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Warm water; do not add soap/bubble bath; sit 10 minutes at least 3×/day; gently pat dry, do not rub."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-4d9f4224) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Maternal 20.3 sitz table + NYGH postpartum sitz teaching dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B58-WAVE49",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0071",
+   "format": "matrix_multiple_choice",
+   "specialty": "Maternity/Newborn",
+   "topic": "NGN matrix — postpartum sitz bath teaching indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "postpartum-sitz-bath-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "BCC",
+    "sitz-bath",
+    "maternity"
+   ],
+   "stem": "A nurse teaches postpartum perineal comfort with a sitz bath. Indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Use warm water in a shallow basin/sitz setup"
+     },
+     {
+      "key": "R2",
+      "text": "Soak without soap (unless a provider specifically instructs an additive)"
+     },
+     {
+      "key": "R3",
+      "text": "Gently pat the perineum dry after the soak"
+     },
+     {
+      "key": "R4",
+      "text": "Add bubble bath to the water for fragrance"
+     },
+     {
+      "key": "R5",
+      "text": "Rub the suture line vigorously with a rough towel to stimulate healing"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Warm shallow sitz bath is the recommended comfort measure.",
+    "R2": "Indicated. Sit without soap; additives only if instructed.",
+    "R3": "Indicated. Gently pat dry after soaking.",
+    "R4": "Not indicated. Do not add soap/bubble bath.",
+    "R5": "Not indicated. Rubbing can injure healing tissue; pat dry instead."
+   },
+   "sources": [
+    {
+     "title": "20.3 Nursing Care During the Postpartum Period",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/20-3-nursing-care-during-the-postpartum-period",
+     "section": "Table 20.6 Sitz bath",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Warm shallow bath without soap; pat dry; no additives unless instructed."
+    },
+    {
+     "title": "Mother’s Care After Delivery",
+     "publisher": "North York General Hospital",
+     "url": "https://www.nygh.on.ca/areas-care/maternal-newborn-and-paediatric-care/pregnancy-and-birth/mothers-care-after-delivery/",
+     "section": "Take sitz baths",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Warm water; no soap/bubble bath; pat dry, do not rub."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-4d9f4224) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Maternal 20.3 + NYGH sitz matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B58-WAVE49",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-HPM-0077",
+   "format": "multiple_choice",
+   "specialty": "Community/Public Health",
+   "topic": "Seat belts — buckle up every trip, every seat; air bags are not a substitute",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "seat-belt-every-trip-every-seat",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "HPM",
+    "seat-belt",
+    "community",
+    "injury-prevention",
+    "NGN-partner"
+   ],
+   "stem": "A community health nurse teaches adult vehicle-occupant safety. Which statement is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Wear a seat belt in front and rear seats on every trip, no matter how short; air bags add protection but do not replace seat belts"
+    },
+    {
+     "key": "B",
+     "text": "Seat belts are unnecessary for trips under 5 minutes in residential areas"
+    },
+    {
+     "key": "C",
+     "text": "Rear-seat passengers do not need seat belts if the driver is belted"
+    },
+    {
+     "key": "D",
+     "text": "Air bags alone provide complete crash protection, so seat belts are optional"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: use a seat belt every trip, no matter how short, including back seats; air bags are not a substitute. Transport Canada: buckle up every time, every trip; passengers must always wear seat belts.",
+    "B": "Incorrect. Short trips still require buckling up.",
+    "C": "Incorrect. Rear-seat occupants should buckle up as well.",
+    "D": "Incorrect. Air bags complement—not replace—seat belts."
+   },
+   "sources": [
+    {
+     "title": "Facts About Seat Belt Use",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/seat-belts/facts/",
+     "section": "At a glance; What everyone can do",
+     "source_date": "Page updated Jan 27, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Use a seat belt during every trip, no matter how short; front and back seats; air bags not a substitute for seat belts."
+    },
+    {
+     "title": "Reducing the Risk",
+     "publisher": "Transport Canada / Canada.ca",
+     "url": "https://tc.canada.ca/en/road-transportation/publications/air-bag-deactivation/reducing-risk",
+     "section": "Buckle up — every time, every trip; Passengers must always wear seat belts",
+     "source_date": "Date modified 2013-12-10",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Buckle up every time, every trip; passengers must always wear seat belts."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-4d9f4224) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC seat-belt facts + Transport Canada reducing-risk dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B58-WAVE49",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-HPM-0078",
+   "format": "matrix_multiple_choice",
+   "specialty": "Community/Public Health",
+   "topic": "NGN matrix — seat-belt safety teaching indicated vs not",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "seat-belt-teaching-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "HPM",
+    "seat-belt",
+    "community"
+   ],
+   "stem": "Indicate whether each vehicle-occupant safety teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Buckle up on every trip, including short trips"
+     },
+     {
+      "key": "R2",
+      "text": "Require rear-seat passengers to wear seat belts as well"
+     },
+     {
+      "key": "R3",
+      "text": "Teach that air bags add protection but are not a substitute for seat belts"
+     },
+     {
+      "key": "R4",
+      "text": "Tell adults seat belts are optional if the vehicle has dual air bags"
+     },
+     {
+      "key": "R5",
+      "text": "Advise that only the driver needs to buckle up if traffic is light"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Every trip, no matter how short.",
+    "R2": "Indicated. Front and back seats.",
+    "R3": "Indicated. Air bags complement seat belts; not a substitute.",
+    "R4": "Not indicated. Seat belts remain essential with air bags.",
+    "R5": "Not indicated. All occupants should buckle up."
+   },
+   "sources": [
+    {
+     "title": "Facts About Seat Belt Use",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/seat-belts/facts/",
+     "section": "At a glance; Importance; What everyone can do",
+     "source_date": "Page updated Jan 27, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Every trip; front and back; air bags not substitute."
+    },
+    {
+     "title": "Reducing the Risk",
+     "publisher": "Transport Canada / Canada.ca",
+     "url": "https://tc.canada.ca/en/road-transportation/publications/air-bag-deactivation/reducing-risk",
+     "section": "Every time, every trip; passengers always wear seat belts",
+     "source_date": "Date modified 2013-12-10",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R2",
+     "evidence": "Buckle up every time, every trip; passengers must always wear seat belts."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-4d9f4224) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC + Transport Canada seat-belt matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B58-WAVE49",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0090",
+   "format": "multiple_choice",
+   "specialty": "Leadership/Management",
+   "topic": "Verbal/telephone orders — record and read back for confirmation (closed loop)",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "verbal-telephone-order-record-readback",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "MOC",
+    "verbal-orders",
+    "read-back",
+    "leadership",
+    "NGN-partner"
+   ],
+   "stem": "A provider gives a telephone medication order. Which nursing action best reduces miscommunication risk?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Record the complete order and read it back to the provider for confirmation (closed-loop read-back)"
+    },
+    {
+     "key": "B",
+     "text": "Memorize the order and administer immediately without documenting until the end of the shift"
+    },
+    {
+     "key": "C",
+     "text": "Repeat only the drug name aloud and assume the dose is the usual one for that drug"
+    },
+    {
+     "key": "D",
+     "text": "Enter a different dose than stated if it seems safer, without clarifying with the provider"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. AHRQ PSNet: recipients should record and read back verbal orders; read-back verifies hearing and transcription. AHRQ TeamSTEPPS check-back example: nurse records telephone order and reads it back; provider confirms “Correct.”",
+    "B": "Incorrect. Delayed documentation increases transcription/memory error risk.",
+    "C": "Incorrect. Full order elements must be verified, not assumed.",
+    "D": "Incorrect. Do not silently change orders; clarify/confirm with the provider."
+   },
+   "sources": [
+    {
+     "title": "Verbal Orders and Medication Overrides: A Dangerous Combination",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ) — PSNet",
+     "url": "https://psnet.ahrq.gov/web-mm/verbal-orders-and-medication-overrides-dangerous-combination",
+     "section": "Risk Mitigation Strategies for Recipients of Verbal Orders",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Readback and confirmation; verbal orders recorded and read back; read-back differs from merely repeating and verifies hearing + transcription."
+    },
+    {
+     "title": "Tool: Check-Back (or Repeat-Back)",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/checkback.html",
+     "section": "Telephone order check-back example",
+     "source_date": "Last reviewed July 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Nurse records telephone order into chart and reads it back; physician closes loop saying Correct."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-4d9f4224) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ PSNet verbal-order read-back + TeamSTEPPS check-back dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B58-WAVE49",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0091",
+   "format": "drop_down_cloze",
+   "specialty": "Leadership/Management",
+   "topic": "NGN cloze — verbal order closed-loop read-back steps",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "verbal-order-readback-ngn-cloze",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "cloze",
+    "MOC",
+    "verbal-orders",
+    "leadership"
+   ],
+   "stem": "Complete the statement about safe telephone/verbal medication-order communication.",
+   "ngn": {
+    "template": "The nurse should {B1} the complete order and {B2} to the provider so the provider can {B3}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "record/enter"
+      },
+      {
+       "key": "B1b",
+       "text": "avoid documenting and only memorize"
+      },
+      {
+       "key": "B1c",
+       "text": "delay documentation until after discharge"
+      },
+      {
+       "key": "B1d",
+       "text": "delete unclear portions without clarification"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "read it back"
+      },
+      {
+       "key": "B2b",
+       "text": "whisper only the drug class"
+      },
+      {
+       "key": "B2c",
+       "text": "omit the dose to save time"
+      },
+      {
+       "key": "B2d",
+       "text": "change the route silently if preferred"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "confirm it is correct (close the loop)"
+      },
+      {
+       "key": "B3b",
+       "text": "hang up without responding"
+      },
+      {
+       "key": "B3c",
+       "text": "ask the nurse to invent a dose"
+      },
+      {
+       "key": "B3d",
+       "text": "approve any guessed transcription"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a"
+   },
+   "rationales": {
+    "B1a": "Correct. Record/enter the complete order so transcription can be verified on read-back.",
+    "B1b": "Incorrect. Memorizing without recording increases error risk.",
+    "B1c": "Incorrect. Delayed documentation undermines timely verification.",
+    "B1d": "Incorrect. Clarify incomplete elements; do not silently delete them.",
+    "B2a": "Correct. Read-back communicates the recorded order to the sender for verification.",
+    "B2b": "Incorrect. The full order—not only the class—must be verified.",
+    "B2c": "Incorrect. Dose is a critical order element requiring confirmation.",
+    "B2d": "Incorrect. Do not silently change routes; clarify with the provider.",
+    "B3a": "Correct. Provider confirmation closes the TeamSTEPPS check-back loop.",
+    "B3b": "Incorrect. Lack of confirmation leaves the loop open.",
+    "B3c": "Incorrect. Doses must come from the ordering provider.",
+    "B3d": "Incorrect. Guessed transcriptions are unsafe."
+   },
+   "sources": [
+    {
+     "title": "Verbal Orders and Medication Overrides: A Dangerous Combination",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ) — PSNet",
+     "url": "https://psnet.ahrq.gov/web-mm/verbal-orders-and-medication-overrides-dangerous-combination",
+     "section": "Readback and confirmation",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "B1–B3",
+     "evidence": "Record and read back verbal orders; confirmation verifies accuracy."
+    },
+    {
+     "title": "Tool: Check-Back (or Repeat-Back)",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/checkback.html",
+     "section": "Telephone order example",
+     "source_date": "Last reviewed July 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "B1–B3",
+     "evidence": "Record + read back + sender says Correct."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-4d9f4224) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ PSNet + TeamSTEPPS check-back cloze dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B58-WAVE49",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CNO Professional Boundaries / Dear CNO self-disclosure guidance for Ontario practice",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0092",
+   "format": "multiple_choice",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "CNO — limited brief self-disclosure only when therapeutic; keep focus on client",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cno-brief-self-disclosure-focus-client",
+   "jurisdiction": "Ontario-specific",
+   "tags": [
+    "MOC",
+    "CNO",
+    "boundaries",
+    "self-disclosure",
+    "ontario",
+    "NGN-partner"
+   ],
+   "stem": "An Ontario nurse considers sharing personal details to support an anxious client. According to CNO guidance on self-disclosure, which approach is appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "If used, keep disclosure brief and relevant to the client’s needs, then immediately return the focus to the client’s care"
+    },
+    {
+     "key": "B",
+     "text": "Share extensive details about the nurse’s own illness and family problems so the client can comfort the nurse"
+    },
+    {
+     "key": "C",
+     "text": "Use self-disclosure mainly to meet the nurse’s need for emotional support during the shift"
+    },
+    {
+     "key": "D",
+     "text": "Discuss whatever personal topics the client asks about without limit"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO Dear CNO / case scenarios: limited self-disclosure may be appropriate if brief, relevant, and immediately returns focus to the client. Excessive disclosure can shift focus, create dependence, and cross boundaries. OpenStax PMH: limit self-disclosure within professional boundaries.",
+    "B": "Incorrect. Detailed personal sharing that shifts the client into comforting the nurse is a boundary concern.",
+    "C": "Incorrect. Disclosure must address the client’s therapeutic needs, not the nurse’s personal needs.",
+    "D": "Incorrect. Nurses must remain mindful of how much they disclose."
+   },
+   "sources": [
+    {
+     "title": "Dear CNO — Self-disclosure",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/news/details/dear-cno-self-disclosure?l=en-ca",
+     "section": "Limited vs excessive self-disclosure",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Limited brief relevant disclosure may help; too much is boundary crossing; must address client therapeutic needs; return focus to client."
+    },
+    {
+     "title": "Case Scenarios: Navigating Boundaries in Client Care",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/standards-learning/practice-support/practice-support-faqs/case-scenarios-navigating-boundaries-client-care",
+     "section": "Establishing personal connections — Scenario 1; Addressing personal matters — Scenario 2",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Brief, relevant, immediately bring focus back; excessive disclosure redirects focus and creates dependency—redirect and re-establish boundaries."
+    },
+    {
+     "title": "3.1 Therapeutic Communication and Relationships",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/3-1-therapeutic-communication-and-relationships",
+     "section": "Limit self-disclosure within professional boundaries",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Limit self-disclosure; may be therapeutic if used within professional boundaries and appropriate context; keep focus on client."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-4d9f4224) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Dear CNO/case scenarios self-disclosure + OpenStax PMH limit self-disclosure dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B58-WAVE49",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CNO self-disclosure / boundary guidance for Ontario practice",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0093",
+   "format": "drop_down_cloze",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "NGN cloze — CNO self-disclosure brief, relevant, return focus to client",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cno-self-disclosure-ngn-cloze",
+   "jurisdiction": "Ontario-specific",
+   "tags": [
+    "NGN",
+    "cloze",
+    "MOC",
+    "CNO",
+    "boundaries",
+    "ontario"
+   ],
+   "stem": "Complete the statement about CNO-aligned therapeutic self-disclosure.",
+   "ngn": {
+    "template": "When self-disclosure is used, it should be {B1} and {B2}, and the nurse should then {B3}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "brief"
+      },
+      {
+       "key": "B1b",
+       "text": "exhaustive and highly personal"
+      },
+      {
+       "key": "B1c",
+       "text": "focused on the nurse’s unrelated family conflicts"
+      },
+      {
+       "key": "B1d",
+       "text": "long enough for the client to counsel the nurse"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "relevant to the client’s needs"
+      },
+      {
+       "key": "B2b",
+       "text": "intended mainly to vent the nurse’s stress"
+      },
+      {
+       "key": "B2c",
+       "text": "designed to make the client comfort the nurse"
+      },
+      {
+       "key": "B2d",
+       "text": "unrelated to the reason for the visit"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "return the focus to the client’s care and re-establish boundaries if needed"
+      },
+      {
+       "key": "B3b",
+       "text": "continue sharing until the client asks for a personal phone number"
+      },
+      {
+       "key": "B3c",
+       "text": "ask the client to counsel the nurse about personal problems"
+      },
+      {
+       "key": "B3d",
+       "text": "accept a social-media friend request to deepen rapport"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a"
+   },
+   "rationales": {
+    "B1a": "Correct. CNO: keep self-disclosure brief when it is used.",
+    "B1b": "Incorrect. Extensive personal detail can be a boundary crossing.",
+    "B1c": "Incorrect. Focus must remain therapeutic for the client.",
+    "B1d": "Incorrect. The client should not be placed in a counseling role for the nurse.",
+    "B2a": "Correct. Disclosure must be relevant to the client’s therapeutic needs.",
+    "B2b": "Incorrect. Meeting the nurse’s personal needs is inappropriate.",
+    "B2c": "Incorrect. Clients should not be positioned to comfort the nurse.",
+    "B2d": "Incorrect. Irrelevant personal sharing redirects care.",
+    "B3a": "Correct. Return focus to the client; re-establish boundaries when necessary.",
+    "B3b": "Incorrect. Personal contact sharing crosses boundaries.",
+    "B3c": "Incorrect. Dual role reversal is nontherapeutic.",
+    "B3d": "Incorrect. Social-media dual relationships are inappropriate."
+   },
+   "sources": [
+    {
+     "title": "Dear CNO — Self-disclosure",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/news/details/dear-cno-self-disclosure?l=en-ca",
+     "section": "Brief, relevant; return focus to client",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "B1–B3",
+     "evidence": "Brief, relevant to client needs; return focus to client; re-establish boundaries."
+    },
+    {
+     "title": "Case Scenarios: Navigating Boundaries in Client Care",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/standards-learning/practice-support/practice-support-faqs/case-scenarios-navigating-boundaries-client-care",
+     "section": "Brief self-disclosure scenario; excessive disclosure redirect",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "B1–B3",
+     "evidence": "Brief/relevant/return focus; redirect and re-establish boundaries if oversharing."
+    },
+    {
+     "title": "3.1 Therapeutic Communication and Relationships",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/3-1-therapeutic-communication-and-relationships",
+     "section": "Limit self-disclosure within professional boundaries",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B1–B3",
+     "evidence": "Limit self-disclosure within professional boundaries; keep therapeutic focus on the client."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-4d9f4224) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Dear CNO/case scenarios + OpenStax PMH self-disclosure cloze dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B58-WAVE49",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0071",
+   "format": "multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "Dementia wandering safety — ID bracelet/medical ID and prevention supports",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "dementia-wandering-id-bracelet-safety",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "PSY",
+    "dementia",
+    "wandering",
+    "gerontology",
+    "NGN-partner"
+   ],
+   "stem": "A family caregiver asks how to reduce harm if a person with advanced dementia wanders. Which teaching is the priority safety recommendation?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Have the person wear an ID/medical bracelet (or necklace) with name, address/phone, and caregiver contact information"
+    },
+    {
+     "key": "B",
+     "text": "Leave car keys in plain sight by the door so the person can drive home independently"
+    },
+    {
+     "key": "C",
+     "text": "Remove all door/window alarms because they are too noisy"
+    },
+    {
+     "key": "D",
+     "text": "Avoid telling neighbors about wandering risk to protect privacy completely"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. MedlinePlus: wear ID bracelet/necklace with name, address, phone, and caretaker contact. NIA: medical bracelet with name/address and caregiver phone number; label clothes if bracelet may be removed.",
+    "B": "Incorrect. Keep car keys out of sight to reduce unsafe departure.",
+    "C": "Incorrect. Door/window alarms are recommended prevention supports.",
+    "D": "Incorrect. Informing neighbors is recommended so they can help if wandering occurs."
+   },
+   "sources": [
+    {
+     "title": "Dementia - keeping safe in the home",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000031.htm",
+     "section": "Safety Tips For The Home — wandering",
+     "source_date": "Review Date 4/9/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "ID bracelet/necklace with name, address, phone; caretaker contact; alarms; Stop sign; keep car keys out of sight; tell neighbors."
+    },
+    {
+     "title": "Coping With Alzheimer’s Behaviors: Wandering and Getting Lost",
+     "publisher": "National Institute on Aging",
+     "url": "https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/coping-alzheimers-behaviors-wandering-and",
+     "section": "Tips to help keep a wandering person safe",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Carry ID or wear medical bracelet with name/address and caregiver phone; inform neighbors/police; door locks/alarms; keep keys out of sight."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-4d9f4224) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus dementia home safety + NIA wandering ID bracelet dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B58-WAVE49",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0072",
+   "format": "matrix_multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "NGN matrix — dementia wandering prevention/safety actions indicated vs not",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "dementia-wandering-safety-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PSY",
+    "dementia",
+    "wandering",
+    "gerontology"
+   ],
+   "stem": "For a home-dwelling older adult with dementia and wandering risk, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Ensure the person wears an ID/medical bracelet with contact information"
+     },
+     {
+      "key": "R2",
+      "text": "Place door/window alarms or STOP signs on exit doors"
+     },
+     {
+      "key": "R3",
+      "text": "Keep car keys out of sight"
+     },
+     {
+      "key": "R4",
+      "text": "Leave the person with advanced dementia alone at home for long periods"
+     },
+     {
+      "key": "R5",
+      "text": "Hide all identification so strangers cannot learn the person’s name"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. ID/medical bracelet supports safe return if lost.",
+    "R2": "Indicated. Alarms/STOP signs help prevent unnoticed exits.",
+    "R3": "Indicated. Keep keys out of sight.",
+    "R4": "Not indicated. Do not leave a person with advanced dementia alone.",
+    "R5": "Not indicated. Identification is needed for safe return—not concealment of ID."
+   },
+   "sources": [
+    {
+     "title": "Dementia - keeping safe in the home",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000031.htm",
+     "section": "Wandering prevention and ID",
+     "source_date": "Review Date 4/9/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "ID bracelet; alarms/Stop sign; keys out of sight; do not leave advanced dementia alone."
+    },
+    {
+     "title": "Coping With Alzheimer’s Behaviors: Wandering and Getting Lost",
+     "publisher": "National Institute on Aging",
+     "url": "https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/coping-alzheimers-behaviors-wandering-and",
+     "section": "Tips to keep safe / prevent wandering",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R4",
+     "evidence": "Medical bracelet; locks/alarms/STOP signs; keys out of sight; do not leave unattended if history of wandering."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-4d9f4224) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus + NIA wandering safety matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B58-WAVE49",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0072",
+   "format": "multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "TED/compression stockings — smooth wrinkles; nonslip footwear when ambulating",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "ted-hose-smooth-wrinkles-nonslip",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "BCC",
+    "TED",
+    "compression-stockings",
+    "VTE",
+    "gerontology",
+    "NGN-partner"
+   ],
+   "stem": "An older adult is taught to use ordered thromboembolic deterrent (TED) hose after surgery. Which teaching is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Apply as instructed, smooth out wrinkles, and avoid walking without assistance or nonslip socks/shoes to prevent falls"
+    },
+    {
+     "key": "B",
+     "text": "Leave large wrinkles at the ankles because wrinkles improve compression"
+    },
+    {
+     "key": "C",
+     "text": "Walk freely in stocking feet on polished floors without nonslip footwear"
+    },
+    {
+     "key": "D",
+     "text": "Roll the top tightly as a tourniquet band to keep the stocking from slipping"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax Med-Surg: instruct how to put TED hose on, smooth out wrinkles, and not walk without assistance or nonslip socks to avoid falling. TRU HCA: anti-embolism stockings promote venous return; ensure no wrinkles.",
+    "B": "Incorrect. Wrinkles should be smoothed out.",
+    "C": "Incorrect. Nonslip footwear/assistance is taught to prevent falls.",
+    "D": "Incorrect. Rolling/tight banding can impair circulation; not recommended teaching."
+   },
+   "sources": [
+    {
+     "title": "25.3 Preoperative Nursing Care Plan",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/25-3-preoperative-nursing-care-plan",
+     "section": "Decreasing Clot Risk; Education — TED hose",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Teach how to put TED hose on; smooth out wrinkles; do not walk without assistance or nonslip socks to avoid falling; TED hose stimulate blood flow / reduce clot risk with immobility."
+    },
+    {
+     "title": "4.9 Anti-embolism stockings",
+     "publisher": "Thompson Rivers University — Personal Care Skills for Health Care Assistants (Pressbooks)",
+     "url": "https://hcalabtheoryandpractice.pressbooks.tru.ca/chapter/anti-embolism-stockings/",
+     "section": "General Guidelines — no wrinkles; venous return",
+     "source_date": "Copyright 2023; Updated June 14, 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Anti-embolism stockings promote venous return; always ensure there are no wrinkles (pressure sores); apply while supine before out of bed."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-4d9f4224) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Med-Surg 25.3 TED wrinkles/nonslip + TRU HCA anti-embolism no-wrinkles dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B58-WAVE49",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0073",
+   "format": "matrix_multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "NGN matrix — TED hose teaching indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "ted-hose-teaching-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "BCC",
+    "TED",
+    "gerontology"
+   ],
+   "stem": "Indicate whether each teaching point about ordered TED/compression stockings is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Smooth out wrinkles after application"
+     },
+     {
+      "key": "R2",
+      "text": "Use nonslip socks/shoes or assistance when ambulating"
+     },
+     {
+      "key": "R3",
+      "text": "Explain that stockings help stimulate blood flow / support venous return as ordered for clot-risk reduction"
+     },
+     {
+      "key": "R4",
+      "text": "Encourage walking with wrinkled stockings bunched at the ankles"
+     },
+     {
+      "key": "R5",
+      "text": "Teach that bare stocking feet on slick floors without traction are preferred"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Smooth wrinkles.",
+    "R2": "Indicated. Nonslip footwear/assistance to prevent falls.",
+    "R3": "Indicated. TED/anti-embolism stockings stimulate blood flow / promote venous return for clot-risk reduction.",
+    "R4": "Not indicated. Wrinkles should be smoothed, not left bunched.",
+    "R5": "Not indicated. Traction/nonslip protection is taught."
+   },
+   "sources": [
+    {
+     "title": "25.3 Preoperative Nursing Care Plan",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/25-3-preoperative-nursing-care-plan",
+     "section": "Decreasing Clot Risk; Education — TED hose",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Teach how to put TED hose on; smooth out wrinkles; do not walk without assistance or nonslip socks to avoid falling; TED hose stimulate blood flow / reduce clot risk with immobility."
+    },
+    {
+     "title": "4.9 Anti-embolism stockings",
+     "publisher": "Thompson Rivers University — Personal Care Skills for Health Care Assistants (Pressbooks)",
+     "url": "https://hcalabtheoryandpractice.pressbooks.tru.ca/chapter/anti-embolism-stockings/",
+     "section": "General Guidelines — no wrinkles; venous return",
+     "source_date": "Copyright 2023; Updated June 14, 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1,R3",
+     "evidence": "Anti-embolism stockings promote venous return; always ensure there are no wrinkles (pressure sores); apply while supine before out of bed."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-4d9f4224) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Med-Surg 25.3 + TRU HCA anti-embolism stockings matrix dual-cite."
+    }
+   ]
+  }
+ ]
+}

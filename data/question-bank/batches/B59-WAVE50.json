@@ -1,0 +1,1665 @@
+{
+ "batch_id": "B59-WAVE50",
+ "author": "AI author (Composer, Cursor subagent bc-3ccd5eb7) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 50 multi-exam depth — thinner CN PSY/RRP/SIPC/BCC + underrepresented Leadership/Community/Maternity/Pediatrics/Professional Practice with NGN matrix/cloze. PSY: therapeutic silence (OpenStax Fund+Open RN). BCC Maternity: newborn burping (OpenStax Maternal+MedlinePlus). HPM Community Canada: SPF 30+ sunscreen (Health Canada+CCS). RRP/SIPC Pediatrics: HFMD supportive care & infection control (CPS+CDC). MOC Leadership: TeamSTEPPS DESC (AHRQ DESC+CUSP). MOC Ontario PP: discontinue care without abandonment (CNO standard+Code). Dual-cited originals.",
+ "items": [
+  {
+   "batch": "B59-WAVE50",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0073",
+   "format": "multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "Therapeutic communication — using silence gives the client time to think and process",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "therapeutic-using-silence-process-time",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "PSY",
+    "therapeutic-communication",
+    "silence",
+    "mental-health",
+    "NGN-partner"
+   ],
+   "stem": "A client pauses after saying, “I’m not sure I can talk about this yet.” Which nurse action best uses silence as a therapeutic communication technique?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Remain quiet and present, allowing the client time to think and break the silence when ready"
+    },
+    {
+     "key": "B",
+     "text": "Immediately fill the pause with advice about what the client should feel"
+    },
+    {
+     "key": "C",
+     "text": "Change the subject to unit visiting hours to lighten the mood"
+    },
+    {
+     "key": "D",
+     "text": "Say, “Don’t worry—everything will be fine,” and leave the room"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax Fundamentals: using silence allows the patient time to think and process; nurses should respectfully let the patient break the silence. Open RN Fundamentals: providing silence gives clients time to process, self-reflect, and broach a new topic; the nurse may use nonverbal cues but does not rush to speak.",
+    "B": "Incorrect. Filling silence with advice interrupts processing and can be nontherapeutic.",
+    "C": "Incorrect. Changing the subject is a nontherapeutic barrier.",
+    "D": "Incorrect. False reassurance and leaving abandon therapeutic presence."
+   },
+   "sources": [
+    {
+     "title": "2.4 Therapeutic Communication",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/2-4-therapeutic-communication",
+     "section": "Therapeutic Communication Techniques — Using silence",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Using silence: allowing a patient time to think and process is important; nurses should respectfully let the patient break the silence."
+    },
+    {
+     "title": "2.3 Communicating With Patients",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://wtcs.pressbooks.pub/nursingfundamentals/chapter/2-3-communicating-with-patients/",
+     "section": "Table 2.3a — Providing Silence",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Providing silence: deliberate silence for thinking/processing/self-reflection; nurse does not verbally respond immediately; may nod/nonverbal active listening."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-3ccd5eb7) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Fund 2.4 using silence + Open RN Fund 2.3 providing silence dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B59-WAVE50",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0074",
+   "format": "matrix_multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "NGN matrix — silence/presence vs nontherapeutic barriers",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "therapeutic-silence-vs-barriers-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PSY",
+    "therapeutic-communication",
+    "silence"
+   ],
+   "stem": "After a client discloses a painful experience and then falls silent, indicate whether each nurse behaviour is Indicated (therapeutic silence/presence) or Not indicated (nontherapeutic barrier).",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Sit quietly with the client and allow them time to think before speaking again"
+     },
+     {
+      "key": "R2",
+      "text": "Use nonverbal attending (e.g., calm presence/nodding) without rushing to fill the pause"
+     },
+     {
+      "key": "R3",
+      "text": "Immediately change the subject to meal choices to cheer the client up"
+     },
+     {
+      "key": "R4",
+      "text": "Say, “At least it wasn’t worse—you’ll be fine,” and move on"
+     },
+     {
+      "key": "R5",
+      "text": "Ask, “Why are you being so quiet and difficult?” in an accusatory tone"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Silence allows thinking/processing; let the client break silence.",
+    "R2": "Indicated. Open RN: nonverbal cues can support silence without interrupting.",
+    "R3": "Not indicated. Changing the subject is a barrier.",
+    "R4": "Not indicated. Minimizing/false reassurance is nontherapeutic.",
+    "R5": "Not indicated. Accusatory “why” questions are nontherapeutic."
+   },
+   "sources": [
+    {
+     "title": "2.4 Therapeutic Communication",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/2-4-therapeutic-communication",
+     "section": "Using silence; Nontherapeutic Communication Techniques",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Using silence for processing; nontherapeutic techniques include changing the subject and automatic/minimizing responses."
+    },
+    {
+     "title": "2.3 Communicating With Patients",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://wtcs.pressbooks.pub/nursingfundamentals/chapter/2-3-communicating-with-patients/",
+     "section": "Providing Silence",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R2",
+     "evidence": "Deliberate silence with optional nonverbal attending; do not rush verbal response."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-3ccd5eb7) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Fund silence/barriers + Open RN providing silence dual-cite matrix."
+    }
+   ]
+  },
+  {
+   "batch": "B59-WAVE50",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0074",
+   "format": "multiple_choice",
+   "specialty": "Maternity/Newborn",
+   "topic": "Infant burping — gently pat/rub back during and after feeds to release trapped air",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "newborn-burping-gentle-pat-during-after",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "BCC",
+    "burping",
+    "newborn",
+    "maternity",
+    "NGN-partner"
+   ],
+   "stem": "Parents ask how to burp their newborn who fusses with gas during feeds. Which teaching is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "During and after feeding, hold the infant in a supported burping position and gently pat or rub the back to help release swallowed air"
+    },
+    {
+     "key": "B",
+     "text": "Pound firmly between the shoulder blades for several minutes every time, even if the baby is comfortable"
+    },
+    {
+     "key": "C",
+     "text": "Never burp bottle-fed or breastfed infants because burping always causes injury"
+    },
+    {
+     "key": "D",
+     "text": "Lay the infant completely flat and shake the torso to move air out of the stomach"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: burping removes trapped air; use shoulder/lap positions and gently rub or pat the back; breastfed often between breasts and at end; bottle-fed as needed during/after. MedlinePlus: burp several times during and after feeding with upright support and gentle patting.",
+    "B": "Incorrect. OpenStax: do not pound harder—this can cause injury and does not improve burping.",
+    "C": "Incorrect. Both breastfed and bottle-fed infants may swallow air and benefit from burping.",
+    "D": "Incorrect. Supported upright/lap burping positions are taught; shaking is unsafe."
+   },
+   "sources": [
+    {
+     "title": "24.1 Basic Newborn Care",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/24-1-basic-newborn-care",
+     "section": "How to Burp a Baby",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Burping removes trapped air; three positions; gently rub or pat back; do not pound harder; frequency during/after feeds based on infant needs."
+    },
+    {
+     "title": "Spitting up - self-care",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000754.htm",
+     "section": "How to Reduce Spitting up",
+     "source_date": "Review Date 7/31/2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Burp baby several times during and after feeding; sit upright with head supported; gently pat back."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-3ccd5eb7) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Maternal 24.1 burping + MedlinePlus spit-up burping dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B59-WAVE50",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0075",
+   "format": "matrix_multiple_choice",
+   "specialty": "Maternity/Newborn",
+   "topic": "NGN matrix — newborn burping teaching indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "newborn-burping-teaching-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "BCC",
+    "burping",
+    "maternity"
+   ],
+   "stem": "For parents learning to burp a newborn, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Gently pat or rub the infant’s back in a supported burping position during/after feeds"
+     },
+     {
+      "key": "R2",
+      "text": "Burp a breastfed infant between breasts and at the end of feeding when needed"
+     },
+     {
+      "key": "R3",
+      "text": "Pound hard on the infant’s back to force a louder burp faster"
+     },
+     {
+      "key": "R4",
+      "text": "Hold the infant upright for a period after feeding to help reduce spit-up when advised"
+     },
+     {
+      "key": "R5",
+      "text": "Shake the infant vigorously while flat to “get the air out”"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Gentle pat/rub in supported positions is standard burping technique.",
+    "R2": "Indicated. OpenStax: usually enough to burp breastfed infants between breasts and at end.",
+    "R3": "Not indicated. Pounding harder can injure and does not improve burping.",
+    "R4": "Indicated. MedlinePlus: hold upright 15–30 minutes after feeding to reduce spit-up.",
+    "R5": "Not indicated. Unsafe; not a taught burping method."
+   },
+   "sources": [
+    {
+     "title": "24.1 Basic Newborn Care",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/24-1-basic-newborn-care",
+     "section": "How to Burp a Baby",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R3",
+     "evidence": "Gentle rub/pat; breastfed between breasts and end; do not pound harder."
+    },
+    {
+     "title": "Spitting up - self-care",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000754.htm",
+     "section": "How to Reduce Spitting up",
+     "source_date": "Review Date 7/31/2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1, R4",
+     "evidence": "Burp during/after feeds with gentle pat; hold upright 15–30 minutes after feeding."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-3ccd5eb7) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax burping + MedlinePlus spit-up reduction dual-cite matrix."
+    }
+   ]
+  },
+  {
+   "batch": "B59-WAVE50",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Health Canada and Canadian Cancer Society SPF 30+ guidance (stricter than some US SPF 15 minima)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-HPM-0079",
+   "format": "multiple_choice",
+   "specialty": "Community/Public Health",
+   "topic": "Canada sun safety — broad-spectrum water-resistant sunscreen SPF 30+; reapply about every 2 hours",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "canada-sunscreen-spf30-reapply-2h",
+   "jurisdiction": "Canada-specific",
+   "tags": [
+    "HPM",
+    "sun-safety",
+    "sunscreen",
+    "community",
+    "Canada",
+    "NGN-partner"
+   ],
+   "stem": "A community nurse in Canada teaches outdoor workers about sunscreen. Which instruction matches Canadian public-health guidance?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Use a broad-spectrum, water-resistant sunscreen with SPF 30 or higher and reapply at least every 2 hours (sooner if sweating/swimming)"
+    },
+    {
+     "key": "B",
+     "text": "Any lip balm without SPF fully replaces sunscreen for the face and body"
+    },
+    {
+     "key": "C",
+     "text": "Apply sunscreen once each spring and never reapply during outdoor work"
+    },
+    {
+     "key": "D",
+     "text": "Indoor tanning beds are a healthy way to build a protective base tan before summer"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Health Canada: broad-spectrum SPF 30 or higher; apply ≥15 minutes before sun; reapply at least every 2 hours and after sweating/swimming. Canadian Cancer Society: broad-spectrum SPF 30+; reapply every 2 hours or after sweating/swimming; use with shade/clothing/hats.",
+    "B": "Incorrect. SPF lip balm protects lips but does not replace full-body sunscreen.",
+    "C": "Incorrect. Reapplication at least every 2 hours during exposure is required.",
+    "D": "Incorrect. Health Canada: avoid tanning equipment; no healthy tan; increases melanoma risk."
+   },
+   "sources": [
+    {
+     "title": "Sunscreens",
+     "publisher": "Health Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/health-canada/services/sun-safety/sunscreens.html",
+     "section": "Top sunscreen safety tips",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Broad-spectrum SPF 30 or higher; apply 15 min before; reapply at least every 2 hours; sooner if sweating/swimming/towelling."
+    },
+    {
+     "title": "Enjoy the sun safely",
+     "publisher": "Canadian Cancer Society",
+     "url": "https://cancer.ca/en/cancer-information/reduce-your-risk/be-sun-safe/enjoy-the-sun-safely",
+     "section": "Use sunscreen properly",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A; distractor D context with Health Canada basics",
+     "evidence": "Broad-spectrum SPF 30 or higher; water-resistant if swimming; reapply every 2 hours or after sweating/swimming; use with shade/clothing/hats."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-3ccd5eb7) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Health Canada sunscreens SPF 30+ + Canadian Cancer Society sun-safe dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B59-WAVE50",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Canada-specific sun-safety teaching (Health Canada + Canadian Cancer Society SPF 30+ / no tanning equipment)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-HPM-0080",
+   "format": "matrix_multiple_choice",
+   "specialty": "Community/Public Health",
+   "topic": "NGN matrix — Canadian sun-safety teaching indicated vs not",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "canada-sun-safety-teaching-ngn-matrix",
+   "jurisdiction": "Canada-specific",
+   "tags": [
+    "NGN",
+    "matrix",
+    "HPM",
+    "sun-safety",
+    "community",
+    "Canada"
+   ],
+   "stem": "For Canadian community sun-safety teaching when the UV Index is 3 or higher, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Apply broad-spectrum water-resistant sunscreen SPF 30+ and reapply about every 2 hours"
+     },
+     {
+      "key": "R2",
+      "text": "Seek shade and wear protective clothing plus a wide-brimmed hat"
+     },
+     {
+      "key": "R3",
+      "text": "Use indoor tanning equipment to build a “healthy base tan” before outdoor work"
+     },
+     {
+      "key": "R4",
+      "text": "Rely on sunscreen alone and ignore shade/clothing because SPF replaces all other protection"
+     },
+     {
+      "key": "R5",
+      "text": "Avoid tanning beds/sun lamps because they damage skin and raise melanoma risk"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Not indicated",
+    "R5": "Indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. HC and CCS recommend SPF 30+ broad-spectrum with reapplication ~q2h.",
+    "R2": "Indicated. Shade, clothing, and wide-brim hat are core sun-safety behaviours.",
+    "R3": "Not indicated. No healthy tan from tanning equipment; increases melanoma risk.",
+    "R4": "Not indicated. CCS: use sunscreen along with shade/clothing/hats, not instead of them.",
+    "R5": "Indicated. Health Canada: avoid tanning equipment."
+   },
+   "sources": [
+    {
+     "title": "Sun safety basics",
+     "publisher": "Health Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/health-canada/services/sun-safety/sun-safety-basics.html",
+     "section": "Sun safety tips; Avoid using tanning equipment",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R3, R5",
+     "evidence": "SPF ≥30 broad-spectrum water-resistant when UV Index ≥3; cover up; avoid tanning equipment."
+    },
+    {
+     "title": "Enjoy the sun safely",
+     "publisher": "Canadian Cancer Society",
+     "url": "https://cancer.ca/en/cancer-information/reduce-your-risk/be-sun-safe/enjoy-the-sun-safely",
+     "section": "The 6 best ways to be sun safe",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R4",
+     "evidence": "SPF 30+; shade; clothing; hat; sunscreen with—not instead of—other protection; tanning beds are UV sources."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-3ccd5eb7) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Health Canada sun basics + CCS enjoy-the-sun-safely dual-cite matrix."
+    }
+   ]
+  },
+  {
+   "batch": "B59-WAVE50",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0072",
+   "format": "multiple_choice",
+   "specialty": "Pediatrics",
+   "topic": "Hand-foot-and-mouth disease — supportive care; antibiotics do not shorten the viral illness",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "hfmd-no-antibiotics-supportive-care",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "RRP",
+    "HFMD",
+    "pediatrics",
+    "antibiotics-stewardship",
+    "NGN-partner"
+   ],
+   "stem": "Parents of a toddler with hand, foot, and mouth disease ask for antibiotics “to clear it faster.” Which nurse response is best?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Antibiotics will not make this viral illness go away faster; focus on comfort, fluids, and fever/pain relief as directed, and hand hygiene to limit spread"
+    },
+    {
+     "key": "B",
+     "text": "Start leftover amoxicillin from a sibling’s ear infection today"
+    },
+    {
+     "key": "C",
+     "text": "Antibiotics are required for every child with HFMD to prevent lifelong carriage"
+    },
+    {
+     "key": "D",
+     "text": "Give aspirin every 4 hours until the rash disappears"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CPS: no treatment for the infection; antibiotics won’t help it go away faster; comfort, fluids, acetaminophen/ibuprofen for mouth-sore pain; handwashing. CDC: usually get better in 7–10 days with minimal/no medical treatment; manage pain/fever; never give aspirin to children.",
+    "B": "Incorrect. Leftover antibiotics are inappropriate for this viral illness and unsafe.",
+    "C": "Incorrect. HFMD is viral; antibiotics are not routinely indicated.",
+    "D": "Incorrect. CDC: never give aspirin to children (Reye risk context for viral illness)."
+   },
+   "sources": [
+    {
+     "title": "Hand, foot and mouth disease",
+     "publisher": "Canadian Paediatric Society — Caring for Kids",
+     "url": "https://caringforkids.cps.ca/handouts/health-conditions-and-treatments/hand_foot_and_mouth_disease",
+     "section": "What can parents do?",
+     "source_date": "Last updated: May 2019",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "No treatment for the infection; antibiotics won’t help it go away faster; comfort, fluids; acetaminophen/ibuprofen; handwashing."
+    },
+    {
+     "title": "About Hand, Foot, and Mouth Disease",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/hand-foot-mouth/about/index.html",
+     "section": "Treatment and recovery",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A; distractor D",
+     "evidence": "Most people get better in 7–10 days with minimal or no medical treatment; OTC meds for fever/pain; never give aspirin to children."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-3ccd5eb7) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CPS Caring for Kids HFMD + CDC HFMD treatment dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B59-WAVE50",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0073",
+   "format": "matrix_multiple_choice",
+   "specialty": "Pediatrics",
+   "topic": "NGN matrix — HFMD supportive care and contagion teaching indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "hfmd-supportive-contagion-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "RRP",
+    "HFMD",
+    "pediatrics"
+   ],
+   "stem": "For a child with hand, foot, and mouth disease, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Explain that antibiotics will not shorten this typical viral illness"
+     },
+     {
+      "key": "R2",
+      "text": "Encourage handwashing and cleaning toys/surfaces to limit spread"
+     },
+     {
+      "key": "R3",
+      "text": "Keep the child home from school/child care while they have symptoms (fever/illness)"
+     },
+     {
+      "key": "R4",
+      "text": "Recommend aspirin around the clock for fever in young children"
+     },
+     {
+      "key": "R5",
+      "text": "Advise popping blisters to “drain the virus faster”"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. CPS: antibiotics won’t help it go away faster.",
+    "R2": "Indicated. CPS/CDC emphasize hand hygiene and cleaning surfaces/toys.",
+    "R3": "Indicated. CPS: children should stay home from school and child care if they have symptoms; CDC: return when no fever and well enough (and no uncontrolled drooling).",
+    "R4": "Not indicated. CDC: never give aspirin to children.",
+    "R5": "Not indicated. CPS: do not pop the blisters; they heal on their own."
+   },
+   "sources": [
+    {
+     "title": "Hand, foot and mouth disease",
+     "publisher": "Canadian Paediatric Society — Caring for Kids",
+     "url": "https://caringforkids.cps.ca/handouts/health-conditions-and-treatments/hand_foot_and_mouth_disease",
+     "section": "What can parents do?",
+     "source_date": "Last updated: May 2019",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "R1–R3, R5",
+     "evidence": "Antibiotics won’t help; handwashing; stay home if symptoms; do not pop blisters; wash toys/surfaces."
+    },
+    {
+     "title": "About Hand, Foot, and Mouth Disease",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/hand-foot-mouth/about/index.html",
+     "section": "Prevention; Treatment and recovery; When to return to school",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R2–R4",
+     "evidence": "Handwashing/disinfect surfaces; never aspirin; return when no fever and well enough to participate."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-3ccd5eb7) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CPS HFMD + CDC HFMD supportive/contagion dual-cite matrix."
+    }
+   ]
+  },
+  {
+   "batch": "B59-WAVE50",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "single-source"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0094",
+   "format": "multiple_choice",
+   "specialty": "Leadership/Management",
+   "topic": "TeamSTEPPS DESC script — constructive approach for interpersonal/hostile conflict",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "teamstepps-desc-interpersonal-conflict",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "MOC",
+    "TeamSTEPPS",
+    "DESC",
+    "leadership",
+    "NGN-partner"
+   ],
+   "stem": "A colleague repeatedly humiliates a nurse in front of clients. Which TeamSTEPPS tool is most appropriate to manage this interpersonal conflict constructively?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Use the DESC script (Describe, Express, Suggest, Consequences) in a private, respectful conversation focused on win-win resolution"
+    },
+    {
+     "key": "B",
+     "text": "Ignore the behaviour indefinitely because conflict tools are only for medication orders"
+    },
+    {
+     "key": "C",
+     "text": "Yell the same insults back at the colleague in the hallway to “even the score”"
+    },
+    {
+     "key": "D",
+     "text": "Post the colleague’s name and complaints on social media for public shaming"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. AHRQ TeamSTEPPS DESC tool: constructive approach for managing/resolving conflict, especially interpersonal/hostile or harassing behaviours risking harm; use private location and “I” statements. CUSP/TeamSTEPPS notes: DESC = Describe, Express, Suggest, Consequences.",
+    "B": "Incorrect. DESC is intended for conflict management, including interpersonal conflict affecting safety/teamwork.",
+    "C": "Incorrect. Retaliatory public confrontation is not DESC and harms patients/team.",
+    "D": "Incorrect. Public shaming is unprofessional and not a TeamSTEPPS conflict tool."
+   },
+   "sources": [
+    {
+     "title": "Tool: DESC",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/teamstepps-program/curriculum/mutual/tools/desc.html",
+     "section": "Tool: DESC",
+     "source_date": "Last reviewed July 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "DESC constructive approach for conflict; especially interpersonal/hostile/harassing behaviours; private location; I statements; win-win."
+    },
+    {
+     "title": "Implement Teamwork and Communication",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork-notes.html",
+     "section": "Slide 27. DESC Script",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "DESC mnemonic: Describe, Express, Suggest, Consequences; used for personal/high conflict including hostile/harassing behaviours."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-3ccd5eb7) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ TeamSTEPPS DESC tool + AHRQ CUSP DESC script dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B59-WAVE50",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "single-source"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0095",
+   "format": "drop_down_cloze",
+   "specialty": "Leadership/Management",
+   "topic": "NGN cloze — TeamSTEPPS DESC mnemonic letters",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Remembering",
+   "enemy_group": "teamstepps-desc-mnemonic-ngn-cloze",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "cloze",
+    "MOC",
+    "TeamSTEPPS",
+    "DESC",
+    "leadership"
+   ],
+   "stem": "Complete the TeamSTEPPS DESC script mnemonic used to manage interpersonal conflict.",
+   "ngn": {
+    "template": "DESC stands for {B1}, {B2}, {B3}, and {B4}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "Describe the specific situation"
+      },
+      {
+       "key": "B1b",
+       "text": "Dismiss the concern"
+      },
+      {
+       "key": "B1c",
+       "text": "Delegate blame publicly"
+      },
+      {
+       "key": "B1d",
+       "text": "Delay all feedback forever"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "Express your concerns about the action"
+      },
+      {
+       "key": "B2b",
+       "text": "Exaggerate rumors"
+      },
+      {
+       "key": "B2c",
+       "text": "Exclude the other person from care"
+      },
+      {
+       "key": "B2d",
+       "text": "Erase documentation of the event"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "Suggest other alternatives and seek agreement"
+      },
+      {
+       "key": "B3b",
+       "text": "Sabotage the colleague’s work"
+      },
+      {
+       "key": "B3c",
+       "text": "Silence all safety reporting"
+      },
+      {
+       "key": "B3d",
+       "text": "Skip private discussion and shame in public"
+      }
+     ],
+     "B4": [
+      {
+       "key": "B4a",
+       "text": "state Consequences in terms of team goals"
+      },
+      {
+       "key": "B4b",
+       "text": "Cancel the care plan without discussion"
+      },
+      {
+       "key": "B4c",
+       "text": "Conceal the conflict from leadership always"
+      },
+      {
+       "key": "B4d",
+       "text": "Criticize personality instead of behaviour"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a",
+    "B4": "B4a"
+   },
+   "rationales": {
+    "B1a": "Correct. D = Describe the specific situation.",
+    "B1b": "Incorrect. Dismissing concerns is not DESC.",
+    "B1c": "Incorrect. Public blame is opposite of constructive DESC use.",
+    "B1d": "Incorrect. DESC is a timely feedback/conflict tool.",
+    "B2a": "Correct. E = Express your concerns about the action.",
+    "B2b": "Incorrect. Rumors are not expressive professional feedback.",
+    "B2c": "Incorrect. Exclusion is not the Express step.",
+    "B2d": "Incorrect. Do not erase documentation.",
+    "B3a": "Correct. S = Suggest alternatives and seek agreement.",
+    "B3b": "Incorrect. Sabotage is unprofessional.",
+    "B3c": "Incorrect. Silencing safety reporting is unsafe.",
+    "B3d": "Incorrect. DESC prefers private location.",
+    "B4a": "Correct. C = Consequences in terms of established team goals.",
+    "B4b": "Incorrect. Unilateral cancellation is not the Consequences step.",
+    "B4c": "Incorrect. Concealment blocks resolution.",
+    "B4d": "Incorrect. Focus on what is right, not who is right / behaviour not personality attacks."
+   },
+   "sources": [
+    {
+     "title": "Implement Teamwork and Communication",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork-notes.html",
+     "section": "Slide 27. DESC Script — mnemonic",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "B1–B4",
+     "evidence": "D describe; E express; S suggest alternatives/seek agreement; C consequences in terms of team goals."
+    },
+    {
+     "title": "Section 1: Overview of Mutual Support Key Concepts and Tools",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/teamstepps-program/curriculum/mutual/overview/index.html",
+     "section": "DESC (Describe, Express, Suggest, Consequences) Script",
+     "source_date": "Last reviewed July 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "B1–B4",
+     "evidence": "Heading states DESC (Describe, Express, Suggest, Consequences) as constructive conflict approach."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-3ccd5eb7) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ CUSP DESC letter expansion + TeamSTEPPS mutual-support DESC overview dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B59-WAVE50",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Ontario CNO Discontinuing or Declining to Provide Care + Code of Conduct 3.13",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "single-source"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0096",
+   "format": "multiple_choice",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "CNO — do not abandon clients; arrange alternative/replacement services when discontinuing care",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cno-discontinue-care-arrange-alternative",
+   "jurisdiction": "Ontario-specific",
+   "tags": [
+    "MOC",
+    "CNO",
+    "discontinuing-care",
+    "professional-practice",
+    "Ontario",
+    "NGN-partner"
+   ],
+   "stem": "An Ontario nurse plans to discontinue nursing services for a client who still needs care. Which action best meets CNO accountabilities?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Arrange timely alternative or replacement services, or give the client a reasonable opportunity to arrange them—do not abandon the client"
+    },
+    {
+     "key": "B",
+     "text": "Stop all care immediately without notice because the nurse is annoyed with the client"
+    },
+    {
+     "key": "C",
+     "text": "Walk away mid-shift without communicating with the client, team, or employer"
+    },
+    {
+     "key": "D",
+     "text": "Refuse to explore any options and leave the client without access to ongoing care"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO Discontinuing or Declining to Provide Care: nurses cannot abandon/neglect clients; ensure ongoing access to care; discontinue only after other options explored. Code of Conduct 3.13: arrange timely alternative/replacement services or provide reasonable opportunity to arrange them. Professional misconduct regulation also addresses discontinuation without alternatives.",
+    "B": "Incorrect. Annoyance alone is not a basis to abandon needed services without alternatives.",
+    "C": "Incorrect. Clear communication with client/team/employer is required.",
+    "D": "Incorrect. Exploring options and ensuring access to care are required."
+   },
+   "sources": [
+    {
+     "title": "Discontinuing or Declining to Provide Care",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/ps-discontinuing-or-declining-to-provide-care-en.pdf",
+     "section": "Introduction — duty not to abandon; ensure ongoing access",
+     "source_date": "Published June 2024; updated July 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Cannot abandon or neglect clients; ensure ongoing access to care; consider discontinuing only once other options explored; misconduct if discontinue needed services without client request/alternatives/reasonable opportunity."
+    },
+    {
+     "title": "Code of Conduct",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/49040_code-of-conduct.pdf",
+     "section": "3.13 Discontinuing nursing services",
+     "source_date": "Updated April 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Nurses arrange timely alternative or replacement services or provide clients a reasonable opportunity to arrange alternative services."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-3ccd5eb7) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Discontinuing/Declining standard + CNO Code 3.13 dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B59-WAVE50",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Ontario CNO discontinuing-care accountabilities (alternative/replacement services)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "single-source"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0097",
+   "format": "drop_down_cloze",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "NGN cloze — CNO discontinuing care requires alternatives or reasonable opportunity",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Understanding",
+   "enemy_group": "cno-discontinue-alternatives-ngn-cloze",
+   "jurisdiction": "Ontario-specific",
+   "tags": [
+    "NGN",
+    "cloze",
+    "MOC",
+    "CNO",
+    "professional-practice",
+    "Ontario"
+   ],
+   "stem": "Complete the statement about Ontario nurses’ accountabilities when discontinuing nursing services.",
+   "ngn": {
+    "template": "Nurses must not {B1} clients; when discontinuing needed services they arrange {B2} or provide a {B3}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "abandon or neglect"
+      },
+      {
+       "key": "B1b",
+       "text": "document care"
+      },
+      {
+       "key": "B1c",
+       "text": "communicate with the team"
+      },
+      {
+       "key": "B1d",
+       "text": "follow the Code of Conduct"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "timely alternative or replacement services"
+      },
+      {
+       "key": "B2b",
+       "text": "secret social-media posts about the client"
+      },
+      {
+       "key": "B2c",
+       "text": "immediate cessation with zero notice always"
+      },
+      {
+       "key": "B2d",
+       "text": "care only if the nurse likes the client"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "reasonable opportunity for the client to arrange alternative services"
+      },
+      {
+       "key": "B3b",
+       "text": "guarantee that no other provider will ever be involved"
+      },
+      {
+       "key": "B3c",
+       "text": "promise to ignore employer policies"
+      },
+      {
+       "key": "B3d",
+       "text": "plan to leave without any handover"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a"
+   },
+   "rationales": {
+    "B1a": "Correct. CNO: nurses cannot abandon or neglect clients to whom they have a care commitment.",
+    "B1b": "Incorrect. Documentation remains required; the blank concerns abandonment.",
+    "B1c": "Incorrect. Communication is required, not prohibited.",
+    "B1d": "Incorrect. Nurses must follow the Code; this is not what must be avoided.",
+    "B2a": "Correct. Code 3.13: arrange timely alternative or replacement services.",
+    "B2b": "Incorrect. Social-media posting of client information is prohibited.",
+    "B2c": "Incorrect. Zero-notice cessation without alternatives risks abandonment.",
+    "B2d": "Incorrect. Care decisions are not based on personal liking.",
+    "B3a": "Correct. Provide a reasonable opportunity to arrange alternative services.",
+    "B3b": "Incorrect. Alternative providers are part of safe transition.",
+    "B3c": "Incorrect. Employer/professional standards still apply.",
+    "B3d": "Incorrect. Handover/communication supports safety."
+   },
+   "sources": [
+    {
+     "title": "Discontinuing or Declining to Provide Care",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/ps-discontinuing-or-declining-to-provide-care-en.pdf",
+     "section": "Introduction; professional misconduct context for discontinuation",
+     "source_date": "Published June 2024; updated July 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "B1–B3",
+     "evidence": "Cannot abandon/neglect; ensure ongoing access; discontinue needed services only with client request, alternatives arranged, or reasonable opportunity to arrange alternatives."
+    },
+    {
+     "title": "Code of Conduct",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/49040_code-of-conduct.pdf",
+     "section": "3.13",
+     "source_date": "Updated April 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "B2–B3",
+     "evidence": "Arrange timely alternative or replacement services or provide reasonable opportunity to arrange alternative services."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-3ccd5eb7) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO discontinue standard + Code 3.13 cloze dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B59-WAVE50",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0074",
+   "format": "multiple_choice",
+   "specialty": "Pediatrics",
+   "topic": "HFMD infection control — hand hygiene and stay home while symptomatic",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "hfmd-hand-hygiene-stay-home-symptomatic",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "SIPC",
+    "HFMD",
+    "pediatrics",
+    "infection-control",
+    "NGN-partner"
+   ],
+   "stem": "A daycare asks how to limit spread of hand, foot, and mouth disease. Which instruction is best?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Promote frequent handwashing with soap and water, clean/disinfect toys and surfaces, and keep symptomatic children home from daycare/school"
+    },
+    {
+     "key": "B",
+     "text": "Stop all handwashing because HFMD is not contagious"
+    },
+    {
+     "key": "C",
+     "text": "Encourage hugging and sharing drinks with children who have active mouth sores"
+    },
+    {
+     "key": "D",
+     "text": "Tell parents HFMD never spreads through saliva or stool"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: wash hands often, clean/disinfect surfaces, avoid close contact with infected persons. CPS: handwashing best prevention; wash toys/surfaces; children should stay home from school/child care if they have symptoms; spreads via saliva/stool.",
+    "B": "Incorrect. HFMD is very contagious; hand hygiene is essential.",
+    "C": "Incorrect. Avoid close contact/kissing/hugging while infectious; do not share fluids with mouth sores.",
+    "D": "Incorrect. CPS/CDC: spreads through saliva/droplets and stool/contact with contaminated objects."
+   },
+   "sources": [
+    {
+     "title": "About Hand, Foot, and Mouth Disease",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/hand-foot-mouth/about/index.html",
+     "section": "Prevention; How it spreads",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Wash hands; clean/disinfect surfaces; avoid close contact; spreads via droplets, surfaces, blister fluid, poop."
+    },
+    {
+     "title": "Hand, foot and mouth disease",
+     "publisher": "Canadian Paediatric Society — Caring for Kids",
+     "url": "https://caringforkids.cps.ca/handouts/health-conditions-and-treatments/hand_foot_and_mouth_disease",
+     "section": "How does it spread?; What can parents do?",
+     "source_date": "Last updated: May 2019",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Spreads via saliva or stool; handwashing best prevention; stay home if symptoms; wash toys/surfaces."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-3ccd5eb7) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC HFMD prevention + CPS HFMD spread/stay-home dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B59-WAVE50",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0075",
+   "format": "matrix_multiple_choice",
+   "specialty": "Pediatrics",
+   "topic": "NGN matrix — HFMD infection-prevention actions indicated vs not",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "hfmd-infection-prevention-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "SIPC",
+    "HFMD",
+    "pediatrics"
+   ],
+   "stem": "To reduce spread of hand, foot, and mouth disease in a child-care setting, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Wash hands with soap and water after diapering, toileting, and before food prep"
+     },
+     {
+      "key": "R2",
+      "text": "Clean and disinfect frequently touched toys and surfaces regularly"
+     },
+     {
+      "key": "R3",
+      "text": "Keep children home while they have HFMD symptoms"
+     },
+     {
+      "key": "R4",
+      "text": "Encourage close face-to-face contact and shared cups with children who have mouth sores"
+     },
+     {
+      "key": "R5",
+      "text": "Tell staff hand hygiene is unnecessary because HFMD is never contagious"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. CPS/CDC stress handwashing after diapering/toileting and related moments.",
+    "R2": "Indicated. Clean/disinfect toys and frequently touched surfaces.",
+    "R3": "Indicated. CPS: stay home from school/child care if symptomatic.",
+    "R4": "Not indicated. Avoid close contact while infectious; saliva spreads virus.",
+    "R5": "Not indicated. HFMD is very contagious; hand hygiene is essential."
+   },
+   "sources": [
+    {
+     "title": "About Hand, Foot, and Mouth Disease",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/hand-foot-mouth/about/index.html",
+     "section": "Prevention",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R2, R4–R5",
+     "evidence": "Handwashing; disinfect surfaces; avoid close contact; illness is very contagious."
+    },
+    {
+     "title": "Hand, foot and mouth disease",
+     "publisher": "Canadian Paediatric Society — Caring for Kids",
+     "url": "https://caringforkids.cps.ca/handouts/health-conditions-and-treatments/hand_foot_and_mouth_disease",
+     "section": "What can parents do?",
+     "source_date": "Last updated: May 2019",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "R1–R3",
+     "evidence": "Handwashing after diaper/toilet/nose and before food; stay home if symptoms; wash toys/surfaces."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-3ccd5eb7) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC + CPS HFMD infection-prevention dual-cite matrix."
+    }
+   ]
+  }
+ ],
+ "excluded_draft_topics": [],
+ "notes": "Prefer underrepresented Client Needs + NGN (Leadership/Community/Maternity/Pediatrics/PP). Keep import script Prisma.InputJsonValue casts unchanged. Accuracy over volume."
+}
