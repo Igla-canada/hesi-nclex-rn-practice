@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 229,
+  "Source verified": 241,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -24814,6 +24814,1407 @@
      "source_type": "textbook_open",
      "supports": "Key A; distractors B–D",
      "evidence": "Ascending weakness/paralysis; can result in death if respiratory muscles affected.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B30-WAVE21",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-40b699ba) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: treat with IVIG + high-dose aspirin; CPS: IVIG 2 g/kg + ASA during febrile illness if platelets adequate"
+    }
+   ],
+   "review_flags": [
+    "pediatric",
+    "high-alert-medication"
+   ],
+   "tags": [
+    "kawasaki",
+    "IVIG",
+    "aspirin",
+    "ASA",
+    "pediatrics",
+    "PA"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PA-0042",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A 3-year-old has had fever for 6 days with nonpurulent conjunctivitis, cracked red lips, strawberry tongue, a polymorphous rash, and swollen hands. Kawasaki disease is diagnosed. Which treatment plan is the priority to reduce coronary artery complications?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Give intravenous immune globulin (IVIG) promptly and start acetylsalicylic acid (aspirin/ASA) as ordered during the acute febrile illness."
+    },
+    {
+     "key": "B",
+     "text": "Withhold all anti-inflammatory therapy and observe for 2 weeks without treatment."
+    },
+    {
+     "key": "C",
+     "text": "Give routine childhood acetaminophen only and discharge without IVIG."
+    },
+    {
+     "key": "D",
+     "text": "Start high-dose opioid infusion as the only disease-modifying therapy."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck states treatment is aspirin and IV immune globulin, ideally early. CPS recommends IVIG (2 g/kg) within the first 10 days of fever and ASA during the febrile illness to reduce coronary complications.",
+    "B": "Incorrect. Delayed treatment increases coronary aneurysm risk; both sources emphasize prompt IVIG/ASA therapy.",
+    "C": "Incorrect. Antipyretics alone do not replace IVIG/ASA disease-modifying therapy for Kawasaki disease.",
+    "D": "Incorrect. Opioids are not disease-modifying therapy for Kawasaki vasculitis."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Kawasaki disease — prompt IVIG plus aspirin/ASA",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "kawasaki-ivig-asa",
+   "sources": [
+    {
+     "title": "Kawasaki Disease",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/rheumatologic-disorders-in-children/kawasaki-disease",
+     "section": "Treatment of Kawasaki Disease",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Treatment is aspirin and IV immune globulin (IVIG).",
+     "added_by": "author"
+    },
+    {
+     "title": "Kawasaki disease: Practical guidance on diagnosis and management",
+     "publisher": "Canadian Paediatric Society",
+     "url": "https://cps.ca/en/documents/position/kawasaki-disease",
+     "section": "IV immunoglobulin (IVIG); Antiplatelet/Anticoagulation",
+     "source_date": "Updated May 3, 2021",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A; distractors B–D",
+     "evidence": "IVIG 2 g/kg; start ASA in febrile illness if platelets adequate.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B30-WAVE21",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-40b699ba) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck pulmonary edema: oxygen, IV diuretic, sometimes nitrates; OpenStax HF: high Fowler's + supplemental oxygen priority"
+    }
+   ],
+   "review_flags": [
+    "emergency",
+    "high-alert-medication"
+   ],
+   "tags": [
+    "pulmonary-edema",
+    "heart-failure",
+    "oxygen",
+    "diuretic",
+    "NGN",
+    "PA"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PA-0043",
+   "format": "bowtie",
+   "scoring_model": "zero_one",
+   "stem": "An older adult with known heart failure develops sudden severe dyspnea, crackles, and pink frothy sputum. Complete the bowtie: identify the priority condition, two nursing actions, and two parameters to monitor.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Acute cardiogenic pulmonary edema / acute decompensated heart failure with pulmonary congestion"
+     },
+     {
+      "key": "K2",
+      "text": "Uncomplicated seasonal allergic rhinitis without respiratory distress"
+     },
+     {
+      "key": "K3",
+      "text": "Stable, well-controlled hypothyroidism without dyspnea"
+     },
+     {
+      "key": "K4",
+      "text": "Isolated mild dry skin without cardiorespiratory findings"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Place the client upright (e.g., high Fowler’s if tolerated) and provide ordered supplemental oxygen/ventilatory support as indicated"
+     },
+     {
+      "key": "A2",
+      "text": "Administer ordered IV loop diuretic (and nitrates if ordered) while preparing for urgent provider/rapid-response evaluation"
+     },
+     {
+      "key": "A3",
+      "text": "Lay the client completely flat and encourage large free-water boluses"
+     },
+     {
+      "key": "A4",
+      "text": "Withhold all oxygen and delay treatment until an outpatient clinic visit next week"
+     },
+     {
+      "key": "A5",
+      "text": "Apply a tight abdominal binder as the sole intervention"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "Oxygen saturation, work of breathing, and lung sounds"
+     },
+     {
+      "key": "P2",
+      "text": "Blood pressure, heart rate, and response to diuretic/nitrate therapy"
+     },
+     {
+      "key": "P3",
+      "text": "Preferred cafeteria dessert flavours"
+     },
+     {
+      "key": "P4",
+      "text": "Favourite television channel"
+     },
+     {
+      "key": "P5",
+      "text": "Shoe colour preference"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K1",
+    "actions": [
+     "A1",
+     "A2"
+    ],
+    "parameters": [
+     "P1",
+     "P2"
+    ]
+   },
+   "rationales": {
+    "K1": "Correct. Sudden dyspnea with frothy sputum and crackles indicates acute pulmonary edema/acute HF congestion (Merck; OpenStax HF manifestations).",
+    "K2": "Incorrect. Allergic rhinitis does not produce pink frothy sputum and flash pulmonary edema.",
+    "K3": "Incorrect. Stable hypothyroidism alone does not explain acute pulmonary edema.",
+    "K4": "Incorrect. Dry skin is unrelated to acute respiratory failure from pulmonary edema.",
+    "A1": "Correct. OpenStax prioritizes oxygenation and high Fowler’s for HF dyspnea; Merck treats pulmonary edema with oxygen and ventilatory support as indicated.",
+    "A2": "Correct. Merck: IV diuretics and sometimes nitrates for pulmonary edema; urgent cause-directed care is required.",
+    "A3": "Incorrect. Flat positioning and free-water boluses worsen pulmonary congestion.",
+    "A4": "Incorrect. Acute pulmonary edema is an emergency; delaying oxygen/treatment is unsafe.",
+    "A5": "Incorrect. Abdominal binders are not treatment for cardiogenic pulmonary edema.",
+    "P1": "Correct. OpenStax and Merck emphasize oxygenation/respiratory status as priority monitoring.",
+    "P2": "Correct. Merck management depends on blood pressure/perfusion and response to diuretics/nitrates.",
+    "P3": "Incorrect. Unrelated to acute cardiopulmonary monitoring.",
+    "P4": "Incorrect. Unrelated parameter.",
+    "P5": "Incorrect. Unrelated parameter."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN bowtie — acute pulmonary edema oxygen and IV diuretic",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "pulm-edema-oxygen-diuretic",
+   "sources": [
+    {
+     "title": "Pulmonary Edema",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/heart-failure/pulmonary-edema",
+     "section": "Treatment of Pulmonary Edema",
+     "source_date": "Last updated: Oct 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key condition/actions/parameters",
+     "evidence": "Treat with oxygen, IV diuretics, sometimes nitrates.",
+     "added_by": "author"
+    },
+    {
+     "title": "12.3 Heart Failure",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/12-3-heart-failure",
+     "section": "Prioritizing Hypotheses, Generating Solutions, and Taking Action",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "A1; P1",
+     "evidence": "High Fowler’s; supplemental oxygen to maintain saturations.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B30-WAVE21",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-40b699ba) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: lift presenting part off cord, knee-to-chest, immediate cesarean; OpenStax: lift presenting part, hands/knees, prepare emergency cesarean"
+    }
+   ],
+   "review_flags": [
+    "maternity-newborn",
+    "emergency"
+   ],
+   "tags": [
+    "cord-prolapse",
+    "obstetric-emergency",
+    "maternity",
+    "RRP"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-RRP-0030",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "During labour after rupture of membranes, the nurse palpates a pulsating umbilical cord in the vagina and notes a prolonged fetal heart rate deceleration. Which actions are the priority?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Call for help/prepare for emergency cesarean, continuously lift the presenting part off the cord, and place the client in a knee-to-chest or similar position that relieves cord compression."
+    },
+    {
+     "key": "B",
+     "text": "Encourage the client to ambulate alone to the cafeteria while waiting for a routine outpatient ultrasound."
+    },
+    {
+     "key": "C",
+     "text": "Push the cord forcefully back into the uterus and leave the client unmonitored."
+    },
+    {
+     "key": "D",
+     "text": "Clamp the cord tightly at the perineum and delay notifying the obstetric team for 1 hour."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: gently lift and hold the presenting part off the cord and use knee-to-chest positioning while immediate cesarean is arranged. OpenStax: lift the presenting part, use hands-and-knees with hips elevated if needed, and prepare for emergency cesarean.",
+    "B": "Incorrect. Cord prolapse is an obstetric emergency requiring immediate decompression and delivery planning.",
+    "C": "Incorrect. OpenStax advises avoiding unnecessary cord handling that can cause spasm; continuous monitoring and decompression are required.",
+    "D": "Incorrect. Clamping the cord at the perineum and delaying the team worsen fetal hypoxia."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Umbilical cord prolapse — relieve compression and prepare cesarean",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Hard",
+   "cognitive_level": "Applying",
+   "enemy_group": "cord-prolapse-lift-presenting-part",
+   "sources": [
+    {
+     "title": "Umbilical Cord Prolapse",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/intrapartum-complications/umbilical-cord-prolapse",
+     "section": "Overt prolapse",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Lift presenting part off cord; knee-to-chest; immediate cesarean.",
+     "added_by": "author"
+    },
+    {
+     "title": "19.7 Obstetrical Emergencies",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/19-7-obstetrical-emergencies",
+     "section": "Nursing Actions for Prolapsed Cord",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Lift presenting part; hands/knees; prepare emergency cesarean.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B30-WAVE21",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-40b699ba) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: painful tender uterus ± bleeding/concealed hemorrhage; OpenStax table: abruption = painful vaginal bleeding/abdominal pain vs previa painless"
+    }
+   ],
+   "review_flags": [
+    "maternity-newborn",
+    "emergency"
+   ],
+   "tags": [
+    "placental-abruption",
+    "obstetric-emergency",
+    "maternity",
+    "PA"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PA-0044",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client at 34 weeks’ gestation reports sudden severe abdominal pain. The uterus is firm and tender, and dark vaginal bleeding is present. Which condition should the nurse suspect as the priority explanation?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Placental abruption (premature placental separation), an obstetric emergency requiring urgent assessment and preparation for possible rapid delivery."
+    },
+    {
+     "key": "B",
+     "text": "Uncomplicated Braxton Hicks practice contractions without placental pathology."
+    },
+    {
+     "key": "C",
+     "text": "Isolated heartburn from spicy food without uterine findings."
+    },
+    {
+     "key": "D",
+     "text": "Stable, painless spotting from a known complete placenta previa as the best match for painful tender uterus."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck describes abruption with uterine pain/tenderness and bleeding that may be concealed. OpenStax lists sudden severe abdominal pain with or without dark bleeding and contrasts abruption (painful) with previa (painless bleeding).",
+    "B": "Incorrect. Braxton Hicks are not associated with a persistently tender, emergency presentation and dark hemorrhage.",
+    "C": "Incorrect. Heartburn does not cause a firm, tender uterus or dark vaginal bleeding.",
+    "D": "Incorrect. OpenStax/Merck characterize previa bleeding as typically painless; painful tender uterus points to abruption."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Placental abruption — painful tender uterus emergency recognition",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "placental-abruption-painful-tender",
+   "sources": [
+    {
+     "title": "Placental Abruption (Abruptio Placentae)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/antenatal-complications/placental-abruption-abruptio-placentae",
+     "section": "Symptoms and Signs of Placental Abruption",
+     "source_date": "Last updated: Mar 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Painful, tender uterus; bleeding may be concealed.",
+     "added_by": "author"
+    },
+    {
+     "title": "12.2 Conditions Limited to Pregnancy",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+     "section": "Placental Abruption; Table 12.8",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Sudden severe abdominal pain; abruption painful vs previa painless.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B30-WAVE21",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-40b699ba) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: discontinue all serotonergic medications + supportive care; OpenStax: syndrome resolves after drugs stopped; avoid SSRI+MAOI combinations"
+    }
+   ],
+   "review_flags": [
+    "mental-health-safety",
+    "high-alert-medication"
+   ],
+   "tags": [
+    "serotonin-syndrome",
+    "SSRI",
+    "tramadol",
+    "PSY"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PSY-0021",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client taking sertraline starts tramadol and develops agitation, diaphoresis, tremor, hyperreflexia, and fever. Serotonin syndrome is suspected. Which nursing action is the priority medication-related intervention?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Stop the serotonergic medications (hold further doses) and initiate urgent supportive care while notifying the provider."
+    },
+    {
+     "key": "B",
+     "text": "Double both the sertraline and tramadol doses immediately."
+    },
+    {
+     "key": "C",
+     "text": "Add a monoamine oxidase inhibitor to intensify serotonergic effect."
+    },
+    {
+     "key": "D",
+     "text": "Ignore the fever and continue all home medications without reassessment."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: discontinue all serotonergic medications and provide supportive care. OpenStax notes serotonin syndrome resolves after the offending drug(s) are stopped and warns against dangerous serotonergic combinations.",
+    "B": "Incorrect. Increasing serotonergic agents worsens toxicity.",
+    "C": "Incorrect. OpenStax highlights MAOI combinations as high risk for serotonin syndrome.",
+    "D": "Incorrect. Fever with neuromuscular findings requires urgent intervention, not continuation of precipitants."
+   },
+   "specialty": "Mental Health",
+   "topic": "Serotonin syndrome — discontinue serotonergic drugs",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "serotonin-syndrome-stop-serotonergic",
+   "sources": [
+    {
+     "title": "Serotonin Syndrome",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/heat-illness/serotonin-syndrome",
+     "section": "Treatment of Serotonin Syndrome; Key Points",
+     "source_date": "Last updated: May 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Discontinue serotonergic medications; supportive care.",
+     "added_by": "author"
+    },
+    {
+     "title": "13.1 Antidepressants",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/13-1-antidepressants",
+     "section": "Selective Serotonin Reuptake Inhibitors — Adverse Effects",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Syndrome resolves after drug(s) stopped; MAOI/SSRI risk.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B30-WAVE21",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-40b699ba) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax: maintain consistent vitamin K intake; INR monitoring/titration; Merck: INR goal commonly 2–3; counsel on food/drug interactions"
+    }
+   ],
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "tags": [
+    "warfarin",
+    "INR",
+    "vitamin-K",
+    "PPT",
+    "NGN"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PPT-0034",
+   "format": "drop_down_cloze",
+   "scoring_model": "zero_one",
+   "stem": "Complete the teaching points for a client newly started on warfarin for venous thromboembolism.",
+   "ngn": {
+    "template": "Warfarin effect is monitored with the {B1}. The client should {B2}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "international normalized ratio (INR), with doses adjusted to the prescribed therapeutic range (often about 2–3 for many indications)"
+      },
+      {
+       "key": "B1b",
+       "text": "serum amylase alone without clotting tests"
+      },
+      {
+       "key": "B1c",
+       "text": "urine specific gravity as the only anticoagulation marker"
+      },
+      {
+       "key": "B1d",
+       "text": "hair length measurement weekly"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "keep vitamin K intake consistent and report new drugs/herbs that may interact"
+      },
+      {
+       "key": "B2b",
+       "text": "stop and start large amounts of vitamin K–rich foods abruptly each day without guidance"
+      },
+      {
+       "key": "B2c",
+       "text": "never have INR checked after the first week"
+      },
+      {
+       "key": "B2d",
+       "text": "double the dose whenever a bruise appears without contacting the provider"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. OpenStax and Merck use INR to guide warfarin dosing; many VTE indications target roughly 2.0–3.0.",
+    "B1b": "Incorrect. Amylase does not monitor anticoagulation.",
+    "B1c": "Incorrect. Urine specific gravity is not an INR substitute.",
+    "B1d": "Incorrect. Hair length is unrelated to warfarin monitoring.",
+    "B2a": "Correct. OpenStax: maintain consistent vitamin K intake; Merck: counsel about food and drug/herb interactions.",
+    "B2b": "Incorrect. Abrupt swings in vitamin K intake destabilize INR (OpenStax).",
+    "B2c": "Incorrect. Merck describes ongoing INR monitoring with dose adjustment.",
+    "B2d": "Incorrect. Unsupervised dose doubling risks major bleeding."
+   },
+   "specialty": "Pharmacology",
+   "topic": "NGN cloze — warfarin INR monitoring and consistent vitamin K",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "warfarin-consistent-vitk-inr",
+   "sources": [
+    {
+     "title": "20.2 Anticoagulants",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/20-2-anticoagulants",
+     "section": "Warfarin",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "B1a; B2a",
+     "evidence": "INR titration; maintain consistent vitamin K intake.",
+     "added_by": "author"
+    },
+    {
+     "title": "Medications for Deep Venous Thrombosis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/peripheral-venous-disorders/medications-for-deep-venous-thrombosis",
+     "section": "Vitamin K antagonists (warfarin)",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "B1a; B2a",
+     "evidence": "INR goal 2.0–3.0; counsel on food/drug interactions.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B30-WAVE21",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Airborne/N95 precautions for measles are concordant in OpenStax/CDC framing and PHAC/Canada healthcare guidance.",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-40b699ba) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax: measles airborne precautions, negative pressure, N95; PHAC: airborne precautions; Canada notice: fit-tested N95 regardless of immunity"
+    }
+   ],
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "measles",
+    "airborne",
+    "N95",
+    "SIPC",
+    "community"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-SIPC-0023",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with suspected measles is admitted. Which infection-prevention actions are required?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Place the client on airborne precautions (preferably a negative-pressure room) and wear a fit-tested N95 (or higher) respirator when entering the room."
+    },
+    {
+     "key": "B",
+     "text": "Use only standard precautions without respiratory protection because measles is not contagious."
+    },
+    {
+     "key": "C",
+     "text": "Place the client in an open hallway waiting area without a mask for several hours."
+    },
+    {
+     "key": "D",
+     "text": "Rely solely on contact gowning and omit airborne precautions for measles."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax lists measles among airborne-precaution diseases needing negative-pressure rooms and N95 respirators. PHAC directs airborne precautions for suspected/confirmed measles; Canadian IPC notice recommends fit-tested N95 (or higher) for care.",
+    "B": "Incorrect. Measles is highly airborne-transmissible; respiratory protection is required.",
+    "C": "Incorrect. Leaving a suspected measles case in open shared airspaces risks exposure.",
+    "D": "Incorrect. Contact precautions alone do not address airborne measles transmission."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Measles — airborne precautions and N95 respirator",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "measles-airborne-n95",
+   "sources": [
+    {
+     "title": "10.4 Infection Control and Patient Safety",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/10-4-infection-control-and-patient-safety",
+     "section": "Airborne Precautions",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Measles: negative-pressure room; N95 respirator.",
+     "added_by": "author"
+    },
+    {
+     "title": "Measles: For health professionals",
+     "publisher": "Public Health Agency of Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/public-health/services/diseases/measles/health-professionals-measles.html",
+     "section": "Prevention and control — Transmission",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A",
+     "evidence": "Airborne precautions for confirmed or suspected measles.",
+     "added_by": "author"
+    },
+    {
+     "title": "Updated IPC recommendations for measles in healthcare settings",
+     "publisher": "Public Health Agency of Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/public-health/services/diseases/measles/health-professionals-measles/updated-infection-prevention-control-recommendations-healthcare-settings.html",
+     "section": "Updated recommendations",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A",
+     "evidence": "Fit-tested N95 (or higher) for suspected/confirmed measles.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B30-WAVE21",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-40b699ba) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: respiratory isolation with droplet precautions for first 24 hours of therapy; CDC Appendix A: meningococcal meningitis droplet until 24h after effective therapy"
+    }
+   ],
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "meningitis",
+    "droplet",
+    "meningococcal",
+    "SIPC",
+    "critical-care"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-SIPC-0024",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client is admitted with suspected meningococcal meningitis and antibiotics are started. Which isolation plan is appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Use droplet precautions (with standard precautions) and continue them until 24 hours after initiation of effective antimicrobial therapy."
+    },
+    {
+     "key": "B",
+     "text": "Use no isolation because bacterial meningitis is never transmitted person to person."
+    },
+    {
+     "key": "C",
+     "text": "Use airborne negative-pressure isolation indefinitely as the only CDC category for all meningitis types."
+    },
+    {
+     "key": "D",
+     "text": "Discontinue all precautions immediately after the first antibiotic dose without waiting the recommended interval."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck advises respiratory isolation using droplet precautions for the first 24 hours of therapy. CDC isolation guidance lists meningococcal meningitis as Droplet + Standard until 24 hours after effective therapy begins.",
+    "B": "Incorrect. Meningococcal disease spreads via respiratory secretions/droplets.",
+    "C": "Incorrect. CDC assigns droplet (not indefinite airborne) for meningococcal meningitis; other meningitis etiologies differ.",
+    "D": "Incorrect. Both sources retain droplet precautions for 24 hours after effective therapy starts."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "Meningococcal meningitis — droplet precautions for 24 hours of therapy",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "meningococcal-meningitis-droplet-24h",
+   "sources": [
+    {
+     "title": "Acute Bacterial Meningitis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/meningitis/acute-bacterial-meningitis",
+     "section": "Prevention — Physical measures",
+     "source_date": "Last updated: Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Droplet precautions for first 24 hours of therapy.",
+     "added_by": "author"
+    },
+    {
+     "title": "Isolation Precautions Appendix A — Type and Duration",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html",
+     "section": "Meningococcal disease: sepsis, pneumonia, Meningitis",
+     "source_date": "Updated: September 11, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Droplet + Standard until 24 hours after effective therapy.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B30-WAVE21",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-40b699ba) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ Teamwork Training: create atmosphere to speak up when a problem is suspected; OpenStax: nurses advocate for safest care"
+    }
+   ],
+   "review_flags": [],
+   "tags": [
+    "speak-up",
+    "patient-safety",
+    "teamwork",
+    "MOC",
+    "leadership"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-MOC-0040",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "During a medication double-check, a nurse notices a dose that appears unsafe for the client’s weight and renal function. The charge nurse is rushing the team. What is the most appropriate action?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Speak up promptly about the safety concern, pause the process, and clarify/verify the order before administration."
+    },
+    {
+     "key": "B",
+     "text": "Give the questionable dose quietly to avoid delaying the schedule."
+    },
+    {
+     "key": "C",
+     "text": "Ignore the discrepancy because hierarchy means never questioning another clinician."
+    },
+    {
+     "key": "D",
+     "text": "Document the concern after the client has already received the unsafe dose and leave the unit."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. AHRQ teamwork training emphasizes an atmosphere in which personnel feel comfortable speaking up when they suspect a problem. OpenStax states nurses must advocate so patients receive the safest care.",
+    "B": "Incorrect. Administering a suspected unsafe dose violates safety advocacy expectations.",
+    "C": "Incorrect. Teamwork safety culture requires cross-checking and addressing concerns, not silence.",
+    "D": "Incorrect. Advocacy must occur before harm; post-event documentation alone is insufficient."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "Speak up — pause and clarify unsafe medication concerns",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "speak-up-safety-concern",
+   "sources": [
+    {
+     "title": "Teamwork Training",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ) — PSNet",
+     "url": "https://psnet.ahrq.gov/primer/teamwork-training",
+     "section": "Background",
+     "source_date": "Last reviewed in 2024.",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Atmosphere where personnel speak up when they suspect a problem.",
+     "added_by": "author"
+    },
+    {
+     "title": "10.4 Infection Control and Patient Safety",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/10-4-infection-control-and-patient-safety",
+     "section": "Nursing Advocacy for Patient Safety",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Nurses advocate to ensure patients receive the safest care.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B30-WAVE21",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CNO Working with Unregulated Care Providers requires the nurse to retain ongoing assessment/evaluation accountability; OpenStax (ANA/NCSBN) concurs that the nursing process cannot be delegated.",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-40b699ba) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO: nurse ensures ongoing assessment, plan of care, evaluation of client condition and UCP effectiveness; OpenStax: nursing process cannot be delegated; delegatee cannot change care without RN"
+    }
+   ],
+   "review_flags": [
+    "legal-ontario"
+   ],
+   "tags": [
+    "UCP",
+    "delegation",
+    "assessment",
+    "MOC",
+    "Ontario",
+    "leadership"
+   ],
+   "jurisdiction": "Ontario-specific",
+   "id": "ONRN-MOC-0041",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An Ontario RN assigns routine morning care for a stable client to a competent unregulated care provider (UCP/PSW). Which responsibility must the RN retain?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Ongoing nursing assessment of the client’s needs, evaluation of the client’s condition, and judgment about whether the UCP’s interventions remain appropriate."
+    },
+    {
+     "key": "B",
+     "text": "Transfer of all assessment, planning, and evaluation permanently to the UCP with no RN follow-up."
+    },
+    {
+     "key": "C",
+     "text": "Allowing the UCP to independently change the nursing plan of care without consulting the RN."
+    },
+    {
+     "key": "D",
+     "text": "Abandoning supervision because UCPs are independently regulated like nurses."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO requires nurses who teach/assign/supervise UCPs to ensure ongoing assessment, plan of care, evaluation of condition, and judgment of UCP intervention effectiveness. OpenStax states the nursing process cannot be delegated and the delegatee cannot change care without consulting the RN.",
+    "B": "Incorrect. Assessment/evaluation remain nursing responsibilities (CNO; OpenStax).",
+    "C": "Incorrect. OpenStax: the delegatee cannot make care-change decisions without the RN.",
+    "D": "Incorrect. CNO notes UCPs are accountable to employers, not an external nursing regulator; supervision remains required."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "Ontario UCP assignment — RN retains assessment and evaluation",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Evaluate Outcomes",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ontario-ucp-rn-retains-assessment",
+   "sources": [
+    {
+     "title": "Working With Unregulated Care Providers",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41014_workingucp.pdf",
+     "section": "Teaching, Delegating, Assigning and Supervising",
+     "source_date": "Updated July 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Ongoing assessment, plan of care, evaluate condition, judge UCP effectiveness.",
+     "added_by": "author"
+    },
+    {
+     "title": "15.4 Nursing Standards of Delegation",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/15-4-nursing-standards-of-delegation",
+     "section": "Right Communication; Principles for Delegation",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Nursing process cannot be delegated; consult RN for care changes.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B30-WAVE21",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-40b699ba) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax HF: high Fowler's + oxygen; Merck pulmonary edema: oxygen, IV diuretic/nitrates; flat positioning/fluid boluses contraindicated"
+    }
+   ],
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "heart-failure",
+    "pulmonary-edema",
+    "matrix",
+    "NGN",
+    "RRP"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-RRP-0031",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with acute heart failure develops increasing dyspnea and crackles suggesting pulmonary congestion. For each nursing action, indicate whether it is indicated or not indicated now.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Place the client in high Fowler’s (upright) position if tolerated and apply ordered oxygen."
+     },
+     {
+      "key": "R2",
+      "text": "Administer ordered IV loop diuretic and monitor response."
+     },
+     {
+      "key": "R3",
+      "text": "Lay the client flat and encourage rapid free-water intake to expand circulating volume."
+     },
+     {
+      "key": "R4",
+      "text": "Notify the provider/rapid response for worsening respiratory distress and continue vital-sign monitoring."
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. OpenStax: high Fowler’s and supplemental oxygen are priority actions for HF dyspnea.",
+    "R2": "Indicated. Merck treats pulmonary edema with IV diuretics (and related therapies as ordered).",
+    "R3": "Not indicated. Flat positioning and volume loading worsen pulmonary congestion.",
+    "R4": "Indicated. Acute pulmonary edema/HF decompensation requires urgent evaluation and ongoing monitoring (Merck; OpenStax)."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN matrix — acute HF/pulmonary congestion indicated actions",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "hf-pulm-congestion-matrix-actions",
+   "sources": [
+    {
+     "title": "12.3 Heart Failure",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/12-3-heart-failure",
+     "section": "Prioritizing Hypotheses, Generating Solutions, and Taking Action",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "R1; R4",
+     "evidence": "High Fowler’s and oxygen for HF dyspnea.",
+     "added_by": "author"
+    },
+    {
+     "title": "Pulmonary Edema",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/heart-failure/pulmonary-edema",
+     "section": "Treatment of Pulmonary Edema",
+     "source_date": "Last updated: Oct 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "R2; R4",
+     "evidence": "Oxygen and IV diuretic therapy for pulmonary edema.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B30-WAVE21",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "First-dose timing at 12–15 months is concordant (CIG and CDC). Second-dose timing differs by country and is not tested here.",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-40b699ba) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CIG: first measles-containing dose at 12–15 months; CDC child schedule: MMR 1st dose at 12–15 months"
+    }
+   ],
+   "review_flags": [
+    "pediatric"
+   ],
+   "tags": [
+    "MMR",
+    "measles",
+    "immunization",
+    "HPM",
+    "pediatrics",
+    "community"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-HPM-0029",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A healthy infant’s parent asks when the first routine measles-containing (MMR) vaccine dose is usually given. Which teaching is accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "The first routine dose is generally given at 12 to 15 months of age."
+    },
+    {
+     "key": "B",
+     "text": "The first routine dose is given at birth in the delivery room for all healthy newborns."
+    },
+    {
+     "key": "C",
+     "text": "Measles vaccine is never given before age 10 years in any schedule."
+    },
+    {
+     "key": "D",
+     "text": "Healthy infants receive measles vaccine only after age 18 years."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. The Canadian Immunization Guide recommends the first measles-containing dose at 12 to 15 months. The CDC child/adolescent schedule likewise places the first MMR dose at 12–15 months.",
+    "B": "Incorrect. Routine MMR is not a birth dose on either schedule.",
+    "C": "Incorrect. First dose is in the second year of life, not deferred to age 10.",
+    "D": "Incorrect. Childhood schedules include MMR well before adulthood."
+   },
+   "specialty": "Pediatrics",
+   "topic": "MMR — first routine dose at 12–15 months",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "mmr-first-dose-12-15-months",
+   "sources": [
+    {
+     "title": "Measles vaccines: Canadian immunization guide",
+     "publisher": "Public Health Agency of Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/public-health/services/publications/healthy-living/canadian-immunization-guide-part-4-active-vaccines/page-12-measles-vaccine.html",
+     "section": "Recommendations for use — Routine childhood immunization",
+     "source_date": "Updated 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "First measles-containing dose at 12 to 15 months of age.",
+     "added_by": "author"
+    },
+    {
+     "title": "Child and Adolescent Immunization Schedule by Age",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/vaccines/hcp/imz-schedules/child-adolescent-age.html",
+     "section": "Birth to 15 Months — MMR",
+     "source_date": "Updated: July 2, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "MMR 1st dose recommended at 12–15 months.",
      "added_by": "author"
     }
    ],

@@ -1,6 +1,6 @@
 # Question bank status — Ontario/Canada HESI/NCLEX practice
 
-**Updated:** 2026-11-25, ~9:45 AM (America/New_York)  
+**Updated:** 2026-11-25, ~10:15 AM (America/New_York)  
 **Honesty:** Counts below are **actual**. AI authoring may reach **Source verified** only. **Published / clinically reviewed = 0.** No claim of HESI/NCLEX item authenticity.
 
 Companion: [source-verification-report.md](./source-verification-report.md) · bank root: `/cursor/stores/self/internal/question-bank/`
@@ -11,16 +11,16 @@ Companion: [source-verification-report.md](./source-verification-report.md) · b
 
 | Metric | Count |
 | --- | ---: |
-| **Total active items** | **229** |
-| **Source verified** | **229** |
+| **Total active items** | **241** |
+| **Source verified** | **241** |
 | Awaiting clinical review | 0 |
 | Clinically reviewed | 0 |
 | Approved / published | **0** |
 | Draft (in compiled bank) | 0 |
 | Archived | 0 |
-| Excluded draft topics (logged) | 69 |
+| Excluded draft topics (logged) | 72 |
 
-Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after merge of `B00-PILOT` + `B11-WAVE2` + `B12-WAVE3` + `B13-WAVE4` + `B14-WAVE5` + `B15-WAVE6` + `B16-WAVE7` + `B17-WAVE8` + `B18-WAVE9` + `B19-WAVE10` + `B20-WAVE11` + `B21-WAVE12` + `B22-WAVE13` + `B23-WAVE14` + `B24-WAVE15` + `B25-WAVE16` + `B26-WAVE17` + `B27-WAVE18` + `B28-WAVE19` + `B29-WAVE20`.
+Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after merge of `B00-PILOT` + `B11-WAVE2` + `B12-WAVE3` + `B13-WAVE4` + `B14-WAVE5` + `B15-WAVE6` + `B16-WAVE7` + `B17-WAVE8` + `B18-WAVE9` + `B19-WAVE10` + `B20-WAVE11` + `B21-WAVE12` + `B22-WAVE13` + `B23-WAVE14` + `B24-WAVE15` + `B25-WAVE16` + `B26-WAVE17` + `B27-WAVE18` + `B28-WAVE19` + `B29-WAVE20` + `B30-WAVE21`.
 
 ---
 
@@ -28,19 +28,19 @@ Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after mer
 
 | Code | Subcategory | Source verified | Gap vs 150-item form quota* |
 | --- | --- | ---: | ---: |
-| MOC | Management of Care | 39 | 0† |
-| SIPC | Safety and Infection Prevention and Control | 22 | 0† |
-| HPM | Health Promotion and Maintenance | 28 | 0† |
-| PSY | Psychosocial Integrity | 20 | 0† |
+| MOC | Management of Care | 41 | 0† |
+| SIPC | Safety and Infection Prevention and Control | 24 | 0† |
+| HPM | Health Promotion and Maintenance | 29 | 0† |
+| PSY | Psychosocial Integrity | 21 | 0† |
 | BCC | Basic Care and Comfort | 18 | 0† |
-| PPT | Pharmacological and Parenteral Therapies | 33 | 0† |
-| RRP | Reduction of Risk Potential | 29 | 0† |
-| PA | Physiological Adaptation | 40 | 0† |
+| PPT | Pharmacological and Parenteral Therapies | 34 | 0† |
+| RRP | Reduction of Risk Potential | 31 | 0† |
+| PA | Physiological Adaptation | 43 | 0† |
 
 \*Quota for one 150-item HESI-style form (see blueprint). Five forms need ~750 Source-verified → clinically reviewed items. **No form is publishable yet.**  
-†Surplus vs base single-form quota supports multi-form depth (MOC 39/27, SIPC 22/20, HPM 28/13–14, PSY 20/13–14, BCC 18/13–14, PPT 33/24, RRP 29/18, PA 40/21).
+†Surplus vs base single-form quota supports multi-form depth (MOC 41/27, SIPC 24/20, HPM 29/13–14, PSY 21/13–14, BCC 18/13–14, PPT 34/24, RRP 31/18, PA 43/21).
 
-Wave 20 added multi-exam depth with underrepresented specialties (Critical Care/Emergency, Community/Public Health, Leadership/Management, Pediatrics) and NGN **bowtie** + **drop-down cloze** + **matrix**, dual-cited originals only (Merck, OpenStax, CDC, WTCS Open RN). **All eight Client Needs single-form quotas remain met at Source verified.**
+Wave 21 added multi-exam depth with underrepresented specialties (Pediatrics, Maternity/Newborn, Community/Public Health, Leadership/Management, Critical Care/Emergency, Mental Health) and NGN **bowtie** + **drop-down cloze** + **matrix**, dual-cited originals only (Merck, OpenStax, CPS, CNO, CDC, PHAC/Canada.ca, AHRQ). **All eight Client Needs single-form quotas remain met at Source verified.**
 
 ---
 
@@ -48,18 +48,18 @@ Wave 20 added multi-exam depth with underrepresented specialties (Critical Care/
 
 | Format | n |
 | --- | ---: |
-| multiple_choice | 187 |
+| multiple_choice | 196 |
 | select_all_that_apply | 26 |
-| matrix_multiple_choice | 7 |
-| drop_down_cloze | 3 |
-| bowtie | 3 |
+| matrix_multiple_choice | 8 |
+| drop_down_cloze | 4 |
+| bowtie | 4 |
 | ordered_response | 2 |
 | calculation | 1 |
 
 | Jurisdiction | n |
 | --- | ---: |
-| General (Canada/US concordant) | 190 |
-| Ontario-specific | 30 |
+| General (Canada/US concordant) | 201 |
+| Ontario-specific | 31 |
 | Canada-specific | 9 |
 
 ---
@@ -88,6 +88,7 @@ Wave 20 added multi-exam depth with underrepresented specialties (Critical Care/
 | B27-WAVE18 | 12 | Source verified (wave 18 — community/peds/leadership/gero/critical care + NGN bowtie/cloze) |
 | B28-WAVE19 | 12 | Source verified (wave 19 — critical care/community/leadership/peds + NGN bowtie/cloze/matrix) |
 | B29-WAVE20 | 12 | Source verified (wave 20 — critical care/community/leadership/peds + NGN bowtie/cloze/matrix) |
+| B30-WAVE21 | 12 | Source verified (wave 21 — peds/maternity/community/leadership/critical care/MH + NGN bowtie/cloze/matrix) |
 | B01–B10 | 0 JSON | Prior fetch logs only; no authored batches completed |
 
 ---
@@ -109,7 +110,7 @@ Compiled bank copied into the GitHub app repo under `data/question-bank/` with a
 
 ## Next priorities
 
-1. Independent verifier pass on B00 + B11–B29 → Awaiting clinical review.  
+1. Independent verifier pass on B00 + B11–B30 → Awaiting clinical review.  
 2. Licensed clinician review (especially high-priority items flagged in clinical-review-queue).  
-3. Continue authoring toward **five-form** depth (~750 Source-verified → clinically reviewed), prioritizing underrepresented specialties (Pediatrics, Gerontology, Community/Public Health, Leadership/Management, Critical Care/Emergency) with live-fetched dual sources only.  
+3. Continue authoring toward **five-form** depth (~750 Source-verified → clinically reviewed), prioritizing underrepresented specialties (Pediatrics, Gerontology, Community/Public Health, Leadership/Management, Critical Care/Emergency, Maternity/Newborn) with live-fetched dual sources only.  
 4. Do **not** pad counts; exclude when a second independent source cannot be confirmed.
