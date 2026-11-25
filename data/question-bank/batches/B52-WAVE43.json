@@ -1,0 +1,1699 @@
+{
+ "batch_id": "B52-WAVE43",
+ "author": "AI author (Composer, Cursor subagent bc-5a82aa04) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 43 multi-exam depth — thinner Client Needs SIPC/PPT/RRP + Leadership/Community/Pediatrics specialties with NGN matrix/cloze/bowtie. SIPC: PASS extinguisher (MC+matrix, Leadership); SSI antimicrobial prophylaxis timing/stop-after-closure (MC+cloze). PPT: vancomycin flushing syndrome (MC+cloze); vesicant extravasation (MC+bowtie). HPM Community: fifth disease school return after rash + pregnancy-exposure teaching (MC+matrix). PA Pediatrics: child severe FBAO 5 back blows + 5 abdominal thrusts (MC+bowtie). RRP Pediatrics: PSGN after strep (MC+matrix). Dual-cited originals (OSHA, NCBI Open RN, OpenStax Pharm/CNS, Merck, CDC, VDH, MedlinePlus, AHA/AAP, SHEA).",
+ "items": [
+  {
+   "batch": "B52-WAVE43",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0058",
+   "format": "multiple_choice",
+   "specialty": "Leadership/Management",
+   "topic": "Facility fire extinguisher — PASS: Pull, Aim at base, Squeeze, Sweep",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Remembering",
+   "enemy_group": "facility-fire-extinguisher-pass-technique",
+   "tags": [
+    "SIPC",
+    "PASS",
+    "fire-safety",
+    "leadership",
+    "NGN-adjacent"
+   ],
+   "stem": "A small wastebasket fire starts in an unoccupied utility room. After activating the alarm and confirming a clear exit path, the nurse uses a portable extinguisher. Which technique is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Pull the pin, aim at the base of the fire, squeeze the handle, and sweep side to side"
+    },
+    {
+     "key": "B",
+     "text": "Aim at the top of the flames, then pull the pin and squeeze once briefly"
+    },
+    {
+     "key": "C",
+     "text": "Spray water from a pitcher first, then store the extinguisher unused"
+    },
+    {
+     "key": "D",
+     "text": "Squeeze the handle continuously while aiming only at smoke near the ceiling"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OSHA and nursing references teach the PASS technique: Pull the pin, Aim at the base of the fire, Squeeze the handle, and Sweep side to side at the base until the fire appears out.",
+    "B": "Incorrect. Aiming at the top of the flames misses the fuel source at the base; pin is pulled first.",
+    "C": "Incorrect. Improvised water is not the extinguisher PASS technique and may be unsafe for some fire types.",
+    "D": "Incorrect. Aiming at ceiling smoke does not extinguish the fire at its base."
+   },
+   "sources": [
+    {
+     "title": "Portable Fire Extinguishers — Fire Extinguisher Use",
+     "publisher": "U.S. Occupational Safety and Health Administration (OSHA)",
+     "url": "https://www.osha.gov/etools/evacuation-plans-procedures/emergency-standards/portable-extinguishers/use",
+     "section": "Using a Fire Extinguisher / P.A.S.S. technique",
+     "source_date": "Accessed 2026-11-25 (OSHA eTool)",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "P.A.S.S.: Pull pin, Aim at base of fire, Squeeze handle, Sweep side to side at base."
+    },
+    {
+     "title": "Chapter 3: Maintain a Safe Health Care Environment",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK599387/",
+     "section": "3.2 Emergency Situations — Fire / RACE and PASS",
+     "source_date": "Nursing Assistant (Open RN)",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "PASS: Pull the pin; Aim nozzle at base; Squeeze handle; Sweep side to side at base of flame."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-5a82aa04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OSHA PASS eTool + NCBI Nursing Assistant PASS dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B52-WAVE43",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0059",
+   "format": "matrix_multiple_choice",
+   "specialty": "Leadership/Management",
+   "topic": "NGN matrix — portable extinguisher PASS technique indicated vs not",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "facility-fire-pass-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "SIPC",
+    "PASS",
+    "fire-safety"
+   ],
+   "stem": "For using a portable fire extinguisher on a small, contained fire with a clear exit behind the rescuer, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Pull the safety pin before squeezing the handle"
+     },
+     {
+      "key": "R2",
+      "text": "Aim the nozzle at the base of the fire, not the tops of the flames"
+     },
+     {
+      "key": "R3",
+      "text": "Squeeze the handle to discharge the extinguishing agent"
+     },
+     {
+      "key": "R4",
+      "text": "Sweep the nozzle side to side at the base of the fire"
+     },
+     {
+      "key": "R5",
+      "text": "Aim only at ceiling smoke and block the only exit path while spraying"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Pulling the pin is the first PASS step.",
+    "R2": "Indicated. Aim low at the base/fuel source.",
+    "R3": "Indicated. Squeeze releases the agent.",
+    "R4": "Indicated. Sweep side to side at the base until the fire appears out.",
+    "R5": "Not indicated. Aiming at smoke and blocking the exit is unsafe; maintain an evacuation path."
+   },
+   "sources": [
+    {
+     "title": "Portable Fire Extinguishers — Fire Extinguisher Use",
+     "publisher": "U.S. Occupational Safety and Health Administration (OSHA)",
+     "url": "https://www.osha.gov/etools/evacuation-plans-procedures/emergency-standards/portable-extinguishers/use",
+     "section": "Using a Fire Extinguisher / P.A.S.S. technique",
+     "source_date": "Accessed 2026-11-25 (OSHA eTool)",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Pull, Aim low at base, Squeeze, Sweep; identify safe evacuation path; evacuate if fire progresses."
+    },
+    {
+     "title": "Chapter 3: Maintain a Safe Health Care Environment",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK599387/",
+     "section": "3.2 Emergency Situations — Fire / RACE and PASS",
+     "source_date": "Nursing Assistant (Open RN)",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "PASS steps; extinguish only if small enough; otherwise evacuate."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-5a82aa04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OSHA + NCBI PASS matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B52-WAVE43",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0058",
+   "format": "multiple_choice",
+   "specialty": "Pharmacology",
+   "topic": "Vancomycin IV — flushing syndrome from rapid infusion; infuse over ≥60 minutes",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "vancomycin-flushing-syndrome-slow-infusion",
+   "tags": [
+    "PPT",
+    "vancomycin",
+    "red-man",
+    "flushing-syndrome",
+    "high-alert"
+   ],
+   "stem": "During the first minutes of an IV vancomycin infusion, a client develops flushing and pruritus of the face and neck without wheezing or hypotension. Which action is the priority?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Slow or temporarily stop the infusion and resume at a slower rate over at least 60 minutes as ordered/protocol"
+    },
+    {
+     "key": "B",
+     "text": "Double the remaining dose into a rapid IV push to finish sooner"
+    },
+    {
+     "key": "C",
+     "text": "Immediately give a monoamine oxidase inhibitor to reverse flushing"
+    },
+    {
+     "key": "D",
+     "text": "Ignore the flushing because vancomycin never causes infusion reactions"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: vancomycin flushing syndrome from too-rapid IV administration is managed by slowing the infusion and giving each dose over at least 60 minutes. Merck: infuse slowly over ≥60 minutes to avoid histamine-mediated infusion reaction with facial/neck flushing.",
+    "B": "Incorrect. Faster administration worsens the reaction; IV push is inappropriate.",
+    "C": "Incorrect. MAOIs are unrelated and unsafe here.",
+    "D": "Incorrect. Rapid infusion is a recognized cause of vancomycin infusion/flushing reaction."
+   },
+   "sources": [
+    {
+     "title": "7.2 Antibiotic, Antiviral/Anti–COVID-19, and Antifungal Drugs",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/7-2-antibiotic-antiviral-anti-covid-19-and-antifungal-drugs",
+     "section": "Adverse Effects and Contraindications — Vancomycin flushing syndrome",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Vancomycin flushing syndrome from too-rapid IV infusion; slow infusion over at least 60 minutes; can be mistaken for allergy."
+    },
+    {
+     "title": "Vancomycin",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/bacteria-and-antibacterial-medications/vancomycin",
+     "section": "Adverse Effects of Vancomycin",
+     "source_date": "Last updated: May 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Infuse slowly over 60 minutes or more; rate no greater than 10 mg/minute to avoid vancomycin infusion reaction (histamine-mediated flushing)."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-5a82aa04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Pharm vancomycin flushing + Merck infusion reaction dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B52-WAVE43",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0059",
+   "format": "drop_down_cloze",
+   "specialty": "Pharmacology",
+   "topic": "NGN cloze — vancomycin infusion duration and flushing-reaction management",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "vancomycin-ngn-cloze-infusion-flushing",
+   "tags": [
+    "NGN",
+    "cloze",
+    "PPT",
+    "vancomycin"
+   ],
+   "stem": "Complete the safe-administration teaching for IV vancomycin.",
+   "ngn": {
+    "template": "Each IV vancomycin dose should be infused over at least {B1}. If vancomycin flushing syndrome occurs from a rapid infusion, the usual first management step is to {B2}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "60 minutes"
+      },
+      {
+       "key": "B1b",
+       "text": "30 seconds as an undiluted IV push"
+      },
+      {
+       "key": "B1c",
+       "text": "5 minutes regardless of dose"
+      },
+      {
+       "key": "B1d",
+       "text": "24 hours without interruption"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "slow the infusion (and follow protocol/provider orders)"
+      },
+      {
+       "key": "B2b",
+       "text": "give the next dose twice as fast"
+      },
+      {
+       "key": "B2c",
+       "text": "add an MAOI to the same IV line"
+      },
+      {
+       "key": "B2d",
+       "text": "stop all future antibiotics permanently without assessment"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. OpenStax/Merck: infuse each dose over at least 60 minutes.",
+    "B1b": "Incorrect. IV push of vancomycin is unsafe and promotes flushing reaction.",
+    "B1c": "Incorrect. Five minutes is too rapid for typical vancomycin doses.",
+    "B1d": "Incorrect. Continuous 24-hour infusion is not the standard teaching for each intermittent dose duration.",
+    "B2a": "Correct. OpenStax: management is to slow the infusion; flushing syndrome can be mistaken for allergy.",
+    "B2b": "Incorrect. Faster infusion worsens histamine release.",
+    "B2c": "Incorrect. MAOI coadministration is unrelated and dangerous.",
+    "B2d": "Incorrect. Assessment and protocol-guided management are required; automatic permanent stop without evaluation is incorrect teaching."
+   },
+   "sources": [
+    {
+     "title": "7.2 Antibiotic, Antiviral/Anti–COVID-19, and Antifungal Drugs",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/7-2-antibiotic-antiviral-anti-covid-19-and-antifungal-drugs",
+     "section": "Adverse Effects and Contraindications — Vancomycin flushing syndrome",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Flushing syndrome mistaken for allergy; slow infusion ≥60 minutes manages it."
+    },
+    {
+     "title": "Vancomycin",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/bacteria-and-antibacterial-medications/vancomycin",
+     "section": "Adverse Effects of Vancomycin",
+     "source_date": "Last updated: May 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Infuse over 60 minutes or more; histamine-mediated flushing of face/neck/shoulders."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-5a82aa04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + Merck vancomycin cloze dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B52-WAVE43",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0060",
+   "format": "multiple_choice",
+   "specialty": "Pharmacology",
+   "topic": "Vesicant chemotherapy extravasation — stop infusion immediately; follow protocol",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "vesicant-chemo-extravasation-stop-infusion",
+   "tags": [
+    "PPT",
+    "extravasation",
+    "vesicant",
+    "chemotherapy",
+    "high-alert"
+   ],
+   "stem": "While a vesicant chemotherapy infusion is running, the client reports burning at the peripheral IV site and the nurse notes swelling. What is the immediate priority action?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Stop the infusion immediately and follow the facility extravasation protocol (including provider notification)"
+    },
+    {
+     "key": "B",
+     "text": "Increase the infusion rate to finish the dose before tissue contact continues"
+    },
+    {
+     "key": "C",
+     "text": "Flush the line vigorously with a large fluid bolus and ignore the burning"
+    },
+    {
+     "key": "D",
+     "text": "Leave the room for 30 minutes to see if the burning resolves on its own"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax Pharmacology: if the IV site may be compromised during vesicant administration, stop the infusion immediately, notify the provider, and follow applicable extravasation protocols. OpenStax Clinical Nursing Skills: for extravasation, stop the infusion and follow agency-specific management (including aspiration steps per policy).",
+    "B": "Incorrect. Faster infusion increases tissue exposure to the vesicant.",
+    "C": "Incorrect. Flushing into compromised tissue can worsen extravasation injury; do not ignore burning.",
+    "D": "Incorrect. Delay allows ongoing tissue injury; extravasation is an emergency."
+   },
+   "sources": [
+    {
+     "title": "8.2 Chemotherapeutic Drugs",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/8-2-chemotherapeutic-drugs",
+     "section": "Administering Vesicant Drugs / Routes of Chemotherapy Administration",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "If IV site may be compromised during vesicant administration, stop infusion immediately; notify provider and follow extravasation protocols."
+    },
+    {
+     "title": "19.3 Considerations for Fluid and Electrolyte Imbalances",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/19-3-considerations-for-fluid-and-electrolyte-imbalances",
+     "section": "QSEN — Infiltration and Extravasation treatment table",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Extravasation of vesicant: Stop the infusion; detach sets and aspirate from catheter hub before removing catheter; follow agency policy."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-5a82aa04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Pharm vesicant + OpenStax CNS extravasation dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B52-WAVE43",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0061",
+   "format": "bowtie",
+   "specialty": "Pharmacology",
+   "topic": "NGN bowtie — vesicant extravasation: stop infusion; notify; monitor site injury",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "vesicant-extravasation-ngn-bowtie",
+   "tags": [
+    "NGN",
+    "bowtie",
+    "PPT",
+    "extravasation",
+    "vesicant"
+   ],
+   "stem": "A client receiving a vesicant chemotherapy infusion develops burning pain and swelling at the peripheral IV site. Complete the bowtie: the priority condition, two priority actions, and two parameters to monitor.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Suspected vesicant extravasation into surrounding tissue"
+     },
+     {
+      "key": "K2",
+      "text": "Uncomplicated seasonal allergic rhinitis without infusion issues"
+     },
+     {
+      "key": "K3",
+      "text": "Resolved fracture cast care without vascular access"
+     },
+     {
+      "key": "K4",
+      "text": "Dietary preference for caffeine only"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Stop the vesicant infusion immediately"
+     },
+     {
+      "key": "A2",
+      "text": "Notify the provider and follow the facility extravasation protocol"
+     },
+     {
+      "key": "A3",
+      "text": "Speed the infusion to empty the bag faster"
+     },
+     {
+      "key": "A4",
+      "text": "Tell the client burning means the drug is working and continue unchanged"
+     },
+     {
+      "key": "A5",
+      "text": "Leave the site unassessed for the rest of the shift"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "IV site appearance (swelling, erythema, blistering) and pain"
+     },
+     {
+      "key": "P2",
+      "text": "Tissue integrity / signs of progressing injury at the site"
+     },
+     {
+      "key": "P3",
+      "text": "Favourite sports team ranking"
+     },
+     {
+      "key": "P4",
+      "text": "Shoe size"
+     },
+     {
+      "key": "P5",
+      "text": "Contact lens brand only"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K1",
+    "actions": [
+     "A1",
+     "A2"
+    ],
+    "parameters": [
+     "P1",
+     "P2"
+    ]
+   },
+   "rationales": {
+    "K1": "Correct. Burning/swelling during vesicant infusion indicate possible extravasation.",
+    "K2": "Incorrect. No evidence of rhinitis as the priority problem.",
+    "K3": "Incorrect. Unrelated to the infusion emergency.",
+    "K4": "Incorrect. Dietary caffeine is unrelated.",
+    "A1": "Correct. Stop the infusion immediately when extravasation is suspected.",
+    "A2": "Correct. Notify provider and follow extravasation protocol.",
+    "A3": "Incorrect. Faster infusion worsens tissue injury.",
+    "A4": "Incorrect. Burning is a warning sign, not a therapeutic effect.",
+    "A5": "Incorrect. Ongoing assessment is required.",
+    "P1": "Correct. Monitor site appearance and pain for progression.",
+    "P2": "Correct. Monitor tissue integrity for injury/necrosis risk.",
+    "P3": "Incorrect. Irrelevant.",
+    "P4": "Incorrect. Irrelevant.",
+    "P5": "Incorrect. Irrelevant."
+   },
+   "sources": [
+    {
+     "title": "8.2 Chemotherapeutic Drugs",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/8-2-chemotherapeutic-drugs",
+     "section": "Administering Vesicant Drugs / Routes of Chemotherapy Administration",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Condition/actions",
+     "evidence": "Stop compromised vesicant infusion immediately; notify provider; follow extravasation protocols; monitor site."
+    },
+    {
+     "title": "19.3 Considerations for Fluid and Electrolyte Imbalances",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/19-3-considerations-for-fluid-and-electrolyte-imbalances",
+     "section": "QSEN — Infiltration and Extravasation treatment table",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Condition/actions/parameters",
+     "evidence": "Extravasation signs: burning/stinging, redness, blistering; stop infusion; aspirate per policy; monitor tissue injury."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-5a82aa04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Pharm + CNS extravasation bowtie dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B52-WAVE43",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-HPM-0071",
+   "format": "multiple_choice",
+   "specialty": "Community/Public Health",
+   "topic": "Fifth disease (parvovirus B19) — usually return to school after slapped-cheek rash appears",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "fifth-disease-parvovirus-school-return-after-rash",
+   "tags": [
+    "HPM",
+    "fifth-disease",
+    "parvovirus",
+    "community",
+    "school-health"
+   ],
+   "stem": "A school-age child develops the bright \"slapped cheek\" rash of fifth disease (parvovirus B19) after a few days of mild cold symptoms and is now afebrile. Which teaching is most accurate about contagiousness and school attendance?",
+   "options": [
+    {
+     "key": "A",
+     "text": "The child is usually unlikely to be contagious after the rash appears and can typically return to school if otherwise well and facility policy allows"
+    },
+    {
+     "key": "B",
+     "text": "The child must remain home for exactly 30 days after the rash fades"
+    },
+    {
+     "key": "C",
+     "text": "The rash means the child is most contagious and must be isolated in a negative-pressure room at school"
+    },
+    {
+     "key": "D",
+     "text": "Fifth disease spreads only from dogs and cats, so school contacts are irrelevant"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: people are most contagious early; unlikely contagious after later symptoms such as rash; usually safe to return to school after the rash appears. VDH school chart: once the characteristic rash appears, the child is not likely contagious and can return; exclusion not otherwise indicated beyond facility fever/rash policies.",
+    "B": "Incorrect. A fixed 30-day post-rash exclusion is not the standard guidance.",
+    "C": "Incorrect. Contagiousness is highest before the rash, not after; negative-pressure school isolation is not indicated for typical fifth disease.",
+    "D": "Incorrect. Human parvovirus B19 spreads person to person (respiratory/blood); pet parvoviruses are different."
+   },
+   "sources": [
+    {
+     "title": "Preventing Parvovirus B19",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/parvovirus-b19/prevention-treatment/",
+     "section": "Risk to others",
+     "source_date": "Dec. 17, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Unlikely contagious after rash/joint pain; usually safe to return to work or school after the rash appears."
+    },
+    {
+     "title": "Communicable Disease Reference Chart for School and Childcare Facility Personnel",
+     "publisher": "Virginia Department of Health",
+     "url": "https://www.vdh.virginia.gov/surveillance-and-investigation/communicable-disease-reference-chart/",
+     "section": "Fifth Disease (Parvovirus B19, Erythema Infectiosum)",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Once characteristic rash appears, child not likely contagious and can return to school; exclusion not indicated beyond fever/rash facility policies; pregnant contacts seek advice."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-5a82aa04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC parvovirus contagiousness + VDH school chart dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B52-WAVE43",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-fetal-risk"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-HPM-0072",
+   "format": "matrix_multiple_choice",
+   "specialty": "Community/Public Health",
+   "topic": "NGN matrix — fifth disease/parvovirus teaching indicated vs not",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "fifth-disease-parvovirus-ngn-matrix-teaching",
+   "tags": [
+    "NGN",
+    "matrix",
+    "HPM",
+    "fifth-disease",
+    "parvovirus",
+    "pregnancy"
+   ],
+   "stem": "For a child with classic fifth disease (slapped-cheek rash) who is otherwise well, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Explain that contagiousness is usually low after the rash appears and school return is often appropriate if the child is well"
+     },
+     {
+      "key": "R2",
+      "text": "Advise pregnant household contacts to notify their obstetric/health care provider about the exposure"
+     },
+     {
+      "key": "R3",
+      "text": "Teach that the bright red cheek rash is the classic \"slapped cheek\" finding of fifth disease"
+     },
+     {
+      "key": "R4",
+      "text": "Tell the family fifth disease is spread only by household pets, so human contacts need no guidance"
+     },
+     {
+      "key": "R5",
+      "text": "Recommend starting an MAOI immediately to shorten the rash"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. CDC/VDH: unlikely contagious after rash; school return usually OK if well.",
+    "R2": "Indicated. MedlinePlus/CDC: pregnant persons exposed should contact their provider.",
+    "R3": "Indicated. Slapped-cheek rash is the classic finding.",
+    "R4": "Not indicated. Human parvovirus B19 is a human infection; pet parvoviruses differ.",
+    "R5": "Not indicated. No MAOI therapy for fifth disease rash; illness is typically self-limited."
+   },
+   "sources": [
+    {
+     "title": "Preventing Parvovirus B19",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/parvovirus-b19/prevention-treatment/",
+     "section": "Risk to others",
+     "source_date": "Dec. 17, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Rows R1,R3",
+     "evidence": "Unlikely contagious after rash; usually safe to return to school after rash appears."
+    },
+    {
+     "title": "Fifth disease",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/article/000977.htm",
+     "section": "Possible Complications / When to Contact a Medical Professional",
+     "source_date": "Review Date 7/1/2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Rows R2,R4,R5",
+     "evidence": "Contact provider if pregnant and exposed; slapped-cheek rash; fetal anemia/miscarriage uncommon risk."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-5a82aa04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC parvovirus + MedlinePlus fifth disease matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B52-WAVE43",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric-emergency"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PA-0074",
+   "format": "multiple_choice",
+   "specialty": "Pediatrics",
+   "topic": "Child severe FBAO — cycles of 5 back blows alternating with 5 abdominal thrusts",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "child-severe-fbao-back-blows-abdominal-thrusts",
+   "tags": [
+    "PA",
+    "FBAO",
+    "choking",
+    "pediatrics",
+    "BLS"
+   ],
+   "stem": "A responsive 4-year-old is choking, cannot speak or cough effectively, and is becoming cyanotic. Which intervention sequence is recommended while emergency help is activated?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Repeated cycles of 5 back blows alternating with 5 abdominal thrusts until the object is expelled or the child becomes unresponsive"
+    },
+    {
+     "key": "B",
+     "text": "Blind finger sweeps of the throat before any other action"
+    },
+    {
+     "key": "C",
+     "text": "Abdominal thrusts only, never back blows, and only after the child becomes unresponsive"
+    },
+    {
+     "key": "D",
+     "text": "Infant-style chest thrusts alone without back blows, because abdominal thrusts are preferred in infants"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. 2025 AHA/AAP pediatric BLS: for children with severe FBAO, use repeated cycles of 5 back blows alternating with 5 abdominal thrusts until the object is expelled or the child becomes unresponsive. Merck supports abdominal thrusts for older/conscious children and distinguishes infant technique.",
+    "B": "Incorrect. Blind finger sweeps are not recommended and may push the object deeper.",
+    "C": "Incorrect. Current child guidance includes back blows alternating with abdominal thrusts while the child is still responsive with severe obstruction.",
+    "D": "Incorrect. Infant technique uses back blows and chest thrusts; abdominal thrusts are not used in infants. This client is a child, not an infant."
+   },
+   "sources": [
+    {
+     "title": "Part 6: Pediatric Basic Life Support: 2025 AHA and AAP Guidelines",
+     "publisher": "American Heart Association / American Academy of Pediatrics",
+     "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001370",
+     "section": "Foreign-Body Airway Obstruction — children with severe FBAO",
+     "source_date": "2025 Guidelines (Circulation 2025)",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "For children with severe FBAO: repeated cycles of 5 back blows alternating with 5 abdominal thrusts until object expelled or child unresponsive. Abdominal thrusts not for infants."
+    },
+    {
+     "title": "Airway Establishment and Control",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/critical-care-medicine/respiratory-arrest/airway-establishment-and-control",
+     "section": "Treating the conscious, choking patient / Procedures for choking in infants and small children",
+     "source_date": "Last updated: Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Conscious choking: abdominal thrusts for older children; do not use abdominal thrusts in infants <1 year (use back blows/chest thrusts)."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-5a82aa04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHA/AAP 2025 pediatric FBAO + Merck choking dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B52-WAVE43",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric-emergency"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PA-0075",
+   "format": "bowtie",
+   "specialty": "Pediatrics",
+   "topic": "NGN bowtie — child severe FBAO: back blows + abdominal thrusts; monitor airway",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "child-severe-fbao-ngn-bowtie",
+   "tags": [
+    "NGN",
+    "bowtie",
+    "PA",
+    "FBAO",
+    "pediatrics"
+   ],
+   "stem": "A responsive preschooler suddenly cannot speak, has a weak cough, and shows cyanosis while eating. Complete the bowtie: the priority condition, two priority actions, and two parameters to monitor.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Severe foreign-body airway obstruction (choking) in a child"
+     },
+     {
+      "key": "K2",
+      "text": "Mild seasonal allergies with easy speech and strong cough"
+     },
+     {
+      "key": "K3",
+      "text": "Uncomplicated otitis media without airway compromise"
+     },
+     {
+      "key": "K4",
+      "text": "Resolved diaper dermatitis only"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Activate emergency response and begin cycles of 5 back blows alternating with 5 abdominal thrusts"
+     },
+     {
+      "key": "A2",
+      "text": "Continue cycles until the object is expelled or the child becomes unresponsive (then start CPR)"
+     },
+     {
+      "key": "A3",
+      "text": "Perform repeated blind finger sweeps before any back blows"
+     },
+     {
+      "key": "A4",
+      "text": "Offer a large glass of water and leave the child alone to \"cough it out\" unsupervised"
+     },
+     {
+      "key": "A5",
+      "text": "Start abdominal thrusts on an infant under 1 year as the first-line infant method"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "Ability to speak/cough and presence of cyanosis or unresponsiveness"
+     },
+     {
+      "key": "P2",
+      "text": "Whether the foreign body is expelled and airway/breathing improve"
+     },
+     {
+      "key": "P3",
+      "text": "Favourite cartoon character only"
+     },
+     {
+      "key": "P4",
+      "text": "Shoe size"
+     },
+     {
+      "key": "P5",
+      "text": "Classroom locker combination"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K1",
+    "actions": [
+     "A1",
+     "A2"
+    ],
+    "parameters": [
+     "P1",
+     "P2"
+    ]
+   },
+   "rationales": {
+    "K1": "Correct. Inability to speak, weak cough, and cyanosis indicate severe FBAO.",
+    "K2": "Incorrect. Mild allergies with strong cough are not severe obstruction.",
+    "K3": "Incorrect. Otitis media is unrelated to acute airway obstruction.",
+    "K4": "Incorrect. Dermatitis is unrelated.",
+    "A1": "Correct. Activate help and use 5 back blows alternating with 5 abdominal thrusts for a child.",
+    "A2": "Correct. Continue until expulsion or unresponsiveness; then CPR.",
+    "A3": "Incorrect. Blind finger sweeps are not recommended.",
+    "A4": "Incorrect. Severe obstruction needs immediate relief maneuvers, not unsupervised waiting.",
+    "A5": "Incorrect. Abdominal thrusts are not the infant method.",
+    "P1": "Correct. Monitor airway signs and responsiveness.",
+    "P2": "Correct. Monitor expulsion and breathing improvement.",
+    "P3": "Incorrect. Irrelevant.",
+    "P4": "Incorrect. Irrelevant.",
+    "P5": "Incorrect. Irrelevant."
+   },
+   "sources": [
+    {
+     "title": "Part 6: Pediatric Basic Life Support: 2025 AHA and AAP Guidelines",
+     "publisher": "American Heart Association / American Academy of Pediatrics",
+     "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001370",
+     "section": "Foreign-Body Airway Obstruction — children with severe FBAO",
+     "source_date": "2025 Guidelines (Circulation 2025)",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Condition/actions/parameters",
+     "evidence": "Severe FBAO in child: weak/absent cough, unable to speak, cyanosis; cycles of 5 back blows + 5 abdominal thrusts; if unresponsive start CPR."
+    },
+    {
+     "title": "Airway Establishment and Control",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/critical-care-medicine/respiratory-arrest/airway-establishment-and-control",
+     "section": "Treating the conscious, choking patient / Procedures for choking in infants and small children",
+     "source_date": "Last updated: Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Condition/actions",
+     "evidence": "Conscious choking patient unable to make audible noise; abdominal thrusts until airway clear or unconscious; infants differ."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-5a82aa04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHA/AAP 2025 + Merck child FBAO bowtie dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B52-WAVE43",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric-renal"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0058",
+   "format": "multiple_choice",
+   "specialty": "Pediatrics",
+   "topic": "Poststreptococcal glomerulonephritis — cola-colored urine, edema, hypertension after strep",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "psgn-poststreptococcal-glomerulonephritis-cues",
+   "tags": [
+    "RRP",
+    "PSGN",
+    "pediatrics",
+    "nephrology"
+   ],
+   "stem": "A school-age child had streptococcal pharyngitis about 10 days ago and now has periorbital edema, elevated blood pressure, and cola-colored urine. Which condition should the nurse suspect?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Poststreptococcal (postinfectious) glomerulonephritis"
+    },
+    {
+     "key": "B",
+     "text": "Immediate anaphylaxis to residual throat lozenges"
+    },
+    {
+     "key": "C",
+     "text": "Uncomplicated seasonal allergic rhinitis only"
+    },
+    {
+     "key": "D",
+     "text": "Simple dehydration with normal urine colour and no edema"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck/CDC: PSGN/PIGN follows group A strep pharyngitis or skin infection after a latent period and presents with hematuria (often dark/cola-colored), edema, hypertension, and proteinuria.",
+    "B": "Incorrect. Timing and renal findings do not indicate acute anaphylaxis.",
+    "C": "Incorrect. Allergic rhinitis does not cause cola urine, edema, and hypertension after strep.",
+    "D": "Incorrect. The described findings are not simple dehydration."
+   },
+   "sources": [
+    {
+     "title": "Postinfectious Glomerulonephritis (PIGN)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/nephrology/glomerular-disorders/postinfectious-glomerulonephritis-pign",
+     "section": "Symptoms and Signs / Key Points",
+     "source_date": "Last updated: Apr 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "After pharyngitis/impetigo latency; cola-colored hematuria, edema, hypertension; most common acute GN in children 3–15."
+    },
+    {
+     "title": "Clinical Guidelines for Post-Streptococcal Glomerulonephritis",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/post-streptococcal-glomerulonephritis.html",
+     "section": "Clinical features / Latent period",
+     "source_date": "Aug. 5, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "After strep pharyngitis ~10 days (skin up to 3 weeks): edema, hypertension, dark reddish-brown hematuria, proteinuria."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-5a82aa04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck PIGN + CDC PSGN dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B52-WAVE43",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric-renal"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0059",
+   "format": "matrix_multiple_choice",
+   "specialty": "Pediatrics",
+   "topic": "NGN matrix — PSGN monitoring and supportive actions indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "psgn-ngn-matrix-monitor-supportive-care",
+   "tags": [
+    "NGN",
+    "matrix",
+    "RRP",
+    "PSGN",
+    "pediatrics"
+   ],
+   "stem": "For a child with suspected poststreptococcal glomerulonephritis after recent strep infection, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Monitor blood pressure closely for hypertension"
+     },
+     {
+      "key": "R2",
+      "text": "Assess edema (including facial/periorbital) and urine colour/output"
+     },
+     {
+      "key": "R3",
+      "text": "Support fluid/sodium management per provider orders for edema/hypertension"
+     },
+     {
+      "key": "R4",
+      "text": "Encourage unlimited high-sodium fast food to \"flush the kidneys\""
+     },
+     {
+      "key": "R5",
+      "text": "Ignore cola-colored urine because color changes are always harmless after strep"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Hypertension is a core PSGN feature requiring monitoring/management.",
+    "R2": "Indicated. Edema and dark hematuria/oliguria are key findings to assess.",
+    "R3": "Indicated. Treatment is supportive, including managing edema and hypertension.",
+    "R4": "Not indicated. High sodium worsens fluid overload/hypertension risk.",
+    "R5": "Not indicated. Dark/cola urine is a classic warning sign of glomerulonephritis, not something to ignore."
+   },
+   "sources": [
+    {
+     "title": "Postinfectious Glomerulonephritis (PIGN)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/nephrology/glomerular-disorders/postinfectious-glomerulonephritis-pign",
+     "section": "Symptoms and Signs / Key Points",
+     "source_date": "Last updated: Apr 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Monitor hematuria, edema, hypertension; supportive care; fever unusual (suggests ongoing infection)."
+    },
+    {
+     "title": "Clinical Guidelines for Post-Streptococcal Glomerulonephritis",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/post-streptococcal-glomerulonephritis.html",
+     "section": "Clinical features / Latent period",
+     "source_date": "Aug. 5, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Features: edema (esp. face), hypertension, dark urine; manage hypertension/edema; latent period after strep."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-5a82aa04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck + CDC PSGN matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B52-WAVE43",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "infection-prevention"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0060",
+   "format": "multiple_choice",
+   "specialty": "Medical-Surgical",
+   "topic": "Surgical antimicrobial prophylaxis — begin within 60 minutes before incision",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ssi-prophylaxis-antibiotic-within-60-min-incision",
+   "tags": [
+    "SIPC",
+    "SSI",
+    "surgical-prophylaxis",
+    "antibiotic"
+   ],
+   "stem": "A client is scheduled for a clean-contaminated abdominal procedure. Which timing best reflects evidence-based surgical antimicrobial prophylaxis for a typical rapidly infused antibiotic (for example, a cephalosporin)?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Begin administration within 60 minutes before incision so tissue levels are present when the incision is made"
+    },
+    {
+     "key": "B",
+     "text": "Give the first prophylactic dose only after the incision is already closed"
+    },
+    {
+     "key": "C",
+     "text": "Start prophylaxis 24 hours before surgery and continue for 2 weeks automatically"
+    },
+    {
+     "key": "D",
+     "text": "Omit all antibiotics for every procedure regardless of guideline indications"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. SHEA 2022: begin antimicrobial prophylaxis within 1 hour before incision (2 hours allowed for vancomycin/fluoroquinolones due to longer infusion). CDC 2017: time agents so bactericidal concentrations are established when the incision is made.",
+    "B": "Incorrect. Prophylaxis should be present at incision; postoperative-only first dose misses the goal of tissue levels at incision.",
+    "C": "Incorrect. Prolonged automatic courses are not the standard prophylaxis approach and increase harm/resistance risk.",
+    "D": "Incorrect. Prophylaxis is indicated for many procedures per guidelines."
+   },
+   "sources": [
+    {
+     "title": "Strategies to prevent surgical site infections in acute-care hospitals: 2022 Update",
+     "publisher": "SHEA / IDSA / APIC (Infect Control Hosp Epidemiol)",
+     "url": "https://stacks.cdc.gov/view/cdc/155079/cdc_155079_DS1.pdf",
+     "section": "Essential practices — antimicrobial prophylaxis timing",
+     "source_date": "2022 Update",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Begin antimicrobial prophylaxis within 1 hour prior to incision; 2 hours allowed for vancomycin/fluoroquinolones; discontinue after closure."
+    },
+    {
+     "title": "Centers for Disease Control and Prevention Guideline for the Prevention of Surgical Site Infection, 2017",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://stacks.cdc.gov/view/cdc/79361/cdc_79361_DS1.pdf",
+     "section": "Parenteral Antimicrobial Prophylaxis 1A.1 / 1E",
+     "source_date": "Published online May 3, 2017",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Time prophylaxis so bactericidal concentration is present when incision is made; do not give additional prophylactic doses after incision closed in clean/clean-contaminated cases."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-5a82aa04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "SHEA 2022 SSI + CDC 2017 SSI timing dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B52-WAVE43",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "infection-prevention"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0061",
+   "format": "drop_down_cloze",
+   "specialty": "Medical-Surgical",
+   "topic": "NGN cloze — SSI prophylaxis timing and stop after closure",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ssi-prophylaxis-ngn-cloze-timing-discontinue",
+   "tags": [
+    "NGN",
+    "cloze",
+    "SIPC",
+    "SSI",
+    "surgical-prophylaxis"
+   ],
+   "stem": "Complete the perioperative teaching points for surgical antimicrobial prophylaxis.",
+   "ngn": {
+    "template": "For most rapidly infused prophylactic antibiotics, begin administration within {B1} before incision. In clean and clean-contaminated procedures, additional routine prophylactic doses after the incision is closed are generally {B2}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "60 minutes (1 hour)"
+      },
+      {
+       "key": "B1b",
+       "text": "48 hours"
+      },
+      {
+       "key": "B1c",
+       "text": "1 week"
+      },
+      {
+       "key": "B1d",
+       "text": "30 days"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "not indicated (discontinue after closure)"
+      },
+      {
+       "key": "B2b",
+       "text": "required for at least 14 days in all clients"
+      },
+      {
+       "key": "B2c",
+       "text": "replaced by stopping the case mid-procedure without antibiotics ever"
+      },
+      {
+       "key": "B2d",
+       "text": "given only as an intramuscular dose into the incision edges after discharge"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. SHEA: begin within 1 hour before incision for typical agents.",
+    "B1b": "Incorrect. Starting 48 hours before is not the standard timing window.",
+    "B1c": "Incorrect. One week early is not guideline timing.",
+    "B1d": "Incorrect. Thirty days early is not guideline timing.",
+    "B2a": "Correct. SHEA/CDC: discontinue after incision closure; do not continue routine prophylactic doses postoperatively for clean/clean-contaminated cases.",
+    "B2b": "Incorrect. Automatic prolonged courses are not recommended prophylaxis practice.",
+    "B2c": "Incorrect. Unsafe and unrelated.",
+    "B2d": "Incorrect. Not standard prophylaxis teaching."
+   },
+   "sources": [
+    {
+     "title": "Strategies to prevent surgical site infections in acute-care hospitals: 2022 Update",
+     "publisher": "SHEA / IDSA / APIC (Infect Control Hosp Epidemiol)",
+     "url": "https://stacks.cdc.gov/view/cdc/155079/cdc_155079_DS1.pdf",
+     "section": "Essential practices — antimicrobial prophylaxis timing",
+     "source_date": "2022 Update",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Begin within 1 hour before incision; discontinue antimicrobial agents after incisional closure in OR."
+    },
+    {
+     "title": "Centers for Disease Control and Prevention Guideline for the Prevention of Surgical Site Infection, 2017",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://stacks.cdc.gov/view/cdc/79361/cdc_79361_DS1.pdf",
+     "section": "Parenteral Antimicrobial Prophylaxis 1A.1 / 1E",
+     "source_date": "Published online May 3, 2017",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Bactericidal levels at incision; do not administer additional prophylactic doses after incision closed (clean/clean-contaminated)."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-5a82aa04) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "SHEA 2022 + CDC 2017 SSI cloze dual-cite."
+    }
+   ]
+  }
+ ]
+}
