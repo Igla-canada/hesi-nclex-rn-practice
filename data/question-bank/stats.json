@@ -1,9 +1,9 @@
 {
  "generated": "2026-11-25",
- "total_items": 721,
+ "total_items": 735,
  "by_status": {
   "Draft": 0,
-  "Source verified": 721,
+  "Source verified": 735,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -13,7 +13,7 @@
  "by_client_needs_x_status": {
   "MOC": {
    "Draft": 0,
-   "Source verified": 112,
+   "Source verified": 114,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -22,7 +22,7 @@
   },
   "SIPC": {
    "Draft": 0,
-   "Source verified": 84,
+   "Source verified": 91,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -31,7 +31,7 @@
   },
   "HPM": {
    "Draft": 0,
-   "Source verified": 91,
+   "Source verified": 96,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -100,16 +100,16 @@
  },
  "all_active": {
   "by_format": {
-   "multiple_choice": 460,
-   "matrix_multiple_choice": 120,
-   "drop_down_cloze": 64,
+   "multiple_choice": 466,
+   "matrix_multiple_choice": 126,
+   "drop_down_cloze": 66,
    "select_all_that_apply": 46,
    "bowtie": 28,
    "ordered_response": 2,
    "calculation": 1
   },
   "by_jurisdiction": {
-   "General (Canada/US concordant)": 622,
+   "General (Canada/US concordant)": 636,
    "Ontario-specific": 67,
    "Canada-specific": 32
   }
@@ -117,30 +117,30 @@
  "excluded_draft_topics": 147,
  "archived_items": 0,
  "source_citations_by_publisher": {
-  "Merck Manual Professional Edition": 374,
-  "U.S. Centers for Disease Control and Prevention (CDC)": 125,
+  "Merck Manual Professional Edition": 376,
+  "U.S. Centers for Disease Control and Prevention (CDC)": 137,
   "OpenStax — Fundamentals of Nursing": 119,
   "OpenStax — Medical-Surgical Nursing": 118,
   "OpenStax — Psychiatric-Mental Health Nursing": 79,
   "College of Nurses of Ontario": 75,
-  "OpenStax — Pharmacology for Nurses": 65,
+  "OpenStax — Pharmacology for Nurses": 67,
   "MedlinePlus / U.S. National Library of Medicine": 55,
-  "OpenStax — Clinical Nursing Skills": 51,
+  "OpenStax — Clinical Nursing Skills": 53,
   "OpenStax — Maternal-Newborn Nursing": 50,
-  "Agency for Healthcare Research and Quality (AHRQ)": 29,
+  "Agency for Healthcare Research and Quality (AHRQ)": 31,
   "NCBI Bookshelf (Open RN / WisTech Open)": 27,
   "Agency for Healthcare Research and Quality (AHRQ) — PSNet": 22,
+  "Public Health Agency of Canada / Canada.ca": 20,
   "Health Canada / Canada.ca": 20,
   "Canadian Paediatric Society — Caring for Kids": 19,
   "Government of Ontario — e-Laws": 16,
-  "Public Health Agency of Canada / Canada.ca": 15,
   "World Health Organization": 12,
+  "Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC)": 10,
   "U.S. National Library of Medicine — DailyMed": 9,
   "OpenStax — Population Health for Nurses": 9,
   "StatPearls / NCBI Bookshelf": 9,
   "Canadian Paediatric Society": 8,
   "American Academy of Orthopaedic Surgeons (OrthoInfo)": 8,
-  "Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC)": 7,
   "Centers for Disease Control and Prevention": 7,
   "U.S. Occupational Safety and Health Administration (OSHA)": 7,
   "Merck Manual Consumer Version": 6,
