@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 361,
+  "Source verified": 374,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -40400,6 +40400,1569 @@
      "source_type": "textbook_open",
      "supports": "Condition K2; actions A1–A2; parameters",
      "evidence": "Sudden onset; treat underlying condition; supportive environment; avoid restraints.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B41-WAVE32",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-MOC-0063",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "TeamSTEPPS",
+    "DESC",
+    "conflict",
+    "leadership",
+    "MOC"
+   ],
+   "stem": "A nurse must address a colleague’s hostile, publicly demeaning behaviour that is undermining teamwork and safety. Using TeamSTEPPS DESC guidance, which action is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Hold a timely private discussion using “I” statements and aim for a constructive win-win resolution"
+    },
+    {
+     "key": "B",
+     "text": "Confront the colleague loudly in front of the client so others witness accountability"
+    },
+    {
+     "key": "C",
+     "text": "Ignore the behaviour because interpersonal conflict never affects patient safety"
+    },
+    {
+     "key": "D",
+     "text": "Post a detailed complaint on social media before speaking with the colleague"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. AHRQ TeamSTEPPS DESC: choose a private location (not in front of patient/team), use “I” statements, time the discussion, and work toward a win-win solution for interpersonal conflict.",
+    "B": "Incorrect. DESC advises a private location so parties can focus on resolving conflict rather than saving face; public confrontation can escalate harm.",
+    "C": "Incorrect. DESC is indicated when hostile/harassing behaviours put patients or staff at risk of harm.",
+    "D": "Incorrect. Social-media airing is not a TeamSTEPPS conflict-resolution method and breaches professionalism."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "TeamSTEPPS DESC — private timely discussion with I-statements for interpersonal conflict",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "teamstepps-desc-private-timely-i-statements-winwin",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0e35e817) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ DESC tool: private location; I statements; win-win; for hostile/harassing behaviours. OpenStax Fundamentals 2.3: assertiveness improves team communication and advocacy."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tool: DESC",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/teamstepps-program/curriculum/mutual/tools/desc.html",
+     "section": "Tool: DESC — strategic use (location, I statements, win-win)",
+     "source_date": "Page last reviewed July 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Private location not in front of patient/team; use I statements; win-win.",
+     "added_by": "author"
+    },
+    {
+     "title": "2.3 Effective Communication",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/2-3-effective-communication",
+     "section": "Assertiveness",
+     "source_date": "citation_date Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A framing",
+     "evidence": "Assertive nurses build effective team communication and advocate until concerns are addressed.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B41-WAVE32",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-MOC-0064",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "TeamSTEPPS",
+    "DESC",
+    "NGN",
+    "matrix",
+    "leadership",
+    "MOC"
+   ],
+   "stem": "A nurse prepares to use TeamSTEPPS DESC for interpersonal conflict. Which actions are indicated?",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Choose a private location away from the client and other team members"
+     },
+     {
+      "key": "R2",
+      "text": "Use “I” statements rather than blaming statements"
+     },
+     {
+      "key": "R3",
+      "text": "Aim for a win-win solution the parties can live with"
+     },
+     {
+      "key": "R4",
+      "text": "Publicly humiliate the colleague to force immediate compliance"
+     }
+    ]
+   },
+   "options": [],
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. AHRQ DESC: private location not in front of patient/team.",
+    "R2": "Indicated. AHRQ: use I statements; OpenStax supports assertive professional communication.",
+    "R3": "Indicated. AHRQ: work on win-win despite interpersonal conflict.",
+    "R4": "Not indicated. Public humiliation contradicts private, constructive DESC guidance."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "NGN matrix — TeamSTEPPS DESC: private setting, I-statements, win-win; not public humiliation",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ngn-matrix-teamstepps-desc-private-i-statements-winwin",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0e35e817) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ DESC tool strategic tips. OpenStax assertiveness for constructive team communication."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tool: DESC",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/teamstepps-program/curriculum/mutual/tools/desc.html",
+     "section": "Tool: DESC — strategic use",
+     "source_date": "Page last reviewed July 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "R1–R4",
+     "evidence": "Private location; I statements; win-win; focus on what is right.",
+     "added_by": "author"
+    },
+    {
+     "title": "2.3 Effective Communication",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/2-3-effective-communication",
+     "section": "Assertiveness",
+     "source_date": "citation_date Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "R2 framing",
+     "evidence": "Assertive communication improves team communication without aggression.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B41-WAVE32",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-MOC-0065",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "TeamSTEPPS",
+    "cross-monitoring",
+    "situation-monitoring",
+    "leadership",
+    "MOC"
+   ],
+   "stem": "During a sterile procedure, a nurse notices a colleague’s glove touch a nonsterile surface. Which TeamSTEPPS situation-monitoring action best describes speaking up to correct the break?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Cross-monitoring — watching each other’s back as a team safety net to catch errors early"
+    },
+    {
+     "key": "B",
+     "text": "Spying — covertly gathering evidence to punish the colleague later"
+    },
+    {
+     "key": "C",
+     "text": "Ignoring the break to avoid hurting the colleague’s feelings"
+    },
+    {
+     "key": "D",
+     "text": "Waiting until after patient harm occurs before discussing sterility"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. AHRQ: cross-monitoring means monitoring others’ actions, providing a safety net, and catching mistakes early (“watching each other’s back”); example includes calling out a break in sterile technique.",
+    "B": "Incorrect. AHRQ explicitly states cross-monitoring is not spying.",
+    "C": "Incorrect. Failing to interrupt an error misses the purpose of cross-monitoring as error prevention.",
+    "D": "Incorrect. Cross-monitoring aims to correct issues before harm occurs."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "TeamSTEPPS cross-monitoring — safety net to catch errors early (not spying)",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "teamstepps-cross-monitoring-safety-net-not-spying",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0e35e817) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ Cross-Monitoring tool: watching each other's back; not spying; catch mistakes early. AHRQ situation tools index example: nurse calls out sterile technique break (cross-monitoring). OpenStax assertiveness: speak up as advocate."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tool: Cross-Monitoring",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/teamstepps-program/curriculum/situation/tools/monitoring.html",
+     "section": "Tool: Cross-Monitoring; How To Use Cross-Monitoring Effectively",
+     "source_date": "Page last reviewed June 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Watching each other's back; safety net; not spying; catch mistakes early.",
+     "added_by": "author"
+    },
+    {
+     "title": "2.3 Effective Communication",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/2-3-effective-communication",
+     "section": "Assertiveness",
+     "source_date": "citation_date Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A framing",
+     "evidence": "Assertive nurses advocate until concerns are addressed.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B41-WAVE32",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CNO Code of Conduct Principle 6 (updated March 2026) — fitness/self-health and impairment accountabilities.",
+   "jurisdiction": "Ontario-specific",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario",
+    "guideline-version-sensitive",
+    "mental-health-safety"
+   ],
+   "id": "ONRN-MOC-0066",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "CNO",
+    "Code-of-Conduct",
+    "fitness",
+    "impairment",
+    "Ontario",
+    "MOC"
+   ],
+   "stem": "An Ontario nurse realizes recent untreated health issues are impairing concentration and may endanger clients. Which response best meets CNO Code of Conduct accountabilities?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Self-reflect, seek help, and do not practise while impaired by any substance or unsafe health state"
+    },
+    {
+     "key": "B",
+     "text": "Continue full independent practice while keeping the health issue secret from all supports"
+    },
+    {
+     "key": "C",
+     "text": "Use alcohol at work to steady nerves so clients are unaware"
+    },
+    {
+     "key": "D",
+     "text": "Ask a friend without nursing credentials to cover medication administration unsupervised"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO Code 6.7–6.8: nurses self-reflect on health and seek help if health affects safe practice, and do not practise when impaired by any substance. OpenStax: impaired practice endangers clients; nurses must address impairment appropriately.",
+    "B": "Incorrect. Secrecy without seeking help conflicts with the duty to seek help when health affects safe practice.",
+    "C": "Incorrect. Practising while substance-impaired is expressly prohibited (CNO 6.8).",
+    "D": "Incorrect. Unregulated coverage of nursing medication administration does not meet safe, competent care or accountability requirements."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "CNO Code — seek help if health affects safe practice; do not practise impaired",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cno-code-self-reflect-seek-help-no-impaired-practice",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0e35e817) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Code 6.7 seek help if health affects safe practice; 6.8 do not practice when impaired. OpenStax MS 5.2: impaired colleague/practice requires appropriate action; PMH 19.1: impaired nursing practice endangers clients."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Code of Conduct",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/49040_code-of-conduct.pdf",
+     "section": "Principle 6 — statements 6.7 and 6.8",
+     "source_date": "Updated March 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A; distractors B–C",
+     "evidence": "6.7 self-reflect on health and seek help if health affects ability to practice safely; 6.8 do not practice when impaired by any substance.",
+     "added_by": "author"
+    },
+    {
+     "title": "5.2 Patient Care and Safety",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/5-2-patient-care-and-safety",
+     "section": "Ethical Care and Safety — Table 5.2 impaired colleague",
+     "source_date": "citation_date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A framing",
+     "evidence": "Nurses must act on impaired practices that could harm patients; consult supervisory personnel and support remediation.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B41-WAVE32",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "id": "ONRN-PSY-0035",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "OCD",
+    "ERP",
+    "CBT",
+    "mental-health",
+    "PSY"
+   ],
+   "stem": "A client with contamination obsessions and washing compulsions begins evidence-based psychotherapy. Which treatment element is essential?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Gradual exposure to anxiety triggers while preventing the usual compulsive ritual (exposure and response prevention)"
+    },
+    {
+     "key": "B",
+     "text": "Encouraging longer and more frequent washing until anxiety disappears permanently"
+    },
+    {
+     "key": "C",
+     "text": "Arguing that the client’s obsessions are deliberately invented for attention"
+    },
+    {
+     "key": "D",
+     "text": "Withholding all explanation of treatment because insight never varies in OCD"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck and OpenStax: CBT with exposure and response/ritual prevention gradually exposes the client to triggers while preventing rituals.",
+    "B": "Incorrect. Increasing rituals reinforces the OCD cycle rather than preventing the compulsive response.",
+    "C": "Incorrect. Obsessions are unwanted/intrusive; arguing or blaming is nontherapeutic.",
+    "D": "Incorrect. Insight varies; education and collaborative ERP are standard."
+   },
+   "specialty": "Mental Health",
+   "topic": "OCD — exposure and response (ritual) prevention as essential CBT element",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ocd-exposure-response-prevention-essential-cbt",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0e35e817) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck OCD Treatment: exposure and ritual prevention essential. OpenStax 17.3: ERP gradually expose while refraining from compulsions."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Obsessive-Compulsive Disorder (OCD)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/obsessive-compulsive-and-related-disorders/obsessive-compulsive-disorder-ocd",
+     "section": "Treatment of Obsessive-Compulsive Disorder",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractors B–D",
+     "evidence": "CBT including exposure and response (ritual) prevention; gradually expose while asking not to perform rituals.",
+     "added_by": "author"
+    },
+    {
+     "title": "17.3 Obsessive–Compulsive and Related Disorders",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/17-3-obsessive-compulsive-and-related-disorders",
+     "section": "Treatment of OCD — ERP",
+     "source_date": "citation_date Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "ERP: gradually exposing to anxiety-provoking stimuli while refraining from compulsions.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B41-WAVE32",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "id": "ONRN-PSY-0036",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "OCD",
+    "NGN",
+    "matrix",
+    "mental-health",
+    "PSY"
+   ],
+   "stem": "For a client with OCD starting exposure and response prevention, which nursing actions are indicated?",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Support gradual exposure to triggers while the client refrains from the usual compulsion"
+     },
+     {
+      "key": "R2",
+      "text": "Teach relaxation techniques to help reduce anxiety"
+     },
+     {
+      "key": "R3",
+      "text": "Mock the client’s obsessions as attention-seeking"
+     },
+     {
+      "key": "R4",
+      "text": "Educate about prescribed SSRI therapy and monitor for side effects when ordered"
+     }
+    ]
+   },
+   "options": [],
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. ERP requires exposure with response prevention (Merck/OpenStax).",
+    "R2": "Indicated. OpenStax nursing interventions include teaching relaxation techniques.",
+    "R3": "Not indicated. Obsessions are unwanted; mocking is nontherapeutic and harmful.",
+    "R4": "Indicated. SSRIs are pharmacologic treatment; nurses monitor/educate (Merck/OpenStax)."
+   },
+   "specialty": "Mental Health",
+   "topic": "NGN matrix — OCD ERP support, relaxation, SSRI education; do not mock obsessions",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "ngn-matrix-ocd-erp-relax-ssri-not-mock",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0e35e817) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: ERP + SSRIs. OpenStax: ERP; nursing interventions include relaxation and medication education/monitoring."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Obsessive-Compulsive Disorder (OCD)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/obsessive-compulsive-and-related-disorders/obsessive-compulsive-disorder-ocd",
+     "section": "Treatment — ERP and SSRIs",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "R1,R4",
+     "evidence": "Exposure and ritual prevention; SSRI or clomipramine.",
+     "added_by": "author"
+    },
+    {
+     "title": "17.3 Obsessive–Compulsive and Related Disorders",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/17-3-obsessive-compulsive-and-related-disorders",
+     "section": "Treatment of OCD; Nursing Interventions for OCD",
+     "source_date": "citation_date Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "R1–R4",
+     "evidence": "ERP; relaxation techniques; monitor medication side effects and educate.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B41-WAVE32",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety",
+    "high-alert-medication"
+   ],
+   "id": "ONRN-PSY-0037",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "opioid",
+    "withdrawal",
+    "COWS",
+    "mental-health",
+    "PSY"
+   ],
+   "stem": "A client who abruptly stopped long-term opioid use has yawning, lacrimation, rhinorrhea, mydriasis, and piloerection. Which interpretation is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Findings fit opioid withdrawal; assess with a validated scale (e.g., COWS) and manage symptoms"
+    },
+    {
+     "key": "B",
+     "text": "Findings fit opioid overdose; the priority is that pupils are always pinpoint"
+    },
+    {
+     "key": "C",
+     "text": "Opioid withdrawal is usually immediately life-threatening like status epilepticus and needs deep sedation first"
+    },
+    {
+     "key": "D",
+     "text": "These autonomic signs only occur with alcohol withdrawal, never opioid withdrawal"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: mydriasis, piloerection, lacrimation/rhinorrhea, and yawning are specific opioid-withdrawal signs. OpenStax: use COWS/CINA and focus on symptom management in withdrawal.",
+    "B": "Incorrect. Overdose triad includes pinpoint pupils and respiratory depression (OpenStax); mydriasis fits withdrawal more than typical overdose.",
+    "C": "Incorrect. Merck: opioid withdrawal is distressingly symptomatic but not itself typically life-threatening.",
+    "D": "Incorrect. These signs are described for opioid withdrawal (Merck)."
+   },
+   "specialty": "Mental Health",
+   "topic": "Opioid withdrawal — yawning, mydriasis, piloerection, lacrimation; COWS/symptom management",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "opioid-withdrawal-yawning-mydriasis-piloerection-lacrimation-cows",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0e35e817) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: four specific signs mydriasis, piloerection, lacrimation/rhinorrhea, yawning; withdrawal not typically life-threatening. OpenStax OUD: COWS for withdrawal severity; overdose triad pinpoint pupils."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Opioid Toxicity and Withdrawal",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/opioid-use-disorder/opioid-toxicity-and-withdrawal",
+     "section": "Withdrawal — signs; clinical diagnosis",
+     "source_date": "Last updated: Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractors C–D",
+     "evidence": "Four specific signs: mydriasis, piloerection, lacrimation/rhinorrhea, yawning; not typically life threatening.",
+     "added_by": "author"
+    },
+    {
+     "title": "19.4 Opioid Use Disorder",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/19-4-opioid-use-disorder",
+     "section": "Opioid Intoxication; Planning Nursing Care for Opioid Withdrawal/Detoxification",
+     "source_date": "citation_date Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractor B",
+     "evidence": "Overdose triad includes pinpoint pupils; withdrawal care uses COWS and symptom management.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B41-WAVE32",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety",
+    "high-alert-medication",
+    "emergency"
+   ],
+   "id": "ONRN-PA-0069",
+   "format": "bowtie",
+   "scoring_model": "zero_one",
+   "tags": [
+    "opioid",
+    "withdrawal",
+    "NGN",
+    "bowtie",
+    "PA"
+   ],
+   "stem": "A client 24 hours after stopping heroin has anxiety, yawning, rhinorrhea, mydriasis, gooseflesh, and abdominal cramps. Complete the bowtie.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Opioid overdose with respiratory depression"
+     },
+     {
+      "key": "K2",
+      "text": "Opioid withdrawal"
+     },
+     {
+      "key": "K3",
+      "text": "Serotonin syndrome"
+     },
+     {
+      "key": "K4",
+      "text": "Hypoglycemia alone"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Assess withdrawal severity with a validated scale (e.g., COWS) and provide ordered symptom-focused care"
+     },
+     {
+      "key": "A2",
+      "text": "Administer high-dose naloxone repeatedly as the only intervention for these findings"
+     },
+     {
+      "key": "A3",
+      "text": "Supportive monitoring and anticipate agonist/partial-agonist therapy (e.g., methadone or buprenorphine) per protocol"
+     },
+     {
+      "key": "A4",
+      "text": "Encourage immediate unsupervised return to street opioid use to “self-treat”"
+     },
+     {
+      "key": "A5",
+      "text": "Ignore autonomic signs because withdrawal never needs nursing assessment"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "Vital signs and withdrawal symptom trend"
+     },
+     {
+      "key": "P2",
+      "text": "Hydration and gastrointestinal symptom control"
+     },
+     {
+      "key": "P3",
+      "text": "Pupil size only once at admission with no reassessment"
+     },
+     {
+      "key": "P4",
+      "text": "Whether the client can leave without any safety or follow-up plan"
+     },
+     {
+      "key": "P5",
+      "text": "Response to ordered medications for withdrawal symptoms"
+     }
+    ]
+   },
+   "options": [],
+   "correct_answer": {
+    "condition": "K2",
+    "actions": [
+     "A1",
+     "A3"
+    ],
+    "parameters": [
+     "P1",
+     "P5"
+    ]
+   },
+   "rationales": {
+    "K1": "Incorrect. Overdose features respiratory depression/pinpoint pupils; this vignette matches withdrawal.",
+    "K2": "Correct. Yawning, rhinorrhea, mydriasis, piloerection, cramps fit opioid withdrawal (Merck).",
+    "K3": "Incorrect. Serotonin syndrome is a different toxidrome not supported by this cue set.",
+    "K4": "Incorrect. Hypoglycemia alone does not explain this autonomic cluster.",
+    "A1": "Correct. OpenStax: assess with COWS and manage symptoms.",
+    "A2": "Incorrect. Naloxone is for overdose/respiratory depression, not first-line for this withdrawal picture.",
+    "A3": "Correct. Merck: substitution with methadone or buprenorphine plus supportive care.",
+    "A4": "Incorrect. Unsupervised return to use is unsafe and not treatment.",
+    "A5": "Incorrect. Withdrawal requires assessment and supportive management.",
+    "P1": "Correct. Trend vital signs and withdrawal symptoms to guide care.",
+    "P2": "Incorrect. Although GI comfort matters, the keyed monitoring priorities here are vital/withdrawal trends and medication response.",
+    "P3": "Incorrect. Single unchecked pupil assessment is inadequate monitoring.",
+    "P4": "Incorrect. Discharge without plan is unsafe.",
+    "P5": "Correct. Monitor response to ordered withdrawal medications."
+   },
+   "specialty": "Mental Health",
+   "topic": "NGN bowtie — opioid withdrawal recognition; COWS/supportive care; monitor vitals/symptoms",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "ngn-bowtie-opioid-withdrawal-cows-supportive-agonist",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0e35e817) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck withdrawal signs and methadone/buprenorphine + supportive meds. OpenStax: COWS and symptom management priority in withdrawal."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Opioid Toxicity and Withdrawal",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/opioid-use-disorder/opioid-toxicity-and-withdrawal",
+     "section": "Withdrawal; Withdrawal management",
+     "source_date": "Last updated: Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Condition K2; actions; parameters",
+     "evidence": "Withdrawal signs; treat with methadone/buprenorphine and supportive medications.",
+     "added_by": "author"
+    },
+    {
+     "title": "19.4 Opioid Use Disorder",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/19-4-opioid-use-disorder",
+     "section": "Planning Nursing Care for a Client in Opioid Withdrawal/Detoxification",
+     "source_date": "citation_date Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Actions A1; parameters",
+     "evidence": "COWS/CINA to guide symptom management.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B41-WAVE32",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-BCC-0028",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "diabetes",
+    "foot-care",
+    "BCC",
+    "teaching"
+   ],
+   "stem": "Which teaching point is most important for preventing diabetic foot complications?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Examine the feet daily and wear properly fitting footwear; do not walk barefoot"
+    },
+    {
+     "key": "B",
+     "text": "Ignore small cuts because neuropathy means injuries cannot become infected"
+    },
+    {
+     "key": "C",
+     "text": "Soak feet in the hottest water tolerable without testing temperature first"
+    },
+    {
+     "key": "D",
+     "text": "Apply moisturizing lotion heavily between the toes every hour"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Diabetes Canada: examine feet daily and wear properly fitting footwear. Merck: inspect daily; avoid walking barefoot; well-fitting shoes.",
+    "B": "Incorrect. Diabetes Canada: unnoticed injuries can become infected and lead to serious complications.",
+    "C": "Incorrect. Diabetes Canada: test bath water with the hand first because neuropathy may blunt heat sensation.",
+    "D": "Incorrect. Diabetes Canada: moisturize if dry but not between the toes (maceration/infection risk)."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Diabetic foot care — daily inspection, proper footwear, avoid barefoot",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "diabetic-foot-daily-inspect-proper-footwear-no-barefoot",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0e35e817) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Diabetes Canada key messages: daily examine; proper footwear; test bath water; lotion not between toes. Merck Foot care: daily inspect; no barefoot; well-fitting shoes."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Foot Care",
+     "publisher": "Diabetes Canada",
+     "url": "https://guidelines.diabetes.ca/cpg/chapter32",
+     "section": "Key messages for people with diabetes",
+     "source_date": "Diabetes Canada Clinical Practice Guidelines — Foot Care chapter",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Examine feet daily; properly fitting footwear; test bath water; lotion not between toes.",
+     "added_by": "author"
+    },
+    {
+     "title": "Type 1 Diabetes Mellitus",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/diabetes-mellitus-and-hypoglycemia/type-1-diabetes-mellitus",
+     "section": "Foot care",
+     "source_date": "Last updated: Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "Inspect feet daily; wash; well-fitting shoes; avoid walking barefoot.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B41-WAVE32",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-BCC-0029",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "tags": [
+    "diabetes",
+    "foot-care",
+    "BCC",
+    "SATA"
+   ],
+   "stem": "Which actions belong in a safe daily diabetic foot-care routine? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Examine feet and legs daily for cuts, blisters, or colour changes"
+    },
+    {
+     "key": "B",
+     "text": "Wear properly fitting footwear"
+    },
+    {
+     "key": "C",
+     "text": "Test bath water with the hand before stepping in"
+    },
+    {
+     "key": "D",
+     "text": "Walk barefoot indoors to “toughen” the skin"
+    },
+    {
+     "key": "E",
+     "text": "Apply lotion between the toes to keep the web spaces wet"
+    },
+    {
+     "key": "F",
+     "text": "Seek care promptly for corns, calluses, or wounds that are not healing"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "F"
+   ],
+   "rationales": {
+    "A": "Correct. Diabetes Canada/Merck: daily foot examination.",
+    "B": "Correct. Properly fitting footwear is recommended.",
+    "C": "Correct. Test bath water with the hand first.",
+    "D": "Incorrect. Merck: avoid walking barefoot.",
+    "E": "Incorrect. Lotion not between the toes (Diabetes Canada).",
+    "F": "Correct. Diabetes Canada advises professional care for corns/calluses/problems; Merck stresses early attention to ulcers/injury."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Diabetic foot care SATA — daily exam, footwear, water temp; not barefoot or lotion between toes",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "diabetic-foot-sata-daily-exam-footwear-water-temp",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0e35e817) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Diabetes Canada daily routine list + seek care for corns/calluses. Merck daily inspect, no barefoot, shoes fit."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Foot Care",
+     "publisher": "Diabetes Canada",
+     "url": "https://guidelines.diabetes.ca/cpg/chapter32",
+     "section": "Key messages for people with diabetes",
+     "source_date": "Diabetes Canada Clinical Practice Guidelines — Foot Care chapter",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Keys A–C,F; distractors D–E",
+     "evidence": "Daily examine; footwear; test bath water; lotion not between toes; care for corns/calluses.",
+     "added_by": "author"
+    },
+    {
+     "title": "Type 1 Diabetes Mellitus",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/diabetes-mellitus-and-hypoglycemia/type-1-diabetes-mellitus",
+     "section": "Foot care",
+     "source_date": "Last updated: Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Keys A–B; distractor D",
+     "evidence": "Daily inspection; well-fitting shoes; avoid barefoot.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B41-WAVE32",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-HPM-0051",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "fire-safety",
+    "smoke-alarm",
+    "community",
+    "HPM"
+   ],
+   "stem": "A community nurse teaches home fire safety. Which instruction about smoke alarms is best?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Test smoke alarms every month and replace units that are more than 10 years old"
+    },
+    {
+     "key": "B",
+     "text": "Testing once every 10 years is sufficient if the alarm looks clean"
+    },
+    {
+     "key": "C",
+     "text": "Smoke alarms are unnecessary if the home has a fire extinguisher"
+    },
+    {
+     "key": "D",
+     "text": "Never place alarms near bedrooms because nighttime waking is harmful"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Health Canada and NFPA: test monthly; replace alarms more than 10 years old.",
+    "B": "Incorrect. Monthly testing is required; a 10-year interval is for replacement, not testing.",
+    "C": "Incorrect. Smoke alarms provide early warning and are not replaced by extinguishers alone.",
+    "D": "Incorrect. Install alarms in/near bedrooms and on every level, including basement."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Smoke alarms — monthly testing; replace units older than 10 years",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "smoke-alarm-test-monthly-replace-after-10-years",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0e35e817) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Health Canada fire safety: test every month; replace >10 years; install each bedroom/hallway/level. NFPA: test monthly; replace after 10 years."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fire safety in your home",
+     "publisher": "Health Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/health-canada/services/home-safety/fire-safety.html",
+     "section": "Smoke alarms",
+     "source_date": "Accessed 2026-11-25 (page content via live fetch)",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Test every month; replace if more than ten years old; install in bedrooms and each level.",
+     "added_by": "author"
+    },
+    {
+     "title": "Smoke Alarm Information",
+     "publisher": "National Fire Protection Association (NFPA)",
+     "url": "https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms",
+     "section": "Safety Tips; How do I take care of my smoke alarms?",
+     "source_date": "Accessed 2026-11-25 (page content via live fetch)",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Test at least once a month; replace unit if over 10 years old; install in sleeping rooms and every level.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B41-WAVE32",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-HPM-0052",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "tags": [
+    "fire-safety",
+    "smoke-alarm",
+    "community",
+    "HPM",
+    "SATA"
+   ],
+   "stem": "Which home smoke-alarm actions are appropriate? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Install alarms in bedrooms, outside sleeping areas, and on every level including the basement"
+    },
+    {
+     "key": "B",
+     "text": "Test alarms monthly using the test button"
+    },
+    {
+     "key": "C",
+     "text": "Replace alarms that fail testing or are more than 10 years old"
+    },
+    {
+     "key": "D",
+     "text": "Disable alarms permanently after one nuisance alarm from cooking"
+    },
+    {
+     "key": "E",
+     "text": "Create and practise a home fire escape plan"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. Health Canada/NFPA placement guidance for bedrooms, hallways/outside sleeping areas, every level including basement.",
+    "B": "Correct. Monthly testing is required.",
+    "C": "Correct. Replace failed or >10-year-old units.",
+    "D": "Incorrect. Do not permanently disable alarms; investigate false alarms and keep working devices (Health Canada).",
+    "E": "Correct. Both advise having/practising an escape plan alongside working alarms."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Smoke-alarm SATA — placement, monthly test, replace old units, escape plan",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "smoke-alarm-sata-placement-monthly-test-replace-escape-plan",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0e35e817) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "HC: install bedrooms/hallway/each level; monthly test; replace >10y; escape plan; investigate false alarms. NFPA: same placement/testing/replacement."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fire safety in your home",
+     "publisher": "Health Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/health-canada/services/home-safety/fire-safety.html",
+     "section": "Smoke alarms; General tips",
+     "source_date": "Accessed 2026-11-25 (page content via live fetch)",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Keys A–C,E; distractor D",
+     "evidence": "Placement; monthly test; replace >10 years; escape plan; investigate false alarms.",
+     "added_by": "author"
+    },
+    {
+     "title": "Smoke Alarm Information",
+     "publisher": "National Fire Protection Association (NFPA)",
+     "url": "https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms",
+     "section": "Safety Tips; care of alarms",
+     "source_date": "Accessed 2026-11-25 (page content via live fetch)",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Keys A–C,E",
+     "evidence": "Install sleeping rooms/every level; test monthly; replace >10 years; part of escape plan.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B41-WAVE32",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "single-source"
+   ],
+   "id": "ONRN-MOC-0067",
+   "format": "drop_down_cloze",
+   "scoring_model": "zero_one",
+   "tags": [
+    "TeamSTEPPS",
+    "DESC",
+    "NGN",
+    "cloze",
+    "leadership",
+    "MOC"
+   ],
+   "stem": "Complete the TeamSTEPPS DESC mnemonic used for conflict resolution.",
+   "ngn": {
+    "template": "D = {B1}; E = {B2}; S = {B3}; C = {B4}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "Describe the specific situation"
+      },
+      {
+       "key": "B1b",
+       "text": "Deny that conflict exists"
+      },
+      {
+       "key": "B1c",
+       "text": "Delay all feedback forever"
+      },
+      {
+       "key": "B1d",
+       "text": "Delegate blame to the client"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "Express concerns about the action"
+      },
+      {
+       "key": "B2b",
+       "text": "Erase the medical record"
+      },
+      {
+       "key": "B2c",
+       "text": "Encourage public shaming"
+      },
+      {
+       "key": "B2d",
+       "text": "Exclude safety concerns"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "Suggest other alternatives"
+      },
+      {
+       "key": "B3b",
+       "text": "Silence the colleague permanently"
+      },
+      {
+       "key": "B3c",
+       "text": "Substitute insults for solutions"
+      },
+      {
+       "key": "B3d",
+       "text": "Skip straight to punishment"
+      }
+     ],
+     "B4": [
+      {
+       "key": "B4a",
+       "text": "State the consequences"
+      },
+      {
+       "key": "B4b",
+       "text": "Conceal outcomes from everyone"
+      },
+      {
+       "key": "B4c",
+       "text": "Celebrate personal victory"
+      },
+      {
+       "key": "B4d",
+       "text": "Cancel the conversation mid-sentence without closure"
+      }
+     ]
+    }
+   },
+   "options": [],
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a",
+    "B4": "B4a"
+   },
+   "rationales": {
+    "B1a": "Correct. D — Describe the specific situation.",
+    "B1b": "Incorrect. Denial is not Describe.",
+    "B1c": "Incorrect. DESC includes timely discussion, not endless delay.",
+    "B1d": "Incorrect. Clients are not blamed as the Describe step.",
+    "B2a": "Correct. E — Express concerns about the action.",
+    "B2b": "Incorrect. Not Express.",
+    "B2c": "Incorrect. Public shaming is contrary to DESC.",
+    "B2d": "Incorrect. Safety concerns must be addressed.",
+    "B3a": "Correct. S — Suggest other alternatives.",
+    "B3b": "Incorrect. Not Suggest.",
+    "B3c": "Incorrect. Insults are not alternatives.",
+    "B3d": "Incorrect. Suggest alternatives before punitive framing.",
+    "B4a": "Correct. C — Consequences should be stated.",
+    "B4b": "Incorrect. Consequences are stated, not concealed.",
+    "B4c": "Incorrect. Focus on what is right, not who wins.",
+    "B4d": "Incorrect. DESC aims for constructive closure."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "NGN cloze — TeamSTEPPS DESC mnemonic letters (Describe, Express, Suggest, Consequences)",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Understanding",
+   "enemy_group": "ngn-cloze-teamstepps-desc-mnemonic-letters",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0e35e817) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ facilitator notes + mutual overview heading define DESC letters. TeamSTEPPS mnemonic is AHRQ-authoritative; flagged single-source (no independent non-AHRQ publisher for the four-letter expansion in this session)."
+    }
+   ],
+   "sources": [
+    {
+     "title": "TeamSTEPPS Diagnosis Improvement Module 6 Mutual Support — Facilitator’s Notes",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/sites/default/files/wysiwyg/teamstepps-program/dx-improvement/module6-presenters-notes.pdf",
+     "section": "Conflict Resolution: DESC Script",
+     "source_date": "AHRQ notes citing TeamSTEPPS Fundamentals Module 6 Mutual Support, 2019",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "All blanks",
+     "evidence": "D Describe; E Express; S Suggest; C Consequences.",
+     "added_by": "author"
+    },
+    {
+     "title": "Section 1: Overview of Mutual Support Key Concepts and Tools",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/teamstepps-program/curriculum/mutual/overview/index.html",
+     "section": "DESC (Describe, Express, Suggest, Consequences) Script",
+     "source_date": "Page last reviewed July 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "All blanks",
+     "evidence": "Heading expands DESC mnemonic.",
      "added_by": "author"
     }
    ],
