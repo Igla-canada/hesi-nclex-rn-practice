@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 539,
+  "Source verified": 553,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -61292,6 +61292,1636 @@
      "date": "2026-11-25",
      "result": "confirmed",
      "checks": "AHA BLS + OpenStax Med-Surg CPR cloze dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B54-WAVE45",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0062",
+   "format": "multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "Sundowning — reduce evening stimulation; calm routine; adequate lighting",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "sundowning-reduce-evening-stimulation",
+   "tags": [
+    "BCC",
+    "sundowning",
+    "dementia",
+    "gero"
+   ],
+   "stem": "An older adult with dementia becomes more agitated and confused each late afternoon (sundowning). Which teaching best guides family caregiving?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Reduce evening stimulation (limit loud TV/chores), keep a calm routine, and use adequate lighting to lessen shadows and confusion"
+    },
+    {
+     "key": "B",
+     "text": "Schedule all medical appointments and baths late at night when agitation peaks"
+    },
+    {
+     "key": "C",
+     "text": "Argue firmly until the client accepts that the day is over"
+    },
+    {
+     "key": "D",
+     "text": "Keep the home dark after lunch so the client sleeps until morning"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax Fundamentals: reduce evening TV/stimulation, use calming activities, and address triggers; adequate evening lighting helps. OpenStax Psych: confusion often worse in evening (sundowning); calm communication and supportive environment.",
+    "B": "Incorrect. OpenStax Fundamentals suggests scheduling demanding activities earlier when the person is more alert.",
+    "C": "Incorrect. Arguing increases agitation; calm, simple communication is preferred.",
+    "D": "Incorrect. Daylight exposure and adequate evening lighting help; prolonged darkness/shadows can worsen confusion."
+   },
+   "sources": [
+    {
+     "title": "41.3 Health Risks for Older Adults",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/41-3-health-risks-for-older-adults",
+     "section": "Strategies for Navigating Sundowning",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Sundowning: reduce afternoon/evening TV stimulation; calming music; daily activity plan; address hunger/pain; daylight exposure."
+    },
+    {
+     "title": "14.3 Dementia",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/14-3-dementia",
+     "section": "Understanding the Symptoms / Planning Nursing Care — sundowning",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Confusion often worse in the evening (sundowning); calm simple questions; supportive safe environment and routine."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f9772ceb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Fund 41.3 sundowning + OpenStax Psych 14.3 dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B54-WAVE45",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0063",
+   "format": "matrix_multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "NGN matrix — sundowning supportive actions indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "sundowning-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "BCC",
+    "sundowning",
+    "gero"
+   ],
+   "stem": "For an older adult with dementia who has late-day sundowning agitation, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Reduce loud television and other evening overstimulation"
+     },
+     {
+      "key": "R2",
+      "text": "Offer calming activities (e.g., familiar music) in the evening"
+     },
+     {
+      "key": "R3",
+      "text": "Keep evening lighting adequate to reduce confusing shadows"
+     },
+     {
+      "key": "R4",
+      "text": "Argue until the client admits the correct day and time"
+     },
+     {
+      "key": "R5",
+      "text": "Schedule all demanding appointments late at night during peak agitation"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Reducing evening stimulation is a core sundowning strategy.",
+    "R2": "Indicated. Calming familiar activities can reduce evening restlessness.",
+    "R3": "Indicated. Adequate lighting helps reduce shadow-related confusion.",
+    "R4": "Not indicated. Arguing worsens agitation; use calm, simple communication.",
+    "R5": "Not indicated. Demanding activities are better earlier when the person is more alert."
+   },
+   "sources": [
+    {
+     "title": "41.3 Health Risks for Older Adults",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/41-3-health-risks-for-older-adults",
+     "section": "Strategies for Navigating Sundowning",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Reduce evening TV stimulation; calming music; address triggers; activity planning."
+    },
+    {
+     "title": "14.3 Dementia",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/14-3-dementia",
+     "section": "Planning Nursing Care for a Client with Major NCD",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Sundowning; calm communication; supportive environment and daily routine."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f9772ceb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Fund + Psych sundowning matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B54-WAVE45",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "contrast-metformin"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0064",
+   "format": "multiple_choice",
+   "specialty": "Pharmacology",
+   "topic": "Metformin — hold around IV iodinated contrast; lactic acidosis risk",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "metformin-hold-iv-contrast-lactic-acidosis",
+   "tags": [
+    "PPT",
+    "metformin",
+    "contrast",
+    "lactic-acidosis"
+   ],
+   "stem": "A client taking metformin is scheduled for a radiologic procedure with IV iodinated contrast. Which teaching is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Metformin is often held around IV contrast because contrast plus reduced kidney function can raise the risk of lactic acidosis; follow the provider/protocol hold and restart plan"
+    },
+    {
+     "key": "B",
+     "text": "Double the metformin dose the morning of contrast to protect the kidneys"
+    },
+    {
+     "key": "C",
+     "text": "Metformin never interacts with contrast dye, so no hold is ever needed"
+    },
+    {
+     "key": "D",
+     "text": "Replace metformin with a sulfonylurea only on the day of contrast and stop checking renal function"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: contrast dye can increase lactic acidosis risk with metformin and reduced renal function; withhold per protocol around contrast. Merck: stop metformin temporarily before radiologic procedures requiring contrast agents; lactic acidosis risk.",
+    "B": "Incorrect. Increasing the dose does not mitigate contrast-related risk and is unsafe.",
+    "C": "Incorrect. Sources advise temporary hold around IV contrast in at-risk clients.",
+    "D": "Incorrect. Arbitrary sulfonylurea swap without renal monitoring is not the recommended approach."
+   },
+   "sources": [
+    {
+     "title": "28.3 Oral Antidiabetic Drugs",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/28-3-oral-antidiabetic-drugs",
+     "section": "Metformin and Contrast Dye",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Contrast increases lactic acidosis risk with metformin and decreased renal function; withhold around contrast per eGFR/protocol guidance."
+    },
+    {
+     "title": "Medications for Diabetes Mellitus Treatment",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/diabetes-mellitus-and-hypoglycemia/medications-for-diabetes-mellitus-treatment",
+     "section": "Biguanides / Oral Antihyperglycemic Medications — metformin contrast hold",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Metformin: rare lactic acidosis; withhold during IV contrast and surgery; stop temporarily before contrast procedures."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f9772ceb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Pharm metformin/contrast + Merck biguanides dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B54-WAVE45",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "contrast-metformin"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0065",
+   "format": "matrix_multiple_choice",
+   "specialty": "Pharmacology",
+   "topic": "NGN matrix — metformin IV-contrast safety actions indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "metformin-contrast-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PPT",
+    "metformin",
+    "contrast"
+   ],
+   "stem": "For a client taking metformin who will receive IV iodinated contrast, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Anticipate holding metformin around the contrast procedure per provider/protocol"
+     },
+     {
+      "key": "R2",
+      "text": "Review renal function considerations because reduced kidney function raises lactic acidosis risk"
+     },
+     {
+      "key": "R3",
+      "text": "Teach that lactic acidosis is a rare but serious metformin-related risk in at-risk clients"
+     },
+     {
+      "key": "R4",
+      "text": "Advise doubling metformin on the morning of contrast 'to protect the kidneys'"
+     },
+     {
+      "key": "R5",
+      "text": "Tell the client contrast never interacts with metformin so no hold is needed"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Temporary hold around IV contrast is recommended.",
+    "R2": "Indicated. Reduced renal function elevates lactic acidosis risk with metformin/contrast.",
+    "R3": "Indicated. Lactic acidosis is rare but serious and relevant teaching.",
+    "R4": "Not indicated. Dose escalation is unsafe and unsupported.",
+    "R5": "Not indicated. Sources advise holding metformin around contrast in at-risk situations."
+   },
+   "sources": [
+    {
+     "title": "28.3 Oral Antidiabetic Drugs",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/28-3-oral-antidiabetic-drugs",
+     "section": "Metformin and Contrast Dye",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Withhold metformin around contrast; lactic acidosis risk with decreased renal function."
+    },
+    {
+     "title": "Medications for Diabetes Mellitus Treatment",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/diabetes-mellitus-and-hypoglycemia/medications-for-diabetes-mellitus-treatment",
+     "section": "Biguanides — withhold with IV contrast",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Stop metformin temporarily before contrast; lactic acidosis contraindication in at-risk patients."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f9772ceb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + Merck metformin contrast matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B54-WAVE45",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "chest-tube-emergency"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0062",
+   "format": "multiple_choice",
+   "specialty": "Critical Care/Emergency",
+   "topic": "Dislodged chest tube — three-sided occlusive dressing; notify provider",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "chest-tube-dislodged-three-sided-dressing",
+   "tags": [
+    "RRP",
+    "chest-tube",
+    "pneumothorax",
+    "critical-care"
+   ],
+   "stem": "A client's chest tube accidentally pulls out of the insertion site. Which immediate action is best while calling for help/notifying the provider?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Cover the site with a sterile occlusive dressing taped on three sides (leave one side open) so air can escape and reduce tension pneumothorax risk"
+    },
+    {
+     "key": "B",
+     "text": "Tape an airtight dressing on all four sides with no vent and leave the client unobserved"
+    },
+    {
+     "key": "C",
+     "text": "Routinely clamp the remaining tubing for the rest of the shift without assessment"
+    },
+    {
+     "key": "D",
+     "text": "Push the contaminated tube back into the chest without sterile technique"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax Med-Surg: if chest tube dislodged, apply three-sided occlusive dressing to allow air escape. Open RN/NCBI: tape dressing on three sides to prevent tension pneumothorax; notify provider.",
+    "B": "Incorrect. Fully sealed dressing can trap air and promote tension pneumothorax.",
+    "C": "Incorrect. Routine clamping is not recommended due to tension pneumothorax risk.",
+    "D": "Incorrect. Do not reinsert a contaminated tube; cover site and notify provider."
+   },
+   "sources": [
+    {
+     "title": "11.6 Disorders of the Lower Respiratory System: Pneumothorax",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/11-6-disorders-of-the-lower-respiratory-system-pneumothorax",
+     "section": "Prioritizing Hypotheses… / three-sided occlusive dressing",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "If chest tube becomes dislodged, apply three-sided occlusive dressing allowing trapped air to escape while preventing more air from entering."
+    },
+    {
+     "title": "Chapter 6 Manage Chest Tube Drainage Systems",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK594490/",
+     "section": "6.3 Nursing Responsibilities / 6.4 Dislodged Chest Tube",
+     "source_date": "2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "If tube dislodged: cover with sterile occlusive dressing taped on three sides; notify provider; routine clamping not recommended."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f9772ceb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Med-Surg + Open RN/NCBI chest tube dislodgement dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B54-WAVE45",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "chest-tube-emergency"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0063",
+   "format": "drop_down_cloze",
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN cloze — dislodged chest tube three-sided dressing",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "chest-tube-dislodged-ngn-cloze",
+   "tags": [
+    "NGN",
+    "cloze",
+    "RRP",
+    "chest-tube"
+   ],
+   "stem": "Complete the emergency response for a chest tube that has come out of the insertion site.",
+   "ngn": {
+    "template": "Immediately cover the insertion site with a sterile occlusive dressing taped on {B1}. Leaving one side open helps {B2}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "three sides"
+      },
+      {
+       "key": "B1b",
+       "text": "all four sides with no vent"
+      },
+      {
+       "key": "B1c",
+       "text": "one corner only with no coverage of the site"
+      },
+      {
+       "key": "B1d",
+       "text": "none of the sides (leave the site uncovered)"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "allow air to escape and reduce the risk of tension pneumothorax"
+      },
+      {
+       "key": "B2b",
+       "text": "force more room air into the pleural space on every breath"
+      },
+      {
+       "key": "B2c",
+       "text": "replace the need to notify the provider"
+      },
+      {
+       "key": "B2d",
+       "text": "justify routinely clamping the tubing for hours"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. Tape on three sides.",
+    "B1b": "Incorrect. Four-sided seal can trap air.",
+    "B1c": "Incorrect. Site needs occlusive coverage.",
+    "B1d": "Incorrect. Uncovered open site allows free air entry.",
+    "B2a": "Correct. Three-sided dressing vents air and helps prevent tension pneumothorax.",
+    "B2b": "Incorrect. Goal is to limit air entry while allowing escape.",
+    "B2c": "Incorrect. Provider notification remains required.",
+    "B2d": "Incorrect. Routine prolonged clamping is not recommended."
+   },
+   "sources": [
+    {
+     "title": "11.6 Disorders of the Lower Respiratory System: Pneumothorax",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/11-6-disorders-of-the-lower-respiratory-system-pneumothorax",
+     "section": "Three-sided occlusive dressing for dislodged tube / open chest wound",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Three-sided occlusive dressing allows air to escape and prevents more air entering."
+    },
+    {
+     "title": "Chapter 6 Manage Chest Tube Drainage Systems",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK594490/",
+     "section": "Dislodged Chest Tube From the Patient",
+     "source_date": "2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Cover site; tape on three sides allowing air escape to reduce tension pneumothorax risk; notify provider."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f9772ceb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + Open RN chest tube cloze dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B54-WAVE45",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0064",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "Restraints — choose least restrictive option (mitts before wrist ties)",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "restraints-least-restrictive-mitts",
+   "tags": [
+    "SIPC",
+    "restraints",
+    "least-restrictive",
+    "fundamentals"
+   ],
+   "stem": "A nonviolent client repeatedly reaches for a peripheral IV. Alternatives have failed and a restraint order is obtained. Which choice best reflects least-restrictive practice?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Apply padded mitts first because they restrict grasping while preserving more extremity range of motion than wrist ties"
+    },
+    {
+     "key": "B",
+     "text": "Apply a vest restraint immediately for an IV-protection problem"
+    },
+    {
+     "key": "C",
+     "text": "Use the most restrictive device available so monitoring can be skipped"
+    },
+    {
+     "key": "D",
+     "text": "Restrain without trying alternatives because restraints are first-line for all IV sites"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax CNS: select least restrictive restraint; padded mitts are less restrictive than wrist ties for preventing tube dislodgement while preserving ROM. Open RN: hand mitts/soft wrists used for tube protection; alternatives first.",
+    "B": "Incorrect. Vest restraints are more restrictive and not the least restrictive choice for IV protection.",
+    "C": "Incorrect. More restrictive devices increase harm; monitoring remains required.",
+    "D": "Incorrect. Restraints are used only when alternatives cannot meet safety needs."
+   },
+   "sources": [
+    {
+     "title": "9.5 Limited Movement Devices",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/9-5-limited-movement-devices",
+     "section": "Use of Restraints — least restrictive / padded mitts",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Least restrictive restraint; padded mitts less restrictive than wrist ties; restraints only when alternatives fail."
+    },
+    {
+     "title": "5.7 Restraints",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://wtcs.pressbooks.pub/nursingfundamentals/chapter/5-7-restraints/",
+     "section": "Medical Restraints / Hand Mitts",
+     "source_date": "2024-12-01",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Restraints when alternatives not effective; medical restraints may include hand mitts for tube protection."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f9772ceb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax CNS + Open RN least-restrictive restraints dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B54-WAVE45",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0065",
+   "format": "matrix_multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "NGN matrix — least-restrictive restraint actions indicated vs not",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "restraints-least-restrictive-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "SIPC",
+    "restraints"
+   ],
+   "stem": "For a nonviolent client at risk of pulling an IV after alternatives failed and a restraint order is in place, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Select the least restrictive effective option (e.g., padded mitts before wrist ties when appropriate)"
+     },
+     {
+      "key": "R2",
+      "text": "Document behavior, alternatives tried, restraint type/time, and ongoing monitoring per policy"
+     },
+     {
+      "key": "R3",
+      "text": "Discontinue the restraint as soon as it is safely no longer needed"
+     },
+     {
+      "key": "R4",
+      "text": "Skip all monitoring because any restraint guarantees safety"
+     },
+     {
+      "key": "R5",
+      "text": "Apply the most restrictive vest first for routine IV protection without considering less restrictive options"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Least restrictive effective option is required.",
+    "R2": "Indicated. Documentation of reason, alternatives, type/time, and monitoring is required.",
+    "R3": "Indicated. Remove restraints as soon as safely possible.",
+    "R4": "Not indicated. Restraints require ongoing assessment; they can cause injury.",
+    "R5": "Not indicated. Start with least restrictive appropriate option, not maximal restriction."
+   },
+   "sources": [
+    {
+     "title": "9.5 Limited Movement Devices",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/9-5-limited-movement-devices",
+     "section": "Use of Restraints / Nursing Considerations",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Least restrictive selection; documentation; discontinue ASAP; restraints cause harm if misused."
+    },
+    {
+     "title": "5.7 Restraints",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://wtcs.pressbooks.pub/nursingfundamentals/chapter/5-7-restraints/",
+     "section": "Restraint Guidelines / Medical Restraints",
+     "source_date": "2024-12-01",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Alternatives first; document reason/alternatives/type/time; monitoring and removal criteria."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f9772ceb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax CNS + Open RN restraint matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B54-WAVE45",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "ect-procedure"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0063",
+   "format": "multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "ECT — controlled seizure under anesthesia; temporary memory impairment possible",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Understanding",
+   "enemy_group": "ect-anesthesia-memory-teaching",
+   "tags": [
+    "PSY",
+    "ECT",
+    "depression",
+    "mental-health"
+   ],
+   "stem": "A client with severe treatment-resistant depression is scheduled for ECT. Which teaching is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "ECT induces a controlled seizure under anesthesia/supportive care and may cause temporary confusion or memory impairment that often improves over time"
+    },
+    {
+     "key": "B",
+     "text": "ECT is delivered fully awake without any anesthesia because seizures are painless"
+    },
+    {
+     "key": "C",
+     "text": "ECT permanently erases all remote and recent memory in every client and is never used for depression"
+    },
+    {
+     "key": "D",
+     "text": "ECT replaces the need for any consent discussion because it is only a psychotherapy technique"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: ECT uses electricity to create a controlled seizure, commonly for major depression. Merck: modern ECT under general anesthesia; confusion and memory impairment may occur acutely and often improve, though some retrograde amnesia can persist.",
+    "B": "Incorrect. Merck: brief general anesthesia is used because the electrical current can cause muscle contractions and pain.",
+    "C": "Incorrect. ECT is used for severe depression; memory effects are often temporary, not universal permanent total erasure.",
+    "D": "Incorrect. ECT is a biological/brain-stimulation treatment requiring informed consent, not talk therapy alone."
+   },
+   "sources": [
+    {
+     "title": "2.5 Biological Theories and Therapies",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/2-5-biological-theories-and-therapies",
+     "section": "Brain Stimulation — electroconvulsive therapy (ECT)",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "ECT uses electricity to stimulate targeted brain areas by creating a controlled seizure; commonly used to treat major depression."
+    },
+    {
+     "title": "Depressive Disorders",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/mood-disorders/depressive-disorders",
+     "section": "Electroconvulsive therapy (ECT)",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "ECT under general anesthesia; confusion and memory impairment may occur acutely; much improves by 6 months; retrograde amnesia may persist."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f9772ceb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Psych ECT + Merck depressive disorders ECT dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B54-WAVE45",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "ect-procedure"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0064",
+   "format": "drop_down_cloze",
+   "specialty": "Mental Health",
+   "topic": "NGN cloze — ECT anesthesia and memory effects",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Understanding",
+   "enemy_group": "ect-ngn-cloze-anesthesia-memory",
+   "tags": [
+    "NGN",
+    "cloze",
+    "PSY",
+    "ECT"
+   ],
+   "stem": "Complete accurate pre-ECT teaching for a client with severe depression.",
+   "ngn": {
+    "template": "Modern ECT is performed under {B1}. Clients should be taught that {B2} can occur and is monitored during recovery.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "general anesthesia with supportive monitoring"
+      },
+      {
+       "key": "B1b",
+       "text": "no anesthesia of any kind"
+      },
+      {
+       "key": "B1c",
+       "text": "only topical lidocaine to the scalp with the client fully ambulatory alone"
+      },
+      {
+       "key": "B1d",
+       "text": "home self-administration without clinical staff"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "temporary confusion and/or memory impairment"
+      },
+      {
+       "key": "B2b",
+       "text": "guaranteed permanent loss of all autobiographical memory in every case"
+      },
+      {
+       "key": "B2c",
+       "text": "immediate lifelong immunity to all mental illness"
+      },
+      {
+       "key": "B2d",
+       "text": "mandatory lifelong paralysis"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. Merck: modern ECT delivered under general anesthesia.",
+    "B1b": "Incorrect. Anesthesia is used.",
+    "B1c": "Incorrect. Not an accurate description of ECT anesthesia/support.",
+    "B1d": "Incorrect. ECT is a supervised clinical procedure.",
+    "B2a": "Correct. Temporary confusion/memory impairment may occur.",
+    "B2b": "Incorrect. Overstates universal permanent total memory loss.",
+    "B2c": "Incorrect. ECT treats depression; it does not confer immunity to all mental illness.",
+    "B2d": "Incorrect. Paralysis is not an expected lasting effect of modern ECT teaching."
+   },
+   "sources": [
+    {
+     "title": "2.5 Biological Theories and Therapies",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/2-5-biological-theories-and-therapies",
+     "section": "Brain Stimulation — ECT",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "ECT creates a controlled seizure for major depression treatment."
+    },
+    {
+     "title": "Depressive Disorders",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/mood-disorders/depressive-disorders",
+     "section": "Electroconvulsive therapy (ECT)",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "General anesthesia; confusion and memory impairment may occur acutely."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f9772ceb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + Merck ECT cloze dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B54-WAVE45",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CNO / RHPA mandatory reporting of suspected sexual abuse of a patient by a nurse",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "ontario-regulator",
+    "mandatory-reporting"
+   ],
+   "jurisdiction": "Ontario-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0082",
+   "format": "multiple_choice",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Ontario — nurse must report suspected sexual abuse of a patient by a nurse to CNO",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cno-report-sexual-abuse-patient",
+   "tags": [
+    "MOC",
+    "Ontario",
+    "CNO",
+    "sexual-abuse",
+    "reporting"
+   ],
+   "stem": "An Ontario nurse hears a patient's credible account that another nurse touched them in a sexual manner during care. What is the reporting obligation?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Report the suspected sexual abuse to the College of Nurses of Ontario (CNO) as required; a patient's account can constitute reasonable grounds"
+    },
+    {
+     "key": "B",
+     "text": "Wait indefinitely until a criminal conviction is obtained before any report is considered"
+    },
+    {
+     "key": "C",
+     "text": "Ignore the disclosure because consensual-appearing relationships with current patients are allowed"
+    },
+    {
+     "key": "D",
+     "text": "Post the patient's name and details on social media to warn the public"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO: nurses are legally required to report suspected sexual abuse of a patient by a nurse to CNO. CNO Boundaries: under RHPA/HPPC, nurses must report reasonable grounds to suspect sexual abuse to the appropriate college; a client's account constitutes reasonable grounds. RHPA HPPC s.85.1: member shall report reasonable grounds that another member sexually abused a patient.",
+    "B": "Incorrect. Reporting obligation does not wait for criminal conviction; report suspected sexual abuse promptly (within RHPA timelines).",
+    "C": "Incorrect. Any sexual/romantic relationship with a patient is sexual abuse for regulated health professionals.",
+    "D": "Incorrect. PHI must not be posted publicly; patient name in a CNO report requires written consent."
+   },
+   "sources": [
+    {
+     "title": "Who Must File a Report and When",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/protect-the-public/file-a-report/reporting-guide/legal-obligations",
+     "section": "Sexual abuse — nurses must report suspected sexual abuse to CNO",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Nurses/RHPs must report a nurse suspected of sexually abusing a patient; report within 30 days; any sexual/romantic relationship with a patient is abusive."
+    },
+    {
+     "title": "Regulated Health Professions Act, 1991 — Health Professions Procedural Code",
+     "publisher": "Government of Ontario — e-Laws",
+     "url": "https://www.ontario.ca/laws/statute/91r18",
+     "section": "s. 85.1 / 85.3 — member reporting of sexual abuse of a patient",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Member shall file a report if reasonable grounds to believe another member has sexually abused a patient; file with College Registrar within 30 days (or forthwith if urgent)."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f9772ceb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO reporting/boundaries + Ontario RHPA HPPC s.85.1 dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B54-WAVE45",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CNO / RHPA mandatory reporting of suspected sexual abuse",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "ontario-regulator",
+    "mandatory-reporting"
+   ],
+   "jurisdiction": "Ontario-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0083",
+   "format": "drop_down_cloze",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "NGN cloze — CNO mandatory report of suspected patient sexual abuse",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cno-report-sexual-abuse-ngn-cloze",
+   "tags": [
+    "NGN",
+    "cloze",
+    "MOC",
+    "Ontario",
+    "CNO"
+   ],
+   "stem": "Complete the Ontario reporting requirement after a nurse learns of suspected sexual abuse of a patient by another nurse.",
+   "ngn": {
+    "template": "The nurse must report the suspected sexual abuse to {B1}. Including the patient's name in the report requires {B2}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "the College of Nurses of Ontario (CNO)"
+      },
+      {
+       "key": "B1b",
+       "text": "only an anonymous online poll of coworkers"
+      },
+      {
+       "key": "B1c",
+       "text": "a public social-media post naming the patient"
+      },
+      {
+       "key": "B1d",
+       "text": "no one, because reporting is optional forever"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "the patient's written consent (or representative consent if incapable)"
+      },
+      {
+       "key": "B2b",
+       "text": "no consent rules of any kind"
+      },
+      {
+       "key": "B2c",
+       "text": "approval from the accused nurse only"
+      },
+      {
+       "key": "B2d",
+       "text": "a criminal jury verdict first"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. Report to CNO.",
+    "B1b": "Incorrect. Workplace gossip is not the legal report.",
+    "B1c": "Incorrect. Public posting of PHI is prohibited.",
+    "B1d": "Incorrect. Reporting suspected sexual abuse is a legal obligation.",
+    "B2a": "Correct. Patient name may be included only with written consent.",
+    "B2b": "Incorrect. Consent is required to include the patient's name.",
+    "B2c": "Incorrect. Accused nurse approval is not the standard.",
+    "B2d": "Incorrect. Report does not wait for criminal verdict."
+   },
+   "sources": [
+    {
+     "title": "Who Must File a Report and When",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/protect-the-public/file-a-report/reporting-guide/legal-obligations",
+     "section": "Sexual abuse — report to CNO; patient name needs written consent",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Nurses must report suspected sexual abuse to CNO; include patient name only with written consent."
+    },
+    {
+     "title": "Regulated Health Professions Act, 1991 — Health Professions Procedural Code",
+     "publisher": "Government of Ontario — e-Laws",
+     "url": "https://www.ontario.ca/laws/statute/91r18",
+     "section": "s. 85.1 / 85.3 — member reporting of sexual abuse of a patient",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Member shall file a report if reasonable grounds to believe another member has sexually abused a patient; file with College Registrar within 30 days (or forthwith if urgent)."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f9772ceb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO reporting/boundaries + Ontario RHPA HPPC s.85.1 dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B54-WAVE45",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0084",
+   "format": "multiple_choice",
+   "specialty": "Leadership/Management",
+   "topic": "High-alert meds — independent second-nurse dose verification (insulin/heparin)",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "high-alert-independent-double-check",
+   "tags": [
+    "MOC",
+    "high-alert",
+    "insulin",
+    "heparin",
+    "leadership"
+   ],
+   "stem": "Before giving subcutaneous insulin, which leadership/safety practice best reduces high-alert medication error risk?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Have a second nurse independently verify the insulin type and dose (do not draw up until a witness is available per policy)"
+    },
+    {
+     "key": "B",
+     "text": "Skip verification because insulin is never classified as high-alert"
+    },
+    {
+     "key": "C",
+     "text": "Draw heparin into an insulin syringe to 'save time'"
+    },
+    {
+     "key": "D",
+     "text": "Ask an unlicensed visitor to confirm the dose from memory"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax Pharm: insulin/heparin are high-alert; a second nurse verifies the dose; do not draw up until a witness is available. OpenStax 3.2: double-check high-alert medication doses with another provider; ISMP high-alert drugs should have two-provider verification.",
+    "B": "Incorrect. Insulin is a classic high-alert medication.",
+    "C": "Incorrect. Never draw heparin into an insulin syringe.",
+    "D": "Incorrect. Verification must be by a qualified provider/nurse per policy, not a visitor."
+   },
+   "sources": [
+    {
+     "title": "2.3 Drug Administration Routes, Preparation, and Administration",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/2-3-drug-administration-routes-preparation-and-administration",
+     "section": "Nursing Implications for Subcutaneous Administration — high-alert insulin/heparin",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Heparins and insulins are high-alert; second nurse verifies dose; do not draw up until witness available; never mix syringe types."
+    },
+    {
+     "title": "12.5 Administering Subcutaneous Injections",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/12-5-administering-subcutaneous-injections",
+     "section": "Insulin / Heparin — two-nurse double-check",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A / Rows R1–R5",
+     "evidence": "Insulin is high-risk; two nurses double-check type and dosage with MAR while drawing up and before administration. Heparin high-alert; two nurses double-check before administration."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f9772ceb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Pharm 2.3 + OpenStax CNS 12.5 high-alert double-check dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B54-WAVE45",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0085",
+   "format": "matrix_multiple_choice",
+   "specialty": "Leadership/Management",
+   "topic": "NGN matrix — high-alert independent double-check indicated vs not",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "high-alert-double-check-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "MOC",
+    "high-alert",
+    "leadership"
+   ],
+   "stem": "Before administering subcutaneous insulin (a high-alert medication), indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Obtain an independent second-nurse verification of insulin type and dose per policy"
+     },
+     {
+      "key": "R2",
+      "text": "Wait to draw up the dose until a qualified witness is available to verify"
+     },
+     {
+      "key": "R3",
+      "text": "Use an insulin syringe for insulin only"
+     },
+     {
+      "key": "R4",
+      "text": "Skip the double-check because 'I usually get insulin doses right'"
+     },
+     {
+      "key": "R5",
+      "text": "Draw heparin into an insulin syringe for convenience"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Independent double-check for high-alert insulin.",
+    "R2": "Indicated. Do not draw up until a witness is available.",
+    "R3": "Indicated. Insulin only in insulin syringes.",
+    "R4": "Not indicated. High-alert verification is required regardless of familiarity.",
+    "R5": "Not indicated. Never draw heparin into an insulin syringe."
+   },
+   "sources": [
+    {
+     "title": "2.3 Drug Administration Routes, Preparation, and Administration",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/2-3-drug-administration-routes-preparation-and-administration",
+     "section": "Nursing Implications for Subcutaneous Administration",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Second nurse verifies insulin/heparin; wait for witness; correct syringe type."
+    },
+    {
+     "title": "12.5 Administering Subcutaneous Injections",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/12-5-administering-subcutaneous-injections",
+     "section": "Insulin / Heparin — two-nurse double-check",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A / Rows R1–R5",
+     "evidence": "Insulin is high-risk; two nurses double-check type and dosage with MAR while drawing up and before administration. Heparin high-alert; two nurses double-check before administration."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f9772ceb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Pharm 2.3 + OpenStax CNS 12.5 high-alert double-check dual-cite."
     }
    ],
    "exam_version_published": null,

@@ -1,6 +1,6 @@
 # Question bank status — Ontario/Canada HESI/NCLEX practice
 
-**Updated:** 2026-11-25, ~1:25 PM (America/New_York)  
+**Updated:** 2026-11-25, ~2:05 PM (America/New_York)  
 **Honesty:** Counts below are **actual**. AI authoring may reach **Source verified** only. **Published / clinically reviewed = 0.** No claim of HESI/NCLEX item authenticity.
 
 Companion: [source-verification-report.md](./source-verification-report.md) · bank root: `/cursor/stores/self/internal/question-bank/`
@@ -11,8 +11,8 @@ Companion: [source-verification-report.md](./source-verification-report.md) · b
 
 | Metric | Count |
 | --- | ---: |
-| **Total active items** | **539** |
-| **Source verified** | **539** |
+| **Total active items** | **553** |
+| **Source verified** | **553** |
 | Awaiting clinical review | 0 |
 | Clinically reviewed | 0 |
 | Approved / published | **0** |
@@ -20,7 +20,7 @@ Companion: [source-verification-report.md](./source-verification-report.md) · b
 | Archived | 0 |
 | Excluded draft topics (logged) | 147 |
 
-Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after merge of `B00-PILOT` + `B11-WAVE2` + `B12-WAVE3` + `B13-WAVE4` + `B14-WAVE5` + `B15-WAVE6` + `B16-WAVE7` + `B17-WAVE8` + `B18-WAVE9` + `B19-WAVE10` + `B20-WAVE11` + `B21-WAVE12` + `B22-WAVE13` + `B23-WAVE14` + `B24-WAVE15` + `B25-WAVE16` + `B26-WAVE17` + `B27-WAVE18` + `B28-WAVE19` + `B29-WAVE20` + `B30-WAVE21` + `B31-WAVE22` + `B32-WAVE23` + `B33-WAVE24` + `B34-WAVE25` + `B35-WAVE26` + `B36-WAVE27` + `B37-WAVE28` + `B38-WAVE29` + `B39-WAVE30` + `B40-WAVE31` + `B41-WAVE32` + `B42-WAVE33` + `B43-WAVE34` + `B44-WAVE35` + `B45-WAVE36` + `B46-WAVE37` + `B47-WAVE38` + `B48-WAVE39` + `B49-WAVE40` + `B50-WAVE41` + `B51-WAVE42` + `B52-WAVE43` + `B53-WAVE44`.
+Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after merge of `B00-PILOT` + `B11-WAVE2` + `B12-WAVE3` + `B13-WAVE4` + `B14-WAVE5` + `B15-WAVE6` + `B16-WAVE7` + `B17-WAVE8` + `B18-WAVE9` + `B19-WAVE10` + `B20-WAVE11` + `B21-WAVE12` + `B22-WAVE13` + `B23-WAVE14` + `B24-WAVE15` + `B25-WAVE16` + `B26-WAVE17` + `B27-WAVE18` + `B28-WAVE19` + `B29-WAVE20` + `B30-WAVE21` + `B31-WAVE22` + `B32-WAVE23` + `B33-WAVE24` + `B34-WAVE25` + `B35-WAVE26` + `B36-WAVE27` + `B37-WAVE28` + `B38-WAVE29` + `B39-WAVE30` + `B40-WAVE31` + `B41-WAVE32` + `B42-WAVE33` + `B43-WAVE34` + `B44-WAVE35` + `B45-WAVE36` + `B46-WAVE37` + `B47-WAVE38` + `B48-WAVE39` + `B49-WAVE40` + `B50-WAVE41` + `B51-WAVE42` + `B52-WAVE43` + `B53-WAVE44` + `B54-WAVE45`.
 
 ---
 
@@ -28,19 +28,19 @@ Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after mer
 
 | Code | Subcategory | Source verified | Gap vs 150-item form quota* |
 | --- | --- | ---: | ---: |
-| MOC | Management of Care | 81 | 0† |
-| SIPC | Safety and Infection Prevention and Control | 63 | 0† |
+| MOC | Management of Care | 85 | 0† |
+| SIPC | Safety and Infection Prevention and Control | 65 | 0† |
 | HPM | Health Promotion and Maintenance | 72 | 0† |
-| PSY | Psychosocial Integrity | 62 | 0† |
-| BCC | Basic Care and Comfort | 61 | 0† |
-| PPT | Pharmacological and Parenteral Therapies | 63 | 0† |
-| RRP | Reduction of Risk Potential | 61 | 0† |
+| PSY | Psychosocial Integrity | 64 | 0† |
+| BCC | Basic Care and Comfort | 63 | 0† |
+| PPT | Pharmacological and Parenteral Therapies | 65 | 0† |
+| RRP | Reduction of Risk Potential | 63 | 0† |
 | PA | Physiological Adaptation | 76 | 0† |
 
 *Quota for one 150-item HESI-style form (see blueprint). Five forms need ~750 Source-verified → clinically reviewed items. **No form is publishable yet.**  
-†Surplus vs base single-form quota supports multi-form depth (MOC 81/27, SIPC 63/20, HPM 72/13–14, PSY 62/13–14, BCC 61/13–14, PPT 63/24, RRP 61/18, PA 76/21).
+†Surplus vs base single-form quota supports multi-form depth (MOC 85/27, SIPC 65/20, HPM 72/13–14, PSY 64/13–14, BCC 63/13–14, PPT 65/24, RRP 63/18, PA 76/21).
 
-Wave 44 added Basic Care and Comfort Gerontology (dysphagia thickened liquids MC + NGN matrix), Pharmacological Therapies (HIT stop heparin / nonheparin MC + NGN matrix), Physiological Adaptation Critical Care (malignant hyperthermia stop triggers + dantrolene MC + NGN bowtie), Psychosocial Integrity MH (thiamine before IV glucose / Wernicke prevention MC + NGN cloze), Management of Care Leadership (TeamSTEPPS CUS MC + NGN cloze), Safety/IPC Fundamentals (two patient identifiers — not room number — MC + NGN matrix), Reduction of Risk Potential Critical Care (adult CPR 100–120/min + full recoil MC + NGN cloze); dual-cited originals (OpenStax Fund/Med-Surg/Pharm/Psych/CNS, Merck, GeneReviews/NCBI, AHRQ, AHA TeamSTEPPS, AHA BLS). **All eight Client Needs single-form quotas remain met at Source verified.**
+Wave 45 added Basic Care and Comfort Gerontology (sundowning reduce evening stimulation MC + NGN matrix), Pharmacological Therapies (metformin hold around IV contrast / lactic acidosis MC + NGN matrix), Reduction of Risk Potential Critical Care (dislodged chest tube three-sided occlusive dressing MC + NGN cloze), Safety/IPC Fundamentals (least-restrictive restraints — mitts before wrist ties MC + NGN matrix), Psychosocial Integrity MH (ECT anesthesia + temporary memory effects MC + NGN cloze), Management of Care Ontario Professional Practice (mandatory CNO report of suspected patient sexual abuse MC + NGN cloze), Management of Care Leadership (high-alert insulin independent double-check MC + NGN matrix); dual-cited originals (OpenStax Fund/Psych/Pharm/CNS/Med-Surg, Merck, Open RN/NCBI, CNO, Ontario RHPA e-Laws). **All eight Client Needs single-form quotas remain met at Source verified.**
 
 ---
 
@@ -48,18 +48,18 @@ Wave 44 added Basic Care and Comfort Gerontology (dysphagia thickened liquids MC
 
 | Format | n |
 | --- | ---: |
-| multiple_choice | 370 |
+| multiple_choice | 377 |
 | select_all_that_apply | 46 |
-| matrix_multiple_choice | 60 |
-| drop_down_cloze | 34 |
+| matrix_multiple_choice | 64 |
+| drop_down_cloze | 37 |
 | bowtie | 26 |
 | ordered_response | 2 |
 | calculation | 1 |
 
 | Jurisdiction | n |
 | --- | ---: |
-| General (Canada/US concordant) | 473 |
-| Ontario-specific | 48 |
+| General (Canada/US concordant) | 485 |
+| Ontario-specific | 50 |
 | Canada-specific | 18 |
 
 ---
@@ -112,6 +112,7 @@ Wave 44 added Basic Care and Comfort Gerontology (dysphagia thickened liquids MC
 | B51-WAVE42 | 14 | Source verified (wave 42 — PSY/BCC + Maternity/Community HPM + NGN matrix/cloze) |
 | B52-WAVE43 | 14 | Source verified (wave 43 — SIPC/PPT/RRP + Leadership/Community/Peds + NGN matrix/cloze/bowtie) |
 | B53-WAVE44 | 14 | Source verified (wave 44 — BCC/PPT/PSY/SIPC/RRP + Leadership/Critical Care/Gero + NGN matrix/cloze/bowtie) |
+| B54-WAVE45 | 14 | Source verified (wave 45 — BCC/PPT/RRP/SIPC/PSY + Ontario PP/Leadership + NGN matrix/cloze) |
 | B01–B10 | 0 JSON | Prior fetch logs only; no authored batches completed |
 
 ---
@@ -133,7 +134,7 @@ Compiled bank copied into the GitHub app repo under `data/question-bank/` with a
 
 ## Next priorities
 
-1. Independent verifier pass on B00 + B11–B53 → Awaiting clinical review.  
+1. Independent verifier pass on B00 + B11–B54 → Awaiting clinical review.  
 2. Licensed clinician review (especially high-priority items flagged in clinical-review-queue).  
-3. Continue authoring toward **five-form** depth (~750 Source-verified → clinically reviewed), prioritizing remaining thinner specialties (Professional Practice 42; Community 43; Leadership 43).  
+3. Continue authoring toward **five-form** depth (~750 Source-verified → clinically reviewed), prioritizing remaining thinner specialties (Community 43; Professional Practice 44; Leadership 45).  
 4. Do **not** pad counts; exclude when a second independent source cannot be confirmed.
