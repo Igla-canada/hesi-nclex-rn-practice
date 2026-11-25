@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 679,
+  "Source verified": 693,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -77868,6 +77868,1665 @@
      "date": "2026-11-25",
      "result": "confirmed",
      "checks": "Ontario CYFSA + CNO cloze dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B64-WAVE55",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0081",
+   "format": "multiple_choice",
+   "specialty": "Community/Public Health",
+   "topic": "Cryptosporidium — soap-and-water hand hygiene; alcohol-based sanitizers not effective",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "crypto-hand-hygiene-soap",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "SIPC",
+    "cryptosporidium",
+    "community",
+    "NGN-partner"
+   ],
+   "stem": "A community nurse teaches a household with confirmed cryptosporidiosis about hand hygiene. Which statement is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Wash hands with soap and water at key times; alcohol-based hand sanitizers are not effective against Cryptosporidium"
+    },
+    {
+     "key": "B",
+     "text": "Alcohol-based hand sanitizer alone is preferred after diaper changes because it kills Crypto oocysts"
+    },
+    {
+     "key": "C",
+     "text": "Hand hygiene is unnecessary once watery diarrhea begins"
+    },
+    {
+     "key": "D",
+     "text": "Only antibacterial soap with bleach must be used; plain soap and water never help"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC Preventing Crypto and Merck Prevention: alcohol-based sanitizers are not effective against this parasite; soap-and-water handwashing at key times is recommended.",
+    "B": "Incorrect. Alcohol-based sanitizers are not effective against Crypto (CDC/Merck).",
+    "C": "Incorrect. Hand hygiene remains essential to limit fecal-oral spread.",
+    "D": "Incorrect. Thorough soap-and-water handwashing is the recommended hygiene practice; bleach is not required for routine handwashing."
+   },
+   "sources": [
+    {
+     "title": "Preventing Crypto",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/cryptosporidium/prevention/index.html",
+     "section": "Practice good hygiene",
+     "source_date": "Updated: May 8, 2025 / Reviewed context Nov 5, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Alcohol-based hand sanitizers are not effective against Crypto; wash hands with soap and water at key times."
+    },
+    {
+     "title": "Cryptosporidiosis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/intestinal-protozoa-and-microsporidia/cryptosporidiosis",
+     "section": "Prevention of Cryptosporidiosis",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Thorough handwashing after fecal contact; alcohol-based hand sanitizers are not effective against this parasite."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f1ba2cff) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Preventing Crypto + Merck Prevention dual-cite for soap/water vs alcohol sanitizer."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B64-WAVE55",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0082",
+   "format": "matrix_multiple_choice",
+   "specialty": "Community/Public Health",
+   "topic": "NGN matrix — cryptosporidiosis prevention indicated vs not",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "crypto-prevention-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "SIPC",
+    "cryptosporidium",
+    "community"
+   ],
+   "stem": "For a family with a child recovering from cryptosporidiosis, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Wash hands with soap and water after toileting/diapering and before preparing food"
+     },
+     {
+      "key": "R2",
+      "text": "Avoid swallowing untreated lake, river, or poorly treated recreational water"
+     },
+     {
+      "key": "R3",
+      "text": "Rely only on alcohol-based hand sanitizer because it reliably kills Crypto oocysts"
+     },
+     {
+      "key": "R4",
+      "text": "If drinking water safety is uncertain, use boiled or appropriately filtered water (absolute ≤1 µm / NSF 53 or 58)"
+     },
+     {
+      "key": "R5",
+      "text": "Tell contacts that Crypto never spreads person to person so hygiene is optional"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. CDC/Merck emphasize soap-and-water hand hygiene at key times.",
+    "R2": "Indicated. Merck: do not swallow untreated recreational water; CDC advises avoiding contaminated water.",
+    "R3": "Not indicated. Alcohol-based sanitizers are not effective against Crypto.",
+    "R4": "Indicated. CDC/Merck: boil or use absolute ≤1 µm / NSF 53 or 58 filters when water safety is doubtful.",
+    "R5": "Not indicated. Person-to-person fecal-oral transmission occurs; stools are highly infectious (Merck)."
+   },
+   "sources": [
+    {
+     "title": "Preventing Crypto",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/cryptosporidium/prevention/index.html",
+     "section": "Practice good hygiene; Avoid water that might be contaminated",
+     "source_date": "Updated: May 8, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Soap and water; alcohol sanitizers ineffective; boil/filter guidance for uncertain drinking water."
+    },
+    {
+     "title": "Cryptosporidiosis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/intestinal-protozoa-and-microsporidia/cryptosporidiosis",
+     "section": "Prevention of Cryptosporidiosis; Key Points",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Handwashing; do not swallow untreated recreational water; boil/filter; alcohol sanitizers ineffective; fecal-oral spread."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f1ba2cff) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC + Merck crypto prevention matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B64-WAVE55",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0083",
+   "format": "multiple_choice",
+   "specialty": "Community/Public Health",
+   "topic": "Legionnaires’ disease — inhale contaminated water mist; generally not person-to-person",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "legionella-aerosol-not-ptp",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "SIPC",
+    "legionella",
+    "community",
+    "NGN-partner"
+   ],
+   "stem": "During an outbreak investigation teaching session, which statement about Legionnaires’ disease transmission is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "People usually get it by breathing mist from water systems contaminated with Legionella; in general it is not spread person to person"
+    },
+    {
+     "key": "B",
+     "text": "It spreads mainly by casual skin contact, so gloves alone stop community outbreaks"
+    },
+    {
+     "key": "C",
+     "text": "It is almost always transmitted by coughing directly onto others in the same room"
+    },
+    {
+     "key": "D",
+     "text": "It only comes from spoiled food, never from building water systems"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: breathe mist containing Legionella; in general not person to person. Merck: acquired by inhaling aerosols of contaminated water; not transmitted person to person (rare probable exception).",
+    "B": "Incorrect. Transmission is via aerosols/aspiration of contaminated water, not casual skin contact.",
+    "C": "Incorrect. Person-to-person spread is not the usual route.",
+    "D": "Incorrect. Building plumbing/water aerosols (showers, hot tubs, cooling towers) are classic sources."
+   },
+   "sources": [
+    {
+     "title": "About Legionnaires' Disease",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/legionella/about/index.html",
+     "section": "Key points; Causes",
+     "source_date": "Aug. 6, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "People get Legionnaires’ disease by breathing mist containing Legionella; in general it isn’t spread person to person."
+    },
+    {
+     "title": "Legionella Infections",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/gram-negative-bacilli/legionella-infections",
+     "section": "Transmission of Legionella species",
+     "source_date": "Last updated: Jun 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Usually acquired by inhaling aerosols of contaminated water; not transmitted person to person (one probable case reported)."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f1ba2cff) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC About Legionnaires + Merck Transmission dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B64-WAVE55",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0084",
+   "format": "matrix_multiple_choice",
+   "specialty": "Community/Public Health",
+   "topic": "NGN matrix — Legionella transmission/prevention teaching indicated vs not",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "legionella-teaching-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "SIPC",
+    "legionella",
+    "community"
+   ],
+   "stem": "For community education after a suspected Legionella outbreak linked to a building water system, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Explain that infection is usually from inhaling aerosols of contaminated water (e.g., showers, hot tubs, cooling towers)"
+     },
+     {
+      "key": "R2",
+      "text": "State that in general Legionnaires’ disease is not spread person to person"
+     },
+     {
+      "key": "R3",
+      "text": "Support building water management programs to control Legionella growth and spread"
+     },
+     {
+      "key": "R4",
+      "text": "Teach that routine droplet isolation of household contacts is always required because it spreads like influenza"
+     },
+     {
+      "key": "R5",
+      "text": "Advise that antibiotics are never used because Legionnaires’ disease is viral"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Merck/CDC: aerosolized contaminated water is the usual exposure.",
+    "R2": "Indicated. CDC/Merck: generally not person-to-person.",
+    "R3": "Indicated. CDC prevention focuses on water management to reduce growth/spread.",
+    "R4": "Not indicated. Usual transmission is not person-to-person like influenza.",
+    "R5": "Not indicated. CDC: Legionnaires’ disease requires antibiotic treatment."
+   },
+   "sources": [
+    {
+     "title": "About Legionnaires' Disease",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/legionella/about/index.html",
+     "section": "Key points; Prevention; Treatment and recovery",
+     "source_date": "Aug. 6, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Mist exposure; generally not person-to-person; water management programs; antibiotic treatment."
+    },
+    {
+     "title": "Legionella Infections",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/gram-negative-bacilli/legionella-infections",
+     "section": "Transmission of Legionella species",
+     "source_date": "Last updated: Jun 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R4",
+     "evidence": "Inhale aerosols from showers/hot tubs/cooling towers; not person-to-person transmission."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f1ba2cff) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC + Merck Legionella matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B64-WAVE55",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PA-0082",
+   "format": "multiple_choice",
+   "specialty": "Critical Care/Emergency",
+   "topic": "Fat embolism after long-bone fracture — dyspnea/hypoxemia and neurologic changes",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "fat-embolism-long-bone",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "PA",
+    "fat-embolism",
+    "critical-care",
+    "NGN-partner",
+    "emergency"
+   ],
+   "stem": "A client with a femoral fracture develops sudden shortness of breath and new confusion about 36 hours after injury. Which complication should the nurse suspect first?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Fat embolism syndrome related to long-bone fracture"
+    },
+    {
+     "key": "B",
+     "text": "Simple anxiety with no need to assess oxygenation"
+    },
+    {
+     "key": "C",
+     "text": "Delayed wound hematoma that never affects breathing"
+    },
+    {
+     "key": "D",
+     "text": "Benign muscle spasm that explains acute hypoxemia"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: fat embolism after long-bone fractures causes rapid-onset hypoxemia often with neurologic changes (and petechial rash). OpenStax: fat embolism risk after long-bone fractures; monitor for neurologic changes or shortness of breath, commonly 24–72 hours after fracture.",
+    "B": "Incorrect. New dyspnea and confusion require urgent respiratory/neuro assessment for embolism.",
+    "C": "Incorrect. Hematoma does not explain acute dyspnea and confusion in this pattern.",
+    "D": "Incorrect. Muscle spasm does not cause acute hypoxemic respiratory syndromes."
+   },
+   "sources": [
+    {
+     "title": "Nonthrombotic Pulmonary Embolism",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pulmonary-disorders/pulmonary-embolism/nonthrombotic-pulmonary-embolism",
+     "section": "Fat embolism",
+     "source_date": "Last updated: Nov 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Long-bone fractures can introduce fat into venous circulation; syndrome with severe hypoxemia, neurologic changes, petechial rash."
+    },
+    {
+     "title": "13.3 Bone Fractures",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/13-3-bone-fractures",
+     "section": "Recognizing Cues and Analyzing Cues",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Long-bone fractures increase fat embolism risk; monitor for neurologic changes or shortness of breath, often 24–72 hours after fracture."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f1ba2cff) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Nonthrombotic PE + OpenStax 13.3 fat embolism dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B64-WAVE55",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PA-0083",
+   "format": "matrix_multiple_choice",
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN matrix — suspected fat embolism actions indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "fat-embolism-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PA",
+    "fat-embolism",
+    "critical-care",
+    "emergency"
+   ],
+   "stem": "A client is 40 hours post femur fracture with sudden dyspnea and altered mentation. Indicate whether each nursing action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Notify the provider promptly and activate rapid response if indicated"
+     },
+     {
+      "key": "R2",
+      "text": "Apply oxygen as needed and support airway/breathing while awaiting orders"
+     },
+     {
+      "key": "R3",
+      "text": "Continue to monitor neurologic status and respiratory pattern closely"
+     },
+     {
+      "key": "R4",
+      "text": "Reassure that dyspnea after long-bone fracture never needs escalation"
+     },
+     {
+      "key": "R5",
+      "text": "Delay assessment because fat embolism only occurs after 2 weeks"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. OpenStax: notify provider/call rapid response if fat embolism suspected.",
+    "R2": "Indicated. OpenStax: apply oxygen as necessary; Merck describes severe hypoxemia needing support.",
+    "R3": "Indicated. OpenStax/Merck: neurologic and respiratory changes are hallmark cues to monitor.",
+    "R4": "Not indicated. Dyspnea/neuro changes require urgent escalation.",
+    "R5": "Not indicated. OpenStax notes common onset 24–72 hours after fracture, not a 2-week delay only."
+   },
+   "sources": [
+    {
+     "title": "13.3 Bone Fractures",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/13-3-bone-fractures",
+     "section": "Prioritizing Hypotheses, Generating Solutions, and Taking Action",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "If SOB/chest pain/neuro changes after fracture, hypothesize fat embolism; notify provider, rapid response, apply oxygen."
+    },
+    {
+     "title": "Nonthrombotic Pulmonary Embolism",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pulmonary-disorders/pulmonary-embolism/nonthrombotic-pulmonary-embolism",
+     "section": "Fat embolism",
+     "source_date": "Last updated: Nov 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Rapid-onset severe hypoxemia with neurologic changes after long-bone fracture; supportive measures needed."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f1ba2cff) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + Merck fat embolism action matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B64-WAVE55",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PA-0084",
+   "format": "multiple_choice",
+   "specialty": "Medical-Surgical",
+   "topic": "Hepatic encephalopathy — lactulose as standard treatment with cause correction",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "hepatic-enceph-lactulose",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "PA",
+    "hepatic-encephalopathy",
+    "lactulose",
+    "NGN-partner"
+   ],
+   "stem": "A client with cirrhosis develops confusion and asterixis. Besides treating precipitating factors, which medication is commonly used for hepatic (portosystemic) encephalopathy?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Oral lactulose (often with a nonabsorbable antibiotic such as rifaximin as indicated)"
+    },
+    {
+     "key": "B",
+     "text": "High-dose intravenous insulin as first-line encephalopathy therapy"
+    },
+    {
+     "key": "C",
+     "text": "Routine thrombolysis for every episode of asterixis"
+    },
+    {
+     "key": "D",
+     "text": "Disulfiram to reverse ammonia-related confusion"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: treatment includes correcting the acute cause, oral lactulose, and nonabsorbable antibiotics such as rifaximin. OpenStax hepatic encephalopathy table lists lactulose (and antibiotics) among treatments.",
+    "B": "Incorrect. Insulin is not first-line therapy for hepatic encephalopathy.",
+    "C": "Incorrect. Thrombolysis is not the treatment for asterixis from encephalopathy.",
+    "D": "Incorrect. Disulfiram is for alcohol aversion, not ammonia/encephalopathy treatment."
+   },
+   "sources": [
+    {
+     "title": "Portosystemic Encephalopathy",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/approach-to-the-patient-with-liver-disease/portosystemic-encephalopathy",
+     "section": "Portosystemic Encephalopathy (overview/treatment)",
+     "source_date": "Last updated: Aug 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Treatment usually correction of acute cause, oral lactulose, and nonabsorbable antibiotics such as rifaximin."
+    },
+    {
+     "title": "19.6 Hepatic and Biliary Disorders",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-6-hepatic-and-biliary-disorders",
+     "section": "Assessment and Diagnostics — Hepatic Encephalopathy table",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Hepatic encephalopathy treatment may include antibiotics and lactulose; asterixis and cognitive impairment are cues."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f1ba2cff) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck portosystemic encephalopathy + OpenStax 19.6 lactulose dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B64-WAVE55",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PA-0085",
+   "format": "matrix_multiple_choice",
+   "specialty": "Medical-Surgical",
+   "topic": "NGN matrix — hepatic encephalopathy care indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "hepatic-enceph-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PA",
+    "hepatic-encephalopathy"
+   ],
+   "stem": "For a client with cirrhosis and new confusion with asterixis, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Administer ordered lactulose and monitor response (e.g., stooling/mental status per orders)"
+     },
+     {
+      "key": "R2",
+      "text": "Help identify and treat precipitants such as infection, GI bleeding, dehydration, or electrolyte imbalance"
+     },
+     {
+      "key": "R3",
+      "text": "Assess for asterixis and changes in cognition as encephalopathy cues"
+     },
+     {
+      "key": "R4",
+      "text": "Encourage unlimited high-protein binge meals during an acute encephalopathic episode without provider guidance"
+     },
+     {
+      "key": "R5",
+      "text": "Give sedatives liberally because drowsiness always improves encephalopathy"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Merck/OpenStax: lactulose is a standard treatment.",
+    "R2": "Indicated. Merck: acute episodes often precipitated by infection, GI bleeding, electrolyte issues, dehydration, sedatives.",
+    "R3": "Indicated. OpenStax/Merck: asterixis and cognitive changes are classic findings.",
+    "R4": "Not indicated. High gut protein load can precipitate encephalopathy (Merck); do not encourage uncontrolled high-protein binges in acute HE.",
+    "R5": "Not indicated. Sedatives/analgesics can precipitate encephalopathy (Merck)."
+   },
+   "sources": [
+    {
+     "title": "Portosystemic Encephalopathy",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/approach-to-the-patient-with-liver-disease/portosystemic-encephalopathy",
+     "section": "Precipitants; Treatment; Symptoms and Signs",
+     "source_date": "Last updated: Aug 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Lactulose/rifaximin; precipitants include GI bleed, infection, electrolytes, sedatives; high gut protein; asterixis/confusion."
+    },
+    {
+     "title": "19.6 Hepatic and Biliary Disorders",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-6-hepatic-and-biliary-disorders",
+     "section": "Hepatic Encephalopathy table",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R3",
+     "evidence": "Asterixis and cognitive impairment; treatment includes lactulose and antibiotics; identify/treat underlying cause."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f1ba2cff) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck + OpenStax hepatic encephalopathy matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B64-WAVE55",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric",
+    "emergency"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PA-0086",
+   "format": "multiple_choice",
+   "specialty": "Pediatrics",
+   "topic": "Testicular torsion — surgical emergency; urgent detorsion/surgery to salvage testis",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "testicular-torsion-emergency",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "PA",
+    "testicular-torsion",
+    "pediatrics",
+    "NGN-partner",
+    "emergency"
+   ],
+   "stem": "An adolescent presents with sudden severe unilateral scrotal pain, nausea, and a high-riding tender testis. What is the priority nursing/medical action?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Treat as a surgical emergency—facilitate immediate evaluation for manual detorsion/urgent surgery to restore blood flow"
+    },
+    {
+     "key": "B",
+     "text": "Schedule elective outpatient follow-up in 2 weeks because torsion is never urgent"
+    },
+    {
+     "key": "C",
+     "text": "Apply ice and discharge home without provider notification"
+    },
+    {
+     "key": "D",
+     "text": "Start oral antibiotics alone and cancel any surgical consult"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: emergency; immediate manual detorsion followed by surgical intervention. MedlinePlus: surgery as soon as possible; salvage best if within about 6 hours.",
+    "B": "Incorrect. Delay risks permanent testicular damage.",
+    "C": "Incorrect. Requires emergency evaluation, not home ice alone.",
+    "D": "Incorrect. Antibiotics alone do not treat ischemia from torsion; surgery is needed."
+   },
+   "sources": [
+    {
+     "title": "Testicular Torsion",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/genitourinary-disorders/penile-and-scrotal-disorders/testicular-torsion",
+     "section": "Overview; Treatment of Testicular Torsion",
+     "source_date": "Last updated: Dec 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Emergency due to strangulated blood supply; immediate manual detorsion followed by surgical intervention."
+    },
+    {
+     "title": "Testicular torsion",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/article/000517.htm",
+     "section": "Treatment; Outlook; When to Contact a Medical Professional",
+     "source_date": "Review Date 7/1/2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Surgery ASAP; most of testis can be saved if within 6 hours; seek emergency care rather than urgent care delay."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f1ba2cff) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck + MedlinePlus testicular torsion emergency dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B64-WAVE55",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric",
+    "emergency"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PA-0087",
+   "format": "matrix_multiple_choice",
+   "specialty": "Pediatrics",
+   "topic": "NGN matrix — testicular torsion emergency actions indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "testicular-torsion-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PA",
+    "testicular-torsion",
+    "pediatrics",
+    "emergency"
+   ],
+   "stem": "For an adolescent with sudden severe unilateral scrotal pain and suspected testicular torsion, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Escalate immediately for emergency surgical evaluation"
+     },
+     {
+      "key": "R2",
+      "text": "Do not delay emergency evaluation while awaiting non-urgent clinics"
+     },
+     {
+      "key": "R3",
+      "text": "Recognize sudden severe pain with nausea/vomiting as classic cues"
+     },
+     {
+      "key": "R4",
+      "text": "Advise waiting at home overnight to see if pain resolves before seeking care"
+     },
+     {
+      "key": "R5",
+      "text": "Cancel surgical consult because oral antibiotics will restore blood flow"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Merck/MedlinePlus: emergency surgical pathway.",
+    "R2": "Indicated. MedlinePlus: seek emergency care ASAP; Merck emphasizes urgency of treatment.",
+    "R3": "Indicated. Both sources: sudden severe pain, nausea/vomiting.",
+    "R4": "Not indicated. MedlinePlus: get emergency care ASAP; delay risks loss of testis.",
+    "R5": "Not indicated. Ischemia requires detorsion/surgery, not antibiotics alone."
+   },
+   "sources": [
+    {
+     "title": "Testicular Torsion",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/genitourinary-disorders/penile-and-scrotal-disorders/testicular-torsion",
+     "section": "Symptoms and Signs; Treatment",
+     "source_date": "Last updated: Dec 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Rapid onset severe pain, nausea, vomiting; emergency; immediate detorsion and surgery."
+    },
+    {
+     "title": "Testicular torsion",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/article/000517.htm",
+     "section": "Symptoms; Treatment; When to Contact",
+     "source_date": "Review Date 7/1/2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Sudden severe pain, nausea/vomiting; surgery ASAP; emergency care; salvage time-sensitive."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f1ba2cff) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck + MedlinePlus testicular torsion matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B64-WAVE55",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0109",
+   "format": "multiple_choice",
+   "specialty": "Leadership/Management",
+   "topic": "Assignment/delegation — verify competency (Right Person); staffing considers acuity and skill mix",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "right-person-competency-acuity",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "MOC",
+    "leadership",
+    "delegation",
+    "NGN-partner"
+   ],
+   "stem": "A charge nurse is assigning tasks on a busy unit. Which action best reflects safe leadership practice?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Assign/delegate only to staff with verified education and competency for the task, considering patient acuity and skill mix—not census alone"
+    },
+    {
+     "key": "B",
+     "text": "Give the most complex unstable clients to the least experienced float nurse without orientation or competency check"
+    },
+    {
+     "key": "C",
+     "text": "Ignore acuity and assign solely by alphabetical room numbers"
+    },
+    {
+     "key": "D",
+     "text": "Delegate nursing judgment and initial assessment to untrained assistive personnel"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax Right Person: RN ensures required education/competencies. AHRQ: adequate staffing depends on acuity, skill mix, expertise—not numbers alone.",
+    "B": "Incorrect. Unverified competency for complex unstable clients is unsafe.",
+    "C": "Incorrect. Acuity and skill mix must inform assignments.",
+    "D": "Incorrect. Nursing process/judgment cannot be delegated (OpenStax principles)."
+   },
+   "sources": [
+    {
+     "title": "15.4 Nursing Standards of Delegation",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/15-4-nursing-standards-of-delegation",
+     "section": "Right Person; Principles for Delegation",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "RN ensures delegatee education/competencies; nursing process cannot be delegated; decisions consider patient complexity."
+    },
+    {
+     "title": "Nursing and Patient Safety",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ) — PSNet",
+     "url": "https://psnet.ahrq.gov/primer/nursing-and-patient-safety",
+     "section": "Nurse staffing and patient safety",
+     "source_date": "Updated in March 2021",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Staffing influenced by patient acuity, admissions/transfers, staff skill mix and expertise—not ratios alone."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f1ba2cff) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax 15.4 Right Person + AHRQ PSNet staffing/acuity dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B64-WAVE55",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0110",
+   "format": "drop_down_cloze",
+   "specialty": "Leadership/Management",
+   "topic": "NGN cloze — Right Person competency and acuity-informed assignment",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "right-person-ngn-cloze",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "cloze",
+    "MOC",
+    "leadership",
+    "delegation"
+   ],
+   "stem": "Complete the leadership teaching about safe assignment and delegation.",
+   "ngn": {
+    "template": "Before delegating a skilled task, the RN verifies the {B1}. Safe unit staffing/assignment also considers {B2}, not census alone. The nursing process itself {B3}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "delegatee’s required education and competency for that task"
+      },
+      {
+       "key": "B1b",
+       "text": "delegatee’s favorite shift preference only"
+      },
+      {
+       "key": "B1c",
+       "text": "client’s room paint color"
+      },
+      {
+       "key": "B1d",
+       "text": "unrelated cafeteria menu"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "patient acuity and staff skill mix/expertise"
+      },
+      {
+       "key": "B2b",
+       "text": "alphabetical last names only"
+      },
+      {
+       "key": "B2c",
+       "text": "random lottery without clinical judgment"
+      },
+      {
+       "key": "B2d",
+       "text": "who arrived first in the parking lot"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "cannot be delegated"
+      },
+      {
+       "key": "B3b",
+       "text": "must always be handed to untrained visitors"
+      },
+      {
+       "key": "B3c",
+       "text": "is optional on night shift"
+      },
+      {
+       "key": "B3d",
+       "text": "belongs only to dietary staff"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a"
+   },
+   "rationales": {
+    "B1a": "Correct. Right Person requires verified education/competency (OpenStax).",
+    "B1b": "Incorrect. Preference alone is not a competency check.",
+    "B1c": "Incorrect. Irrelevant to safe delegation.",
+    "B1d": "Incorrect. Irrelevant to safe delegation.",
+    "B2a": "Correct. AHRQ: acuity and skill mix/expertise influence safe staffing.",
+    "B2b": "Incorrect. Alphabetical assignment ignores acuity/skill mix.",
+    "B2c": "Incorrect. Random assignment is unsafe.",
+    "B2d": "Incorrect. Parking arrival is irrelevant.",
+    "B3a": "Correct. OpenStax: nursing process cannot be delegated.",
+    "B3b": "Incorrect. Visitors are not licensed care providers for the nursing process.",
+    "B3c": "Incorrect. Nursing process remains required.",
+    "B3d": "Incorrect. Dietary staff do not own the nursing process."
+   },
+   "sources": [
+    {
+     "title": "15.4 Nursing Standards of Delegation",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/15-4-nursing-standards-of-delegation",
+     "section": "Right Person; Principles for Delegation",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B1–B3",
+     "evidence": "Verify education/competencies; nursing process cannot be delegated; consider patient complexity."
+    },
+    {
+     "title": "Nursing and Patient Safety",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ) — PSNet",
+     "url": "https://psnet.ahrq.gov/primer/nursing-and-patient-safety",
+     "section": "Nurse staffing and patient safety",
+     "source_date": "Updated in March 2021",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "B2",
+     "evidence": "Staffing factors include patient acuity and staff skill mix and expertise."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f1ba2cff) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + AHRQ leadership cloze dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B64-WAVE55",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "O. Reg. 799/93 under the Nursing Act lists directing inadequately trained/incompetent performance of nursing functions as professional misconduct; aligns with competency verification principles.",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0111",
+   "format": "multiple_choice",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Ontario — directing staff to perform functions beyond training/competence is professional misconduct",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ontario-directing-incompetent-assignment",
+   "jurisdiction": "Ontario-specific",
+   "tags": [
+    "MOC",
+    "Ontario",
+    "professional-practice",
+    "NGN-partner",
+    "legal-ontario"
+   ],
+   "stem": "An Ontario charge nurse knowingly assigns a nursing function to a team member who has not been trained or demonstrated competence for that function. Which statement is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Directing a member/student/team member to perform nursing functions they are not adequately trained or competent to perform is professional misconduct under O. Reg. 799/93"
+    },
+    {
+     "key": "B",
+     "text": "Ontario regulations encourage assigning any task to anyone regardless of competence"
+    },
+    {
+     "key": "C",
+     "text": "Only the client can be disciplined for staff competency gaps"
+    },
+    {
+     "key": "D",
+     "text": "Training and competence never matter if the shift is short-staffed"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. O. Reg. 799/93 s.1 item 3 defines this directing as professional misconduct. OpenStax Right Person reinforces verifying education/competency before assigning/delegating.",
+    "B": "Incorrect. The regulation prohibits directing inadequately trained/incompetent performance.",
+    "C": "Incorrect. Accountability for directing unsafe assignment rests with the directing nurse under the misconduct regulation.",
+    "D": "Incorrect. Staffing pressure does not authorize incompetent assignment."
+   },
+   "sources": [
+    {
+     "title": "O. Reg. 799/93: PROFESSIONAL MISCONDUCT",
+     "publisher": "Government of Ontario — e-Laws",
+     "url": "https://www.ontario.ca/laws/regulation/930799",
+     "section": "Professional misconduct item 3",
+     "source_date": "e-Laws currency date November 20, 2026 (reg since Dec 31, 1993)",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Misconduct includes directing a member, student or other team member to perform nursing functions for which not adequately trained or not competent."
+    },
+    {
+     "title": "15.4 Nursing Standards of Delegation",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/15-4-nursing-standards-of-delegation",
+     "section": "Right Person",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "RN must ensure the person has required education and competencies before delegating/assigning the task."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f1ba2cff) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Ontario O. Reg. 799/93 item 3 + OpenStax Right Person dual-cite (independent publishers)."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B64-WAVE55",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Tests O. Reg. 799/93 professional misconduct item 3 with competency verification principle from OpenStax.",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0112",
+   "format": "drop_down_cloze",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "NGN cloze — Ontario misconduct for directing incompetent nursing functions",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ontario-incompetent-direction-ngn-cloze",
+   "jurisdiction": "Ontario-specific",
+   "tags": [
+    "NGN",
+    "cloze",
+    "MOC",
+    "Ontario",
+    "professional-practice",
+    "legal-ontario"
+   ],
+   "stem": "Complete the Ontario professional practice teaching about directing nursing work.",
+   "ngn": {
+    "template": "Under O. Reg. 799/93, directing a team member to perform nursing functions they are not {B1} to perform is {B2}. Before assigning a skilled task, the RN should verify {B3}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "adequately trained or competent"
+      },
+      {
+       "key": "B1b",
+       "text": "interested in overtime"
+      },
+      {
+       "key": "B1c",
+       "text": "wearing preferred shoes"
+      },
+      {
+       "key": "B1d",
+       "text": "related to the charge nurse"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "professional misconduct"
+      },
+      {
+       "key": "B2b",
+       "text": "always rewarded with a bonus"
+      },
+      {
+       "key": "B2c",
+       "text": "required for every coffee break"
+      },
+      {
+       "key": "B2d",
+       "text": "unrelated to nursing regulation"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "required education and competency for that task"
+      },
+      {
+       "key": "B3b",
+       "text": "only the staff member’s lunch preference"
+      },
+      {
+       "key": "B3c",
+       "text": "the color of the assignment board"
+      },
+      {
+       "key": "B3d",
+       "text": "whether visitors approve of the schedule"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a"
+   },
+   "rationales": {
+    "B1a": "Correct. O. Reg. 799/93 item 3 uses ‘not adequately trained or … not competent’.",
+    "B1b": "Incorrect. Overtime interest is not the regulatory standard.",
+    "B1c": "Incorrect. Irrelevant.",
+    "B1d": "Incorrect. Irrelevant.",
+    "B2a": "Correct. The regulation defines this directing as professional misconduct.",
+    "B2b": "Incorrect. It is misconduct, not a bonus criterion.",
+    "B2c": "Incorrect. Not related to breaks.",
+    "B2d": "Incorrect. It is explicitly in the nursing misconduct regulation.",
+    "B3a": "Correct. OpenStax Right Person: verify education and competencies.",
+    "B3b": "Incorrect. Lunch preference is not competency verification.",
+    "B3c": "Incorrect. Irrelevant.",
+    "B3d": "Incorrect. Visitor approval is not the competency standard."
+   },
+   "sources": [
+    {
+     "title": "O. Reg. 799/93: PROFESSIONAL MISCONDUCT",
+     "publisher": "Government of Ontario — e-Laws",
+     "url": "https://www.ontario.ca/laws/regulation/930799",
+     "section": "Professional misconduct item 3",
+     "source_date": "e-Laws currency date November 20, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Directing inadequately trained/incompetent performance of nursing functions is professional misconduct."
+    },
+    {
+     "title": "15.4 Nursing Standards of Delegation",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/15-4-nursing-standards-of-delegation",
+     "section": "Right Person",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B3",
+     "evidence": "RN ensures required education and competencies before the person performs the care."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-f1ba2cff) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "O. Reg. 799/93 + OpenStax cloze dual-cite."
     }
    ],
    "exam_version_published": null,
