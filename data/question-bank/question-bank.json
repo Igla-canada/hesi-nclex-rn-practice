@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 651,
+  "Source verified": 665,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -74482,6 +74482,1728 @@
      "date": "2026-11-25",
      "result": "confirmed",
      "checks": "O.Reg 799/93 item 15 + CNO Documentation false/misleading dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B62-WAVE53",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0077",
+   "format": "multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "Disulfiram — avoid alcohol and alcohol-containing products; reaction risk persists after last dose",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "disulfiram-alcohol-avoidance",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "PSY",
+    "disulfiram",
+    "AUD",
+    "alcohol",
+    "NGN-partner"
+   ],
+   "stem": "A client starting disulfiram for alcohol use disorder asks what to avoid. Which teaching is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Avoid alcoholic beverages and alcohol-containing products (e.g., some cough syrups/elixirs); unpleasant reactions can still occur for days after the last dose"
+    },
+    {
+     "key": "B",
+     "text": "Alcohol is safe with disulfiram if limited to one beer with meals"
+    },
+    {
+     "key": "C",
+     "text": "Only distilled spirits interact; wine and beer never cause a reaction"
+    },
+    {
+     "key": "D",
+     "text": "Disulfiram may be started while the client is currently intoxicated to ‘reset’ tolerance"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: drinking within 12 hours of disulfiram causes flushing/tachycardia/sweating and possibly hypotension; medications containing alcohol (tinctures, elixirs, some OTC cough/cold preparations) must also be avoided; effects may persist days after the last dose. OpenStax: abstain ≥12 hours before starting; reactions can occur up to 2 weeks after discontinuation; avoid nontraditional alcohol sources (mouthwash, cough syrup, hand sanitizer).",
+    "B": "Incorrect. Even small amounts of alcohol can trigger a reaction.",
+    "C": "Incorrect. Any alcohol source can trigger the reaction.",
+    "D": "Incorrect. Disulfiram must not be given during intoxication; wait ≥12 hours after drinking."
+   },
+   "sources": [
+    {
+     "title": "Alcohol Use Disorder and Rehabilitation",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/alcohol-use-disorder-and-rehabilitation",
+     "section": "Disulfiram — alcohol reaction; alcohol-containing medications",
+     "source_date": "Last updated Sept 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Drinking within 12 hours causes facial flushing, tachycardia, sweating; high alcohol doses may cause nausea/hypotension; medications containing alcohol (tinctures, elixirs, some OTC cough/cold preparations) must be avoided; effects may persist 3–7 days after last dose."
+    },
+    {
+     "title": "15.3 Alcohol Use Disorder Drugs",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/15-3-alcohol-use-disorder-drugs",
+     "section": "Disulfiram; Client Teaching Guidelines",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Abstain from alcohol ≥12 hours before starting; reactions can occur up to 2 weeks after discontinuation; avoid mouthwashes, cough syrups, hand sanitizers, and other alcohol-containing products; never administer while intoxicated."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-605d8bdb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck AUD disulfiram + OpenStax Pharm 15.3 dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B62-WAVE53",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0078",
+   "format": "matrix_multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "NGN matrix — disulfiram alcohol-avoidance teaching indicated vs not",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "disulfiram-alcohol-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PSY",
+    "disulfiram",
+    "AUD"
+   ],
+   "stem": "For a client prescribed disulfiram, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Avoid alcoholic drinks and check labels of cough syrups, mouthwashes, and other products that may contain alcohol"
+     },
+     {
+      "key": "R2",
+      "text": "Wait at least 12 hours after the last drink before taking the first dose"
+     },
+     {
+      "key": "R3",
+      "text": "Continue avoiding alcohol for up to about 2 weeks after stopping disulfiram because a reaction can still occur"
+     },
+     {
+      "key": "R4",
+      "text": "Reassure that one beer with dinner is always safe on disulfiram"
+     },
+     {
+      "key": "R5",
+      "text": "Start the first dose while the client is still intoxicated to speed detoxification"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Hidden alcohol sources must be avoided (Merck/OpenStax).",
+    "R2": "Indicated. Abstain ≥12 hours before starting (OpenStax/Merck timing context).",
+    "R3": "Indicated. OpenStax: reactions can occur up to 2 weeks after discontinuation.",
+    "R4": "Not indicated. Any alcohol may trigger a reaction.",
+    "R5": "Not indicated. Never administer while intoxicated."
+   },
+   "sources": [
+    {
+     "title": "Alcohol Use Disorder and Rehabilitation",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/alcohol-use-disorder-and-rehabilitation",
+     "section": "Disulfiram",
+     "source_date": "Last updated Sept 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Avoid alcohol-containing medications; reaction after drinking; effects persist days after last dose; outpatient after several days of abstinence."
+    },
+    {
+     "title": "15.3 Alcohol Use Disorder Drugs",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/15-3-alcohol-use-disorder-drugs",
+     "section": "Disulfiram; Nursing Implications / Client Teaching",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "≥12 hours abstinence before start; up to 2 weeks after stop; avoid mouthwash/cough syrup/hand sanitizer; never give while intoxicated."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-605d8bdb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck + OpenStax Pharm disulfiram matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B62-WAVE53",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0078",
+   "format": "multiple_choice",
+   "specialty": "Pharmacology",
+   "topic": "Metronidazole — avoid alcohol during therapy and for 3 days after last dose (disulfiram-like reaction)",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "metronidazole-alcohol-avoidance",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "PPT",
+    "metronidazole",
+    "alcohol",
+    "disulfiram-like",
+    "NGN-partner"
+   ],
+   "stem": "A client prescribed oral metronidazole asks about drinking alcohol. Which instruction is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Avoid alcohol while taking metronidazole and for at least 3 days after the final dose to reduce risk of a disulfiram-like reaction (flushing, headache, nausea/vomiting)"
+    },
+    {
+     "key": "B",
+     "text": "Alcohol is encouraged because it improves metronidazole absorption"
+    },
+    {
+     "key": "C",
+     "text": "Only red wine interacts; clear liquors are always safe"
+    },
+    {
+     "key": "D",
+     "text": "Alcohol may be resumed the same evening as the last dose"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: a disulfiram-like reaction may occur if alcohol is ingested within 3 days of use. MedlinePlus: do not drink alcoholic beverages or take products with alcohol/propylene glycol while taking metronidazole and for at least 3 days after the final dose.",
+    "B": "Incorrect. Alcohol can cause an unpleasant reaction, not improved absorption.",
+    "C": "Incorrect. Any alcohol may trigger the reaction.",
+    "D": "Incorrect. Continue avoidance for at least 3 days after the last dose."
+   },
+   "sources": [
+    {
+     "title": "Metronidazole and Tinidazole",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/bacteria-and-antibacterial-medications/metronidazole-and-tinidazole",
+     "section": "Adverse Effects — Disulfiram-like reaction",
+     "source_date": "Last updated May 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Disulfiram-like reaction (flushing, headache, nausea, vomiting) may occur if alcohol is ingested within 3 days of use."
+    },
+    {
+     "title": "Metronidazole",
+     "publisher": "MedlinePlus (U.S. National Library of Medicine)",
+     "url": "https://medlineplus.gov/druginfo/meds/a689011.html",
+     "section": "Special precautions — alcohol/propylene glycol",
+     "source_date": "Last Revised 08/15/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Do not drink alcoholic beverages or take products with alcohol or propylene glycol while taking this medication and for at least 3 days after your final dose; may cause nausea, vomiting, cramps, headache, sweating, flushing."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-605d8bdb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck metronidazole + MedlinePlus dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B62-WAVE53",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0079",
+   "format": "matrix_multiple_choice",
+   "specialty": "Pharmacology",
+   "topic": "NGN matrix — metronidazole alcohol-avoidance teaching indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "metronidazole-alcohol-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PPT",
+    "metronidazole",
+    "alcohol"
+   ],
+   "stem": "For a client taking metronidazole, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Avoid alcoholic beverages during therapy"
+     },
+     {
+      "key": "R2",
+      "text": "Continue avoiding alcohol for at least 3 days after the last dose"
+     },
+     {
+      "key": "R3",
+      "text": "Avoid products that contain alcohol or propylene glycol (e.g., some liquid medications) during the same period"
+     },
+     {
+      "key": "R4",
+      "text": "Drink wine nightly to ‘potentiate’ the antibiotic"
+     },
+     {
+      "key": "R5",
+      "text": "Resume alcohol the same night as the final dose because the risk ends immediately"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Alcohol can trigger a disulfiram-like reaction (Merck/MedlinePlus).",
+    "R2": "Indicated. Continue avoidance ≥3 days after last dose.",
+    "R3": "Indicated. MedlinePlus includes alcohol/propylene glycol–containing products.",
+    "R4": "Not indicated. Alcohol increases risk of adverse reaction.",
+    "R5": "Not indicated. Risk window continues for at least 3 days after the final dose."
+   },
+   "sources": [
+    {
+     "title": "Metronidazole and Tinidazole",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/bacteria-and-antibacterial-medications/metronidazole-and-tinidazole",
+     "section": "Adverse Effects — Disulfiram-like reaction",
+     "source_date": "Last updated May 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Disulfiram-like reaction if alcohol ingested within 3 days of use."
+    },
+    {
+     "title": "Metronidazole",
+     "publisher": "MedlinePlus (U.S. National Library of Medicine)",
+     "url": "https://medlineplus.gov/druginfo/meds/a689011.html",
+     "section": "Special precautions — alcohol/propylene glycol",
+     "source_date": "Last Revised 08/15/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Avoid alcoholic beverages and alcohol/propylene glycol products during therapy and ≥3 days after final dose."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-605d8bdb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck + MedlinePlus metronidazole matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B62-WAVE53",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0080",
+   "format": "multiple_choice",
+   "specialty": "Pharmacology",
+   "topic": "Alendronate — take with plain water on empty stomach; remain upright ≥30 minutes",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "alendronate-upright-empty-stomach",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "PPT",
+    "alendronate",
+    "bisphosphonate",
+    "osteoporosis",
+    "NGN-partner"
+   ],
+   "stem": "Which teaching is essential for a client starting oral alendronate for osteoporosis?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Take with a full glass of plain water on an empty stomach in the morning, and remain sitting or standing upright for at least 30 minutes before lying down or taking other food/medications"
+    },
+    {
+     "key": "B",
+     "text": "Take with milk at bedtime and lie flat immediately to improve absorption"
+    },
+    {
+     "key": "C",
+     "text": "Crush the tablet into orange juice and take with breakfast"
+    },
+    {
+     "key": "D",
+     "text": "Take only with coffee to enhance bone uptake"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: take with 6–8 oz water and sit/stand ≥30 minutes to prevent esophageal irritation. MedlinePlus: morning empty stomach; do not lie down for ≥30 minutes; swallow tablet with plain water only (not tea/coffee/juice/milk).",
+    "B": "Incorrect. Bedtime/lying flat and milk increase esophageal risk and impair absorption.",
+    "C": "Incorrect. Do not crush into juice; take whole with plain water before food.",
+    "D": "Incorrect. Coffee is not an appropriate liquid vehicle."
+   },
+   "sources": [
+    {
+     "title": "27.3 Calcium Preparations, Vitamin D, Bisphosphonates, Calcimimetics, and Peptide Hormones",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/27-3-calcium-preparations-vitamin-d-bisphosphonates-calcimimetics-and-peptide-hormones",
+     "section": "Alendronate",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Take with 6–8 ounces of water; sit/stand for at least 30 minutes after administration to prevent esophageal irritation; contraindicated if unable to stand/sit upright for 30 minutes."
+    },
+    {
+     "title": "Alendronate",
+     "publisher": "MedlinePlus (U.S. National Library of Medicine)",
+     "url": "https://medlineplus.gov/druginfo/meds/a601011.html",
+     "section": "How should this medicine be used? — upright 30 minutes",
+     "source_date": "Last Revised 05/15/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Take just after getting out of bed, before food/drink; do not lie down ≥30 minutes; sit/stand upright until ≥30 minutes have passed and first food eaten; swallow tablet with full glass of plain water only."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-605d8bdb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Pharm alendronate + MedlinePlus dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B62-WAVE53",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0081",
+   "format": "drop_down_cloze",
+   "specialty": "Pharmacology",
+   "topic": "NGN cloze — alendronate morning plain water and upright ≥30 minutes",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "alendronate-upright-ngn-cloze",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "cloze",
+    "PPT",
+    "alendronate",
+    "bisphosphonate"
+   ],
+   "stem": "Complete the teaching about safe oral alendronate administration.",
+   "ngn": {
+    "template": "Take alendronate in the {B1} with {B2}, then remain {B3} for at least {B4} before lying down or taking other oral products.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "morning on an empty stomach"
+      },
+      {
+       "key": "B1b",
+       "text": "evening with a heavy meal"
+      },
+      {
+       "key": "B1c",
+       "text": "middle of the night while still in bed"
+      },
+      {
+       "key": "B1d",
+       "text": "anytime with milk"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "a full glass of plain water"
+      },
+      {
+       "key": "B2b",
+       "text": "coffee or juice"
+      },
+      {
+       "key": "B2c",
+       "text": "milk or mineral water"
+      },
+      {
+       "key": "B2d",
+       "text": "no liquid at all"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "upright (sitting or standing)"
+      },
+      {
+       "key": "B3b",
+       "text": "flat in bed"
+      },
+      {
+       "key": "B3c",
+       "text": "head-down Trendelenburg"
+      },
+      {
+       "key": "B3d",
+       "text": "prone face-down"
+      }
+     ],
+     "B4": [
+      {
+       "key": "B4a",
+       "text": "30 minutes"
+      },
+      {
+       "key": "B4b",
+       "text": "30 seconds"
+      },
+      {
+       "key": "B4c",
+       "text": "3 seconds"
+      },
+      {
+       "key": "B4d",
+       "text": "3 days without any food ever"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a",
+    "B4": "B4a"
+   },
+   "rationales": {
+    "B1a": "Correct. Morning empty stomach (MedlinePlus/OpenStax).",
+    "B1b": "Incorrect. Not with evening meals.",
+    "B1c": "Incorrect. Never take before getting out of bed.",
+    "B1d": "Incorrect. Milk impairs absorption and is not the vehicle.",
+    "B2a": "Correct. Plain water 6–8 oz.",
+    "B2b": "Incorrect. Not coffee/juice.",
+    "B2c": "Incorrect. Not milk/mineral water.",
+    "B2d": "Incorrect. Needs a full glass of water.",
+    "B3a": "Correct. Remain upright.",
+    "B3b": "Incorrect. Lying flat increases esophageal risk.",
+    "B3c": "Incorrect. Trendelenburg is not the required upright position after alendronate.",
+    "B3d": "Incorrect. Prone positioning increases esophageal exposure risk and is not indicated.",
+    "B4a": "Correct. At least 30 minutes.",
+    "B4b": "Incorrect. Too short.",
+    "B4c": "Incorrect. Three seconds is far too short to protect the esophagus.",
+    "B4d": "Incorrect. Food after the upright interval is expected."
+   },
+   "sources": [
+    {
+     "title": "27.3 Calcium Preparations, Vitamin D, Bisphosphonates, Calcimimetics, and Peptide Hormones",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/27-3-calcium-preparations-vitamin-d-bisphosphonates-calcimimetics-and-peptide-hormones",
+     "section": "Alendronate",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B1–B4",
+     "evidence": "6–8 oz water; sit/stand ≥30 minutes to prevent esophageal irritation."
+    },
+    {
+     "title": "Alendronate",
+     "publisher": "MedlinePlus (U.S. National Library of Medicine)",
+     "url": "https://medlineplus.gov/druginfo/meds/a601011.html",
+     "section": "Administration instructions",
+     "source_date": "Last Revised 05/15/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "B1–B4",
+     "evidence": "Morning empty stomach; plain water; upright ≥30 minutes; no lying down; no other meds/food for ≥30 minutes."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-605d8bdb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + MedlinePlus alendronate cloze dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B62-WAVE53",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0078",
+   "format": "multiple_choice",
+   "specialty": "Medical-Surgical",
+   "topic": "Phantom limb pain — acknowledge that the pain is real; do not dismiss the sensation",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "phantom-limb-pain-acknowledge",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "BCC",
+    "phantom-limb",
+    "pain",
+    "amputation",
+    "NGN-partner"
+   ],
+   "stem": "After a below-knee amputation, a client reports burning pain in the missing foot. Which nursing response is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Acknowledge that phantom limb pain is a real neuropathic sensation after amputation and assess/manage the pain"
+    },
+    {
+     "key": "B",
+     "text": "Tell the client the pain is imaginary because the foot is gone"
+    },
+    {
+     "key": "C",
+     "text": "Ignore the report because phantom sensations never require treatment"
+    },
+    {
+     "key": "D",
+     "text": "Immediately remove the residual-limb dressing and discard all analgesics as unnecessary"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: phantom pain is caused by misinterpreted signals, but the pain is real. Merck lists phantom limb pain as a neuropathic/deafferentation pain syndrome felt in the region of an amputated body part.",
+    "B": "Incorrect. Dismissing the pain as imaginary is inaccurate and nontherapeutic.",
+    "C": "Incorrect. Phantom pain often requires assessment and management.",
+    "D": "Incorrect. Do not discard needed dressings/analgesics based on misunderstanding of phantom pain."
+   },
+   "sources": [
+    {
+     "title": "7.1 Concepts and Causes of Pain",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/7-1-concepts-and-causes-of-pain",
+     "section": "Neuropathic Pain — phantom pain",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "After amputation, phantom pain is perceived from the missing body part; brain misinterprets signals, but the pain is real; rule out other causes such as infection."
+    },
+    {
+     "title": "Neuropathic Pain",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/pain/neuropathic-pain",
+     "section": "Etiology — phantom limb pain / deafferentation",
+     "source_date": "Last updated Nov 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Phantom limb pain is listed among postsurgical neuropathic syndromes; deafferentation pain felt in the region of an amputated body part."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-605d8bdb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Med-Surg phantom pain real + Merck neuropathic dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B62-WAVE53",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0079",
+   "format": "matrix_multiple_choice",
+   "specialty": "Medical-Surgical",
+   "topic": "NGN matrix — phantom limb pain nursing actions indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "phantom-limb-pain-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "BCC",
+    "phantom-limb",
+    "pain"
+   ],
+   "stem": "For a post-amputation client reporting phantom limb pain, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Validate that phantom limb pain is real and assess pain characteristics"
+     },
+     {
+      "key": "R2",
+      "text": "Evaluate the residual limb for alternative causes such as infection or skin breakdown"
+     },
+     {
+      "key": "R3",
+      "text": "Collaborate on prescribed pain management and supportive measures"
+     },
+     {
+      "key": "R4",
+      "text": "Insist the client stop reporting pain because ‘nothing is there to hurt’"
+     },
+     {
+      "key": "R5",
+      "text": "Refuse all further assessment once the word ‘phantom’ is used"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. OpenStax: pain is real; assess/describe.",
+    "R2": "Indicated. OpenStax: rule out other medical causes such as infection.",
+    "R3": "Indicated. Neuropathic phantom pain warrants management (OpenStax/Merck context).",
+    "R4": "Not indicated. Dismissive and inaccurate.",
+    "R5": "Not indicated. Ongoing assessment remains required."
+   },
+   "sources": [
+    {
+     "title": "7.1 Concepts and Causes of Pain",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/7-1-concepts-and-causes-of-pain",
+     "section": "Neuropathic Pain — phantom pain",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Phantom pain is real; diagnose by exam and ruling out other causes such as infections."
+    },
+    {
+     "title": "Neuropathic Pain",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/pain/neuropathic-pain",
+     "section": "Phantom limb pain as neuropathic/deafferentation pain",
+     "source_date": "Last updated Nov 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Phantom limb pain is a recognized neuropathic pain syndrome after amputation requiring clinical recognition."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-605d8bdb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + Merck phantom limb matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B62-WAVE53",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PA-0080",
+   "format": "multiple_choice",
+   "specialty": "Critical Care/Emergency",
+   "topic": "Chest tube water-seal chamber — continuous bubbling suggests air leak; check connections and notify",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "chest-tube-continuous-bubbling-air-leak",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "PA",
+    "chest-tube",
+    "air-leak",
+    "critical-care",
+    "NGN-partner"
+   ],
+   "stem": "While assessing a closed chest-tube drainage system, the nurse notes continuous bubbling in the water-seal chamber. What is the priority interpretation and action?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Continuous bubbling may indicate an air leak; check the drain/tubing for disconnection, dislodgement, or loose connections, assess the client, and notify the provider if the problem cannot be corrected"
+    },
+    {
+     "key": "B",
+     "text": "Continuous bubbling always means the system is perfectly sealed and needs no further assessment"
+    },
+    {
+     "key": "C",
+     "text": "Ignore bubbling and clamp the chest tube tightly for the remainder of the shift without assessment"
+    },
+    {
+     "key": "D",
+     "text": "Pour oil into the water-seal chamber to stop all bubbling permanently"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Open RN: continuous bubbling in the water-seal chamber may indicate an air leak; check connections/site and notify if uncorrected. RCH: continuous bubbling indicates a large air leak between drain and patient—check disconnection/dislodgement/loose connection, assess, and notify medical staff if not remedied.",
+    "B": "Incorrect. Continuous bubbling is a cue for possible air leak, not assurance of a perfect seal.",
+    "C": "Incorrect. Indiscriminate prolonged clamping without troubleshooting is unsafe.",
+    "D": "Incorrect. Not an appropriate intervention."
+   },
+   "sources": [
+    {
+     "title": "Chapter 6 Manage Chest Tube Drainage Systems",
+     "publisher": "Open RN / Nursing Advanced Skills (NCBI Bookshelf)",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK594490/",
+     "section": "Water seal chamber; continuous bubbling may indicate air leak",
+     "source_date": "Updated 2021",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Tidaling indicates patency; continuous bubbling in the water seal chamber may indicate an air leak; identify/correct external leaks such as loose connections; notify provider if leak cannot be corrected."
+    },
+    {
+     "title": "Nursing guidelines: Chest drain management",
+     "publisher": "The Royal Children's Hospital Melbourne",
+     "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/chest_drain_management/",
+     "section": "Air Leak (bubbling)",
+     "source_date": "Updated October 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Continuous bubbling indicates large air leak between the drain and the patient; check disconnection, dislodgement, loose connection; assess patient; notify medical staff immediately if problem cannot be remedied."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-605d8bdb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Open RN chest tube + RCH chest drain continuous bubbling dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B62-WAVE53",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PA-0081",
+   "format": "bowtie",
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN bowtie — chest-tube water-seal continuous bubbling: air leak; check connections; monitor respiratory status",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "chest-tube-air-leak-ngn-bowtie",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "bowtie",
+    "PA",
+    "chest-tube",
+    "air-leak",
+    "critical-care"
+   ],
+   "stem": "A client with a chest tube has new continuous bubbling in the water-seal chamber. Complete the bowtie: the priority condition, two priority actions, and two parameters to monitor.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Possible air leak in the chest drainage system or between drain and client"
+     },
+     {
+      "key": "K2",
+      "text": "Normal finding that never requires assessment"
+     },
+     {
+      "key": "K3",
+      "text": "Dietary preference for carbonated beverages only"
+     },
+     {
+      "key": "K4",
+      "text": "Resolved otitis media without respiratory issues"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Inspect the insertion site and tubing connections for disconnection, dislodgement, or leaks"
+     },
+     {
+      "key": "A2",
+      "text": "Assess the client’s respiratory status and notify the provider if the leak cannot be corrected"
+     },
+     {
+      "key": "A3",
+      "text": "Ignore the finding and leave the unit for lunch without reporting"
+     },
+     {
+      "key": "A4",
+      "text": "Fill the water-seal chamber with vegetable oil to stop bubbles"
+     },
+     {
+      "key": "A5",
+      "text": "Remove the entire drainage system and leave the tube open to room air indefinitely"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "Presence/degree of bubbling (air leak) and tubing integrity"
+     },
+     {
+      "key": "P2",
+      "text": "Respiratory effort, SpO2/oxygen need, and lung sounds"
+     },
+     {
+      "key": "P3",
+      "text": "Favourite television channel"
+     },
+     {
+      "key": "P4",
+      "text": "Shoe colour preference"
+     },
+     {
+      "key": "P5",
+      "text": "Cafeteria soup of the day"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K1",
+    "actions": [
+     "A1",
+     "A2"
+    ],
+    "parameters": [
+     "P1",
+     "P2"
+    ]
+   },
+   "rationales": {
+    "K1": "Correct. Continuous bubbling suggests possible air leak (Open RN/RCH).",
+    "K2": "Incorrect. Requires assessment/troubleshooting.",
+    "K3": "Incorrect. Unrelated.",
+    "K4": "Incorrect. Unrelated.",
+    "A1": "Correct. Check connections/dislodgement (RCH/Open RN).",
+    "A2": "Correct. Assess client and escalate if uncorrected (RCH/Open RN).",
+    "A3": "Incorrect. Unsafe omission.",
+    "A4": "Incorrect. Not an appropriate intervention.",
+    "A5": "Incorrect. Leaving the system open to air is dangerous.",
+    "P1": "Correct. Monitor air-leak cues and system integrity.",
+    "P2": "Correct. Monitor respiratory status.",
+    "P3": "Incorrect. Irrelevant.",
+    "P4": "Incorrect. Irrelevant.",
+    "P5": "Incorrect. Irrelevant."
+   },
+   "sources": [
+    {
+     "title": "Chapter 6 Manage Chest Tube Drainage Systems",
+     "publisher": "Open RN / Nursing Advanced Skills (NCBI Bookshelf)",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK594490/",
+     "section": "Continuous bubbling / air leak troubleshooting",
+     "source_date": "Updated 2021",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Condition/actions/parameters",
+     "evidence": "Continuous bubbling may indicate air leak; check connections/site; notify if uncorrected; monitor system and client."
+    },
+    {
+     "title": "Nursing guidelines: Chest drain management",
+     "publisher": "The Royal Children's Hospital Melbourne",
+     "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/chest_drain_management/",
+     "section": "Air Leak (bubbling)",
+     "source_date": "Updated October 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Condition/actions/parameters",
+     "evidence": "Continuous bubbling = large air leak; check disconnection/dislodgement/loose connection; assess patient; notify if not remedied."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-605d8bdb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Open RN + RCH chest-tube air-leak bowtie dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B62-WAVE53",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-HPM-0083",
+   "format": "multiple_choice",
+   "specialty": "Maternity/Newborn",
+   "topic": "Newborn ocular prophylaxis — erythromycin 0.5% ointment both eyes soon after birth",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "newborn-erythromycin-ocular-prophylaxis",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "HPM",
+    "newborn",
+    "erythromycin",
+    "ophthalmia",
+    "NGN-partner"
+   ],
+   "stem": "Which action correctly provides prophylaxis against gonococcal ophthalmia neonatorum for a healthy term newborn?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Instill erythromycin 0.5% ophthalmic ointment into both eyes as soon as possible after birth (ideally soon after delivery; ensure within 24 hours if delayed)"
+    },
+    {
+     "key": "B",
+     "text": "Wait until the 2-week well-baby visit to apply any eye ointment"
+    },
+    {
+     "key": "C",
+     "text": "Apply antibiotic ointment to only one eye to ‘test tolerance’"
+    },
+    {
+     "key": "D",
+     "text": "Flush both eyes with undiluted household bleach instead of ointment"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: erythromycin 0.5% ointment in each eye in a single application at birth, as soon as possible after delivery (vaginal or cesarean), with a system to ensure prophylaxis <24 hours if delayed. Merck: topical antimicrobial ointment to both eyes; erythromycin 0.5% recommended in the United States.",
+    "B": "Incorrect. Prophylaxis is given soon after birth, not delayed weeks.",
+    "C": "Incorrect. Both eyes require application.",
+    "D": "Incorrect. Dangerous and not indicated."
+   },
+   "sources": [
+    {
+     "title": "Gonococcal Infections Among Neonates — STI Treatment Guidelines",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/std/treatment-guidelines/gonorrhea-neonates.htm",
+     "section": "Recommended regimen — erythromycin 0.5% ophthalmic ointment",
+     "source_date": "Last Reviewed September 21, 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Erythromycin 0.5% ophthalmic ointment in each eye in a single application at birth; instill into both eyes as soon as possible after delivery; ensure <24 hours if delayed."
+    },
+    {
+     "title": "Initial Evaluation and Preventive Care in the Healthy Term Newborn",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/care-of-newborns-and-infants/initial-evaluation-and-preventive-care-in-the-healthy-term-newborn",
+     "section": "Initial Newborn Care — ocular prophylaxis",
+     "source_date": "Last updated Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Topical antimicrobial ointment to both eyes to prevent gonococcal ophthalmia neonatorum; erythromycin 0.5% ointment recommended in the United States."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-605d8bdb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC gonorrhea neonates + Merck newborn preventive dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B62-WAVE53",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-HPM-0084",
+   "format": "matrix_multiple_choice",
+   "specialty": "Maternity/Newborn",
+   "topic": "NGN matrix — newborn erythromycin ocular prophylaxis actions indicated vs not",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "newborn-erythromycin-ngn-matrix",
+   "jurisdiction": "General (Canada/US concordant)",
+   "tags": [
+    "NGN",
+    "matrix",
+    "HPM",
+    "newborn",
+    "erythromycin"
+   ],
+   "stem": "For routine newborn ocular prophylaxis against gonococcal ophthalmia, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Apply erythromycin 0.5% ophthalmic ointment to both eyes after birth"
+     },
+     {
+      "key": "R2",
+      "text": "Administer as soon as possible after delivery (vaginal or cesarean)"
+     },
+     {
+      "key": "R3",
+      "text": "If delayed from the delivery room, ensure prophylaxis is still given within 24 hours"
+     },
+     {
+      "key": "R4",
+      "text": "Skip ocular prophylaxis indefinitely for all newborns because gonorrhea never causes eye disease"
+     },
+     {
+      "key": "R5",
+      "text": "Apply household disinfectant drops instead of erythromycin ointment"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. CDC/Merck recommend erythromycin 0.5% to both eyes.",
+    "R2": "Indicated. As soon as possible after delivery (CDC).",
+    "R3": "Indicated. CDC: ensure <24 hours if delayed.",
+    "R4": "Not indicated. Ophthalmia neonatorum can threaten vision.",
+    "R5": "Not indicated. Use recommended ophthalmic ointment, not household disinfectant."
+   },
+   "sources": [
+    {
+     "title": "Gonococcal Infections Among Neonates — STI Treatment Guidelines",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/std/treatment-guidelines/gonorrhea-neonates.htm",
+     "section": "Preventing ophthalmia neonatorum / recommended regimen",
+     "source_date": "Last Reviewed September 21, 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Erythromycin 0.5% both eyes ASAP after birth; ensure <24 h if delayed; prevents sight-threatening gonococcal infection."
+    },
+    {
+     "title": "Initial Evaluation and Preventive Care in the Healthy Term Newborn",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/care-of-newborns-and-infants/initial-evaluation-and-preventive-care-in-the-healthy-term-newborn",
+     "section": "Initial Newborn Care — ocular prophylaxis",
+     "source_date": "Last updated Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Topical antimicrobial to both eyes; erythromycin 0.5% recommended in the U.S. to prevent gonococcal ophthalmia neonatorum."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-605d8bdb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC + Merck newborn erythromycin matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B62-WAVE53",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "O. Reg. 799/93 s.1 item 6 + CNO Code of Conduct 6.8",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0103",
+   "format": "multiple_choice",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Ontario — practising nursing while impaired by any substance is professional misconduct",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "ontario-practising-while-impaired",
+   "jurisdiction": "Ontario-specific",
+   "tags": [
+    "MOC",
+    "Ontario",
+    "professional-misconduct",
+    "impaired",
+    "CNO",
+    "NGN-partner"
+   ],
+   "stem": "An Ontario nurse realizes that a recently used substance may be impairing judgment before a scheduled shift. Which statement is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Practising nursing while impaired by any substance is professional misconduct; the nurse must not practise while impaired and should seek help if health affects safe practice"
+    },
+    {
+     "key": "B",
+     "text": "Working impaired is acceptable if the nurse ‘feels fine enough’ to finish charting only"
+    },
+    {
+     "key": "C",
+     "text": "Only illegal substances count; prescribed medications never impair practice"
+    },
+    {
+     "key": "D",
+     "text": "Impairment is solely an employer HR issue and is never a professional-misconduct concern in Ontario"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. O. Reg. 799/93 lists practising while the member’s ability is impaired by any substance as professional misconduct. CNO Code of Conduct 6.8: nurses do not practise when impaired by any substance; 6.7: seek help if health affects safe practice.",
+    "B": "Incorrect. Impairment precludes safe practice regardless of limited tasks.",
+    "C": "Incorrect. Any impairing substance is within the regulation’s scope.",
+    "D": "Incorrect. It is defined professional misconduct under Ontario regulation and CNO standards."
+   },
+   "sources": [
+    {
+     "title": "O. Reg. 799/93 Professional Misconduct",
+     "publisher": "Government of Ontario — e-Laws",
+     "url": "https://www.ontario.ca/laws/regulation/930799",
+     "section": "s. 1 item 6",
+     "source_date": "Current consolidation accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Practising the profession while the member’s ability to do so is impaired by any substance is professional misconduct."
+    },
+    {
+     "title": "Code of Conduct",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/49040_code-of-conduct.pdf",
+     "section": "Principle 6 — 6.7 / 6.8",
+     "source_date": "Updated March 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "6.7 Nurses self-reflect on health and seek help if their health affects their ability to practice safely. 6.8 Nurses do not practice when impaired by any substance."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-605d8bdb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "O.Reg 799/93 item 6 + CNO Code 6.8 dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B62-WAVE53",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "O. Reg. 799/93 s.1 item 6 + CNO Code of Conduct 6.7–6.8",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0104",
+   "format": "drop_down_cloze",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "NGN cloze — Ontario: do not practise while impaired; seek help if health affects safety",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ontario-impaired-practice-ngn-cloze",
+   "jurisdiction": "Ontario-specific",
+   "tags": [
+    "NGN",
+    "cloze",
+    "MOC",
+    "Ontario",
+    "impaired",
+    "CNO"
+   ],
+   "stem": "Complete the Ontario professional-practice teaching about impairment and safe practice.",
+   "ngn": {
+    "template": "Under Ontario regulation, practising while {B1} is professional misconduct. Per CNO’s Code of Conduct, nurses {B2} when impaired by any substance and should {B3} if their health affects safe practice.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "impaired by any substance"
+      },
+      {
+       "key": "B1b",
+       "text": "well-rested and fully competent"
+      },
+      {
+       "key": "B1c",
+       "text": "documenting accurately"
+      },
+      {
+       "key": "B1d",
+       "text": "using a medical interpreter"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "do not practise"
+      },
+      {
+       "key": "B2b",
+       "text": "must continue working no matter what"
+      },
+      {
+       "key": "B2c",
+       "text": "may practise if no one notices"
+      },
+      {
+       "key": "B2d",
+       "text": "should increase their caseload"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "seek help"
+      },
+      {
+       "key": "B3b",
+       "text": "hide symptoms from everyone forever"
+      },
+      {
+       "key": "B3c",
+       "text": "double their stimulant intake and keep working"
+      },
+      {
+       "key": "B3d",
+       "text": "ignore all health concerns"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a"
+   },
+   "rationales": {
+    "B1a": "Correct. O. Reg. 799/93 item 6.",
+    "B1b": "Incorrect. Opposite of misconduct definition.",
+    "B1c": "Incorrect. Documentation is not the impairment clause.",
+    "B1d": "Incorrect. Interpreter use is unrelated.",
+    "B2a": "Correct. CNO Code 6.8.",
+    "B2b": "Incorrect. Must not practise impaired.",
+    "B2c": "Incorrect. Misconduct does not depend on being noticed.",
+    "B2d": "Incorrect. Increasing caseload while impaired increases client risk.",
+    "B3a": "Correct. CNO Code 6.7 seek help if health affects safe practice.",
+    "B3b": "Incorrect. Hiding health issues that affect safety is inconsistent with CNO expectations.",
+    "B3c": "Incorrect. Stimulants do not authorize impaired practice and may worsen risk.",
+    "B3d": "Incorrect. Ignoring health concerns that affect safe practice is not acceptable."
+   },
+   "sources": [
+    {
+     "title": "O. Reg. 799/93 Professional Misconduct",
+     "publisher": "Government of Ontario — e-Laws",
+     "url": "https://www.ontario.ca/laws/regulation/930799",
+     "section": "s. 1 item 6",
+     "source_date": "Current consolidation accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "added_by": "author",
+     "supports": "B1",
+     "evidence": "Practising while impaired by any substance is professional misconduct."
+    },
+    {
+     "title": "Code of Conduct",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/49040_code-of-conduct.pdf",
+     "section": "Principle 6 — 6.7 / 6.8",
+     "source_date": "Updated March 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "added_by": "author",
+     "supports": "B2–B3",
+     "evidence": "Do not practise when impaired by any substance; seek help if health affects ability to practise safely."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-605d8bdb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "O.Reg 799/93 item 6 + CNO Code 6.7–6.8 cloze dual-cite."
     }
    ],
    "exam_version_published": null,

@@ -1,9 +1,9 @@
 {
  "generated": "2026-11-25",
- "total_items": 651,
+ "total_items": 665,
  "by_status": {
   "Draft": 0,
-  "Source verified": 651,
+  "Source verified": 665,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -13,7 +13,7 @@
  "by_client_needs_x_status": {
   "MOC": {
    "Draft": 0,
-   "Source verified": 102,
+   "Source verified": 104,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -31,7 +31,7 @@
   },
   "HPM": {
    "Draft": 0,
-   "Source verified": 82,
+   "Source verified": 84,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -40,7 +40,7 @@
   },
   "PSY": {
    "Draft": 0,
-   "Source verified": 76,
+   "Source verified": 78,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -49,7 +49,7 @@
   },
   "BCC": {
    "Draft": 0,
-   "Source verified": 77,
+   "Source verified": 79,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -58,7 +58,7 @@
   },
   "PPT": {
    "Draft": 0,
-   "Source verified": 77,
+   "Source verified": 81,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -76,7 +76,7 @@
   },
   "PA": {
    "Draft": 0,
-   "Source verified": 78,
+   "Source verified": 80,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -100,30 +100,30 @@
  },
  "all_active": {
   "by_format": {
-   "multiple_choice": 427,
-   "matrix_multiple_choice": 96,
-   "drop_down_cloze": 52,
+   "multiple_choice": 434,
+   "matrix_multiple_choice": 100,
+   "drop_down_cloze": 54,
    "select_all_that_apply": 46,
-   "bowtie": 27,
+   "bowtie": 28,
    "ordered_response": 2,
    "calculation": 1
   },
   "by_jurisdiction": {
-   "General (Canada/US concordant)": 560,
-   "Ontario-specific": 61,
+   "General (Canada/US concordant)": 572,
+   "Ontario-specific": 63,
    "Canada-specific": 30
   }
  },
  "excluded_draft_topics": 147,
  "archived_items": 0,
  "source_citations_by_publisher": {
-  "Merck Manual Professional Edition": 339,
+  "Merck Manual Professional Edition": 347,
+  "U.S. Centers for Disease Control and Prevention (CDC)": 114,
   "OpenStax — Fundamentals of Nursing": 113,
-  "U.S. Centers for Disease Control and Prevention (CDC)": 112,
-  "OpenStax — Medical-Surgical Nursing": 109,
+  "OpenStax — Medical-Surgical Nursing": 111,
+  "College of Nurses of Ontario": 73,
   "OpenStax — Psychiatric-Mental Health Nursing": 72,
-  "College of Nurses of Ontario": 71,
-  "OpenStax — Pharmacology for Nurses": 59,
+  "OpenStax — Pharmacology for Nurses": 63,
   "OpenStax — Maternal-Newborn Nursing": 48,
   "OpenStax — Clinical Nursing Skills": 45,
   "MedlinePlus / U.S. National Library of Medicine": 42,
@@ -132,8 +132,8 @@
   "Health Canada / Canada.ca": 20,
   "Agency for Healthcare Research and Quality (AHRQ) — PSNet": 18,
   "Public Health Agency of Canada / Canada.ca": 15,
+  "Government of Ontario — e-Laws": 14,
   "Canadian Paediatric Society — Caring for Kids": 14,
-  "Government of Ontario — e-Laws": 12,
   "World Health Organization": 12,
   "U.S. National Library of Medicine — DailyMed": 9,
   "OpenStax — Population Health for Nurses": 9,
@@ -144,6 +144,7 @@
   "Centers for Disease Control and Prevention": 7,
   "U.S. Occupational Safety and Health Administration (OSHA)": 7,
   "Merck Manual Consumer Version": 6,
+  "MedlinePlus (U.S. National Library of Medicine)": 6,
   "Diabetes Canada": 4,
   "NCSBN / American Nurses Association": 4,
   "Public Health Ontario": 4,
@@ -169,7 +170,6 @@
   "American Heart Association (AHA)": 2,
   "Leeds, Grenville and Lanark District Health Unit (Ontario)": 2,
   "Centers for Disease Control and Prevention (CDC) — Pink Book": 2,
-  "MedlinePlus (U.S. National Library of Medicine)": 2,
   "OpenStax — Pharmacology": 2,
   "North York General Hospital": 2,
   "Transport Canada / Canada.ca": 2,
@@ -177,6 +177,8 @@
   "Thompson Rivers University — Personal Care Skills for Health Care Assistants (Pressbooks)": 2,
   "Canadian Cancer Society": 2,
   "Office on Women's Health (U.S. HHS)": 2,
+  "Open RN / Nursing Advanced Skills (NCBI Bookshelf)": 2,
+  "The Royal Children's Hospital Melbourne": 2,
   "U.S. Centers for Disease Control and Prevention (CDC/HICPAC)": 1,
   "Health Canada Drug Product Database — Sandoz Canada Inc. product monograph": 1,
   "Health Canada Drug Product Database — Taro Pharmaceuticals Inc. product monograph": 1,
