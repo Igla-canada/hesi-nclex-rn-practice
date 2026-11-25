@@ -1,6 +1,6 @@
 # Source verification report — Ontario/Canada question bank
 
-**Updated:** 2026-11-25, ~7:57 AM (America/New_York)
+**Updated:** 2026-11-25, ~8:10 AM (America/New_York)
 **Scope:** Author-level **Source verified** only. Not an independent verifier pass. Not clinical review.
 **Rule:** Every keyed answer and rationale rests on sources fetched in-session; citations were not invented.
 
@@ -10,30 +10,31 @@
 
 | Metric | Count |
 | --- | ---: |
-| Items Source verified | **132** |
+| Items Source verified | **145** |
 | Items with independent verifier `confirmed` | 0 |
 | Items clinically reviewed / approved / published | **0** |
-| Excluded draft topics logged | 44 |
+| Excluded draft topics logged | 48 |
 
 ### Citation publishers (citation instances across items)
 
 | Publisher | Citations |
 | --- | ---: |
-| Merck Manual Professional Edition | 88 |
-| OpenStax — Medical-Surgical Nursing | 39 |
-| OpenStax — Fundamentals of Nursing | 28 |
+| Merck Manual Professional Edition | 95 |
+| OpenStax — Medical-Surgical Nursing | 42 |
+| OpenStax — Fundamentals of Nursing | 31 |
+| College of Nurses of Ontario | 22 |
 | OpenStax — Pharmacology for Nurses | 18 |
-| College of Nurses of Ontario | 16 |
-| U.S. Centers for Disease Control and Prevention (CDC) | 14 |
+| U.S. Centers for Disease Control and Prevention (CDC) | 16 |
 | OpenStax — Psychiatric-Mental Health Nursing | 13 |
 | OpenStax — Clinical Nursing Skills | 10 |
+| Government of Ontario — e-Laws | 7 |
 | Public Health Agency of Canada / Canada.ca | 6 |
-| Government of Ontario — e-Laws | 5 |
+| U.S. National Library of Medicine — DailyMed | 5 |
 | OpenStax — Maternal-Newborn Nursing | 5 |
 | Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC) | 3 |
-| U.S. National Library of Medicine — DailyMed | 3 |
 | Diabetes Canada | 2 |
 | Health Canada Drug Product Database — Pharmascience Inc. product monograph | 2 |
+| NCSBN / American Nurses Association | 2 |
 | Centers for Disease Control and Prevention | 2 |
 | World Health Organization | 2 |
 | U.S. Centers for Disease Control and Prevention (CDC/HICPAC) | 1 |
@@ -41,7 +42,6 @@
 | Health Canada Drug Product Database — Taro Pharmaceuticals Inc. product monograph | 1 |
 | Heart & Stroke — Canadian Stroke Best Practices | 1 |
 | Government of Ontario (e-Laws) | 1 |
-| NCSBN / American Nurses Association | 1 |
 | Public Health Ontario | 1 |
 | Health Canada (Hikma Canada) | 1 |
 | Health Canada / Canada.ca | 1 |
@@ -191,6 +191,20 @@
 | ONRN-SIPC-0017 | B21-WAVE12 | select_all_that_apply | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | yes | high-alert-medication |
 | ONRN-PA-0018 | B21-WAVE12 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | emergency |
 | ONRN-PA-0019 | B21-WAVE12 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | no | lab-range-varies |
+
+| ONRN-MOC-0018 | B22-WAVE13 | multiple_choice | Management of Care | Ontario-specific | 2 | yes | legal-ontario, guideline-version-sensitive |
+| ONRN-MOC-0019 | B22-WAVE13 | multiple_choice | Management of Care | Ontario-specific | 2 | yes | legal-ontario, guideline-version-sensitive |
+| ONRN-MOC-0020 | B22-WAVE13 | multiple_choice | Management of Care | Ontario-specific | 2 | yes | legal-ontario |
+| ONRN-MOC-0021 | B22-WAVE13 | multiple_choice | Management of Care | Ontario-specific | 2 | yes | legal-ontario, guideline-version-sensitive |
+| ONRN-MOC-0022 | B22-WAVE13 | select_all_that_apply | Management of Care | Ontario-specific | 2 | yes | legal-ontario, guideline-version-sensitive |
+| ONRN-MOC-0023 | B22-WAVE13 | multiple_choice | Management of Care | Ontario-specific | 2 | yes | legal-ontario |
+| ONRN-PPT-0022 | B22-WAVE13 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | high-alert-medication, emergency |
+| ONRN-PPT-0023 | B22-WAVE13 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | high-alert-medication |
+| ONRN-PPT-0024 | B22-WAVE13 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | high-alert-medication |
+| ONRN-SIPC-0018 | B22-WAVE13 | multiple_choice | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | yes | pediatric |
+| ONRN-SIPC-0019 | B22-WAVE13 | multiple_choice | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | pediatric |
+| ONRN-PA-0020 | B22-WAVE13 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | lab-range-varies |
+| ONRN-PA-0021 | B22-WAVE13 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | lab-range-varies, high-alert-medication |
 
 ---
 
