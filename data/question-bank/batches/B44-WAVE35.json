@@ -1,0 +1,1576 @@
+{
+ "batch_id": "B44-WAVE35",
+ "author": "AI author (Composer, Cursor subagent bc-af5e2725) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 35 multi-exam depth — Fundamentals/BCC (crutches; ostomy MC + NGN matrix), SIPC/Peds (mumps Droplet 5 days MC + NGN cloze), RRP (NG x-ray; GCS <8; chest-tube one-way), Med-Surg/PA (Cushing SATA; myxedema NGN bowtie), Ontario Professional Practice/Leadership (MAID RN role + conscientious objection), Maternity (phototherapy MC + NGN matrix); dual-cited originals (OpenStax, StatPearls, MedlinePlus, CDC, Merck, NCBI Open RN, CNO).",
+ "items": [
+  {
+   "batch": "B44-WAVE35",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "crutches",
+    "ambulation",
+    "assistive-device",
+    "BCC",
+    "fundamentals"
+   ],
+   "id": "ONRN-BCC-0033",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Fundamentals",
+   "topic": "Axillary crutches — two-finger space under axilla; weight on handgrips not armpits",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "axillary-crutches-two-finger-weight-on-hands",
+   "stem": "The nurse fits axillary crutches for a client with a non-weight-bearing lower extremity injury. Which teaching point is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Keep about two finger widths between the axilla and the crutch pad, and bear weight through the hands on the handgrips"
+    },
+    {
+     "key": "B",
+     "text": "Rest the axilla firmly on the crutch pads so the armpits carry most of the body weight"
+    },
+    {
+     "key": "C",
+     "text": "Adjust the crutches so the pads sit tightly against the armpits with no space"
+    },
+    {
+     "key": "D",
+     "text": "Hold both crutches in one hand and hop without using the handgrips"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: axillary crutch should be two fingers distant between axilla and pad; weight focused on hand grips, not armpits, to prevent axillary nerve damage. StatPearls: shoulder pad about 2 inches (2 finger widths) below axilla; do not rest axilla on shoulder pad (crutch palsy risk).",
+    "B": "Incorrect. Resting weight on the axilla risks brachial plexus/crutch palsy; weight belongs on the hands.",
+    "C": "Incorrect. Both sources require space under the axilla, not a tight fit against the armpit.",
+    "D": "Incorrect. Proper crutch gait uses handgrips with crutches positioned for support."
+   },
+   "sources": [
+    {
+     "title": "9.3 Transferring Patients",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/9-3-transferring-patients",
+     "section": "Crutches",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Two fingers between axilla and pad; weight on hand grips not armpits.",
+     "added_by": "author"
+    },
+    {
+     "title": "Crutches",
+     "publisher": "StatPearls / NCBI Bookshelf",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK539724/",
+     "section": "Preparation / Complications",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Pad 2 finger widths below axilla; do not rest weight on shoulder rest.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-af5e2725) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax CNS crutches fit; StatPearls NBK539724 axillary fit and crutch palsy."
+    }
+   ]
+  },
+  {
+   "batch": "B44-WAVE35",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "ostomy",
+    "stoma",
+    "colostomy",
+    "BCC",
+    "fundamentals"
+   ],
+   "id": "ONRN-BCC-0034",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Fundamentals",
+   "topic": "Ostomy stoma — moist pink/red healthy; purple/black report promptly",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "ostomy-stoma-pink-moist-vs-purple-black",
+   "stem": "During colostomy pouch care, which stoma finding should the nurse report to the provider immediately?",
+   "options": [
+    {
+     "key": "A",
+     "text": "A moist, dark pink to red stoma"
+    },
+    {
+     "key": "B",
+     "text": "A purple or black stoma"
+    },
+    {
+     "key": "C",
+     "text": "Mild postoperative stoma edema that is expected to shrink over weeks"
+    },
+    {
+     "key": "D",
+     "text": "A small amount of mucus on the stoma surface"
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. OpenStax and MedlinePlus describe a healthy stoma as moist and pink or red.",
+    "B": "Correct. OpenStax: bluish, purple, black, or pale stomas should be reported. MedlinePlus: contact the provider if the stoma turns purple, black, or white.",
+    "C": "Incorrect. OpenStax/MedlinePlus note expected postoperative swelling that shrinks over weeks.",
+    "D": "Incorrect. MedlinePlus notes mucus may be seen on a healthy stoma."
+   },
+   "sources": [
+    {
+     "title": "19.7 Ostomy Care",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-7-ostomy-care",
+     "section": "Postoperative Care",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; distractors A,C",
+     "evidence": "Healthy moist dark red/pink; report bluish/purple/black/pale.",
+     "added_by": "author"
+    },
+    {
+     "title": "Ileostomy — caring for your stoma",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000071.htm",
+     "section": "About Your Stoma / When to Call the Doctor",
+     "source_date": "Review Date 4/27/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B; distractors A,D",
+     "evidence": "Pink or red moist; call if purple, black, or white.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-af5e2725) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax MS ostomy postoperative stoma color; MedlinePlus ileostomy stoma care."
+    }
+   ]
+  },
+  {
+   "batch": "B44-WAVE35",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "ostomy",
+    "NGN",
+    "matrix",
+    "BCC",
+    "fundamentals"
+   ],
+   "id": "ONRN-BCC-0035",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Fundamentals",
+   "topic": "NGN matrix — ostomy stoma assessment actions indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "ostomy-stoma-assessment-matrix-wave35",
+   "stem": "A client has a new ileostomy. For each nursing action, specify whether it is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Document that a moist pink-to-red stoma is an expected healthy finding"
+     },
+     {
+      "key": "R2",
+      "text": "Notify the provider promptly if the stoma becomes purple or black"
+     },
+     {
+      "key": "R3",
+      "text": "Reassure the client that a dry, pale stoma is preferred over a moist one"
+     },
+     {
+      "key": "R4",
+      "text": "Ignore peristomal skin redness because leakage never irritates skin"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. OpenStax/MedlinePlus: healthy stoma is moist pink/red.",
+    "R2": "Indicated. Both sources: purple/black color change warrants provider contact.",
+    "R3": "Not indicated. Dry/pale is abnormal and should be reported, not preferred.",
+    "R4": "Not indicated. OpenStax: leakage/adhesive can irritate peristomal skin; breakdown should be addressed/reported."
+   },
+   "sources": [
+    {
+     "title": "19.7 Ostomy Care",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-7-ostomy-care",
+     "section": "Postoperative Care",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "All rows",
+     "evidence": "Moist pink/red healthy; report purple/black/pale; prevent skin breakdown from leakage.",
+     "added_by": "author"
+    },
+    {
+     "title": "Ileostomy — caring for your stoma",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000071.htm",
+     "section": "About Your Stoma / When to Call the Doctor",
+     "source_date": "Review Date 4/27/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "R1–R3",
+     "evidence": "Pink/red moist; call if purple/black/white.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-af5e2725) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + MedlinePlus stoma color and peristomal skin caution."
+    }
+   ]
+  },
+  {
+   "batch": "B44-WAVE35",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric"
+   ],
+   "tags": [
+    "mumps",
+    "droplet",
+    "isolation",
+    "SIPC",
+    "pediatrics"
+   ],
+   "id": "ONRN-SIPC-0036",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Pediatrics",
+   "topic": "Mumps — Droplet + Standard precautions until 5 days after parotitis onset",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "mumps-droplet-precautions-5-days-parotitis",
+   "stem": "An adolescent is admitted with mumps parotitis. Which isolation plan is appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Droplet plus Standard Precautions until 5 days after onset of parotid swelling"
+    },
+    {
+     "key": "B",
+     "text": "Airborne Precautions alone for 24 hours after antibiotics begin"
+    },
+    {
+     "key": "C",
+     "text": "Contact Precautions only, discontinued when fever resolves"
+    },
+    {
+     "key": "D",
+     "text": "No transmission-based precautions because mumps is not contagious after symptoms begin"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC Appendix A: mumps Droplet + Standard until 5 days after onset of swelling. Merck: isolate 5 days from parotitis onset; CDC recommends standard and droplet precautions for 5 days after parotitis onset.",
+    "B": "Incorrect. Mumps is managed with droplet, not airborne-only, precautions; antibiotics are not the keyed duration trigger.",
+    "C": "Incorrect. Contact-only and fever resolution are not the CDC/Merck isolation standard for mumps.",
+    "D": "Incorrect. Contagiousness continues around symptom onset; isolation for 5 days after swelling is required."
+   },
+   "sources": [
+    {
+     "title": "Appendix A: Type and Duration of Precautions",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html",
+     "section": "Mumps (infectious parotitis)",
+     "source_date": "Updated: September 11, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A",
+     "evidence": "Droplet + Standard until 5 days after onset of swelling.",
+     "added_by": "author"
+    },
+    {
+     "title": "Mumps",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/viral-exanthems-in-infants-and-children/mumps",
+     "section": "Treatment / Prevention",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Isolate 5 days at parotitis onset; CDC standard + droplet for 5 days after parotitis.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-af5e2725) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Appendix A mumps row; Merck mumps isolation/droplet 5 days."
+    }
+   ]
+  },
+  {
+   "batch": "B44-WAVE35",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric"
+   ],
+   "tags": [
+    "mumps",
+    "NGN",
+    "cloze",
+    "SIPC",
+    "pediatrics"
+   ],
+   "id": "ONRN-SIPC-0037",
+   "format": "drop_down_cloze",
+   "scoring_model": "zero_one",
+   "specialty": "Pediatrics",
+   "topic": "NGN cloze — mumps transmission precautions and isolation duration",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "mumps-ngn-cloze-droplet-5-days",
+   "stem": "Complete the following for inpatient mumps care.",
+   "ngn": {
+    "template": "Place the client on {B1} Precautions and continue isolation until {B2} after the onset of parotid swelling.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "Airborne"
+      },
+      {
+       "key": "B1b",
+       "text": "Droplet"
+      },
+      {
+       "key": "B1c",
+       "text": "Contact only"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "24 hours"
+      },
+      {
+       "key": "B2b",
+       "text": "5 days"
+      },
+      {
+       "key": "B2c",
+       "text": "21 days"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1b",
+    "B2": "B2b"
+   },
+   "rationales": {
+    "B1a": "Incorrect. Airborne is not the CDC Appendix A precaution type for mumps.",
+    "B1b": "Correct. CDC/Merck: droplet (with Standard) precautions for mumps.",
+    "B1c": "Incorrect. Contact-only is insufficient for mumps droplet transmission.",
+    "B2a": "Incorrect. Duration is 5 days after swelling onset, not 24 hours.",
+    "B2b": "Correct. CDC Appendix A and Merck: isolate until 5 days after onset of swelling/parotitis.",
+    "B2c": "Incorrect. 21 days is not the keyed post-parotitis isolation duration."
+   },
+   "sources": [
+    {
+     "title": "Appendix A: Type and Duration of Precautions",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html",
+     "section": "Mumps (infectious parotitis)",
+     "source_date": "Updated: September 11, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "B1b,B2b",
+     "evidence": "Droplet + Standard; until 5 days after onset of swelling.",
+     "added_by": "author"
+    },
+    {
+     "title": "Mumps",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/viral-exanthems-in-infants-and-children/mumps",
+     "section": "Treatment / Prevention",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "B1b,B2b",
+     "evidence": "Isolate 5 days; standard and respiratory droplet precautions.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-af5e2725) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Appendix A + Merck mumps droplet/5-day isolation for cloze keys."
+    }
+   ]
+  },
+  {
+   "batch": "B44-WAVE35",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "nasogastric",
+    "enteral",
+    "aspiration",
+    "RRP",
+    "fundamentals"
+   ],
+   "id": "ONRN-RRP-0051",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Fundamentals",
+   "topic": "Nasogastric tube — verify placement by x-ray before initial use/feeding",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ng-tube-xray-verify-before-use",
+   "stem": "A nurse has just inserted a nasogastric feeding tube. What is the priority action before initiating the first feeding?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Verify tube placement with x-ray imaging before use"
+    },
+    {
+     "key": "B",
+     "text": "Begin the feeding immediately after feeling resistance during insertion"
+    },
+    {
+     "key": "C",
+     "text": "Rely only on air insufflation (whoosh test) without imaging"
+    },
+    {
+     "key": "D",
+     "text": "Clamp the tube for 24 hours before any verification"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: placement must be verified via x-ray imaging prior to use. Open RN Nursing Advanced Skills: placement must be verified immediately after insertion by an X-ray before use.",
+    "B": "Incorrect. Resistance alone does not confirm gastric placement; feeding into a misplaced tube risks aspiration.",
+    "C": "Incorrect. Open RN: air auscultation (whoosh) is unreliable and should no longer be used to verify placement.",
+    "D": "Incorrect. Verification is needed before use; an arbitrary 24-hour delay without confirmation is unsafe."
+   },
+   "sources": [
+    {
+     "title": "21.3 Specialized Diets",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/21-3-specialized-diets",
+     "section": "Nasogastric and Orogastric Tubes",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Placement must be verified via x-ray imaging prior to use.",
+     "added_by": "author"
+    },
+    {
+     "title": "Chapter 5 Insert Nasogastric and Feeding Tubes",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK594494/",
+     "section": "Verifying NG Tube Placement",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors C",
+     "evidence": "Verify immediately after insertion by X-ray; whoosh test unreliable.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-af5e2725) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Fund NG x-ray prior to use; Open RN NBK594494 X-ray verification."
+    }
+   ]
+  },
+  {
+   "batch": "B44-WAVE35",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "GCS",
+    "neurologic",
+    "RRP",
+    "critical-care"
+   ],
+   "id": "ONRN-RRP-0052",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Critical Care/Emergency",
+   "topic": "Glasgow Coma Scale — combined score < 8 typically indicates coma",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "gcs-combined-score-less-than-8-coma",
+   "stem": "When interpreting the Glasgow Coma Scale (GCS) after head trauma, which statement is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "A combined score less than 8 is typically regarded as coma"
+    },
+    {
+     "key": "B",
+     "text": "The highest possible combined GCS score is 8"
+    },
+    {
+     "key": "C",
+     "text": "GCS scores are based only on pupil size, not eye/verbal/motor responses"
+    },
+    {
+     "key": "D",
+     "text": "A score of 15 always means the client requires immediate intubation"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: combined scores < 8 are typically regarded as coma. OpenStax: GCS score lower than 8 indicates problems with consciousness / monitor for increased ICP.",
+    "B": "Incorrect. OpenStax: highest possible GCS score is 15.",
+    "C": "Incorrect. Both sources describe eye opening, verbal, and motor response components.",
+    "D": "Incorrect. 15 is the maximum (least impaired) score; it does not itself mandate intubation."
+   },
+   "sources": [
+    {
+     "title": "Overview of Coma and Impaired Consciousness",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/coma-and-impaired-consciousness/overview-of-coma-and-impaired-consciousness",
+     "section": "Neurologic examination / Glasgow Coma Scale table",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractors C",
+     "evidence": "Combined scores < 8 typically regarded as coma; eye/verbal/motor points.",
+     "added_by": "author"
+    },
+    {
+     "title": "17.1 Intracranial Pressure Changes",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/17-1-intracranial-pressure-changes",
+     "section": "Assessment and Diagnosis of IICP",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B,C",
+     "evidence": "GCS evaluates motor, eye opening, verbal; score lower than 8 — monitor for IICP.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-af5e2725) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck GCS table <8 coma; OpenStax ICP GCS components and <8."
+    }
+   ]
+  },
+  {
+   "batch": "B44-WAVE35",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "cushing",
+    "endocrine",
+    "SATA",
+    "PA",
+    "med-surg"
+   ],
+   "id": "ONRN-PA-0072",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "specialty": "Medical-Surgical",
+   "topic": "Cushing syndrome cues SATA — moon face, buffalo hump, truncal obesity, striae",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cushing-moon-face-buffalo-hump-striae-sata",
+   "stem": "Which findings are characteristic of Cushing syndrome? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Facial rounding (moon face)"
+    },
+    {
+     "key": "B",
+     "text": "Dorsal cervical fat pad (buffalo hump) with truncal obesity"
+    },
+    {
+     "key": "C",
+     "text": "Purplish abdominal striae"
+    },
+    {
+     "key": "D",
+     "text": "Diffuse bronze hyperpigmentation as the only expected skin change from primary adrenal failure"
+    },
+    {
+     "key": "E",
+     "text": "Central obesity with relatively slender extremities"
+    },
+    {
+     "key": "F",
+     "text": "Acute hypothermia with areflexia as the defining presentation"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. Merck and OpenStax describe moon face / facial rounding.",
+    "B": "Correct. Merck: truncal obesity with dorsal cervical fat pads (buffalo hump). OpenStax: fatty deposits between the shoulders (buffalo hump).",
+    "C": "Correct. Merck lists striae; OpenStax notes purplish striae.",
+    "D": "Incorrect. Bronze hyperpigmentation is classic for primary adrenal insufficiency (Addison), not Cushing.",
+    "E": "Correct. Merck: truncal obesity with slender distal extremities; OpenStax: central obesity with thin extremities.",
+    "F": "Incorrect. Extreme hypothermia with areflexia describes myxedema coma, not Cushing."
+   },
+   "sources": [
+    {
+     "title": "Cushing Syndrome",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/adrenal-disorders/cushing-syndrome",
+     "section": "Symptoms and Signs of Cushing Syndrome",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "A,B,C,E",
+     "evidence": "Moon face; truncal obesity; buffalo hump; striae; slender extremities.",
+     "added_by": "author"
+    },
+    {
+     "title": "21.5 Adrenal Disorders",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-5-adrenal-disorders",
+     "section": "Cushing’s Syndrome — Recognizing Cues",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "A,B,C,E",
+     "evidence": "Moon face; buffalo hump; purplish striae; central obesity; thin extremities.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-af5e2725) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Cushing signs; OpenStax adrenal Cushing cues."
+    }
+   ]
+  },
+  {
+   "batch": "B44-WAVE35",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "Doses cited from Merck for clinician review context; item keys actions/parameters, not a calculation.",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency",
+    "high-alert-medication"
+   ],
+   "tags": [
+    "myxedema",
+    "thyroid",
+    "NGN",
+    "bowtie",
+    "PA",
+    "critical-care"
+   ],
+   "id": "ONRN-PA-0073",
+   "format": "bowtie",
+   "scoring_model": "zero_one",
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN bowtie — myxedema coma: IV thyroid hormone + glucocorticoids; hypothermia/respiratory depression",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "myxedema-coma-bowtie-iv-t4-glucocorticoids",
+   "stem": "A client with long-standing hypothyroidism presents unresponsive with severe hypothermia and hypoventilation. Complete the bowtie: most likely condition, two priority actions, and two parameters to monitor.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Thyroid storm"
+     },
+     {
+      "key": "K2",
+      "text": "Myxedema coma"
+     },
+     {
+      "key": "K3",
+      "text": "Adrenal crisis from abrupt steroid withdrawal only"
+     },
+     {
+      "key": "K4",
+      "text": "Serotonin syndrome"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Administer intravenous thyroid hormone (T4/T3) as ordered"
+     },
+     {
+      "key": "A2",
+      "text": "Give glucocorticoids as ordered while adrenal insufficiency is not yet excluded"
+     },
+     {
+      "key": "A3",
+      "text": "Rapidly rewarm with aggressive external heating to reverse hypotension"
+     },
+     {
+      "key": "A4",
+      "text": "Start high-dose oral methimazole immediately as first-line therapy"
+     },
+     {
+      "key": "A5",
+      "text": "Encourage ambulation without airway or temperature support"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "Core temperature (avoid missing severe hypothermia)"
+     },
+     {
+      "key": "P2",
+      "text": "Airway/ventilation and PaO2 / respiratory status"
+     },
+     {
+      "key": "P3",
+      "text": "Serial peak flow only as the sole monitoring plan"
+     },
+     {
+      "key": "P4",
+      "text": "Orthostatic blood pressure after sprint exercise"
+     },
+     {
+      "key": "P5",
+      "text": "Urine specific gravity every minute without respiratory assessment"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K2",
+    "actions": [
+     "A1",
+     "A2"
+    ],
+    "parameters": [
+     "P1",
+     "P2"
+    ]
+   },
+   "rationales": {
+    "K1": "Incorrect. Thyroid storm is a hyperthyroid emergency (hyperthermia/tachycardia), not hypothyroid coma.",
+    "K2": "Correct. Merck/OpenStax: myxedema coma — life-threatening hypothyroidism with hypothermia, altered mentation, respiratory depression.",
+    "K3": "Incorrect. While glucocorticoids are given because adrenal insufficiency cannot be excluded, the presentation described is myxedema coma.",
+    "K4": "Incorrect. Serotonin syndrome is a toxidrome unrelated to this hypothyroid picture.",
+    "A1": "Correct. Merck: treat with IV T4 (or T3); OpenStax: intravenous thyroid hormone replacement.",
+    "A2": "Correct. Merck: glucocorticoids given because central hypothyroidism/adrenal insufficiency often cannot be initially excluded.",
+    "A3": "Incorrect. Merck: do not rewarm rapidly — may precipitate hypotension or arrhythmias.",
+    "A4": "Incorrect. Methimazole treats hyperthyroidism/thyroid storm, not myxedema coma.",
+    "A5": "Incorrect. Supportive airway/temperature care is required; ambulation is not priority.",
+    "P1": "Correct. Extreme hypothermia is characteristic; low-reading thermometers may be needed (Merck).",
+    "P2": "Correct. Respiratory depression/CO2 retention and hypoxemia require ventilation/PaO2 monitoring (Merck/OpenStax).",
+    "P3": "Incorrect. Peak flow alone does not address hypothermia/coma monitoring needs.",
+    "P4": "Incorrect. Not a priority parameter in unresponsive hypothermic myxedema coma.",
+    "P5": "Incorrect. Omits essential respiratory assessment."
+   },
+   "sources": [
+    {
+     "title": "Hypothyroidism",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/thyroid-disorders/hypothyroidism",
+     "section": "Myxedema coma (signs and treatment)",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Condition K2; actions A1–A2; parameters P1–P2",
+     "evidence": "Hypothermia/coma/respiratory depression; IV T4 + glucocorticoids; avoid rapid rewarming.",
+     "added_by": "author"
+    },
+    {
+     "title": "21.3 Thyroid and Parathyroid Disorders",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-3-thyroid-and-parathyroid-disorders",
+     "section": "Prioritizing Hypotheses… myxedema coma",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Condition K2; action A1; parameter P2",
+     "evidence": "Monitor hypothermia, bradycardia, respiratory depression; IV thyroid replacement; ICU care.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-af5e2725) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck myxedema coma Rx IV T4+glucocorticoids; OpenStax thyroid myxedema monitoring/IV replacement."
+    }
+   ]
+  },
+  {
+   "batch": "B44-WAVE35",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "chest-tube",
+    "pneumothorax",
+    "RRP",
+    "critical-care"
+   ],
+   "id": "ONRN-RRP-0053",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Critical Care/Emergency",
+   "topic": "Chest tube drainage — one-way system so air/fluid leave but cannot re-enter pleural space",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Understanding",
+   "enemy_group": "chest-tube-one-way-drainage-device",
+   "stem": "A client has a chest tube connected to a specialized drainage device after pneumothorax. What is the primary purpose of this drainage system design?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Allow air and fluid to leave the pleural space while preventing room air from flowing back in (one-way drainage)"
+    },
+    {
+     "key": "B",
+     "text": "Force room air into the pleural space to reinflate the lung"
+    },
+    {
+     "key": "C",
+     "text": "Replace the need for any occlusive dressing if the tube becomes dislodged"
+    },
+    {
+     "key": "D",
+     "text": "Eliminate the need to monitor respiratory status after insertion"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: drainage devices are designed for one-way drainage so air/fluids flow out but nothing flows back in. Merck: ambulatory devices connect to a one-way valve (e.g., Heimlich valve).",
+    "B": "Incorrect. Re-entry of air into the pleural space would worsen pneumothorax.",
+    "C": "Incorrect. OpenStax separately notes three-sided occlusive dressing readiness if a chest tube becomes dislodged; the canister design does not replace that emergency action.",
+    "D": "Incorrect. Respiratory monitoring remains essential while a chest tube is in place."
+   },
+   "sources": [
+    {
+     "title": "11.6 Disorders of the Lower Respiratory System: Pneumothorax",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/11-6-disorders-of-the-lower-respiratory-system-pneumothorax",
+     "section": "Medical Therapies and Related Care",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Specialized drainage device one-way: air/fluids out, nothing back in.",
+     "added_by": "author"
+    },
+    {
+     "title": "Pneumothorax",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pulmonary-disorders/mediastinal-and-pleural-disorders/pneumothorax",
+     "section": "Treatment of Pneumothorax",
+     "source_date": "Last updated: Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "Drainage device connected to a one-way valve (e.g., Heimlich valve).",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-af5e2725) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax pneumothorax one-way drainage; Merck Heimlich/one-way valve."
+    }
+   ]
+  },
+  {
+   "batch": "B44-WAVE35",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CNO guidance and Canadian federal MAID framework; RNs/RPNs support but only NP/physician may administer MAID medications.",
+   "jurisdiction": "Ontario-specific",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario",
+    "single-source"
+   ],
+   "tags": [
+    "MAID",
+    "CNO",
+    "Ontario",
+    "MOC",
+    "professional-practice"
+   ],
+   "id": "ONRN-MOC-0069",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Ontario MAID — RN/RPN may support care but cannot administer MAID medications",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ontario-maid-rn-cannot-administer-medications",
+   "stem": "An Ontario RN is assisting a nurse practitioner who is providing medical assistance in dying (MAID). Which action is within the RN’s legal role?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Insert an intravenous line with an order for later use by the NP/physician administering MAID medications"
+    },
+    {
+     "key": "B",
+     "text": "Personally administer the medications that will cause the client’s death"
+    },
+    {
+     "key": "C",
+     "text": "Independently determine MAID eligibility and write the MAID medication order"
+    },
+    {
+     "key": "D",
+     "text": "Pressure the client to choose MAID to free a hospital bed"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO: RNs/RPNs may assist by activities such as inserting an IV line (with an order) that will be used to administer MAID medications; only NPs and physicians may administer those medications.",
+    "B": "Incorrect. CNO: only NPs and physicians may administer medications to cause death for practitioner-assisted MAID; RNs/RPNs are not permitted to administer them.",
+    "C": "Incorrect. Eligibility assessment/administration authority is limited to NPs and physicians.",
+    "D": "Incorrect. CNO: nurses giving information must not encourage or pressure the client to choose MAID."
+   },
+   "sources": [
+    {
+     "title": "Guidance on Nurses’ Roles in Medical Assistance in Dying",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41056-guidance-on-nurses-roles-in-maid.pdf",
+     "section": "General nursing accountabilities",
+     "source_date": "Updated June 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A; distractors B–D",
+     "evidence": "RN/RPN may insert IV with order; only NP/physician administer MAID meds; no pressure.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-af5e2725) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO MAID guidance June 2025 — single regulatory authority; flagged single-source."
+    }
+   ]
+  },
+  {
+   "batch": "B44-WAVE35",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CNO conscientious objection rules for MAID participation.",
+   "jurisdiction": "Ontario-specific",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario",
+    "single-source"
+   ],
+   "tags": [
+    "MAID",
+    "conscientious-objection",
+    "CNO",
+    "MOC",
+    "leadership"
+   ],
+   "id": "ONRN-MOC-0070",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Leadership/Management",
+   "topic": "Ontario MAID conscientious objection — transfer care; continue unrelated care; do not convey objection to client",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ontario-maid-conscientious-objection-transfer-care",
+   "stem": "An Ontario nurse conscientiously objects to participating in MAID for an assigned client. What is the correct next action?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Transfer care to another appropriate provider and continue other nursing care unrelated to MAID until replacement is arranged, without expressing moral judgment to the client"
+    },
+    {
+     "key": "B",
+     "text": "Tell the client that choosing MAID is morally wrong and refuse all care immediately"
+    },
+    {
+     "key": "C",
+     "text": "Abandon the client without arranging alternate care"
+    },
+    {
+     "key": "D",
+     "text": "Administer the MAID medications personally despite the objection"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO: conscientious objection must not be directly conveyed to the patient; transfer care to another nurse/provider; continue other nursing care unrelated to MAID until a replacement is found.",
+    "B": "Incorrect. Objection must not be conveyed; moral judgments about the client must not be expressed; unrelated care continues until transfer.",
+    "C": "Incorrect. Care must be transferred appropriately; abandonment is not permitted.",
+    "D": "Incorrect. Objection means the nurse does not provide/assist MAID activities; administration is also outside RN authority."
+   },
+   "sources": [
+    {
+     "title": "Guidance on Nurses’ Roles in Medical Assistance in Dying",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41056-guidance-on-nurses-roles-in-maid.pdf",
+     "section": "Conscientious objection",
+     "source_date": "Updated June 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Do not convey objection; transfer care; continue unrelated care until replacement.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-af5e2725) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO MAID conscientious objection section — single-source flagged."
+    }
+   ]
+  },
+  {
+   "batch": "B44-WAVE35",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn",
+    "pediatric"
+   ],
+   "tags": [
+    "phototherapy",
+    "jaundice",
+    "newborn",
+    "HPM",
+    "maternity"
+   ],
+   "id": "ONRN-HPM-0058",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Maternity/Newborn",
+   "topic": "Neonatal phototherapy — diaper only + eye protection; monitor temperature",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "neonatal-phototherapy-diaper-eye-shields-temp",
+   "stem": "The nurse prepares a term newborn for overhead phototherapy for hyperbilirubinemia. Which action is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Place the infant under the lights wearing only a diaper with eye patches/mask in place, and monitor temperature frequently"
+    },
+    {
+     "key": "B",
+     "text": "Dress the infant in a heavy sleeper and leave the eyes uncovered for bonding under the lights"
+    },
+    {
+     "key": "C",
+     "text": "Cover the infant completely with blankets so no skin is exposed to the light"
+    },
+    {
+     "key": "D",
+     "text": "Skip temperature checks because phototherapy cannot affect body temperature"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: infant wears only a diaper and eye patches; monitor temperature every 2 hours because phototherapy can elevate temperature. Open RN: usually only a diaper; patches/mask protect eyes; monitor temperature frequently for overheating.",
+    "B": "Incorrect. Clothing blocks light exposure; eyes require protection under phototherapy lights.",
+    "C": "Incorrect. Maximal safe skin exposure (with genital/eye protection) is needed for effective phototherapy.",
+    "D": "Incorrect. Both sources require temperature monitoring because of overheating risk."
+   },
+   "sources": [
+    {
+     "title": "24.2 Care of Common Problems in the Newborn",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/24-2-care-of-common-problems-in-the-newborn",
+     "section": "Nursing Care Plan for the Jaundiced Newborn",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Diaper + eye patches; monitor temperature q2h; phototherapy can elevate temperature.",
+     "added_by": "author"
+    },
+    {
+     "title": "HEALTHY NEWBORN CARE — Nursing Health Promotion",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK615345/",
+     "section": "12.3 Hyperbilirubinemia and Jaundice — phototherapy",
+     "source_date": "2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Diaper only; eye patches/mask; monitor temperature for overheating.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-af5e2725) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax MN phototherapy care; Open RN NBK615345 phototherapy diaper/eye/temp."
+    }
+   ]
+  },
+  {
+   "batch": "B44-WAVE35",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn",
+    "pediatric"
+   ],
+   "tags": [
+    "phototherapy",
+    "NGN",
+    "matrix",
+    "HPM",
+    "maternity"
+   ],
+   "id": "ONRN-HPM-0059",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Maternity/Newborn",
+   "topic": "NGN matrix — phototherapy safety actions indicated vs not",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "phototherapy-safety-matrix-wave35",
+   "stem": "A newborn is receiving overhead phototherapy. For each action, specify Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Keep eye patches or an opaque eye mask in place while under the lights"
+     },
+     {
+      "key": "R2",
+      "text": "Expose maximal skin by using only a diaper (genital coverage)"
+     },
+     {
+      "key": "R3",
+      "text": "Monitor temperature frequently for overheating"
+     },
+     {
+      "key": "R4",
+      "text": "Leave the eyes uncovered continuously under the lights to promote bonding"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. OpenStax/Open RN: eye patches/mask protect eyes during phototherapy.",
+    "R2": "Indicated. Both sources: diaper only to maximize skin exposure.",
+    "R3": "Indicated. Both sources: monitor temperature; phototherapy can overheat the infant.",
+    "R4": "Not indicated. Eyes must be protected while under the lights; uncovering for feeding/assessment is timed, not continuous under lights."
+   },
+   "sources": [
+    {
+     "title": "24.2 Care of Common Problems in the Newborn",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/24-2-care-of-common-problems-in-the-newborn",
+     "section": "Nursing Care Plan for the Jaundiced Newborn",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "All rows",
+     "evidence": "Diaper + eye patches; temperature monitoring q2h.",
+     "added_by": "author"
+    },
+    {
+     "title": "HEALTHY NEWBORN CARE — Nursing Health Promotion",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK615345/",
+     "section": "12.3 phototherapy nursing care",
+     "source_date": "2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "All rows",
+     "evidence": "Diaper only; eye mask/patches; monitor temperature for overheating.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-af5e2725) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax MN + Open RN phototherapy safety matrix dual-cite."
+    }
+   ]
+  }
+ ],
+ "excluded_items": [
+  {
+   "draft_topic": "Standard walker step-into gait teaching",
+   "reason": "OpenStax CNS states step-into technique, but Open RN mobility chapter lacked matching gait-step detail for a second independent publisher."
+  },
+  {
+   "draft_topic": "Ostomy pouch empty at one-third to one-half full",
+   "reason": "Clear numeric empty threshold found in OpenStax QSEN steps; MedlinePlus only says empty several times daily without the 1/3–1/2 rule — excluded for dual-cite gap."
+  },
+  {
+   "draft_topic": "Chest tube dislodged three-sided occlusive dressing sequence",
+   "reason": "OpenStax pneumothorax chapter supports three-sided dressing; Merck pneumothorax page emphasizes one-way valves/tube thoracostomy without the three-sided dressing checklist — redirected to one-way drainage item."
+  }
+ ],
+ "notes": "Prefer underrepresented specialties (Fundamentals, Professional Practice, Maternity, Pediatrics) and thinner CN (BCC, SIPC) plus NGN matrix/cloze/bowtie. Keep import script Prisma.InputJsonValue casts unchanged. Approved/clinically reviewed remain 0."
+}

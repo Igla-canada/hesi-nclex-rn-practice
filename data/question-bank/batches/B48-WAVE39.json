@@ -1,0 +1,1628 @@
+{
+ "batch_id": "B48-WAVE39",
+ "author": "AI author (Composer, Cursor subagent bc-89443898) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 39 multi-exam depth — BCC (cane height MC+matrix; cane stairs MC+cloze; heating pad never-sleep MC+matrix), SIPC (blood spill PPE/clean/disinfect MC+matrix; N95 user seal check each donning MC+cloze), PSY (open-ended therapeutic communication MC+matrix; acute anxiety bowtie), Ontario Professional Practice (no client PHI/photos on social media). Dual-cited originals (MedlinePlus, AAOS, Mayo, CDC, PHO, Simcoe Muskoka Health Unit, NIOSH, OSHA, OpenStax, Merck, CNO, PHIPA guide).",
+ "items": [
+  {
+   "batch": "B48-WAVE39",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0049",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "Cane fitting — handle at wrist crease; elbow slightly bent",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "cane-height-wrist-crease-elbow-slightly-bent",
+   "tags": [
+    "cane",
+    "mobility",
+    "BCC",
+    "fundamentals",
+    "assistive-device"
+   ],
+   "stem": "The nurse fits a single-point cane for a client with left-leg weakness. Which fitting instruction is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "With the client standing upright, the cane handle should be at the crease of the wrist and the elbow slightly bent when holding the handle"
+    },
+    {
+     "key": "B",
+     "text": "Set the handle at shoulder height so the elbow is locked straight"
+    },
+    {
+     "key": "C",
+     "text": "Set the handle below the knee so the client must lean far forward"
+    },
+    {
+     "key": "D",
+     "text": "Ignore height and teach the client to hold the cane on the same side as the weak leg"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. MedlinePlus: handle at wrist level; elbow slightly bent. AAOS: top of cane reaches wrist crease; elbow slightly bent.",
+    "B": "Incorrect. A locked straight elbow at shoulder height is too high and reduces control.",
+    "C": "Incorrect. Too-low setting forces unsafe forward lean.",
+    "D": "Incorrect. Height must be adjusted; cane is held opposite the weak/injured side (already taught separately)."
+   },
+   "sources": [
+    {
+     "title": "Using a cane",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000343.htm",
+     "section": "Cane Basics",
+     "source_date": "Review Date 4/1/2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–C",
+     "evidence": "Handle at wrist level; elbow slightly bent when holding handle.",
+     "added_by": "author"
+    },
+    {
+     "title": "How To Use Crutches, Canes, and Walkers",
+     "publisher": "American Academy of Orthopaedic Surgeons (OrthoInfo)",
+     "url": "https://orthoinfo.aaos.org/en/recovery/how-to-use-crutches-canes-and-walkers/",
+     "section": "Canes / Proper Positioning",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A",
+     "evidence": "Top of cane reaches wrist crease; elbow slightly bent when holding cane.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-89443898) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus + AAOS OrthoInfo agree on cane height at wrist crease with slight elbow flexion."
+    }
+   ]
+  },
+  {
+   "batch": "B48-WAVE39",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0050",
+   "format": "matrix_multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "NGN matrix — safe cane use teaching indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cane-ngn-matrix-height-opposite-hand-tip-down-look-forward",
+   "tags": [
+    "NGN",
+    "matrix",
+    "cane",
+    "BCC",
+    "fundamentals"
+   ],
+   "stem": "For safe use of a single-point cane after unilateral lower-extremity injury, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Adjust the handle to the crease of the wrist with the elbow slightly bent"
+     },
+     {
+      "key": "R2",
+      "text": "Hold the cane in the hand opposite the injured/weaker leg"
+     },
+     {
+      "key": "R3",
+      "text": "Place weight on the cane before the tip (or all prongs) is on the ground"
+     },
+     {
+      "key": "R4",
+      "text": "Look forward while walking rather than continuously down at the feet"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. MedlinePlus/AAOS: wrist-crease height; slight elbow bend.",
+    "R2": "Indicated. MedlinePlus/AAOS: hold cane opposite weak/injured side.",
+    "R3": "Not indicated. MedlinePlus: tip or all prongs on ground before putting weight on cane.",
+    "R4": "Indicated. MedlinePlus: look forward, not down at feet."
+   },
+   "sources": [
+    {
+     "title": "Using a cane",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000343.htm",
+     "section": "Cane Basics / Walking and Turning with a Cane",
+     "source_date": "Review Date 4/1/2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "R1–R4",
+     "evidence": "Opposite hand; tip down before weight; wrist height; look forward.",
+     "added_by": "author"
+    },
+    {
+     "title": "How To Use Crutches, Canes, and Walkers",
+     "publisher": "American Academy of Orthopaedic Surgeons (OrthoInfo)",
+     "url": "https://orthoinfo.aaos.org/en/recovery/how-to-use-crutches-canes-and-walkers/",
+     "section": "Canes / Proper Positioning",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "R1–R2",
+     "evidence": "Wrist crease height; hold cane opposite injured side.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-89443898) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus cane basics + AAOS cane positioning dual-cite matrix rows."
+    }
+   ]
+  },
+  {
+   "batch": "B48-WAVE39",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0051",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "Cane on stairs — up with stronger leg first; down with weaker/injured leg first",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cane-stairs-up-good-down-bad",
+   "tags": [
+    "cane",
+    "stairs",
+    "mobility",
+    "BCC",
+    "fundamentals"
+   ],
+   "stem": "The nurse teaches stair safety with a cane after right ankle surgery. Which instruction is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Going up, step up with the stronger (uninjured) leg first; going down, lead with the cane and the weaker/injured leg, then the stronger leg"
+    },
+    {
+     "key": "B",
+     "text": "Always lead with the injured leg when going up and down"
+    },
+    {
+     "key": "C",
+     "text": "Carry the cane and hop on the injured leg without using a handrail when available"
+    },
+    {
+     "key": "D",
+     "text": "Place both feet on each step before moving the cane, ignoring which leg is stronger"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. MedlinePlus: up — stronger leg first, then cane and weaker leg; down — cane then weaker then stronger. AAOS: up on good leg first; down cane then injured then good leg.",
+    "B": "Incorrect. Leading with the injured leg when ascending is unsafe.",
+    "C": "Incorrect. AAOS: use free hand on handrail when available; do not hop on injured leg.",
+    "D": "Incorrect. Sequence depends on stronger vs weaker leg for ascent and descent."
+   },
+   "sources": [
+    {
+     "title": "Using a cane",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000343.htm",
+     "section": "Stepping Up or Down a Step or Curb",
+     "source_date": "Review Date 4/1/2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Up with stronger first; down cane then weaker then stronger.",
+     "added_by": "author"
+    },
+    {
+     "title": "How To Use Crutches, Canes, and Walkers",
+     "publisher": "American Academy of Orthopaedic Surgeons (OrthoInfo)",
+     "url": "https://orthoinfo.aaos.org/en/recovery/how-to-use-crutches-canes-and-walkers/",
+     "section": "Canes / Stairs",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A",
+     "evidence": "Up: good leg first then injured; down: cane, injured, then good leg.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-89443898) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus curb/stair sequence + AAOS cane stairs agree up-with-good / down-with-bad."
+    }
+   ]
+  },
+  {
+   "batch": "B48-WAVE39",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0052",
+   "format": "drop_down_cloze",
+   "specialty": "Fundamentals",
+   "topic": "NGN cloze — cane stair sequence up with good / down with bad",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cane-stairs-ngn-cloze-up-good-down-bad",
+   "tags": [
+    "NGN",
+    "cloze",
+    "cane",
+    "stairs",
+    "BCC"
+   ],
+   "stem": "Complete the teaching for stair safety with a cane after unilateral lower-extremity injury.",
+   "ngn": {
+    "template": "When going up stairs, step up first with the {B1} leg. When going down, place the cane on the lower step, then step down with the {B2} leg before the stronger leg.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "weaker/injured"
+      },
+      {
+       "key": "B1b",
+       "text": "stronger/uninjured"
+      },
+      {
+       "key": "B1c",
+       "text": "either, randomly"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "stronger/uninjured"
+      },
+      {
+       "key": "B2b",
+       "text": "weaker/injured"
+      },
+      {
+       "key": "B2c",
+       "text": "both together only"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1b",
+    "B2": "B2b"
+   },
+   "rationales": {
+    "B1a": "Incorrect. Ascending leads with the stronger/uninjured leg.",
+    "B1b": "Correct. MedlinePlus/AAOS: go up with stronger/good leg first.",
+    "B1c": "Incorrect. Sequence is specific, not random.",
+    "B2a": "Incorrect. Descending leads with cane and weaker/injured leg.",
+    "B2b": "Correct. MedlinePlus/AAOS: down with cane then weaker/injured leg, then stronger.",
+    "B2c": "Incorrect. Legs move in sequenced steps, not as a simultaneous hop."
+   },
+   "sources": [
+    {
+     "title": "Using a cane",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000343.htm",
+     "section": "Stepping Up or Down a Step or Curb",
+     "source_date": "Review Date 4/1/2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "B1–B2",
+     "evidence": "Up stronger first; down weaker with cane support.",
+     "added_by": "author"
+    },
+    {
+     "title": "How To Use Crutches, Canes, and Walkers",
+     "publisher": "American Academy of Orthopaedic Surgeons (OrthoInfo)",
+     "url": "https://orthoinfo.aaos.org/en/recovery/how-to-use-crutches-canes-and-walkers/",
+     "section": "Canes / Stairs",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "B1–B2",
+     "evidence": "Up good first; down cane, injured, then good.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-89443898) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus + AAOS dual-cite cane stair cloze."
+    }
+   ]
+  },
+  {
+   "batch": "B48-WAVE39",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0053",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "Heating pad safety — do not fall asleep with pad in place",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "heating-pad-do-not-fall-asleep",
+   "tags": [
+    "heat-therapy",
+    "heating-pad",
+    "BCC",
+    "fundamentals",
+    "safety"
+   ],
+   "stem": "The nurse teaches a client home use of an electric heating pad for muscle spasm pain. Which instruction is the priority safety teaching?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Do not fall asleep with the heating pad in place"
+    },
+    {
+     "key": "B",
+     "text": "Sleep all night with the pad on the highest setting"
+    },
+    {
+     "key": "C",
+     "text": "Place the bare heating element directly on open broken skin"
+    },
+    {
+     "key": "D",
+     "text": "Ignore redness or blistering because warmth always means healing"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. MedlinePlus: to prevent skin injury, do not fall asleep with a heating pad in place. Mayo Clinic: never sleep with a heating pad.",
+    "B": "Incorrect. Overnight high-heat use increases burn risk.",
+    "C": "Incorrect. Heat on open/broken skin is contraindicated in heat-safety teaching.",
+    "D": "Incorrect. Redness/blistering signals overheating/burn risk and requires stopping heat."
+   },
+   "sources": [
+    {
+     "title": "Neck pain or spasms - self care",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000802.htm",
+     "section": "Pain Relief",
+     "source_date": "Review Date 7/3/2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Do not fall asleep with a heating pad or ice bag in place.",
+     "added_by": "author"
+    },
+    {
+     "title": "My back hurts: What do I do?",
+     "publisher": "Mayo Clinic",
+     "url": "https://communityhealth.mayoclinic.org/featured-stories/back-pain-what-to-do",
+     "section": "Treat the area with heat or cold",
+     "source_date": "12/22/2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "Never sleep with a heating pad.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-89443898) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus neck-pain heat teaching + Mayo Clinic back-pain heat teaching agree: never sleep with heating pad."
+    }
+   ]
+  },
+  {
+   "batch": "B48-WAVE39",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0054",
+   "format": "matrix_multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "NGN matrix — heating pad safety teaching indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "heating-pad-ngn-matrix-no-sleep-check-skin",
+   "tags": [
+    "NGN",
+    "matrix",
+    "heat-therapy",
+    "BCC",
+    "fundamentals"
+   ],
+   "stem": "For safe home use of a heating pad for musculoskeletal pain, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Do not fall asleep with the heating pad in place"
+     },
+     {
+      "key": "R2",
+      "text": "Stop heat and reassess if the skin develops concerning redness or blistering"
+     },
+     {
+      "key": "R3",
+      "text": "Leave an electric heating pad on high overnight while sleeping"
+     },
+     {
+      "key": "R4",
+      "text": "Use heat as an adjunct for comfort after discussing safety limits with the care team"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. MedlinePlus/Mayo: never fall asleep/sleep with heating pad.",
+    "R2": "Indicated. Overheating signs require stopping heat to prevent burns.",
+    "R3": "Not indicated. Overnight high heat while sleeping is unsafe.",
+    "R4": "Indicated. Both sources support heat for comfort when used safely."
+   },
+   "sources": [
+    {
+     "title": "Neck pain or spasms - self care",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000802.htm",
+     "section": "Pain Relief",
+     "source_date": "Review Date 7/3/2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "R1–R4",
+     "evidence": "Heating pad allowed; do not fall asleep with pad in place.",
+     "added_by": "author"
+    },
+    {
+     "title": "My back hurts: What do I do?",
+     "publisher": "Mayo Clinic",
+     "url": "https://communityhealth.mayoclinic.org/featured-stories/back-pain-what-to-do",
+     "section": "Treat the area with heat or cold",
+     "source_date": "12/22/2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "R1,R3",
+     "evidence": "Never sleep with a heating pad.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-89443898) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus + Mayo dual-cite heating-pad safety matrix."
+    }
+   ]
+  },
+  {
+   "batch": "B48-WAVE39",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0049",
+   "format": "multiple_choice",
+   "specialty": "Medical-Surgical",
+   "topic": "Blood/body-fluid spill — PPE, remove visible soil, then disinfect; hand hygiene after",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "blood-spill-ppe-wipe-then-disinfect-hand-hygiene",
+   "tags": [
+    "blood-spill",
+    "disinfection",
+    "SIPC",
+    "PPE",
+    "IPAC"
+   ],
+   "stem": "A small amount of blood spills on a hard floor in a client care area. Which nursing action is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Don gloves (add gown/face protection if splash risk), wipe up the blood, apply facility-approved disinfectant, then remove PPE and perform hand hygiene"
+    },
+    {
+     "key": "B",
+     "text": "Wipe the spill with bare hands and leave the area wet without disinfectant"
+    },
+    {
+     "key": "C",
+     "text": "Spray disinfectant into the air over the spill without wearing gloves"
+    },
+    {
+     "key": "D",
+     "text": "Ignore small blood spills because housekeeping surfaces never transmit bloodborne pathogens"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: PPE, remove visible blood, then disinfect. PHO home/community IPAC: gloves (± gown/face protection), wipe up blood, apply disinfectant, remove PPE and hand hygiene.",
+    "B": "Incorrect. Bare-hand contact and omitting disinfection are unsafe.",
+    "C": "Incorrect. Gloves are required; aerosolizing disinfectant over a spill is not the recommended process.",
+    "D": "Incorrect. CDC still requires prompt cleaning and disinfection of blood spills."
+   },
+   "sources": [
+    {
+     "title": "E. Environmental Services",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/environmental-control/environmental-services.html",
+     "section": "3. Cleaning Strategies for Spills of Blood and Body Substances",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Prompt removal and surface disinfection of blood spills; PPE when using germicides.",
+     "added_by": "author"
+    },
+    {
+     "title": "Infection Prevention and Control for Home and Community Care",
+     "publisher": "Public Health Ontario",
+     "url": "https://www.publichealthontario.ca/-/media/Documents/I/25/ipac-home-community-care.pdf",
+     "section": "How to Clean Spills of Blood and Body Fluids",
+     "source_date": "Published: 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A",
+     "evidence": "Gloves; wipe up blood; apply disinfectant; remove PPE and hand hygiene.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-89443898) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC environmental services blood-spill strategies + PHO IPAC spill steps dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B48-WAVE39",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0050",
+   "format": "matrix_multiple_choice",
+   "specialty": "Medical-Surgical",
+   "topic": "NGN matrix — blood spill response indicated vs not",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "blood-spill-ngn-matrix-ppe-wipe-disinfect-hh",
+   "tags": [
+    "NGN",
+    "matrix",
+    "blood-spill",
+    "SIPC",
+    "IPAC"
+   ],
+   "stem": "For cleaning a blood spill on a hard surface in a care area, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Put on gloves before handling the spill (add gown/face protection if splash is possible)"
+     },
+     {
+      "key": "R2",
+      "text": "Wipe up visible blood, then apply a facility-approved disinfectant"
+     },
+     {
+      "key": "R3",
+      "text": "Clean the spill with bare hands and skip disinfection if the puddle looks small"
+     },
+     {
+      "key": "R4",
+      "text": "Remove PPE and perform hand hygiene after the spill is cleaned"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. PHO/Simcoe Muskoka: PPE including gloves; gown/face protection if splash risk.",
+    "R2": "Indicated. CDC/PHO: remove visible soil then disinfect.",
+    "R3": "Not indicated. Bare hands and skipping disinfection are unsafe.",
+    "R4": "Indicated. PHO: remove PPE and perform hand hygiene immediately after."
+   },
+   "sources": [
+    {
+     "title": "Infection Prevention and Control for Home and Community Care",
+     "publisher": "Public Health Ontario",
+     "url": "https://www.publichealthontario.ca/-/media/Documents/I/25/ipac-home-community-care.pdf",
+     "section": "How to Clean Spills of Blood and Body Fluids",
+     "source_date": "Published: 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "R1–R4",
+     "evidence": "Gloves; wipe then disinfect; remove PPE; hand hygiene.",
+     "added_by": "author"
+    },
+    {
+     "title": "Cleaning Blood or Body Fluids on Hard Surfaces",
+     "publisher": "Simcoe Muskoka District Health Unit",
+     "url": "https://www.simcoemuskokahealth.org/docs/default-source/topic-infectiousdisease/cleaning_disinfecting_work_surfaces_contaminated_with_blood_and_body_fluid_2022-09-29.pdf?sfvrsn=2",
+     "section": "Cleaning procedures",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "R1–R3",
+     "evidence": "Wear PPE including gloves; remove soil then disinfect; hand hygiene after glove removal.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-89443898) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "PHO IPAC + Simcoe Muskoka Health Unit blood-spill PDFs dual-cite matrix."
+    }
+   ]
+  },
+  {
+   "batch": "B48-WAVE39",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0051",
+   "format": "multiple_choice",
+   "specialty": "Medical-Surgical",
+   "topic": "N95/FFR — perform user seal check each donning; not a substitute for fit testing",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "n95-user-seal-check-each-don-not-fit-test-substitute",
+   "tags": [
+    "N95",
+    "respirator",
+    "seal-check",
+    "SIPC",
+    "PPE"
+   ],
+   "stem": "Before entering an Airborne Precautions room, the nurse dons a fit-tested N95 respirator. Which action is required?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Perform a user seal check each time the respirator is put on; a seal check does not replace fit testing"
+    },
+    {
+     "key": "B",
+     "text": "Skip the seal check because last year's fit test permanently guarantees today's seal"
+    },
+    {
+     "key": "C",
+     "text": "Treat a quick seal check as a full substitute for never having been fit tested"
+    },
+    {
+     "key": "D",
+     "text": "Wear the respirator loosely under the chin without checking for leaks"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. NIOSH: seal check every time respirator is donned; not a substitute for fit testing. OSHA: employees perform a user seal check each time they put on a tight-fitting respirator.",
+    "B": "Incorrect. Fit testing selects model/size; seal must still be checked with each donning.",
+    "C": "Incorrect. NIOSH explicitly states seal check is not a substitute for fit testing.",
+    "D": "Incorrect. Tight face seal is required for FFR protection."
+   },
+   "sources": [
+    {
+     "title": "Filtering out Confusion: Frequently Asked Questions about Respiratory Protection — User Seal Check",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC) / NIOSH",
+     "url": "https://www.cdc.gov/niosh/docs/2018-130/pdfs/2018-130.pdf",
+     "section": "User Seal Check",
+     "source_date": "DHHS (NIOSH) Publication No. 2018-130",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–C",
+     "evidence": "Seal check each donning; not a substitute for OSHA fit testing.",
+     "added_by": "author"
+    },
+    {
+     "title": "1910.134 - Respiratory protection",
+     "publisher": "U.S. Occupational Safety and Health Administration (OSHA)",
+     "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+     "section": "User seal check definition / respirator use",
+     "source_date": "effective November 22, 2006",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "supports": "Key A",
+     "evidence": "Employer shall ensure employees perform a user seal check each time they put on the respirator.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-89443898) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "NIOSH user-seal-check FAQ + OSHA 1910.134 dual-cite each-donning seal check; seal check ≠ fit test."
+    }
+   ]
+  },
+  {
+   "batch": "B48-WAVE39",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0052",
+   "format": "drop_down_cloze",
+   "specialty": "Medical-Surgical",
+   "topic": "NGN cloze — user seal check each donning; not fit-test substitute",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "n95-ngn-cloze-seal-check-vs-fit-test",
+   "tags": [
+    "NGN",
+    "cloze",
+    "N95",
+    "SIPC",
+    "PPE"
+   ],
+   "stem": "Complete the respirator safety statement for a fit-tested filtering facepiece respirator (N95).",
+   "ngn": {
+    "template": "Perform a user seal check {B1} the respirator is donned. A user seal check is {B2} for fit testing.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "only once per career after"
+      },
+      {
+       "key": "B1b",
+       "text": "each time"
+      },
+      {
+       "key": "B1c",
+       "text": "never when"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "an accepted full substitute"
+      },
+      {
+       "key": "B2b",
+       "text": "not a substitute"
+      },
+      {
+       "key": "B2c",
+       "text": "required instead of"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1b",
+    "B2": "B2b"
+   },
+   "rationales": {
+    "B1a": "Incorrect. Seal checks are required with each donning, not once per career.",
+    "B1b": "Correct. NIOSH/OSHA: seal check each time the respirator is put on.",
+    "B1c": "Incorrect. Skipping the seal check is unsafe.",
+    "B2a": "Incorrect. Seal check cannot replace fit testing.",
+    "B2b": "Correct. NIOSH: seal check is not a substitute for fit testing.",
+    "B2c": "Incorrect. Fit testing is still required; seal check does not replace it."
+   },
+   "sources": [
+    {
+     "title": "Filtering out Confusion: Frequently Asked Questions about Respiratory Protection — User Seal Check",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC) / NIOSH",
+     "url": "https://www.cdc.gov/niosh/docs/2018-130/pdfs/2018-130.pdf",
+     "section": "User Seal Check",
+     "source_date": "DHHS (NIOSH) Publication No. 2018-130",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "B1–B2",
+     "evidence": "Seal check each donning; not a substitute for fit testing.",
+     "added_by": "author"
+    },
+    {
+     "title": "1910.134 - Respiratory protection",
+     "publisher": "U.S. Occupational Safety and Health Administration (OSHA)",
+     "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+     "section": "User seal check / respirator use",
+     "source_date": "effective November 22, 2006",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "supports": "B1",
+     "evidence": "User seal check each time the respirator is put on.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-89443898) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "NIOSH + OSHA dual-cite cloze on seal-check timing and non-substitution for fit testing."
+    }
+   ]
+  },
+  {
+   "batch": "B48-WAVE39",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0050",
+   "format": "multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "Therapeutic communication — prefer open-ended invitation; avoid accusatory why questions",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "therapeutic-open-ended-not-accusatory-why",
+   "tags": [
+    "therapeutic-communication",
+    "open-ended",
+    "PSY",
+    "mental-health"
+   ],
+   "stem": "A client says, \"I feel like everything is falling apart.\" Which nurse response best uses therapeutic communication?",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"Tell me more about what has been going on for you.\""
+    },
+    {
+     "key": "B",
+     "text": "\"Why did you let things get this bad?\""
+    },
+    {
+     "key": "C",
+     "text": "\"At least you are not as sick as some other people here.\""
+    },
+    {
+     "key": "D",
+     "text": "\"You should just stop worrying and think positive.\""
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax Fundamentals: open-ended questions support therapeutic communication. OpenStax PMH: explore with open-ended questions rather than accusatory why or minimizing remarks.",
+    "B": "Incorrect. OpenStax PMH: asking why can imply accusation/judgment and provoke defensiveness.",
+    "C": "Incorrect. Minimizing remarks belittle the client's feelings.",
+    "D": "Incorrect. Advice-giving/false positivity is nontherapeutic compared with open exploration."
+   },
+   "sources": [
+    {
+     "title": "2.4 Therapeutic Communication",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/2-4-therapeutic-communication",
+     "section": "Therapeutic Communication Techniques",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Open-ended questions support therapeutic communication.",
+     "added_by": "author"
+    },
+    {
+     "title": "3.1 Therapeutic Communication and Relationships",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/3-1-therapeutic-communication-and-relationships",
+     "section": "Expecting Justifications / Making Remarks That Are Minimizing / Providing False Reassurance",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Avoid why-as-accusation and minimizing; prefer open-ended exploration.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-89443898) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Fundamentals open-ended technique + OpenStax PMH barriers (why/minimize) dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B48-WAVE39",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0051",
+   "format": "matrix_multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "NGN matrix — therapeutic techniques vs nontherapeutic barriers",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "therapeutic-ngn-matrix-silence-open-ended-vs-why-minimize",
+   "tags": [
+    "NGN",
+    "matrix",
+    "therapeutic-communication",
+    "PSY"
+   ],
+   "stem": "During a supportive interview with a distressed client, indicate whether each nurse behaviour is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Use an open-ended prompt that invites the client to elaborate"
+     },
+     {
+      "key": "R2",
+      "text": "Allow brief silence so the client can think and continue"
+     },
+     {
+      "key": "R3",
+      "text": "Ask an accusatory why question that demands justification"
+     },
+     {
+      "key": "R4",
+      "text": "Minimize the client's distress by comparing it to someone 'worse off'"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. OpenStax Fundamentals: open-ended questions support therapeutic communication.",
+    "R2": "Indicated. OpenStax Fundamentals: using silence allows the client time to process.",
+    "R3": "Not indicated. OpenStax PMH: why questions can feel accusatory and cause defensiveness.",
+    "R4": "Not indicated. OpenStax PMH: minimizing remarks belittle client feelings."
+   },
+   "sources": [
+    {
+     "title": "2.4 Therapeutic Communication",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/2-4-therapeutic-communication",
+     "section": "Therapeutic Communication Techniques",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "R1–R2",
+     "evidence": "Open-ended questions and using silence are therapeutic techniques.",
+     "added_by": "author"
+    },
+    {
+     "title": "3.1 Therapeutic Communication and Relationships",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/3-1-therapeutic-communication-and-relationships",
+     "section": "Expecting Justifications / Making Remarks That Are Minimizing",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "R3–R4",
+     "evidence": "Avoid why-as-justification demands and minimizing remarks.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-89443898) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Fundamentals techniques + OpenStax PMH barriers dual-cite matrix."
+    }
+   ]
+  },
+  {
+   "batch": "B48-WAVE39",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0052",
+   "format": "bowtie",
+   "specialty": "Mental Health",
+   "topic": "NGN bowtie — acute situational anxiety: recognize; therapeutic presence/open-ended; monitor distress",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "acute-anxiety-bowtie-open-ended-presence-monitor-distress",
+   "tags": [
+    "NGN",
+    "bowtie",
+    "anxiety",
+    "therapeutic-communication",
+    "PSY"
+   ],
+   "stem": "After unexpected bad news, a client paces, reports a racing heart, and says, \"I can't think straight.\" Complete the bowtie: the priority condition, two priority actions, and two parameters to monitor.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Acute situational anxiety / distress"
+     },
+     {
+      "key": "K2",
+      "text": "Hypoglycemia without supporting glucose cues"
+     },
+     {
+      "key": "K3",
+      "text": "Opioid overdose"
+     },
+     {
+      "key": "K4",
+      "text": "Benign positional vertigo alone"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Stay with the client and invite discussion with an open-ended prompt"
+     },
+     {
+      "key": "A2",
+      "text": "Leave immediately so the client can 'tough it out' alone"
+     },
+     {
+      "key": "A3",
+      "text": "Use calm presence; allow brief silence and avoid minimizing remarks"
+     },
+     {
+      "key": "A4",
+      "text": "Demand, \"Why are you overreacting like this?\""
+     },
+     {
+      "key": "A5",
+      "text": "Tell the client their problem is trivial compared with terminal illness"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "Self-reported distress and ability to communicate needs"
+     },
+     {
+      "key": "P2",
+      "text": "Breathing pattern, heart rate trend, and safety behaviours"
+     },
+     {
+      "key": "P3",
+      "text": "Shoe size"
+     },
+     {
+      "key": "P4",
+      "text": "Contact lens prescription"
+     },
+     {
+      "key": "P5",
+      "text": "Favourite sports team only"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K1",
+    "actions": [
+     "A1",
+     "A3"
+    ],
+    "parameters": [
+     "P1",
+     "P2"
+    ]
+   },
+   "rationales": {
+    "K1": "Correct. Merck: anxiety involves fear/anxiety with behavioural changes; cue pattern fits acute distress after a stressor.",
+    "K2": "Incorrect. No glucose/hypoglycemia pattern provided.",
+    "K3": "Incorrect. No opioid toxicity pattern (e.g., pinpoint pupils, apnea).",
+    "K4": "Incorrect. Vertigo alone does not explain pacing and catastrophic thinking after bad news.",
+    "A1": "Correct. OpenStax: open-ended prompts and offering self/presence support therapeutic communication.",
+    "A2": "Incorrect. Leaving a highly distressed client alone is not supportive acute care.",
+    "A3": "Correct. OpenStax: silence and avoiding minimizing support processing.",
+    "A4": "Incorrect. Accusatory why questions are nontherapeutic.",
+    "A5": "Incorrect. Minimizing remarks are nontherapeutic.",
+    "P1": "Correct. Monitor whether distress eases and communication remains coherent.",
+    "P2": "Correct. Anxiety has somatic/arousal features; monitor breathing, HR trend, and safety.",
+    "P3": "Incorrect. Not clinically relevant.",
+    "P4": "Incorrect. Not clinically relevant.",
+    "P5": "Incorrect. Not clinically relevant."
+   },
+   "sources": [
+    {
+     "title": "Overview of Anxiety Disorders",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/anxiety-and-trauma-and-stressor-related-disorders/overview-of-anxiety-disorders",
+     "section": "Overview of Anxiety Disorders / Symptoms and Signs",
+     "source_date": "Last updated: Apr 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "K1,P1–P2",
+     "evidence": "Anxiety: persistent/excessive fear-anxiety with behavioural changes; somatic arousal common.",
+     "added_by": "author"
+    },
+    {
+     "title": "2.4 Therapeutic Communication",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/2-4-therapeutic-communication",
+     "section": "Therapeutic Communication Techniques",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "A1,A3",
+     "evidence": "Open-ended questions, silence, and offering self/presence are therapeutic.",
+     "added_by": "author"
+    },
+    {
+     "title": "3.1 Therapeutic Communication and Relationships",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/3-1-therapeutic-communication-and-relationships",
+     "section": "Expecting Justifications / Making Remarks That Are Minimizing",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "A4–A5",
+     "evidence": "Avoid why-as-accusation and minimizing remarks.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-89443898) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck anxiety recognition + OpenStax therapeutic techniques/barriers dual-cite bowtie."
+    }
+   ]
+  },
+  {
+   "batch": "B48-WAVE39",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CNO Code/Social Media guidance + PHIPA: do not disclose client personal health information (including identifiable images/stories) on social media without proper authority/consent; de-identification must make identification unreasonable.",
+   "jurisdiction": "Ontario-specific",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0074",
+   "format": "multiple_choice",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Ontario — do not post client PHI/images on social media (CNO / PHIPA)",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ontario-cno-phipa-no-client-phi-photos-on-social-media",
+   "tags": [
+    "Ontario",
+    "PHIPA",
+    "social-media",
+    "privacy",
+    "MOC",
+    "professional-practice"
+   ],
+   "stem": "An Ontario RN considers posting a selfie from the unit that clearly shows a client's face and unique wound dressing in the background, with the caption \"Tough day in wound care.\" Which action meets privacy accountabilities?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Do not post the photo or any identifiable client health information on social media"
+    },
+    {
+     "key": "B",
+     "text": "Post it because the client's name is not written in the caption"
+    },
+    {
+     "key": "C",
+     "text": "Post it on a private account because private platforms never create privacy risk"
+    },
+    {
+     "key": "D",
+     "text": "Post it first and ask the client for consent afterwards"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO: do not share client information/images on social media; health-record content including unique findings is inappropriate to post. PHIPA guidance: never disclose PHI on social media without unpressured consent; be prudent not to post workplace pictures that may include clients.",
+    "B": "Incorrect. Omitting a name does not prevent identification from a face/unique clinical image.",
+    "C": "Incorrect. CNO cautions against sharing even on private platforms because content may still be identifiable/shared.",
+    "D": "Incorrect. Consent must be obtained before disclosure; posting first violates privacy."
+   },
+   "sources": [
+    {
+     "title": "Social Media: Reflect before you post",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/standards-learning/educational-tools/social-media-reflect-before-you-post",
+     "section": "Confidentiality and Privacy – Personal Health Information",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Do not share client information/images on social media; even de-identified posts may identify clients.",
+     "added_by": "author"
+    },
+    {
+     "title": "Code of Conduct",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/49040_code-of-conduct.pdf",
+     "section": "Principle 5.2–5.3",
+     "source_date": "Updated March 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A",
+     "evidence": "Protect PHI privacy/confidentiality; do not share PHI unless therapeutic and lawful.",
+     "added_by": "author"
+    },
+    {
+     "title": "The Personal Health Information Protection Act, 2004: A Guide for Regulated Health Professionals",
+     "publisher": "College of Traditional Chinese Medicine Practitioners and Acupuncturists of Ontario (PHIPA guide)",
+     "url": "https://www.ctcmpao.on.ca/resources/forms-and-documents/Guide-to-PHIPA-2020-Update-Final.pdf",
+     "section": "Administrative Safeguards / social media",
+     "source_date": "Copyright © 2020",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Never disclose PHI on social media without unpressured consent; avoid workplace photos that may include clients.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-89443898) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Social Media + Code of Conduct privacy principles + PHIPA regulated-professionals guide dual/triple-cite no client PHI/photos on social media. Distinct from MOC-0019 (no friending clients)."
+    }
+   ]
+  }
+ ],
+ "excluded_items": [
+  {
+   "draft_topic": "Elastic bandage distal-to-proximal wrap as primary key",
+   "reason": "MedlinePlus supports calf-to-knee wrap direction after knee arthroscopy, but AAOS sprain page confirms elastic compression without clear distal-to-proximal sequencing; deferred for stronger dual cite."
+  },
+  {
+   "draft_topic": "CNO controlled-substance orders must be direct (not directives)",
+   "reason": "CNO Medication confirms the fact, but second independent publisher/page for the same keyed rule was not confirmed this wave (Directives PDF 404); deferred rather than single-source pad."
+  },
+  {
+   "draft_topic": "Therapeutic communication — changing the subject / false reassurance",
+   "reason": "Already covered by ONRN-PSY-0002/0032/0033/0040; used open-ended vs why/minimizing instead."
+  }
+ ],
+ "notes": "Prefer thinner Client Needs BCC/SIPC/PSY + NGN. Keep import script Prisma.InputJsonValue casts unchanged. Accuracy over volume."
+}
