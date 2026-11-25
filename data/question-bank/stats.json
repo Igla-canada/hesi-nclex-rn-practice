@@ -1,9 +1,9 @@
 {
  "generated": "2026-11-25",
- "total_items": 567,
+ "total_items": 581,
  "by_status": {
   "Draft": 0,
-  "Source verified": 567,
+  "Source verified": 581,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -22,7 +22,7 @@
   },
   "SIPC": {
    "Draft": 0,
-   "Source verified": 65,
+   "Source verified": 67,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -31,7 +31,7 @@
   },
   "HPM": {
    "Draft": 0,
-   "Source verified": 74,
+   "Source verified": 76,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -40,7 +40,7 @@
   },
   "PSY": {
    "Draft": 0,
-   "Source verified": 66,
+   "Source verified": 68,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -49,7 +49,7 @@
   },
   "BCC": {
    "Draft": 0,
-   "Source verified": 67,
+   "Source verified": 69,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -58,7 +58,7 @@
   },
   "PPT": {
    "Draft": 0,
-   "Source verified": 67,
+   "Source verified": 71,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -67,7 +67,7 @@
   },
   "RRP": {
    "Draft": 0,
-   "Source verified": 65,
+   "Source verified": 67,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -100,37 +100,37 @@
  },
  "all_active": {
   "by_format": {
-   "multiple_choice": 384,
-   "matrix_multiple_choice": 68,
+   "multiple_choice": 391,
+   "matrix_multiple_choice": 72,
    "select_all_that_apply": 46,
-   "drop_down_cloze": 40,
+   "drop_down_cloze": 43,
    "bowtie": 26,
    "ordered_response": 2,
    "calculation": 1
   },
   "by_jurisdiction": {
-   "General (Canada/US concordant)": 495,
+   "General (Canada/US concordant)": 505,
    "Ontario-specific": 52,
-   "Canada-specific": 20
+   "Canada-specific": 24
   }
  },
  "excluded_draft_topics": 147,
  "archived_items": 0,
  "source_citations_by_publisher": {
-  "Merck Manual Professional Edition": 324,
-  "OpenStax — Medical-Surgical Nursing": 101,
+  "Merck Manual Professional Edition": 330,
+  "OpenStax — Medical-Surgical Nursing": 103,
+  "OpenStax — Fundamentals of Nursing": 99,
   "U.S. Centers for Disease Control and Prevention (CDC)": 97,
-  "OpenStax — Fundamentals of Nursing": 95,
   "OpenStax — Psychiatric-Mental Health Nursing": 66,
   "College of Nurses of Ontario": 58,
   "OpenStax — Pharmacology for Nurses": 57,
   "OpenStax — Maternal-Newborn Nursing": 42,
-  "OpenStax — Clinical Nursing Skills": 37,
+  "OpenStax — Clinical Nursing Skills": 39,
   "MedlinePlus / U.S. National Library of Medicine": 34,
   "Agency for Healthcare Research and Quality (AHRQ)": 23,
   "NCBI Bookshelf (Open RN / WisTech Open)": 18,
   "Public Health Agency of Canada / Canada.ca": 15,
-  "Health Canada / Canada.ca": 12,
+  "Health Canada / Canada.ca": 14,
   "Agency for Healthcare Research and Quality (AHRQ) — PSNet": 12,
   "Government of Ontario — e-Laws": 9,
   "U.S. National Library of Medicine — DailyMed": 9,
@@ -150,6 +150,7 @@
   "Substance Abuse and Mental Health Services Administration (SAMHSA)": 4,
   "SHEA / IDSA / APIC (Infect Control Hosp Epidemiol)": 4,
   "Cleveland Clinic": 4,
+  "Centers for Disease Control and Prevention (CDC)": 4,
   "American Hospital Association (AHA) — TeamSTEPPS Video Toolkit": 3,
   "Mayo Clinic": 3,
   "U.S. Food and Drug Administration": 3,
@@ -166,6 +167,10 @@
   "Radiological Society of North America / RadiologyInfo.org": 2,
   "GeneReviews / NCBI Bookshelf": 2,
   "American Heart Association (AHA)": 2,
+  "Leeds, Grenville and Lanark District Health Unit (Ontario)": 2,
+  "Centers for Disease Control and Prevention (CDC) — Pink Book": 2,
+  "MedlinePlus (U.S. National Library of Medicine)": 2,
+  "OpenStax — Pharmacology": 2,
   "U.S. Centers for Disease Control and Prevention (CDC/HICPAC)": 1,
   "Health Canada Drug Product Database — Sandoz Canada Inc. product monograph": 1,
   "Health Canada Drug Product Database — Taro Pharmaceuticals Inc. product monograph": 1,
