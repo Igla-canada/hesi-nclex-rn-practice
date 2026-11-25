@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 44,
+  "Source verified": 56,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -4700,6 +4700,1266 @@
     "diabetes",
     "teaching"
    ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-RRP-0007",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client receiving a loop diuretic reports new muscle weakness and cramps. Serum potassium is 2.7 mmol/L (2.7 mEq/L). Which nursing action is the priority?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Encourage unrestricted oral water intake to dilute serum electrolytes."
+    },
+    {
+     "key": "B",
+     "text": "Place the client on continuous cardiac monitoring and notify the provider."
+    },
+    {
+     "key": "C",
+     "text": "Administer the next scheduled dose of the loop diuretic as ordered."
+    },
+    {
+     "key": "D",
+     "text": "Withhold all oral potassium-containing foods until the potassium normalizes."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Free-water loading does not correct potassium deficit and is not the priority for symptomatic hypokalemia with arrhythmia risk.",
+    "B": "Correct. Moderate to severe hypokalemia causes muscle weakness and can produce life-threatening cardiac dysrhythmias; continuous cardiac/telemetry monitoring and prompt provider notification are priority nursing actions.",
+    "C": "Incorrect. Loop diuretics increase urinary potassium loss and would worsen hypokalemia; the diuretic should not be given until the provider reassesses.",
+    "D": "Incorrect. Dietary potassium is usually increased, not withheld, when treating hypokalemia unless the provider directs otherwise."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Hypokalemia — muscle weakness and cardiac monitoring priority",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "units_note": "Potassium in mmol/L equals mEq/L numerically.",
+   "sources": [
+    {
+     "title": "Hypokalemia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/nephrology/electrolyte-disorders/hypokalemia",
+     "section": "Symptoms and Signs of Hypokalemia",
+     "source_date": "Last updated Dec 2025",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A–D context",
+     "evidence": "Moderate hypokalemia generally causes muscle weakness; severe hypokalemia causes ECG changes or severe symptoms.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "10.3 Electrolyte Imbalance",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-3-electrolyte-imbalance",
+     "section": "Nursing Care of Patients with Hypokalemia; Prioritizing Hypotheses, Generating Solutions, and Taking Action",
+     "source_date": "Citation date Oct 16, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Potassium imbalances can cause lethal cardiac dysrhythmias; patients with hypokalemia should be on continuous telemetry monitoring.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-a56c89f8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key and rationales checked vs live-fetched Merck Hypokalemia (Dec 2025) and OpenStax Med-Surg 10.3 (Oct 2024). Exact replacement dose not keyed."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "lab-range-varies"
+   ],
+   "enemy_group": "hypokalemia-muscle-weakness-cardiac-monitor",
+   "tags": [
+    "hypokalemia",
+    "electrolytes",
+    "telemetry",
+    "diuretics"
+   ],
+   "batch": "B15-WAVE6",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-RRP-0008",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "After thyroidectomy, a client develops perioral tingling and muscle cramps. Which assessment finding best supports latent tetany from hypocalcemia?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Tall, peaked T waves on the cardiac monitor"
+    },
+    {
+     "key": "B",
+     "text": "Facial muscle twitching when the facial nerve is tapped anterior to the ear (Chvostek sign)"
+    },
+    {
+     "key": "C",
+     "text": "Absent deep tendon reflexes in all extremities"
+    },
+    {
+     "key": "D",
+     "text": "Bilateral pitting edema of the ankles"
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Tall, peaked T waves are associated with hyperkalemia, not hypocalcemia.",
+    "B": "Correct. Chvostek sign (facial twitching after tapping the facial nerve) and Trousseau sign are bedside findings used to identify latent tetany from hypocalcemia, which can follow parathyroid injury during thyroid surgery.",
+    "C": "Incorrect. Hypocalcemia tends toward hyperreflexia and tetany rather than absent reflexes.",
+    "D": "Incorrect. Ankle edema is not a classic bedside sign of latent hypocalcemic tetany."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Hypocalcemia — Chvostek sign / latent tetany after thyroidectomy",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "Hypocalcemia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/nephrology/electrolyte-disorders/hypocalcemia",
+     "section": "Neurologic manifestations",
+     "source_date": "Last updated Jun 2025",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationale C",
+     "evidence": "Chvostek and Trousseau signs are elicited to identify latent tetany; Chvostek is facial twitching after tapping the facial nerve.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "10.3 Electrolyte Imbalance",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-3-electrolyte-imbalance",
+     "section": "Calcium Imbalances — Table 10.9",
+     "source_date": "Citation date Oct 16, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Hypocalcemia manifestations include paresthesia, positive Chvostek’s and Trousseau’s signs, seizures, and tetany.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-a56c89f8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key confirmed vs Merck Hypocalcemia Neurologic manifestations (Jun 2025) and OpenStax 10.3 Table 10.9 (Oct 2024)."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "enemy_group": "hypocalcemia-chvostek-trousseau",
+   "tags": [
+    "hypocalcemia",
+    "tetany",
+    "thyroidectomy",
+    "assessment"
+   ],
+   "batch": "B15-WAVE6",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "review_flags": [],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-PPT-0008",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with deep vein thrombosis is receiving continuous IV unfractionated heparin. Which laboratory result does the nurse monitor to guide dose titration?",
+   "options": [
+    {
+     "key": "A",
+     "text": "International normalized ratio (INR)"
+    },
+    {
+     "key": "B",
+     "text": "Activated partial thromboplastin time (aPTT) or PTT per protocol"
+    },
+    {
+     "key": "C",
+     "text": "Hemoglobin A1C"
+    },
+    {
+     "key": "D",
+     "text": "Serum digoxin level"
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. INR is used primarily to monitor warfarin (vitamin K antagonist) therapy, not unfractionated heparin infusions.",
+    "B": "Correct. Unfractionated heparin infusions are titrated using aPTT (or PTT/anti-Xa per institutional protocol) to a therapeutic range such as about 1.5–2.5 times the reference range.",
+    "C": "Incorrect. Hemoglobin A1C reflects longer-term glycemic control and does not guide heparin dosing.",
+    "D": "Incorrect. Digoxin levels monitor digoxin therapy, not anticoagulation with heparin."
+   },
+   "specialty": "Pharmacology",
+   "topic": "Unfractionated heparin — aPTT/PTT monitoring",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "Medications for Deep Venous Thrombosis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/peripheral-venous-disorders/medications-for-deep-venous-thrombosis",
+     "section": "Unfractionated heparin (UFH)",
+     "source_date": "Last updated Oct 2026",
+     "source_type": "clinical_reference",
+     "supports": "Key B",
+     "evidence": "UFH is given as bolus and infusion to achieve full anticoagulation (eg, aPTT 1.5 to 2.5 times the reference range).",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "20.2 Anticoagulants",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/20-2-anticoagulants",
+     "section": "Heparin",
+     "source_date": "Citation date May 29, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationale A",
+     "evidence": "Heparin continuous infusion is titrated using PTT or anti-Xa; goal often 1.5–2.5 times baseline PTT; INR monitors oral vitamin K antagonists.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-a56c89f8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key confirmed vs Merck DVT meds UFH (Oct 2026) and OpenStax Pharmacology 20.2 Heparin (May 2024). Exact numeric aPTT target not keyed beyond dual-supported monitoring concept."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "lab-range-varies"
+   ],
+   "enemy_group": "ufh-aptt-monitoring",
+   "tags": [
+    "heparin",
+    "aPTT",
+    "anticoagulation",
+    "DVT"
+   ],
+   "batch": "B15-WAVE6",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-PPT-0009",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with type 2 diabetes who takes metformin is scheduled for a radiologic study with intravascular iodinated contrast. Which instruction is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Double the metformin dose the morning of the contrast study to prevent hyperglycemia."
+    },
+    {
+     "key": "B",
+     "text": "Continue metformin without change because contrast dye does not affect metformin safety."
+    },
+    {
+     "key": "C",
+     "text": "Temporarily discontinue metformin around the contrast study as directed, because contrast-related renal impairment raises lactic acidosis risk."
+    },
+    {
+     "key": "D",
+     "text": "Replace metformin with aspirin for 1 week after contrast exposure."
+    }
+   ],
+   "correct_answer": [
+    "C"
+   ],
+   "rationales": {
+    "A": "Incorrect. Increasing metformin near contrast exposure increases, rather than decreases, risk related to drug accumulation if renal function falls.",
+    "B": "Incorrect. Product labeling and nursing references advise temporary interruption of metformin for intravascular iodinated contrast studies because contrast can impair renal function and increase lactic acidosis risk.",
+    "C": "Correct. Metformin should be temporarily discontinued for intravascular iodinated contrast studies because contrast can alter renal function and metformin accumulation can cause lactic acidosis; timing follows facility/prescriber protocol.",
+    "D": "Incorrect. Aspirin is not a substitute for metformin and does not address contrast-related lactic acidosis risk."
+   },
+   "specialty": "Pharmacology",
+   "topic": "Metformin — temporary discontinuation with iodinated contrast",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "Canada-specific",
+   "jurisdiction_note": "Keyed to Canadian product monograph principle of temporary discontinuation with intravascular iodinated contrast; exact hold/restart hours follow local protocol and were not keyed because OpenStax timing detail (24 h before/48 h after if eGFR <30) is more specific than the Canadian monograph wording.",
+   "sources": [
+    {
+     "title": "RIVA-METFORMIN Product Monograph",
+     "publisher": "Health Canada Drug Product Database — Laboratoire Riva Inc. product monograph",
+     "url": "https://pdf.hres.ca/dpd_pm/00086054.PDF",
+     "section": "CONTRAINDICATIONS; WARNINGS AND PRECAUTIONS — lactic acidosis / radiocontrast",
+     "source_date": "Last revised SEP 08, 2026",
+     "source_type": "drug_monograph_label",
+     "supports": "Key C",
+     "evidence": "Temporarily discontinue in radiologic studies with intravascular iodinated contrast because contrast may acutely alter renal function; lactic acidosis is a serious metformin risk.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "28.3 Oral Antidiabetic Drugs",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/28-3-oral-antidiabetic-drugs",
+     "section": "Metformin and Contrast Dye",
+     "source_date": "Citation date May 29, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key C",
+     "evidence": "Contrast dye can increase lactic acidosis risk with metformin and decreased renal function; metformin should be withheld around contrast administration.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-a56c89f8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Temporary discontinue-with-contrast + lactic acidosis risk dual-confirmed (Health Canada RIVA-METFORMIN PM Sep 2026; OpenStax 28.3 May 2024). Exact hour schedule not keyed due to source specificity mismatch."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "canada-us-difference",
+    "high-alert-medication"
+   ],
+   "enemy_group": "metformin-hold-iodinated-contrast",
+   "tags": [
+    "metformin",
+    "contrast",
+    "lactic-acidosis",
+    "diabetes"
+   ],
+   "batch": "B15-WAVE6",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-PPT-0010",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client started atorvastatin 2 weeks ago for hyperlipidemia. Which client statement shows correct understanding of safety teaching?",
+   "options": [
+    {
+     "key": "A",
+     "text": "I will ignore new muscle aches because they are never related to this medicine."
+    },
+    {
+     "key": "B",
+     "text": "I will report unexplained muscle pain or weakness to my health care provider."
+    },
+    {
+     "key": "C",
+     "text": "I will stop checking my cholesterol because the drug works immediately."
+    },
+    {
+     "key": "D",
+     "text": "I will take a double dose if I miss one day."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Muscle symptoms are a recognized statin adverse effect and should not be ignored.",
+    "B": "Correct. Statins can cause myalgia, myositis, or rare rhabdomyolysis; clients are taught to report muscular signs and symptoms to the provider.",
+    "C": "Incorrect. Lipid response is monitored over time; stopping monitoring is unsafe teaching.",
+    "D": "Incorrect. Doubling a missed statin dose is not appropriate and may increase adverse-effect risk."
+   },
+   "specialty": "Pharmacology",
+   "topic": "Statins — report muscle pain / myopathy risk",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Evaluate Outcomes",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "Dyslipidemia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/lipid-disorders/dyslipidemia",
+     "section": "Treatment of Dyslipidemia",
+     "source_date": "Last updated Oct 2026",
+     "source_type": "clinical_reference",
+     "supports": "Key B",
+     "evidence": "Statin adverse effects include myositis or rhabdomyolysis; muscle symptoms may occur and may require dose change or temporary discontinuation.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "21.2 Statins (HMG-CoA Reductase Inhibitors) and PCSK9 Inhibitors",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/21-2-statins-hmg-coa-reductase-inhibitors-and-pcsk9-inhibitors",
+     "section": "Nursing Implications; Adverse Effects and Contraindications",
+     "source_date": "Citation date May 29, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Monitor for muscle-related adverse effects; client should report muscular signs and symptoms; myalgia/myopathy/rhabdomyolysis are statin risks.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-a56c89f8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Report-muscle-symptoms teaching confirmed vs Merck Dyslipidemia (Oct 2026) and OpenStax Pharmacology 21.2 (May 2024)."
+    }
+   ],
+   "enemy_group": "statin-report-muscle-symptoms",
+   "tags": [
+    "statin",
+    "atorvastatin",
+    "myalgia",
+    "teaching"
+   ],
+   "batch": "B15-WAVE6",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "review_flags": [],
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-PPT-0011",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "Before administering a scheduled oral beta blocker, the nurse assesses the client. Which finding is the strongest reason to withhold the dose and contact the provider?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Blood pressure 128/78 mm Hg and heart rate 54/min with sinus bradycardia"
+    },
+    {
+     "key": "B",
+     "text": "Blood pressure 132/80 mm Hg and heart rate 76/min"
+    },
+    {
+     "key": "C",
+     "text": "Client reports a mild headache after breakfast"
+    },
+    {
+     "key": "D",
+     "text": "Client requests a glass of water with the tablet"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Beta blockers decrease heart rate; nursing references advise not administering when the client is bradycardic/hypotensive, and product labeling lists sinus bradycardia as a contraindication—withhold and notify the provider.",
+    "B": "Incorrect. This heart rate and blood pressure are within a typical range for administering a beta blocker when ordered.",
+    "C": "Incorrect. Mild headache alone is not the primary reason to withhold a beta blocker.",
+    "D": "Incorrect. Taking oral medication with water is appropriate and not a reason to withhold."
+   },
+   "specialty": "Pharmacology",
+   "topic": "Beta blockers — withhold for bradycardia",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "OpenStax cites hold for heart rate less than 60; Canadian metoprolol monograph contraindicates sinus bradycardia (and heart rate <45 in the MI subsection). Item keys bradycardia as a withhold cue without asserting a single universal numeric cut-off.",
+   "sources": [
+    {
+     "title": "18.4 Beta-Adrenergic Blockers",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/18-4-beta-adrenergic-blockers",
+     "section": "Introduction and Use; Adverse Effects and Contraindications",
+     "source_date": "Citation date May 29, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Nurses should monitor BP and pulse; beta blockers should not be administered if the client is hypotensive or has a heart rate less than 60; serious adverse effects include bradycardia.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "APO-METOPROLOL Product Monograph",
+     "publisher": "Health Canada Drug Product Database — Apotex Inc. product monograph",
+     "url": "https://pdf.hres.ca/dpd_pm/00085409.PDF",
+     "section": "2 CONTRAINDICATIONS",
+     "source_date": "Last Revised JUL 10, 2026",
+     "source_type": "drug_monograph_label",
+     "supports": "Key A",
+     "evidence": "Metoprolol is contraindicated in patients with sinus bradycardia; MI subsection also lists heart rate <45 beats/min among additional contraindications.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-a56c89f8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Bradycardia withhold principle dual-confirmed (OpenStax 18.4 May 2024; APO-METOPROLOL PM Jul 2026). Numeric cut-off not keyed because sources differ (OpenStax <60 vs Canadian MI <45)."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "canada-us-difference"
+   ],
+   "enemy_group": "beta-blocker-withhold-bradycardia",
+   "tags": [
+    "beta-blocker",
+    "metoprolol",
+    "bradycardia",
+    "medication-safety"
+   ],
+   "batch": "B15-WAVE6",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-PPT-0012",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A provider orders IV potassium chloride for a client with serum potassium 2.6 mmol/L (2.6 mEq/L). Which action is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Give the potassium chloride as a rapid IV push over 1 minute."
+    },
+    {
+     "key": "B",
+     "text": "Infuse the potassium chloride at a controlled rate using an IV pump, never as an IV push."
+    },
+    {
+     "key": "C",
+     "text": "Mix the entire daily potassium replacement into one IV push syringe for convenience."
+    },
+    {
+     "key": "D",
+     "text": "Add undiluted potassium chloride directly into a running IV without a pump."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Rapid IV push of potassium can cause life-threatening cardiac dysrhythmias and is not an acceptable administration method.",
+    "B": "Correct. IV potassium is given as a controlled infusion (commonly via IV pump); it must not be given as an IV push because excessive or rapid administration can cause lethal arrhythmias.",
+    "C": "Incorrect. Concentrating potassium into an IV push syringe is unsafe and does not follow controlled-infusion requirements.",
+    "D": "Incorrect. Undiluted free-flow addition without rate control is unsafe; concentration and infusion rate must be controlled."
+   },
+   "specialty": "Pharmacology",
+   "topic": "IV potassium chloride — controlled infusion, not IV push",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "units_note": "Potassium mmol/L = mEq/L numerically.",
+   "sources": [
+    {
+     "title": "10.3 Electrolyte Imbalance",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-3-electrolyte-imbalance",
+     "section": "Prioritizing Hypotheses, Generating Solutions, and Taking Action — Hypokalemia",
+     "source_date": "Citation date Oct 16, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "IV potassium should never be administered as an IV push; it should always be given slowly over several hours via an IV pump.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "Hypokalemia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/nephrology/electrolyte-disorders/hypokalemia",
+     "section": "Treatment of Hypokalemia",
+     "source_date": "Last updated Dec 2025",
+     "source_type": "clinical_reference",
+     "supports": "Key B",
+     "evidence": "IV potassium replacement uses controlled infusion; routine infusion rates should not exceed 10 mEq/hour; faster rates require continuous cardiac monitoring.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-a56c89f8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "No-IV-push / controlled infusion dual-supported (OpenStax 10.3 Oct 2024 explicit; Merck Hypokalemia treatment Dec 2025 controlled infusion rate limits). Exact mEq/hour ceiling not keyed as the single best answer."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "dose-calculation"
+   ],
+   "enemy_group": "iv-potassium-no-push",
+   "tags": [
+    "potassium",
+    "IV-safety",
+    "high-alert",
+    "hypokalemia"
+   ],
+   "batch": "B15-WAVE6",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-PA-0007",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client develops urticaria, wheezing, and hypotension within minutes after receiving IV antibiotic. Which action is the priority?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Reassure the client that symptoms will resolve without treatment."
+    },
+    {
+     "key": "B",
+     "text": "Administer epinephrine immediately as ordered/protocol and support airway and circulation."
+    },
+    {
+     "key": "C",
+     "text": "Wait 30 minutes to see whether antihistamine cream alone improves the rash."
+    },
+    {
+     "key": "D",
+     "text": "Document the findings and continue the antibiotic infusion at a slower rate."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Anaphylaxis is life-threatening and requires immediate treatment, not reassurance alone.",
+    "B": "Correct. Epinephrine is the cornerstone/first-line treatment for anaphylaxis and should be given immediately, along with airway and circulatory support.",
+    "C": "Incorrect. Delaying epinephrine for topical antihistamine observation risks rapid progression of anaphylaxis.",
+    "D": "Incorrect. The likely allergen infusion should be stopped; continuing the antibiotic worsens exposure."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "Anaphylaxis — immediate epinephrine",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "Anaphylaxis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/immunology-allergic-disorders/allergic-autoimmune-and-other-hypersensitivity-disorders/anaphylaxis",
+     "section": "Treatment of Anaphylaxis — Epinephrine",
+     "source_date": "Last updated Sept 2026",
+     "source_type": "clinical_reference",
+     "supports": "Key B",
+     "evidence": "Epinephrine is the cornerstone of treatment for anaphylaxis and should be given immediately.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "24.7 Anaphylaxis",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/24-7-anaphylaxis",
+     "section": "Prioritizing Hypotheses, Generating Solutions, and Taking Action",
+     "source_date": "Citation date Oct 16, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Rapid interventions include emergency medication administration; medications include epinephrine; acute nursing care should be rapidly initiated.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-a56c89f8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Immediate epinephrine as priority dual-confirmed (Merck Anaphylaxis Sept 2026; OpenStax 24.7 Oct 2024). Route not keyed: OpenStax text says subcutaneous in the thigh while Merck emphasizes IM anterolateral thigh for maximal absorption — concordant priority is immediate epinephrine, not a contested route detail."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency",
+    "high-alert-medication",
+    "possible-ambiguity"
+   ],
+   "enemy_group": "anaphylaxis-immediate-epinephrine",
+   "tags": [
+    "anaphylaxis",
+    "epinephrine",
+    "allergy",
+    "emergency"
+   ],
+   "batch": "B15-WAVE6",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-PA-0008",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with advanced COPD is dyspneic at rest. The nurse observes the client exhaling slowly through pursed lips. How should the nurse interpret this finding?",
+   "options": [
+    {
+     "key": "A",
+     "text": "It is an unexpected abnormal behaviour that always indicates impending respiratory arrest."
+    },
+    {
+     "key": "B",
+     "text": "It is a common compensatory breathing pattern used in COPD to help control dyspnea and prolong exhalation."
+    },
+    {
+     "key": "C",
+     "text": "It means the client should immediately stop all prescribed inhaled bronchodilators."
+    },
+    {
+     "key": "D",
+     "text": "It indicates the client no longer needs supplemental oxygen under any circumstances."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Pursed-lip breathing is a recognized COPD compensatory pattern, not by itself a universal sign of imminent arrest.",
+    "B": "Correct. Pursed-lip breathing is a common sign/technique in COPD that helps prolong exhalation and is observed with dyspnea or taught as a breathing strategy.",
+    "C": "Incorrect. Bronchodilators remain a core COPD therapy; pursed-lip breathing does not replace them.",
+    "D": "Incorrect. Oxygen needs are based on saturation/ABG and clinical status, not on the presence of pursed-lip breathing alone."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "COPD — pursed-lip breathing as compensatory pattern",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "Chronic Obstructive Pulmonary Disease (COPD)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pulmonary-disorders/chronic-obstructive-pulmonary-disease-and-related-disorders/chronic-obstructive-pulmonary-disease-copd",
+     "section": "Symptoms and Signs of COPD",
+     "source_date": "Last updated Oct 2026",
+     "source_type": "clinical_reference",
+     "supports": "Key B",
+     "evidence": "Signs of advanced disease include pursed-lip breathing, accessory muscle use, and cyanosis.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "11.5 Disorders of the Lower Respiratory System: Chronic Obstructive Pulmonary Disease",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/11-5-disorders-of-the-lower-respiratory-system-chronic-obstructive-pulmonary-disease",
+     "section": "Clinical Manifestations; Assessment and Diagnostics",
+     "source_date": "Citation date Oct 16, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Manifestations can include accessory muscle usage and pursed lip breathing; nurses may notice tripod positioning and pursed lip breathing.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-a56c89f8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Pursed-lip breathing as COPD sign dual-confirmed (Merck COPD Oct 2026; OpenStax 11.5 Oct 2024)."
+    }
+   ],
+   "enemy_group": "copd-pursed-lip-breathing",
+   "tags": [
+    "COPD",
+    "dyspnea",
+    "breathing-pattern"
+   ],
+   "batch": "B15-WAVE6",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "review_flags": [],
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-PA-0009",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with known heart failure reports a 2 kg weight gain in 3 days and shoes that feel tight. Which assessment finding best supports fluid volume overload related to heart failure?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Clear lung fields and flat neck veins with dry mucous membranes"
+    },
+    {
+     "key": "B",
+     "text": "Dependent peripheral edema and jugular venous distention"
+    },
+    {
+     "key": "C",
+     "text": "Sunken eyes and poor skin turgor only"
+    },
+    {
+     "key": "D",
+     "text": "Urine output of 2 L in 8 hours with thirst"
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Flat neck veins and dry mucous membranes suggest hypovolemia, not overload.",
+    "B": "Correct. Peripheral (dependent) edema and jugular venous distention are classic physical findings of heart failure–related fluid overload, consistent with recent weight gain.",
+    "C": "Incorrect. Sunken eyes and poor turgor suggest dehydration.",
+    "D": "Incorrect. High urine output with thirst is not the typical overload picture of decompensated HF."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Heart failure — peripheral edema and jugular venous distention",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "Chronic Heart Failure",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/heart-failure/chronic-heart-failure",
+     "section": "Symptoms and Signs of Chronic Heart Failure",
+     "source_date": "Last updated Jul 2026",
+     "source_type": "clinical_reference",
+     "supports": "Key B",
+     "evidence": "Common symptoms include peripheral edema; physical signs include jugular venous distention.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "12.3 Heart Failure",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/12-3-heart-failure",
+     "section": "Clinical Manifestations",
+     "source_date": "Citation date Oct 16, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Classic HF presentation includes lower extremity edema and weight gain; patients may report poorly fitting shoes.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-a56c89f8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Peripheral edema/JVD as HF overload cues dual-confirmed (Merck Chronic HF Jul 2026; OpenStax 12.3 Oct 2024). Distinct from existing left-sided orthopnea/crackles enemy group."
+    }
+   ],
+   "enemy_group": "hf-peripheral-edema-jvd",
+   "tags": [
+    "heart-failure",
+    "edema",
+    "fluid-overload"
+   ],
+   "batch": "B15-WAVE6",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "review_flags": [],
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-SIPC-0006",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "The nurse is maintaining a sterile field for a procedure. Which actions or events break sterile technique? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Turning the back so the sterile field is out of view"
+    },
+    {
+     "key": "B",
+     "text": "Keeping sterile-gloved hands above the waist and in view"
+    },
+    {
+     "key": "C",
+     "text": "Allowing a sterile drape to become wet"
+    },
+    {
+     "key": "D",
+     "text": "Reaching an unsterile sleeve across the sterile field"
+    },
+    {
+     "key": "E",
+     "text": "Holding a sterile package edge outside the 2.5 cm (1 in) border"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "rationales": {
+    "A": "Correct. If the nurse turns away and can no longer see the field, sterility is considered broken.",
+    "B": "Incorrect. Keeping sterile-gloved hands above the waist and within view helps maintain sterility; this does not break technique.",
+    "C": "Correct. Wet sterile items/fields are considered contaminated because moisture can carry microorganisms.",
+    "D": "Correct. Reaching over the sterile field with nonsterile arms/sleeves contaminates the field.",
+    "E": "Incorrect. The outer 2.5 cm (1 in) border of a sterile package/field is considered unsterile; holding/handling that border is expected technique, not a break."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Sterile field — contamination rules (wet, out of view, reaching over)",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "10.3 Sterile Technique",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/10-3-sterile-technique",
+     "section": "Preparing and Maintaining a Sterile Field; Opening a Sterile Package",
+     "source_date": "Citation date Sep 4, 2024",
+     "source_type": "textbook_open",
+     "supports": "Keys A,C,D; rationales B,E",
+     "evidence": "Turning so the field is unseen breaks sterility; wet objects are nonsterile; do not reach over the field; 1 in border is unsterile; keep hands above waist.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "Sterilizing Practices",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/sterilizing-practices.html",
+     "section": "Storage",
+     "source_date": "Updated November 28, 2023 / Published May 15, 2024",
+     "source_type": "government_public_health",
+     "supports": "Key C",
+     "evidence": "Sterile items that become wet are considered contaminated because moisture brings microorganisms from air and surfaces.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-a56c89f8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Wet=contaminated dual-confirmed (OpenStax Fundamentals 10.3 Sep 2024; CDC Sterilizing Practices). Out-of-view and reaching-over supported by OpenStax; CDC independently anchors the wet-contamination key."
+    }
+   ],
+   "enemy_group": "sterile-field-wet-out-of-view",
+   "tags": [
+    "sterile-technique",
+    "asepsis",
+    "infection-prevention"
+   ],
+   "batch": "B15-WAVE6",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "review_flags": [],
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-PA-0010",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client’s serum sodium has fallen to 118 mmol/L (118 mEq/L). Which assessment finding is most consistent with this electrolyte imbalance?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Improved concentration and heightened alertness"
+    },
+    {
+     "key": "B",
+     "text": "Confusion or decreased level of consciousness"
+    },
+    {
+     "key": "C",
+     "text": "Flushed dry skin with intense thirst only, without neurologic change"
+    },
+    {
+     "key": "D",
+     "text": "Bilateral crackles as the only expected finding"
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Severe hyponatremia causes neurologic depression, not improved alertness.",
+    "B": "Correct. Hyponatremia produces primarily neurologic manifestations from brain cell swelling, including confusion and decreased level of consciousness; seizures may occur in severe cases.",
+    "C": "Incorrect. Intense thirst with dry flushed skin is more typical of hypernatremia teaching patterns; hyponatremia centers on neurologic changes.",
+    "D": "Incorrect. Crackles suggest pulmonary fluid overload but are not the hallmark neurologic finding of hyponatremia."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Hyponatremia — neurologic manifestations",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "units_note": "Sodium mmol/L = mEq/L numerically.",
+   "sources": [
+    {
+     "title": "Hyponatremia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/nephrology/electrolyte-disorders/hyponatremia",
+     "section": "Hyponatremia (overview); Symptoms and Signs of Hyponatremia",
+     "source_date": "Last updated Dec 2025",
+     "source_type": "clinical_reference",
+     "supports": "Key B",
+     "evidence": "Clinical manifestations are primarily neurologic (brain cell edema), including headache, confusion, stupor; seizures and coma may occur.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "10.3 Electrolyte Imbalance",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-3-electrolyte-imbalance",
+     "section": "Nursing Care of Patients with Hyponatremia",
+     "source_date": "Citation date Oct 16, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Low sodium leads water into brain tissue, resulting in confusion and decreased level of consciousness.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-a56c89f8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Neurologic manifestations dual-confirmed (Merck Hyponatremia Dec 2025; OpenStax 10.3 Oct 2024). Fluid-restriction treatment not keyed because OpenStax nursing section emphasizes sodium replacement/IV saline rather than SIADH fluid restriction."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "lab-range-varies"
+   ],
+   "enemy_group": "hyponatremia-neuro-manifestations",
+   "tags": [
+    "hyponatremia",
+    "sodium",
+    "neurologic",
+    "electrolytes"
+   ],
+   "batch": "B15-WAVE6",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
    "exam_version_published": null,
    "exam_version_provisional": null
   }

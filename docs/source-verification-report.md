@@ -1,6 +1,6 @@
 # Source verification report — Ontario/Canada question bank
 
-**Updated:** 2026-11-25, ~6:45 AM (America/New_York)
+**Updated:** 2026-11-25, ~7:15 AM (America/New_York)
 **Scope:** Author-level **Source verified** only. Not an independent verifier pass. Not clinical review.
 **Rule:** Every keyed answer and rationale rests on sources fetched in-session; citations were not invented.
 
@@ -10,41 +10,44 @@
 
 | Metric | Count |
 | --- | ---: |
-| Items Source verified | **44** |
+| Items Source verified | **56** |
 | Items with independent verifier `confirmed` | 0 |
 | Items clinically reviewed / approved / published | **0** |
-| Excluded draft topics logged | 14 |
+| Excluded draft topics logged | 19 |
 
 ### Citation publishers (citation instances across items)
 
 | Publisher | Citations |
 | --- | ---: |
-| Merck Manual Professional Edition | 29 |
-| OpenStax — Medical-Surgical Nursing | 9 |
-| OpenStax — Fundamentals of Nursing | 8 |
-| OpenStax — Pharmacology for Nurses | 6 |
+| Merck Manual Professional Edition | 38 |
+| OpenStax — Medical-Surgical Nursing | 16 |
+| OpenStax — Pharmacology for Nurses | 10 |
+| OpenStax — Fundamentals of Nursing | 9 |
 | OpenStax — Psychiatric-Mental Health Nursing | 5 |
 | College of Nurses of Ontario | 4 |
 | OpenStax — Maternal-Newborn Nursing | 4 |
 | Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC) | 3 |
+| U.S. Centers for Disease Control and Prevention (CDC) | 3 |
+| Centers for Disease Control and Prevention | 2 |
 | Diabetes Canada | 2 |
 | Government of Ontario — e-Laws | 2 |
-| U.S. Centers for Disease Control and Prevention (CDC) | 2 |
 | Health Canada Drug Product Database — Pharmascience Inc. product monograph | 2 |
 | OpenStax — Clinical Nursing Skills | 2 |
 | Public Health Agency of Canada / Canada.ca | 2 |
-| Centers for Disease Control and Prevention | 2 |
-| U.S. Centers for Disease Control and Prevention (CDC/HICPAC) | 1 |
-| Health Canada Drug Product Database — Sandoz Canada Inc. product monograph | 1 |
-| U.S. National Library of Medicine — DailyMed | 1 |
-| Health Canada Drug Product Database — Taro Pharmaceuticals Inc. product monograph | 1 |
-| Heart & Stroke — Canadian Stroke Best Practices | 1 |
 | Government of Ontario (e-Laws) | 1 |
-| NCSBN / American Nurses Association | 1 |
-| Public Health Ontario | 1 |
 | Health Canada (Hikma Canada) | 1 |
 | Health Canada / Canada.ca | 1 |
+| Health Canada Drug Product Database — Apotex Inc. product monograph | 1 |
+| Health Canada Drug Product Database — Laboratoire Riva Inc. product monograph | 1 |
+| Health Canada Drug Product Database — Sandoz Canada Inc. product monograph | 1 |
+| Health Canada Drug Product Database — Taro Pharmaceuticals Inc. product monograph | 1 |
+| Heart & Stroke — Canadian Stroke Best Practices | 1 |
 | NCBI Bookshelf (Open RN / WisTech Open) | 1 |
+| NCSBN / American Nurses Association | 1 |
+| Public Health Ontario | 1 |
+| U.S. Centers for Disease Control and Prevention (CDC/HICPAC) | 1 |
+| U.S. National Library of Medicine — DailyMed | 1 |
+
 
 ---
 
@@ -96,6 +99,19 @@
 | ONRN-PA-0006 | B14-WAVE5 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | emergency |
 | ONRN-PPT-0006 | B14-WAVE5 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | no | — |
 | ONRN-PPT-0007 | B14-WAVE5 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | high-alert-medication |
+| ONRN-RRP-0007 | B15-WAVE6 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | lab-range-varies |
+| ONRN-RRP-0008 | B15-WAVE6 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | — |
+| ONRN-PPT-0008 | B15-WAVE6 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | high-alert-medication, lab-range-varies |
+| ONRN-PPT-0009 | B15-WAVE6 | multiple_choice | Pharmacological and Parenteral Therapies | Canada-specific | 2 | yes | canada-us-difference, high-alert-medication |
+| ONRN-PPT-0010 | B15-WAVE6 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | no | — |
+| ONRN-PPT-0011 | B15-WAVE6 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | high-alert-medication, canada-us-difference |
+| ONRN-PPT-0012 | B15-WAVE6 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | high-alert-medication, dose-calculation |
+| ONRN-PA-0007 | B15-WAVE6 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | emergency, high-alert-medication, possible-ambiguity |
+| ONRN-PA-0008 | B15-WAVE6 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | no | — |
+| ONRN-PA-0009 | B15-WAVE6 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | no | — |
+| ONRN-SIPC-0006 | B15-WAVE6 | select_all_that_apply | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | — |
+| ONRN-PA-0010 | B15-WAVE6 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | lab-range-varies |
+
 
 
 ---
@@ -121,9 +137,17 @@
 - **Validator:** `TOTAL ERRORS: 0` on `batches/B14-WAVE5.json`.
 - **High-priority clinical review flags in wave 5:** newborn safe sleep, hallucinations communication, seizure airway, insulin peak/hypoglycemia.
 
+
+## Wave 6 (B15-WAVE6) author notes
+
+- **Added:** 12 Source-verified originals prioritizing PPT, PA, RRP, and SIPC blueprint gaps.
+- **Excluded (5):** SIADH fluid restriction (OpenStax nursing care not dual-confirm); anaphylaxis IM vs SC route conflict; catheter bag below bladder (OpenStax text gap); nitrates + PDE5 (second source incomplete); two-client identifiers (second publisher not confirmed).
+- **Validator:** `TOTAL ERRORS: 0` on `batches/B15-WAVE6.json`.
+- **High-priority clinical review flags in wave 6:** hypokalemia telemetry, hypocalcemia after thyroidectomy, heparin aPTT, metformin/contrast, beta-blocker bradycardia, IV potassium, anaphylaxis epinephrine, hyponatremia neuro.
+
 ## Honesty statement
 
-Counts are actual compiled-bank totals after B00 + B11 + B12 + B13 + B14. No padding. AI may not set Clinically reviewed or Approved.
+Counts are actual compiled-bank totals after B00 + B11 + B12 + B13 + B14 + B15. No padding. AI may not set Clinically reviewed or Approved.
 
 ---
 
