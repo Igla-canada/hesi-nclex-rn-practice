@@ -1,6 +1,6 @@
 # Question bank status — Ontario/Canada HESI/NCLEX practice
 
-**Updated:** 2026-11-25, ~9:55 AM (America/New_York)  
+**Updated:** 2026-11-25, ~10:15 AM (America/New_York)  
 **Honesty:** Counts below are **actual**. AI authoring may reach **Source verified** only. **Published / clinically reviewed = 0.** No claim of HESI/NCLEX item authenticity.
 
 Companion: [source-verification-report.md](./source-verification-report.md) · bank root: `/cursor/stores/self/internal/question-bank/`
@@ -11,16 +11,16 @@ Companion: [source-verification-report.md](./source-verification-report.md) · b
 
 | Metric | Count |
 | --- | ---: |
-| **Total active items** | **265** |
-| **Source verified** | **265** |
+| **Total active items** | **277** |
+| **Source verified** | **277** |
 | Awaiting clinical review | 0 |
 | Clinically reviewed | 0 |
 | Approved / published | **0** |
 | Draft (in compiled bank) | 0 |
 | Archived | 0 |
-| Excluded draft topics (logged) | 78 |
+| Excluded draft topics (logged) | 84 |
 
-Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after merge of `B00-PILOT` + `B11-WAVE2` + `B12-WAVE3` + `B13-WAVE4` + `B14-WAVE5` + `B15-WAVE6` + `B16-WAVE7` + `B17-WAVE8` + `B18-WAVE9` + `B19-WAVE10` + `B20-WAVE11` + `B21-WAVE12` + `B22-WAVE13` + `B23-WAVE14` + `B24-WAVE15` + `B25-WAVE16` + `B26-WAVE17` + `B27-WAVE18` + `B28-WAVE19` + `B29-WAVE20` + `B30-WAVE21` + `B31-WAVE22` + `B32-WAVE23`.
+Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after merge of `B00-PILOT` + `B11-WAVE2` + `B12-WAVE3` + `B13-WAVE4` + `B14-WAVE5` + `B15-WAVE6` + `B16-WAVE7` + `B17-WAVE8` + `B18-WAVE9` + `B19-WAVE10` + `B20-WAVE11` + `B21-WAVE12` + `B22-WAVE13` + `B23-WAVE14` + `B24-WAVE15` + `B25-WAVE16` + `B26-WAVE17` + `B27-WAVE18` + `B28-WAVE19` + `B29-WAVE20` + `B30-WAVE21` + `B31-WAVE22` + `B32-WAVE23` + `B33-WAVE24`.
 
 ---
 
@@ -28,19 +28,19 @@ Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after mer
 
 | Code | Subcategory | Source verified | Gap vs 150-item form quota* |
 | --- | --- | ---: | ---: |
-| MOC | Management of Care | 43 | 0† |
+| MOC | Management of Care | 45 | 0† |
 | SIPC | Safety and Infection Prevention and Control | 26 | 0† |
-| HPM | Health Promotion and Maintenance | 32 | 0† |
-| PSY | Psychosocial Integrity | 23 | 0† |
-| BCC | Basic Care and Comfort | 20 | 0† |
-| PPT | Pharmacological and Parenteral Therapies | 39 | 0† |
-| RRP | Reduction of Risk Potential | 35 | 0† |
-| PA | Physiological Adaptation | 47 | 0† |
+| HPM | Health Promotion and Maintenance | 34 | 0† |
+| PSY | Psychosocial Integrity | 25 | 0† |
+| BCC | Basic Care and Comfort | 21 | 0† |
+| PPT | Pharmacological and Parenteral Therapies | 40 | 0† |
+| RRP | Reduction of Risk Potential | 36 | 0† |
+| PA | Physiological Adaptation | 50 | 0† |
 
 \*Quota for one 150-item HESI-style form (see blueprint). Five forms need ~750 Source-verified → clinically reviewed items. **No form is publishable yet.**  
-†Surplus vs base single-form quota supports multi-form depth (MOC 43/27, SIPC 26/20, HPM 32/13–14, PSY 23/13–14, BCC 20/13–14, PPT 39/24, RRP 35/18, PA 47/21).
+†Surplus vs base single-form quota supports multi-form depth (MOC 45/27, SIPC 26/20, HPM 34/13–14, PSY 25/13–14, BCC 21/13–14, PPT 40/24, RRP 36/18, PA 50/21).
 
-Wave 23 added multi-exam depth with underrepresented specialties (Pediatrics, Maternity/Newborn, Community/Public Health, Leadership/Management, Gerontology, Mental Health, Critical Care/Emergency) and NGN **bowtie** + **drop-down cloze** + **matrix**, dual-cited originals only (Merck, OpenStax, DailyMed, AHRQ PSNet, WHO). **All eight Client Needs single-form quotas remain met at Source verified.**
+Wave 24 added multi-exam depth with underrepresented specialties (Pediatrics, Maternity/Newborn, Community/Public Health, Leadership/Management, Gerontology, Mental Health, Critical Care/Emergency) and NGN **bowtie** + **drop-down cloze** + **matrix**, dual-cited originals only (Merck, OpenStax, WHO, AHRQ). **All eight Client Needs single-form quotas remain met at Source verified.**
 
 ---
 
@@ -48,17 +48,17 @@ Wave 23 added multi-exam depth with underrepresented specialties (Pediatrics, Ma
 
 | Format | n |
 | --- | ---: |
-| multiple_choice | 212 |
-| select_all_that_apply | 28 |
-| matrix_multiple_choice | 10 |
-| drop_down_cloze | 6 |
-| bowtie | 6 |
+| multiple_choice | 220 |
+| select_all_that_apply | 29 |
+| matrix_multiple_choice | 11 |
+| drop_down_cloze | 7 |
+| bowtie | 7 |
 | ordered_response | 2 |
 | calculation | 1 |
 
 | Jurisdiction | n |
 | --- | ---: |
-| General (Canada/US concordant) | 225 |
+| General (Canada/US concordant) | 237 |
 | Ontario-specific | 31 |
 | Canada-specific | 9 |
 
@@ -91,6 +91,7 @@ Wave 23 added multi-exam depth with underrepresented specialties (Pediatrics, Ma
 | B30-WAVE21 | 12 | Source verified (wave 21 — peds/maternity/community/leadership/critical care/MH + NGN bowtie/cloze/matrix) |
 | B31-WAVE22 | 12 | Source verified (wave 22 — peds/maternity/community/leadership/gero/MH/critical care + NGN bowtie/cloze/matrix) |
 | B32-WAVE23 | 12 | Source verified (wave 23 — maternity/peds/community/leadership/gero/MH/critical care + NGN bowtie/cloze/matrix) |
+| B33-WAVE24 | 12 | Source verified (wave 24 — maternity/peds/community/leadership/gero/MH/critical care + NGN bowtie/cloze/matrix) |
 | B01–B10 | 0 JSON | Prior fetch logs only; no authored batches completed |
 
 ---
@@ -112,7 +113,7 @@ Compiled bank copied into the GitHub app repo under `data/question-bank/` with a
 
 ## Next priorities
 
-1. Independent verifier pass on B00 + B11–B32 → Awaiting clinical review.  
+1. Independent verifier pass on B00 + B11–B33 → Awaiting clinical review.  
 2. Licensed clinician review (especially high-priority items flagged in clinical-review-queue).  
 3. Continue authoring toward **five-form** depth (~750 Source-verified → clinically reviewed), prioritizing underrepresented specialties (Pediatrics, Gerontology, Community/Public Health, Leadership/Management, Critical Care/Emergency, Maternity/Newborn) with live-fetched dual sources only.  
 4. Do **not** pad counts; exclude when a second independent source cannot be confirmed.
