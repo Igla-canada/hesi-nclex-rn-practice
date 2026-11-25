@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 428,
+  "Source verified": 441,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -48243,6 +48243,1498 @@
      "date": "2026-11-25",
      "result": "confirmed",
      "checks": "CNO Consent guideline: capacity is treatment-specific; capable client decides; if incapable use SDM. Code of Conduct 1.8 reinforces consent/SDM."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B46-WAVE37",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "cold-therapy",
+    "ice",
+    "BCC",
+    "fundamentals",
+    "comfort"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0039",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "Cold therapy — wrap ice in cloth; do not place ice directly on skin",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "cold-therapy-ice-wrap-cloth-not-direct-skin",
+   "stem": "The nurse teaches a client to use an ice pack for a soft-tissue injury. Which instruction is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Wrap the ice in a cloth and apply it; do not place ice directly on the skin"
+    },
+    {
+     "key": "B",
+     "text": "Place bare ice cubes directly against the skin for continuous 2-hour contact"
+    },
+    {
+     "key": "C",
+     "text": "Apply uncovered dry ice directly over open abrasions"
+    },
+    {
+     "key": "D",
+     "text": "Heat the ice pack in a microwave before applying it to the skin"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. MedlinePlus: wrap ice in cloth; do not place ice directly on the skin. Merck: apply ice wrapped in a towel or cloth.",
+    "B": "Incorrect. Direct ice and prolonged unprotected cold risk skin injury.",
+    "C": "Incorrect. Ice should not be placed directly on skin; open skin needs separate wound care.",
+    "D": "Incorrect. Ice packs are used cold; heating defeats cold therapy and risks burn."
+   },
+   "sources": [
+    {
+     "title": "Elbow sprain - aftercare",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000679.htm",
+     "section": "Self-Care at Home",
+     "source_date": "Review Date 9/2/2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Wrap ice in cloth; do not place ice directly on skin.",
+     "added_by": "author"
+    },
+    {
+     "title": "Overview of Sprains and Other Soft-Tissue Injuries",
+     "publisher": "Merck Manual Consumer Version",
+     "url": "https://www.merckmanuals.com/home/injuries-and-poisoning/sprains-and-other-soft-tissue-injuries/overview-of-sprains-and-other-soft-tissue-injuries",
+     "section": "Treatment of Sprains and Other Soft-Tissue Injuries",
+     "source_date": "Last updated: Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "Apply ice wrapped in a towel or cloth to control pain and swelling.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bb3ed644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus elbow aftercare (cloth barrier) + Merck soft-tissue injury (ice wrapped in towel/cloth)."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B46-WAVE37",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "NGN",
+    "matrix",
+    "cold-therapy",
+    "BCC",
+    "fundamentals"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0040",
+   "format": "matrix_multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "NGN matrix — cold pack safety teaching indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cold-pack-ngn-matrix-cloth-barrier-limited-time",
+   "stem": "For safe home use of an ice pack on a sprain, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Wrap the ice pack in a cloth before applying to skin"
+     },
+     {
+      "key": "R2",
+      "text": "Limit applications to about 15–20 minutes at a time as taught"
+     },
+     {
+      "key": "R3",
+      "text": "Place bare ice directly on unprotected skin for continuous hours"
+     },
+     {
+      "key": "R4",
+      "text": "Reassess skin for excessive redness, blistering, or numbness"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. MedlinePlus/Merck: wrap ice in cloth/towel before applying.",
+    "R2": "Indicated. MedlinePlus elbow aftercare: ice 15–20 minutes at a time.",
+    "R3": "Not indicated. Direct ice on skin is unsafe; wrap in cloth/towel.",
+    "R4": "Indicated. Protecting skin from cold injury requires monitoring the site."
+   },
+   "sources": [
+    {
+     "title": "Elbow sprain - aftercare",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000679.htm",
+     "section": "Self-Care at Home",
+     "source_date": "Review Date 9/2/2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "R1–R3",
+     "evidence": "Ice 15–20 min; wrap in cloth; do not place directly on skin.",
+     "added_by": "author"
+    },
+    {
+     "title": "Overview of Sprains and Other Soft-Tissue Injuries",
+     "publisher": "Merck Manual Consumer Version",
+     "url": "https://www.merckmanuals.com/home/injuries-and-poisoning/sprains-and-other-soft-tissue-injuries/overview-of-sprains-and-other-soft-tissue-injuries",
+     "section": "Treatment of Sprains and Other Soft-Tissue Injuries",
+     "source_date": "Last updated: Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "R1,R3,R4",
+     "evidence": "Apply ice wrapped in a towel or cloth to control pain and swelling.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bb3ed644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus elbow aftercare timed cloth-wrapped ice + Merck ice wrapped in towel/cloth."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B46-WAVE37",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "mobility",
+    "transfer",
+    "wheelchair",
+    "BCC",
+    "fundamentals",
+    "fall-prevention"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0041",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "Bed-to-wheelchair transfer — lock wheelchair brakes before transfer",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "wheelchair-transfer-lock-brakes-before-move",
+   "stem": "The nurse prepares to assist a partially weight-bearing client from bed to a wheelchair. Which action is essential before the transfer?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Lock the wheelchair brakes and stabilize the chair; clear footrests/leg rests as needed"
+    },
+    {
+     "key": "B",
+     "text": "Leave the wheelchair unlocked so it can roll toward the client"
+    },
+    {
+     "key": "C",
+     "text": "Ask the client to hold the moving wheelchair while standing unsupported"
+    },
+    {
+     "key": "D",
+     "text": "Place the wheelchair at the far end of the room without locking it"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. MyHealth Alberta: prepare the wheelchair by locking the brakes and removing/swinging away leg rests. OpenStax: before transfer, lock and stabilize equipment.",
+    "B": "Incorrect. An unlocked wheelchair can roll and cause a fall.",
+    "C": "Incorrect. The chair must be locked/stabilized; the client should not stabilize a moving chair.",
+    "D": "Incorrect. Chair should be positioned close and locked."
+   },
+   "sources": [
+    {
+     "title": "Transfer: Bed to Wheelchair",
+     "publisher": "Alberta Health Services / MyHealth Alberta",
+     "url": "https://myhealth.alberta.ca/Health/aftercareinformation/pages/conditions.aspx?hwid=acv3106",
+     "section": "Step 1. Sit the person up",
+     "source_date": "Adaptation Date 05/15/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A",
+     "evidence": "Prepare wheelchair by locking the brakes; remove/swing away leg rests.",
+     "added_by": "author"
+    },
+    {
+     "title": "9.3 Transferring Patients",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/9-3-transferring-patients",
+     "section": "Patient Education Related to Transfers",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Before transfer, lock and stabilize equipment.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bb3ed644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Alberta MyHealth: lock wheelchair brakes before transfer. OpenStax CNS: lock and stabilize equipment before transfer."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B46-WAVE37",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "NGN",
+    "matrix",
+    "wheelchair",
+    "transfer",
+    "BCC",
+    "fundamentals"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0042",
+   "format": "matrix_multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "NGN matrix — bed-to-wheelchair transfer safety actions",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "wheelchair-transfer-ngn-matrix-brakes-footrests-gait-belt",
+   "stem": "Before assisting a client from bed to wheelchair, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Lock the wheelchair brakes"
+     },
+     {
+      "key": "R2",
+      "text": "Remove or swing away leg rests that could trip the client"
+     },
+     {
+      "key": "R3",
+      "text": "Leave brakes unlocked so the chair rolls with the pivot"
+     },
+     {
+      "key": "R4",
+      "text": "Use a transfer/gait belt when additional secure hold is needed"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Alberta: lock the brakes. OpenStax: lock and stabilize equipment.",
+    "R2": "Indicated. Alberta: remove or swing away both leg rests.",
+    "R3": "Not indicated. Unlocked wheels increase fall risk during transfer.",
+    "R4": "Indicated. Alberta and OpenStax support transfer/gait belt use for safer assistance."
+   },
+   "sources": [
+    {
+     "title": "Transfer: Bed to Wheelchair",
+     "publisher": "Alberta Health Services / MyHealth Alberta",
+     "url": "https://myhealth.alberta.ca/Health/aftercareinformation/pages/conditions.aspx?hwid=acv3106",
+     "section": "Step 1 / Important safety tips",
+     "source_date": "Adaptation Date 05/15/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "R1–R4",
+     "evidence": "Lock brakes; remove/swing leg rests; use transfer belt.",
+     "added_by": "author"
+    },
+    {
+     "title": "9.3 Transferring Patients",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/9-3-transferring-patients",
+     "section": "Weight-Bearing Transfer / Patient Education Related to Transfers",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "R1,R3,R4",
+     "evidence": "Gait/transfer belt for stand-pivot; lock and stabilize equipment.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bb3ed644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Alberta + OpenStax dual-cite lock brakes, clear footrests/leg rests, and transfer belt use."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B46-WAVE37",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "SSI",
+    "surgery",
+    "clippers",
+    "SIPC",
+    "infection-prevention"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0041",
+   "format": "multiple_choice",
+   "specialty": "Medical-Surgical",
+   "topic": "SSI prevention — avoid hair removal unless necessary; clippers not razors",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ssi-hair-removal-clippers-not-razors",
+   "stem": "A preoperative nurse prepares the surgical site. Which hair-removal practice best aligns with SSI prevention guidance?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Do not remove hair unless it will interfere with the operation; if removal is needed, use clippers (not a razor)"
+    },
+    {
+     "key": "B",
+     "text": "Shave the entire surgical field with a razor the night before surgery"
+    },
+    {
+     "key": "C",
+     "text": "Always remove all hair at every incision site with a disposable razor in the OR"
+    },
+    {
+     "key": "D",
+     "text": "Use a razor immediately before incision because microscopic cuts reduce infection"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. SHEA: do not remove hair unless it interferes; if needed, clip outside the OR; do not use razors. ACS/SIS: avoid hair removal unless hair interferes; if needed use clippers instead of a razor.",
+    "B": "Incorrect. Routine razor shaving increases SSI risk.",
+    "C": "Incorrect. Routine removal is discouraged; razors are not preferred.",
+    "D": "Incorrect. Razor microtrauma is linked to higher SSI risk."
+   },
+   "sources": [
+    {
+     "title": "Strategies to Prevent Surgical Site Infections in Acute Care Hospitals: 2014 Update",
+     "publisher": "SHEA / IDSA / APIC (Infect Control Hosp Epidemiol)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4267723/",
+     "section": "SECTION 4 : RECOMMENDED STRATEGIES FOR SSI PREVENTION",
+     "source_date": "Published 2014",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Do not remove hair unless it will interfere; if necessary clip; do not use razors.",
+     "added_by": "author"
+    },
+    {
+     "title": "ACS and SIS Surgical Site Infection Guidelines, 2016 Update",
+     "publisher": "American College of Surgeons / Surgical Infection Society",
+     "url": "https://apic.org/Resource_/TinyMceFileManager/Implementation_Guides/5_ACSandSISGuidelinesDec2016.pdf",
+     "section": "Table 3 / Guideline 2.2 Hair removal",
+     "source_date": "2016 Update",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A",
+     "evidence": "Avoid hair removal unless hair interferes; if necessary use clippers instead of a razor.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bb3ed644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "SHEA 2014 + ACS/SIS 2016 agree: avoid routine hair removal; if needed use clippers, not razors."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B46-WAVE37",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "NGN",
+    "cloze",
+    "SSI",
+    "SIPC",
+    "surgery"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0042",
+   "format": "drop_down_cloze",
+   "specialty": "Medical-Surgical",
+   "topic": "NGN cloze — SSI hair removal: clippers preferred; avoid razors",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ssi-hair-ngn-cloze-clippers-not-razors",
+   "stem": "Complete the teaching about preoperative hair removal for SSI prevention.",
+   "ngn": {
+    "template": "Hair should {B1} unless it will interfere with surgery. If removal is necessary, use {B2} rather than a razor.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "always be shaved the night before"
+      },
+      {
+       "key": "B1b",
+       "text": "not be removed routinely"
+      },
+      {
+       "key": "B1c",
+       "text": "be waxed in the operating room"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "electric clippers (or a depilatory)"
+      },
+      {
+       "key": "B2b",
+       "text": "a straight razor for closer cut"
+      },
+      {
+       "key": "B2c",
+       "text": "scissors only after razor priming"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1b",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Incorrect. Routine night-before shaving is not recommended.",
+    "B1b": "Correct. SHEA/ACS: do not remove hair unless it interferes with the operation.",
+    "B1c": "Incorrect. Waxing in the OR is not the recommended approach.",
+    "B2a": "Correct. SHEA/ACS: if hair removal is needed, use clippers (or depilatory), not razors.",
+    "B2b": "Incorrect. Razors are discouraged because of microscopic cuts and SSI risk.",
+    "B2c": "Incorrect. Razor priming is not recommended SSI practice."
+   },
+   "sources": [
+    {
+     "title": "Strategies to Prevent Surgical Site Infections in Acute Care Hospitals: 2014 Update",
+     "publisher": "SHEA / IDSA / APIC (Infect Control Hosp Epidemiol)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4267723/",
+     "section": "SECTION 4 : RECOMMENDED STRATEGIES FOR SSI PREVENTION",
+     "source_date": "Published 2014",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "B1b,B2a",
+     "evidence": "Do not remove unless interferes; if needed clippers or depilatory; no razors.",
+     "added_by": "author"
+    },
+    {
+     "title": "ACS and SIS Surgical Site Infection Guidelines, 2016 Update",
+     "publisher": "American College of Surgeons / Surgical Infection Society",
+     "url": "https://apic.org/Resource_/TinyMceFileManager/Implementation_Guides/5_ACSandSISGuidelinesDec2016.pdf",
+     "section": "Guideline 2.2 Hair removal",
+     "source_date": "2016 Update",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "B1b,B2a",
+     "evidence": "Avoid removal unless interferes; clippers instead of razor.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bb3ed644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "SHEA + ACS dual-cite NGN cloze on avoid routine hair removal; clippers not razors."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B46-WAVE37",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "C-difficile",
+    "sporicidal",
+    "environmental-cleaning",
+    "SIPC"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0043",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "C. difficile — environmental cleaning with sporicidal agent",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cdiff-environmental-cleaning-sporicidal-agent",
+   "stem": "Environmental services asks which product to use for daily cleaning of a room occupied by a client with Clostridioides difficile infection. Which response is best?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Use a C. difficile sporicidal disinfectant (for example, an EPA List K agent) for daily and terminal cleaning"
+    },
+    {
+     "key": "B",
+     "text": "Wipe surfaces with plain water only; spores are removed by rinsing"
+    },
+    {
+     "key": "C",
+     "text": "Use alcohol wipes alone as the primary room disinfectant for C. difficile spores"
+    },
+    {
+     "key": "D",
+     "text": "Skip terminal cleaning after discharge because spores die within minutes on dry surfaces"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC CDI guidance: daily and terminal cleaning with a C. difficile sporicidal agent (EPA List K). Public Health Ontario: use a sporicidal agent for CDI bathroom cleaning and for discharge/transfer cleaning of the room/bathroom.",
+    "B": "Incorrect. Cleaning alone without a sporicidal disinfectant is inadequate for CDI rooms.",
+    "C": "Incorrect. Alcohol is not relied on as a sporicidal agent for C. difficile environmental disinfection.",
+    "D": "Incorrect. Terminal cleaning with a sporicidal agent after transfer/discharge is recommended."
+   },
+   "sources": [
+    {
+     "title": "Clinical Guidance for C. diff Infection Prevention in Acute Care Facilities",
+     "publisher": "Centers for Disease Control and Prevention",
+     "url": "https://www.cdc.gov/c-diff/hcp/clinical-guidance/",
+     "section": "Perform environmental cleaning",
+     "source_date": "May 13, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Daily/terminal cleaning with C. difficile sporicidal agent (EPA List K).",
+     "added_by": "author"
+    },
+    {
+     "title": "Significant Organisms in Environmental Cleaning — FAQs",
+     "publisher": "Public Health Ontario",
+     "url": "https://www.publichealthontario.ca/-/media/Documents/E/2023/ec/environmental-cleaning-significant-microorganisms-faqs.pdf?rev=f7aa82226ed54c6d8ee00760860b9b12&sc_lang=en",
+     "section": "Clostridioides difficile / environmental cleaning considerations",
+     "source_date": "Published: August 2023 (1st revision October 2024)",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Use sporicidal agent for CDI bathroom/room cleaning and discharge/transfer cleaning.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bb3ed644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC CDI clinical guidance (sporicidal/List K) + Public Health Ontario FAQ (sporicidal for CDI environmental cleaning)."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B46-WAVE37",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "fire",
+    "RACE",
+    "SIPC",
+    "leadership",
+    "emergency"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0044",
+   "format": "multiple_choice",
+   "specialty": "Leadership/Management",
+   "topic": "Facility fire response — RACE: Rescue, Alarm, Confine/Contain, Extinguish",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "fire-response-race-rescue-alarm-confine-extinguish",
+   "stem": "A nurse discovers a small wastebasket fire in an unoccupied patient room. Which response sequence best reflects standard healthcare fire response (RACE)?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Rescue anyone in immediate danger, activate the alarm, confine/contain the fire (close doors), then extinguish if safe"
+    },
+    {
+     "key": "B",
+     "text": "Ignore the alarm pull stations and first search for an elevator to evacuate the whole building"
+    },
+    {
+     "key": "C",
+     "text": "Open all doors on the unit to improve airflow before calling for help"
+    },
+    {
+     "key": "D",
+     "text": "Leave clients in the fire room while gathering personal belongings from the nursing station"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. NCBI/StatPearls (OSHA fire safety): RACE = rescue, alarm, confine, extinguish. Ohio healthcare fire tip sheet: Rescue, Alarm, Contain, Extinguish — rescue persons in immediate danger.",
+    "B": "Incorrect. Elevators are not used for fire evacuation; alarm activation is required.",
+    "C": "Incorrect. Confinement requires closing doors, not opening them to feed the fire.",
+    "D": "Incorrect. Rescue of those in danger and alarm/confine take priority over retrieving belongings."
+   },
+   "sources": [
+    {
+     "title": "OSHA Fire Safety",
+     "publisher": "StatPearls / NCBI Bookshelf",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK580481/",
+     "section": "Issues of Concern",
+     "source_date": "Last Update: February 27, 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "RACE = rescue, alarm, confine, extinguish.",
+     "added_by": "author"
+    },
+    {
+     "title": "Fire Safety for Healthcare Employees",
+     "publisher": "Ohio Department of Commerce — Division of State Fire Marshal",
+     "url": "https://dam.assets.ohio.gov/image/upload/com.ohio.gov/documents/fire_RACE.pdf",
+     "section": "R.A.C.E. Rescue, Alarm, Contain, Extinguish",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Rescue persons in immediate danger; Alarm; Contain; Extinguish.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bb3ed644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "NCBI StatPearls RACE (rescue/alarm/confine/extinguish) + Ohio healthcare RACE tip sheet (Rescue/Alarm/Contain/Extinguish)."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B46-WAVE37",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "mental-health-safety"
+   ],
+   "tags": [
+    "tardive-dyskinesia",
+    "antipsychotic",
+    "EPS",
+    "PSY",
+    "pharmacology"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0044",
+   "format": "multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "Tardive dyskinesia — involuntary orofacial movements; assess/report (AIMS)",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "tardive-dyskinesia-orofacial-involuntary-aims-report",
+   "stem": "A client on long-term antipsychotic therapy develops involuntary lip smacking and tongue protrusion. Which nursing interpretation and action are most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Suspect tardive dyskinesia; assess with an involuntary-movement tool (e.g., AIMS) and notify the provider"
+    },
+    {
+     "key": "B",
+     "text": "Reassure that these movements always resolve within minutes and require no follow-up"
+    },
+    {
+     "key": "C",
+     "text": "Immediately double the antipsychotic dose without notifying the provider"
+    },
+    {
+     "key": "D",
+     "text": "Interpret the movements as voluntary attention-seeking and ignore them"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: tardive dyskinesia presents with involuntary facial movements (lip smacking, tongue protruding); use AIMS to assess EPS/TD. Merck: TD involves involuntary lip/tongue movements; patients on long-term therapy should be evaluated periodically with AIMS.",
+    "B": "Incorrect. TD may persist and needs assessment/provider notification.",
+    "C": "Incorrect. Dose increases are not an independent nursing action and may worsen EPS/TD risk.",
+    "D": "Incorrect. TD movements are involuntary adverse effects, not voluntary behaviour."
+   },
+   "sources": [
+    {
+     "title": "15.1 Schizophrenia",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/15-1-schizophrenia",
+     "section": "Second-Generation Antipsychotics / Side Effects: AIMS",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "TD: involuntary facial movements, lip smacking, tongue protruding; assess with AIMS.",
+     "added_by": "author"
+    },
+    {
+     "title": "Antipsychotic Medications",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/schizophrenia-and-related-disorders/antipsychotic-medications",
+     "section": "Treatment of Adverse Effects of Antipsychotic Medications",
+     "source_date": "Last updated: Dec 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "TD: puckering of lips/tongue; evaluate at least every 6 months; use AIMS.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bb3ed644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax TD signs + AIMS; Merck TD description and periodic AIMS monitoring."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B46-WAVE37",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "mental-health-safety"
+   ],
+   "tags": [
+    "NGN",
+    "matrix",
+    "tardive-dyskinesia",
+    "PSY",
+    "pharmacology"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0045",
+   "format": "matrix_multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "NGN matrix — suspected tardive dyskinesia nursing actions",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "tardive-dyskinesia-ngn-matrix-aims-notify-no-ignore",
+   "stem": "A client on chronic antipsychotic therapy has new involuntary tongue and lip movements. Indicate whether each nursing action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Perform/assist with an Abnormal Involuntary Movement Scale (AIMS) assessment"
+     },
+     {
+      "key": "R2",
+      "text": "Notify the provider/prescriber of the new involuntary movements"
+     },
+     {
+      "key": "R3",
+      "text": "Document the findings and continue scheduled monitoring"
+     },
+     {
+      "key": "R4",
+      "text": "Tell the client the movements are intentional and withhold reporting"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. OpenStax/Merck support AIMS to track TD/EPS.",
+    "R2": "Indicated. New TD signs require clinician notification for regimen review.",
+    "R3": "Indicated. Ongoing evaluation/documentation is part of safe long-term antipsychotic care.",
+    "R4": "Not indicated. TD movements are involuntary adverse effects and must not be dismissed."
+   },
+   "sources": [
+    {
+     "title": "15.1 Schizophrenia",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/15-1-schizophrenia",
+     "section": "Side Effects: AIMS / Extrapyramidal Side Effects table",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "R1–R4",
+     "evidence": "AIMS for TD assessment; TD = involuntary orofacial movements.",
+     "added_by": "author"
+    },
+    {
+     "title": "Antipsychotic Medications",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/schizophrenia-and-related-disorders/antipsychotic-medications",
+     "section": "Treatment of Adverse Effects of Antipsychotic Medications",
+     "source_date": "Last updated: Dec 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "R1–R3",
+     "evidence": "Evaluate long-term therapy periodically; use AIMS to track changes.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bb3ed644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax AIMS/TD + Merck monitoring guidance for indicated TD nursing actions matrix."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B46-WAVE37",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety",
+    "emergency"
+   ],
+   "tags": [
+    "NGN",
+    "bowtie",
+    "hallucinations",
+    "PSY",
+    "safety"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0046",
+   "format": "bowtie",
+   "specialty": "Mental Health",
+   "topic": "NGN bowtie — command auditory hallucinations: prioritize safety assessment",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "command-hallucinations-bowtie-safety-priority",
+   "stem": "A client with schizophrenia reports voices telling them to harm themselves. Complete the bowtie: most likely condition, two priority actions, and two parameters to monitor.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Command auditory hallucinations with elevated self-harm risk"
+     },
+     {
+      "key": "K2",
+      "text": "Uncomplicated grief without perceptual disturbance"
+     },
+     {
+      "key": "K3",
+      "text": "Seasonal allergic rhinitis"
+     },
+     {
+      "key": "K4",
+      "text": "Resolved medication adherence with no safety concerns"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Assess suicide/violence risk and ensure immediate environmental safety"
+     },
+     {
+      "key": "A2",
+      "text": "Stay with the client / increase observation per protocol while notifying the team"
+     },
+     {
+      "key": "A3",
+      "text": "Argue that the voices are impossible and leave the client alone in a room with sharps"
+     },
+     {
+      "key": "A4",
+      "text": "Ignore the report because hallucinations are always harmless"
+     },
+     {
+      "key": "A5",
+      "text": "Encourage the client to act on the commands to 'test reality'"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "Presence/content of command hallucinations and intent to act"
+     },
+     {
+      "key": "P2",
+      "text": "Level of observation / access to means of harm"
+     },
+     {
+      "key": "P3",
+      "text": "Favourite television channel preference only"
+     },
+     {
+      "key": "P4",
+      "text": "Shoe size"
+     },
+     {
+      "key": "P5",
+      "text": "Unrelated cafeteria menu choices"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K1",
+    "actions": [
+     "A1",
+     "A2"
+    ],
+    "parameters": [
+     "P1",
+     "P2"
+    ]
+   },
+   "rationales": {
+    "K1": "Correct. OpenStax: command auditory hallucinations direct the person to do things such as violence toward self or others.",
+    "K2": "Incorrect. Grief alone does not explain command hallucinations.",
+    "K3": "Incorrect. Allergic rhinitis is unrelated.",
+    "K4": "Incorrect. Command hallucinations indicate ongoing safety concern.",
+    "A1": "Correct. OpenStax: safety is paramount; assess suicide and violence risk.",
+    "A2": "Correct. Maintaining safety/observation and team notification are priority actions.",
+    "A3": "Incorrect. Arguing and leaving with means available increase harm risk.",
+    "A4": "Incorrect. Command hallucinations are not harmless.",
+    "A5": "Incorrect. Never encourage acting on harmful commands.",
+    "P1": "Correct. Monitor hallucination content and intent to act.",
+    "P2": "Correct. Observation level and means restriction are key safety parameters.",
+    "P3": "Incorrect. Not a safety parameter for command hallucinations.",
+    "P4": "Incorrect. Irrelevant.",
+    "P5": "Incorrect. Irrelevant."
+   },
+   "sources": [
+    {
+     "title": "15.1 Schizophrenia",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/15-1-schizophrenia",
+     "section": "Positive Symptoms of Schizophrenia / Client-Centered Care Approaches",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "K1,A1,A2,P1,P2",
+     "evidence": "Command hallucinations may direct violence to self/others; safety and suicide/violence risk assessment are paramount.",
+     "added_by": "author"
+    },
+    {
+     "title": "Schizophrenia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/schizophrenia-and-related-disorders/schizophrenia",
+     "section": "Risk of suicide / Risk of violence",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "K1,A1,P1,P2",
+     "evidence": "Schizophrenia carries elevated suicide risk; violence risk assessment is clinically relevant when symptoms threaten safety.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bb3ed644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax command hallucinations + safety/suicide-violence assessment; Merck schizophrenia suicide/violence risk supports safety priority bowtie."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B46-WAVE37",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "mental-health-safety"
+   ],
+   "tags": [
+    "akathisia",
+    "EPS",
+    "antipsychotic",
+    "PPT",
+    "pharmacology"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0051",
+   "format": "multiple_choice",
+   "specialty": "Pharmacology",
+   "topic": "Akathisia — motor restlessness from antipsychotics; report; do not ignore",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "akathisia-antipsychotic-restlessness-report",
+   "stem": "Two days after starting a first-generation antipsychotic, a client paces constantly and says, “I feel like I can’t sit still.” Which nursing conclusion is best?",
+   "options": [
+    {
+     "key": "A",
+     "text": "This may be akathisia (motor restlessness); assess and notify the provider because it is distressing and can lead to nonadherence"
+    },
+    {
+     "key": "B",
+     "text": "This is always intentional hyperactivity and should be ignored"
+    },
+    {
+     "key": "C",
+     "text": "This proves the client needs a higher antipsychotic dose immediately without assessment"
+    },
+    {
+     "key": "D",
+     "text": "This is pathognomonic of tardive dyskinesia lip-smacking that requires no reporting"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: akathisia includes restlessness and inability to sit still, often early after starting/increasing dose. Merck: akathisia (motor restlessness) is particularly unpleasant and may lead to nonadherence.",
+    "B": "Incorrect. Akathisia is an adverse effect, not willful behaviour.",
+    "C": "Incorrect. Dose increases without assessment may worsen EPS; notify provider.",
+    "D": "Incorrect. Classic TD is late orofacial involuntary movements, not acute restlessness."
+   },
+   "sources": [
+    {
+     "title": "15.1 Schizophrenia",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/15-1-schizophrenia",
+     "section": "Extrapyramidal Side Effects table (Akathisia)",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractor D",
+     "evidence": "Akathisia: restlessness, pacing, cannot sit still; develops early after start/increase.",
+     "added_by": "author"
+    },
+    {
+     "title": "Antipsychotic Medications",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/schizophrenia-and-related-disorders/antipsychotic-medications",
+     "section": "Treatment of Adverse Effects of Antipsychotic Medications",
+     "source_date": "Last updated: Dec 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "Akathisia (motor restlessness) is unpleasant and may lead to nonadherence.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bb3ed644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax akathisia EPS table + Merck akathisia/nonadherence dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B46-WAVE37",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CNO Documentation practice standard (in effect Feb 1, 2026) is Ontario regulatory authority for nursing documentation accountabilities.",
+   "jurisdiction": "Ontario-specific",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario",
+    "single-source"
+   ],
+   "tags": [
+    "CNO",
+    "documentation",
+    "Ontario",
+    "MOC",
+    "professional-practice"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0072",
+   "format": "multiple_choice",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "CNO Documentation — timely entries; do not document before care is provided",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cno-documentation-timely-not-before-care",
+   "stem": "An Ontario RN is charting after a busy morning. Which action meets CNO Documentation accountabilities?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Document care in a timely manner at the time of care or as soon as possible afterward — and do not document care before it is provided"
+    },
+    {
+     "key": "B",
+     "text": "Pre-chart anticipated care for the entire shift before assessing any clients"
+    },
+    {
+     "key": "C",
+     "text": "Delete another nurse’s entry that the RN disagrees with"
+    },
+    {
+     "key": "D",
+     "text": "Falsify a late vital-sign entry to match expected values"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO Documentation: document in a timely manner at the time of care or as soon as possible after; nurses do not document before the care is provided.",
+    "B": "Incorrect. Documenting before care is provided is prohibited.",
+    "C": "Incorrect. CNO: do not delete, alter, or modify documentation produced by others.",
+    "D": "Incorrect. CNO: do not falsify a record relating to practice."
+   },
+   "sources": [
+    {
+     "title": "Documentation",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41001_documentation.pdf",
+     "section": "Documentation requirements / Accountabilities",
+     "source_date": "Revised September 2025 (in effect February 1, 2026)",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Document timely; do not document before care; do not falsify; do not alter others’ entries.",
+     "added_by": "author"
+    },
+    {
+     "title": "Code of Conduct",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/49040_code-of-conduct.pdf",
+     "section": "Principles of the Code / professional accountability",
+     "source_date": "Updated March 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A",
+     "evidence": "Nurses are accountable to CNO standards of practice, including documentation integrity.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bb3ed644) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Documentation (timely; not before care; no falsify) primary. Code of Conduct reinforces standards accountability. Same Ontario regulator — flagged single-source publisher family."
     }
    ],
    "exam_version_published": null,
