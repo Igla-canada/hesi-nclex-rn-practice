@@ -236,8 +236,8 @@ async function main() {
           questionId: q.id,
           answerKey: {
             format: item.format,
-            ngn: item.ngn,
-            correct: item.correct_answer,
+            ngn: item.ngn as object,
+            correct: item.correct_answer as object,
           },
           pointsMax: 1,
         },
