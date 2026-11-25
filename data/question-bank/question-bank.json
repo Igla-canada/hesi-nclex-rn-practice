@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 337,
+  "Source verified": 349,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -37520,6 +37520,1429 @@
      "source_type": "clinical_reference",
      "supports": "Keys B,E and distractor D",
      "evidence": "Exposed distal sites; avoid rubbing.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B39-WAVE30",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CNO Discontinuing or Declining to Provide Care practice standard and Code of Conduct 3.13; Ontario professional misconduct regulation referenced in the standard.",
+   "jurisdiction": "Ontario-specific",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario",
+    "guideline-version-sensitive"
+   ],
+   "id": "ONRN-MOC-0053",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "CNO",
+    "discontinuing-care",
+    "continuity",
+    "Ontario",
+    "MOC"
+   ],
+   "stem": "An Ontario client in independent nursing practice asks to discontinue nursing services. According to CNO accountabilities, which action is required?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Arrange timely alternative or replacement services, or give the client a reasonable opportunity to arrange alternative services"
+    },
+    {
+     "key": "B",
+     "text": "Stop all contact immediately without arranging or allowing time for alternative care"
+    },
+    {
+     "key": "C",
+     "text": "Refuse the client’s request and continue visits indefinitely regardless of the client’s wishes"
+    },
+    {
+     "key": "D",
+     "text": "Transfer the client’s health records to social media so the public can find another nurse"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO Code of Conduct 3.13 and the Discontinuing or Declining to Provide Care standard: when services are discontinued at the client’s request, nurses arrange timely alternative or replacement services or provide a reasonable opportunity to arrange alternatives. Professional misconduct rules likewise require alternatives or a reasonable opportunity unless the client requests discontinuation (which still requires ensuring ongoing access).",
+    "B": "Incorrect. Abrupt cessation without arranging alternatives or a reasonable opportunity abandons needed care and conflicts with CNO continuity accountabilities.",
+    "C": "Incorrect. Capable clients may request discontinuation; nurses must respect the request while ensuring ongoing access pathways (CNO).",
+    "D": "Incorrect. Sharing PHI on social media violates privacy and is not an alternative-care arrangement."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "CNO discontinuing care — arrange alternative/replacement or reasonable opportunity",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cno-discontinuing-arrange-alternative-or-reasonable-opportunity",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-8793b0d6) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Discontinuing PDF: cannot abandon; misconduct unless client requests / alternatives arranged / reasonable opportunity. CNO Code 3.13: arrange timely alternative/replacement or reasonable opportunity. OpenStax Fund 16.2 fidelity/nonmaleficence support continuity and do-no-harm framing."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Discontinuing or Declining to Provide Care",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/ps-discontinuing-or-declining-to-provide-care-en.pdf",
+     "section": "Introduction; professional misconduct regulation paragraph 1(5)",
+     "source_date": "Updated March 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A and distractors B–C",
+     "evidence": "Cannot abandon; discontinue only if client requests, alternatives arranged, or reasonable opportunity given.",
+     "added_by": "author"
+    },
+    {
+     "title": "Code of Conduct",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/49040_code-of-conduct.pdf",
+     "section": "Principle 3, accountabilities 3.13",
+     "source_date": "Updated March 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A",
+     "evidence": "3.13 Arrange timely alternative or replacement services or provide reasonable opportunity.",
+     "added_by": "author"
+    },
+    {
+     "title": "16.2 Ethics in Nursing Practice",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/16-2-ethics-in-nursing-practice",
+     "section": "Ethical Principles in Nursing — Fidelity; Nonmaleficence",
+     "source_date": "citation_date Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A / distractor B framing",
+     "evidence": "Fidelity = faithfulness/loyalty to patients; nonmaleficence = do no harm.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B39-WAVE30",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CNO Professional Boundaries and Nurse-Client Relationships practice standard (updated Dec 2025 / in effect Mar 1, 2026).",
+   "jurisdiction": "Ontario-specific",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario",
+    "guideline-version-sensitive"
+   ],
+   "id": "ONRN-MOC-0054",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "CNO",
+    "professional-boundaries",
+    "financial",
+    "Ontario",
+    "MOC"
+   ],
+   "stem": "A home-care client asks the nurse to borrow $50 until the next pension cheque. Which response best upholds professional boundaries?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Decline financial transactions unrelated to care (do not lend or borrow money) and, if needed, refer the client to appropriate resources"
+    },
+    {
+     "key": "B",
+     "text": "Lend the money from personal funds because the amount is small and the client seems trustworthy"
+    },
+    {
+     "key": "C",
+     "text": "Ask the client to add the nurse as a joint bank-account holder to ‘help manage bills’"
+    },
+    {
+     "key": "D",
+     "text": "Accept a larger cash ‘gift’ from the client in exchange for the loan"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO Professional Boundaries: nurses must not engage in financial transactions unrelated to care with a client or family (e.g., borrowing money). OpenStax: social boundaries require avoiding nontherapeutic socialization/personal entanglement; keep the focus on the client’s care needs and refer appropriately.",
+    "B": "Incorrect. Lending money is a prohibited financial transaction outside care (CNO).",
+    "C": "Incorrect. Joint finances create a major boundary violation and conflict of interest (CNO).",
+    "D": "Incorrect. Exchanging gifts/money for personal benefit blurs boundaries and risks misconduct (CNO)."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "CNO professional boundaries — no borrowing/lending money with clients",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cno-boundaries-no-borrow-lend-money-client",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-8793b0d6) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Boundaries PDF: no financial transactions unrelated to care; borrowing money example. OpenStax PMH 3.1 Social Boundaries: avoid socializing beyond therapeutic small talk; keep focus on client."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Professional Boundaries and Nurse-Client Relationships",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41033_therapeutic.pdf",
+     "section": "Professional boundaries; Gifts",
+     "source_date": "Revised December 2025 (in effect March 1, 2026)",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A and distractors B–D",
+     "evidence": "Must not engage in financial transactions unrelated to care, such as borrowing money from a client.",
+     "added_by": "author"
+    },
+    {
+     "title": "3.1 Therapeutic Communication and Relationships",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/3-1-therapeutic-communication-and-relationships",
+     "section": "Social Boundaries; Treatment Issues and Obstacles",
+     "source_date": "citation_date Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Avoid socializing beyond brief therapeutic small talk; keep focus on the client, not the nurse’s personal needs.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B39-WAVE30",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-MOC-0055",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "TeamSTEPPS",
+    "IM-SAFE",
+    "fatigue",
+    "leadership",
+    "MOC"
+   ],
+   "stem": "A nurse slept only 3 hours before a busy shift and feels less sharp than usual. Using the TeamSTEPPS I’M SAFE checklist, which action best supports situation monitoring?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Alert the team about fatigue (for example, ask colleagues to watch more closely today) so the team can support safe performance"
+    },
+    {
+     "key": "B",
+     "text": "Hide the fatigue and refuse any help so no one questions competence"
+    },
+    {
+     "key": "C",
+     "text": "Drink alcohol before the shift to ‘relax into the workload’"
+    },
+    {
+     "key": "D",
+     "text": "Skip handoffs entirely to conserve energy"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. AHRQ I’M SAFE: Fatigue — team members should alert the team (e.g., “Watch me a little closer today. I only had 3 hours of sleep last night.”). Situation monitoring supports shared awareness so the team can compensate. OpenStax lists situation monitoring among TeamSTEPPS core competencies.",
+    "B": "Incorrect. I’M SAFE expects honest awareness and disclosure of factors that impair safety, not concealment.",
+    "C": "Incorrect. Alcohol/drugs is an I’M SAFE risk factor that impairs focus; using alcohol worsens safety.",
+    "D": "Incorrect. Skipping handoffs removes critical communication and increases risk."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "TeamSTEPPS I’M SAFE — disclose fatigue so team can support safety",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "teamstepps-imsafe-fatigue-disclose-to-team",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-8793b0d6) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ I’M SAFE checklist: Fatigue disclosure example with 3 hours sleep. OpenStax Med-Surg 6.2 TeamSTEPPS core competencies include situation monitoring."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tool: I'M SAFE Checklist",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/teamstepps-program/curriculum/situation/tools/safe.html",
+     "section": "How To Effectively Use the I'M SAFE Checklist — Fatigue",
+     "source_date": "Page last reviewed June 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–C",
+     "evidence": "Fatigue: alert the team — e.g., watch me closer; only 3 hours of sleep.",
+     "added_by": "author"
+    },
+    {
+     "title": "6.2 Effective Communication in the Nurse-Patient Relationship",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/6-2-effective-communication-in-the-nurse-patient-relationship",
+     "section": "TeamSTEPPS",
+     "source_date": "citation_date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "TeamSTEPPS core competencies include situation monitoring.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B39-WAVE30",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-MOC-0056",
+   "format": "drop_down_cloze",
+   "scoring_model": "zero_one",
+   "tags": [
+    "TeamSTEPPS",
+    "STEP",
+    "NGN",
+    "cloze",
+    "leadership",
+    "MOC"
+   ],
+   "stem": "A charge nurse teaches situation monitoring using the TeamSTEPPS STEP tool. Complete the teaching statement.",
+   "ngn": {
+    "template": "STEP prompts teams to monitor the {B1} (including vitals and care plan), the status of {B2} (including fatigue and workload), the {B3} (staffing, equipment, acuity), and {B4} toward established goals so the plan can be revised when needed.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "status of the patient"
+      },
+      {
+       "key": "B1b",
+       "text": "stock prices of vendors"
+      },
+      {
+       "key": "B1c",
+       "text": "personal social media metrics"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "team members"
+      },
+      {
+       "key": "B2b",
+       "text": "unrelated celebrities"
+      },
+      {
+       "key": "B2c",
+       "text": "only off-duty staff at home"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "environment"
+      },
+      {
+       "key": "B3b",
+       "text": "colour of the break-room walls only"
+      },
+      {
+       "key": "B3c",
+       "text": "parking fines of visitors"
+      }
+     ],
+     "B4": [
+      {
+       "key": "B4a",
+       "text": "progress"
+      },
+      {
+       "key": "B4b",
+       "text": "punitive silence"
+      },
+      {
+       "key": "B4c",
+       "text": "withholding of safety concerns"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a",
+    "B4": "B4a"
+   },
+   "rationales": {
+    "B1a": "Correct. AHRQ STEP monitors patient status (history, vitals, medications, exam, care plan, psychosocial factors).",
+    "B1b": "Incorrect. Vendor stock prices are not a STEP patient-status element.",
+    "B1c": "Incorrect. Social media metrics are unrelated to clinical situation monitoring.",
+    "B2a": "Correct. AHRQ STEP includes awareness of team members (fatigue, workload, task performance, skill, stress).",
+    "B2b": "Incorrect. Celebrity status is not a TeamSTEPPS team-member element.",
+    "B2c": "Incorrect. STEP focuses on the working team’s current functioning, not only off-duty staff.",
+    "B3a": "Correct. AHRQ STEP assesses environment (occupancy, staffing, triage acuity, outbreaks, equipment).",
+    "B3b": "Incorrect. Decorative wall colour alone is not the environmental monitoring intent.",
+    "B3c": "Incorrect. Parking fines are unrelated to care-environment monitoring.",
+    "B4a": "Correct. AHRQ STEP monitors progress toward goals so the plan can be revised or resources added.",
+    "B4b": "Incorrect. Punitive silence is not a STEP element.",
+    "B4c": "Incorrect. Withholding concerns opposes TeamSTEPPS safety culture."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "NGN cloze — TeamSTEPPS STEP: patient, team, environment, progress",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Understanding",
+   "enemy_group": "ngn-cloze-teamstepps-step-patient-team-environment-progress",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-8793b0d6) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ Tool STEP: monitor patient status, team members, environment, progress toward goals. OpenStax Med-Surg 6.2: situation monitoring is a TeamSTEPPS core competency."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tool: STEP",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/teamstepps-program/curriculum/situation/tools/step.html",
+     "section": "Tool: STEP",
+     "source_date": "Page last reviewed June 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "All blanks",
+     "evidence": "Monitor patient status, team members, environment, and progress toward goals.",
+     "added_by": "author"
+    },
+    {
+     "title": "6.2 Effective Communication in the Nurse-Patient Relationship",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/6-2-effective-communication-in-the-nurse-patient-relationship",
+     "section": "TeamSTEPPS",
+     "source_date": "citation_date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Teaching frame",
+     "evidence": "Situation monitoring is a TeamSTEPPS core competency.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B39-WAVE30",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-HPM-0046",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "hepatitis-B",
+    "vaccine",
+    "community",
+    "HPM"
+   ],
+   "stem": "A community health nurse teaches adults how to prevent hepatitis B virus infection. Which statement is the priority prevention teaching point?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Getting vaccinated is the best way to prevent hepatitis B"
+    },
+    {
+     "key": "B",
+     "text": "Isolation of infected persons is the primary community prevention strategy because vaccine adds little"
+    },
+    {
+     "key": "C",
+     "text": "Hepatitis B is mainly spread by casual hugging and sharing utensils, so avoid all social contact"
+    },
+    {
+     "key": "D",
+     "text": "There is no vaccine; only herbal teas prevent infection"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: the best way to prevent hepatitis B is vaccination. Merck: routine HepB vaccination is recommended to prevent infection; vaccination in endemic areas has dramatically reduced prevalence.",
+    "B": "Incorrect. Merck notes isolation of patients is of no value for HBV prevention; vaccination and risk-behaviour counselling are the focus.",
+    "C": "Incorrect. CDC: HBV is not spread by hugging, sneezing, coughing, or sharing utensils; it spreads via blood and certain body fluids.",
+    "D": "Incorrect. Safe, effective HepB vaccines exist and are recommended (CDC/Merck)."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Hepatitis B — vaccination as best prevention",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "hepb-vaccine-best-prevention",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-8793b0d6) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Hep B Prevention: best way is vaccination; not spread by hugging/utensils. Merck Hep B vaccine + Acute Hep B Prevention: vaccination recommended; isolation of no value."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Hepatitis B Prevention and Control",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/hepatitis-b/prevention/index.html",
+     "section": "Key points; How it spreads; Prevention tips",
+     "source_date": "Updated January 31, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors C–D",
+     "evidence": "Best way to prevent hepatitis B is getting vaccinated; not spread by hugging or sharing utensils.",
+     "added_by": "author"
+    },
+    {
+     "title": "Hepatitis B, Acute — Prevention",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/hepatitis/hepatitis-b-acute",
+     "section": "Prevention of Acute Hepatitis B; Vaccination",
+     "source_date": "Last updated Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractor B",
+     "evidence": "Routine vaccination recommended; isolation of patients is of no value.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B39-WAVE30",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn"
+   ],
+   "id": "ONRN-HPM-0047",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "Tdap",
+    "pertussis",
+    "pregnancy",
+    "community",
+    "HPM"
+   ],
+   "stem": "A pregnant client at 28 weeks’ gestation asks about whooping cough (pertussis) protection for the newborn. Which teaching is appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Receive one Tdap dose during every pregnancy, preferably early in weeks 27 through 36"
+    },
+    {
+     "key": "B",
+     "text": "Skip Tdap in pregnancy if a dose was given 2 years ago for a tetanus booster"
+    },
+    {
+     "key": "C",
+     "text": "Tdap is never given in pregnancy; wait until the child is 5 years old"
+    },
+    {
+     "key": "D",
+     "text": "Only the newborn needs vaccination at birth for pertussis; maternal Tdap is unnecessary"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC and Merck: give a single Tdap during every pregnancy, preferably in the early part of gestational weeks 27–36, regardless of the interval since prior Tdap.",
+    "B": "Incorrect. Additional Tdap is recommended each pregnancy regardless of interval since the previous dose (CDC/Merck).",
+    "C": "Incorrect. Tdap in pregnancy is specifically recommended to protect infants (CDC/Merck).",
+    "D": "Incorrect. Maternal vaccination in pregnancy is recommended to transfer antibodies; infants begin DTaP later in infancy, not a birth pertussis dose as the sole strategy."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Tdap during every pregnancy at 27–36 weeks for infant pertussis protection",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "tdap-every-pregnancy-27-36-weeks",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-8793b0d6) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Pertussis Vaccination: Tdap every pregnancy preferably early 27–36 weeks. Merck DTaP/Tdap vaccine: additional Tdap each pregnancy preferably 27–36 weeks regardless of interval."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Pertussis Vaccination Recommendations",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/pertussis/hcp/vaccine-recommendations/index.html",
+     "section": "Pregnant women",
+     "source_date": "Dec. 2, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Single Tdap every pregnancy, preferably early gestational weeks 27–36.",
+     "added_by": "author"
+    },
+    {
+     "title": "Diphtheria-Tetanus-Pertussis Vaccine",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/immunization/diphtheria-tetanus-pertussis-vaccine",
+     "section": "Indications for Diphtheria-Tetanus-Pertussis Vaccine",
+     "source_date": "Last updated May 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractor B",
+     "evidence": "Tdap each pregnancy preferably between 27 and 36 weeks, regardless of interval since prior Tdap.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B39-WAVE30",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-PSY-0032",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "therapeutic-communication",
+    "changing-subject",
+    "mental-health",
+    "PSY"
+   ],
+   "stem": "A client begins to disclose a painful personal experience. The nurse feels uncomfortable and quickly asks about the weather instead. Which evaluation of this response is accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Changing the subject is a nontherapeutic barrier that can seem insensitive and shut down disclosure"
+    },
+    {
+     "key": "B",
+     "text": "Changing the subject is the preferred therapeutic technique for painful topics"
+    },
+    {
+     "key": "C",
+     "text": "Changing the subject always increases trust more than active listening"
+    },
+    {
+     "key": "D",
+     "text": "Nurses should change the subject whenever clients show emotion"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax PMH: changing the subject dismisses important disclosure and can seem uncaring; use active listening instead. OpenStax Fundamentals: changing the subject is listed among nontherapeutic techniques.",
+    "B": "Incorrect. Changing the subject is classified as nontherapeutic, not preferred therapy.",
+    "C": "Incorrect. Active listening supports trust; changing the subject undermines it.",
+    "D": "Incorrect. Emotional disclosure is a cue to stay present therapeutically, not to divert."
+   },
+   "specialty": "Mental Health",
+   "topic": "Therapeutic communication — changing the subject is nontherapeutic",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Evaluate Outcomes",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "therapeutic-comm-changing-subject-nontherapeutic",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-8793b0d6) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax PMH 3.1 Changing the Subject barrier. OpenStax Fund 2.4 Nontherapeutic techniques include changing the subject."
+    }
+   ],
+   "sources": [
+    {
+     "title": "3.1 Therapeutic Communication and Relationships",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/3-1-therapeutic-communication-and-relationships",
+     "section": "Changing the Subject",
+     "source_date": "citation_date Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Changing the subject dismisses disclosure; use active listening instead.",
+     "added_by": "author"
+    },
+    {
+     "title": "2.4 Therapeutic Communication",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/2-4-therapeutic-communication",
+     "section": "Nontherapeutic Communication Techniques",
+     "source_date": "citation_date Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Nontherapeutic techniques include changing the subject.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B39-WAVE30",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-PSY-0033",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "therapeutic-communication",
+    "NGN",
+    "matrix",
+    "mental-health",
+    "PSY"
+   ],
+   "stem": "For each nursing response, indicate whether it is a barrier to therapeutic communication (Avoid) or a therapeutic approach (Use).",
+   "ngn": {
+    "columns": [
+     "Avoid (barrier)",
+     "Use (therapeutic)"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Providing false reassurance that is not based on facts"
+     },
+     {
+      "key": "R2",
+      "text": "Changing the subject when the client discloses something painful"
+     },
+     {
+      "key": "R3",
+      "text": "Using active listening and clarifying questions to keep the message flowing"
+     },
+     {
+      "key": "R4",
+      "text": "Minimizing the client’s concern (for example, ‘it could be worse’)"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Avoid (barrier)",
+    "R2": "Avoid (barrier)",
+    "R3": "Use (therapeutic)",
+    "R4": "Avoid (barrier)"
+   },
+   "rationales": {
+    "R1": "Avoid (barrier). OpenStax lists providing false reassurances among barriers/nontherapeutic techniques.",
+    "R2": "Avoid (barrier). Changing the subject is a listed barrier/nontherapeutic technique.",
+    "R3": "Use (therapeutic). OpenStax: instead of changing the subject, use active listening and clarifying questions.",
+    "R4": "Avoid (barrier). Minimizing remarks (e.g., ‘it could be worse’) are nontherapeutic barriers."
+   },
+   "specialty": "Mental Health",
+   "topic": "NGN matrix — therapeutic communication barriers vs active listening",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "ngn-matrix-therapeutic-comm-barriers-vs-active-listening",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-8793b0d6) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax PMH 3.1 barriers: false reassurance, changing subject, minimizing. OpenStax Fund 2.4 nontherapeutic list includes false reassurance and changing the subject; PMH recommends active listening."
+    }
+   ],
+   "sources": [
+    {
+     "title": "3.1 Therapeutic Communication and Relationships",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/3-1-therapeutic-communication-and-relationships",
+     "section": "Barriers to Therapeutic Communication; Changing the Subject; Making Remarks That Are Minimizing; Providing False Reassurance",
+     "source_date": "citation_date Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "All rows",
+     "evidence": "Barriers include false reassurance, changing the subject, minimizing; use active listening instead.",
+     "added_by": "author"
+    },
+    {
+     "title": "2.4 Therapeutic Communication",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/2-4-therapeutic-communication",
+     "section": "Nontherapeutic Communication Techniques",
+     "source_date": "citation_date Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Rows R1–R2",
+     "evidence": "Nontherapeutic techniques include changing the subject and giving false reassurance.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B39-WAVE30",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "id": "ONRN-PSY-0034",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "schizophrenia",
+    "delusions",
+    "reality-based",
+    "mental-health",
+    "PSY"
+   ],
+   "stem": "A client with schizophrenia firmly believes hospital food is poisoned despite evidence to the contrary. After safety is assured, which nursing communication approach is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Establish trust with therapeutic communication, then help the client focus on reality-based themes rather than arguing about the delusion"
+    },
+    {
+     "key": "B",
+     "text": "Agree that the food is poisoned to build rapport"
+    },
+    {
+     "key": "C",
+     "text": "Loudly argue until the client retracts the belief"
+    },
+    {
+     "key": "D",
+     "text": "Ignore the client and withhold all meals indefinitely"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: for clients experiencing delusions, establish therapeutic communication and trust, then help focus on reality-based themes. Merck: delusions are erroneous beliefs maintained despite clear contradictory evidence — arguing facts alone rarely erases the belief; supportive, reality-oriented psychosocial care is part of treatment.",
+    "B": "Incorrect. Reinforcing a delusion is not therapeutic and can worsen safety planning.",
+    "C": "Incorrect. Confrontational arguing is nontherapeutic and may escalate distress.",
+    "D": "Incorrect. Withholding meals is harmful and unrelated to therapeutic communication."
+   },
+   "specialty": "Mental Health",
+   "topic": "Schizophrenia — focus on reality-based themes; do not argue the delusion",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "schizophrenia-reality-based-themes-not-argue-delusion",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-8793b0d6) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax PMH 15.1 Implementation: establish trust then focus on reality-based themes for delusions. Merck Schizophrenia: delusions maintained despite contradictory evidence; treatment includes psychosocial approaches."
+    }
+   ],
+   "sources": [
+    {
+     "title": "15.1 Schizophrenia",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/15-1-schizophrenia",
+     "section": "Implementation of Nursing Care",
+     "source_date": "citation_date Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Establish therapeutic communication/trust with clients experiencing delusions; help focus on reality-based themes.",
+     "added_by": "author"
+    },
+    {
+     "title": "Schizophrenia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/schizophrenia-and-related-disorders/schizophrenia",
+     "section": "Symptom categories in schizophrenia — Delusions; Treatment",
+     "source_date": "Last updated Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractors B–C",
+     "evidence": "Delusions are erroneous beliefs maintained despite clear contradictory evidence; treatment includes psychosocial rehabilitation.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B39-WAVE30",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric",
+    "emergency"
+   ],
+   "id": "ONRN-PA-0066",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "pyloric-stenosis",
+    "pediatrics",
+    "projectile-vomiting",
+    "PA"
+   ],
+   "stem": "A 5-week-old infant has forceful, nonbilious vomiting after feeds, still seems hungry, and has a firm olive-like mass in the right epigastrium. Which condition should the nurse suspect?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Hypertrophic pyloric stenosis"
+    },
+    {
+     "key": "B",
+     "text": "Uncomplicated physiologic gastroesophageal reflux with bilious emesis only"
+    },
+    {
+     "key": "C",
+     "text": "Typical viral gastroenteritis with predominantly watery diarrhea and no vomiting"
+    },
+    {
+     "key": "D",
+     "text": "Simple overfeeding without gastric outlet obstruction risk"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: hypertrophic pyloric stenosis typically presents at 3–6 weeks with forceful/projectile nonbilious emesis after eating; an olive-like pyloric mass may be palpable. NCBI StatPearls physiology text: IHPS presents with projectile nonbilious vomiting and a palpable olive; definitive treatment is pyloromyotomy after fluid/electrolyte correction.",
+    "B": "Incorrect. Classic pyloric stenosis emesis is nonbilious; bilious vomiting suggests a different obstruction pattern.",
+    "C": "Incorrect. The vignette centres on postprandial projectile vomiting and an olive mass, not diarrhea-predominant gastroenteritis.",
+    "D": "Incorrect. Progressive projectile nonbilious vomiting with an olive mass indicates gastric outlet obstruction needing evaluation, not simple overfeeding."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Hypertrophic pyloric stenosis — projectile nonbilious vomiting and olive mass",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "pyloric-stenosis-projectile-nonbilious-olive",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-8793b0d6) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Hypertrophic Pyloric Stenosis: 3–6 weeks; projectile nonbilious emesis; olive-like mass. NCBI NBK535425: projectile nonbilious vomitus; palpable olive; pyloromyotomy."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Hypertrophic Pyloric Stenosis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/gastrointestinal-disorders-in-neonates-and-infants/hypertrophic-pyloric-stenosis",
+     "section": "Symptoms and Signs of Hypertrophic Pyloric Stenosis",
+     "source_date": "Last updated Sept 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "3–6 weeks; forceful/projectile nonbilious emesis; olive-like pyloric mass.",
+     "added_by": "author"
+    },
+    {
+     "title": "Physiology, Stomach",
+     "publisher": "StatPearls / NCBI Bookshelf",
+     "url": "https://ncbi.nlm.nih.gov/books/NBK535425/",
+     "section": "Pathophysiology — Hypertrophic Pyloric Stenosis",
+     "source_date": "Last Update: July 17, 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "peer_reviewed",
+     "supports": "Key A",
+     "evidence": "Projectile nonbilious vomitus; palpable olive; pyloromyotomy.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B39-WAVE30",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric"
+   ],
+   "id": "ONRN-HPM-0048",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "tags": [
+    "HFMD",
+    "hand-hygiene",
+    "pediatrics",
+    "HPM",
+    "SATA"
+   ],
+   "stem": "A public health nurse teaches daycare staff how to limit spread of hand, foot, and mouth disease (HFMD). Which instructions are appropriate? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Wash hands often with soap and water, especially after diaper changes and toileting"
+    },
+    {
+     "key": "B",
+     "text": "Clean and disinfect frequently touched surfaces and shared toys"
+    },
+    {
+     "key": "C",
+     "text": "Avoid close contact such as hugging or kissing persons who are infected"
+    },
+    {
+     "key": "D",
+     "text": "Rely on a routinely available HFMD vaccine in Canada/US as the primary prevention method"
+    },
+    {
+     "key": "E",
+     "text": "Avoid contact with open skin lesions and oral secretions (drool) when caring for ill children"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. CDC and Merck emphasize meticulous hand hygiene, especially around diaper changes/stooling.",
+    "B": "Correct. CDC: clean and disinfect frequently touched surfaces and shared items including toys.",
+    "C": "Correct. CDC: avoid close contact with infected persons (hugging/kissing).",
+    "D": "Incorrect. CDC: no HFMD vaccine in the United States; Merck: EV-A71 vaccines exist in China but none approved in the US.",
+    "E": "Correct. Merck: avoid contact with open skin lesions and oral secretions to limit spread; CDC notes spread via blister fluid."
+   },
+   "specialty": "Pediatrics",
+   "topic": "HFMD prevention — hand hygiene, disinfection, avoid close contact/lesions; no US/Canada routine vaccine",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "hfmd-hand-hygiene-disinfect-avoid-close-contact",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-8793b0d6) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC HFMD: handwashing, disinfect surfaces/toys, avoid close contact; no US vaccine. Merck HFMD: hand hygiene around diapering; avoid lesions/oral secretions; no US-approved vaccine."
+    }
+   ],
+   "sources": [
+    {
+     "title": "About Hand, Foot, and Mouth Disease",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/hand-foot-mouth/about/index.html",
+     "section": "Prevention",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Keys A–C; distractor D",
+     "evidence": "Wash hands; clean/disinfect surfaces and toys; avoid close contact; no US vaccine.",
+     "added_by": "author"
+    },
+    {
+     "title": "Hand-Foot-and-Mouth Disease (HFMD)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/enteroviruses/hand-foot-and-mouth-disease-hfmd",
+     "section": "Hand-Foot-and-Mouth Disease (HFMD)",
+     "source_date": "Last updated Apr 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Keys A,E; distractor D",
+     "evidence": "Meticulous hand hygiene around diaper changes; avoid lesions and oral secretions; no US-approved vaccine.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B39-WAVE30",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric",
+    "emergency"
+   ],
+   "id": "ONRN-PA-0067",
+   "format": "bowtie",
+   "scoring_model": "zero_one",
+   "tags": [
+    "pyloric-stenosis",
+    "NGN",
+    "bowtie",
+    "pediatrics",
+    "PA"
+   ],
+   "stem": "A 4-week-old has projectile nonbilious vomiting, remains eager to feed, and has a palpable olive-like epigastric mass. Complete the bowtie: most likely condition, two priority actions, and two parameters to monitor.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Uncomplicated lactose intolerance without obstruction"
+     },
+     {
+      "key": "K2",
+      "text": "Hypertrophic pyloric stenosis"
+     },
+     {
+      "key": "K3",
+      "text": "Acute appendicitis"
+     },
+     {
+      "key": "K4",
+      "text": "Simple overfeeding only"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Support airway/breathing as needed and keep NPO pending surgical evaluation"
+     },
+     {
+      "key": "A2",
+      "text": "Correct dehydration and electrolyte abnormalities with IV fluids as ordered before surgery"
+     },
+     {
+      "key": "A3",
+      "text": "Encourage unlimited formula immediately before emergent laparotomy without fluid resuscitation"
+     },
+     {
+      "key": "A4",
+      "text": "Prepare for pyloromyotomy after medical stabilization as ordered"
+     },
+     {
+      "key": "A5",
+      "text": "Discharge home without evaluation because vomiting is always normal at this age"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "Hydration status and urine output"
+     },
+     {
+      "key": "P2",
+      "text": "Serum electrolytes (watch for hypochloremic, hypokalemic metabolic alkalosis)"
+     },
+     {
+      "key": "P3",
+      "text": "Stock market indices"
+     },
+     {
+      "key": "P4",
+      "text": "Unrelated school grades of siblings"
+     },
+     {
+      "key": "P5",
+      "text": "Weight trend / ongoing vomiting frequency"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K2",
+    "actions": [
+     "A2",
+     "A4"
+    ],
+    "parameters": [
+     "P1",
+     "P2"
+    ]
+   },
+   "rationales": {
+    "K1": "Incorrect. Lactose intolerance does not produce an olive-like pyloric mass with classic projectile nonbilious pattern of IHPS.",
+    "K2": "Correct. Merck/NCBI: IHPS — projectile nonbilious vomiting in early weeks with possible olive mass.",
+    "K3": "Incorrect. Appendicitis is not the classic 3–6 week olive-mass presentation.",
+    "K4": "Incorrect. Progressive projectile vomiting with olive mass is not simple overfeeding.",
+    "A1": "Incorrect. While NPO pending evaluation may occur, the sourced priority actions are fluid/electrolyte correction and pyloromyotomy after stabilization.",
+    "A2": "Correct. Merck: correct dehydration and electrolyte/acid-base abnormalities before pyloromyotomy.",
+    "A3": "Incorrect. Feeding without correcting fluids/electrolytes and rushing without stabilization is unsafe.",
+    "A4": "Correct. Definitive treatment is pyloromyotomy after medical stabilization (Merck/NCBI).",
+    "A5": "Incorrect. This presentation requires prompt evaluation, not casual discharge.",
+    "P1": "Correct. Dehydration risk is central; monitor hydration/urine output (Merck).",
+    "P2": "Correct. Classic abnormality is hypochloremic, hypokalemic metabolic alkalosis (Merck/NCBI).",
+    "P3": "Incorrect. Irrelevant parameter.",
+    "P4": "Incorrect. Irrelevant parameter.",
+    "P5": "Plausible monitoring but not selected as a keyed parameter for this item; electrolytes and hydration are the highest-yield sourced parameters."
+   },
+   "specialty": "Pediatrics",
+   "topic": "NGN bowtie — pyloric stenosis recognition; fluid/electrolyte correction; pyloromyotomy",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "ngn-bowtie-pyloric-stenosis-fluids-pyloromyotomy",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-8793b0d6) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: diagnose IHPS; correct dehydration/electrolytes then pyloromyotomy; hypochloremic hypokalemic metabolic alkalosis. NCBI: palpable olive; pyloromyotomy definitive."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Hypertrophic Pyloric Stenosis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/gastrointestinal-disorders-in-neonates-and-infants/hypertrophic-pyloric-stenosis",
+     "section": "Symptoms and Signs; Treatment of Hypertrophic Pyloric Stenosis",
+     "source_date": "Last updated Sept 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Condition K2; actions A2/A4; parameters P1/P2",
+     "evidence": "Projectile nonbilious emesis; olive mass; correct fluids/electrolytes then pyloromyotomy; hypochloremic hypokalemic alkalosis.",
+     "added_by": "author"
+    },
+    {
+     "title": "Physiology, Stomach",
+     "publisher": "StatPearls / NCBI Bookshelf",
+     "url": "https://ncbi.nlm.nih.gov/books/NBK535425/",
+     "section": "Pathophysiology — Hypertrophic Pyloric Stenosis",
+     "source_date": "Last Update: July 17, 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "peer_reviewed",
+     "supports": "Condition K2; action A4; parameter P2",
+     "evidence": "Projectile nonbilious vomitus; palpable olive; hypochloremic hypokalemic alkalosis; pyloromyotomy.",
      "added_by": "author"
     }
    ],
