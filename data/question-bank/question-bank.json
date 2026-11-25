@@ -1,0 +1,3952 @@
+{
+ "generated": "2026-11-25",
+ "schema": "reference/item.schema.json",
+ "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
+ "counts_by_status": {
+  "Draft": 0,
+  "Source verified": 37,
+  "Awaiting clinical review": 0,
+  "Clinically reviewed": 0,
+  "Approved": 0,
+  "Requires revision": 0,
+  "Archived": 0
+ },
+ "items": [
+  {
+   "id": "ONRN-PA-0001",
+   "batch": "B00-PILOT",
+   "item_version": 1,
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with chronic kidney disease has a serum potassium that has risen from 5.0 mmol/L to 6.8 mmol/L (5.0 to 6.8 mEq/L) over 2 days. Which change on the cardiac monitor is typically the EARLIEST ECG sign of this electrolyte imbalance?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Prominent U waves following flattened T waves"
+    },
+    {
+     "key": "B",
+     "text": "Tall, narrow, peaked T waves"
+    },
+    {
+     "key": "C",
+     "text": "A prolonged QT interval"
+    },
+    {
+     "key": "D",
+     "text": "A sine-wave pattern"
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Flattened or depressed T waves with prominent U waves are the ECG pattern of hypokalemia, not hyperkalemia.",
+    "B": "Correct. As potassium rises, tall, symmetric, peaked T waves are usually the first visible ECG change; with further increases the PR interval lengthens, the P wave disappears and the QRS widens.",
+    "C": "Incorrect. Hyperkalemia tends to shorten, not lengthen, the QT interval. A prolonged QT interval is characteristic of severe hypocalcemia.",
+    "D": "Incorrect. A sine-wave pattern is a late, pre-arrest finding that appears after QRS widening, just before ventricular fibrillation or asystole; it is not the earliest sign."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Hyperkalemia — ECG progression",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "units_note": "Potassium in mmol/L is numerically equal to mEq/L.",
+   "sources": [
+    {
+     "title": "Hyperkalemia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/nephrology/electrolyte-disorders/hyperkalemia",
+     "section": "Diagnosis of Hyperkalemia — ECG",
+     "source_date": "Last updated Jun 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales C (QT shortening) and D (sine wave is the final stage)",
+     "evidence": "ECG changes often visible when K > 5.5 mmol/L; tall, symmetric, peaked T waves initially; >6.5 mmol/L widened QRS, loss of P wave; finally sine wave then VF/asystole; QT shortening.",
+     "added_by": "author"
+    },
+    {
+     "title": "10.3 Electrolyte Imbalance (Table 10.7 Hypokalemia and Hyperkalemia)",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-3-electrolyte-imbalance",
+     "section": "Potassium Imbalances — Table 10.7",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B (tall, peaked T waves in hyperkalemia)",
+     "evidence": "Hyperkalemia clinical manifestations: tall, peaked T waves, widened QRS complex, prolonged PR interval.",
+     "added_by": "author"
+    },
+    {
+     "title": "Hypokalemia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/nephrology/electrolyte-disorders/hypokalemia",
+     "section": "Diagnosis of Hypokalemia — ECG",
+     "source_date": "Last updated Dec 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Rationale A (U waves = hypokalemia)",
+     "evidence": "Hypokalemia causes ST sagging, T-wave depression and U-wave elevation; T wave shrinks and U wave enlarges as it worsens.",
+     "added_by": "author"
+    },
+    {
+     "title": "Hypocalcemia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/nephrology/electrolyte-disorders/hypocalcemia",
+     "section": "Diagnosis of Hypocalcemia",
+     "source_date": "Last updated Jun 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Rationale C (prolonged QTc = severe hypocalcemia)",
+     "evidence": "Severe hypocalcemia typically shows prolongation of the QTc and ST intervals.",
+     "added_by": "author"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Claude) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key and all four rationales checked against live-fetched Merck (3 topics) and OpenStax pages. Note: OpenStax Table 10.7 also lists U waves under hyperkalemia, which conflicts with Merck; that disputed detail is not keyed — U waves are used only as the hypokalemia distractor, supported by Merck."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "lab-range-varies"
+   ],
+   "enemy_group": "hyperkalemia-ecg-earliest-sign",
+   "tags": [
+    "electrolytes",
+    "potassium",
+    "ECG",
+    "telemetry"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-PA-0002",
+   "batch": "B00-PILOT",
+   "item_version": 1,
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with type 2 diabetes who uses insulin reports feeling shaky and sweaty 2 hours before lunch. The client is alert and able to swallow. Capillary blood glucose is 3.1 mmol/L (56 mg/dL). For each nursing action, indicate whether it is indicated or not indicated at this time.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Give 15 g of carbohydrate as glucose tablets."
+     },
+     {
+      "key": "R2",
+      "text": "Recheck the capillary blood glucose 15 minutes after treatment."
+     },
+     {
+      "key": "R3",
+      "text": "Administer glucagon 1 mg intramuscularly."
+     },
+     {
+      "key": "R4",
+      "text": "Give a second 15 g of carbohydrate immediately, before any recheck, to prevent recurrence."
+     },
+     {
+      "key": "R5",
+      "text": "After the hypoglycemia resolves, offer a snack containing carbohydrate and protein because lunch is more than 1 hour away."
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Not indicated",
+    "R5": "Indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Mild-to-moderate hypoglycemia in a conscious adult is treated with 15 g of fast-acting carbohydrate; Diabetes Canada prefers glucose or sucrose tablets or solution.",
+    "R2": "Indicated. Blood glucose is retested about 15 minutes after treatment, and another 15 g is given only if it is still low (Diabetes Canada: below 4.0 mmol/L).",
+    "R3": "Not indicated. Glucagon 1 mg SC/IM is reserved for severe hypoglycemia when the person cannot take oral carbohydrate (for example, is unconscious) and IV access is not available. This client is alert and can swallow.",
+    "R4": "Not indicated. Re-treatment depends on the 15-minute recheck. Giving extra carbohydrate without rechecking risks overtreatment, which can cause rebound hyperglycemia and weight gain.",
+    "R5": "Indicated. Once hypoglycemia is reversed, a snack with about 15 g of carbohydrate plus a protein source is recommended when the next meal is more than 1 hour away, to prevent recurrence."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Hypoglycemia management in a conscious adult (rule of 15)",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "Diabetes Canada defines hypoglycemia (insulin/secretagogue users) as plasma glucose <4.0 mmol/L and re-treats if still <4.0; Merck (US) uses <3.9 mmol/L (70 mg/dL) and re-treats if not >4.4 mmol/L (80 mg/dL). The stem value (3.1 mmol/L) is low under both, and the threshold difference is not tested.",
+   "units_note": "Glucose 3.1 mmol/L × 18 ≈ 56 mg/dL.",
+   "sources": [
+    {
+     "title": "Hypoglycemia (Clinical Practice Guidelines, Chapter 14)",
+     "publisher": "Diabetes Canada",
+     "url": "https://guidelines.diabetes.ca/cpg/chapter14",
+     "section": "Recommendations; Treatment of hypoglycemia; Table 4",
+     "source_date": "2018 CPG (Can J Diabetes 2018;42 Suppl 1) — no later revision shown on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "R1, R2, R3, R4, R5",
+     "evidence": "Mild-moderate: 15 g carbohydrate, preferably glucose or sucrose tablets/solution; retest in 15 min, re-treat if <4.0 mmol/L; avoid overtreatment; snack with 15 g carb + protein if meal >1 h away; unconscious without IV: glucagon 1 mg SC/IM.",
+     "added_by": "author"
+    },
+    {
+     "title": "Hypoglycemia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/diabetes-mellitus-and-hypoglycemia/hypoglycemia",
+     "section": "Treatment in patients taking antihyperglycemic medications",
+     "source_date": "Last updated Dec 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "R1, R2, R3, R5",
+     "evidence": "Rule of 15s: 15 g glucose or sucrose, recheck at 15 minutes; then a snack with complex carbohydrate and protein; glucagon 1 mg SC/IM (≥25 kg) for those unable to eat or drink.",
+     "added_by": "author"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Claude) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "All five rows checked against Diabetes Canada Ch.14 and Merck (Dec 2025). Threshold differences between sources noted in jurisdiction_note and deliberately not tested."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "canada-us-difference"
+   ],
+   "enemy_group": "hypoglycemia-rule-of-15-conscious",
+   "tags": [
+    "diabetes",
+    "hypoglycemia",
+    "NGN",
+    "insulin"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-MOC-0001",
+   "batch": "B00-PILOT",
+   "item_version": 1,
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "In an Ontario hospital, a 79-year-old client has been found incapable with respect to a proposed surgical treatment. The client's spouse, adult son, and sister are at the bedside. The chart contains a valid power of attorney for personal care that appoints the client's niece and gives her authority over treatment decisions. The niece is capable, available, and willing to act. Under Ontario law, who is the appropriate substitute decision-maker to give or refuse consent for this treatment?",
+   "options": [
+    {
+     "key": "A",
+     "text": "The client's spouse"
+    },
+    {
+     "key": "B",
+     "text": "The client's niece"
+    },
+    {
+     "key": "C",
+     "text": "The client's adult son"
+    },
+    {
+     "key": "D",
+     "text": "The Public Guardian and Trustee"
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Under the Health Care Consent Act, 1996, a spouse or partner ranks below an attorney for personal care whose power of attorney covers treatment decisions.",
+    "B": "Correct. An attorney for personal care with authority over treatment ranks above a spouse, children and siblings in the Act's list of substitute decision-makers. Because the niece is capable, available and willing, consent is obtained from her as the highest-ranked substitute decision-maker.",
+    "C": "Incorrect. A child of the incapable person ranks below both the attorney for personal care and the spouse.",
+    "D": "Incorrect. The Public Guardian and Trustee decides only as a last resort, when no one on the list meets the requirements to act. A qualified attorney for personal care is available here."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Consent — substitute decision-maker hierarchy (HCCA s. 20)",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "Ontario-specific",
+   "jurisdiction_note": "Ranking set by Ontario's Health Care Consent Act, 1996, s. 20 (guardian; attorney for personal care; Board-appointed representative; spouse/partner; child or parent; parent with access only; sibling; other relative; PGT as last resort). Other provinces and US states use different surrogate laws; NCLEX items generally use generic advance-directive/health care proxy wording.",
+   "units_note": "",
+   "sources": [
+    {
+     "title": "Health Care Consent Act, 1996, S.O. 1996, c. 2, Sched. A",
+     "publisher": "Government of Ontario — e-Laws",
+     "url": "https://www.ontario.ca/laws/statute/96h02",
+     "section": "s. 20(1) list of persons who may give or refuse consent; s. 20(2) requirements; s. 20(5) Public Guardian and Trustee",
+     "source_date": "Consolidation current to e-Laws currency date November 20, 2026 (last amendment 2022, c. 16, s. 9)",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "supports": "Key B; rationales A, C, D",
+     "evidence": "s.20(1): 1 guardian; 2 attorney for personal care; 3 Board-appointed representative; 4 spouse/partner; 5 child or parent; 7 brother/sister. s.20(5): PGT decides if no listed person meets s.20(2).",
+     "added_by": "author"
+    },
+    {
+     "title": "Consent (Practice Guideline)",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41020_consent.pdf",
+     "section": "Steps to obtaining consent — Step 1(e) Incapable person; Definitions (PGT)",
+     "source_date": "© CNO 2025 (CNO documents index: updated 07/2025)",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key B (highest-ranked available, willing SDM); rationale D (PGT last resort)",
+     "evidence": "If incapable, consent is obtained from the highest ranked available substitute decision-maker from the HCCA hierarchy who is willing; the PGT is the substitute decision-maker of last resort.",
+     "added_by": "author"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Claude) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key and rationales checked against the current e-Laws consolidation of the HCCA (s. 20) and CNO Consent guideline (2025). The statute is the single legal authority; CNO restates it."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario"
+   ],
+   "enemy_group": "hcca-sdm-attorney-outranks-spouse",
+   "tags": [
+    "consent",
+    "capacity",
+    "substitute decision-maker",
+    "Ontario law"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-SIPC-0001",
+   "batch": "B00-PILOT",
+   "item_version": 1,
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "A client admitted to a medical unit has had a productive cough for 3 weeks with night sweats and weight loss, and active pulmonary tuberculosis is suspected. Which measures should the nurse implement? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Place the client in an airborne infection isolation room with negative air flow."
+    },
+    {
+     "key": "B",
+     "text": "Wear a fit-tested, seal-checked N95 respirator when entering the room."
+    },
+    {
+     "key": "C",
+     "text": "Keep the room door closed whether or not the client is in the room."
+    },
+    {
+     "key": "D",
+     "text": "Have the client wear a mask if transport out of the room is necessary."
+    },
+    {
+     "key": "E",
+     "text": "Wear a surgical mask instead of a respirator, because tuberculosis spreads by large droplets."
+    },
+    {
+     "key": "F",
+     "text": "Allow staff who report a previous tuberculosis infection to enter without a respirator."
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "rationales": {
+    "A": "Correct. Suspected or confirmed pulmonary or laryngeal TB requires Airborne Precautions in a single airborne infection isolation room with negative air flow.",
+    "B": "Correct. Staff entering the room of a client with suspected active pulmonary TB must wear a fit-tested, seal-checked N95 (or higher) respirator.",
+    "C": "Correct. The door of an airborne isolation room must stay closed to keep the negative-pressure air flow working; Ontario's PIDAC guidance says it is kept closed whether or not the client is in the room.",
+    "D": "Correct. Transport out of the room is limited to what is necessary, and the client wears a mask during transport (if tolerated) for source control.",
+    "E": "Incorrect. TB spreads by the airborne route in small droplet nuclei that stay suspended in air. A surgical mask does not reliably protect the wearer from inhaling them; an N95 respirator is the minimum.",
+    "F": "Incorrect. The N95 requirement for active pulmonary TB applies to all staff. Immunity-based exceptions in Ontario's precautions apply to diseases such as measles and varicella, not TB."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Airborne precautions — suspected active pulmonary tuberculosis",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "Keyed measures agree between Ontario PIDAC and US CDC. One known difference is NOT tested: PIDAC also requires transport staff to wear an N95 for active TB, whereas CDC says transport staff need no mask/respirator if the client is masked.",
+   "units_note": "",
+   "sources": [
+    {
+     "title": "Routine Practices and Additional Precautions in All Health Care Settings, 3rd edition",
+     "publisher": "Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC)",
+     "url": "https://www.publichealthontario.ca/-/media/Documents/B/2012/bp-rpap-healthcare-settings.pdf",
+     "section": "Glossary (Airborne Precautions); Airborne Precautions — N95 respirators; AIIR requirements; Appendix N (Tuberculosis)",
+     "source_date": "Third edition, fourth revision June 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "A, B, C, D, E, F",
+     "evidence": "N95 must be worn by all staff entering/caring for a client with signs/symptoms or diagnosis of active pulmonary or laryngeal TB; door must be kept closed whether or not the client is in the room; client wears mask during transport if tolerated; TB pulmonary/laryngeal confirmed or suspected = Airborne, negative air flow, door closed.",
+     "added_by": "author"
+    },
+    {
+     "title": "Guideline for Isolation Precautions — III. Precautions to Prevent Transmission of Infectious Agents",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC/HICPAC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/precautions.html",
+     "section": "III.B Transmission-Based Precautions — Airborne Precautions",
+     "source_date": "2007 guideline (web page current on cdc.gov)",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "A, B, D, E",
+     "evidence": "Preferred placement is an AIIR (monitored negative pressure); respiratory protection program with fit-testing and seal checks; masking the patient; HCP don the mask or respirator before room entry.",
+     "added_by": "author"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Claude) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "All six options checked against PIDAC (June 2025) and CDC isolation guideline; CDC transmission-based-precautions page (search excerpt) also states surgical mask on patient during transport. Canada-US transport-staff difference excluded from the item."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "canada-us-difference"
+   ],
+   "enemy_group": "tb-airborne-precautions-core",
+   "tags": [
+    "infection control",
+    "airborne precautions",
+    "tuberculosis",
+    "PPE"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-PPT-0001",
+   "batch": "B00-PILOT",
+   "item_version": 1,
+   "format": "calculation",
+   "scoring_model": "dichotomous",
+   "stem": "A client with heart failure and peripheral edema has an order for furosemide 40 mg IV now. The vial is labelled furosemide injection 10 mg/mL. How many millilitres should the nurse prepare? Round to the nearest whole number.",
+   "correct_answer": {
+    "value": 4,
+    "unit": "mL",
+    "rounding": "nearest whole number"
+   },
+   "rationales": {
+    "calculation": "Volume = dose ordered ÷ concentration = 40 mg ÷ 10 mg/mL = 4 mL. Check: 4 mL × 10 mg/mL = 40 mg. The dose is within the usual initial adult IV dose for edema in the Canadian product monograph and US labelling (20 to 40 mg as a single dose), and IV furosemide is given slowly over 1 to 2 minutes."
+   },
+   "specialty": "Pharmacology",
+   "topic": "Dosage calculation — IV push volume (furosemide)",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "units_note": "Metric units only.",
+   "sources": [
+    {
+     "title": "Furosemide Injection USP (10 mg/mL) — Product Monograph",
+     "publisher": "Health Canada Drug Product Database — Sandoz Canada Inc. product monograph",
+     "url": "https://pdf.hres.ca/dpd_pm/00018556.PDF",
+     "section": "Dosage and Administration — Adults, Edema (p. 10); title page (10 mg/mL)",
+     "source_date": "Date of revision September 6, 2012 (DPD status: Marketed, checked 2026-11-25)",
+     "accessed_date": "2026-11-25",
+     "source_type": "drug_monograph_label",
+     "supports": "Concentration 10 mg/mL; 40 mg within usual initial IV dose; IV over 1–2 minutes",
+     "evidence": "Edema: usual initial dose is 20 to 40 mg injected IM or IV as a single dose; IV injections given slowly over 1 to 2 minutes.",
+     "added_by": "author"
+    },
+    {
+     "title": "FUROSEMIDE injection, solution (Henry Schein) — prescribing information",
+     "publisher": "U.S. National Library of Medicine — DailyMed",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15e4c3a3-7d64-471e-bfdf-6156731e24aa",
+     "section": "Description; How Supplied (10 mg/mL vials); Dosage and Administration — Adults, Edema",
+     "source_date": "Label revised June 2023; DailyMed updated November 16, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "drug_monograph_label",
+     "supports": "Concentration 10 mg/mL; usual initial dose 20–40 mg IV given over 1–2 minutes",
+     "evidence": "Furosemide Injection USP 10 mg/mL; usual initial dose 20 to 40 mg IM or IV; IV dose given slowly (1 to 2 minutes).",
+     "added_by": "author"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Claude) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Arithmetic verified (40 ÷ 10 = 4). Concentration and dose range confirmed in the Health Canada monograph (Sandoz, marketed) and a current DailyMed label."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "dose-calculation"
+   ],
+   "enemy_group": "furosemide-iv-push-volume-calc",
+   "tags": [
+    "dosage calculation",
+    "diuretics",
+    "IV push"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-SIPC-0002",
+   "batch": "B11-WAVE2",
+   "item_version": 1,
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "After removing gloves following a routine bed bath, a nurse's hands are not visibly soiled. According to Ontario PIDAC hand-hygiene guidance (concordant with CDC clinical safety guidance), which action is preferred?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Wash with soap and running water for at least 2 minutes."
+    },
+    {
+     "key": "B",
+     "text": "Apply a 70–90% alcohol-based hand rub and rub until dry."
+    },
+    {
+     "key": "C",
+     "text": "Rinse briefly with water only; no product is needed after glove removal."
+    },
+    {
+     "key": "D",
+     "text": "Apply a non-alcohol waterless antiseptic foam as first choice."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Soap and water is required when hands are visibly soiled (or in certain spore-related situations). When hands are not visibly soiled, alcohol-based hand rub is preferred.",
+    "B": "Correct. When hands are not visibly soiled, a 70–90% alcohol-based hand rub is the preferred method in Ontario health-care settings and is also preferred by CDC in most clinical situations.",
+    "C": "Incorrect. Hand hygiene is still required after glove removal; rinsing with water alone is not an accepted method.",
+    "D": "Incorrect. Non-alcohol-based waterless antiseptic agents are not recommended for hand hygiene in health-care settings."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Hand hygiene — ABHR preferred when hands not visibly soiled",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "sources": [
+    {
+     "title": "Best Practices for Hand Hygiene in All Health Care Settings",
+     "publisher": "Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC)",
+     "url": "https://www.publichealthontario.ca/-/media/documents/b/2014/bp-hand-hygiene.pdf",
+     "section": "II. Best Practices — Alcohol-Based Hand Rub vs Soap and Water; Recommendations 10–11",
+     "source_date": "April 2014 (reviewed content accessed 2026-11-25)",
+     "source_type": "government_public_health",
+     "supports": "Key B; rationales A, D",
+     "evidence": "ABHR 70–90% preferred when hands not visibly soiled; soap and water when visibly soiled; non-alcohol waterless agents not recommended.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "Clinical Safety: Hand Hygiene for Healthcare Workers",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/clean-hands/hcp/clinical-safety/index.html",
+     "section": "Know when to use alcohol-based hand sanitizer (ABHS) versus soap and water",
+     "source_date": "not stated on page",
+     "source_type": "government_public_health",
+     "supports": "Key B; rationale A",
+     "evidence": "Unless hands are visibly soiled, ABHS is preferred over soap and water in most clinical situations; wash with soap and water when visibly soiled.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-71aa8c06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key and rationales checked against live-fetched PIDAC Hand Hygiene PDF and CDC clinical safety page. Non-alcohol waterless agents prohibition from PIDAC."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "enemy_group": "hand-hygiene-abhr-preferred-not-soiled",
+   "tags": [
+    "hand hygiene",
+    "ABHR",
+    "infection prevention"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-SIPC-0003",
+   "batch": "B11-WAVE2",
+   "item_version": 1,
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A nurse finishes care for a client with laboratory-confirmed Clostridioides difficile infection, removes gloves and gown, and finds a dedicated hand-washing sink immediately available. Hands are not visibly soiled. Which hand-hygiene method is preferred in this situation?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Apply alcohol-based hand rub only, because hands are not visibly soiled."
+    },
+    {
+     "key": "B",
+     "text": "Wash with soap and water at the dedicated sink."
+    },
+    {
+     "key": "C",
+     "text": "Wash with soap and water at the client's bathroom sink for convenience."
+    },
+    {
+     "key": "D",
+     "text": "Skip hand hygiene because Contact Precautions gloves already protected the hands."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. For C. difficile, soap and water is theoretically more effective at removing spores than alcohol-based hand rub when a dedicated sink is available.",
+    "B": "Correct. PIDAC advises that when C. difficile is diagnosed or suspected and a dedicated hand-washing sink is immediately available, hands should be washed with soap and water. CDC likewise recommends soap and water during care of clients with C. difficile in outbreak settings.",
+    "C": "Incorrect. PIDAC specifically advises not to perform hand hygiene at the client's sink because that may re-contaminate the health-care provider's hands.",
+    "D": "Incorrect. Meticulous hand hygiene is required after glove removal; gloves do not replace hand hygiene."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Hand hygiene after C. difficile care",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "PIDAC prefers soap/water when a dedicated sink is available for C. difficile; if no dedicated sink, ABHR is used. The stem specifies a dedicated sink so the Canada-preferred action is keyed.",
+   "units_note": "",
+   "sources": [
+    {
+     "title": "Best Practices for Hand Hygiene in All Health Care Settings",
+     "publisher": "Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC)",
+     "url": "https://www.publichealthontario.ca/-/media/documents/b/2014/bp-hand-hygiene.pdf",
+     "section": "13.A Hand Hygiene and Clostridium difficile",
+     "source_date": "April 2014 (reviewed content accessed 2026-11-25)",
+     "source_type": "government_public_health",
+     "supports": "Key B; rationales A, C, D",
+     "evidence": "When C. difficile diagnosed/suspected: soap and water theoretically more effective for spores; if dedicated sink available, wash with soap and water; do not use client's sink; meticulous HH after glove removal.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "Clinical Safety: Hand Hygiene for Healthcare Workers",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/clean-hands/hcp/clinical-safety/index.html",
+     "section": "When to wash with soap and water",
+     "source_date": "not stated on page",
+     "source_type": "government_public_health",
+     "supports": "Key B (soap/water for C. difficile)",
+     "evidence": "Wash with soap and water during care of patients with suspected or confirmed infection during outbreaks of C. difficile and norovirus.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-71aa8c06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Checked against PIDAC HH §13.A and CDC soap/water indications. Stem specifies dedicated sink to avoid the PIDAC ABHR fallback path."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "canada-us-difference"
+   ],
+   "enemy_group": "cdiff-hand-hygiene-soap-water",
+   "tags": [
+    "C. difficile",
+    "hand hygiene",
+    "Contact Precautions"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-BCC-0001",
+   "batch": "B11-WAVE2",
+   "item_version": 1,
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "During a skin assessment, the nurse finds intact skin over a client's sacral bony prominence with a localized area of nonblanchable erythema. Sensation over the area is slightly increased compared with surrounding skin. How should this finding be documented?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Stage 1 pressure injury"
+    },
+    {
+     "key": "B",
+     "text": "Stage 2 pressure injury"
+    },
+    {
+     "key": "C",
+     "text": "Unstageable pressure injury"
+    },
+    {
+     "key": "D",
+     "text": "Deep-tissue pressure injury"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Stage 1 is intact skin with localized nonblanchable erythema, often over a bony prominence; changes in sensation, temperature, or firmness may accompany it.",
+    "B": "Incorrect. Stage 2 involves partial-thickness skin loss (shallow open ulcer or blister) with a pink/red wound bed, not intact skin alone.",
+    "C": "Incorrect. Unstageable injuries have full-thickness loss obscured by slough or eschar so depth cannot be determined.",
+    "D": "Incorrect. Deep-tissue pressure injury presents as persistent nonblanchable deep red, maroon, or purple discoloration, not simple nonblanchable erythema of Stage 1."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Pressure injury staging — Stage 1",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "sources": [
+    {
+     "title": "Pressure Injuries",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/dermatologic-disorders/pressure-injury/pressure-injuries",
+     "section": "Symptoms and Signs of Pressure Injuries — Staging systems / Stage 1",
+     "source_date": "Last updated Feb 2026",
+     "source_type": "clinical_reference",
+     "supports": "Key A; rationales B–D",
+     "evidence": "Stage 1: intact skin with nonblanchable erythema usually over bony prominence; may be warmer/cooler/firmer/softer/more tender; Stage 2 partial-thickness loss; unstageable obscured; DTPI purple/maroon.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "28.3 Pressure Injury",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/28-3-pressure-injury",
+     "section": "Stage 1; Deep Tissue Injury",
+     "source_date": "Citation date Oct 16, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key A; rationales B, D",
+     "evidence": "Stage 1: intact skin with localized nonblanchable erythema; Stage 1 excludes purple/maroon (may indicate DTPI).",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-71aa8c06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Staging definitions concordant between Merck (Feb 2026) and OpenStax Med-Surg 28.3."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "enemy_group": "pressure-injury-stage1-intact-nonblanchable",
+   "tags": [
+    "pressure injury",
+    "skin integrity",
+    "staging"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-BCC-0002",
+   "batch": "B11-WAVE2",
+   "item_version": 1,
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client is confined to bed after major abdominal surgery and is assessed as high risk for pressure injury. Which repositioning schedule best reflects evidence-based pressure-reduction practice?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Turn the client at least every 2 hours using a written schedule."
+    },
+    {
+     "key": "B",
+     "text": "Turn the client once every 8-hour shift if the skin remains intact."
+    },
+    {
+     "key": "C",
+     "text": "Keep the client supine continuously for the first 24 postoperative hours."
+    },
+    {
+     "key": "D",
+     "text": "Reposition only when the client requests a position change."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Frequent repositioning is the most important pressure-reduction factor; bed-confined clients should be turned at least every 2 hours with a written schedule to direct and document the turns.",
+    "B": "Incorrect. Waiting until every 8 hours is far less frequent than the minimum every-2-hour turning recommended for bed-confined clients.",
+    "C": "Incorrect. Continuous supine positioning increases pressure-injury risk; early and scheduled repositioning is needed.",
+    "D": "Incorrect. High-risk clients need a scheduled repositioning plan; relying only on client request is insufficient."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Pressure injury prevention — repositioning schedule",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "sources": [
+    {
+     "title": "Pressure Injuries",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/dermatologic-disorders/pressure-injury/pressure-injuries",
+     "section": "Prevention of Pressure Injuries",
+     "source_date": "Last updated Feb 2026",
+     "source_type": "clinical_reference",
+     "supports": "Key A; rationales B–D",
+     "evidence": "Frequent repositioning most important; written schedule; bed patients turned minimum every 2 hours.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "28.3 Pressure Injury",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/28-3-pressure-injury",
+     "section": "Prevention",
+     "source_date": "Citation date Oct 16, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Turning and repositioning every two hours is typically implemented for patients at risk for skin breakdown.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-71aa8c06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Repositioning frequency confirmed in Merck Prevention section and OpenStax Prevention."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "enemy_group": "pressure-injury-turn-q2h",
+   "tags": [
+    "pressure injury",
+    "repositioning",
+    "prevention"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-PA-0003",
+   "batch": "B11-WAVE2",
+   "item_version": 1,
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An adult with type 1 diabetes is admitted with diabetic ketoacidosis. Intravenous 0.9% saline has been started. The first serum potassium result is 3.0 mmol/L (3.0 mEq/L). Which action regarding insulin therapy is appropriate at this time?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Begin regular insulin 0.1 unit/kg/h IV immediately to correct the acidosis."
+    },
+    {
+     "key": "B",
+     "text": "Withhold insulin temporarily, replace potassium, and start insulin once potassium is at least 3.3 mmol/L."
+    },
+    {
+     "key": "C",
+     "text": "Give subcutaneous rapid-acting insulin only; intravenous insulin is not used in adult DKA."
+    },
+    {
+     "key": "D",
+     "text": "Give intravenous sodium bicarbonate first; insulin is unnecessary if bicarbonate is corrected."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Starting insulin while potassium is below 3.3 mmol/L risks dangerous further hypokalemia because insulin drives potassium into cells.",
+    "B": "Correct. If serum potassium is below 3.3 mmol/L, insulin is withheld (or stopped) while potassium is replaced until potassium is at least 3.3 mmol/L. Diabetes Canada also emphasizes fluid resuscitation, avoidance of hypokalemia, and insulin as core DKA principles.",
+    "C": "Incorrect. Adult DKA requires intravenous insulin (Diabetes Canada: 0.1 units/kg/h) for resolution; subcutaneous-only regimens are not the standard emergency approach described here.",
+    "D": "Incorrect. Bicarbonate is considered only for extreme acidosis (pH ≤7.0) and does not replace insulin therapy."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "DKA — withhold insulin if severe hypokalemia",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Prioritize Hypotheses",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "Diabetes Canada and Merck both prioritize potassium management with insulin in DKA; the <3.3 mmol/L hold threshold is stated explicitly in Merck.",
+   "units_note": "Potassium mmol/L equals mEq/L numerically.",
+   "sources": [
+    {
+     "title": "Acute Complications of Diabetes Mellitus — Diabetic Ketoacidosis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/diabetes-mellitus-and-hypoglycemia/acute-complications-of-diabetes-mellitus",
+     "section": "Treatment of DKA — Hypokalemia prevention; Correction of hyperglycemia and acidosis",
+     "source_date": "Last updated Nov 2026",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A, C",
+     "evidence": "If K <3.3 mmol/L, withhold insulin and give K at 40 mEq/h until ≥3.3; adults: continuous IV regular insulin 0.1 unit/kg/h; volume repletion with 0.9% saline.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "Hyperglycemic Emergencies in Adults (Clinical Practice Guidelines, Chapter 15)",
+     "publisher": "Diabetes Canada",
+     "url": "https://guidelines.diabetes.ca/cpg/chapter15",
+     "section": "Key messages; Potassium deficit; Recommendations",
+     "source_date": "2018 CPG (page current on diabetes.ca)",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key B principles; rationales C, D",
+     "evidence": "DKA requires IV insulin 0.1 units/kg/h; bicarbonate only for extreme acidosis pH ≤7.0; protocol principles include fluid resuscitation, avoidance of hypokalemia, insulin administration.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-71aa8c06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Hold-insulin-if-K<3.3 from Merck Nov 2026; Diabetes Canada confirms IV insulin rate, K attention, and limited bicarbonate use. Stem K=3.0 clearly below threshold."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "lab-range-varies"
+   ],
+   "enemy_group": "dka-hold-insulin-if-k-below-3-3",
+   "tags": [
+    "DKA",
+    "potassium",
+    "insulin",
+    "emergency"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-PPT-0002",
+   "batch": "B11-WAVE2",
+   "item_version": 1,
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with heart failure takes digoxin daily and was recently started on furosemide. Which laboratory finding most increases the risk of digoxin toxicity?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Serum potassium 2.9 mmol/L (2.9 mEq/L)"
+    },
+    {
+     "key": "B",
+     "text": "Serum sodium 138 mmol/L (138 mEq/L)"
+    },
+    {
+     "key": "C",
+     "text": "Hemoglobin 128 g/L (12.8 g/dL)"
+    },
+    {
+     "key": "D",
+     "text": "Serum glucose 5.8 mmol/L (104 mg/dL)"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Hypokalemia sensitizes the myocardium to digoxin so toxicity may occur even when the digoxin level is in the usual range. Potassium-depleting diuretics such as furosemide increase this risk.",
+    "B": "Incorrect. A sodium of 138 mmol/L is within a typical reference interval and is not the classic precipitant of digoxin toxicity highlighted in labelling.",
+    "C": "Incorrect. Hemoglobin near 128 g/L does not specifically increase digoxin toxicity risk.",
+    "D": "Incorrect. A glucose of 5.8 mmol/L is not a recognized precipitant of digoxin toxicity in the cited sources."
+   },
+   "specialty": "Pharmacology",
+   "topic": "Digoxin — hypokalemia increases toxicity risk",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "units_note": "Potassium mmol/L = mEq/L; hemoglobin g/L ÷10 = g/dL; glucose ×18 ≈ mg/dL.",
+   "sources": [
+    {
+     "title": "pms-DIGOXIN (digoxin) Product Monograph",
+     "publisher": "Health Canada Drug Product Database — Pharmascience Inc. product monograph",
+     "url": "https://pdf.hres.ca/dpd_pm/00069390.PDF",
+     "section": "Endocrine and Metabolism — In Patients with Electrolyte Disorders; Drug interactions — potassium-depleting diuretics",
+     "source_date": "Last revised November 23, 2022",
+     "source_type": "drug_monograph_label",
+     "supports": "Key A; rationale A",
+     "evidence": "In hypokalemia, toxicity may occur despite normal digoxin concentrations; potassium-depleting diuretics (e.g., furosemide) may result in digoxin toxicity.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "19.6 Adjunct Medications Used in Heart Failure",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/19-6-adjunct-medications-used-in-heart-failure",
+     "section": "Cardiac Glycosides — Nursing Implications",
+     "source_date": "Citation date May 29, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key A (monitor potassium with digoxin)",
+     "evidence": "Digoxin has high toxicity potential; monitor serum digoxin levels and serum potassium levels.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-71aa8c06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Hypokalemia–toxicity link and furosemide interaction confirmed in Canadian digoxin monograph; OpenStax reinforces K monitoring."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "lab-range-varies"
+   ],
+   "enemy_group": "digoxin-toxicity-hypokalemia-risk",
+   "tags": [
+    "digoxin",
+    "hypokalemia",
+    "diuretics"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-PPT-0003",
+   "batch": "B11-WAVE2",
+   "item_version": 1,
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "Before giving the morning digoxin tablet, the nurse counts the client's apical pulse for 1 full minute and obtains 52 beats/min. The client is asymptomatic. What is the most appropriate nursing action?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Administer the digoxin as scheduled because the client has no symptoms."
+    },
+    {
+     "key": "B",
+     "text": "Withhold the digoxin and notify the health-care provider."
+    },
+    {
+     "key": "C",
+     "text": "Give half the ordered dose and recheck the pulse in 30 minutes."
+    },
+    {
+     "key": "D",
+     "text": "Crush the tablet and give it with a high-potassium food to prevent toxicity."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. An apical rate under 60 beats/min is an indication to withhold digoxin pending provider guidance, even if the client currently feels well.",
+    "B": "Correct. Nursing practice guidance is to assess the pulse for 1 minute and not administer digoxin if the heart rate is less than 60 beats/min. The Canadian monograph likewise notes that bradycardia related to digoxin may require temporary withdrawal and monitoring.",
+    "C": "Incorrect. Nurses do not independently halve digoxin doses; the dose should be withheld and the provider notified.",
+    "D": "Incorrect. Crushing is not indicated solely for a low pulse, and giving the dose despite bradycardia is unsafe."
+   },
+   "specialty": "Pharmacology",
+   "topic": "Digoxin — withhold for bradycardia",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "sources": [
+    {
+     "title": "19.6 Adjunct Medications Used in Heart Failure",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/19-6-adjunct-medications-used-in-heart-failure",
+     "section": "Cardiac Glycosides — Nursing Implications",
+     "source_date": "Citation date May 29, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationale A",
+     "evidence": "Assess pulse for 1 minute prior to administering digoxin. If heart rate is less than 60 beats per minute, do not administer the dose.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "pms-DIGOXIN (digoxin) Product Monograph",
+     "publisher": "Health Canada Drug Product Database — Pharmascience Inc. product monograph",
+     "url": "https://pdf.hres.ca/dpd_pm/00069390.PDF",
+     "section": "Overdosage — Withdrawal; asymptomatic bradycardia",
+     "source_date": "Last revised November 23, 2022",
+     "source_type": "drug_monograph_label",
+     "supports": "Key B",
+     "evidence": "Asymptomatic bradycardia or heart block related to digoxin may require only temporary withdrawal of the drug and cardiac monitoring.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-71aa8c06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Hold-if-HR<60 from OpenStax nursing implications; Canadian monograph supports temporary withdrawal for digoxin-related bradycardia."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "enemy_group": "digoxin-hold-if-hr-below-60",
+   "tags": [
+    "digoxin",
+    "bradycardia",
+    "apical pulse"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-PPT-0004",
+   "batch": "B11-WAVE2",
+   "item_version": 1,
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with nonvalvular atrial fibrillation is started on warfarin for stroke prevention. The nurse reinforces teaching about the usual therapeutic INR target range for this indication. Which statement by the client shows correct understanding?",
+   "options": [
+    {
+     "key": "A",
+     "text": "My INR goal is usually about 2.0 to 3.0."
+    },
+    {
+     "key": "B",
+     "text": "My INR should stay below 1.0 at all times."
+    },
+    {
+     "key": "C",
+     "text": "An INR above 5.0 is ideal for preventing clots."
+    },
+    {
+     "key": "D",
+     "text": "Warfarin does not require blood-test monitoring once I feel well."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. For most treatment durations, including atrial fibrillation, the Canadian product monograph targets an INR of 2.5 (range 2.0 to 3.0). OpenStax likewise cites a usual therapeutic INR of about 2–3.",
+    "B": "Incorrect. An INR near or below 1.0 reflects little anticoagulant effect and does not meet the therapeutic target for atrial fibrillation.",
+    "C": "Incorrect. Higher intensity anticoagulation increases bleeding risk; the monograph notes INR values greater than 4.0 provide little added benefit and raise bleeding risk for most patients.",
+    "D": "Incorrect. Warfarin dosing is adjusted according to PT/INR results and requires ongoing monitoring."
+   },
+   "specialty": "Pharmacology",
+   "topic": "Warfarin — therapeutic INR for atrial fibrillation",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Evaluate Outcomes",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Understanding",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "sources": [
+    {
+     "title": "Taro-Warfarin (Warfarin Sodium Tablets) Product Monograph",
+     "publisher": "Health Canada Drug Product Database — Taro Pharmaceuticals Inc. product monograph",
+     "url": "https://pdf.hres.ca/dpd_pm/00084195.PDF",
+     "section": "Dosage and Administration — target INR; Atrial Fibrillation",
+     "source_date": "not stated on fetched PDF pages (Marketed product checked 2026-11-25)",
+     "source_type": "drug_monograph_label",
+     "supports": "Key A; rationales B–D",
+     "evidence": "Adjust dose to maintain target INR 2.5 (range 2.0–3.0); AF trials support INR 2.0–3.0; INR >4.0 raises bleeding risk without added benefit for most patients.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "20.2 Anticoagulants",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/20-2-anticoagulants",
+     "section": "Warfarin",
+     "source_date": "Citation date May 29, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key A; rationale D",
+     "evidence": "Therapeutic goal INR usually 2–3; doses titrated based on INR; monitoring required.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-71aa8c06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "INR 2.0–3.0 for AF confirmed in Taro-Warfarin Canadian monograph and OpenStax anticoagulants chapter."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "enemy_group": "warfarin-inr-target-2-to-3-af",
+   "tags": [
+    "warfarin",
+    "INR",
+    "atrial fibrillation"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-RRP-0001",
+   "batch": "B11-WAVE2",
+   "item_version": 1,
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client arrives in the emergency department with sudden unilateral arm weakness and slurred speech that began 2 hours ago. Non-contrast CT has excluded intracranial hemorrhage, and a physician with stroke expertise confirms eligibility for intravenous thrombolysis. Within what time from symptom onset (or last known well) should intravenous alteplase or tenecteplase ideally be started for standard-window treatment?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Within 4.5 hours"
+    },
+    {
+     "key": "B",
+     "text": "Within 24 hours only; earlier treatment is not beneficial"
+    },
+    {
+     "key": "C",
+     "text": "Within 72 hours after a completed stroke work-up"
+    },
+    {
+     "key": "D",
+     "text": "Only if symptoms have been present for at least 12 hours"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Canadian Stroke Best Practices recommend offering IV thrombolysis with alteplase or tenecteplase to eligible patients who can be treated within 4.5 hours of onset or last known well. OpenStax likewise states thrombolytics must be given within about 3–4.5 hours of onset.",
+    "B": "Incorrect. Waiting up to 24 hours as the only window is incorrect for standard IV thrombolysis; benefit is highly time-dependent within the early window (extended imaging-selected windows are a separate pathway).",
+    "C": "Incorrect. A 72-hour delay is far outside the standard IV thrombolysis window.",
+    "D": "Incorrect. Treatment should be as soon as possible after arrival; requiring 12 hours of symptoms would miss the therapeutic window."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "Acute ischemic stroke — IV thrombolysis time window",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "Canada-specific",
+   "jurisdiction_note": "Keyed to Canadian Stroke Best Practices 7th edition (IV alteplase or tenecteplase within 4.5 h). US practice also uses a ~4.5 h alteplase window for many eligible adults; tenecteplase use varies by jurisdiction/protocol.",
+   "units_note": "",
+   "sources": [
+    {
+     "title": "5. Acute Ischemic Stroke Treatment",
+     "publisher": "Heart & Stroke — Canadian Stroke Best Practices",
+     "url": "https://www.strokebestpractices.ca/recommendations/acute-stroke-management/acute-ischemic-stroke-treatment",
+     "section": "5.2 Intravenous Thrombolysis Administration",
+     "source_date": "7th Edition update December 2022 & Endovascular Thrombectomy Interim Update 2025",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A; rationales B–D",
+     "evidence": "Eligible patients who can receive IV thrombolysis with alteplase or tenecteplase within 4.5 hours of onset/last known well should be offered IV thrombolysis; treat as soon as possible (median door-to-needle ≤30 min target).",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "15.2 Ischemic Stroke",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/15-2-ischemic-stroke",
+     "section": "Medical Therapies — Thrombolytics",
+     "source_date": "Citation date Oct 16, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "tPA class (alteplase, tenecteplase) must be administered within 3–4.5 hours of stroke onset or last known well.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-71aa8c06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "4.5-hour IV thrombolysis window confirmed in CSBPR §5.2 and OpenStax Med-Surg 15.2. Door-to-needle target noted but not keyed."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency",
+    "canada-us-difference"
+   ],
+   "enemy_group": "ais-iv-thrombolysis-4-5-hour-window",
+   "tags": [
+    "stroke",
+    "thrombolysis",
+    "alteplase",
+    "tenecteplase"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-HPM-0001",
+   "batch": "B11-WAVE2",
+   "item_version": 1,
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "A nurse is preparing to assign an Apgar score at 1 minute of life. Which components are included in the Apgar assessment? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Appearance (colour)"
+    },
+    {
+     "key": "B",
+     "text": "Pulse (heart rate)"
+    },
+    {
+     "key": "C",
+     "text": "Blood glucose"
+    },
+    {
+     "key": "D",
+     "text": "Grimace (reflex irritability)"
+    },
+    {
+     "key": "E",
+     "text": "Activity (muscle tone)"
+    },
+    {
+     "key": "F",
+     "text": "Respiration"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "D",
+    "E",
+    "F"
+   ],
+   "rationales": {
+    "A": "Correct. Appearance (colour) is one of the five Apgar components.",
+    "B": "Correct. Pulse (heart rate) is scored as part of the Apgar.",
+    "C": "Incorrect. Blood glucose is important newborn care data but is not an Apgar component.",
+    "D": "Correct. Grimace (reflex irritability) is an Apgar component.",
+    "E": "Correct. Activity (muscle tone) is an Apgar component.",
+    "F": "Correct. Respiration is an Apgar component."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Apgar score components",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Remembering",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "sources": [
+    {
+     "title": "Neonatal Resuscitation",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/perinatal-problems/neonatal-resuscitation",
+     "section": "Apgar Score",
+     "source_date": "Last updated Feb 2025",
+     "source_type": "clinical_reference",
+     "supports": "A, B, D, E, F; rationale C (by omission)",
+     "evidence": "Apgar assigns 0–2 points for Appearance, Pulse, Grimace, Activity, Respiration.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "22.1 Apgar Scoring",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/22-1-apgar-scoring",
+     "section": "Apgar Scoring overview; Activity; Pulse; Grimace; Appearance; Respiration",
+     "source_date": "Citation date Jun 26, 2024",
+     "source_type": "textbook_open",
+     "supports": "A, B, D, E, F",
+     "evidence": "Apgar at 1 and 5 minutes assesses heart rate, respiration, reflex irritability, muscle tone, and colour.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-71aa8c06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Five Apgar components confirmed in Merck Neonatal Resuscitation and OpenStax Maternal-Newborn 22.1."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn"
+   ],
+   "enemy_group": "apgar-five-components",
+   "tags": [
+    "Apgar",
+    "newborn",
+    "assessment"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-PSY-0001",
+   "batch": "B11-WAVE2",
+   "item_version": 1,
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with major depression says, \"I don't think anyone would miss me if I were gone.\" Which nursing response is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"You're just having a bad day; things will look better tomorrow.\""
+    },
+    {
+     "key": "B",
+     "text": "\"Are you having thoughts of killing yourself or harming yourself?\""
+    },
+    {
+     "key": "C",
+     "text": "\"Let's talk about something more cheerful instead.\""
+    },
+    {
+     "key": "D",
+     "text": "Avoid mentioning suicide so the idea is not suggested to the client."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. This is false reassurance and minimizes the client's distress rather than assessing risk.",
+    "B": "Correct. Clinicians should ask gently but directly about suicidal thoughts and plans. Asking does not plant the idea; it enables risk assessment and safety planning.",
+    "C": "Incorrect. Changing the subject is a nontherapeutic barrier when a client discloses despair or possible suicidal ideation.",
+    "D": "Incorrect. Nurses should not avoid the topic; failure to ask can miss imminent risk."
+   },
+   "specialty": "Mental Health",
+   "topic": "Suicide risk — ask directly",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "sources": [
+    {
+     "title": "16.3 Self-Harm and Suicide",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/16-3-self-harm-and-suicide",
+     "section": "Planning Nursing Care for a Suicidal Client",
+     "source_date": "Citation date Jun 12, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationale D",
+     "evidence": "Never be reluctant to ask if the client is contemplating suicide or self-harm; asking will not put the thought into their head; if yes, ask about method for risk assessment.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "Depressive Disorders",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/mood-disorders/depressive-disorders",
+     "section": "Diagnosis of Depressive Disorders",
+     "source_date": "Last updated Nov 2026",
+     "source_type": "clinical_reference",
+     "supports": "Key B",
+     "evidence": "Clinician should gently but directly ask patients about any thoughts and plans to harm themselves or others, and about previous threats or attempts.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-71aa8c06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Direct questioning supported by OpenStax PMH 16.3 and Merck Depressive Disorders (Nov 2026). False reassurance/changing subject also addressed via nursing communication sources in related item."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "enemy_group": "suicide-ask-directly",
+   "tags": [
+    "suicide",
+    "depression",
+    "therapeutic communication"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-PSY-0002",
+   "batch": "B11-WAVE2",
+   "item_version": 1,
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client awaiting cancer staging results says, \"I'm terrified this will kill me.\" Which nurse response is nontherapeutic?",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"Tell me more about what frightens you most right now.\""
+    },
+    {
+     "key": "B",
+     "text": "\"Don't worry — everything is going to be fine.\""
+    },
+    {
+     "key": "C",
+     "text": "\"It sounds like this uncertainty is overwhelming.\""
+    },
+    {
+     "key": "D",
+     "text": "\"What support has helped you cope with hard news before?\""
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect (this is therapeutic). An open invitation to elaborate supports exploration of feelings.",
+    "B": "Correct (nontherapeutic). Giving false reassurance that everything will be all right may do more harm than good and devalues the client's fear.",
+    "C": "Incorrect (this is therapeutic). Reflecting the client's feeling validates the emotion.",
+    "D": "Incorrect (this is therapeutic). Exploring coping resources is appropriate."
+   },
+   "specialty": "Mental Health",
+   "topic": "Therapeutic communication — false reassurance",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "sources": [
+    {
+     "title": "2.4 Therapeutic Communication",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/2-4-therapeutic-communication",
+     "section": "Nontherapeutic Communication Techniques — False reassurance",
+     "source_date": "Citation date Sep 4, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "False reassurance that everything will be all right may do more harm than good; allow fears/concerns and offer hope without devaluing feelings.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "3.1 Therapeutic Communication and Relationships",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/3-1-therapeutic-communication-and-relationships",
+     "section": "Barriers to Therapeutic Communication — Providing False Reassurance",
+     "source_date": "Citation date Jun 12, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Providing false reassurance is listed among barriers/techniques nurses should avoid.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-71aa8c06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "False reassurance identified as nontherapeutic in OpenStax Fundamentals 2.4 and Psychiatric-Mental Health 3.1. Two OpenStax titles = independent books/publishers within OpenStax nursing series."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "enemy_group": "false-reassurance-nontherapeutic",
+   "tags": [
+    "therapeutic communication",
+    "psychosocial"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-MOC-0002",
+   "batch": "B11-WAVE2",
+   "item_version": 1,
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An Ontario RN is teaching a newly hired nurse about the College of Nurses of Ontario Documentation practice standard. Which statement best reflects a core requirement of safe documentation?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Documentation should be clear, complete, and accurate so the health-care team can make informed decisions."
+    },
+    {
+     "key": "B",
+     "text": "Documentation is optional if verbal handoff already covered the shift events."
+    },
+    {
+     "key": "C",
+     "text": "Nurses may omit timed entries as long as the note is signed at the end of the week."
+    },
+    {
+     "key": "D",
+     "text": "Only abnormal findings need to be recorded; routine assessments can be left undocumented."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO states that clear, complete, and accurate documentation is essential for safe client care and coordinated decision-making. OpenStax likewise emphasizes accurate, complete, and timely documentation for continuity of care.",
+    "B": "Incorrect. Verbal handoff does not replace the requirement for documented information accessible to the team.",
+    "C": "Incorrect. High-quality documentation includes timeliness and authenticated entries with accurate date/time; delaying for a week is unsafe.",
+    "D": "Incorrect. Comprehensive documentation of assessments and care—not only abnormal findings—supports continuity and risk management."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Documentation — clear, complete, accurate",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "jurisdiction": "Ontario-specific",
+   "jurisdiction_note": "Keyed to CNO Documentation practice standard; general accuracy/timeliness principles are also taught in US nursing fundamentals.",
+   "units_note": "",
+   "sources": [
+    {
+     "title": "Documentation (Practice Standard)",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41001_documentation.pdf",
+     "section": "Introduction / importance of clear, complete and accurate documentation",
+     "source_date": "Updated September 2025 (CNO document revision history on PDF)",
+     "source_type": "regulator_standard",
+     "supports": "Key A; rationales B–D",
+     "evidence": "Clear, complete and accurate documentation is essential for safe client care and ensures critical information is communicated across the team.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "14.5 Guidelines for Effective Documentation",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/14-5-guidelines-for-effective-documentation",
+     "section": "Learning Objectives; ANA documentation principles (completeness, timeliness, accuracy)",
+     "source_date": "Citation date Sep 4, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key A; rationale C",
+     "evidence": "Document accurately and comprehensively; high-quality documentation characteristics include completeness and timeliness; entries authenticated with accurate date/time.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-71aa8c06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "CNO Documentation standard (Sept 2025 update on PDF) + OpenStax Fundamentals 14.5 for completeness/timeliness/accuracy."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario"
+   ],
+   "enemy_group": "cno-documentation-clear-complete-accurate",
+   "tags": [
+    "documentation",
+    "CNO",
+    "Ontario"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B12-WAVE3",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "transfusion",
+    "blood-products",
+    "safety"
+   ],
+   "jurisdiction_note": "",
+   "units_note": "",
+   "id": "ONRN-RRP-0002",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "Fifteen minutes after starting a packed red blood cell transfusion, a client reports chills and new flank pain. Temperature has risen from 36.8°C to 38.2°C. After the nurse stops the transfusion, which concurrent action is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Flush the blood tubing with the remaining packed cells to clear the line."
+    },
+    {
+     "key": "B",
+     "text": "Keep the intravenous line open with normal saline using new tubing, and notify the blood bank."
+    },
+    {
+     "key": "C",
+     "text": "Restart the same unit at a slower rate after giving acetaminophen."
+    },
+    {
+     "key": "D",
+     "text": "Discard the blood bag immediately so it cannot be returned for investigation."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. The transfusion must remain stopped; continuing to infuse residual cells from the implicated unit risks further hemolysis.",
+    "B": "Correct. For suspected transfusion reaction (fever, chills, flank pain), stop the transfusion, keep venous access open with normal saline, and send the remaining product and samples to the blood bank for investigation.",
+    "C": "Incorrect. The same unit must not be restarted. Febrile symptoms can herald acute hemolytic reaction and require investigation first.",
+    "D": "Incorrect. The remainder of the blood product is needed for blood-bank investigation; it should not be discarded."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Transfusion reaction — stop infusion and keep IV open with saline",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "Complications of Transfusion",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/hematology/transfusion-medicine/complications-of-transfusion",
+     "section": "Complications of Transfusion — early recognition",
+     "source_date": "Last updated Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "If chills, fever, dyspnea, flank pain (other than localized urticaria/itching) occur, stop transfusion immediately; keep IV open with normal saline; send remainder of product for investigation; do not restart the unit.",
+     "added_by": "author"
+    },
+    {
+     "title": "13.4 Blood Transfusions",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/13-4-blood-transfusions",
+     "section": "Transfusion Reactions; Managing a Blood or Blood Product Transfusion Reaction",
+     "source_date": "Citation date Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Nurses must recognize transfusion reactions and stop the transfusion; management includes maintaining IV access and following reaction protocols with blood bank notification.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key and all rationales checked against live-fetched Merck (Oct 2026) and OpenStax Clinical Nursing Skills 13.4. Localized urticaria-only exception in Merck is not tested."
+    }
+   ],
+   "enemy_group": "transfusion-reaction-stop-keep-iv-saline",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B12-WAVE3",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "shock",
+    "hypovolemia",
+    "postoperative"
+   ],
+   "jurisdiction_note": "",
+   "units_note": "",
+   "id": "ONRN-PA-0004",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A postoperative client has brisk wound drainage into a surgical drain. The client is anxious. Capillary refill is delayed, skin is cool and clammy, heart rate is 118 beats/min, and blood pressure is 118/78 mm Hg. Which interpretation best fits these findings?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Early compensatory response to hypovolemia; tachycardia can precede frank hypotension."
+    },
+    {
+     "key": "B",
+     "text": "Cardiogenic shock is most likely because blood pressure is still near the client's baseline."
+    },
+    {
+     "key": "C",
+     "text": "Findings are reassuring; hypovolemic shock is excluded until systolic blood pressure falls below 90 mm Hg."
+    },
+    {
+     "key": "D",
+     "text": "Neurogenic shock is most likely because the client is anxious after surgery."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. In early hypovolemic compensation, sympathetic activation raises heart rate and vascular tone; blood pressure may remain normal or only slightly changed while tachycardia, cool clammy skin, and anxiety appear.",
+    "B": "Incorrect. Cardiogenic shock involves pump failure; this picture of volume loss with compensatory tachycardia fits hypovolemia, not a primary cardiac pump problem.",
+    "C": "Incorrect. Hypotension is common in shock but is not required early; clients may be normotensive while compensation is still effective.",
+    "D": "Incorrect. Neurogenic shock typically features bradycardia and warm dry skin from loss of sympathetic tone, not compensatory tachycardia with cool clammy skin."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "Hypovolemic shock — early compensatory tachycardia",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "Shock",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/critical-care-medicine/shock-and-fluid-resuscitation/shock",
+     "section": "Pathophysiology of Shock; Etiology — Hypovolemic shock; Compensation",
+     "source_date": "Last updated Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; rationale C",
+     "evidence": "Symptoms include tachycardia, hypotension, oliguria; hypotension common but not required — some patients normotensive early; hypovolemia triggers sympathetic tachycardia and vasoconstriction.",
+     "added_by": "author"
+    },
+    {
+     "title": "23.2 Hypovolemic Shock",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/23-2-hypovolemic-shock",
+     "section": "Pathophysiology of Hypovolemic Shock; Clinical Manifestations",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; rationales",
+     "evidence": "Early hypovolemic shock: SNS raises heart rate/contractility; BP normal to slightly elevated early; later hypotension with tachycardia; classic signs include tachycardia, cool clammy skin, anxiety.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Keyed early compensation (tachycardia with preserved BP) confirmed in Merck Shock and OpenStax 23.2. Neurogenic contrast from standard shock classification in Merck."
+    }
+   ],
+   "enemy_group": "hypovolemic-shock-early-compensatory-tachycardia",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B12-WAVE3",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn",
+    "canada-us-difference"
+   ],
+   "tags": [
+    "prenatal",
+    "folic-acid",
+    "health-promotion"
+   ],
+   "jurisdiction_note": "Keyed to PHAC healthy-pregnancy guidance (0.4 mg daily multivitamin). Merck recommends 400–800 mcg, which includes the Canadian 0.4 mg teaching point.",
+   "units_note": "",
+   "id": "ONRN-HPM-0002",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "At a preconception visit in Canada, a client who could become pregnant asks what daily folic acid dose is recommended to help prevent neural tube defects, assuming no high-risk history. Which teaching is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Take a daily multivitamin that provides 0.4 mg (400 mcg) of folic acid."
+    },
+    {
+     "key": "B",
+     "text": "Take 4 mg of folic acid daily without speaking with a health-care provider."
+    },
+    {
+     "key": "C",
+     "text": "Folic acid is needed only after the pregnancy is confirmed on ultrasound."
+    },
+    {
+     "key": "D",
+     "text": "Dietary folate alone is sufficient; a supplement is unnecessary for most people."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. PHAC and Merck advise a daily multivitamin with 0.4 mg (400 mcg) folic acid for people who could become pregnant, to reduce neural tube defect risk.",
+    "B": "Incorrect. Higher doses (for example, about 4 mg) are reserved for selected higher-risk situations and require provider guidance; routine self-escalation is not advised.",
+    "C": "Incorrect. Neural tube closure occurs in the first weeks of pregnancy, often before pregnancy is recognized; supplementation should start before conception when possible.",
+    "D": "Incorrect. Diet alone is not enough to reach the folic acid level needed for neural tube defect prevention; a supplement is recommended."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Folic acid — 0.4 mg daily for neural tube defect prevention",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "Canada-specific",
+   "sources": [
+    {
+     "title": "Your Guide to a Healthy Pregnancy — Folic acid",
+     "publisher": "Public Health Agency of Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/public-health/services/health-promotion/healthy-pregnancy/healthy-pregnancy-guide.html",
+     "section": "Folic acid",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; rationales B,C,D",
+     "evidence": "If you could become pregnant, are planning pregnancy or are pregnant, take a multivitamin with 0.4 mg folic acid every day; diet alone is not enough; talk to provider before doses >1 mg.",
+     "added_by": "author"
+    },
+    {
+     "title": "Evaluation of the Obstetric Patient",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/approach-to-the-pregnant-woman-and-prenatal-care/evaluation-of-the-obstetric-patient",
+     "section": "Management — Diet and supplements; Prevention",
+     "source_date": "Last updated Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; rationale B",
+     "evidence": "Advise folic acid 400–800 mcg daily to reduce neural tube defects; prior NTD pregnancy: 4000 mcg (4 mg) daily with timed preconception use.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "PHAC 0.4 mg and Merck 400–800 mcg agree on routine dose; high-dose 4 mg kept as distractor with provider caveat. Maternity flag set."
+    }
+   ],
+   "enemy_group": "folic-acid-0-4mg-ntd-prevention",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B12-WAVE3",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario"
+   ],
+   "tags": [
+    "consent",
+    "ontario",
+    "HCCA",
+    "CNO"
+   ],
+   "jurisdiction_note": "Elements keyed to Ontario HCCA s. 11 and CNO Consent practice guideline (updated July 2025).",
+   "units_note": "",
+   "id": "ONRN-MOC-0003",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "An Ontario nurse reviews what must be included for consent to treatment to be informed under the Health Care Consent Act and CNO Consent guideline. Which pieces of information must be provided? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "The nature of the proposed treatment"
+    },
+    {
+     "key": "B",
+     "text": "The expected benefits of the treatment"
+    },
+    {
+     "key": "C",
+     "text": "The material risks and material side effects of the treatment"
+    },
+    {
+     "key": "D",
+     "text": "Alternative courses of action"
+    },
+    {
+     "key": "E",
+     "text": "The likely consequences of not having the treatment"
+    },
+    {
+     "key": "F",
+     "text": "A guarantee that the treatment will succeed"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. Informed consent requires information about the nature of the treatment.",
+    "B": "Correct. Expected benefits must be explained.",
+    "C": "Correct. Material risks and material side effects must be disclosed.",
+    "D": "Correct. Alternative courses of action must be included.",
+    "E": "Correct. Likely consequences of declining the treatment must be included.",
+    "F": "Incorrect. Neither the HCCA nor CNO requires a guarantee of success; promising certainty is not an element of informed consent."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Informed consent — required information elements (HCCA/CNO)",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Understanding",
+   "jurisdiction": "Ontario-specific",
+   "sources": [
+    {
+     "title": "Consent (Practice Guideline)",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41020_consent.pdf",
+     "section": "What is informed consent?",
+     "source_date": "Updated July 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Keys A–E; rationale F",
+     "evidence": "Information must include nature, expected benefits, material risks and side effects, alternative courses of action, and likely consequences of not having the treatment.",
+     "added_by": "author"
+    },
+    {
+     "title": "Health Care Consent Act, 1996",
+     "publisher": "Government of Ontario (e-Laws)",
+     "url": "https://www.ontario.ca/laws/statute/96h02",
+     "section": "s. 11 — Elements of consent; Informed consent",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "supports": "Keys A–E",
+     "evidence": "Informed consent requires nature, expected benefits, material risks, material side effects, alternatives, and likely consequences of not having the treatment.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "All five keyed elements match CNO Consent and HCCA s.11(3). Guarantee of success is not an element."
+    }
+   ],
+   "enemy_group": "hcca-informed-consent-required-elements",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B12-WAVE3",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "delegation",
+    "management-of-care",
+    "UCP"
+   ],
+   "jurisdiction_note": "Uses NCSBN/ANA national delegation guidelines and OpenStax; Ontario nurses must also follow CNO/employer scope rules (not separately keyed).",
+   "units_note": "",
+   "id": "ONRN-MOC-0004",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An RN is organizing care with an unregulated care provider (UCP/assistive personnel). Which activity must the RN retain and NOT delegate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Assisting a stable client to the bathroom after the RN has assessed mobility"
+    },
+    {
+     "key": "B",
+     "text": "Delivering a meal tray to a client who is able to feed themselves"
+    },
+    {
+     "key": "C",
+     "text": "Performing the initial assessment of a newly admitted client who has new chest pain"
+    },
+    {
+     "key": "D",
+     "text": "Reminding a stable client to use an incentive spirometer as previously taught"
+    }
+   ],
+   "correct_answer": [
+    "C"
+   ],
+   "rationales": {
+    "A": "Incorrect. Assisting with toileting for a stable client after nursing assessment can be an appropriate delegated/assigned supportive task when policy and competence allow.",
+    "B": "Incorrect. Routine delivery of a meal tray does not require nursing judgment and may be assigned to assistive personnel.",
+    "C": "Correct. Clinical reasoning, nursing judgment, and critical decision-making — including assessing a new symptomatic client — cannot be delegated.",
+    "D": "Incorrect. Reminding a stable client to use previously taught incentive spirometry is a supportive task that does not transfer nursing judgment."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "Delegation — nursing judgment cannot be delegated",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "National Guidelines for Nursing Delegation",
+     "publisher": "NCSBN / American Nurses Association",
+     "url": "https://www.ncsbn.org/public-files/NGND-PosPaper_06.pdf",
+     "section": "Delegation principles — nursing judgment",
+     "source_date": "Effective Date: 4/29/2019",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key C",
+     "evidence": "Licensed nurse cannot delegate nursing judgment or any activity involving nursing judgment or critical decision making; clinical reasoning cannot be delegated.",
+     "added_by": "author"
+    },
+    {
+     "title": "15.4 Nursing Standards of Delegation",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/15-4-nursing-standards-of-delegation",
+     "section": "Principles for Delegation",
+     "source_date": "Citation date Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key C; rationales A,B,D",
+     "evidence": "While elements of nursing care may be delegated, the nursing process cannot; decisions consider patient complexity and supervision needs.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key confirmed vs NCSBN/ANA 2019 guidelines and OpenStax 15.4. Distractors are supportive tasks, not nursing judgment."
+    }
+   ],
+   "enemy_group": "delegation-nursing-judgment-cannot-delegate",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B12-WAVE3",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "MRSA",
+    "contact-precautions",
+    "IPAC"
+   ],
+   "jurisdiction_note": "PHO clinical syndromes list Contact (+ Droplet if sputum/coughing). Stem specifies no cough so Contact is keyed; CDC recommends Contact Precautions for MRSA colonization/infection.",
+   "units_note": "",
+   "id": "ONRN-SIPC-0004",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client is newly identified as colonized with methicillin-resistant Staphylococcus aureus (MRSA) on a wound swab. The client has no cough. In addition to routine/standard practices and hand hygiene, which precautions should the nurse initiate for direct care?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Airborne precautions with an N95 respirator as the only required PPE"
+    },
+    {
+     "key": "B",
+     "text": "Contact precautions, including gown and gloves for direct care"
+    },
+    {
+     "key": "C",
+     "text": "Droplet precautions alone, with a surgical mask and no gown"
+    },
+    {
+     "key": "D",
+     "text": "No additional precautions; colonization never requires PPE beyond hand hygiene"
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. MRSA is not managed with airborne precautions; N95-only airborne precautions are for pathogens such as tuberculosis.",
+    "B": "Correct. CDC and Ontario PHO guidance place MRSA on Contact Precautions; gown and gloves are used for direct care in addition to hand hygiene.",
+    "C": "Incorrect. Droplet precautions alone are not the baseline for MRSA colonization without a specified respiratory indication.",
+    "D": "Incorrect. Colonized as well as infected clients with MRSA warrant Contact Precautions in acute care settings per CDC; PHO likewise lists MRSA under Contact Precautions."
+   },
+   "specialty": "Fundamentals",
+   "topic": "MRSA — Contact Precautions with gown and gloves",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "Infection Control Guidance: Preventing MRSA in Healthcare Facilities",
+     "publisher": "Centers for Disease Control and Prevention",
+     "url": "https://www.cdc.gov/mrsa/hcp/infection-control/index.html",
+     "section": "For acute care settings: Contact Precautions",
+     "source_date": "Updated Nov 24, 2026 (page also notes Published May 15, 2024)",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B; rationale D",
+     "evidence": "CDC recommends Contact Precautions for patients colonized or infected with MRSA in inpatient acute care settings.",
+     "added_by": "author"
+    },
+    {
+     "title": "Infection Prevention and Control for Home and Community Care",
+     "publisher": "Public Health Ontario",
+     "url": "https://www.publichealthontario.ca/-/media/Documents/I/25/ipac-home-community-care.pdf",
+     "section": "Contact Precautions — Antibiotic Resistant Organisms / MRSA",
+     "source_date": "1st Revision November 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B",
+     "evidence": "MRSA listed among organisms requiring Contact Precautions; wear gown and gloves when providing direct care.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "CDC Contact Precautions for MRSA colonization/infection and PHO gown/gloves for MRSA direct care confirmed. Droplet add-on for coughing not keyed because stem has no cough."
+    }
+   ],
+   "enemy_group": "mrsa-contact-precautions-gown-gloves",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B12-WAVE3",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "emergency"
+   ],
+   "tags": [
+    "opioids",
+    "naloxone",
+    "respiratory-depression"
+   ],
+   "jurisdiction_note": "",
+   "units_note": "",
+   "id": "ONRN-PPT-0005",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client who received IV morphine becomes difficult to arouse. Respirations are 6 breaths/min and shallow. After supporting the airway and calling for help, which medication should the nurse prepare to reverse the opioid effect?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Flumazenil"
+    },
+    {
+     "key": "B",
+     "text": "Naloxone"
+    },
+    {
+     "key": "C",
+     "text": "Acetylcysteine"
+    },
+    {
+     "key": "D",
+     "text": "Protamine sulfate"
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Flumazenil antagonizes benzodiazepines, not opioids.",
+    "B": "Correct. Naloxone is an opioid antagonist indicated to reverse opioid-induced respiratory depression and overdose.",
+    "C": "Incorrect. Acetylcysteine is the antidote used for acetaminophen toxicity, not opioid overdose.",
+    "D": "Incorrect. Protamine is used to reverse heparin anticoagulation, not opioid effects."
+   },
+   "specialty": "Pharmacology",
+   "topic": "Naloxone — reverse opioid-induced respiratory depression",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "Treatment of Pain — Opioid antagonists",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/pain/treatment-of-pain",
+     "section": "Opioid antagonists",
+     "source_date": "Last updated Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B",
+     "evidence": "Opioid antagonists reverse overdose symptoms, particularly respiratory depression; naloxone is used for this purpose.",
+     "added_by": "author"
+    },
+    {
+     "title": "Naloxone Hydrochloride Injection USP — Product Monograph",
+     "publisher": "Health Canada (Hikma Canada)",
+     "url": "https://pdf.hres.ca/dpd_pm/00065950.PDF",
+     "section": "INDICATIONS AND CLINICAL USE",
+     "source_date": "Date of Preparation: May 13, 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "drug_monograph_label",
+     "supports": "Key B",
+     "evidence": "Indicated for complete or partial reversal of opioid depression, including respiratory depression, and diagnosis of suspected acute opioid overdosage.",
+     "added_by": "author"
+    },
+    {
+     "title": "14.3 Opioid Agonists and Antagonists",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/14-3-opioid-agonists-and-antagonists",
+     "section": "Naloxone Hydrochloride",
+     "source_date": "Citation date May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Naloxone is an opioid receptor antagonist used as antidote for opioid overdose with severe CNS and respiratory depression.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key confirmed vs Merck opioid antagonists, Health Canada PM, and OpenStax. Distractor antidotes are classically different toxicities (benzodiazepine, acetaminophen, heparin)."
+    }
+   ],
+   "enemy_group": "naloxone-reverse-opioid-respiratory-depression",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B12-WAVE3",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "pain",
+    "comfort",
+    "assessment"
+   ],
+   "jurisdiction_note": "",
+   "units_note": "",
+   "id": "ONRN-BCC-0003",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client rates postoperative pain as 8 on a 0–10 numeric scale while talking calmly with visitors. Vital signs are near baseline. Which nursing action best reflects evidence-based pain assessment?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Document the pain as mild because the client is conversing calmly."
+    },
+    {
+     "key": "B",
+     "text": "Accept the client's self-report of pain intensity and proceed with the pain-management plan."
+    },
+    {
+     "key": "C",
+     "text": "Withhold analgesia until vital signs show tachycardia and hypertension."
+    },
+    {
+     "key": "D",
+     "text": "Ask visitors to leave and reassess only after the client appears distressed."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Calm behaviour does not override a client's reported intensity; pain is subjective and may not show outward distress.",
+    "B": "Correct. Pain is a subjective experience; the client's report should be respected and used to guide management.",
+    "C": "Incorrect. Vital-sign changes are inconsistent markers and are not required before treating reported pain.",
+    "D": "Incorrect. Delaying care until visible distress appears dismisses the client's report and is not therapeutic."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Pain assessment — respect client self-report",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Caring",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "Overview of Pain",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/pain/overview-of-pain",
+     "section": "Overview of Pain — key concepts",
+     "source_date": "Last updated Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationale A",
+     "evidence": "Experience of pain is always subjective; an individual's report of pain should always be respected.",
+     "added_by": "author"
+    },
+    {
+     "title": "30.4 Pain Assessment",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/30-4-pain-assessment",
+     "section": "Learning Objectives; Collecting Subjective Data",
+     "source_date": "Citation date Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Pain is a subjective experience and may not be outwardly displayed; comprehensive assessment relies heavily on subjective client data including severity.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Merck (respect self-report; pain subjective) and OpenStax 30.4 agree. Distractors reject self-report based on demeanour/vitals."
+    }
+   ],
+   "enemy_group": "pain-assessment-respect-self-report",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B12-WAVE3",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "heart-failure",
+    "orthopnea",
+    "pulmonary-edema"
+   ],
+   "jurisdiction_note": "",
+   "units_note": "",
+   "id": "ONRN-PA-0005",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with known left-sided heart failure reports increasing shortness of breath when lying flat and needs three pillows to sleep. On auscultation, the nurse hears early inspiratory basilar crackles that do not clear with coughing. Which problem do these findings best indicate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Pulmonary congestion from elevated left-sided filling pressures"
+    },
+    {
+     "key": "B",
+     "text": "Isolated right-sided failure with systemic venous congestion only"
+    },
+    {
+     "key": "C",
+     "text": "Community-acquired pneumonia as the only plausible explanation"
+    },
+    {
+     "key": "D",
+     "text": "Acute hypovolemia from inadequate oral fluid intake"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Left-sided failure causes dyspnea, orthopnea, and pulmonary findings such as basilar crackles from elevated pulmonary venous pressures and pulmonary edema.",
+    "B": "Incorrect. Isolated right-sided failure more classically produces systemic congestion (for example, jugular venous distention, peripheral edema) rather than orthopnea with pulmonary crackles as the primary picture.",
+    "C": "Incorrect. Pneumonia can cause crackles, but orthopnea with known left-sided HF and non-clearing basilar crackles fits pulmonary congestion from HF; pneumonia is not the only or best explanation here.",
+    "D": "Incorrect. Hypovolemia would not explain orthopnea with pulmonary crackles; HF congestion reflects fluid backing into the lungs."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Left-sided heart failure — orthopnea and pulmonary crackles",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "Acute Heart Failure",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/heart-failure/heart-failure-hf",
+     "section": "Symptoms and Signs — History; Examination",
+     "source_date": "Last updated Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "In LV failure, common symptoms are dyspnea and fatigue from increased pulmonary venous pressures with/without pulmonary edema; exam may show early inspiratory basilar crackles that do not clear with coughing.",
+     "added_by": "author"
+    },
+    {
+     "title": "12.3 Heart Failure",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/12-3-heart-failure",
+     "section": "Clinical Manifestations",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Dyspnea and orthopnea (sleeping on more than two pillows) occur; lung assessment may reveal crackles in the pulmonary bases from fluid backing into the lungs.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Orthopnea + non-clearing basilar crackles keyed to LV failure / pulmonary congestion using Merck Acute HF and OpenStax 12.3."
+    }
+   ],
+   "enemy_group": "left-sided-hf-orthopnea-basilar-crackles",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B12-WAVE3",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency",
+    "possible-ambiguity"
+   ],
+   "tags": [
+    "transfusion",
+    "ordered-response",
+    "safety"
+   ],
+   "jurisdiction_note": "",
+   "units_note": "",
+   "id": "ONRN-RRP-0003",
+   "format": "ordered_response",
+   "scoring_model": "dichotomous",
+   "stem": "A client receiving a unit of packed red blood cells develops sudden dyspnea, fever, and back pain. Place the nurse's actions in the correct order from first to last.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Notify the health-care provider and the blood bank, and send the remaining product and required blood samples for investigation."
+    },
+    {
+     "key": "B",
+     "text": "Stop the transfusion immediately."
+    },
+    {
+     "key": "C",
+     "text": "Maintain intravenous access with normal saline (new tubing as per protocol)."
+    },
+    {
+     "key": "D",
+     "text": "Document the event and continue close monitoring of vital signs and urine output."
+    }
+   ],
+   "correct_answer": [
+    "B",
+    "C",
+    "A",
+    "D"
+   ],
+   "rationales": {
+    "B": "Correct (first). Stopping the transfusion immediately is the priority when a reaction is suspected.",
+    "C": "Correct (second). Keep the IV line open with normal saline so access is preserved for treatment and sampling.",
+    "A": "Correct (third). After the infusion is stopped and access secured, notify the provider/blood bank and send the product and samples for investigation.",
+    "D": "Correct (fourth). Documentation and ongoing monitoring continue after immediate safety and reporting steps."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Transfusion reaction — priority action sequence",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "Complications of Transfusion",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/hematology/transfusion-medicine/complications-of-transfusion",
+     "section": "Complications of Transfusion — early recognition",
+     "source_date": "Last updated Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Order B then C then investigation/reporting",
+     "evidence": "Stop transfusion immediately; keep IV open with normal saline; send remainder of product and patient samples to blood bank for investigation.",
+     "added_by": "author"
+    },
+    {
+     "title": "13.4 Blood Transfusions",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/13-4-blood-transfusions",
+     "section": "What If Your Patient Experiences a Transfusion Reaction?; Managing a Blood or Blood Product Transfusion Reaction",
+     "source_date": "Citation date Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Order emphasizing stop first, then protocol management/notification",
+     "evidence": "Nurses must stop the transfusion and follow reaction management protocols including notification and monitoring.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Order keyed stop → keep IV saline → notify/investigate → document/monitor. Same enemy-group family as RRP-0002 but distinct sequence skill; same clinical event type — assign different enemy_group."
+    }
+   ],
+   "enemy_group": "transfusion-reaction-action-sequence",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B13-WAVE4",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "postoperative",
+    "atelectasis",
+    "incentive-spirometry"
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key and rationales checked vs live-fetched Merck Atelectasis (Apr 2025; cough/deep breathing/incentive spirometry) and OpenStax Medical-Surgical Nursing 27.3 (Oct 2024; routine incentive spirometer for postop atelectasis/pneumonia risk)."
+    }
+   ],
+   "id": "ONRN-RRP-0004",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client is on the first postoperative day after open abdominal surgery. Oxygen saturation is 94% on room air. Breath sounds are diminished at both bases. Which nursing action best helps reduce the risk of atelectasis?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Encourage the client to remain flat in bed to conserve oxygen."
+    },
+    {
+     "key": "B",
+     "text": "Coach the client to use an incentive spirometer and take deep breaths with coughing as tolerated."
+    },
+    {
+     "key": "C",
+     "text": "Withhold prescribed analgesia so the client will not become sedated."
+    },
+    {
+     "key": "D",
+     "text": "Limit oral fluids until the lungs are fully clear on auscultation."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Prolonged supine rest and limited lung expansion increase atelectasis risk after abdominal surgery.",
+    "B": "Correct. Postoperative clients are at risk for atelectasis; lung-expansion measures such as incentive spirometry, deep breathing, and coughing (with adequate analgesia) help reopen collapsed alveoli and clear secretions.",
+    "C": "Incorrect. Uncontrolled incision pain impairs deep breathing and coughing; adequate analgesia supports pulmonary expansion rather than being withheld.",
+    "D": "Incorrect. Restricting fluids is not a standard measure to prevent atelectasis and does not expand alveoli."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Postoperative atelectasis prevention — incentive spirometry and deep breathing",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "postop-atelectasis-incentive-spirometry",
+   "sources": [
+    {
+     "title": "Atelectasis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pulmonary-disorders/bronchiectasis-and-atelectasis/atelectasis",
+     "section": "Treatment of Atelectasis; Prevention of Atelectasis",
+     "source_date": "Last updated Apr 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C",
+     "evidence": "Treatment emphasizes maximizing cough and deep breathing; lung expansion techniques include deep breathing and frequent incentive spirometer use.",
+     "added_by": "author"
+    },
+    {
+     "title": "27.3 Hospitalized Postoperative Patient",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/27-3-hospitalized-postoperative-patient",
+     "section": "Postoperative Priorities",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Postoperative patients are susceptible to atelectasis and pneumonia; routine incentive spirometer use helps identify and reduce respiratory complications.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B13-WAVE4",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "falls",
+    "older-adult",
+    "safety"
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key checked vs Merck Hospital Care and Older Adults (Jan 2026; bed lowest, rails discouraged, restraints discouraged) and Merck Falls in Older Adults (Aug 2025; restraints generally not used) plus OpenStax Fundamentals 9.1 (clear pathways, reasonable bed height, environmental fall hazards)."
+    }
+   ],
+   "id": "ONRN-RRP-0005",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An older adult client is admitted after a fall at home. The client is oriented but unsteady when standing. Which intervention is most appropriate to reduce in-hospital fall risk?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Raise all four bed rails and apply a waist restraint so the client cannot leave the bed."
+    },
+    {
+     "key": "B",
+     "text": "Keep the bed at its lowest position when care is not being given, clear pathways, and place the call light within reach."
+    },
+    {
+     "key": "C",
+     "text": "Encourage the client to walk alone to the bathroom at night to rebuild confidence."
+    },
+    {
+     "key": "D",
+     "text": "Administer a routine bedtime hypnotic to keep the client asleep until morning."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Physical restraints and routinely raised bed rails can increase agitation and fall injury risk; restraints should generally not be used as a fall-prevention strategy.",
+    "B": "Correct. Evidence-based fall-risk reduction includes keeping the bed low when not providing care, removing clutter and hazards from pathways, and ensuring the client can call for help.",
+    "C": "Incorrect. Unsupervised nighttime ambulation to the bathroom is a common setting for hospital falls in older adults.",
+    "D": "Incorrect. Hypnotics and sedatives increase fall and delirium risk in older adults and should be minimized."
+   },
+   "specialty": "Gerontology",
+   "topic": "Hospital fall prevention — low bed, clear pathways, avoid restraints",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "hospital-fall-prevention-low-bed-clear-path",
+   "sources": [
+    {
+     "title": "Hospital Care and Older Adults",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/geriatrics/providing-care-to-older-adults/hospital-care-and-older-adults",
+     "section": "Falls; Prevention of falls",
+     "source_date": "Last updated Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Beds at lowest level for fall risk; bed rails generally discouraged; prefer correcting risk factors over physical/chemical restraints; hypnotics increase fall risk.",
+     "added_by": "author"
+    },
+    {
+     "title": "Falls in Older Adults",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/geriatrics/falls-in-older-adults/falls-in-older-adults",
+     "section": "Prevention of Falls and Injury Mitigation — Environmental and situational management",
+     "source_date": "Last updated Aug 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Rationale A (restraints)",
+     "evidence": "Environmental hazards such as clutter should be mitigated; restraints may lead to more falls and generally should not be used.",
+     "added_by": "author"
+    },
+    {
+     "title": "9.1 Safety: Individual and Environmental",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/9-1-safety-individual-and-environmental",
+     "section": "Impaired Mobility; Risk for Falls",
+     "source_date": "Citation date Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Clear pathways of clutter; keep bed at a reasonable height; address environmental fall hazards such as throw rugs.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B13-WAVE4",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn"
+   ],
+   "tags": [
+    "newborn",
+    "thermoregulation",
+    "hypothermia"
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key checked vs Merck Hypothermia in Neonates (Feb 2025; dry immediately, skin-to-skin, swaddle) and OpenStax Maternal-Newborn 22.3 (Jun 2024; evaporation from amniotic fluid; drying/skin-to-skin/swaddling)."
+    }
+   ],
+   "id": "ONRN-HPM-0003",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "Immediately after a term vaginal birth, the vigorous newborn is placed on the birthing person's chest. Which nursing action best prevents evaporative heat loss in the first minutes of life?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Delay drying until the first bath so vernix can protect the skin."
+    },
+    {
+     "key": "B",
+     "text": "Dry the newborn thoroughly and then keep the infant covered or in skin-to-skin contact."
+    },
+    {
+     "key": "C",
+     "text": "Place the wet newborn under a fan to promote convective cooling."
+    },
+    {
+     "key": "D",
+     "text": "Leave the newborn uncovered on a cool scale for an immediate accurate weight."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Amniotic fluid on the skin causes evaporative heat loss; drying should not be delayed for that reason in the delivery setting.",
+    "B": "Correct. Evaporative heat loss occurs as wet amniotic fluid vaporizes; immediate drying followed by covering or skin-to-skin contact is a primary prevention step for neonatal hypothermia.",
+    "C": "Incorrect. Forced cool airflow increases convective heat loss and is opposite of thermal protection.",
+    "D": "Incorrect. Contact with a cool surface and prolonged exposure promote conductive and radiant heat loss."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Newborn thermoregulation — prevent evaporative heat loss by drying",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "newborn-dry-immediately-evaporative-loss",
+   "sources": [
+    {
+     "title": "Hypothermia in Neonates",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/perinatal-problems/hypothermia-in-neonates",
+     "section": "Prevention of Hypothermia in Neonates; Key Points",
+     "source_date": "Last updated Feb 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Dry neonates immediately and, when possible, place in skin-to-skin contact and cover; evaporative loss occurs when neonates are wet with amniotic fluid.",
+     "added_by": "author"
+    },
+    {
+     "title": "22.3 Neutral Thermal Environment",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/22-3-neutral-thermal-environment",
+     "section": "Evaporation; Thermoregulation in the Newborn",
+     "source_date": "Citation date Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Evaporation from amniotic fluid/blood cools the neonate; thermoneutral care includes swaddling and skin-to-skin contact.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B13-WAVE4",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn"
+   ],
+   "tags": [
+    "rhogam",
+    "postpartum",
+    "alloimmunization"
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key checked vs Merck Postpartum Care (Jul 2026; Rho(D) IG 300 mcg IM within 72 h) and OpenStax Maternal-Newborn 20.3 Rh Immune Globulin (Jun 2024; 300 mcg IM within 72 hours after birth)."
+    }
+   ],
+   "id": "ONRN-HPM-0004",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A postpartum client has Rh-negative blood and is not already sensitized. The newborn's blood type is Rh-positive. Which action is indicated?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Administer Rho(D) immune globulin within 72 hours of birth."
+    },
+    {
+     "key": "B",
+     "text": "Withhold Rho(D) immune globulin because sensitization only occurs in subsequent pregnancies and never after the first birth."
+    },
+    {
+     "key": "C",
+     "text": "Give Rho(D) immune globulin only if the client's direct Coombs test is already positive."
+    },
+    {
+     "key": "D",
+     "text": "Delay Rho(D) immune globulin until the 6-week postpartum visit so antibodies can form first."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. An unsensitized Rh-negative parent who delivers an Rh-positive newborn should receive Rho(D) immune globulin, typically within 72 hours, to prevent alloimmunization that could harm future pregnancies.",
+    "B": "Incorrect. Fetomaternal hemorrhage at birth can sensitize the parent after the current pregnancy; postpartum prophylaxis exists to prevent that sensitization.",
+    "C": "Incorrect. Prophylaxis is for clients who are not already sensitized; a positive antibody screen indicating sensitization changes management and is not the indication for routine Rho(D) immune globulin.",
+    "D": "Incorrect. Waiting weeks allows time for sensitization; the standard window is within 72 hours after birth."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Postpartum Rh immune globulin within 72 hours",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "rhig-within-72h-postpartum",
+   "sources": [
+    {
+     "title": "Postpartum Care",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/postpartum-care-and-associated-disorders/postpartum-care",
+     "section": "Postpartum Preventive Care — Prevention of Rh sensitization",
+     "source_date": "Last updated Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; rationales B,D",
+     "evidence": "Rh-negative women with Rh-positive infant who are not sensitized should receive Rho(D) immune globulin 300 mcg IM within 72 hours of delivery.",
+     "added_by": "author"
+    },
+    {
+     "title": "20.3 Nursing Care During the Postpartum Period",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/20-3-nursing-care-during-the-postpartum-period",
+     "section": "Rh Immune Globulin",
+     "source_date": "Citation date Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Route/dosage includes 300 mcg IM within 72 hours after birth; nurse gives immune globulin IM within first 72 hours when newborn is Rh-positive.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B13-WAVE4",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety",
+    "high-alert-medication"
+   ],
+   "tags": [
+    "alcohol-withdrawal",
+    "thiamine",
+    "benzodiazepine"
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "SATA keys A/B checked vs Merck (benzodiazepines mainstay; thiamine 100 mg IV to prevent Wernicke) and OpenStax 19.2 (benzodiazepines for withdrawal; IV thiamine with dextrose to prevent Wernicke). Distractors aligned with Merck phenytoin/antipsychotic/continuation cautions."
+    }
+   ],
+   "id": "ONRN-PSY-0004",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "A client with alcohol use disorder is beginning medically supervised withdrawal. Which interventions are appropriate components of withdrawal care? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Administer prescribed benzodiazepines based on withdrawal severity."
+    },
+    {
+     "key": "B",
+     "text": "Give thiamine to help prevent Wernicke encephalopathy."
+    },
+    {
+     "key": "C",
+     "text": "Start routine daily phenytoin for every client even without a seizure disorder."
+    },
+    {
+     "key": "D",
+     "text": "Use haloperidol alone as the first medication for autonomic hyperactivity."
+    },
+    {
+     "key": "E",
+     "text": "Continue high-dose benzodiazepines indefinitely after detoxification for craving control."
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B"
+   ],
+   "rationales": {
+    "A": "Correct. Benzodiazepines are the mainstay for alcohol-withdrawal agitation and seizure prevention.",
+    "B": "Correct. Thiamine is given during withdrawal care to help prevent Wernicke encephalopathy associated with thiamine deficiency.",
+    "C": "Incorrect. Routine phenytoin is not indicated for uncomplicated alcohol-withdrawal seizures.",
+    "D": "Incorrect. Antipsychotics are not recommended as initial monotherapy and may lower the seizure threshold.",
+    "E": "Incorrect. Benzodiazepines used for detoxification should not continue after the detoxification period."
+   },
+   "specialty": "Mental Health",
+   "topic": "Alcohol withdrawal care — benzodiazepines and thiamine",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "alcohol-withdrawal-benzos-and-thiamine",
+   "sources": [
+    {
+     "title": "Alcohol Toxicity and Withdrawal",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/alcohol-use-disorder/alcohol-toxicity-and-withdrawal",
+     "section": "Treatment of Alcohol Toxicity and Withdrawal — Withdrawal",
+     "source_date": "Last updated Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Keys A,B; rationales C,D,E",
+     "evidence": "IV thiamine to prevent Wernicke encephalopathy; benzodiazepines mainstay; routine phenytoin unnecessary; antipsychotics not initial monotherapy; do not continue benzodiazepines after detoxification.",
+     "added_by": "author"
+    },
+    {
+     "title": "19.2 Alcohol Use Disorder",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/19-2-alcohol-use-disorder",
+     "section": "Treatment for Withdrawal from Alcohol Use",
+     "source_date": "Citation date Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Keys A,B",
+     "evidence": "Benzodiazepines treat withdrawal agitation and help prevent seizures/DTs; clients typically receive IV thiamine with dextrose to prevent Wernicke encephalopathy.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B13-WAVE4",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "tags": [
+    "delirium",
+    "older-adult",
+    "acute-confusion"
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key checked vs Merck Delirium (Aug 2026; acute transient fluctuating disturbance in attention/cognition; distinct from dementia) and OpenStax Psychiatric-Mental Health 14.2 (Jun 2024; sudden onset temporary confusion; resolves when underlying condition treated; distinguish from dementia)."
+    }
+   ],
+   "id": "ONRN-PSY-0005",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An 78-year-old hospitalized client develops sudden confusion that worsens at night, has difficulty focusing attention, and returns nearly to baseline later the same day. Which interpretation is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Findings are typical of Alzheimer dementia because cognition declined overnight."
+    },
+    {
+     "key": "B",
+     "text": "Findings suggest delirium: an acute, fluctuating disturbance of attention and cognition that warrants evaluation for a medical cause."
+    },
+    {
+     "key": "C",
+     "text": "Fluctuating attention excludes delirium and confirms a primary psychotic disorder."
+    },
+    {
+     "key": "D",
+     "text": "No further assessment is needed once orientation returns briefly to baseline."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Dementia typically has a more gradual course and primarily affects memory; an abrupt, fluctuating inattention pattern is characteristic of delirium, which can occur in people with or without underlying dementia.",
+    "B": "Correct. Delirium is an acute, usually reversible, fluctuating disturbance in attention, cognition, and consciousness that often signals an underlying medical problem and requires prompt evaluation.",
+    "C": "Incorrect. Fluctuating attention is a hallmark of delirium, not a finding that excludes it.",
+    "D": "Incorrect. Temporary clearing does not remove the need to identify and treat the precipitating cause."
+   },
+   "specialty": "Mental Health",
+   "topic": "Delirium — acute fluctuating disturbance of attention",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "delirium-acute-fluctuating-attention",
+   "sources": [
+    {
+     "title": "Delirium",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/delirium-and-dementia/delirium",
+     "section": "Overview; distinction from dementia",
+     "source_date": "Last updated Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C",
+     "evidence": "Delirium is an acute, transient, usually reversible, fluctuating disturbance in attention, cognition, and consciousness; delirium mainly affects attention and is often reversible versus dementia.",
+     "added_by": "author"
+    },
+    {
+     "title": "14.2 Delirium",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/14-2-delirium",
+     "section": "Diagnosing Delirium",
+     "source_date": "Citation date Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Delirium usually starts suddenly; client becomes temporarily confused and unable to think clearly; it can indicate a life-threatening medical condition and resolves with treatment of the cause.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B13-WAVE4",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "droplet-precautions",
+    "influenza",
+    "PPE"
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key checked vs CDC influenza IPC (updated Sep 29, 2026; don facemask on entry) and CDC Isolation Precautions V.C.3.a plus OpenStax Fundamentals 10.4 Droplet Precautions (don mask on entering, discard before exiting)."
+    }
+   ],
+   "id": "ONRN-SIPC-0005",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client is admitted with suspected seasonal influenza and is placed on Droplet Precautions in a private room. Which personal protective equipment action is required when the nurse enters the room for routine care?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Don a fit-tested N95 respirator and keep the door closed at all times as for airborne isolation."
+    },
+    {
+     "key": "B",
+     "text": "Don a facemask upon room entry and remove it after leaving the room, with hand hygiene."
+    },
+    {
+     "key": "C",
+     "text": "Enter without a mask if standing more than one metre from the client."
+    },
+    {
+     "key": "D",
+     "text": "Wear sterile gloves and a sterile gown for every entry, even without anticipated contact with body fluids."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Seasonal influenza is managed with Droplet Precautions; an N95 and airborne (negative-pressure) setup are not the routine requirement for standard droplet care.",
+    "B": "Correct. For Droplet Precautions, including suspected or confirmed influenza, health-care personnel don a facemask on room entry and remove/dispose of it on exit with hand hygiene.",
+    "C": "Incorrect. Guidance directs masking upon entry into the droplet precaution space, not only during close contact at an arbitrary distance.",
+    "D": "Incorrect. Sterile gown and sterile gloves are not the droplet PPE standard for routine entry; gown/gloves follow Standard Precautions when contact with body fluids is anticipated."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Droplet Precautions — mask on room entry for influenza",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "droplet-precautions-mask-on-entry",
+   "sources": [
+    {
+     "title": "Infection Prevention and Control Strategies for Seasonal Influenza in Healthcare Settings",
+     "publisher": "Centers for Disease Control and Prevention",
+     "url": "https://www.cdc.gov/flu/hcp/infection-control/healthcare-settings.html",
+     "section": "Recommendations — Adhere to droplet precautions",
+     "source_date": "Updated September 29, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B; rationale A",
+     "evidence": "HCP should don a facemask when entering the room of a patient with suspected or confirmed influenza; remove when leaving and perform hand hygiene.",
+     "added_by": "author"
+    },
+    {
+     "title": "10.4 Infection Control and Patient Safety",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/10-4-infection-control-and-patient-safety",
+     "section": "Droplet Precautions",
+     "source_date": "Citation date Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Droplet PPE includes donning a mask upon entering a room and discarding it before exiting; place patient in a single patient space when possible.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B13-WAVE4",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "Keyed to CNO Confidentiality and Privacy practice standard and Ontario PHIPA s. 30 limiting collection/use/disclosure to what is reasonably necessary. US HIPAA has analogous minimization concepts but this item is framed for Ontario practice.",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario",
+    "guideline-version-sensitive"
+   ],
+   "tags": [
+    "privacy",
+    "PHIPA",
+    "CNO",
+    "confidentiality"
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key checked vs CNO Confidentiality and Privacy PDF (current; access only for professional purpose; do not discuss in cafeterias) and Ontario PHIPA s. 30 (not collect/use/disclose more PHI than reasonably necessary). 2026 CNO revision (in effect Dec 1, 2026) also states access the least amount required; principle unchanged across transition."
+    }
+   ],
+   "id": "ONRN-MOC-0005",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A nurse in Ontario finishes documenting for an assigned client. A colleague asks the nurse to look up laboratory results in the electronic record of a neighbour who is not on the nurse's assignment and for whom the nurse has no care role. Which response best meets confidentiality and privacy accountabilities?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Access the neighbour's chart briefly because curiosity among staff is an accepted professional purpose."
+    },
+    {
+     "key": "B",
+     "text": "Decline to access the record, explaining that personal health information may be accessed only when needed for an authorized care purpose."
+    },
+    {
+     "key": "C",
+     "text": "Print the full chart and leave it at the nursing station so anyone on the unit can answer questions."
+    },
+    {
+     "key": "D",
+     "text": "Share the neighbour's results aloud in the cafeteria so the colleague does not need system access."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Accessing a record without a professional care purpose violates CNO confidentiality standards and PHIPA limits on collection and use.",
+    "B": "Correct. Nurses must access only the personal health information needed for an authorized purpose; PHIPA requires that no more personal health information be collected, used, or disclosed than is reasonably necessary.",
+    "C": "Incorrect. Leaving identifiable charts available for unnecessary viewing increases unauthorized access risk.",
+    "D": "Incorrect. Discussing client information in public places such as cafeterias breaches confidentiality."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Confidentiality — access PHI only for authorized care purpose",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "Ontario-specific",
+   "enemy_group": "phipa-access-only-for-care-purpose",
+   "sources": [
+    {
+     "title": "Confidentiality and Privacy — Personal Health Information",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41069_privacy.pdf",
+     "section": "Confidentiality indicators — access and discussion",
+     "source_date": "Updated July 2025 (practice standard PDF)",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key B; rationales A,D",
+     "evidence": "Access information for the nurse's clients only and not for which there is no professional purpose; do not discuss client information with colleagues in public places such as elevators, cafeterias and hallways.",
+     "added_by": "author"
+    },
+    {
+     "title": "Personal Health Information Protection Act, 2004, S.O. 2004, c. 3, Sched. A",
+     "publisher": "Government of Ontario — e-Laws",
+     "url": "https://www.ontario.ca/laws/statute/04p03",
+     "section": "s. 30 Other information — limiting collection, use and disclosure",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "supports": "Key B",
+     "evidence": "A health information custodian shall not collect, use or disclose more personal health information than is reasonably necessary to meet the purpose of the collection, use or disclosure.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B13-WAVE4",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "Temperature reported in °C (38.5°C).",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "neutropenia",
+    "fever",
+    "chemotherapy"
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key checked vs Merck Neutropenia (Apr 2026; if fever present infection presumed and immediate empiric broad-spectrum antibiotics necessary) and OpenStax Medical-Surgical 16.5 (fever as infection cue; acute neutropenia requires hospitalization and neutropenic precautions including avoid fresh flowers/fruit). Distractor C uses OpenStax precaution detail."
+    }
+   ],
+   "id": "ONRN-RRP-0006",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client receiving chemotherapy has severe neutropenia. The client reports feeling unwell. Oral temperature is 38.5°C. There is no obvious focus of infection on brief examination. Which action is the priority?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Document the temperature and reassess in 4 hours before notifying the provider."
+    },
+    {
+     "key": "B",
+     "text": "Recognize fever as a presumed serious infection and promptly notify the provider so empiric broad-spectrum antibiotics can be started."
+    },
+    {
+     "key": "C",
+     "text": "Encourage fresh fruit and a floral arrangement to improve nutrition and mood while awaiting culture results."
+    },
+    {
+     "key": "D",
+     "text": "Hold all antimicrobial therapy until a definitive organism is identified on culture."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. In severe neutropenia, fever is treated as a medical emergency; waiting hours delays needed empiric therapy.",
+    "B": "Correct. When severe neutropenia is present, fever usually indicates infection even if a focus is not obvious, and immediate empiric broad-spectrum antibiotics are required.",
+    "C": "Incorrect. Neutropenic precautions include avoiding fresh fruit and fresh flowers because of infection risk; these are not supportive measures during febrile neutropenia.",
+    "D": "Incorrect. Empiric antibiotics are started promptly; waiting for culture identification is unsafe in febrile neutropenia."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Febrile neutropenia — fever warrants prompt empiric antibiotics",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Prioritize Hypotheses",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "febrile-neutropenia-empiric-antibiotics",
+   "sources": [
+    {
+     "title": "Neutropenia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/hematology/leukopenias/neutropenia",
+     "section": "Overview; Treatment of Neutropenia — Acute neutropenia",
+     "source_date": "Last updated Apr 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,D",
+     "evidence": "Focal symptoms may be muted, but fever is present during most serious infections; if fever is present, infection is presumed and immediate empiric broad-spectrum antibiotics are necessary, especially if neutropenia is severe.",
+     "added_by": "author"
+    },
+    {
+     "title": "16.5 Neutropenia",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/16-5-neutropenia",
+     "section": "Clinical Manifestations; Prioritizing Hypotheses, Generating Solutions, and Taking Action",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B (fever as infection); rationale C",
+     "evidence": "Fever is a clinical manifestation of infection in neutropenia; acute neutropenia requires hospitalization and reverse/neutropenic precautions such as avoiding fresh flowers and fresh fruit.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  }
+ ]
+}
