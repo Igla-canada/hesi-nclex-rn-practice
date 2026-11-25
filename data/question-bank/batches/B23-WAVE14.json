@@ -1,0 +1,1299 @@
+{
+ "batch_id": "B23-WAVE14",
+ "author": "AI author (Composer, Cursor subagent bc-1100fc29) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 14 expansion prioritizing thinner Client Needs MOC (gap 4) and SIPC (gap 1), then underrepresented specialties (Pediatrics, Gerontology, Leadership/Management, Maternity/Newborn) with dual-cited originals (CNO, CDC, AHRQ, PHAC/Canada.ca, Merck, OpenStax).",
+ "items": [
+  {
+   "batch": "B23-WAVE14",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario",
+    "guideline-version-sensitive",
+    "high-alert-medication"
+   ],
+   "jurisdiction_note": "CNO Medication practice standard sets Ontario accountabilities for accepting medication orders; OpenStax supports clarifying missing order components as general nursing practice.",
+   "tags": [
+    "CNO",
+    "medication-orders",
+    "MOC"
+   ],
+   "sources": [
+    {
+     "title": "Medication",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41007_medication.pdf",
+     "section": "Authority — accept orders that are clear, complete, appropriate; follow up when unclear/incomplete/inappropriate",
+     "source_date": "Updated July 2025 (version transition noted toward Mar 1, 2027)",
+     "source_type": "regulator_standard",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Accept orders that are clear, complete, appropriate; if unclear, incomplete or inappropriate, do not perform the medication practice—follow up with a prescriber timely.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "11.1 Medication Orders",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/11-1-medication-orders",
+     "section": "Components of a Medication Order",
+     "source_date": "Sep 4, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "If any component of the medication order is missing, the nurse must contact the prescribing provider to clarify and correct the order.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-1100fc29) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Medication clear/complete/appropriate + follow up when unclear; OpenStax clarify missing components"
+    }
+   ],
+   "id": "ONRN-MOC-0024",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A nurse receives a written medication order that is missing the dose. According to College of Nurses of Ontario medication accountabilities and standard medication-order practice, what should the nurse do next?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Administer a commonly used dose of the medication for this indication and document the estimate."
+    },
+    {
+     "key": "B",
+     "text": "Do not administer the medication; follow up with the prescriber in a timely manner to clarify and correct the incomplete order."
+    },
+    {
+     "key": "C",
+     "text": "Ask another nurse on the unit what dose is usually given and proceed with that dose."
+    },
+    {
+     "key": "D",
+     "text": "Omit the dose for this shift and wait to see whether the client asks for the medication."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Guessing a dose from habit does not meet the requirement for a clear, complete, appropriate order.",
+    "B": "Correct. CNO requires nurses to accept only clear, complete, and appropriate medication orders and, when an order is unclear, incomplete, or inappropriate, to not perform the medication practice and to follow up with a prescriber promptly; OpenStax likewise directs the nurse to contact the prescribing provider when any order component is missing.",
+    "C": "Incorrect. Relying on a colleague’s usual dose does not clarify the incomplete order with the authorized prescriber.",
+    "D": "Incorrect. Delaying without clarifying leaves the incomplete order unresolved and does not meet timely follow-up expectations."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Medication orders — clarify incomplete; do not administer until complete",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "Ontario-specific",
+   "enemy_group": "cno-medication-clarify-incomplete-order-no-administer"
+  },
+  {
+   "batch": "B23-WAVE14",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction_note": "",
+   "tags": [
+    "SBAR",
+    "handoff",
+    "MOC",
+    "TeamSTEPPS"
+   ],
+   "sources": [
+    {
+     "title": "Tool: SBAR",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+     "section": "Using SBAR effectively — Situation",
+     "source_date": "Page last reviewed November 2019",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A; rationales B,C,D",
+     "evidence": "Situation states what is currently happening; usually begins with identity of the person communicating, patient identifiers, and a brief statement of the current problem.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "8.2 Patient Transfer",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/8-2-patient-transfer",
+     "section": "Reformulating SBAR to ISBARR",
+     "source_date": "Sep 4, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Evidence-based communication methods such as SBAR (Situation, Background, Assessment, Recommendation) facilitate safe patient transfers.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-1100fc29) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax SBAR/ISBARR handoff + AHRQ TeamSTEPPS SBAR Situation definition"
+    }
+   ],
+   "id": "ONRN-MOC-0025",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A nurse is giving a structured handoff report about a client whose condition is deteriorating. Using the SBAR communication framework, which information belongs in the Situation step?",
+   "options": [
+    {
+     "key": "A",
+     "text": "A concise statement of what is currently happening, including who is calling and a brief description of the current problem."
+    },
+    {
+     "key": "B",
+     "text": "A full chronological review of the client’s entire medical history since childhood."
+    },
+    {
+     "key": "C",
+     "text": "Only the nurse’s preferred discharge destination for the client."
+    },
+    {
+     "key": "D",
+     "text": "A list of every medication the client has ever taken, without stating the current concern."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. AHRQ describes Situation as stating what is currently happening, typically beginning with the communicator’s identity, patient identifiers, and a brief statement of the current problem; OpenStax presents SBAR (Situation, Background, Assessment, Recommendation) as an evidence-based handoff method for safe transfers.",
+    "B": "Incorrect. Exhaustive lifelong history belongs in Background only as relevant context, not as the Situation step.",
+    "C": "Incorrect. Discharge preference is not the Situation step’s focus during an acute deterioration handoff.",
+    "D": "Incorrect. An unstructured medication list without the current problem does not frame the Situation."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "Handoff communication — SBAR Situation step",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "sbar-situation-current-problem-identity"
+  },
+  {
+   "batch": "B23-WAVE14",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario",
+    "guideline-version-sensitive"
+   ],
+   "jurisdiction_note": "CNO Code of Conduct Principle 2 sets Ontario expectations for inclusive, culturally safe care; OpenStax supports cultural humility versus cultural imposition as concordant general practice.",
+   "tags": [
+    "CNO",
+    "cultural-safety",
+    "MOC"
+   ],
+   "sources": [
+    {
+     "title": "Code of Conduct",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/49040_code-of-conduct.pdf",
+     "section": "Principle 2 — inclusive and culturally safe care; take action on discrimination",
+     "source_date": "Updated March 2026",
+     "source_type": "regulator_standard",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Advocate for equitable and culturally safe care free from discrimination; take proper action to prevent discrimination and when observing or identifying discrimination against a client.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "5.4 Diversity, Equity, and Inclusion",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/5-4-diversity-equity-and-inclusion",
+     "section": "Cultural Imposition",
+     "source_date": "Sep 4, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationale C",
+     "evidence": "Cultural imposition is imposing one’s own values, beliefs, and practices upon another; it runs counter to cultural humility.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-1100fc29) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Code Principle 2 equitable culturally safe care free from discrimination; OpenStax cultural humility vs imposition"
+    }
+   ],
+   "id": "ONRN-MOC-0026",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A nurse overhears a colleague make a discriminatory remark about a client’s cultural background during care planning. According to the College of Nurses of Ontario Code of Conduct and culturally safe practice principles, which action is required?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Ignore the remark to avoid conflict, because cultural differences should not affect nursing care."
+    },
+    {
+     "key": "B",
+     "text": "Take proper action to address the discrimination and advocate for equitable, culturally safe care free from discrimination."
+    },
+    {
+     "key": "C",
+     "text": "Tell the client to adapt to the unit’s usual cultural practices so care can proceed smoothly."
+    },
+    {
+     "key": "D",
+     "text": "Document that all cultural groups experience health care the same way, so no follow-up is needed."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. CNO expects nurses to take proper action when they observe or identify discrimination; ignoring it does not uphold culturally safe care.",
+    "B": "Correct. CNO Principle 2 requires nurses to advocate for equitable and culturally safe care free from discrimination and to take proper action when they observe or identify discrimination; OpenStax identifies cultural imposition (forcing one’s own values onto another) as contrary to cultural humility.",
+    "C": "Incorrect. Imposing unit cultural practices on the client is cultural imposition, which OpenStax states runs counter to cultural humility.",
+    "D": "Incorrect. Assuming all cultural groups share identical experiences is cultural blindness and does not address discrimination."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Culturally safe care — act on observed discrimination",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Culture and Spirituality",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "Ontario-specific",
+   "enemy_group": "cno-code-act-on-discrimination-culturally-safe-care"
+  },
+  {
+   "batch": "B23-WAVE14",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario"
+   ],
+   "jurisdiction_note": "OpenStax linguistic competence guidance is general; CNO Code supports culturally safe, clear client communication in Ontario without prescribing US Joint Commission rules.",
+   "tags": [
+    "interpreter",
+    "language-access",
+    "MOC"
+   ],
+   "sources": [
+    {
+     "title": "5.4 Diversity, Equity, and Inclusion",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/5-4-diversity-equity-and-inclusion",
+     "section": "Linguistic Competence",
+     "source_date": "Sep 4, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Seek a trained medical interpreter; refrain from asking a family member to act as an interpreter; address the patient directly.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "Code of Conduct",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/49040_code-of-conduct.pdf",
+     "section": "Principle 2 culturally safe care; Principle 1 clear timely communication of proposed care",
+     "source_date": "Updated March 2026",
+     "source_type": "regulator_standard",
+     "supports": "Key B",
+     "evidence": "Nurses provide inclusive and culturally safe care; communicate to clients, clearly and timely, the care details they propose to offer.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-1100fc29) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax trained medical interpreter not family; CNO Code culturally safe inclusive care / clear communication"
+    }
+   ],
+   "id": "ONRN-MOC-0027",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with limited English proficiency needs to discuss a new diagnosis and consent for a procedure. Which nursing action best supports accurate, culturally safe communication?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Ask the client’s adolescent child who speaks English to interpret the entire discussion."
+    },
+    {
+     "key": "B",
+     "text": "Obtain a trained medical interpreter and speak directly to the client."
+    },
+    {
+     "key": "C",
+     "text": "Proceed in English only, speaking loudly and slowly without interpretation support."
+    },
+    {
+     "key": "D",
+     "text": "Skip the discussion and have the client sign the consent form later without explanation."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. OpenStax advises against using family members as interpreters because clients may withhold sensitive information and family may edit content or lack medical terminology.",
+    "B": "Correct. OpenStax directs use of a trained medical interpreter and addressing the client directly; CNO expects inclusive, culturally safe care and clear communication of proposed care details.",
+    "C": "Incorrect. Loud English without interpretation does not provide linguistically appropriate communication.",
+    "D": "Incorrect. Consent and care explanations require clear communication; skipping explanation violates informed, respectful care expectations."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Language access — trained medical interpreter, not family",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Culture and Spirituality",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "trained-medical-interpreter-not-family-member"
+  },
+  {
+   "batch": "B23-WAVE14",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario",
+    "guideline-version-sensitive"
+   ],
+   "jurisdiction_note": "CNO Code Principle 4 sets Ontario team-conduct expectations; OpenStax collaborative-practice competencies are a concordant second source.",
+   "tags": [
+    "CNO",
+    "collaboration",
+    "MOC"
+   ],
+   "sources": [
+    {
+     "title": "Code of Conduct",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/49040_code-of-conduct.pdf",
+     "section": "Principle 4 — work respectfully with the health care team (4.5–4.6)",
+     "source_date": "Updated March 2026",
+     "source_type": "regulator_standard",
+     "supports": "Key A; rationales B,C,D",
+     "evidence": "Nurses demonstrate professionalism and treat health care team members with respect; collaborate and communicate with the health care team in a clear, effective manner.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "15.5 Collaborative Practice",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/15-5-collaborative-practice",
+     "section": "Clear Roles and Responsibilities; Using Shared Decision-Making and Collaboration",
+     "source_date": "Sep 4, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Effective collaborative practice includes clear roles and responsibilities and shared decision-making with the team and patient.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-1100fc29) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Code 4.6 collaborate/communicate clearly with health care team; OpenStax collaborative practice clear roles and shared decision-making"
+    }
+   ],
+   "id": "ONRN-MOC-0028",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An interprofessional team is revising a client’s plan of care after a change in condition. Which nursing action best reflects College of Nurses of Ontario expectations for working with the health care team and collaborative practice?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Collaborate and communicate with the health care team in a clear, effective way, contributing information needed for shared decisions about the plan of care."
+    },
+    {
+     "key": "B",
+     "text": "Make all plan changes independently without informing other team members to save time."
+    },
+    {
+     "key": "C",
+     "text": "Refuse to share assessment findings because documentation belongs only to nursing."
+    },
+    {
+     "key": "D",
+     "text": "Address team members dismissively if their recommendations differ from the nurse’s preference."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO Code Principle 4 requires nurses to collaborate and communicate with the health care team clearly and effectively; OpenStax collaborative practice emphasizes clear roles, shared decision-making, and personal accountability within the team.",
+    "B": "Incorrect. Unilateral changes without team communication undermine collaborative practice and continuity.",
+    "C": "Incorrect. Withholding relevant assessment findings from the team blocks effective collaboration.",
+    "D": "Incorrect. CNO requires treating health care team members with respect; dismissive behaviour conflicts with Principle 4."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "Interprofessional collaboration — clear team communication",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "Ontario-specific",
+   "enemy_group": "cno-code-collaborate-communicate-clearly-with-team"
+  },
+  {
+   "batch": "B23-WAVE14",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction_note": "",
+   "tags": [
+    "Droplet",
+    "meningococcal",
+    "SIPC",
+    "CDC"
+   ],
+   "sources": [
+    {
+     "title": "Appendix A: Type and Duration of Precautions Recommended for Selected Infections and Conditions",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html",
+     "section": "Meningococcal disease: sepsis, pneumonia, Meningitis",
+     "source_date": "Updated: September 11, 2026",
+     "source_type": "government_public_health",
+     "supports": "Key A; rationales B,C,D",
+     "evidence": "Meningococcal disease (sepsis, pneumonia, meningitis): Droplet + Standard until 24 hours after initiation of effective therapy.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "10.4 Infection Control and Patient Safety",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/10-4-infection-control-and-patient-safety",
+     "section": "Droplet Precautions",
+     "source_date": "Sep 4, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "PPE for droplet isolation includes donning a mask upon entering a room and discarding it before exiting.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-1100fc29) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Appendix A meningococcal Droplet until 24h effective therapy; OpenStax Droplet mask on entry"
+    }
+   ],
+   "id": "ONRN-SIPC-0020",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client is admitted with suspected meningococcal meningitis. Which infection-prevention action is indicated while awaiting response to antimicrobial therapy?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Place the client on Droplet Precautions (with Standard Precautions), including wearing a mask on room entry, until 24 hours after initiation of effective therapy."
+    },
+    {
+     "key": "B",
+     "text": "Use only Standard Precautions because bacterial meningitis never requires transmission-based precautions."
+    },
+    {
+     "key": "C",
+     "text": "Place the client on Airborne Precautions in a negative-pressure room for the entire hospitalization regardless of treatment."
+    },
+    {
+     "key": "D",
+     "text": "Wear only gloves at the doorway and leave the door open to promote ventilation."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC Isolation Precautions Appendix A lists meningococcal disease (including meningococcal meningitis) as Droplet + Standard until 24 hours after initiation of effective therapy; OpenStax states Droplet Precautions include donning a mask upon entering the room.",
+    "B": "Incorrect. CDC specifies Droplet Precautions for meningococcal meningitis, not Standard alone.",
+    "C": "Incorrect. Meningococcal disease is managed with Droplet Precautions per CDC, not indefinite Airborne Precautions.",
+    "D": "Incorrect. Droplet Precautions require a mask on entry; gloves alone at the doorway are insufficient."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Meningococcal disease — Droplet Precautions until 24 hours of effective therapy",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "meningococcal-droplet-until-24h-effective-therapy"
+  },
+  {
+   "batch": "B23-WAVE14",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric",
+    "canada-us-difference"
+   ],
+   "jurisdiction_note": "Canadian Immunization Guide and Canada.ca childhood vaccination pages are Canadian authorities; CDC VIS supports fever as a known post-MMR reaction as a concordant second-publisher safety fact.",
+   "tags": [
+    "immunization",
+    "pediatrics",
+    "HPM",
+    "Canada"
+   ],
+   "sources": [
+    {
+     "title": "Vaccines for children: About vaccines",
+     "publisher": "Public Health Agency of Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/public-health/services/vaccination-children.html",
+     "section": "Vaccine side effects",
+     "source_date": "not stated on page",
+     "source_type": "government_public_health",
+     "supports": "Key A; rationales B,D",
+     "evidence": "Mild fever, fussiness, sleepiness, or injection-site pain/swelling/redness can occur and usually go away within hours to a few days; medication may help pain or fever if needed.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "Vaccine administration practices: Canadian Immunization Guide",
+     "publisher": "Public Health Agency of Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/public-health/services/publications/healthy-living/canadian-immunization-guide-part-1-key-immunization-information/page-8-vaccine-administration-practices.html",
+     "section": "Oral analgesics; Post-vaccination counselling and observation",
+     "source_date": "Last complete chapter revision: November 2017 (page accessed 2026-11-25)",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A; rationale C",
+     "evidence": "Oral analgesics before or at vaccine injection to reduce pain are not recommended; after vaccination, acetaminophen or ibuprofen can be used for fever or injection-site discomfort.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "MMR Vaccine (Measles, Mumps, and Rubella): What You Need to Know (VIS)",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/vaccines/hcp/current-vis/downloads/mmr.pdf",
+     "section": "Risks of a vaccine reaction",
+     "source_date": "1/31/2025",
+     "source_type": "government_public_health",
+     "supports": "Key A (fever after vaccination)",
+     "evidence": "Fever can happen after MMR vaccination.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-1100fc29) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Canada.ca children mild fever expected + meds for fever if needed; CIG analgesics not before/at injection but antipyretics after OK; CDC VIS fever after MMR"
+    }
+   ],
+   "id": "ONRN-HPM-0014",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A parent asks what to expect after a toddler’s routine immunizations. Which teaching statement is accurate based on Canadian immunization guidance and concordant vaccine safety information?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Mild fever, fussiness, or injection-site soreness can occur and usually resolve within hours to a few days; acetaminophen or ibuprofen may be used afterward for fever or discomfort if needed, but giving oral analgesics before or at the time of injection to prevent pain is not recommended."
+    },
+    {
+     "key": "B",
+     "text": "Any fever after vaccination means the vaccine failed and the doses must be repeated immediately."
+    },
+    {
+     "key": "C",
+     "text": "Parents should always give acetaminophen immediately before every vaccine dose to prevent all reactions."
+    },
+    {
+     "key": "D",
+     "text": "Mild fever after vaccination never occurs and should always be treated as a vaccine allergy."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Canada.ca states mild fever and related symptoms are normal and usually resolve within hours to a few days, and medication may be given for fever or pain if needed; the Canadian Immunization Guide states oral analgesics are not recommended before or at the time of injection to reduce pain, but acetaminophen or ibuprofen can be used afterward for fever or injection-site discomfort; CDC MMR VIS also lists fever as a possible reaction after MMR.",
+    "B": "Incorrect. Mild fever reflects an immune response, not automatic vaccine failure requiring immediate repeat dosing.",
+    "C": "Incorrect. CIG specifically does not recommend oral analgesics prior to or at the time of vaccine injection for pain prevention.",
+    "D": "Incorrect. Mild fever can occur after vaccination and is not by itself a severe allergic reaction."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Childhood immunization — expected mild fever; analgesics after, not prophylactically before",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "Canada-specific",
+   "enemy_group": "childhood-vax-mild-fever-analgesics-after-not-before"
+  },
+  {
+   "batch": "B23-WAVE14",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn",
+    "emergency"
+   ],
+   "jurisdiction_note": "",
+   "tags": [
+    "PPH",
+    "fundal-massage",
+    "PA",
+    "maternity"
+   ],
+   "sources": [
+    {
+     "title": "21.2 Postpartum Hemorrhage",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/21-2-postpartum-hemorrhage",
+     "section": "Fundal Massage",
+     "source_date": "Jun 26, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key A; rationales B,C,D",
+     "evidence": "Fundal massage stimulates contractions to decrease postpartum bleeding; massage until the uterus becomes firm; almost always the first intervention for postpartum bleeding.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "Postpartum Hemorrhage",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/intrapartum-complications/postpartum-hemorrhage",
+     "section": "Treatment of Postpartum Hemorrhage",
+     "source_date": "Last updated: Nov 2026",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "Treatment includes uterine massage and uterotonics; hemostasis is attempted by bimanual uterine massage and IV oxytocin infusion.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-1100fc29) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax fundal massage first for boggy uterus/PPH; Merck bimanual uterine massage + uterotonics for atony"
+    }
+   ],
+   "id": "ONRN-PA-0022",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "One hour after a vaginal birth, the nurse finds the uterine fundus soft and boggy with increased vaginal bleeding. Which action should the nurse take first?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Perform fundal massage to stimulate uterine contraction until the fundus becomes firm."
+    },
+    {
+     "key": "B",
+     "text": "Encourage the client to ambulate in the hallway before reassessing the fundus."
+    },
+    {
+     "key": "C",
+     "text": "Apply an ice pack to the perineum and delay fundal assessment until the next shift."
+    },
+    {
+     "key": "D",
+     "text": "Discontinue all monitoring because early postpartum bleeding is always normal."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax identifies fundal massage as almost always the first intervention for postpartum bleeding from a soft fundus, massaging until the uterus becomes firm; Merck lists uterine massage among primary treatments for postpartum hemorrhage from uterine atony.",
+    "B": "Incorrect. Ambulation delays immediate management of a boggy, bleeding uterus.",
+    "C": "Incorrect. Delaying fundal assessment and massage allows ongoing atony-related bleeding.",
+    "D": "Incorrect. A soft boggy fundus with increased bleeding requires prompt intervention, not discontinuation of monitoring."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Postpartum hemorrhage — fundal massage for boggy uterus",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "postpartum-boggy-uterus-fundal-massage-first"
+  },
+  {
+   "batch": "B23-WAVE14",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction_note": "",
+   "tags": [
+    "pressure-injury",
+    "gerontology",
+    "BCC"
+   ],
+   "sources": [
+    {
+     "title": "28.3 Pressure Injury",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/28-3-pressure-injury",
+     "section": "Prevention",
+     "source_date": "Oct 16, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key A; rationales B,C",
+     "evidence": "Turning and repositioning every two hours is typically implemented for patients at risk; off-load pressure areas to avoid breakdown.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "Pressure Injuries",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/dermatologic-disorders/pressure-injury/pressure-injuries",
+     "section": "Treatment — Pressure reduction; Prevention",
+     "source_date": "Last updated: Feb 2026",
+     "source_type": "clinical_reference",
+     "supports": "Key A; rationale D",
+     "evidence": "Patients confined to a bed should be turned a minimum of every 2 hours; frequent repositioning is the most important factor in maintaining pressure reduction.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-1100fc29) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax turn/reposition ~q2h; Merck bed-confined patients turned minimum every 2 hours"
+    }
+   ],
+   "id": "ONRN-BCC-0014",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An older adult client is on bed rest and is at high risk for pressure injury. Which nursing intervention best reflects evidence-based pressure-injury prevention?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Reposition the client at least every 2 hours and offload pressure from bony prominences."
+    },
+    {
+     "key": "B",
+     "text": "Keep the client in one position for the entire shift to promote rest."
+    },
+    {
+     "key": "C",
+     "text": "Massage reddened bony prominences vigorously every hour."
+    },
+    {
+     "key": "D",
+     "text": "Raise the head of the bed as high as possible at all times to reduce shear."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax describes turning and repositioning about every two hours (with individualized frequency) and off-loading pressure areas; Merck states bed-confined patients should be turned a minimum of every 2 hours as the most important pressure-reduction factor.",
+    "B": "Incorrect. Prolonged immobility without repositioning increases pressure-injury risk.",
+    "C": "Incorrect. Vigorous massage of reddened areas is not the prevention strategy supported by these sources; pressure relief is.",
+    "D": "Incorrect. Merck advises keeping head-of-bed elevation minimal during repositioning considerations to limit shearing forces—not maximizing elevation at all times."
+   },
+   "specialty": "Gerontology",
+   "topic": "Pressure injury prevention — reposition at least every 2 hours",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "pressure-injury-reposition-every-2-hours"
+  },
+  {
+   "batch": "B23-WAVE14",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "jurisdiction_note": "CDC and OpenStax define abuse/neglect concordantly; local Canadian reporting pathways follow provincial legislation and employer policy (not tested as a specific statute here).",
+   "tags": [
+    "elder-abuse",
+    "neglect",
+    "gerontology",
+    "PSY"
+   ],
+   "sources": [
+    {
+     "title": "About Abuse of Older Persons",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/elder-abuse/about/index.html",
+     "section": "What is older person abuse?; Prevention",
+     "source_date": "Nov. 7, 2024",
+     "source_type": "government_public_health",
+     "supports": "Key A; rationales B,C,D",
+     "evidence": "Neglect is failure to meet basic needs including food, water, shelter, clothing, hygiene, and essential medical care; financial abuse misuses assets; educate yourself to recognize and report abuse.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "41.3 Health Risks for Older Adults",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/41-3-health-risks-for-older-adults",
+     "section": "Elder Abuse",
+     "source_date": "Sep 4, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Elder abuse includes physical, sexual, psychological, financial abuse, and neglect such as failing to provide essential care and support for basic needs like food and medical care.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-1100fc29) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC neglect = failure to meet basic needs; report/recognize; OpenStax elder abuse forms including neglect"
+    }
+   ],
+   "id": "ONRN-PSY-0015",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "During a home visit, a nurse finds an older adult client without adequate food, soiled clothing, and no access to prescribed medications, while the caregiver controls the client’s finances. Which interpretation and action are most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Recognize possible elder abuse including neglect and financial exploitation, and follow agency policy to report and seek protective services."
+    },
+    {
+     "key": "B",
+     "text": "Assume the situation is a normal part of aging and take no action."
+    },
+    {
+     "key": "C",
+     "text": "Advise the caregiver that withholding food is acceptable if the client is difficult to care for."
+    },
+    {
+     "key": "D",
+     "text": "Document only that the client prefers an untidy environment and discontinue follow-up."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC defines neglect as failure to meet basic needs (including food, clothing, hygiene, and essential medical care) and financial abuse as improper use of an older adult’s resources, and advises learning to recognize and report abuse; OpenStax likewise describes elder abuse forms including neglect and financial abuse and notes caregiver mistreatment risk.",
+    "B": "Incorrect. Failure to meet basic needs is not normal aging and warrants action.",
+    "C": "Incorrect. Withholding food is neglect and is not acceptable caregiving.",
+    "D": "Incorrect. Signs of unmet basic needs and financial control require reporting pathways, not dismissal."
+   },
+   "specialty": "Gerontology",
+   "topic": "Elder abuse — recognize neglect and report",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "elder-abuse-neglect-basic-needs-recognize-report"
+  },
+  {
+   "batch": "B23-WAVE14",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario",
+    "guideline-version-sensitive"
+   ],
+   "jurisdiction_note": "CNO Working With Unregulated Care Providers guides Ontario assignment/delegation language; OpenStax Five Rights of Delegation (Right Circumstance) is a concordant general framework.",
+   "tags": [
+    "UCP",
+    "delegation",
+    "assignment",
+    "MOC"
+   ],
+   "sources": [
+    {
+     "title": "Working With Unregulated Care Providers",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41014_workingucp.pdf",
+     "section": "Assigning",
+     "source_date": "Updated July 2025",
+     "source_type": "regulator_standard",
+     "supports": "Key A; rationales B,C,D",
+     "evidence": "Assigning allocates responsibility for particular aspects of care; nurses with necessary knowledge and judgment may assign care to a UCP; a nurse cannot assume a UCP is competent to perform any procedure.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "15.4 Nursing Standards of Delegation",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/15-4-nursing-standards-of-delegation",
+     "section": "Right Circumstance; Right Task",
+     "source_date": "Sep 4, 2024",
+     "source_type": "textbook_open",
+     "supports": "Key A; rationale B",
+     "evidence": "Patients must be in stable condition with expected responses for delegated work; tasks must fit the delegatee’s role and setting policies.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-1100fc29) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Right Circumstance stable condition; CNO UCP assigning allocates aspects of care with nurse knowledge/judgment"
+    }
+   ],
+   "id": "ONRN-MOC-0029",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An RN is organizing care with an unregulated care provider (UCP/assistive personnel). Which assignment decision is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Assign routine assistance with activities of daily living for a stable client, while the RN retains overall accountability and performs assessments requiring nursing judgment."
+    },
+    {
+     "key": "B",
+     "text": "Assign the UCP to complete the initial admission assessment and interpret abnormal laboratory results for an unstable client."
+    },
+    {
+     "key": "C",
+     "text": "Ask the UCP to decide which controlled-act medication injections the client should receive today."
+    },
+    {
+     "key": "D",
+     "text": "Transfer full legal accountability for all nursing outcomes to the UCP for the shift."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax Right Circumstance requires that delegated work involve patients in stable condition with expected responses; CNO describes assigning as allocating responsibility for particular aspects of care by nurses with necessary knowledge and judgment, while nurses remain accountable for decisions about UCP activities.",
+    "B": "Incorrect. Initial assessment and interpreting labs for an unstable client require nursing judgment and are not appropriate UCP assignment.",
+    "C": "Incorrect. Deciding medication injections is not an appropriate UCP assignment of nursing authority.",
+    "D": "Incorrect. Nurses retain professional accountability and cannot transfer full legal accountability for nursing outcomes to a UCP."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "Assignment to UCP — stable ADLs; RN keeps nursing judgment tasks",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "Ontario-specific",
+   "enemy_group": "ucp-assign-stable-adls-rn-keeps-assessment-judgment"
+  },
+  {
+   "batch": "B23-WAVE14",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric",
+    "canada-us-difference"
+   ],
+   "jurisdiction_note": "Canadian Immunization Guide and Canada.ca are Canadian authorities; CDC VIS provides independent-publisher support that fever can occur after MMR.",
+   "tags": [
+    "immunization",
+    "SATA",
+    "pediatrics",
+    "HPM"
+   ],
+   "sources": [
+    {
+     "title": "Vaccines for children: About vaccines",
+     "publisher": "Public Health Agency of Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/public-health/services/vaccination-children.html",
+     "section": "Vaccine side effects",
+     "source_date": "not stated on page",
+     "source_type": "government_public_health",
+     "supports": "Keys A,C; rationales D",
+     "evidence": "Mild fever, fussiness, sleepiness, injection-site pain/swelling/redness can occur and usually go away within hours to a few days; medication may help pain or fever.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "Vaccine administration practices: Canadian Immunization Guide",
+     "publisher": "Public Health Agency of Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/public-health/services/publications/healthy-living/canadian-immunization-guide-part-1-key-immunization-information/page-8-vaccine-administration-practices.html",
+     "section": "Oral analgesics; Post-vaccination counselling and observation",
+     "source_date": "Last complete chapter revision: November 2017 (page accessed 2026-11-25)",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Keys B,C; rationale E",
+     "evidence": "Observe at least 15 minutes after immunization; acetaminophen/ibuprofen can be used after for fever or discomfort; oral analgesics before/at injection to reduce pain are not recommended.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    },
+    {
+     "title": "MMR Vaccine VIS",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/vaccines/hcp/current-vis/downloads/mmr.pdf",
+     "section": "Risks of a vaccine reaction",
+     "source_date": "1/31/2025",
+     "source_type": "government_public_health",
+     "supports": "Key A",
+     "evidence": "Fever can happen after MMR vaccination.",
+     "added_by": "author",
+     "accessed_date": "2026-11-25"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-1100fc29) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Canada.ca mild post-vax symptoms; CIG post-vax observation 15 min + antipyretics after; CDC VIS fever possible"
+    }
+   ],
+   "id": "ONRN-HPM-0015",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "A nurse is teaching parents after a child’s immunizations. Which statements should the nurse include? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Mild fever, fussiness, or redness at the injection site can occur and usually improve within hours to a few days."
+    },
+    {
+     "key": "B",
+     "text": "The child should be observed for at least 15 minutes after immunization for possible acute reactions."
+    },
+    {
+     "key": "C",
+     "text": "Acetaminophen or ibuprofen may be used after vaccination if needed for fever or injection-site discomfort."
+    },
+    {
+     "key": "D",
+     "text": "Any mild fever means the child is having anaphylaxis and epinephrine is always required at home."
+    },
+    {
+     "key": "E",
+     "text": "Oral analgesics should routinely be given before every vaccine dose because they are proven to prevent all vaccine reactions."
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "rationales": {
+    "A": "Correct. Canada.ca lists mild fever, fussiness, and injection-site reactions as common and usually short-lived; CDC VIS also notes fever can follow MMR.",
+    "B": "Correct. The Canadian Immunization Guide recommends observation for at least 15 minutes after immunization (30 minutes preferred when there is specific concern).",
+    "C": "Correct. CIG states oral analgesics/antipyretics such as acetaminophen or ibuprofen can be used after vaccination for fever or injection-site discomfort.",
+    "D": "Incorrect. Mild fever alone is a common expected reaction, not a definition of anaphylaxis requiring home epinephrine for every fever.",
+    "E": "Incorrect. CIG does not recommend oral analgesics before or at the time of injection to reduce pain, noting lack of benefit for that purpose."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Post-immunization teaching SATA — expected reactions, observation, aftercare analgesics",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "Canada-specific",
+   "enemy_group": "post-immunization-teaching-mild-reactions-observe-15-analgesics-after"
+  }
+ ],
+ "excluded_items": [
+  {
+   "draft_topic": "Scabies Contact Precautions as SIPC key",
+   "reason": "CDC Appendix A supports Contact Precautions for scabies, but OpenStax Clinical Skills scabies section fetched this session described mite etiology/itching without dual-confirming Contact Precautions duration/PPE."
+  },
+  {
+   "draft_topic": "PPE donning gown-first full sequence as SIPC ordered_response",
+   "reason": "OpenStax lists CDC-based gown-first donning steps, but a second independent live CDC donning procedure page was not dual-confirmed in this session (prior wave also blocked on doffing sequence)."
+  },
+  {
+   "draft_topic": "ABC airway-first prioritization as standalone MOC key",
+   "reason": "Retained prior exclusion: lacked a clean second-publisher ABC algorithm beyond OpenStax prioritization examples."
+  }
+ ],
+ "notes": "Closes single-form MOC and SIPC quotas at Source verified if all items validate. Pediatrics specialty previously 0. Keep Prisma.InputJsonValue casts in app import script unchanged. Approved/clinically reviewed remain 0."
+}
