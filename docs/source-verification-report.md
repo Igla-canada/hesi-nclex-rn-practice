@@ -1,6 +1,6 @@
 # Source verification report — Ontario/Canada question bank
 
-**Updated:** 2026-11-25, ~8:50 AM (America/New_York)
+**Updated:** 2026-11-25, ~9:05 AM (America/New_York)
 **Scope:** Author-level **Source verified** only. Not an independent verifier pass. Not clinical review.
 **Rule:** Every keyed answer and rationale rests on sources fetched in-session; citations were not invented.
 
@@ -10,54 +10,76 @@
 
 | Metric | Count |
 | --- | ---: |
-| Items Source verified | **193** |
+| Items Source verified | **205** |
 | Items with independent verifier `confirmed` | 0 |
 | Items clinically reviewed / approved / published | **0** |
-| Excluded draft topics logged | 60 |
+| Excluded draft topics logged | 63 |
 
 ### Citation publishers (citation instances across items)
 
 | Publisher | Citations |
 | --- | ---: |
-| Merck Manual Professional Edition | 122 |
-| OpenStax — Fundamentals of Nursing | 49 |
-| OpenStax — Medical-Surgical Nursing | 46 |
-| College of Nurses of Ontario | 31 |
-| U.S. Centers for Disease Control and Prevention (CDC) | 25 |
-| OpenStax — Pharmacology for Nurses | 20 |
-| OpenStax — Psychiatric-Mental Health Nursing | 18 |
+| Merck Manual Professional Edition | 130 |
+| OpenStax — Fundamentals of Nursing | 51 |
+| OpenStax — Medical-Surgical Nursing | 49 |
+| College of Nurses of Ontario | 32 |
+| U.S. Centers for Disease Control and Prevention (CDC) | 28 |
+| OpenStax — Pharmacology for Nurses | 21 |
+| OpenStax — Psychiatric-Mental Health Nursing | 20 |
 | OpenStax — Clinical Nursing Skills | 11 |
 | OpenStax — Maternal-Newborn Nursing | 10 |
 | Public Health Agency of Canada / Canada.ca | 10 |
 | Government of Ontario — e-Laws | 7 |
 | U.S. National Library of Medicine — DailyMed | 5 |
 | Canadian Paediatric Society | 5 |
-| OpenStax — Population Health for Nurses | 4 |
+| OpenStax — Population Health for Nurses | 5 |
 | Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC) | 3 |
 | World Health Organization | 3 |
-| Agency for Healthcare Research and Quality (AHRQ) | 2 |
-| Agency for Healthcare Research and Quality (AHRQ) — PSNet | 1 |
-| Canadian Paediatric Society — Caring for Kids | 2 |
-| Centers for Disease Control and Prevention | 2 |
+| Canadian Paediatric Society — Caring for Kids | 3 |
 | Diabetes Canada | 2 |
-| Health Canada / Canada.ca | 2 |
 | Health Canada Drug Product Database — Pharmascience Inc. product monograph | 2 |
 | NCSBN / American Nurses Association | 2 |
-| Government of Ontario (e-Laws) | 1 |
-| Health Canada (Hikma Canada) | 1 |
-| Health Canada Drug Product Database — Apotex Inc. product monograph | 1 |
-| Health Canada Drug Product Database — Laboratoire Riva Inc. product monograph | 1 |
+| Centers for Disease Control and Prevention | 2 |
+| Health Canada / Canada.ca | 2 |
+| Agency for Healthcare Research and Quality (AHRQ) | 2 |
+| Agency for Healthcare Research and Quality (AHRQ) — PSNet | 2 |
+| U.S. Centers for Disease Control and Prevention (CDC/HICPAC) | 1 |
 | Health Canada Drug Product Database — Sandoz Canada Inc. product monograph | 1 |
 | Health Canada Drug Product Database — Taro Pharmaceuticals Inc. product monograph | 1 |
 | Heart & Stroke — Canadian Stroke Best Practices | 1 |
-| NCBI Bookshelf (Open RN / WisTech Open) | 1 |
+| Government of Ontario (e-Laws) | 1 |
 | Public Health Ontario | 1 |
+| Health Canada (Hikma Canada) | 1 |
+| NCBI Bookshelf (Open RN / WisTech Open) | 1 |
+| Health Canada Drug Product Database — Laboratoire Riva Inc. product monograph | 1 |
+| Health Canada Drug Product Database — Apotex Inc. product monograph | 1 |
 | U.S. Centers for Disease Control and Prevention (CDC) / SHEA (stacks.cdc.gov) | 1 |
-| U.S. Centers for Disease Control and Prevention (CDC/HICPAC) | 1 |
-| U.S. Department of Homeland Security — Ready.gov | 1 |
 | U.S. National Highway Traffic Safety Administration (NHTSA) | 1 |
+| U.S. Department of Homeland Security — Ready.gov | 1 |
+| American Diabetes Association | 1 |
+
+
+## Wave 18 item inventory (B27-WAVE18)
+
+| ID | Format | Client Needs | Jurisdiction | Sources | High-priority clinical review | Flags |
+| --- | --- | --- | ---: | ---: | --- | --- |
+| ONRN-HPM-0022 | multiple_choice | Health Promotion and Maintenance | General (Canada/US concordant) | 2 | no | — |
+| ONRN-HPM-0023 | select_all_that_apply | Health Promotion and Maintenance | General (Canada/US concordant) | 2 | no | — |
+| ONRN-HPM-0024 | multiple_choice | Health Promotion and Maintenance | General (Canada/US concordant) | 2 | yes | emergency |
+| ONRN-RRP-0024 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | pediatric, emergency |
+| ONRN-MOC-0035 | multiple_choice | Management of Care | Ontario-specific | 2 | yes | legal-ontario |
+| ONRN-MOC-0036 | multiple_choice | Management of Care | General (Canada/US concordant) | 2 | no | — |
+| ONRN-PPT-0031 | drop_down_cloze | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | high-alert-medication |
+| ONRN-PA-0031 | bowtie | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | emergency, high-alert-medication |
+| ONRN-PA-0032 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | emergency |
+| ONRN-RRP-0025 | matrix_multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | pediatric |
+| ONRN-PSY-0019 | select_all_that_apply | Psychosocial Integrity | General (Canada/US concordant) | 2 | no | mental-health-safety |
+| ONRN-BCC-0018 | multiple_choice | Basic Care and Comfort | General (Canada/US concordant) | 2 | no | — |
+
+Full compiled inventory: `internal/question-bank/build/question-bank.json` / `question-bank.csv` (**205** Source-verified items). Prior waves B00 + B11–B26 remain Source verified; no clinical approval.
 
 ## Wave 17 item inventory (B26-WAVE17)
+
 
 | ID | Format | Client Needs | Jurisdiction | Sources | High-priority clinical review | Flags |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -74,7 +96,7 @@
 | ONRN-MOC-0034 | multiple_choice | Management of Care | General (Canada/US concordant) | 2 | no | — |
 | ONRN-PPT-0030 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | high-alert-medication |
 
-Full compiled inventory: `internal/question-bank/build/question-bank.json` / `question-bank.csv` (193 Source-verified items). Prior waves B00 + B11–B25 remain Source verified; no clinical approval.
+Full compiled inventory (historical wave-17 note): then 193 items; superseded by wave 18 totals above.
 
 ## Verification method (unchanged)
 

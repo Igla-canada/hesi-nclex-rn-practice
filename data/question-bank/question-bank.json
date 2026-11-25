@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 193,
+  "Source verified": 205,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -20628,6 +20628,1410 @@
      "source_type": "textbook_open",
      "supports": "Key A; rationale B",
      "evidence": "Causes include sedatives, opioids, anticholinergics; treatment includes discontinuing contributing medications; sedation can worsen delirium.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B27-WAVE18",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-ae5d0bb9) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC HPV routine age 11–12 (start at 9) + Merck Warts Prevention same ages"
+    }
+   ],
+   "review_flags": [],
+   "tags": [
+    "HPV",
+    "immunization",
+    "community",
+    "HPM"
+   ],
+   "id": "ONRN-HPM-0022",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A nurse in a school immunization clinic is teaching parents about human papillomavirus (HPV) vaccination for a healthy child with no prior HPV doses. Which statement by the nurse is accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Routine HPV vaccination is recommended at ages 11 or 12 years and may be started as early as age 9."
+    },
+    {
+     "key": "B",
+     "text": "HPV vaccination should be deferred until the child is sexually active so immunity matches exposure timing."
+    },
+    {
+     "key": "C",
+     "text": "HPV vaccine treats existing HPV infections and genital warts, so it is reserved for adolescents with known infection."
+    },
+    {
+     "key": "D",
+     "text": "HPV vaccination is recommended only for girls; boys do not benefit from immunization."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC recommends routine HPV vaccination at 11 or 12 years (can start at 9); Merck similarly states routine recommendation at ages 11 or 12 (can start at 9).",
+    "B": "Incorrect. Both sources emphasize vaccination before HPV exposure; waiting until sexual activity reduces the preventive benefit.",
+    "C": "Incorrect. CDC states HPV vaccination prevents new infections but does not treat existing HPV infection or disease.",
+    "D": "Incorrect. CDC catch-up guidance applies to everyone through age 26 if not adequately vaccinated earlier; Merck discusses vaccine protection against HPV types causing warts and cancer without restricting to girls only for the routine age statement."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "HPV vaccination — routine ages 11–12 (start at 9)",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "hpv-vaccine-routine-age-11-12-start-9",
+   "sources": [
+    {
+     "title": "HPV Vaccine Recommendations",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/vaccines/vpd/hpv/hcp/recommendations.html",
+     "section": "Routine recommendations / Key points",
+     "source_date": "July 9, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–C",
+     "evidence": "Routine vaccination at 11 or 12; can start at age 9; prevents new infections, does not treat existing infection.",
+     "added_by": "author"
+    },
+    {
+     "title": "Warts",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/dermatologic-disorders/viral-skin-diseases/warts",
+     "section": "Prevention of Warts",
+     "source_date": "Last updated: Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "HPV vaccine routinely recommended for children ages 11 or 12 (can start at age 9).",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B27-WAVE18",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-ae5d0bb9) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Lyme prevention steps + Merck Prevention precautions (DEET, permethrin, tick checks, prompt removal)"
+    }
+   ],
+   "review_flags": [],
+   "tags": [
+    "SATA",
+    "Lyme",
+    "tick",
+    "community",
+    "HPM"
+   ],
+   "id": "ONRN-HPM-0023",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "A community health nurse is teaching hikers how to reduce Lyme disease risk in an endemic area. Which instructions should the nurse include? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Apply an EPA-registered insect repellent containing an ingredient such as DEET when outdoors."
+    },
+    {
+     "key": "B",
+     "text": "Check the body, clothing, and gear for ticks during and after outdoor activity."
+    },
+    {
+     "key": "C",
+     "text": "Remove an attached tick promptly using fine-tipped tweezers close to the skin, pulling upward with steady pressure."
+    },
+    {
+     "key": "D",
+     "text": "Wait several days after noticing an attached tick before removal so the tick detaches on its own."
+    },
+    {
+     "key": "E",
+     "text": "Consider clothing treated with permethrin as an additional protective measure."
+    },
+    {
+     "key": "F",
+     "text": "Assume backyard lawns are always risk-free, so prevention steps are needed only in remote forests."
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. CDC lists EPA-registered repellents including DEET; Merck advises DEET-containing repellents on skin in endemic areas.",
+    "B": "Correct. CDC advises checking body, clothing, gear, and pets; Merck stresses frequent searches for ticks.",
+    "C": "Correct. Both CDC and Merck emphasize prompt removal; Merck details fine-tipped tweezers close to the skin with steady upward pull.",
+    "D": "Incorrect. CDC warns delaying removal increases disease risk; Merck instructs removal when a tick is found attached.",
+    "E": "Correct. CDC recommends permethrin-treated clothing/gear; Merck notes permethrin on clothing effectively kills ticks.",
+    "F": "Incorrect. CDC notes many exposures occur in yards/neighborhoods, not only remote wooded areas."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Lyme disease — primary prevention of tick bites",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "lyme-prevention-repellent-tick-check-prompt-removal",
+   "sources": [
+    {
+     "title": "Preventing Lyme Disease",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/lyme/prevention/index.html",
+     "section": "Prevention steps and strategies",
+     "source_date": "Updated May 21, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Keys A–C, E; distractors D, F",
+     "evidence": "EPA repellents (DEET etc.), permethrin clothing, tick checks, prompt removal; backyard exposure possible.",
+     "added_by": "author"
+    },
+    {
+     "title": "Lyme Disease",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/spirochetes/lyme-disease",
+     "section": "Prevention of Lyme Disease",
+     "source_date": "Last updated: Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Keys A–C, E",
+     "evidence": "DEET repellents; permethrin on clothing; frequent tick searches; tweezer removal close to skin with steady pull.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B27-WAVE18",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-ae5d0bb9) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC lifesaving naloxone carry/use + OpenStax community naloxone distribution and overdose response"
+    }
+   ],
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "naloxone",
+    "opioid",
+    "community",
+    "harm-reduction",
+    "HPM"
+   ],
+   "id": "ONRN-HPM-0024",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A public health nurse is planning harm-reduction teaching for clients and families at elevated risk of opioid overdose. Which recommendation is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Carry naloxone and ensure others know where it is, because bystanders can reverse an opioid overdose while awaiting emergency help."
+    },
+    {
+     "key": "B",
+     "text": "Avoid keeping naloxone at home because using it without a prescription is illegal in all jurisdictions."
+    },
+    {
+     "key": "C",
+     "text": "Give naloxone only after waiting 30 minutes to confirm the overdose is opioid-related."
+    },
+    {
+     "key": "D",
+     "text": "Leave the person alone after the first naloxone dose so they can recover privately."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC advises that people at increased overdose risk carry naloxone and that bystanders can give it; OpenStax describes community naloxone distribution and instructs administering naloxone for suspected overdose while calling emergency services.",
+    "B": "Incorrect. CDC states naloxone is available over the counter and through community programs; OpenStax supports community distribution as harm reduction.",
+    "C": "Incorrect. CDC and OpenStax urge prompt action for suspected overdose; CDC notes naloxone will not harm someone overdosing on non-opioids, so it is best to use it if overdose is suspected.",
+    "D": "Incorrect. Both CDC and OpenStax instruct staying with the person until emergency help arrives."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Community naloxone — carry and bystander use for opioid overdose",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "community-naloxone-carry-bystander-stay-with-person",
+   "sources": [
+    {
+     "title": "Lifesaving Naloxone",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/stop-overdose/caring/naloxone.html",
+     "section": "Who should carry naloxone? / How does naloxone work",
+     "source_date": "June 11, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Carry naloxone if at increased risk; bystanders can give it; stay until help arrives; OTC access; use if overdose suspected.",
+     "added_by": "author"
+    },
+    {
+     "title": "31.3 The Opioid Epidemic and Substance Use Disorders",
+     "publisher": "OpenStax — Population Health for Nurses",
+     "url": "https://openstax.org/books/population-health/pages/31-3-the-opioid-epidemic-and-substance-use-disorders",
+     "section": "Community Efforts / What to Do for a Suspected Overdose",
+     "source_date": "May 15, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors C–D",
+     "evidence": "Community naloxone distribution; call 911; administer naloxone; stay until assistance arrives.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B27-WAVE18",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-ae5d0bb9) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CPS Caring for Kids febrile seizure first aid + Merck Treatment supportive care <5 minutes"
+    }
+   ],
+   "review_flags": [
+    "pediatric",
+    "emergency"
+   ],
+   "tags": [
+    "febrile-seizure",
+    "pediatrics",
+    "RRP"
+   ],
+   "id": "ONRN-RRP-0024",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A parent calls after a previously well toddler had a brief generalized seizure during a fever. The seizure has stopped, and the child is breathing. Which instruction should the nurse give first for immediate safety during any future febrile seizure?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Place the child on their side on a flat surface, do not put anything in the mouth, and call emergency services if the seizure lasts longer than a few minutes or the infant is younger than 6 months."
+    },
+    {
+     "key": "B",
+     "text": "Hold the child firmly upright and insert a spoon between the teeth to protect the tongue."
+    },
+    {
+     "key": "C",
+     "text": "Give an oral antipyretic during the seizure to stop the convulsions immediately."
+    },
+    {
+     "key": "D",
+     "text": "Start continuous antiseizure medication at home after a single simple febrile seizure without clinician evaluation."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CPS Caring for Kids advises side-lying on a flat surface, nothing between the teeth, and calling 911 if the seizure lasts longer than 3 minutes or the baby is younger than 6 months; Merck supports supportive management for brief seizures and urgent medication/support for prolonged seizures.",
+    "B": "Incorrect. CPS explicitly says do not put anything between the teeth and do not hold the child down.",
+    "C": "Incorrect. During an active seizure, oral medication is unsafe; Merck notes antipyretics may help symptoms but routine use may not prevent recurrence, and management during a brief seizure is supportive.",
+    "D": "Incorrect. Merck states EEG/routine antiseizure prophylaxis is not indicated after a typical simple febrile seizure with normal exam; CPS advises medical evaluation after any seizure."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Febrile seizure — immediate first-aid teaching",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "febrile-seizure-side-lying-nothing-in-mouth-call-if-prolonged",
+   "sources": [
+    {
+     "title": "Febrile seizures",
+     "publisher": "Canadian Paediatric Society — Caring for Kids",
+     "url": "https://caringforkids.cps.ca/handouts/health-conditions-and-treatments/febrile_seizures",
+     "section": "What can I do? / When should I call the doctor?",
+     "source_date": "Last updated: August 2018",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Side-lying; nothing between teeth; call 911 if >3 minutes or infant <6 months; see doctor after seizure.",
+     "added_by": "author"
+    },
+    {
+     "title": "Febrile Seizures",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/neurologic-disorders-in-children/febrile-seizures",
+     "section": "Treatment of Febrile Seizures / Prevention of Febrile Seizures",
+     "source_date": "Last updated: Sept 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractors C–D",
+     "evidence": "Supportive care if <5 minutes; meds for prolonged seizures; antipyretics symptomatic; EEG not after initial simple febrile seizure with normal exam.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B27-WAVE18",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CNO Code of Conduct duties to report unsafe/impaired practice are Ontario regulatory requirements; culture-of-safety reporting is also a general nursing principle.",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-ae5d0bb9) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Code 6.4 report unsafe/unethical + 6.8 no practice impaired; OpenStax culture/just culture reporting"
+    }
+   ],
+   "review_flags": [
+    "legal-ontario"
+   ],
+   "tags": [
+    "CNO",
+    "reporting",
+    "impaired-colleague",
+    "leadership",
+    "MOC"
+   ],
+   "id": "ONRN-MOC-0035",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An Ontario RN smells alcohol on a colleague’s breath at the start of a shift and observes unsteady gait while the colleague prepares to take a client assignment. Which action best meets professional accountabilities?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Report the unsafe behaviour to the appropriate persons (such as the employer and, as required, the College of Nurses of Ontario), recognizing nurses must not practise while impaired."
+    },
+    {
+     "key": "B",
+     "text": "Ignore the observations to protect the colleague’s privacy and avoid a difficult conversation."
+    },
+    {
+     "key": "C",
+     "text": "Allow the colleague to continue the assignment if clients seem stable, then discuss it privately after the shift ends."
+    },
+    {
+     "key": "D",
+     "text": "Document opinions about the colleague’s character in the client’s health record instead of notifying leadership."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO Code of Conduct 6.4 requires reporting unsafe behaviour/unethical conduct to relevant individuals including employers and CNO whether or not harm occurred; 6.8 states nurses do not practise when impaired. OpenStax culture of safety/just culture support raising safety concerns and reporting safety events.",
+    "B": "Incorrect. Failing to report unsafe behaviour violates CNO 6.4 and undermines a culture of safety.",
+    "C": "Incorrect. Allowing impaired practice continues immediate client risk and conflicts with CNO 6.8.",
+    "D": "Incorrect. Client records are not the place for colleague character opinions; reporting belongs to appropriate organizational/regulatory channels per CNO 6.4."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "Ontario — report impaired/unsafe colleague practice",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "Ontario-specific",
+   "enemy_group": "cno-report-impaired-colleague-unsafe-behaviour",
+   "sources": [
+    {
+     "title": "Code of Conduct",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/49040_code-of-conduct.pdf",
+     "section": "Principle 6 — accountabilities 6.4 and 6.8",
+     "source_date": "Updated March 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Report unsafe behaviour/unethical conduct to employers/CNO; nurses do not practise when impaired.",
+     "added_by": "author"
+    },
+    {
+     "title": "9.1 Safety: Individual and Environmental",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/9-1-safety-individual-and-environmental",
+     "section": "Culture of Safety / Just Culture",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Culture of safety prioritizes reporting concerns and safety events; just culture supports raising questions and reporting in a nonpunitive learning environment.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B27-WAVE18",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-ae5d0bb9) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Determination of Clinical Ability + AHRQ PSNet staffing (acuity, skill mix/expertise)"
+    }
+   ],
+   "review_flags": [],
+   "tags": [
+    "assignment",
+    "delegation",
+    "leadership",
+    "MOC"
+   ],
+   "id": "ONRN-MOC-0036",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A charge nurse is assigning care for a newly admitted client with complex, unstable needs. Which principle should guide the assignment decision?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Match the complexity of the client’s care needs to a staff member who has demonstrated proficiency with similar care."
+    },
+    {
+     "key": "B",
+     "text": "Assign the most complex client to the newest orientee to accelerate learning under pressure."
+    },
+    {
+     "key": "C",
+     "text": "Give every nurse an equal number of clients regardless of acuity or demonstrated competence."
+    },
+    {
+     "key": "D",
+     "text": "Delegate nursing judgment about the unstable client’s plan of care to unregulated assistive personnel."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax leadership guidance on determining clinical ability requires considering care complexity and whether the staff member has demonstrated proficiency in similar tasks. AHRQ notes patient acuity and staff skill mix/expertise as key factors influencing safe nurse staffing/assignment.",
+    "B": "Incorrect. Assigning unstable complex care to an inexperienced orientee without demonstrated proficiency violates clinical-ability matching.",
+    "C": "Incorrect. Equal headcounts ignore acuity and competency considerations emphasized in clinical-ability determination.",
+    "D": "Incorrect. Nursing judgment for an unstable client remains with the nurse; assignment must account for expertise/acuity rather than handing judgment to unregulated assistive personnel."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "Assignment — match complexity to demonstrated clinical ability",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "assignment-match-complexity-demonstrated-clinical-ability",
+   "sources": [
+    {
+     "title": "18.3 Implementing Leadership and Management into Nursing Practice",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/18-3-implementing-leadership-and-management-into-nursing-practice",
+     "section": "Determination of Clinical Ability",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–C",
+     "evidence": "Consider complexity of care needs and whether staff have demonstrated proficiency in similar tasks.",
+     "added_by": "author"
+    },
+    {
+     "title": "Nursing and Patient Safety",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ) — PSNet",
+     "url": "https://psnet.ahrq.gov/primer/nursing-and-patient-safety",
+     "section": "Nurse staffing and patient safety",
+     "source_date": "Updated in March 2021",
+     "accessed_date": "2026-11-25",
+     "source_type": "peer_reviewed",
+     "supports": "Key A; distractors B–C",
+     "evidence": "Key staffing factors include patient acuity and staff skill mix and expertise.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B27-WAVE18",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-ae5d0bb9) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax rapid-acting peak 1–2 h + hypo risk at peak; ADA Insulin Basics peak 1–2 h"
+    }
+   ],
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "tags": [
+    "NGN",
+    "cloze",
+    "insulin",
+    "hypoglycemia",
+    "PPT"
+   ],
+   "id": "ONRN-PPT-0031",
+   "format": "drop_down_cloze",
+   "scoring_model": "zero_one",
+   "stem": "A client receives subcutaneous rapid-acting insulin (lispro/aspart/glulisine) before breakfast. Complete the teaching statement with the most accurate choices.",
+   "ngn": {
+    "template": "Rapid-acting insulin typically peaks about {B1} after injection, and the client is at higher risk for {B2} around that peak.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "1 to 2 hours"
+      },
+      {
+       "key": "B1b",
+       "text": "12 to 18 hours"
+      },
+      {
+       "key": "B1c",
+       "text": "24 hours with no peak"
+      },
+      {
+       "key": "B1d",
+       "text": "5 to 10 minutes only"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "hypoglycemia"
+      },
+      {
+       "key": "B2b",
+       "text": "hyperosmolar hyperglycemic state only"
+      },
+      {
+       "key": "B2c",
+       "text": "vitamin B12 deficiency"
+      },
+      {
+       "key": "B2d",
+       "text": "opioid withdrawal"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. OpenStax and ADA list rapid-acting insulin peak at about 1–2 hours.",
+    "B1b": "Incorrect. 12–18 hours describes intermediate-acting duration/peak range, not rapid-acting peak.",
+    "B1c": "Incorrect. Long-acting analogs are described as having no peak and ~24-hour duration.",
+    "B1d": "Incorrect. Onset is about 15 minutes; peak is later (about 1–2 hours), not 5–10 minutes.",
+    "B2a": "Correct. OpenStax states clients are at higher risk of hypoglycemia symptoms when insulin is peaking.",
+    "B2b": "Incorrect. Peak effect increases hypoglycemia risk, not HHS as the primary peak teaching point.",
+    "B2c": "Incorrect. Vitamin B12 deficiency is not the peak-related adverse effect of rapid-acting insulin.",
+    "B2d": "Incorrect. Opioid withdrawal is unrelated to insulin peak pharmacokinetics."
+   },
+   "specialty": "Pharmacology",
+   "topic": "NGN cloze — rapid-acting insulin peak and hypoglycemia risk",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Evaluate Outcomes",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "ngn-cloze-rapid-insulin-peak-1-2h-hypoglycemia",
+   "sources": [
+    {
+     "title": "28.2 Insulin and Non-Insulin Injectable Diabetes Drugs",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/28-2-insulin-and-non-insulin-injectable-diabetes-drugs",
+     "section": "Peak Time / Rapid-Acting Insulin",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "B1a, B2a",
+     "evidence": "Peak = maximum glucose-lowering; higher hypoglycemia risk when peaking; rapid-acting peaks in 1–2 hours.",
+     "added_by": "author"
+    },
+    {
+     "title": "Insulin Basics",
+     "publisher": "American Diabetes Association",
+     "url": "https://diabetes.org/health-wellness/medication/insulin-basics",
+     "section": "What types of insulin are there and how do they work?",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "B1a",
+     "evidence": "Rapid-acting peak about 1–2 hours; short-acting peak about 2–3 hours; long-acting no peak.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B27-WAVE18",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-ae5d0bb9) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck anaphylaxis immediate epinephrine + OpenStax nursing actions/notify RRT and epi"
+    }
+   ],
+   "review_flags": [
+    "emergency",
+    "high-alert-medication"
+   ],
+   "tags": [
+    "NGN",
+    "bowtie",
+    "anaphylaxis",
+    "epinephrine",
+    "PA"
+   ],
+   "id": "ONRN-PA-0031",
+   "format": "bowtie",
+   "scoring_model": "zero_one",
+   "stem": "A client develops sudden urticaria, wheezing, and hypotension within minutes after starting a new IV antibiotic. Complete the bowtie: identify the priority condition, two nursing actions, and two parameters to monitor.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Anaphylaxis"
+     },
+     {
+      "key": "K2",
+      "text": "Isolated mild contact dermatitis without systemic signs"
+     },
+     {
+      "key": "K3",
+      "text": "Opioid-induced constipation"
+     },
+     {
+      "key": "K4",
+      "text": "Stable essential hypertension"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Administer epinephrine immediately as ordered/protocol"
+     },
+     {
+      "key": "A2",
+      "text": "Stop the suspected antibiotic infusion and call for emergency/rapid response help"
+     },
+     {
+      "key": "A3",
+      "text": "Encourage the client to ambulate to the gift shop for distraction"
+     },
+     {
+      "key": "A4",
+      "text": "Wait 1 hour to see if wheezing resolves before any intervention"
+     },
+     {
+      "key": "A5",
+      "text": "Increase the antibiotic infusion rate to finish it faster"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "Airway patency, breathing effort, and oxygen saturation"
+     },
+     {
+      "key": "P2",
+      "text": "Blood pressure and perfusion"
+     },
+     {
+      "key": "P3",
+      "text": "Ability to complete a crossword puzzle"
+     },
+     {
+      "key": "P4",
+      "text": "Preference for morning versus evening television"
+     },
+     {
+      "key": "P5",
+      "text": "Hair style choice after discharge"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K1",
+    "actions": [
+     "A1",
+     "A2"
+    ],
+    "parameters": [
+     "P1",
+     "P2"
+    ]
+   },
+   "rationales": {
+    "K1": "Correct. Sudden multi-system signs after a drug trigger fit anaphylaxis (Merck and OpenStax).",
+    "K2": "Incorrect. Isolated mild dermatitis lacks respiratory/cardiovascular involvement described here.",
+    "K3": "Incorrect. Constipation does not explain acute wheezing and hypotension.",
+    "K4": "Incorrect. Chronic stable hypertension does not explain acute urticaria, wheezing, and shock signs.",
+    "A1": "Correct. Merck: epinephrine immediately is the cornerstone; OpenStax likewise prioritizes epinephrine.",
+    "A2": "Correct. OpenStax directs notifying rapid response/provider and rapid interventions; stopping the culprit infusion is required to halt ongoing exposure while activating help.",
+    "A3": "Incorrect. Ambulation delays emergency treatment of a life-threatening reaction.",
+    "A4": "Incorrect. Merck warns symptoms may progress rapidly to airway occlusion or shock; waiting is unsafe.",
+    "A5": "Incorrect. Continuing/increasing the suspected allergen worsens anaphylaxis.",
+    "P1": "Correct. Airway/breathing compromise is central in anaphylaxis assessment in both sources.",
+    "P2": "Correct. Hypotension/shock risk requires blood pressure and perfusion monitoring; Merck notes IV fluids/vasopressors for persistent hypotension.",
+    "P3": "Incorrect. Cognitive puzzles are not priority physiologic parameters in anaphylaxis.",
+    "P4": "Incorrect. Television preference is irrelevant to emergency monitoring.",
+    "P5": "Incorrect. Cosmetic preferences are not anaphylaxis monitoring parameters."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN bowtie — anaphylaxis recognition, epinephrine, airway/BP monitoring",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "ngn-bowtie-anaphylaxis-epinephrine-airway-bp",
+   "sources": [
+    {
+     "title": "Anaphylaxis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/immunology-allergic-disorders/allergic-autoimmune-and-other-hypersensitivity-disorders/anaphylaxis",
+     "section": "Treatment of Anaphylaxis / Epinephrine / Key Points",
+     "source_date": "Last updated: Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "K1, A1, P1–P2",
+     "evidence": "Give epinephrine immediately; symptoms may progress to airway occlusion or shock; fluids for hypotension.",
+     "added_by": "author"
+    },
+    {
+     "title": "24.7 Anaphylaxis",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/24-7-anaphylaxis",
+     "section": "Prioritizing Hypotheses, Generating Solutions, and Taking Action / Medical Therapies",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "K1, A1–A2, P1–P2",
+     "evidence": "Notify rapid response; epinephrine; oxygen/airway support; monitor breathing and cardiovascular status.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B27-WAVE18",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-ae5d0bb9) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck burns initial ABC priorities + OpenStax Emergent Care ABCDE airway first"
+    }
+   ],
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "burns",
+    "airway",
+    "critical-care",
+    "PA"
+   ],
+   "id": "ONRN-PA-0032",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "Emergency personnel bring a client with extensive flame burns and possible smoke exposure. Which assessment and intervention priority is correct during the emergent phase?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Assess and secure airway patency and support breathing before focusing on other burn wound details."
+    },
+    {
+     "key": "B",
+     "text": "Complete a full detailed wound tracing of every burn edge before checking the airway."
+    },
+    {
+     "key": "C",
+     "text": "Defer oxygen and airway evaluation until after a complete social history interview."
+    },
+    {
+     "key": "D",
+     "text": "Prioritize arranging outpatient follow-up before assessing circulation or breathing."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck states first priorities are ABC (airway, breathing, circulation), with airway/ventilation and smoke inhalation addressed early; OpenStax ABCDE begins with airway patency then breathing, prioritizing airway ahead of circulation issues.",
+    "B": "Incorrect. Detailed wound mapping must not precede life-threatening airway assessment.",
+    "C": "Incorrect. Social history is not the emergent first priority over airway/oxygenation.",
+    "D": "Incorrect. Outpatient planning is irrelevant until ABCs are stabilized."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "Burns — emergent airway/breathing priority (ABC/ABCDE)",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Prioritize Hypotheses",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "burns-emergent-airway-before-wound-details",
+   "sources": [
+    {
+     "title": "Burns",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/burns/burns",
+     "section": "Initial treatment",
+     "source_date": "Last updated: Sept 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "First priorities ABC; provide airway, support ventilation, treat smoke inhalation with oxygen.",
+     "added_by": "author"
+    },
+    {
+     "title": "14.2 Burns",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/14-2-burns",
+     "section": "Emergent Care",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "ABCDE starts with airway patency then breathing; airway prioritized ahead of circulation.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B27-WAVE18",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-ae5d0bb9) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck acute exacerbation inhaled bronchodilators + spacer; OpenStax SABA rescue and O2 monitoring"
+    }
+   ],
+   "review_flags": [
+    "pediatric"
+   ],
+   "tags": [
+    "NGN",
+    "matrix",
+    "asthma",
+    "SABA",
+    "pediatrics",
+    "RRP"
+   ],
+   "id": "ONRN-RRP-0025",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A school-age client presents with an acute asthma exacerbation: audible wheezes, cough, and SpO2 90% on room air. For each nursing action, indicate whether it is indicated or not indicated at this time.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Administer a short-acting inhaled beta-agonist (SABA) bronchodilator as ordered."
+     },
+     {
+      "key": "R2",
+      "text": "Monitor oxygen saturation and provide supplemental oxygen as needed to support oxygenation."
+     },
+     {
+      "key": "R3",
+      "text": "Use a spacer/holding chamber with aerosolized inhaled medication when appropriate to improve airway deposition."
+     },
+     {
+      "key": "R4",
+      "text": "Withhold all bronchodilators until a full set of allergy skin tests is completed tomorrow."
+     },
+     {
+      "key": "R5",
+      "text": "Encourage prolonged outdoor running to 'work through' bronchospasm before any rescue inhaler."
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Merck treats acute exacerbations with inhaled bronchodilators; OpenStax identifies SABAs as rescue medications for acute shortness of breath.",
+    "R2": "Indicated. OpenStax includes SpO2 monitoring and supplemental oxygen in acute exacerbations; supporting oxygenation is part of exacerbation care.",
+    "R3": "Indicated. Merck notes spacers/holding chambers facilitate airway deposition of aerosolized inhaled medications; OpenStax also references spacer use when indicated.",
+    "R4": "Not indicated. Delaying bronchodilators for elective allergy testing leaves acute bronchospasm untreated.",
+    "R5": "Not indicated. Exercise can trigger bronchospasm; acute exacerbation requires rescue therapy, not forced running."
+   },
+   "specialty": "Pediatrics",
+   "topic": "NGN matrix — acute asthma exacerbation nursing actions",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "ngn-matrix-asthma-exacerbation-saba-o2-spacer",
+   "sources": [
+    {
+     "title": "Asthma",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pulmonary-disorders/asthma-and-related-disorders/asthma",
+     "section": "Treatment of acute asthma exacerbation / Pharmacotherapy",
+     "source_date": "Last updated: May 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "R1, R3",
+     "evidence": "Acute treatment includes inhaled bronchodilators; spacers facilitate airway deposition.",
+     "added_by": "author"
+    },
+    {
+     "title": "11.4 Disorders of the Lower Respiratory System: Asthma",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/11-4-disorders-of-the-lower-respiratory-system-asthma",
+     "section": "Medical Therapies and Related Care / Taking Action",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "R1–R3",
+     "evidence": "SABA rescue within 15–30 minutes; monitor SpO2 and give oxygen; spacer use when indicated.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B27-WAVE18",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-ae5d0bb9) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck environmental measures/orientation + OpenStax dementia nursing communication and environment"
+    }
+   ],
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "tags": [
+    "SATA",
+    "dementia",
+    "gerontology",
+    "PSY"
+   ],
+   "id": "ONRN-PSY-0019",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "A nurse is planning care for a client with moderate dementia living at home with family. Which interventions are appropriate? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Maintain a familiar environment with regular low-stress routines and orientation cues such as clocks/calendars."
+    },
+    {
+     "key": "B",
+     "text": "Ask simple questions in a calm manner and watch for rising anxiety or confusion."
+    },
+    {
+     "key": "C",
+     "text": "Assess the home for fall hazards such as throw rugs and inadequate lighting."
+    },
+    {
+     "key": "D",
+     "text": "Frequently rearrange furniture and introduce many new caregivers each day for stimulation."
+    },
+    {
+     "key": "E",
+     "text": "Encourage familiar family/friends to spend time with the client when appropriate."
+    },
+    {
+     "key": "F",
+     "text": "Leave knives accessible and the stove enabled if the client has kitchen safety deficits."
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. Merck recommends familiar surroundings, orientation reinforcement, and regular low-stress activities; OpenStax supports routines that comfort clients with major NCD.",
+    "B": "Correct. OpenStax advises simple calm questions and recognizing increasing anxiety/confusion.",
+    "C": "Correct. Merck patient-safety goals include preventing accidents/falls; OpenStax emphasizes environmental safety assessment including throw rugs and lighting.",
+    "D": "Incorrect. Merck advises minimizing new stimulation and explaining changes; frequent unfamiliar upheaval is destabilizing.",
+    "E": "Correct. OpenStax encourages family/friends spending time with the client.",
+    "F": "Incorrect. Merck states protective measures (e.g., hiding knives, disabling the stove) may be required when deficits create danger."
+   },
+   "specialty": "Gerontology",
+   "topic": "Dementia — environmental safety and supportive communication",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "dementia-familiar-environment-calm-communication-fall-hazards",
+   "sources": [
+    {
+     "title": "Dementia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/delirium-and-dementia/dementia",
+     "section": "Patient safety / Environmental measures",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Keys A, C; distractors D, F",
+     "evidence": "Familiar environment; orientation cues; minimize new stimulation; prevent falls; hide knives/disable stove if needed.",
+     "added_by": "author"
+    },
+    {
+     "title": "14.3 Dementia",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/14-3-dementia",
+     "section": "Planning Nursing Care for a Client with Major NCD",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Keys A–C, E",
+     "evidence": "Daily routine; environmental safety (rugs, lighting); simple calm questions; family time.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B27-WAVE18",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-ae5d0bb9) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck environmental measures preserve dignity/orientation + OpenStax comforting familiar activities"
+    }
+   ],
+   "review_flags": [],
+   "tags": [
+    "dementia",
+    "gerontology",
+    "BCC"
+   ],
+   "id": "ONRN-BCC-0018",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with mild-to-moderate dementia becomes distressed after being moved to an unfamiliar shared room. Which nursing approach best supports comfort and orientation?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Provide a bright, familiar setup with consistent routines and clear orientation cues, minimizing unnecessary new stimulation."
+    },
+    {
+     "key": "B",
+     "text": "Keep the room dark at all times and avoid any clocks so the client is not reminded of time."
+    },
+    {
+     "key": "C",
+     "text": "Rotate the client through a different unit each shift to increase novelty."
+    },
+    {
+     "key": "D",
+     "text": "Withhold all personal belongings to reduce clutter regardless of familiarity needs."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck states mild-to-moderate dementia clients usually function best in familiar surroundings with orientation cues, bright cheerful familiar environment, minimal new stimulation, and regular low-stress activities; OpenStax supports comforting familiar activities/routines.",
+    "B": "Incorrect. Merck specifically recommends clocks/calendars and a bright environment to reinforce orientation.",
+    "C": "Incorrect. Frequent unfamiliar moves increase stimulation and conflict with Merck’s minimize-new-stimulation guidance.",
+    "D": "Incorrect. Removing familiar personal items undermines the familiar environment that supports orientation and dignity."
+   },
+   "specialty": "Gerontology",
+   "topic": "Dementia — familiar environment and orientation cues",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Caring",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "dementia-bright-familiar-environment-orientation-cues",
+   "sources": [
+    {
+     "title": "Dementia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/delirium-and-dementia/dementia",
+     "section": "Environmental measures",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Familiar surroundings; large calendars/clocks; bright cheerful familiar environment; minimal new stimulation.",
+     "added_by": "author"
+    },
+    {
+     "title": "14.3 Dementia",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/14-3-dementia",
+     "section": "Planning Nursing Care for a Client with Major NCD",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Daily routines and familiar comforting activities support clients with major NCD.",
      "added_by": "author"
     }
    ],
