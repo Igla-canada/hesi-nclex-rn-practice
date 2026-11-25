@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 325,
+  "Source verified": 337,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -36118,6 +36118,1408 @@
      "source_type": "clinical_reference",
      "supports": "Keys A,B,E and distractor D",
      "evidence": "Hydration; light clothing; shade breaks; no hot-car exposure for older adults/children.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B38-WAVE29",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-MOC-0051",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "TeamSTEPPS",
+    "mutual-support",
+    "task-assistance",
+    "leadership",
+    "MOC"
+   ],
+   "stem": "During a busy shift, a nurse notices a colleague is overloaded with tasks while a stable client’s care is delayed. Using TeamSTEPPS mutual support (task assistance), which action best fits the model?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Offer help in the context of patient safety (for example, “I have 10 minutes—how can I help?”) and assist as appropriate"
+    },
+    {
+     "key": "B",
+     "text": "Ignore the overload so the colleague ‘learns resilience’ without assistance"
+    },
+    {
+     "key": "C",
+     "text": "Publicly criticize the colleague for poor time management in front of the client"
+    },
+    {
+     "key": "D",
+     "text": "Leave the unit without notifying anyone so the colleague has fewer people to manage"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. AHRQ TeamSTEPPS mutual support (task assistance): foster a climate where assistance is sought and offered; place offers/requests in the context of patient safety; asking “I have 10 minutes. How can I help?” strengthens team resilience. OpenStax: mutual support means knowing team member needs and taking steps to meet them.",
+    "B": "Incorrect. Mutual support expects assistance to be actively sought and offered to protect from work overload (AHRQ).",
+    "C": "Incorrect. Formative/supportive teamwork focuses on behaviours and safety, not public personal criticism (AHRQ feedback principles).",
+    "D": "Incorrect. Abandoning the unit worsens safety and is not mutual support."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "TeamSTEPPS mutual support — task assistance offered for patient safety",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "teamstepps-mutual-support-task-assistance-offer-help",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a019fbda) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ Mutual Support Overview: task assistance; patient-safety framing; offer help. OpenStax Med-Surg 6.2 TeamSTEPPS: mutual support = knowing team needs and meeting them."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Section 1: Overview of Mutual Support Key Concepts and Tools",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/teamstepps-program/curriculum/mutual/overview/index.html",
+     "section": "Task Assistance; Mutual Support",
+     "source_date": "Page last reviewed July 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A and distractors B–D",
+     "evidence": "Task assistance; offer/request help in patient-safety context; “How can I help?”",
+     "added_by": "author"
+    },
+    {
+     "title": "6.2 Effective Communication in the Nurse-Patient Relationship",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/6-2-effective-communication-in-the-nurse-patient-relationship",
+     "section": "TeamSTEPPS",
+     "source_date": "Sep 4, 2024 / citation_date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Mutual support: knowing team member needs and taking steps to meet them.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B38-WAVE29",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-MOC-0052",
+   "format": "drop_down_cloze",
+   "scoring_model": "zero_one",
+   "tags": [
+    "TeamSTEPPS",
+    "leadership",
+    "NGN",
+    "cloze",
+    "MOC"
+   ],
+   "stem": "A charge nurse reviews TeamSTEPPS with new staff. Complete the teaching statement.",
+   "ngn": {
+    "template": "TeamSTEPPS core skills include team leadership, communication, {B1}, and {B2} (also called backup behaviour), which involves assisting teammates and advocating when safety is threatened.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "situation monitoring"
+      },
+      {
+       "key": "B1b",
+       "text": "punitive silence"
+      },
+      {
+       "key": "B1c",
+       "text": "unilateral decision-making without shared awareness"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "mutual support"
+      },
+      {
+       "key": "B2b",
+       "text": "ignoring workload imbalance"
+      },
+      {
+       "key": "B2c",
+       "text": "withholding safety concerns"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. OpenStax and AHRQ: situation monitoring is a TeamSTEPPS core competency/skill.",
+    "B1b": "Incorrect. Punitive silence is not a TeamSTEPPS skill.",
+    "B1c": "Incorrect. TeamSTEPPS emphasizes shared situation awareness, not unilateral unshared decisions.",
+    "B2a": "Correct. AHRQ: mutual support (backup behaviour) includes assisting teammates and assertive advocacy for safety. OpenStax lists mutual support as a core competency.",
+    "B2b": "Incorrect. Mutual support addresses workload and assistance rather than ignoring overload.",
+    "B2c": "Incorrect. Advocacy/assertion is part of mutual support, not withholding concerns."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "NGN cloze — TeamSTEPPS situation monitoring and mutual support",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Understanding",
+   "enemy_group": "ngn-cloze-teamstepps-situation-monitoring-mutual-support",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a019fbda) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ Mutual Support Overview: mutual support/backup behaviour; assist and advocate. OpenStax 6.2: four core competencies include situation monitoring and mutual support."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Section 1: Overview of Mutual Support Key Concepts and Tools",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/teamstepps-program/curriculum/mutual/overview/index.html",
+     "section": "Mutual Support",
+     "source_date": "Page last reviewed July 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Blank B2",
+     "evidence": "Mutual support/backup behaviour: assist; feedback; assertive advocacy.",
+     "added_by": "author"
+    },
+    {
+     "title": "6.2 Effective Communication in the Nurse-Patient Relationship",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/6-2-effective-communication-in-the-nurse-patient-relationship",
+     "section": "TeamSTEPPS",
+     "source_date": "citation_date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Blanks B1–B2",
+     "evidence": "Four core competencies: leadership, communication, situation monitoring, mutual support.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B38-WAVE29",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-HPM-0044",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "tags": [
+    "hepatitis-A",
+    "vaccine",
+    "community",
+    "hand-hygiene",
+    "HPM",
+    "SATA"
+   ],
+   "stem": "A community health nurse teaches adults how to prevent hepatitis A. Which instructions are appropriate? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Hepatitis A vaccination is the best way to prevent infection"
+    },
+    {
+     "key": "B",
+     "text": "Wash hands thoroughly with soap and water after using the bathroom, after caring for someone who is ill, after changing diapers, and before preparing or eating food"
+    },
+    {
+     "key": "C",
+     "text": "Practise good personal hygiene and food/water safety to reduce fecal–oral transmission"
+    },
+    {
+     "key": "D",
+     "text": "Rely on isolation of infected persons as the primary community prevention strategy because hygiene and vaccine add little"
+    },
+    {
+     "key": "E",
+     "text": "International travelers and other higher-risk groups should discuss hepatitis A vaccination with a clinician"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: vaccination is the best way to prevent hepatitis A.",
+    "B": "Correct. CDC: good hand hygiene with soap and water at key times helps prevent spread.",
+    "C": "Correct. Merck: good personal hygiene and food/water safety help prevent fecal–oral transmission.",
+    "D": "Incorrect. Merck: isolation does little to prevent HAV spread; hygiene/vaccine are the prevention focus.",
+    "E": "Correct. CDC and Merck list international travelers and other higher-risk groups among those recommended for vaccination."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Hepatitis A — vaccine best prevention plus hygiene and food/water safety",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "hepatitis-a-vaccine-hygiene-food-water-prevention",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a019fbda) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Hep A Prevention: vaccine best; hand hygiene key times; risk groups including travelers. Merck Prevention: hygiene/food-water safety; isolation does little; vaccination for high-risk adults."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Hepatitis A Prevention and Control",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/hepatitis-a/prevention/index.html",
+     "section": "Prevention tips; Vaccination; Good hygiene",
+     "source_date": "Updated: January 31, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Keys A,B,E",
+     "evidence": "Vaccine best prevention; soap-and-water hand hygiene; risk groups including travelers.",
+     "added_by": "author"
+    },
+    {
+     "title": "Hepatitis A",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/hepatitis/hepatitis-a",
+     "section": "Prevention of Hepatitis A; Vaccination",
+     "source_date": "Last updated: Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Keys C,E and distractor D",
+     "evidence": "Hygiene and food/water safety; isolation does little; preexposure vaccination for travelers and other high-risk adults.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B38-WAVE29",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-RRP-0044",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "UTI",
+    "older-adult",
+    "delirium",
+    "gerontology",
+    "RRP"
+   ],
+   "stem": "An 82-year-old client living in a retirement residence develops new confusion over 12 hours without reported dysuria. Which nursing interpretation is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Acute confusion in an older adult can be an atypical presentation of urinary tract infection and warrants prompt clinical evaluation (including urine testing as indicated)"
+    },
+    {
+     "key": "B",
+     "text": "New delirium in older adults is almost never related to infection, so infection workup can be deferred indefinitely"
+    },
+    {
+     "key": "C",
+     "text": "UTI in older adults always presents with classic dysuria and frequency, so absent dysuria rules out UTI"
+    },
+    {
+     "key": "D",
+     "text": "Confusion should be attributed only to dementia progression without assessing acute medical causes"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: older adults may present with sepsis and delirium without urinary-tract symptoms. OpenStax: older adults’ UTIs often present atypically with confusion/delirium; OpenStax delirium text notes UTI as a common cause and that older adults may lack pain.",
+    "B": "Incorrect. Infection (including UTI) is a common precipitant of delirium (Merck Delirium etiology; OpenStax).",
+    "C": "Incorrect. OpenStax and Merck emphasize atypical presentations without classic dysuria.",
+    "D": "Incorrect. Acute confusion requires evaluation for reversible causes such as infection (OpenStax/Merck)."
+   },
+   "specialty": "Gerontology",
+   "topic": "Older adult UTI — atypical presentation with acute confusion/delirium",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "older-adult-uti-atypical-delirium-without-dysuria",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a019fbda) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Bacterial UTIs Symptoms: older adults may present with sepsis/delirium without urinary symptoms. OpenStax Clinical Nursing Skills 19.4 UTI in Older Adults: atypical confusion/delirium. OpenStax Delirium: UTI common cause; may lack pain."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bacterial Urinary Tract Infections",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/urinary-tract-infections/bacterial-urinary-tract-infections",
+     "section": "Symptoms and Signs of Bacterial UTIs",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A and distractors B–C",
+     "evidence": "Older adults may present with sepsis and delirium without symptoms referable to the urinary tract.",
+     "added_by": "author"
+    },
+    {
+     "title": "19.4 Nursing Management of Elimination",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/19-4-nursing-management-of-elimination",
+     "section": "UTI in Older Adults",
+     "source_date": "citation_date Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A and distractors C–D",
+     "evidence": "Older-adult UTIs often present atypically with confusion or delirium, new incontinence, sleepiness, falls.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B38-WAVE29",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-RRP-0045",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "UTI",
+    "older-adult",
+    "NGN",
+    "matrix",
+    "gerontology",
+    "RRP"
+   ],
+   "stem": "A home-care nurse assesses an older adult with sudden personality change and new incontinence. For each statement, select Accurate or Not accurate.",
+   "ngn": {
+    "columns": [
+     "Accurate",
+     "Not accurate"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "UTI in older adults may present with confusion or delirium rather than classic burning/frequency"
+     },
+     {
+      "key": "R2",
+      "text": "New acute confusion in an older adult should prompt evaluation for infection such as UTI"
+     },
+     {
+      "key": "R3",
+      "text": "Absence of dysuria completely excludes UTI in older adults"
+     },
+     {
+      "key": "R4",
+      "text": "Delirium from a treatable infection can improve when the underlying infection is treated"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Accurate",
+    "R2": "Accurate",
+    "R3": "Not accurate",
+    "R4": "Accurate"
+   },
+   "rationales": {
+    "R1": "Accurate. OpenStax: older-adult UTIs often present atypically with confusion/delirium. Merck: may lack urinary symptoms.",
+    "R2": "Accurate. OpenStax delirium: obtain urine sample when acute confusion noted; UTI is a common cause in older adults.",
+    "R3": "Not accurate. Merck/OpenStax: classic urinary symptoms may be absent.",
+    "R4": "Accurate. OpenStax: delirium resolves with successful treatment of the underlying condition (e.g., antibiotics for UTI)."
+   },
+   "specialty": "Gerontology",
+   "topic": "NGN matrix — older adult UTI atypical cues and evaluation",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "ngn-matrix-older-adult-uti-atypical-confusion-evaluate",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a019fbda) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Elimination UTI in Older Adults + Delirium 14.2; Merck UTI symptoms in older adults."
+    }
+   ],
+   "sources": [
+    {
+     "title": "19.4 Nursing Management of Elimination",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/19-4-nursing-management-of-elimination",
+     "section": "UTI in Older Adults",
+     "source_date": "citation_date Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Rows R1–R3",
+     "evidence": "Atypical confusion/delirium presentation in older adults.",
+     "added_by": "author"
+    },
+    {
+     "title": "14.2 Delirium",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/14-2-delirium",
+     "section": "Incidence and Causes of Delirium; Diagnosing Delirium",
+     "source_date": "citation_date Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Rows R2,R4",
+     "evidence": "UTI common delirium cause; urine sample with acute confusion; resolves when cause treated.",
+     "added_by": "author"
+    },
+    {
+     "title": "Bacterial Urinary Tract Infections",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/urinary-tract-infections/bacterial-urinary-tract-infections",
+     "section": "Symptoms and Signs of Bacterial UTIs",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Rows R1,R3",
+     "evidence": "Older adults may present with delirium without urinary-tract symptoms.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B38-WAVE29",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "Temperature stated in °C with warm-to-touch guidance (CDC).",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "id": "ONRN-PA-0063",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "frostbite",
+    "cold-injury",
+    "emergency",
+    "PA"
+   ],
+   "stem": "A client arrives after prolonged outdoor cold exposure with a numb, pale finger. Which initial rewarming approach is most appropriate if medical care is arranged and refreezing will not occur?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Immerse the frostbitten area in warm (about 37–39 °C / warm-to-touch, not hot) water; do not rub or massage the area"
+    },
+    {
+     "key": "B",
+     "text": "Rub snow vigorously onto the finger to ‘restore circulation’"
+    },
+    {
+     "key": "C",
+     "text": "Place the numb finger directly on a stove burner or heating pad for rapid dry heat"
+    },
+    {
+     "key": "D",
+     "text": "Ignore the finding because numbness means tissue injury cannot occur"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: rewarm by immersion in 37–39 °C water; avoid rubbing. CDC: place frostbitten areas in warm-to-touch (not hot) water; do not rub/massage; avoid heating pads/stoves.",
+    "B": "Incorrect. CDC/Merck: do not rub or massage frostbitten tissue (worsens injury).",
+    "C": "Incorrect. CDC/Merck: avoid uncontrolled dry heat (stove, heating pad) because numbness risks burns.",
+    "D": "Incorrect. Numbness is a classic frostbite finding and needs care (CDC/Merck)."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "Frostbite — warm-water rewarming; do not rub or use dry heat",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "frostbite-warm-water-37-39-no-rub-no-dry-heat",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a019fbda) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Frostbite Prehospital: immerse 37–39 °C water; avoid rubbing and uncontrolled dry heat. CDC Preventing Frostbite / Yellow Book: warm not hot water; no rub; no heating pad/stove."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Frostbite",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/cold-injury/frostbite",
+     "section": "Treatment of Frostbite — Prehospital care",
+     "source_date": "Last updated: Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A and distractors B–C",
+     "evidence": "Rewarm in 37–39 °C water; avoid rubbing; avoid uncontrolled dry heat.",
+     "added_by": "author"
+    },
+    {
+     "title": "Preventing Frostbite",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/winter-weather/prevention/preventing-frostbite.html",
+     "section": "Treat; Frostbite Caution",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A and distractors B–D",
+     "evidence": "Warm-to-touch water; do not rub/massage; do not use heating pad/stove/fireplace.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B38-WAVE29",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "Rewarming water ≈37–39 °C (Merck; CDC Yellow Book).",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "id": "ONRN-PA-0064",
+   "format": "bowtie",
+   "scoring_model": "zero_one",
+   "tags": [
+    "frostbite",
+    "NGN",
+    "bowtie",
+    "emergency",
+    "PA"
+   ],
+   "stem": "A hiker has a cold, numb, white fingertip after hours in sub-freezing wind. Complete the bowtie: most likely condition, two priority actions, and two monitoring parameters.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Frostbite of a distal extremity"
+     },
+     {
+      "key": "K2",
+      "text": "Uncomplicated seasonal allergic rhinitis"
+     },
+     {
+      "key": "K3",
+      "text": "Heatstroke with core temperature > 40 °C"
+     },
+     {
+      "key": "K4",
+      "text": "Isolated anxiety attack without cold exposure"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Move to a warm shelter and arrange prompt medical evaluation"
+     },
+     {
+      "key": "A2",
+      "text": "Rewarm the affected part in warm (≈37–39 °C / warm-to-touch) water without rubbing"
+     },
+     {
+      "key": "A3",
+      "text": "Massage the area firmly with snow to restore colour"
+     },
+     {
+      "key": "A4",
+      "text": "Apply a heating pad directly to the numb skin for rapid dry heat"
+     },
+     {
+      "key": "A5",
+      "text": "Encourage prolonged walking on frostbitten feet to ‘work out’ stiffness"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "Colour, sensation, and pain response of the rewarming digit"
+     },
+     {
+      "key": "P2",
+      "text": "Signs of concurrent hypothermia (confusion, shivering, drowsiness)"
+     },
+     {
+      "key": "P3",
+      "text": "Daily pollen count as the primary outcome"
+     },
+     {
+      "key": "P4",
+      "text": "Core temperature trending above 40 °C as the expected goal"
+     },
+     {
+      "key": "P5",
+      "text": "Ability to complete a marathon within 1 hour"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K1",
+    "actions": [
+     "A1",
+     "A2"
+    ],
+    "parameters": [
+     "P1",
+     "P2"
+    ]
+   },
+   "rationales": {
+    "K1": "Correct. Cold, numb, white distal tissue after freezing exposure fits frostbite (Merck/CDC).",
+    "K2": "Incorrect. Allergic rhinitis does not explain freezing tissue injury.",
+    "K3": "Incorrect. Heatstroke is heat illness, not freezing injury.",
+    "K4": "Incorrect. History is cold exposure with tissue findings.",
+    "A1": "Correct. CDC: seek medical attention; get into a warm room/shelter.",
+    "A2": "Correct. Merck/CDC: warm-water rewarming; do not rub.",
+    "A3": "Incorrect. Do not rub/massage or use snow (CDC/Merck).",
+    "A4": "Incorrect. Avoid heating pads/dry heat on numb tissue (CDC/Merck).",
+    "A5": "Incorrect. CDC: avoid walking on frostbitten feet/toes unless necessary.",
+    "P1": "Correct. Clinical course after rewarming includes colour/pain/edema changes (Merck).",
+    "P2": "Correct. CDC: check for hypothermia, which is a more serious emergency.",
+    "P3": "Incorrect. Irrelevant to frostbite.",
+    "P4": "Incorrect. >40 °C is heatstroke territory, not frostbite goal.",
+    "P5": "Incorrect. Not a frostbite monitoring parameter."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN bowtie — frostbite recognition, warm-water rewarming, hypothermia check",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "ngn-bowtie-frostbite-warm-water-no-rub-hypothermia-check",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a019fbda) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Frostbite treatment + CDC frostbite treat/caution + Yellow Book 37–39 °C rewarming."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Frostbite",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/cold-injury/frostbite",
+     "section": "Symptoms and Signs; Treatment — Prehospital care",
+     "source_date": "Last updated: Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Condition K1; actions A2; parameters P1",
+     "evidence": "Cold/white/numb tissue; 37–39 °C water rewarming; avoid rubbing.",
+     "added_by": "author"
+    },
+    {
+     "title": "Preventing Frostbite",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/winter-weather/prevention/preventing-frostbite.html",
+     "section": "Treat; Frostbite Caution",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Actions A1–A2; avoid A3–A5; parameter P2",
+     "evidence": "Warm shelter; medical care; warm water; no rub; check hypothermia.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B38-WAVE29",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency",
+    "high-alert-medication"
+   ],
+   "id": "ONRN-PA-0065",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "adrenal-crisis",
+    "Addison",
+    "hydrocortisone",
+    "emergency",
+    "PA"
+   ],
+   "stem": "A client with known primary adrenal insufficiency develops vomiting, abdominal pain, and hypotension after a gastrointestinal illness. Which action is the immediate priority?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Recognize possible adrenal crisis and ensure emergency glucocorticoid therapy (e.g., IV hydrocortisone) with fluid resuscitation is instituted without delay"
+    },
+    {
+     "key": "B",
+     "text": "Withhold all steroids indefinitely because illness means hormones are unnecessary"
+    },
+    {
+     "key": "C",
+     "text": "Focus only on outpatient scheduling of elective imaging before any hormone replacement"
+    },
+    {
+     "key": "D",
+     "text": "Give a large dose of insulin as first-line therapy for adrenal crisis"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: institute therapy immediately on suspicion of adrenal crisis; delay in glucocorticoid therapy may be fatal; hydrocortisone IV and volume expansion. OpenStax: adrenal crisis treated with IV fluids, dextrose, and hydrocortisone; emergency—notify provider immediately.",
+    "B": "Incorrect. Illness/stress increases glucocorticoid need; abrupt inadequate dosing precipitates crisis (OpenStax/Merck).",
+    "C": "Incorrect. Emergency hormone/fluid therapy precedes elective diagnostics (Merck: do not delay treatment).",
+    "D": "Incorrect. Insulin is not first-line adrenal crisis therapy; hydrocortisone and fluids are."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "Adrenal crisis — immediate IV hydrocortisone and fluid resuscitation",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Hard",
+   "cognitive_level": "Applying",
+   "enemy_group": "adrenal-crisis-immediate-iv-hydrocortisone-fluids",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a019fbda) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Addison Treatment of adrenal crisis: immediate hydrocortisone IV + saline/dextrose; delay may be fatal. OpenStax Adrenal Crisis: IV fluids, dextrose, hydrocortisone; emergency."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Primary Adrenal Insufficiency (Addison Disease)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/adrenal-disorders/primary-adrenal-insufficiency-addison-disease",
+     "section": "Treatment of adrenal crisis",
+     "source_date": "Last updated: Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A and distractors B–C",
+     "evidence": "Immediate glucocorticoid therapy; hydrocortisone IV; volume expansion; delay may be fatal.",
+     "added_by": "author"
+    },
+    {
+     "title": "21.5 Adrenal Disorders",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-5-adrenal-disorders",
+     "section": "Adrenal Crisis",
+     "source_date": "citation_date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Crisis: IV fluids, dextrose, hydrocortisone; emergency report to provider.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B38-WAVE29",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "id": "ONRN-PPT-0043",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "desmopressin",
+    "diabetes-insipidus",
+    "pharmacology",
+    "PPT"
+   ],
+   "stem": "A client with central diabetes insipidus (arginine vasopressin deficiency) has massive polyuria. Which medication teaching is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Desmopressin (a vasopressin analogue) is used to replace antidiuretic activity and reduce polyuria"
+    },
+    {
+     "key": "B",
+     "text": "Desmopressin is used primarily to raise blood glucose in diabetic ketoacidosis"
+    },
+    {
+     "key": "C",
+     "text": "No hormone replacement exists; only lifelong fluid restriction without medication is used for complete central DI"
+    },
+    {
+     "key": "D",
+     "text": "Desmopressin is an antibiotic taken to sterilize the urinary tract in DI"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: desmopressin is the synthetic vasopressin analogue used for hormonal treatment of arginine vasopressin deficiency. OpenStax: desmopressin replaces vasopressin and acts as an antidiuretic to treat polyuria.",
+    "B": "Incorrect. Desmopressin is not a DKA glucose therapy.",
+    "C": "Incorrect. Hormone replacement with desmopressin is standard (Merck/OpenStax).",
+    "D": "Incorrect. Desmopressin is not an antibiotic."
+   },
+   "specialty": "Pharmacology",
+   "topic": "Central diabetes insipidus — desmopressin replaces antidiuretic hormone activity",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Understanding",
+   "enemy_group": "central-di-desmopressin-vasopressin-analogue-polyuria",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a019fbda) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck AVP deficiency Treatment: desmopressin hormonal therapy. OpenStax Pituitary DI Medical Therapies: desmopressin replaces vasopressin for polyuria."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Arginine Vasopressin Deficiency (Central Diabetes Insipidus)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/pituitary-disorders/arginine-vasopressin-deficiency-central-diabetes-insipidus",
+     "section": "Treatment — Hormonal medications; Key Points",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A and distractors C",
+     "evidence": "Desmopressin synthetic vasopressin analogue; hormonal replacement.",
+     "added_by": "author"
+    },
+    {
+     "title": "21.4 Pituitary Disorders",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-4-pituitary-disorders",
+     "section": "Diabetes Insipidus — Medical Therapies and Related Care",
+     "source_date": "citation_date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Desmopressin replaces vasopressin; antidiuretic for polyuria.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B38-WAVE29",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "id": "ONRN-PSY-0031",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "trauma-informed",
+    "safety",
+    "mental-health",
+    "PSY"
+   ],
+   "stem": "A clinic implements a trauma-informed approach. Which organizational priority best reflects a core trauma-informed principle?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Ensure participants and staff feel physically and psychologically safe, and structure care to avoid re-traumatization"
+    },
+    {
+     "key": "B",
+     "text": "Maximize unpredictable loud announcements and crowded, poorly lit waiting areas to ‘desensitize’ clients"
+    },
+    {
+     "key": "C",
+     "text": "Ignore power dynamics and withhold collaboration because clients should not share decisions"
+    },
+    {
+     "key": "D",
+     "text": "Use seclusion as the first response to mild anxiety without attempting less restrictive supports"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. SAMHSA: Safety—participants and staff feel physically and psychologically safe. OpenStax: creating a safe environment is a top priority; avoid re-traumatization.",
+    "B": "Incorrect. OpenStax emphasizes good lighting, reduced noise/distractions, and welcoming environments for safety.",
+    "C": "Incorrect. SAMHSA principles include collaboration/mutuality and empowerment, not withholding collaboration.",
+    "D": "Incorrect. SAMHSA materials emphasize eliminating harmful seclusion/restraint practices; safety supports come first."
+   },
+   "specialty": "Mental Health",
+   "topic": "Trauma-informed care — physical and psychological safety as a core principle",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "trauma-informed-care-physical-psychological-safety-priority",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a019fbda) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "SAMHSA Trauma-Informed Approaches: Safety principle—physically and psychologically safe. OpenStax 6.5 Trauma-Informed Care Safety: safe environment top priority; avoid re-traumatization."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Trauma-Informed Approaches and Programs",
+     "publisher": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+     "url": "https://www.samhsa.gov/mental-health/trauma-violence/trauma-informed-approaches-programs",
+     "section": "What is a Trauma-Informed Approach?",
+     "source_date": "Last Updated: 02/08/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A and distractors C–D",
+     "evidence": "Safety principle; emphasizes safety, trust, collaboration, empowerment.",
+     "added_by": "author"
+    },
+    {
+     "title": "6.5 Trauma-Informed Care",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/6-5-trauma-informed-care",
+     "section": "Safety",
+     "source_date": "citation_date Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A and distractor B",
+     "evidence": "Safe environment top priority; avoid re-traumatization; lighting/noise considerations.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B38-WAVE29",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-BCC-0026",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "frostbite",
+    "prevention",
+    "cold",
+    "gerontology",
+    "BCC"
+   ],
+   "stem": "A nurse teaches an older adult who walks outdoors in winter how to reduce frostbite risk. Which instruction is best?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Cover commonly affected areas (nose, ears, cheeks, chin, fingers, toes) with warm, dry clothing such as a hat, scarf/mask, mittens, and layered loose clothing; limit prolonged outdoor exposure in extreme cold"
+    },
+    {
+     "key": "B",
+     "text": "Wear a single thin damp cotton layer and leave ears and fingers uncovered to ‘toughen’ the skin"
+    },
+    {
+     "key": "C",
+     "text": "Rub snow on exposed skin every few minutes as primary prevention"
+    },
+    {
+     "key": "D",
+     "text": "Stay outdoors longer when numb because numbness means protection is complete"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC winter guidance: cover nose/ears/toes/cheeks/chin/fingers; hat, mittens, layered loose clothing; limit extreme cold exposure. Merck: distal extremities and exposed skin are most often affected.",
+    "B": "Incorrect. CDC emphasizes covering high-risk areas and proper layered dry clothing.",
+    "C": "Incorrect. Rubbing snow is harmful for frostbite care and is not prevention (CDC).",
+    "D": "Incorrect. Numbness is a frostbite warning sign, not reassurance (CDC/Merck)."
+   },
+   "specialty": "Gerontology",
+   "topic": "Frostbite prevention — cover ears/nose/fingers/toes; layered warm clothing",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "frostbite-prevention-cover-extremities-layered-clothing",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a019fbda) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Preventing Hypothermia/Frostbite: cover high-risk body parts; layered clothing. Merck Frostbite: distal extremities and exposed skin most affected."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Preventing Hypothermia",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/winter-weather/prevention/index.html",
+     "section": "Avoid; Spot frostbite",
+     "source_date": "Updated: January 30, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A and distractors B–D",
+     "evidence": "Cover nose/ears/toes/cheeks/chin/fingers; layered clothing; mittens/hat.",
+     "added_by": "author"
+    },
+    {
+     "title": "Frostbite",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/cold-injury/frostbite",
+     "section": "Introduction; Symptoms and Signs",
+     "source_date": "Last updated: Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "Distal extremities and exposed skin (cheeks, ears, nose) affected most often.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B38-WAVE29",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-HPM-0045",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "tags": [
+    "cold",
+    "frostbite",
+    "hypothermia",
+    "community",
+    "HPM",
+    "SATA"
+   ],
+   "stem": "A public health nurse prepares winter safety messaging. Which points are appropriate? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "When possible, limit outdoor time during extreme cold and dress in several layers of loose-fitting clothing"
+    },
+    {
+     "key": "B",
+     "text": "Cover ears, nose, cheeks, chin, fingers, and toes with warm dry clothing"
+    },
+    {
+     "key": "C",
+     "text": "Check on older adults who may have inadequate heating, food, or clothing"
+    },
+    {
+     "key": "D",
+     "text": "Treat numbness of fingers after freezing exposure by vigorous massage with snow"
+    },
+    {
+     "key": "E",
+     "text": "Seek medical care for suspected frostbite and watch for hypothermia warning signs such as confusion or drowsiness"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: stay indoors if possible in extreme cold; wear several layers of loose-fitting clothing.",
+    "B": "Correct. CDC: cover body parts most often affected by frostbite.",
+    "C": "Correct. CDC: older adults with inadequate food, clothing, or heating are at higher hypothermia risk.",
+    "D": "Incorrect. CDC: do not rub or massage frostbitten areas; do not use snow.",
+    "E": "Correct. CDC: seek medical care for frostbite; hypothermia signs include confusion and drowsiness."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Community winter safety — layered clothing, cover extremities, check older adults",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "community-winter-safety-layers-cover-extremities-check-older-adults",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a019fbda) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC winter prevention: layers; cover extremities; older adult risk; frostbite no rub; seek care; hypothermia signs."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Preventing Hypothermia",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/winter-weather/prevention/index.html",
+     "section": "Risk factors; Avoid; Spot; Treat",
+     "source_date": "Updated: January 30, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Keys A–C,E and distractor D",
+     "evidence": "Layers; cover extremities; older adult risk; no rub; seek care; confusion/drowsiness.",
+     "added_by": "author"
+    },
+    {
+     "title": "Preventing Frostbite",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/winter-weather/prevention/preventing-frostbite.html",
+     "section": "Treat; Frostbite Caution",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Keys B,E and distractor D",
+     "evidence": "Cover/protect exposed skin; medical care; no snow massage.",
+     "added_by": "author"
+    },
+    {
+     "title": "Frostbite",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/cold-injury/frostbite",
+     "section": "Introduction; Prehospital care",
+     "source_date": "Last updated: Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Keys B,E and distractor D",
+     "evidence": "Exposed distal sites; avoid rubbing.",
      "added_by": "author"
     }
    ],

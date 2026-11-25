@@ -1,9 +1,9 @@
 {
  "generated": "2026-11-25",
- "total_items": 325,
+ "total_items": 337,
  "by_status": {
   "Draft": 0,
-  "Source verified": 325,
+  "Source verified": 337,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -13,7 +13,7 @@
  "by_client_needs_x_status": {
   "MOC": {
    "Draft": 0,
-   "Source verified": 50,
+   "Source verified": 52,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -31,7 +31,7 @@
   },
   "HPM": {
    "Draft": 0,
-   "Source verified": 43,
+   "Source verified": 45,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -40,7 +40,7 @@
   },
   "PSY": {
    "Draft": 0,
-   "Source verified": 30,
+   "Source verified": 31,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -49,7 +49,7 @@
   },
   "BCC": {
    "Draft": 0,
-   "Source verified": 25,
+   "Source verified": 26,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -58,7 +58,7 @@
   },
   "PPT": {
    "Draft": 0,
-   "Source verified": 42,
+   "Source verified": 43,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -67,7 +67,7 @@
   },
   "RRP": {
    "Draft": 0,
-   "Source verified": 43,
+   "Source verified": 45,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -76,7 +76,7 @@
   },
   "PA": {
    "Draft": 0,
-   "Source verified": 61,
+   "Source verified": 64,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -100,35 +100,35 @@
  },
  "all_active": {
   "by_format": {
-   "multiple_choice": 246,
-   "select_all_that_apply": 38,
-   "matrix_multiple_choice": 16,
-   "drop_down_cloze": 11,
-   "bowtie": 11,
+   "multiple_choice": 253,
+   "select_all_that_apply": 40,
+   "matrix_multiple_choice": 17,
+   "drop_down_cloze": 12,
+   "bowtie": 12,
    "ordered_response": 2,
    "calculation": 1
   },
   "by_jurisdiction": {
-   "General (Canada/US concordant)": 285,
+   "General (Canada/US concordant)": 297,
    "Ontario-specific": 31,
    "Canada-specific": 9
   }
  },
- "excluded_draft_topics": 108,
+ "excluded_draft_topics": 114,
  "archived_items": 0,
  "source_citations_by_publisher": {
-  "Merck Manual Professional Edition": 230,
-  "OpenStax — Medical-Surgical Nursing": 72,
+  "Merck Manual Professional Edition": 239,
+  "OpenStax — Medical-Surgical Nursing": 76,
   "OpenStax — Fundamentals of Nursing": 66,
-  "U.S. Centers for Disease Control and Prevention (CDC)": 51,
+  "U.S. Centers for Disease Control and Prevention (CDC)": 57,
   "College of Nurses of Ontario": 33,
   "OpenStax — Pharmacology for Nurses": 32,
   "OpenStax — Maternal-Newborn Nursing": 30,
-  "OpenStax — Psychiatric-Mental Health Nursing": 27,
-  "OpenStax — Clinical Nursing Skills": 18,
+  "OpenStax — Psychiatric-Mental Health Nursing": 29,
+  "OpenStax — Clinical Nursing Skills": 20,
   "Public Health Agency of Canada / Canada.ca": 13,
+  "Agency for Healthcare Research and Quality (AHRQ)": 10,
   "OpenStax — Population Health for Nurses": 9,
-  "Agency for Healthcare Research and Quality (AHRQ)": 8,
   "Agency for Healthcare Research and Quality (AHRQ) — PSNet": 8,
   "Government of Ontario — e-Laws": 7,
   "U.S. National Library of Medicine — DailyMed": 7,
@@ -158,7 +158,8 @@
   "U.S. Department of Homeland Security — Ready.gov": 1,
   "American Diabetes Association": 1,
   "OpenStax — Microbiology": 1,
-  "OpenStax — Anatomy and Physiology 2e": 1
+  "OpenStax — Anatomy and Physiology 2e": 1,
+  "Substance Abuse and Mental Health Services Administration (SAMHSA)": 1
  },
  "near_duplicate_pairs": [],
  "merge_problems": [],
