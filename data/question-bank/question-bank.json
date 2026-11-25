@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 567,
+  "Source verified": 581,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -64545,6 +64545,1625 @@
      "date": "2026-11-25",
      "result": "confirmed",
      "checks": "CNO Professional Misconduct reporting + OpenStax Med-Surg 5.2 duty to act dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B56-WAVE47",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Ontario public-health exclusion aligns with CDC 12–24h + afebrile teaching",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "Canada-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0066",
+   "format": "multiple_choice",
+   "specialty": "Pediatrics",
+   "topic": "Group A strep pharyngitis/scarlet fever — return to school after antibiotics when afebrile",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "strep-pharyngitis-return-school-after-antibiotics",
+   "tags": [
+    "SIPC",
+    "strep",
+    "scarlet-fever",
+    "school-exclusion",
+    "pediatrics",
+    "NGN-partner"
+   ],
+   "stem": "A school-age child is diagnosed with group A streptococcal pharyngitis and starts appropriate antibiotics. When teaching the family about return to school or daycare, which instruction is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Return only after completing the full 10-day antibiotic course, even if fever-free earlier"
+    },
+    {
+     "key": "B",
+     "text": "Return when afebrile and at least 12–24 hours after starting appropriate antibiotics (Ontario public health commonly uses 24 hours)"
+    },
+    {
+     "key": "C",
+     "text": "Return immediately after the first dose because strep is never contagious once diagnosed"
+    },
+    {
+     "key": "D",
+     "text": "Stay home for 2 weeks regardless of antibiotics to prevent rheumatic fever"
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Full course must be completed, but school return is typically allowed earlier once noninfectious criteria are met.",
+    "B": "Correct. CDC: stay home until afebrile and at least 12–24 hours after starting appropriate antibiotics. Ontario public-health guidance commonly excludes until 24 hours after starting antibiotics.",
+    "C": "Incorrect. Contagiousness declines after antibiotic therapy begins; immediate return after one dose is not the standard teaching.",
+    "D": "Incorrect. Prolonged blanket exclusion is not required when antibiotics are started and the child is improving/afebrile."
+   },
+   "sources": [
+    {
+     "title": "Clinical Guidance for Group A Streptococcal Pharyngitis",
+     "publisher": "Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html",
+     "section": "Prevention — Antibiotic treatment / school-daycare return",
+     "source_date": "Nov 18, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key B",
+     "evidence": "Stay home from work, school, or daycare until afebrile and at least 12–24 hours after starting appropriate antibiotic therapy."
+    },
+    {
+     "title": "Strep Throat/Scarlet Fever (group A streptococcus)",
+     "publisher": "Leeds, Grenville and Lanark District Health Unit (Ontario)",
+     "url": "https://healthunit.org/health-information/infectious-diseases/childhood-diseases/strep-throat-scarlet-fever/",
+     "section": "When to Report/Exclude",
+     "source_date": "Referenced to MOHLTC Infectious Diseases Protocol 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key B",
+     "evidence": "Exclude from child care and school for 24 hours after the start of appropriate antibiotic; contagious until 24 hours after starting antibiotics."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-63784ae8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC GAS pharyngitis return criteria + Ontario PHU 24h exclusion dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B56-WAVE47",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Ontario public-health exclusion aligns with CDC 12–24h + afebrile teaching",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "Canada-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0067",
+   "format": "matrix_multiple_choice",
+   "specialty": "Pediatrics",
+   "topic": "NGN matrix — strep pharyngitis school-return and contagion teaching",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "strep-pharyngitis-return-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "SIPC",
+    "strep",
+    "pediatrics"
+   ],
+   "stem": "For a child starting antibiotics for confirmed group A strep pharyngitis, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Keep the child home until afebrile and at least 12–24 hours after starting appropriate antibiotics (often taught as 24 hours in Ontario)"
+     },
+     {
+      "key": "R2",
+      "text": "Complete the full prescribed antibiotic course even after symptoms improve"
+     },
+     {
+      "key": "R3",
+      "text": "Practice hand hygiene and avoid sharing cups/utensils while contagious"
+     },
+     {
+      "key": "R4",
+      "text": "Return to school immediately after the rapid strep test is positive, before antibiotics start"
+     },
+     {
+      "key": "R5",
+      "text": "Stop antibiotics after 24 hours because the child is then cured"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. CDC and Ontario PHU align on delayed return until antibiotics have had time to reduce contagion and the child is afebrile/well enough.",
+    "R2": "Indicated. Completing therapy reduces complications and treatment failure.",
+    "R3": "Indicated. Hygiene and not sharing utensils reduce spread.",
+    "R4": "Not indicated. Contagiousness persists until antibiotics have been started for the recommended interval.",
+    "R5": "Not indicated. Feeling better after 24 hours does not mean the full course can be stopped."
+   },
+   "sources": [
+    {
+     "title": "Clinical Guidance for Group A Streptococcal Pharyngitis",
+     "publisher": "Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html",
+     "section": "Prevention — return criteria; treatment benefits",
+     "source_date": "Nov 18, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Rows R1–R5",
+     "evidence": "Afebrile + 12–24h antibiotics before return; antibiotics reduce transmission and complications."
+    },
+    {
+     "title": "Strep Throat/Scarlet Fever (group A streptococcus)",
+     "publisher": "Leeds, Grenville and Lanark District Health Unit (Ontario)",
+     "url": "https://healthunit.org/health-information/infectious-diseases/childhood-diseases/strep-throat-scarlet-fever/",
+     "section": "Contagious period / exclusion",
+     "source_date": "Referenced to MOHLTC Infectious Diseases Protocol 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Rows R1,R4",
+     "evidence": "Exclude 24 hours after start of appropriate antibiotic; contagious until then."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-63784ae8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC + Ontario PHU strep matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B56-WAVE47",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Health Canada fit guidance + CDC helmet effectiveness",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "Canada-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-HPM-0075",
+   "format": "multiple_choice",
+   "specialty": "Community/Public Health",
+   "topic": "Bicycle helmet — properly fitted helmet every ride",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "bicycle-helmet-proper-fit-every-ride",
+   "tags": [
+    "HPM",
+    "helmet",
+    "bicycle",
+    "community",
+    "injury-prevention"
+   ],
+   "stem": "A parent asks how to best protect a child from serious head injury while bicycling. Which teaching is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Wear a properly fitted bicycle helmet, fastened, every time the child rides"
+    },
+    {
+     "key": "B",
+     "text": "Helmets are unnecessary if the child rides only on sidewalks"
+    },
+    {
+     "key": "C",
+     "text": "Buy a helmet several sizes too large so the child can \"grow into\" it"
+    },
+    {
+     "key": "D",
+     "text": "A cracked helmet is fine to reuse if the outer shell still looks mostly intact"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: properly fitted bicycle helmets every ride reduce head/brain injury risk. Health Canada: well-fitted, activity-matched helmets protect against serious head injury.",
+    "B": "Incorrect. Serious crashes can occur off roadways; helmets are recommended whenever riding.",
+    "C": "Incorrect. Health Canada: helmets should not be large enough to grow into; fit must be snug now.",
+    "D": "Incorrect. Bike helmets are single-impact devices and should be replaced after impact or if damaged."
+   },
+   "sources": [
+    {
+     "title": "Bicycle Safety",
+     "publisher": "Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/pedestrian-bike-safety/about/bicycle-safety.html",
+     "section": "Effective interventions — bicycle helmets",
+     "source_date": "Aug 14, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "All bicyclists can help protect themselves by wearing properly fitted bicycle helmets every time they ride."
+    },
+    {
+     "title": "Helmet safety",
+     "publisher": "Health Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/health-canada/services/injury-prevention/helmet-safety.html",
+     "section": "How helmets protect you / How to wear a helmet properly",
+     "source_date": "2025-12-08",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A; distractors C–D",
+     "evidence": "Well-fitted helmets protect against TBI/skull fracture; snug fit; bicycle helmets sit low on forehead; replace single-impact helmets after impact/damage; do not buy to grow into."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-63784ae8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC bicycle helmet + Health Canada helmet safety dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B56-WAVE47",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Health Canada fit guidance + CDC helmet effectiveness",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "Canada-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-HPM-0076",
+   "format": "matrix_multiple_choice",
+   "specialty": "Community/Public Health",
+   "topic": "NGN matrix — bicycle helmet fit and use teaching",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "bicycle-helmet-fit-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "HPM",
+    "helmet",
+    "community"
+   ],
+   "stem": "When teaching bicycle helmet safety for a school-age child, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Wear a properly fitted helmet every ride with the buckle fastened"
+     },
+     {
+      "key": "R2",
+      "text": "Position a bicycle helmet low on the forehead (about 2 finger-widths above the eyebrows) with V-straps by the ears"
+     },
+     {
+      "key": "R3",
+      "text": "Replace a bike helmet after a crash/impact even if damage is not obvious"
+     },
+     {
+      "key": "R4",
+      "text": "Choose an oversized helmet so the child can grow into it over several years"
+     },
+     {
+      "key": "R5",
+      "text": "Skip the helmet for short neighborhood rides on quiet streets"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Consistent, fastened, proper fit is the core prevention message.",
+    "R2": "Indicated. Health Canada bicycle fit: low on forehead, V-straps, snug chinstrap.",
+    "R3": "Indicated. Single-impact bike helmets must be replaced after impact.",
+    "R4": "Not indicated. Do not buy a helmet to grow into.",
+    "R5": "Not indicated. Short rides still carry head-injury risk."
+   },
+   "sources": [
+    {
+     "title": "Bicycle Safety",
+     "publisher": "Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/pedestrian-bike-safety/about/bicycle-safety.html",
+     "section": "Helmets every ride",
+     "source_date": "Aug 14, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1,R5",
+     "evidence": "Properly fitted helmets every time they ride."
+    },
+    {
+     "title": "Helmet safety",
+     "publisher": "Health Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/health-canada/services/injury-prevention/helmet-safety.html",
+     "section": "Fit / single-impact replacement",
+     "source_date": "2025-12-08",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R4",
+     "evidence": "Snug fit; bicycle forehead/V-strap/chinstrap guidance; replace after impact; not sized to grow into."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-63784ae8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC + Health Canada helmet matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B56-WAVE47",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0068",
+   "format": "multiple_choice",
+   "specialty": "Pediatrics",
+   "topic": "Infant IM injection — vastus lateralis (anterolateral thigh)",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "infant-im-vastus-lateralis-anterolateral-thigh",
+   "tags": [
+    "PPT",
+    "IM",
+    "vastus-lateralis",
+    "pediatrics",
+    "vaccine"
+   ],
+   "stem": "The nurse prepares an intramuscular injection for a 6-month-old infant. Which site is preferred?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Vastus lateralis muscle of the anterolateral thigh"
+    },
+    {
+     "key": "B",
+     "text": "Dorsogluteal muscle of the buttock as first choice"
+    },
+    {
+     "key": "C",
+     "text": "Deltoid muscle for all infants under 12 months as first choice"
+    },
+    {
+     "key": "D",
+     "text": "Any subcutaneous fat pad because IM sites are unused in infancy"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax CNS: for children <18 months, vastus lateralis is preferred as the most developed muscle. CDC: for most infants, vastus lateralis (anterolateral thigh) is the recommended IM vaccine site.",
+    "B": "Incorrect. Buttock injections are avoided in infants/children due to sciatic nerve injury risk.",
+    "C": "Incorrect. Deltoid is not the preferred first-choice IM site for young infants with limited deltoid mass.",
+    "D": "Incorrect. Many infant vaccines/medications require true IM administration into muscle."
+   },
+   "sources": [
+    {
+     "title": "12.6 Administering Intramuscular Injections",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/12-6-administering-intramuscular-injections",
+     "section": "Anatomical Sites for IM Injections — vastus lateralis in young children",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "For children less than 18 months old, the vastus lateralis of the thigh should be used because it is the most developed muscle at that age."
+    },
+    {
+     "title": "Chapter 6: Vaccine Administration",
+     "publisher": "Centers for Disease Control and Prevention (CDC) — Pink Book",
+     "url": "https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-6-vaccine-administration.html",
+     "section": "Infants — vastus lateralis anterolateral thigh",
+     "source_date": "CDC Pink Book / vaccine administration guidance",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A; distractor B",
+     "evidence": "For most infants, vastus lateralis in anterolateral thigh is recommended; buttock avoided due to sciatic nerve concern."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-63784ae8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax CNS IM sites + CDC Pink Book infant IM dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B56-WAVE47",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0069",
+   "format": "drop_down_cloze",
+   "specialty": "Pediatrics",
+   "topic": "NGN cloze — infant IM preferred site vastus lateralis",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "infant-im-vastus-ngn-cloze",
+   "tags": [
+    "NGN",
+    "cloze",
+    "PPT",
+    "IM",
+    "pediatrics"
+   ],
+   "stem": "Complete the accurate teaching for intramuscular injection site selection in a young infant.",
+   "ngn": {
+    "template": "For most infants, the preferred intramuscular injection site is the {B1}. The buttock is {B2} as a routine infant vaccine site because of sciatic nerve injury risk.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "vastus lateralis (anterolateral thigh)"
+      },
+      {
+       "key": "B1b",
+       "text": "dorsogluteal buttock as first choice"
+      },
+      {
+       "key": "B1c",
+       "text": "deltoid for every infant under 6 months as first choice"
+      },
+      {
+       "key": "B1d",
+       "text": "abdomen only"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "avoided"
+      },
+      {
+       "key": "B2b",
+       "text": "preferred"
+      },
+      {
+       "key": "B2c",
+       "text": "required by CDC for all vaccines"
+      },
+      {
+       "key": "B2d",
+       "text": "used before the thigh in neonates"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. Vastus lateralis/anterolateral thigh is preferred in infants.",
+    "B1b": "Incorrect. Buttock is not first choice.",
+    "B1c": "Incorrect. Deltoid mass is limited in young infants.",
+    "B1d": "Incorrect. Abdomen is not an IM muscle site for vaccines.",
+    "B2a": "Correct. Buttock IM is avoided due to sciatic nerve risk.",
+    "B2b": "Incorrect. Not preferred.",
+    "B2c": "Incorrect. CDC does not require buttock sites.",
+    "B2d": "Incorrect. Thigh is preferred over buttock."
+   },
+   "sources": [
+    {
+     "title": "12.6 Administering Intramuscular Injections",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/12-6-administering-intramuscular-injections",
+     "section": "Vastus lateralis preferred <18 months",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B1",
+     "evidence": "Vastus lateralis preferred for children <18 months."
+    },
+    {
+     "title": "Chapter 6: Vaccine Administration",
+     "publisher": "Centers for Disease Control and Prevention (CDC) — Pink Book",
+     "url": "https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-6-vaccine-administration.html",
+     "section": "Infant IM site; avoid buttock",
+     "source_date": "CDC Pink Book / vaccine administration guidance",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Anterolateral thigh preferred; buttock avoided for sciatic nerve concern."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-63784ae8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + CDC infant IM cloze dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B56-WAVE47",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0066",
+   "format": "multiple_choice",
+   "specialty": "Medical-Surgical",
+   "topic": "Enteral tube feeding — elevate HOB 30–45° to reduce aspiration",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "enteral-feeding-hob-30-45-aspiration-prevention",
+   "tags": [
+    "RRP",
+    "enteral",
+    "aspiration",
+    "HOB",
+    "med-surg"
+   ],
+   "stem": "A client is receiving intermittent nasogastric tube feedings. Which nursing action best reduces the risk of aspiration pneumonia?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Keep the head of the bed elevated about 30° to 45° during feeding and for a period afterward as tolerated"
+    },
+    {
+     "key": "B",
+     "text": "Place the client flat supine for the entire feeding to promote gastric emptying"
+    },
+    {
+     "key": "C",
+     "text": "Omit tube-placement checks because aspiration cannot occur with a correctly ordered formula"
+    },
+    {
+     "key": "D",
+     "text": "Encourage the client to lie on the left side with the head down during bolus feeds"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax Med-Surg: maintain HOB 30°–45° to reduce aspiration risk. Merck: sit upright 30°–45° during tube feeding and 1–2 hours afterward to minimize aspiration pneumonia.",
+    "B": "Incorrect. Flat positioning increases aspiration risk.",
+    "C": "Incorrect. Placement and intolerance assessments remain essential; aspiration is a major complication.",
+    "D": "Incorrect. Head-down positioning worsens aspiration risk."
+   },
+   "sources": [
+    {
+     "title": "19.3 Parenteral and Enteral Nutrition",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-3-parenteral-and-enteral-nutrition",
+     "section": "Nursing Management — aspiration prevention",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Most serious complication is respiratory aspiration; maintain head of bed at 30° to 45° unless contraindicated; assess placement/intolerance."
+    },
+    {
+     "title": "Enteral Nutrition",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/nutritional-disorders/nutritional-support/enteral-nutrition",
+     "section": "Administration — upright 30–45°",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Patients should sit upright at 30 to 45° during tube feeding and for 1 to 2 hours afterward to minimize aspiration pneumonia."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-63784ae8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Med-Surg enteral + Merck enteral HOB dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B56-WAVE47",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0067",
+   "format": "matrix_multiple_choice",
+   "specialty": "Medical-Surgical",
+   "topic": "NGN matrix — enteral feeding aspiration-prevention actions",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "enteral-feeding-aspiration-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "RRP",
+    "enteral",
+    "aspiration"
+   ],
+   "stem": "For a client receiving gastric tube feedings, indicate whether each action is Indicated or Not indicated to reduce aspiration risk.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Maintain head of bed elevation about 30°–45° during feeding (unless contraindicated)"
+     },
+     {
+      "key": "R2",
+      "text": "Keep the client upright for a period after feeding as tolerated"
+     },
+     {
+      "key": "R3",
+      "text": "Assess tube placement and GI tolerance per protocol"
+     },
+     {
+      "key": "R4",
+      "text": "Place the client flat supine for bolus feeds to \"rest\" the stomach"
+     },
+     {
+      "key": "R5",
+      "text": "Skip labeling/tracing tube connections because aspiration risk is unrelated to misconnections"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. HOB elevation is a core aspiration-prevention measure.",
+    "R2": "Indicated. Merck recommends continued upright positioning after feeds.",
+    "R3": "Indicated. OpenStax: assess placement and GI intolerance at intervals.",
+    "R4": "Not indicated. Flat positioning increases aspiration risk.",
+    "R5": "Not indicated. Misconnection precautions and tracing lines are part of safe enteral care."
+   },
+   "sources": [
+    {
+     "title": "19.3 Parenteral and Enteral Nutrition",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-3-parenteral-and-enteral-nutrition",
+     "section": "Aspiration prevention / tubing safety",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "HOB 30–45°; assess placement/intolerance; prevent misconnections; aspiration is most serious complication."
+    },
+    {
+     "title": "Enteral Nutrition",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/nutritional-disorders/nutritional-support/enteral-nutrition",
+     "section": "Administration and Key Points",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R2",
+     "evidence": "Upright 30–45° during feeds and 1–2 hours afterward."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-63784ae8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + Merck enteral aspiration matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B56-WAVE47",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0067",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "Spiritual care — facilitate chaplain/clergy per client preference",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "spiritual-care-facilitate-chaplain-client-preference",
+   "tags": [
+    "PSY",
+    "spirituality",
+    "chaplain",
+    "fundamentals"
+   ],
+   "stem": "A hospitalized client asks to speak with a spiritual advisor from their faith tradition. What is the nurse's best action?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Facilitate contact with the hospital chaplain or the client's preferred clergy and protect quiet time for spiritual practices as able"
+    },
+    {
+     "key": "B",
+     "text": "Tell the client that spiritual needs are outside nursing responsibility and refuse to help"
+    },
+    {
+     "key": "C",
+     "text": "Impose the nurse's own prayer tradition without asking about the client's preferences"
+    },
+    {
+     "key": "D",
+     "text": "Advise the client to wait until discharge because spiritual care is never part of inpatient care"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax Fund: support patients within their faith tradition; many agencies have chaplains; offer clergy/quiet prayer time based on patient preferences. Merck: interdisciplinary palliative teams include chaplains to relieve spiritual distress.",
+    "B": "Incorrect. Spiritual support is a legitimate nursing/caring responsibility.",
+    "C": "Incorrect. Care must center the client's beliefs, not the nurse's.",
+    "D": "Incorrect. Spiritual care is appropriate during hospitalization."
+   },
+   "sources": [
+    {
+     "title": "35.2 Applications of Spirituality to Health Care",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/35-2-applications-of-spirituality-to-health-care",
+     "section": "Patient-centered spiritual care — chaplain/clergy",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Facilitate clergy/chaplain; quiet prayer time; focus on patient preferences, not nurse's beliefs."
+    },
+    {
+     "title": "The Dying Patient — Palliative Care and Hospice",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/special-subjects/the-dying-patient/the-dying-patient",
+     "section": "Palliative care teams include chaplains",
+     "source_date": "Last updated: May 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Interdisciplinary palliative teams include chaplains to relieve psychosocial and spiritual distress."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-63784ae8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Fund spirituality + Merck dying/palliative chaplain dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B56-WAVE47",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0068",
+   "format": "drop_down_cloze",
+   "specialty": "Fundamentals",
+   "topic": "NGN cloze — spiritual care chaplain and client preference",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "spiritual-care-ngn-cloze-chaplain",
+   "tags": [
+    "NGN",
+    "cloze",
+    "PSY",
+    "spirituality"
+   ],
+   "stem": "Complete accurate nursing actions for a client requesting spiritual support.",
+   "ngn": {
+    "template": "The nurse should facilitate access to a {B1} according to the client's wishes. Spiritual interventions must center on {B2}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "chaplain or the client's preferred clergy"
+      },
+      {
+       "key": "B1b",
+       "text": "random roommate to lead unfamiliar rituals"
+      },
+      {
+       "key": "B1c",
+       "text": "security officer for mandatory prayer"
+      },
+      {
+       "key": "B1d",
+       "text": "billing clerk for financial counsel only"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "the client's preferences and beliefs, not the nurse's"
+      },
+      {
+       "key": "B2b",
+       "text": "the nurse's personal religion regardless of the client"
+      },
+      {
+       "key": "B2c",
+       "text": "avoiding all spiritual topics forever"
+      },
+      {
+       "key": "B2d",
+       "text": "forcing conversion before procedures"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. Chaplain/preferred clergy is appropriate facilitation.",
+    "B1b": "Incorrect. Unrelated persons should not be pressed into spiritual leadership.",
+    "B1c": "Incorrect. Spiritual care is not security's role and must not be mandatory.",
+    "B1d": "Incorrect. Does not address spiritual request.",
+    "B2a": "Correct. Patient-centered spiritual care respects client beliefs.",
+    "B2b": "Incorrect. Nurse beliefs must not be imposed.",
+    "B2c": "Incorrect. Spiritual needs may be addressed when requested.",
+    "B2d": "Incorrect. Coercion is unethical."
+   },
+   "sources": [
+    {
+     "title": "35.2 Applications of Spirituality to Health Care",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/35-2-applications-of-spirituality-to-health-care",
+     "section": "Chaplain support; patient preferences",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Chaplain/clergy facilitation; patient preferences not nurse's beliefs."
+    },
+    {
+     "title": "The Dying Patient — Palliative Care and Hospice",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/special-subjects/the-dying-patient/the-dying-patient",
+     "section": "Chaplains on palliative teams",
+     "source_date": "Last updated: May 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "B1",
+     "evidence": "Chaplains help relieve spiritual distress on interdisciplinary teams."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-63784ae8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + Merck spiritual care cloze dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B56-WAVE47",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0068",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "Hospice care — comfort and dignity focus, not curative treatment",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Caring",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "hospice-comfort-focus-not-curative",
+   "tags": [
+    "BCC",
+    "hospice",
+    "palliative",
+    "end-of-life",
+    "comfort"
+   ],
+   "stem": "A family asks how hospice care differs from aggressive curative treatment for a terminally ill relative. Which statement by the nurse is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Hospice focuses on comfort, dignity, and quality of life rather than treatments aimed at curing the disease"
+    },
+    {
+     "key": "B",
+     "text": "Hospice requires stopping all medications, including those used for pain or dyspnea"
+    },
+    {
+     "key": "C",
+     "text": "Hospice is identical to intensive curative chemotherapy protocols"
+    },
+    {
+     "key": "D",
+     "text": "Hospice can be used only in intensive care units and never at home"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: hospice is comfort care at end of life and does not involve treatments aimed at curing the disease. Merck: hospice focuses on comfort and meaningfulness, not cure or extending life.",
+    "B": "Incorrect. Symptom-relief medications are central to hospice comfort care.",
+    "C": "Incorrect. Hospice is not curative intensive treatment.",
+    "D": "Incorrect. Hospice is commonly provided at home as well as other settings."
+   },
+   "sources": [
+    {
+     "title": "36.2 Concepts of Death and Dying",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/36-2-concepts-of-death-and-dying",
+     "section": "Hospice Care",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Hospice comfort care for dying patients; does not involve treatments aimed at curing the disease; focuses on communication, collaboration, compassionate caring, comfort, and cultural/spiritual care."
+    },
+    {
+     "title": "The Dying Patient — Hospice",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/special-subjects/the-dying-patient/the-dying-patient",
+     "section": "Hospice",
+     "source_date": "Last updated: May 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Hospice focuses on comfort and meaningfulness, not on cure or extending life; often provided in the home; includes symptom-focused services."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-63784ae8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Fund hospice + Merck dying hospice dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B56-WAVE47",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0069",
+   "format": "matrix_multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "NGN matrix — hospice comfort-focused nursing actions",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "hospice-comfort-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "BCC",
+    "hospice",
+    "comfort"
+   ],
+   "stem": "For a client enrolled in hospice with comfort-focused goals, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Prioritize relief of pain and other distressing symptoms"
+     },
+     {
+      "key": "R2",
+      "text": "Support dignity, family coping, and psychosocial/spiritual needs"
+     },
+     {
+      "key": "R3",
+      "text": "Align interventions with comfort rather than disease cure"
+     },
+     {
+      "key": "R4",
+      "text": "Insist on continuing burdensome curative protocols against goals of care"
+     },
+     {
+      "key": "R5",
+      "text": "Withhold all comfort medications because hospice means no drugs"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Hospice centers symptom relief and comfort.",
+    "R2": "Indicated. OpenStax/Merck emphasize family support and spiritual/psychosocial care.",
+    "R3": "Indicated. Hospice is not cure-focused.",
+    "R4": "Not indicated. Burdensome curative focus conflicts with hospice goals.",
+    "R5": "Not indicated. Comfort medications are appropriate and expected."
+   },
+   "sources": [
+    {
+     "title": "36.2 Concepts of Death and Dying",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/36-2-concepts-of-death-and-dying",
+     "section": "Hospice Care goals",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Comfort, dignity, pain freedom, family support; not curative treatment."
+    },
+    {
+     "title": "The Dying Patient — Hospice",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/special-subjects/the-dying-patient/the-dying-patient",
+     "section": "Hospice comfort focus",
+     "source_date": "Last updated: May 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Comfort and meaningfulness, not cure; counseling/medications/support services included."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-63784ae8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + Merck hospice matrix dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B56-WAVE47",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "insulin"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0070",
+   "format": "multiple_choice",
+   "specialty": "Pharmacology",
+   "topic": "Mixing insulin — draw clear short-acting before cloudy NPH",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "insulin-mix-clear-short-acting-before-cloudy-nph",
+   "tags": [
+    "PPT",
+    "insulin",
+    "NPH",
+    "mixing",
+    "high-alert"
+   ],
+   "stem": "A nurse must mix regular (clear) insulin and NPH (cloudy) insulin in one syringe as ordered. Which technique is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Draw the clear short-acting insulin into the syringe first, then the cloudy NPH"
+    },
+    {
+     "key": "B",
+     "text": "Draw the cloudy NPH first, then push any extra mixture back into the clear vial"
+    },
+    {
+     "key": "C",
+     "text": "Shake both vials vigorously until foamy before drawing either dose"
+    },
+    {
+     "key": "D",
+     "text": "Mix insulin glargine with NPH in the same syringe for convenience"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. MedlinePlus: when mixing two insulins, draw the short-acting (clear) dose first, then the longer-acting (cloudy) dose. OpenStax: NPH is cloudy; most other insulins are clear.",
+    "B": "Incorrect. Drawing cloudy first risks contaminating the clear vial; mixed insulin should not be pushed back into vials.",
+    "C": "Incorrect. NPH should be gently rolled, not shaken hard into foam/clumps.",
+    "D": "Incorrect. Long-acting analogs such as glargine are not mixed with other insulins."
+   },
+   "sources": [
+    {
+     "title": "Giving an insulin injection",
+     "publisher": "MedlinePlus (U.S. National Library of Medicine)",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000660.htm",
+     "section": "Filling the Syringe — two Types of Insulin",
+     "source_date": "Review Date 7/21/2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A; distractors B–C",
+     "evidence": "NPH is cloudy and rolled (not shaken). Draw short-acting first, then longer-acting; do not push mixed insulin back into a vial."
+    },
+    {
+     "title": "28.2 Insulin and Non-Insulin Injectable Diabetes Drugs",
+     "publisher": "OpenStax — Pharmacology",
+     "url": "https://openstax.org/books/pharmacology/pages/28-2-insulin-and-non-insulin-injectable-diabetes-drugs",
+     "section": "Types of Insulin — NPH cloudy; long-acting agents",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A; distractor D",
+     "evidence": "Insulins are typically clear except NPH (cloudy). Long-acting agents (e.g., glargine) provide basal coverage; mixing rules exclude combining incompatible long-acting products with others."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-63784ae8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus mixing order + OpenStax NPH cloudy/insulin types dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B56-WAVE47",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "insulin"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0071",
+   "format": "drop_down_cloze",
+   "specialty": "Pharmacology",
+   "topic": "NGN cloze — clear before cloudy insulin mixing",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "insulin-clear-before-cloudy-ngn-cloze",
+   "tags": [
+    "NGN",
+    "cloze",
+    "PPT",
+    "insulin",
+    "NPH"
+   ],
+   "stem": "Complete accurate teaching for mixing regular insulin with NPH in one syringe when ordered.",
+   "ngn": {
+    "template": "NPH insulin appears {B1} and should be gently rolled, not shaken hard. When mixing with clear short-acting insulin, draw the {B2} into the syringe first.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "cloudy"
+      },
+      {
+       "key": "B1b",
+       "text": "neon green"
+      },
+      {
+       "key": "B1c",
+       "text": "always crystal clear like water only"
+      },
+      {
+       "key": "B1d",
+       "text": "solid and frozen"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "clear short-acting insulin"
+      },
+      {
+       "key": "B2b",
+       "text": "cloudy NPH first every time"
+      },
+      {
+       "key": "B2c",
+       "text": "insulin glargine mixed into the NPH vial"
+      },
+      {
+       "key": "B2d",
+       "text": "any expired insulin for practice"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. NPH is cloudy.",
+    "B1b": "Incorrect. Not a clinical description.",
+    "B1c": "Incorrect. NPH is the common cloudy insulin.",
+    "B1d": "Incorrect. Insulin is not used frozen.",
+    "B2a": "Correct. Clear/short-acting first, then cloudy.",
+    "B2b": "Incorrect. Cloudy first risks contaminating clear vial.",
+    "B2c": "Incorrect. Glargine is not mixed with NPH.",
+    "B2d": "Incorrect. Never use expired insulin."
+   },
+   "sources": [
+    {
+     "title": "Giving an insulin injection",
+     "publisher": "MedlinePlus (U.S. National Library of Medicine)",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000660.htm",
+     "section": "NPH cloudy; short-acting then longer-acting",
+     "source_date": "Review Date 7/21/2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "NPH cloudy/rolled; draw short-acting first then longer-acting."
+    },
+    {
+     "title": "28.2 Insulin and Non-Insulin Injectable Diabetes Drugs",
+     "publisher": "OpenStax — Pharmacology",
+     "url": "https://openstax.org/books/pharmacology/pages/28-2-insulin-and-non-insulin-injectable-diabetes-drugs",
+     "section": "NPH cloudy vs clear insulins",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B1",
+     "evidence": "Insulins typically clear except insulin isophane NPH, which is cloudy."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-63784ae8) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus + OpenStax insulin mixing cloze dual-cite."
     }
    ],
    "exam_version_published": null,
