@@ -1,0 +1,698 @@
+{
+ "generated": "2026-11-25",
+ "total_items": 68,
+ "by_status": {
+  "Draft": 0,
+  "Source verified": 68,
+  "Awaiting clinical review": 0,
+  "Clinically reviewed": 0,
+  "Approved": 0,
+  "Requires revision": 0,
+  "Archived": 0
+ },
+ "by_client_needs_x_status": {
+  "MOC": {
+   "Draft": 0,
+   "Source verified": 7,
+   "Awaiting clinical review": 0,
+   "Clinically reviewed": 0,
+   "Approved": 0,
+   "Requires revision": 0,
+   "Archived": 0
+  },
+  "SIPC": {
+   "Draft": 0,
+   "Source verified": 6,
+   "Awaiting clinical review": 0,
+   "Clinically reviewed": 0,
+   "Approved": 0,
+   "Requires revision": 0,
+   "Archived": 0
+  },
+  "HPM": {
+   "Draft": 0,
+   "Source verified": 9,
+   "Awaiting clinical review": 0,
+   "Clinically reviewed": 0,
+   "Approved": 0,
+   "Requires revision": 0,
+   "Archived": 0
+  },
+  "PSY": {
+   "Draft": 0,
+   "Source verified": 8,
+   "Awaiting clinical review": 0,
+   "Clinically reviewed": 0,
+   "Approved": 0,
+   "Requires revision": 0,
+   "Archived": 0
+  },
+  "BCC": {
+   "Draft": 0,
+   "Source verified": 8,
+   "Awaiting clinical review": 0,
+   "Clinically reviewed": 0,
+   "Approved": 0,
+   "Requires revision": 0,
+   "Archived": 0
+  },
+  "PPT": {
+   "Draft": 0,
+   "Source verified": 12,
+   "Awaiting clinical review": 0,
+   "Clinically reviewed": 0,
+   "Approved": 0,
+   "Requires revision": 0,
+   "Archived": 0
+  },
+  "RRP": {
+   "Draft": 0,
+   "Source verified": 8,
+   "Awaiting clinical review": 0,
+   "Clinically reviewed": 0,
+   "Approved": 0,
+   "Requires revision": 0,
+   "Archived": 0
+  },
+  "PA": {
+   "Draft": 0,
+   "Source verified": 10,
+   "Awaiting clinical review": 0,
+   "Clinically reviewed": 0,
+   "Approved": 0,
+   "Requires revision": 0,
+   "Archived": 0
+  }
+ },
+ "published_items": 0,
+ "clinically_reviewed_or_approved": 0,
+ "awaiting_clinical_review": {
+  "total": 0,
+  "high_priority": 0,
+  "with_2plus_independent_publishers": 0,
+  "by_client_needs": {},
+  "by_format": {},
+  "by_specialty": {},
+  "by_jurisdiction": {},
+  "by_difficulty": {},
+  "by_cj_step": {},
+  "by_cognitive_level": {}
+ },
+ "all_active": {
+  "by_format": {
+   "multiple_choice": 58,
+   "select_all_that_apply": 7,
+   "matrix_multiple_choice": 1,
+   "calculation": 1,
+   "ordered_response": 1
+  },
+  "by_jurisdiction": {
+   "General (Canada/US concordant)": 58,
+   "Ontario-specific": 5,
+   "Canada-specific": 5
+  }
+ },
+ "excluded_draft_topics": 23,
+ "archived_items": 0,
+ "source_citations_by_publisher": {
+  "Merck Manual Professional Edition": 47,
+  "OpenStax — Medical-Surgical Nursing": 19,
+  "OpenStax — Fundamentals of Nursing": 11,
+  "OpenStax — Pharmacology for Nurses": 10,
+  "OpenStax — Psychiatric-Mental Health Nursing": 7,
+  "College of Nurses of Ontario": 5,
+  "U.S. Centers for Disease Control and Prevention (CDC)": 4,
+  "OpenStax — Maternal-Newborn Nursing": 4,
+  "Government of Ontario — e-Laws": 3,
+  "Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC)": 3,
+  "OpenStax — Clinical Nursing Skills": 3,
+  "Public Health Agency of Canada / Canada.ca": 3,
+  "Diabetes Canada": 2,
+  "Health Canada Drug Product Database — Pharmascience Inc. product monograph": 2,
+  "Centers for Disease Control and Prevention": 2,
+  "U.S. Centers for Disease Control and Prevention (CDC/HICPAC)": 1,
+  "Health Canada Drug Product Database — Sandoz Canada Inc. product monograph": 1,
+  "U.S. National Library of Medicine — DailyMed": 1,
+  "Health Canada Drug Product Database — Taro Pharmaceuticals Inc. product monograph": 1,
+  "Heart & Stroke — Canadian Stroke Best Practices": 1,
+  "Government of Ontario (e-Laws)": 1,
+  "NCSBN / American Nurses Association": 1,
+  "Public Health Ontario": 1,
+  "Health Canada (Hikma Canada)": 1,
+  "Health Canada / Canada.ca": 1,
+  "NCBI Bookshelf (Open RN / WisTech Open)": 1,
+  "Health Canada Drug Product Database — Laboratoire Riva Inc. product monograph": 1,
+  "Health Canada Drug Product Database — Apotex Inc. product monograph": 1,
+  "Canadian Paediatric Society": 1,
+  "OpenStax — Population Health for Nurses": 1,
+  "Agency for Healthcare Research and Quality (AHRQ)": 1
+ },
+ "near_duplicate_pairs": [],
+ "merge_problems": [],
+ "exam_versions": {
+  "publishable": {
+   "V1": {
+    "assigned_items": 0,
+    "complete": false,
+    "by_client_needs": {
+     "MOC": {
+      "quota": 27,
+      "assigned": 0,
+      "gap": 27
+     },
+     "SIPC": {
+      "quota": 20,
+      "assigned": 0,
+      "gap": 20
+     },
+     "HPM": {
+      "quota": 14,
+      "assigned": 0,
+      "gap": 14
+     },
+     "PSY": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "BCC": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PPT": {
+      "quota": 24,
+      "assigned": 0,
+      "gap": 24
+     },
+     "RRP": {
+      "quota": 18,
+      "assigned": 0,
+      "gap": 18
+     },
+     "PA": {
+      "quota": 21,
+      "assigned": 0,
+      "gap": 21
+     }
+    }
+   },
+   "V2": {
+    "assigned_items": 0,
+    "complete": false,
+    "by_client_needs": {
+     "MOC": {
+      "quota": 27,
+      "assigned": 0,
+      "gap": 27
+     },
+     "SIPC": {
+      "quota": 20,
+      "assigned": 0,
+      "gap": 20
+     },
+     "HPM": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PSY": {
+      "quota": 14,
+      "assigned": 0,
+      "gap": 14
+     },
+     "BCC": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PPT": {
+      "quota": 24,
+      "assigned": 0,
+      "gap": 24
+     },
+     "RRP": {
+      "quota": 18,
+      "assigned": 0,
+      "gap": 18
+     },
+     "PA": {
+      "quota": 21,
+      "assigned": 0,
+      "gap": 21
+     }
+    }
+   },
+   "V3": {
+    "assigned_items": 0,
+    "complete": false,
+    "by_client_needs": {
+     "MOC": {
+      "quota": 27,
+      "assigned": 0,
+      "gap": 27
+     },
+     "SIPC": {
+      "quota": 20,
+      "assigned": 0,
+      "gap": 20
+     },
+     "HPM": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PSY": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "BCC": {
+      "quota": 14,
+      "assigned": 0,
+      "gap": 14
+     },
+     "PPT": {
+      "quota": 24,
+      "assigned": 0,
+      "gap": 24
+     },
+     "RRP": {
+      "quota": 18,
+      "assigned": 0,
+      "gap": 18
+     },
+     "PA": {
+      "quota": 21,
+      "assigned": 0,
+      "gap": 21
+     }
+    }
+   },
+   "V4": {
+    "assigned_items": 0,
+    "complete": false,
+    "by_client_needs": {
+     "MOC": {
+      "quota": 27,
+      "assigned": 0,
+      "gap": 27
+     },
+     "SIPC": {
+      "quota": 20,
+      "assigned": 0,
+      "gap": 20
+     },
+     "HPM": {
+      "quota": 14,
+      "assigned": 0,
+      "gap": 14
+     },
+     "PSY": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "BCC": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PPT": {
+      "quota": 24,
+      "assigned": 0,
+      "gap": 24
+     },
+     "RRP": {
+      "quota": 18,
+      "assigned": 0,
+      "gap": 18
+     },
+     "PA": {
+      "quota": 21,
+      "assigned": 0,
+      "gap": 21
+     }
+    }
+   },
+   "V5": {
+    "assigned_items": 0,
+    "complete": false,
+    "by_client_needs": {
+     "MOC": {
+      "quota": 27,
+      "assigned": 0,
+      "gap": 27
+     },
+     "SIPC": {
+      "quota": 20,
+      "assigned": 0,
+      "gap": 20
+     },
+     "HPM": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PSY": {
+      "quota": 14,
+      "assigned": 0,
+      "gap": 14
+     },
+     "BCC": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PPT": {
+      "quota": 24,
+      "assigned": 0,
+      "gap": 24
+     },
+     "RRP": {
+      "quota": 18,
+      "assigned": 0,
+      "gap": 18
+     },
+     "PA": {
+      "quota": 21,
+      "assigned": 0,
+      "gap": 21
+     }
+    }
+   }
+  },
+  "provisional": {
+   "V1": {
+    "assigned_items": 0,
+    "complete": false,
+    "by_client_needs": {
+     "MOC": {
+      "quota": 27,
+      "assigned": 0,
+      "gap": 27
+     },
+     "SIPC": {
+      "quota": 20,
+      "assigned": 0,
+      "gap": 20
+     },
+     "HPM": {
+      "quota": 14,
+      "assigned": 0,
+      "gap": 14
+     },
+     "PSY": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "BCC": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PPT": {
+      "quota": 24,
+      "assigned": 0,
+      "gap": 24
+     },
+     "RRP": {
+      "quota": 18,
+      "assigned": 0,
+      "gap": 18
+     },
+     "PA": {
+      "quota": 21,
+      "assigned": 0,
+      "gap": 21
+     }
+    },
+    "difficulty_mix": {
+     "Easy": 0,
+     "Moderate": 0,
+     "Hard": 0
+    },
+    "format_mix": {},
+    "percent_of_assigned": {
+     "MOC": 0,
+     "SIPC": 0,
+     "HPM": 0,
+     "PSY": 0,
+     "BCC": 0,
+     "PPT": 0,
+     "RRP": 0,
+     "PA": 0
+    }
+   },
+   "V2": {
+    "assigned_items": 0,
+    "complete": false,
+    "by_client_needs": {
+     "MOC": {
+      "quota": 27,
+      "assigned": 0,
+      "gap": 27
+     },
+     "SIPC": {
+      "quota": 20,
+      "assigned": 0,
+      "gap": 20
+     },
+     "HPM": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PSY": {
+      "quota": 14,
+      "assigned": 0,
+      "gap": 14
+     },
+     "BCC": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PPT": {
+      "quota": 24,
+      "assigned": 0,
+      "gap": 24
+     },
+     "RRP": {
+      "quota": 18,
+      "assigned": 0,
+      "gap": 18
+     },
+     "PA": {
+      "quota": 21,
+      "assigned": 0,
+      "gap": 21
+     }
+    },
+    "difficulty_mix": {
+     "Easy": 0,
+     "Moderate": 0,
+     "Hard": 0
+    },
+    "format_mix": {},
+    "percent_of_assigned": {
+     "MOC": 0,
+     "SIPC": 0,
+     "HPM": 0,
+     "PSY": 0,
+     "BCC": 0,
+     "PPT": 0,
+     "RRP": 0,
+     "PA": 0
+    }
+   },
+   "V3": {
+    "assigned_items": 0,
+    "complete": false,
+    "by_client_needs": {
+     "MOC": {
+      "quota": 27,
+      "assigned": 0,
+      "gap": 27
+     },
+     "SIPC": {
+      "quota": 20,
+      "assigned": 0,
+      "gap": 20
+     },
+     "HPM": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PSY": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "BCC": {
+      "quota": 14,
+      "assigned": 0,
+      "gap": 14
+     },
+     "PPT": {
+      "quota": 24,
+      "assigned": 0,
+      "gap": 24
+     },
+     "RRP": {
+      "quota": 18,
+      "assigned": 0,
+      "gap": 18
+     },
+     "PA": {
+      "quota": 21,
+      "assigned": 0,
+      "gap": 21
+     }
+    },
+    "difficulty_mix": {
+     "Easy": 0,
+     "Moderate": 0,
+     "Hard": 0
+    },
+    "format_mix": {},
+    "percent_of_assigned": {
+     "MOC": 0,
+     "SIPC": 0,
+     "HPM": 0,
+     "PSY": 0,
+     "BCC": 0,
+     "PPT": 0,
+     "RRP": 0,
+     "PA": 0
+    }
+   },
+   "V4": {
+    "assigned_items": 0,
+    "complete": false,
+    "by_client_needs": {
+     "MOC": {
+      "quota": 27,
+      "assigned": 0,
+      "gap": 27
+     },
+     "SIPC": {
+      "quota": 20,
+      "assigned": 0,
+      "gap": 20
+     },
+     "HPM": {
+      "quota": 14,
+      "assigned": 0,
+      "gap": 14
+     },
+     "PSY": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "BCC": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PPT": {
+      "quota": 24,
+      "assigned": 0,
+      "gap": 24
+     },
+     "RRP": {
+      "quota": 18,
+      "assigned": 0,
+      "gap": 18
+     },
+     "PA": {
+      "quota": 21,
+      "assigned": 0,
+      "gap": 21
+     }
+    },
+    "difficulty_mix": {
+     "Easy": 0,
+     "Moderate": 0,
+     "Hard": 0
+    },
+    "format_mix": {},
+    "percent_of_assigned": {
+     "MOC": 0,
+     "SIPC": 0,
+     "HPM": 0,
+     "PSY": 0,
+     "BCC": 0,
+     "PPT": 0,
+     "RRP": 0,
+     "PA": 0
+    }
+   },
+   "V5": {
+    "assigned_items": 0,
+    "complete": false,
+    "by_client_needs": {
+     "MOC": {
+      "quota": 27,
+      "assigned": 0,
+      "gap": 27
+     },
+     "SIPC": {
+      "quota": 20,
+      "assigned": 0,
+      "gap": 20
+     },
+     "HPM": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PSY": {
+      "quota": 14,
+      "assigned": 0,
+      "gap": 14
+     },
+     "BCC": {
+      "quota": 13,
+      "assigned": 0,
+      "gap": 13
+     },
+     "PPT": {
+      "quota": 24,
+      "assigned": 0,
+      "gap": 24
+     },
+     "RRP": {
+      "quota": 18,
+      "assigned": 0,
+      "gap": 18
+     },
+     "PA": {
+      "quota": 21,
+      "assigned": 0,
+      "gap": 21
+     }
+    },
+    "difficulty_mix": {
+     "Easy": 0,
+     "Moderate": 0,
+     "Hard": 0
+    },
+    "format_mix": {},
+    "percent_of_assigned": {
+     "MOC": 0,
+     "SIPC": 0,
+     "HPM": 0,
+     "PSY": 0,
+     "BCC": 0,
+     "PPT": 0,
+     "RRP": 0,
+     "PA": 0
+    }
+   }
+  }
+ }
+}

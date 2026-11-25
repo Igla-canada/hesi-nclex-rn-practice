@@ -2,7 +2,8 @@
 
 Greenfield practice examination platform for HESI RN–style fixed mocks and NCLEX-RN–aligned practice (2026 Test Plan Client Needs). **Not affiliated with NCSBN, Elsevier, Pearson, or any nursing board.**
 
-- Original / example items only — clinically verified **published** count starts at **0**
+- Original / evidence-cited practice items — clinically verified **published** count is **0**
+- Compiled bank snapshot: **18 Source verified** items in `data/question-bank/` (not published)
 - Server-side scoring (0/1, +/−, rationale) per public NCSBN models
 - No fake HESI/NCLEX pass-probability claims
 
@@ -37,7 +38,8 @@ Open [http://localhost:3000](http://localhost:3000).
 | `npm test` | Unit tests (scoring, timer, blueprint) |
 | `npx prisma migrate dev` | Apply migrations |
 | `npx prisma db seed` | Seed sources + ~8 EXAMPLE draft items |
-| `npx tsx scripts/import-questions.ts file.json` | Bulk draft import hook |
+| `npx tsx scripts/import-questions.ts file.json` | Minimal draft import hook |
+| `npx tsx scripts/import-question-bank.ts` | Import `data/question-bank/question-bank.json` as `SOURCE_VERIFIED` (never auto-publishes) |
 
 ## Exam modes (scaffold)
 
@@ -62,9 +64,20 @@ Do not commit secrets. `.env*` is gitignored except `.env.example`.
 ## Honesty & content policy
 
 - Do not invent medical facts in seeds; example stems are labeled **EXAMPLE / AWAITING CLINICAL REVIEW**
+- Bank status: see `docs/question-bank-status.md` and `docs/source-verification-report.md` (actual counts)
 - Cite sources from the project source registry; prefer link-out over verbatim guidelines
 - Never ingest Quizlet/dumps/recalled live exam items
 - `published` / clinically approved count must equal reviewed items only
+
+## Question bank data
+
+```
+data/question-bank/question-bank.json   # compiled Source-verified items
+data/question-bank/stats.json           # counts by Client Needs / status
+data/question-bank/question-bank.csv    # flat export for review
+```
+
+Import into a configured database with `npx tsx scripts/import-question-bank.ts` (needs `DATABASE_URL`).
 
 ## License
 
