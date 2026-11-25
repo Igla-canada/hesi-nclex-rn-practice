@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 253,
+  "Source verified": 265,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -27619,6 +27619,1433 @@
      "source_type": "textbook_open",
      "supports": "Key and distractors",
      "evidence": "Impaired thermoregulation can lead to hypothermia; older adults have heightened environmental safety risks.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B32-WAVE23",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-29a3483c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: after 20 weeks vaginal bleeding, digital cervical exam contraindicated until previa ruled out by US; OpenStax: vaginal exams avoided with known previa"
+    }
+   ],
+   "id": "ONRN-RRP-0034",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "review_flags": [
+    "maternity-newborn",
+    "emergency"
+   ],
+   "tags": [
+    "placenta-previa",
+    "digital-exam",
+    "maternity",
+    "RRP"
+   ],
+   "stem": "A client at 28 weeks gestation arrives with sudden bright red vaginal bleeding and a soft, nontender uterus. Placenta previa has not yet been excluded. Which action is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Defer digital cervical examination until ultrasonography rules out placenta previa, because digital exam may provoke massive bleeding."
+    },
+    {
+     "key": "B",
+     "text": "Perform a vigorous digital cervical exam immediately to estimate dilatation before any imaging."
+    },
+    {
+     "key": "C",
+     "text": "Discharge home without assessment because third-trimester bleeding is always normal."
+    },
+    {
+     "key": "D",
+     "text": "Encourage unsupervised intercourse to promote placental migration."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: if bleeding occurs after 20 weeks, pelvic examination by digital cervical examination is contraindicated until previa is first ruled out by ultrasonography. OpenStax: vaginal exams should be avoided with known previa or vaginal bleeding to prevent additional injury.",
+    "B": "Incorrect. Merck warns digital exam may cause sudden massive bleeding when previa is present.",
+    "C": "Incorrect. Third-trimester bleeding requires urgent evaluation for previa versus abruption.",
+    "D": "Incorrect. Sexual activity is restricted with previa; it does not safely 'migrate' the placenta."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Placenta previa — defer digital exam until ultrasound excludes previa",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "placenta-previa-defer-digital-exam-until-ultrasound",
+   "sources": [
+    {
+     "title": "Placenta Previa",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/antenatal-complications/placenta-previa",
+     "section": "Diagnosis of Placenta Previa",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "After 20 weeks bleeding, digital cervical exam contraindicated until US rules out previa.",
+     "added_by": "author"
+    },
+    {
+     "title": "12.2 Conditions Limited to Pregnancy",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+     "section": "Placenta Previa",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Vaginal exams should be avoided with known previa or vaginal bleeding.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B32-WAVE23",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-29a3483c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: ectopic rupture can cause hemorrhagic shock; surgery if unstable. OpenStax: shock/syncope; unstable need emergent surgery. OpenStax hypovolemic shock: fluids/volume resuscitation"
+    }
+   ],
+   "id": "ONRN-PA-0047",
+   "format": "bowtie",
+   "scoring_model": "zero_one",
+   "review_flags": [
+    "maternity-newborn",
+    "emergency"
+   ],
+   "tags": [
+    "ectopic-pregnancy",
+    "hypovolemic-shock",
+    "NGN",
+    "bowtie",
+    "PA"
+   ],
+   "stem": "A client of reproductive age with a positive pregnancy test develops sudden severe unilateral pelvic pain, vaginal bleeding, syncope, tachycardia, and hypotension. Ultrasound shows no intrauterine pregnancy. Complete the bowtie: priority condition, two actions, and two parameters to monitor.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Ruptured ectopic pregnancy with hemorrhagic (hypovolemic) shock"
+     },
+     {
+      "key": "K2",
+      "text": "Uncomplicated seasonal allergic rhinitis"
+     },
+     {
+      "key": "K3",
+      "text": "Mild cerumen impaction"
+     },
+     {
+      "key": "K4",
+      "text": "Stable, asymptomatic early intrauterine pregnancy without bleeding"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Establish large-bore IV access and begin ordered volume resuscitation while preparing for emergent surgical management"
+     },
+     {
+      "key": "A2",
+      "text": "Notify the provider/surgical team immediately for unstable ruptured ectopic pregnancy"
+     },
+     {
+      "key": "A3",
+      "text": "Discharge home with only oral antacids and no follow-up"
+     },
+     {
+      "key": "A4",
+      "text": "Encourage unsupervised heavy exercise before evaluation"
+     },
+     {
+      "key": "A5",
+      "text": "Give intramuscular methotrexate as first-line therapy while the client remains hemodynamically unstable"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "Blood pressure, heart rate, and signs of ongoing hypovolemia/shock"
+     },
+     {
+      "key": "P2",
+      "text": "Abdominal/pelvic pain trend, bleeding, and neurologic status (alertness/syncope)"
+     },
+     {
+      "key": "P3",
+      "text": "Preferred cafeteria dessert flavours"
+     },
+     {
+      "key": "P4",
+      "text": "Favourite television channel"
+     },
+     {
+      "key": "P5",
+      "text": "Shoe colour preference"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K1",
+    "actions": [
+     "A1",
+     "A2"
+    ],
+    "parameters": [
+     "P1",
+     "P2"
+    ]
+   },
+   "rationales": {
+    "K1": "Correct. Merck: ectopic pregnancy can rupture with hemorrhagic shock. OpenStax: bleeding, pelvic pain, syncope, or shock may signal rupture.",
+    "K2": "Incorrect. Allergic rhinitis does not explain shock with positive pregnancy test.",
+    "K3": "Incorrect. Cerumen impaction is unrelated.",
+    "K4": "Incorrect. Findings indicate extrauterine pregnancy with instability, not a stable IUP.",
+    "A1": "Correct. OpenStax hypovolemic shock care emphasizes volume resuscitation; Merck/OpenStax: unstable ectopic requires surgical management.",
+    "A2": "Correct. OpenStax: unstable clients require emergent surgical intervention for rupture risk.",
+    "A3": "Incorrect. Discharge without care is unsafe in suspected ruptured ectopic.",
+    "A4": "Incorrect. Exercise delays emergency care.",
+    "A5": "Incorrect. OpenStax: methotrexate is for selected hemodynamically stable clients, not unstable rupture.",
+    "P1": "Correct. Vital signs track hypovolemic shock response (OpenStax hypovolemic shock; Merck rupture hemorrhage).",
+    "P2": "Correct. Pain, bleeding, and neurologic status reflect ongoing hemorrhage (both sources).",
+    "P3": "Incorrect. Unrelated parameter.",
+    "P4": "Incorrect. Unrelated parameter.",
+    "P5": "Incorrect. Unrelated parameter."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "NGN bowtie — ruptured ectopic pregnancy with hypovolemic shock",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "ngn-bowtie-ectopic-rupture-hypovolemic-shock",
+   "sources": [
+    {
+     "title": "Ectopic Pregnancy",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/early-pregnancy-disorders/ectopic-pregnancy",
+     "section": "Symptoms and Signs; Treatment",
+     "source_date": "Last updated: Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Rupture can cause hemorrhagic shock; surgical resection for unstable clients.",
+     "added_by": "author"
+    },
+    {
+     "title": "12.2 Conditions Limited to Pregnancy",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+     "section": "Ectopic Pregnancy",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Shock/syncope may occur; unstable clients need emergent surgery; methotrexate only if stable criteria met.",
+     "added_by": "author"
+    },
+    {
+     "title": "23.2 Hypovolemic Shock",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/23-2-hypovolemic-shock",
+     "section": "Volume Resuscitation for the Patient with Hypovolemic Shock",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Actions and parameters",
+     "evidence": "Hypovolemic shock requires volume resuscitation and close vital-sign monitoring.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B32-WAVE23",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-29a3483c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: infants of diabetic mothers may develop transient hypoglycemia; give early frequent feedings/oral or IV glucose. OpenStax: IDM at risk; early breastfeeding and timely feeding/glucose"
+    }
+   ],
+   "id": "ONRN-HPM-0031",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "review_flags": [
+    "maternity-newborn",
+    "pediatric"
+   ],
+   "tags": [
+    "neonatal-hypoglycemia",
+    "IDM",
+    "feeding",
+    "HPM"
+   ],
+   "stem": "A term newborn of a mother with insulin-treated diabetes is otherwise well. Which nursing action best helps prevent symptomatic neonatal hypoglycemia in the early hours after birth?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Support early, frequent enteral feedings (e.g., breast-feeding initiation soon after birth) and follow facility glucose-monitoring policy for at-risk newborns."
+    },
+    {
+     "key": "B",
+     "text": "Withhold all feedings for 12 hours to 'rest' the pancreas."
+    },
+    {
+     "key": "C",
+     "text": "Give only free water bottles and delay any calorie source."
+    },
+    {
+     "key": "D",
+     "text": "Encourage prolonged cold exposure to increase metabolic demand."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: well at-risk neonates should receive early, frequent feedings; infants of diabetic mothers may develop transient hypoglycemia and are given oral or IV glucose. OpenStax: IDM are at risk; encourage early breast-feeding and timely feeding/glucose.",
+    "B": "Incorrect. Delayed feeding increases hypoglycemia risk (Merck: delayed feeding is a common cause).",
+    "C": "Incorrect. Free water without calories does not prevent hypoglycemia.",
+    "D": "Incorrect. OpenStax links cold stress to depleted glucose stores; warmth and early feeding are preferred."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Neonatal hypoglycemia prevention — early frequent feeding for IDM",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "neonatal-hypoglycemia-idm-early-frequent-feeding",
+   "sources": [
+    {
+     "title": "Neonatal Hypoglycemia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/metabolic-electrolyte-and-toxic-disorders-in-neonates/neonatal-hypoglycemia",
+     "section": "Treatment; Key Points",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Early frequent feedings for well at-risk neonates; IDM may need oral/IV glucose.",
+     "added_by": "author"
+    },
+    {
+     "title": "24.2 Care of Common Problems in the Newborn",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/24-2-care-of-common-problems-in-the-newborn",
+     "section": "Hypoglycemia; Care of the Newborn with Hypoglycemia",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "IDM at risk; early breast-feeding and timely feeding/glucose reduce hypoglycemia.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B32-WAVE23",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-29a3483c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: hypertensive crisis with tyramine foods (cheese reaction); avoid aged/overripe tyramine foods. OpenStax: MAOI + high-tyramine foods → hypertensive crisis"
+    }
+   ],
+   "id": "ONRN-PPT-0038",
+   "format": "drop_down_cloze",
+   "scoring_model": "zero_one",
+   "review_flags": [
+    "high-alert-medication",
+    "mental-health-safety"
+   ],
+   "tags": [
+    "MAOI",
+    "tyramine",
+    "hypertensive-crisis",
+    "NGN",
+    "cloze",
+    "PPT"
+   ],
+   "stem": "Complete the teaching for a client starting a nonselective MAOI antidepressant.",
+   "ngn": {
+    "template": "Clients taking nonselective MAOIs must avoid foods high in {B1} because concurrent intake can trigger a {B2}. A classic high-risk example is {B3}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "tyramine"
+      },
+      {
+       "key": "B1b",
+       "text": "vitamin C"
+      },
+      {
+       "key": "B1c",
+       "text": "insoluble fibre only"
+      },
+      {
+       "key": "B1d",
+       "text": "fluoride"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "hypertensive crisis (the 'cheese reaction')"
+      },
+      {
+       "key": "B2b",
+       "text": "harmless temporary freckling"
+      },
+      {
+       "key": "B2c",
+       "text": "improved wound tensile strength"
+      },
+      {
+       "key": "B2d",
+       "text": "exclusive night blindness"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "aged/mature cheese (and other aged or overripe tyramine-rich foods)"
+      },
+      {
+       "key": "B3b",
+       "text": "fresh cucumber water only"
+      },
+      {
+       "key": "B3c",
+       "text": "plain ice cubes"
+      },
+      {
+       "key": "B3d",
+       "text": "sterile normal saline irrigant"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a"
+   },
+   "rationales": {
+    "B1a": "Correct. Merck and OpenStax: tyramine-containing foods interact with MAOIs.",
+    "B1b": "Incorrect. Vitamin C is not the MAOI dietary restriction focus.",
+    "B1c": "Incorrect. Fibre is not the hypertensive interaction.",
+    "B1d": "Incorrect. Fluoride is unrelated.",
+    "B2a": "Correct. Merck: hypertensive crises with tyramine foods are called the cheese reaction; OpenStax lists hypertensive crisis as a key adverse effect.",
+    "B2b": "Incorrect. Not a benign cosmetic effect.",
+    "B2c": "Incorrect. Unrelated to MAOI–tyramine interaction.",
+    "B2d": "Incorrect. Unrelated.",
+    "B3a": "Correct. Merck cites mature cheese high tyramine content and lists aged/overripe foods to avoid; OpenStax lists aged cheeses among high-tyramine foods.",
+    "B3b": "Incorrect. Not a classic high-tyramine example.",
+    "B3c": "Incorrect. Unrelated.",
+    "B3d": "Incorrect. Unrelated."
+   },
+   "specialty": "Mental Health",
+   "topic": "NGN cloze — MAOI tyramine restriction and hypertensive crisis",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ngn-cloze-maoi-tyramine-hypertensive-crisis",
+   "sources": [
+    {
+     "title": "Medications for Treatment of Depression",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/mood-disorders/medications-for-treatment-of-depression",
+     "section": "Monoamine oxidase inhibitors (MAOIs)",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Hypertensive crisis with tyramine foods (cheese reaction); avoid aged cheese and other tyramine-rich foods.",
+     "added_by": "author"
+    },
+    {
+     "title": "13.1 Antidepressants",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/13-1-antidepressants",
+     "section": "Monoamine Oxidase Inhibitors; Adverse Effects",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "High-tyramine foods (including aged cheeses) interact; hypertensive crisis is a key adverse effect.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B32-WAVE23",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-29a3483c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ TeamSTEPPS: CUS — Concerned, Uncomfortable, Safety issue for speaking up. OpenStax: nurses advocate by speaking out; patients/providers should speak up about concerns"
+    }
+   ],
+   "id": "ONRN-MOC-0043",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "review_flags": [],
+   "tags": [
+    "CUS",
+    "TeamSTEPPS",
+    "advocacy",
+    "leadership",
+    "MOC"
+   ],
+   "stem": "A nurse believes a planned action threatens client safety and needs a clear, assertive way to speak up on the team. Which TeamSTEPPS mutual-support script best fits this situation?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Use CUS language: state 'I am Concerned, I am Uncomfortable, this is a Safety issue,' and escalate if the concern is not resolved."
+    },
+    {
+     "key": "B",
+     "text": "Remain silent to avoid 'bothering' the team, even when safety is at risk."
+    },
+    {
+     "key": "C",
+     "text": "Falsify the record so the unsafe plan appears completed."
+    },
+    {
+     "key": "D",
+     "text": "Leave the unit without notifying anyone about the concern."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. AHRQ PSNet TeamSTEPPS mutual support includes CUS — 'I am Concerned, I am Uncomfortable, this is a Safety issue,' with escalation if unresolved. OpenStax frames advocacy as speaking up for safe, ethical care.",
+    "B": "Incorrect. Silence allows preventable harm.",
+    "C": "Incorrect. Falsification is unethical and unsafe.",
+    "D": "Incorrect. Abandonment without communication worsens risk."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "TeamSTEPPS CUS — assertive speak-up for safety",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "teamstepps-cus-concerned-uncomfortable-safety",
+   "sources": [
+    {
+     "title": "A Double “Never Event”: Wrong Patient and Wrong Side.",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ) — PSNet",
+     "url": "https://psnet.ahrq.gov/web-mm/double-never-event-wrong-patient-and-wrong-side",
+     "section": "TeamSTEPPS Framework",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key and distractors",
+     "evidence": "CUS: Concerned, Uncomfortable, Safety issue; escalate if unresolved.",
+     "added_by": "author"
+    },
+    {
+     "title": "16.4 Advocacy in Nursing Practice",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/16-4-advocacy-in-nursing-practice",
+     "section": "Role of Nurses as Advocates; Advocacy for Patients",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Nurses advocate by speaking out for ethically sound, safe patient care.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B32-WAVE23",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-29a3483c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: increase dietary fiber; fiber absorbs fluid, softens stool. OpenStax: fiber-rich diet, adequate hydration, regular activity"
+    }
+   ],
+   "id": "ONRN-BCC-0020",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "review_flags": [],
+   "tags": [
+    "constipation",
+    "fiber",
+    "hydration",
+    "gerontology",
+    "BCC"
+   ],
+   "stem": "An older adult reports infrequent, hard stools related to low activity and low fibre intake. Which teaching priority is most appropriate initially (assuming no red-flag surgical abdomen)?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Increase dietary fibre with adequate fluids and encourage regular physical activity as tolerated."
+    },
+    {
+     "key": "B",
+     "text": "Stop all oral fluids to 'dry out' the bowel."
+    },
+    {
+     "key": "C",
+     "text": "Eliminate all fruits and vegetables permanently."
+    },
+    {
+     "key": "D",
+     "text": "Remain on strict bed rest and avoid any fibre."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck Diet and behavior: enough fibre increases stool bulk and components absorb fluid to soften stool. OpenStax nursing management emphasizes fibre-rich diets, adequate hydration, and regular activity.",
+    "B": "Incorrect. Dehydration worsens hard stool (OpenStax lists dehydration as a cause).",
+    "C": "Incorrect. Fruits and vegetables are recommended fibre sources (both sources).",
+    "D": "Incorrect. Decreased activity contributes to constipation."
+   },
+   "specialty": "Gerontology",
+   "topic": "Constipation — fibre, fluids, and activity teaching",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "constipation-fiber-fluids-activity-teaching",
+   "sources": [
+    {
+     "title": "Constipation",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gastrointestinal-disorders/symptoms-of-gastrointestinal-disorders/constipation",
+     "section": "Diet and behavior",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Adequate fibre increases bulk; fibre components absorb fluid and soften stools.",
+     "added_by": "author"
+    },
+    {
+     "title": "27.4 Common Conditions Affecting Bowel Elimination",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/27-4-common-conditions-affecting-bowel-elimination",
+     "section": "Constipation; Nursing Management",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Teach fibre-rich diet, adequate hydration, and regular physical activity.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B32-WAVE23",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-29a3483c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "DailyMed Clozaril boxed warning: severe neutropenia with serious/fatal infection risk; baseline ANC required. OpenStax: agranulocytosis/neutropenia; REMS WBC/ANC monitoring"
+    }
+   ],
+   "id": "ONRN-PPT-0039",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "review_flags": [
+    "high-alert-medication",
+    "mental-health-safety"
+   ],
+   "tags": [
+    "clozapine",
+    "neutropenia",
+    "ANC",
+    "SATA",
+    "PPT"
+   ],
+   "stem": "A client is starting clozapine for treatment-resistant schizophrenia. Which teaching and monitoring points are correct? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Absolute neutrophil count (ANC) monitoring is required because clozapine can cause severe neutropenia."
+    },
+    {
+     "key": "B",
+     "text": "Severe neutropenia increases the risk of serious infection."
+    },
+    {
+     "key": "C",
+     "text": "Report fever or other signs of infection promptly to the provider."
+    },
+    {
+     "key": "D",
+     "text": "Laboratory blood monitoring can be skipped indefinitely after the first dose."
+    },
+    {
+     "key": "E",
+     "text": "Doubling the dose whenever a fever starts is the preferred self-management plan."
+    },
+    {
+     "key": "F",
+     "text": "Clozapine has no hematologic risks, so infection precautions are unnecessary."
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "rationales": {
+    "A": "Correct. DailyMed boxed warning requires baseline ANC; OpenStax notes REMS monitoring of WBC/ANC for clozapine.",
+    "B": "Correct. DailyMed: severe neutropenia is associated with increased risk of serious and fatal infections; OpenStax lists agranulocytosis/neutropenia among hematologic effects.",
+    "C": "Correct. Infection risk with neutropenia requires prompt reporting of fever/infection signs (supports DailyMed infection risk + OpenStax hematologic monitoring).",
+    "D": "Incorrect. Ongoing ANC monitoring is required; it is not a one-time check.",
+    "E": "Incorrect. Dose escalation for fever is unsafe and not indicated.",
+    "F": "Incorrect. Hematologic toxicity is a major boxed warning."
+   },
+   "specialty": "Mental Health",
+   "topic": "Clozapine — ANC monitoring and infection risk teaching",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "clozapine-anc-neutropenia-infection-monitoring",
+   "sources": [
+    {
+     "title": "CLOZARIL- clozapine tablet",
+     "publisher": "U.S. National Library of Medicine — DailyMed",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=90876802-0e3a-44c9-9ff7-1754dfbe736a",
+     "section": "Boxed Warning — Severe Neutropenia",
+     "source_date": "Revised: 6/2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "drug_monograph_label",
+     "supports": "Key and distractors",
+     "evidence": "Severe neutropenia with serious/fatal infection risk; obtain baseline ANC.",
+     "added_by": "author"
+    },
+    {
+     "title": "13.2 Antipsychotics",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/13-2-antipsychotics",
+     "section": "Second-Generation Antipsychotics; Adverse Effects",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Clozapine REMS WBC/ANC monitoring; agranulocytosis/neutropenia are hematologic risks.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B32-WAVE23",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-29a3483c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: thyroid storm is life-threatening emergency; treatment includes antithyroid (PTU), beta-blocker, supportive cooling/fluids. OpenStax: medical emergency; antithyroid meds + supportive care"
+    }
+   ],
+   "id": "ONRN-PA-0048",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "thyroid-storm",
+    "hyperthyroidism",
+    "critical-care",
+    "PA"
+   ],
+   "stem": "A client with known Graves disease develops high fever, marked tachycardia, severe agitation/confusion, vomiting, and diarrhea after an acute infection. Which interpretation and priority nursing action are best?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Suspect thyroid storm — a life-threatening emergency — initiate cardiac/airway monitoring and support, and prepare for ordered antithyroid therapy plus supportive measures (e.g., cooling, fluids) while treating the precipitant."
+    },
+    {
+     "key": "B",
+     "text": "Reassure that these findings are expected mild seasonal allergies requiring only outdoor jogging."
+    },
+    {
+     "key": "C",
+     "text": "Stop all monitoring and discharge immediately without evaluation."
+    },
+    {
+     "key": "D",
+     "text": "Apply only topical antifungal cream as definitive endocrine therapy."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: thyroid storm is a life-threatening emergency with fever, marked restlessness/confusion, GI symptoms, and tachycardia; treatment includes PTU, beta-blockade, cooling, fluids, and treating the cause. OpenStax: thyroid storm is a medical emergency managed with antithyroid medications and supportive care.",
+    "B": "Incorrect. This presentation is not mild allergy.",
+    "C": "Incorrect. Delaying care risks fatal arrhythmias/organ failure (OpenStax).",
+    "D": "Incorrect. Antifungals do not treat thyrotoxic crisis."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "Thyroid storm — recognize emergency and support ordered therapy",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "thyroid-storm-emergency-antithyroid-supportive",
+   "sources": [
+    {
+     "title": "Hyperthyroidism",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/thyroid-disorders/hyperthyroidism",
+     "section": "Thyroid storm; Treatment of thyroid storm",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Life-threatening emergency; PTU, beta-blocker, cooling, fluids, treat precipitant.",
+     "added_by": "author"
+    },
+    {
+     "title": "21.3 Thyroid and Parathyroid Disorders",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-3-thyroid-and-parathyroid-disorders",
+     "section": "Thyroid Storm",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Medical emergency; antithyroid medications plus supportive care; treat underlying cause.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B32-WAVE23",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-29a3483c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax: secondary prevention focuses on early detection via screening. WHO: screening identifies asymptomatic abnormalities suggestive of cancer/pre-cancer for prompt diagnosis/treatment"
+    }
+   ],
+   "id": "ONRN-HPM-0032",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "review_flags": [],
+   "tags": [
+    "secondary-prevention",
+    "screening",
+    "community",
+    "HPM"
+   ],
+   "stem": "A community health nurse explains levels of prevention. Which activity is the best example of secondary prevention?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Cervical cancer screening tests to detect disease early in asymptomatic clients."
+    },
+    {
+     "key": "B",
+     "text": "Administering HPV vaccine before any exposure as the only secondary strategy."
+    },
+    {
+     "key": "C",
+     "text": "Long-term rehabilitation after completed cancer treatment as secondary prevention."
+    },
+    {
+     "key": "D",
+     "text": "Building playgrounds solely to change social determinants decades before disease risk as secondary prevention."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: secondary prevention focuses on early detection; screening is the primary activity (cervical cancer screening listed as secondary). WHO: screening aims to identify asymptomatic abnormalities suggestive of cancer/pre-cancer for prompt diagnosis and treatment.",
+    "B": "Incorrect. OpenStax table lists HPV vaccine as primary prevention.",
+    "C": "Incorrect. Rehabilitation after disease is tertiary prevention (OpenStax).",
+    "D": "Incorrect. Primordial/upstream structural actions are not secondary screening."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Secondary prevention — screening for early detection",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "secondary-prevention-screening-early-detection",
+   "sources": [
+    {
+     "title": "2.5 Levels of Prevention",
+     "publisher": "OpenStax — Population Health for Nurses",
+     "url": "https://openstax.org/books/population-health/pages/2-5-levels-of-prevention",
+     "section": "Levels of Prevention",
+     "source_date": "May 15, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Secondary prevention = early detection; screening primary activity; cervical screening example.",
+     "added_by": "author"
+    },
+    {
+     "title": "Cancer",
+     "publisher": "World Health Organization",
+     "url": "https://www.who.int/health-topics/cancer",
+     "section": "Management — early detection strategies",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key and distractors",
+     "evidence": "Screening identifies asymptomatic cancer/pre-cancer abnormalities for prompt diagnosis and treatment.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B32-WAVE23",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-29a3483c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ: time-out before invasive procedures confirms identity/procedure/site; all empowered to speak up. OpenStax: prevent never events with evidence-based practices; speak up about concerns"
+    }
+   ],
+   "id": "ONRN-SIPC-0026",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "review_flags": [],
+   "tags": [
+    "time-out",
+    "never-events",
+    "NGN",
+    "matrix",
+    "SIPC",
+    "leadership"
+   ],
+   "stem": "For preventing wrong-patient or wrong-site invasive procedures, indicate whether each action is indicated or not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Perform a planned pre-procedure time-out confirming client identity, procedure, and site."
+     },
+     {
+      "key": "R2",
+      "text": "Ensure all team members participate without distraction and can speak up about safety concerns."
+     },
+     {
+      "key": "R3",
+      "text": "Skip the time-out when the schedule is busy because checklists waste time."
+     },
+     {
+      "key": "R4",
+      "text": "Start the incision before confirming the marked site if the surgeon is in a hurry."
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. AHRQ: time-outs before invasive procedures confirm patient identification, procedure, site, and key details.",
+    "R2": "Indicated. AHRQ: all team members must participate without distraction and are empowered to speak up; OpenStax emphasizes speaking up to prevent never events.",
+    "R3": "Not indicated. Skipping safety checklists increases wrong-site/wrong-patient risk (AHRQ).",
+    "R4": "Not indicated. Starting before confirmation violates time-out purpose."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "NGN matrix — surgical time-out and speak-up to prevent never events",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ngn-matrix-timeout-never-event-prevention",
+   "sources": [
+    {
+     "title": "A Double “Never Event”: Wrong Patient and Wrong Side.",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ) — PSNet",
+     "url": "https://psnet.ahrq.gov/web-mm/double-never-event-wrong-patient-and-wrong-side",
+     "section": "Proper Time-Out Procedure; TeamSTEPPS Framework",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key and distractors",
+     "evidence": "Time-out confirms identity, procedure, site; all participate and may speak up.",
+     "added_by": "author"
+    },
+    {
+     "title": "9.1 Safety: Individual and Environmental",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/9-1-safety-individual-and-environmental",
+     "section": "Never Events",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Prevent never events with evidence-based practices; speak up about concerns.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B32-WAVE23",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-29a3483c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "DailyMed: severe neutropenia increases infection risk. OpenStax: agranulocytosis/neutropenia require monitoring. Priority: hold/notify for fever pending ANC review"
+    }
+   ],
+   "id": "ONRN-PSY-0023",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "review_flags": [
+    "high-alert-medication",
+    "mental-health-safety"
+   ],
+   "tags": [
+    "clozapine",
+    "fever",
+    "neutropenia",
+    "mental-health",
+    "PSY"
+   ],
+   "stem": "A client taking clozapine develops a new fever and sore throat. Which nursing action is the priority?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Hold further clozapine pending provider guidance, notify the provider promptly, and facilitate urgent evaluation including ANC because fever may signal infection related to severe neutropenia."
+    },
+    {
+     "key": "B",
+     "text": "Double the next clozapine dose to overcome the fever."
+    },
+    {
+     "key": "C",
+     "text": "Advise the client that fever on clozapine is always harmless and needs no follow-up."
+    },
+    {
+     "key": "D",
+     "text": "Stop all infection precautions permanently and discharge without labs."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. DailyMed warns severe neutropenia raises risk of serious/fatal infections and requires ANC monitoring. OpenStax links clozapine to agranulocytosis/neutropenia with REMS lab monitoring. Fever with pharyngitis warrants urgent evaluation.",
+    "B": "Incorrect. Increasing the dose during possible infection/neutropenia is dangerous.",
+    "C": "Incorrect. Fever is a warning sign, not a benign expectation.",
+    "D": "Incorrect. Labs and provider notification are required."
+   },
+   "specialty": "Mental Health",
+   "topic": "Clozapine — fever and infection signs require urgent ANC evaluation",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "clozapine-fever-urgent-anc-evaluation",
+   "sources": [
+    {
+     "title": "CLOZARIL- clozapine tablet",
+     "publisher": "U.S. National Library of Medicine — DailyMed",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=90876802-0e3a-44c9-9ff7-1754dfbe736a",
+     "section": "Boxed Warning — Severe Neutropenia",
+     "source_date": "Revised: 6/2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "drug_monograph_label",
+     "supports": "Key and distractors",
+     "evidence": "Severe neutropenia associated with serious/fatal infections; ANC monitoring required.",
+     "added_by": "author"
+    },
+    {
+     "title": "13.2 Antipsychotics",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/13-2-antipsychotics",
+     "section": "Second-Generation Antipsychotics; Adverse Effects",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Agranulocytosis/neutropenia; REMS WBC/ANC monitoring for clozapine.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B32-WAVE23",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-29a3483c) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: treat with enteral feeding or IV dextrose when glucose low. OpenStax: timely feeding or IV glucose in severe cases"
+    }
+   ],
+   "id": "ONRN-RRP-0035",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "review_flags": [
+    "maternity-newborn",
+    "pediatric"
+   ],
+   "tags": [
+    "neonatal-hypoglycemia",
+    "dextrose",
+    "RRP"
+   ],
+   "stem": "A 12-hour-old at-risk neonate has a confirmed low serum glucose and is becoming lethargic with poor feeding. Which intervention is the priority?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Begin prompt enteral feeding if the infant can feed safely, or administer ordered IV dextrose, and continue glucose monitoring."
+    },
+    {
+     "key": "B",
+     "text": "Withhold all glucose sources for 8 hours to stimulate gluconeogenesis alone."
+    },
+    {
+     "key": "C",
+     "text": "Offer only ice chips without calories."
+    },
+    {
+     "key": "D",
+     "text": "Delay treatment until the next routine well-baby visit in 2 weeks."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: treatment is enteral feeding or IV dextrose; prompt feeding/IV glucose when levels fall below treatment thresholds. OpenStax: timely feeding or intravenous glucose in severe cases.",
+    "B": "Incorrect. Withholding glucose worsens hypoglycemia.",
+    "C": "Incorrect. Ice chips provide no effective glucose replacement.",
+    "D": "Incorrect. Symptomatic hypoglycemia requires immediate treatment."
+   },
+   "specialty": "Pediatrics",
+   "topic": "Neonatal hypoglycemia — prompt enteral feeding or IV dextrose",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "neonatal-hypoglycemia-enteral-or-iv-dextrose-treatment",
+   "sources": [
+    {
+     "title": "Neonatal Hypoglycemia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/metabolic-electrolyte-and-toxic-disorders-in-neonates/neonatal-hypoglycemia",
+     "section": "Treatment of Neonatal Hypoglycemia",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Treatment is enteral feeding or IV dextrose with ongoing glucose monitoring.",
+     "added_by": "author"
+    },
+    {
+     "title": "24.2 Care of Common Problems in the Newborn",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/24-2-care-of-common-problems-in-the-newborn",
+     "section": "Hypoglycemia",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Timely feeding or intravenous glucose for hypoglycemia, especially when severe.",
      "added_by": "author"
     }
    ],
