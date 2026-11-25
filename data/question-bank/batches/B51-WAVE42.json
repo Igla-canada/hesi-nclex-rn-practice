@@ -1,0 +1,1629 @@
+{
+ "batch_id": "B51-WAVE42",
+ "author": "AI author (Composer, Cursor subagent bc-358a8bf2) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 42 multi-exam depth — thinner Client Needs PSY/BCC + Maternity/Community HPM with NGN matrix/cloze. PSY: SSRI suicide-risk monitoring (MC+matrix+cloze); ASD sensory/routine supports (MC+matrix). BCC: postpartum perineal ice (MC+matrix); circumcision petroleum jelly aftercare (MC+matrix). HPM: newborn vitamin K IM (MC+matrix, Canada); caput vs cephalohematoma (MC); powdered formula water-first/no microwave (cloze); drowning constant supervision (MC, Canada). Dual-cited originals (OpenStax Pharm/Psych/Maternal-Newborn, Merck, MedlinePlus, CPS, CDC).",
+ "items": [
+  {
+   "batch": "B51-WAVE42",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety",
+    "high-alert-medication"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0056",
+   "format": "multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "Antidepressants/SSRIs — monitor and report increased suicidal ideation especially early in treatment and in younger clients",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ssri-antidepressant-suicide-monitor-early-treatment",
+   "tags": [
+    "PSY",
+    "SSRI",
+    "antidepressant",
+    "suicide-risk",
+    "mental-health"
+   ],
+   "stem": "A 19-year-old client starts a selective serotonin reuptake inhibitor (SSRI) for major depression. Which teaching point is the highest priority in the first weeks of therapy?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Immediately notify the provider of worsening depression or new or increased suicidal thoughts"
+    },
+    {
+     "key": "B",
+     "text": "Stop the SSRI after 3 days if mood has not fully returned to normal"
+    },
+    {
+     "key": "C",
+     "text": "Combine the SSRI with a monoamine oxidase inhibitor (MAOI) to speed recovery"
+    },
+    {
+     "key": "D",
+     "text": "Skip doses on weekends to reduce the risk of sexual side effects"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: clients must immediately notify the provider about increased depression or suicidal ideation; FDA boxed warning notes increased suicidal thoughts/behaviour risk in children, adolescents, and young adults under 24. Merck: suicide risk may rise early in antidepressant treatment; carefully monitor for suicidal behaviours and ideation.",
+    "B": "Incorrect. Therapeutic effects often take about 2 weeks to begin and 4–6 weeks for full effect; abrupt early stopping is not appropriate teaching.",
+    "C": "Incorrect. SSRIs must not be combined with MAOIs because of serotonin syndrome risk.",
+    "D": "Incorrect. Skipping doses is unsafe and unrelated to priority suicide-risk monitoring."
+   },
+   "sources": [
+    {
+     "title": "13.1 Antidepressants",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/13-1-antidepressants",
+     "section": "Nursing Implications / Client Teaching Guidelines / FDA Black Box Warning",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Notify provider of increased depression or suicidal ideations; effects start ~2 weeks, full 4–6 weeks; boxed warning for ages under 24.",
+     "added_by": "author"
+    },
+    {
+     "title": "Medications for Treatment of Depression",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/mood-disorders/medications-for-treatment-of-depression",
+     "section": "Antidepressants and Suicide Risk",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "Monitor for suicidal ideation/behaviour; risk may increase early in treatment when energy improves before mood fully recovers.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-358a8bf2) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Pharm SSRI teaching/boxed warning + Merck suicide-risk dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B51-WAVE42",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety",
+    "high-alert-medication"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0057",
+   "format": "matrix_multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "NGN matrix — antidepressant/SSRI safety teaching indicated vs not",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "ssri-antidepressant-ngn-matrix-safety-teaching",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PSY",
+    "SSRI",
+    "suicide-risk"
+   ],
+   "stem": "For a young adult starting an SSRI, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Report new or worsening suicidal thoughts to the provider right away"
+     },
+     {
+      "key": "R2",
+      "text": "Expect full antidepressant benefit within 24 hours of the first dose"
+     },
+     {
+      "key": "R3",
+      "text": "Continue prescribed therapy while mood and anxiety are monitored over weeks"
+     },
+     {
+      "key": "R4",
+      "text": "Start an MAOI the same day as the SSRI to boost effect"
+     },
+     {
+      "key": "R5",
+      "text": "Know that suicidal ideation risk is a particular concern in adolescents and young adults"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Not indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Immediate reporting of suicidal ideation is required teaching.",
+    "R2": "Not indicated. Onset is typically weeks, not one day.",
+    "R3": "Indicated. Ongoing monitoring of mood/anxiety during treatment is recommended.",
+    "R4": "Not indicated. Concurrent MAOI + SSRI risks serotonin syndrome.",
+    "R5": "Indicated. Boxed warning / evidence focus includes children, adolescents, and young adults."
+   },
+   "sources": [
+    {
+     "title": "13.1 Antidepressants",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/13-1-antidepressants",
+     "section": "Client Teaching Guidelines / FDA Black Box Warning",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Rows R1–R5",
+     "evidence": "Notify for suicidal ideation; 2 weeks onset / 4–6 weeks full effect; boxed warning under age 24; MAOI interaction caution.",
+     "added_by": "author"
+    },
+    {
+     "title": "Medications for Treatment of Depression",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/mood-disorders/medications-for-treatment-of-depression",
+     "section": "Antidepressants and Suicide Risk / SSRIs",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Rows R1–R5",
+     "evidence": "Early-treatment suicide monitoring; association in under-25s; do not combine MAOIs with SSRIs (serotonin syndrome).",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-358a8bf2) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + Merck SSRI safety matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B51-WAVE42",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety",
+    "high-alert-medication"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0058",
+   "format": "drop_down_cloze",
+   "specialty": "Mental Health",
+   "topic": "NGN cloze — SSRI onset timing and suicide-ideation reporting",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ssri-antidepressant-ngn-cloze-onset-suicide-report",
+   "tags": [
+    "NGN",
+    "cloze",
+    "PSY",
+    "SSRI"
+   ],
+   "stem": "Complete the teaching for a client newly prescribed an SSRI.",
+   "ngn": {
+    "template": "Full therapeutic effects of an SSRI often take about {B1}. The client should {B2} if depression worsens or suicidal thoughts appear.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "4–6 weeks"
+      },
+      {
+       "key": "B1b",
+       "text": "2–4 hours after the first dose"
+      },
+      {
+       "key": "B1c",
+       "text": "one weekend of missed doses"
+      },
+      {
+       "key": "B1d",
+       "text": "immediately after combining with an MAOI"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "immediately notify the provider"
+      },
+      {
+       "key": "B2b",
+       "text": "double the next dose without calling"
+      },
+      {
+       "key": "B2c",
+       "text": "stop all fluids until mood improves"
+      },
+      {
+       "key": "B2d",
+       "text": "wait at least 3 months before telling anyone"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. OpenStax: about 2 weeks to begin seeing effects and 4–6 weeks for full therapeutic effects.",
+    "B1b": "Incorrect. Antidepressant benefit is not expected within hours of the first dose.",
+    "B1c": "Incorrect. Missed doses are not the measure of therapeutic onset.",
+    "B1d": "Incorrect. Combining with an MAOI is contraindicated.",
+    "B2a": "Correct. Clients must immediately notify the provider about increased depression or suicidal ideations.",
+    "B2b": "Incorrect. Dose changes require provider direction.",
+    "B2c": "Incorrect. Fluid restriction is unrelated and unsafe teaching.",
+    "B2d": "Incorrect. Delaying reporting of suicidal thoughts is dangerous."
+   },
+   "sources": [
+    {
+     "title": "13.1 Antidepressants",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/13-1-antidepressants",
+     "section": "Client Teaching Guidelines",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "B1–B2",
+     "evidence": "2 weeks start / 4–6 weeks full effect; immediately notify for increased depression or suicidal ideations.",
+     "added_by": "author"
+    },
+    {
+     "title": "Medications for Treatment of Depression",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/mood-disorders/medications-for-treatment-of-depression",
+     "section": "Choice and Initiation / Antidepressants and Suicide Risk",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "B1–B2",
+     "evidence": "Response often ~2–3 weeks; carefully monitor suicidal ideation especially early in treatment.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-358a8bf2) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + Merck SSRI cloze dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B51-WAVE42",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0059",
+   "format": "multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "Autism spectrum disorder — support predictable routines and reduce overwhelming sensory input",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "asd-routine-sensory-support-nursing",
+   "tags": [
+    "PSY",
+    "ASD",
+    "pediatrics",
+    "sensory",
+    "mental-health"
+   ],
+   "stem": "A school-age client with autism spectrum disorder becomes distressed when the unit lighting, noise, and schedule change abruptly. Which nursing action best supports the client?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Reduce unnecessary noise and bright stimuli when possible, keep routines predictable, and allow preferred communication supports"
+    },
+    {
+     "key": "B",
+     "text": "Force prolonged eye contact and hugs so the client learns typical social behaviour"
+    },
+    {
+     "key": "C",
+     "text": "Suddenly rearrange meals, clothing, and procedures to increase flexibility"
+    },
+    {
+     "key": "D",
+     "text": "Ignore sensory distress because it is attention-seeking and should be extinguished"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: families/nurses adapt with sensory considerations, routines, and communication supports (including pictures/devices). Merck: extreme over- or under-reaction to sensory input and inflexible adherence to routines are core features; supportive environments reduce distress.",
+    "B": "Incorrect. Forced eye contact or unwanted touch can be aversive for sensory-sensitive clients.",
+    "C": "Incorrect. Abrupt routine changes often increase extreme distress.",
+    "D": "Incorrect. Sensory distress is a recognized ASD feature, not mere attention-seeking."
+   },
+   "sources": [
+    {
+     "title": "23.3 Autism Spectrum Disorder",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/23-3-autism-spectrum-disorder",
+     "section": "Social Interactions / Family Support / Developmental Approaches",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Sensory sensitivity; upset by slight routine changes; modify environment/routines; pictures/gestures/devices for communication.",
+     "added_by": "author"
+    },
+    {
+     "title": "Autism Spectrum Disorder",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/learning-and-developmental-disorders/autism-spectrum-disorder",
+     "section": "Symptoms and Signs",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Inflexible routines; extreme sensory over-/under-reaction; social-communication differences.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-358a8bf2) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax ASD + Merck ASD sensory/routine dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B51-WAVE42",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0060",
+   "format": "matrix_multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "NGN matrix — supportive ASD nursing actions indicated vs not",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "asd-ngn-matrix-supportive-actions",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PSY",
+    "ASD"
+   ],
+   "stem": "For a hospitalized child with autism spectrum disorder, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Keep daily care as predictable as possible and warn before changes"
+     },
+     {
+      "key": "R2",
+      "text": "Lower noise and harsh lighting when they worsen sensory distress"
+     },
+     {
+      "key": "R3",
+      "text": "Force eye contact during every interaction to build social skill"
+     },
+     {
+      "key": "R4",
+      "text": "Allow picture boards or other preferred communication supports"
+     },
+     {
+      "key": "R5",
+      "text": "Make sudden, unexplained schedule changes to promote flexibility"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Predictable routines reduce distress from inflexible need for sameness.",
+    "R2": "Indicated. Reducing overwhelming sensory input is supportive.",
+    "R3": "Not indicated. Forced eye contact is not required and may increase distress.",
+    "R4": "Indicated. Picture/gesture/device supports are accepted communication approaches.",
+    "R5": "Not indicated. Abrupt unexplained changes commonly provoke extreme distress."
+   },
+   "sources": [
+    {
+     "title": "23.3 Autism Spectrum Disorder",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/23-3-autism-spectrum-disorder",
+     "section": "Family Support / Developmental Approaches",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Rows R1–R5",
+     "evidence": "Routines and sensory strategies; signs/pictures/electronic devices for communication.",
+     "added_by": "author"
+    },
+    {
+     "title": "Autism Spectrum Disorder",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/learning-and-developmental-disorders/autism-spectrum-disorder",
+     "section": "Symptoms and Signs",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Rows R1–R5",
+     "evidence": "Distress with small routine changes; sensory over-/under-reaction; nonverbal communication differences.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-358a8bf2) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + Merck ASD NGN matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B51-WAVE42",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0056",
+   "format": "multiple_choice",
+   "specialty": "Maternity/Newborn",
+   "topic": "Postpartum perineal comfort — ice packs in the first 24 hours to reduce swelling and pain",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "postpartum-perineal-ice-first-24h",
+   "tags": [
+    "BCC",
+    "maternity",
+    "perineum",
+    "ice",
+    "comfort"
+   ],
+   "stem": "A client is 6 hours after a vaginal birth with perineal swelling and discomfort. Which comfort measure is most appropriate now?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Apply an ice or cold pack to the perineum during the first 24 hours to reduce swelling and pain"
+    },
+    {
+     "key": "B",
+     "text": "Begin prolonged hot tub soaks immediately after delivery before any cold therapy"
+    },
+    {
+     "key": "C",
+     "text": "Avoid all perineal cleansing until the 6-week postpartum visit"
+    },
+    {
+     "key": "D",
+     "text": "Encourage the client to sit continuously on a hard chair to promote drainage"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: ice/cold packs for the first 24 hours (table also notes early postpartum cold application). MedlinePlus: ice packs in the first 24 hours decrease swelling and help pain. Merck: immediately after delivery, ice packs may help reduce pain and edema; warm sitz baths are used later.",
+    "B": "Incorrect. Warm baths/sitz are typically deferred until after the early cold period (about 24 hours).",
+    "C": "Incorrect. Perineal hygiene (e.g., peri-bottle rinsing) is taught during the postpartum stay.",
+    "D": "Incorrect. Hard prolonged sitting increases discomfort; cushioning/limited sitting is preferred."
+   },
+   "sources": [
+    {
+     "title": "20.3 Nursing Care During the Postpartum Period",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/20-3-nursing-care-during-the-postpartum-period",
+     "section": "Perineal Discomfort",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Ice/cold packs to perineum for first 24 hours; warm sitz baths; peri-bottle; avoid long hard sitting.",
+     "added_by": "author"
+    },
+    {
+     "title": "After vaginal delivery - in the hospital",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000629.htm",
+     "section": "Care of the Vagina and Perineum",
+     "source_date": "Review Date 11/8/2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractor B",
+     "evidence": "Ice packs in first 24 hours decrease swelling and help pain; wait 24 hours before warm baths.",
+     "added_by": "author"
+    },
+    {
+     "title": "Postpartum Care",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/postpartum-care-and-associated-disorders/postpartum-care",
+     "section": "Perineal care",
+     "source_date": "Last updated: Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "Ice packs immediately after delivery for pain/edema; later warm sitz baths several times a day.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-358a8bf2) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + MedlinePlus + Merck postpartum perineal ice dual/triple-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B51-WAVE42",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0057",
+   "format": "matrix_multiple_choice",
+   "specialty": "Maternity/Newborn",
+   "topic": "NGN matrix — early postpartum perineal comfort measures indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "postpartum-perineal-ngn-matrix-comfort",
+   "tags": [
+    "NGN",
+    "matrix",
+    "BCC",
+    "maternity",
+    "perineum"
+   ],
+   "stem": "For a client in the first day after vaginal birth with perineal soreness, indicate whether each measure is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Use ice/cold packs on the perineum in the early postpartum period to reduce swelling"
+     },
+     {
+      "key": "R2",
+      "text": "Use a peri-bottle to rinse the perineum after voiding"
+     },
+     {
+      "key": "R3",
+      "text": "Sit for long periods on a hard chair without cushioning"
+     },
+     {
+      "key": "R4",
+      "text": "Plan warm sitz baths after the immediate early cold-therapy period as taught"
+     },
+     {
+      "key": "R5",
+      "text": "Apply ice packs continuously for many hours without removal"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Early ice/cold packs reduce perineal swelling and pain.",
+    "R2": "Indicated. Peri-bottle rinsing supports cleanliness and comfort after voiding.",
+    "R3": "Not indicated. Avoid prolonged hard sitting; use cushioning.",
+    "R4": "Indicated. Warm sitz baths are used later for comfort/healing after early ice period.",
+    "R5": "Not indicated. Cold packs are used intermittently (e.g., 10–20 minutes), not continuous prolonged application."
+   },
+   "sources": [
+    {
+     "title": "20.3 Nursing Care During the Postpartum Period",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/20-3-nursing-care-during-the-postpartum-period",
+     "section": "Perineal Discomfort",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Rows R1–R5",
+     "evidence": "Ice first 24h (10–20 min); peri-bottle; warm sitz; cushion when sitting.",
+     "added_by": "author"
+    },
+    {
+     "title": "After vaginal delivery - in the hospital",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000629.htm",
+     "section": "Care of the Vagina and Perineum",
+     "source_date": "Review Date 11/8/2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Rows R1,R4",
+     "evidence": "Ice first 24 hours; wait 24 hours before warm baths.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-358a8bf2) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + MedlinePlus perineal comfort matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B51-WAVE42",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn",
+    "pediatric"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0058",
+   "format": "multiple_choice",
+   "specialty": "Maternity/Newborn",
+   "topic": "Circumcision aftercare — petroleum jelly to prevent diaper sticking; monitor bleeding and voiding",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "newborn-circumcision-petroleum-jelly-diaper",
+   "tags": [
+    "BCC",
+    "maternity",
+    "circumcision",
+    "newborn"
+   ],
+   "stem": "Parents ask how to care for their newborn after circumcision. Which instruction is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Apply petroleum jelly to the penis or diaper area with diaper changes so the healing site does not stick"
+    },
+    {
+     "key": "B",
+     "text": "Scrub the incision vigorously with antiseptic soap at every diaper change"
+    },
+    {
+     "key": "C",
+     "text": "Leave the site dry with no ointment so a hard scab forms faster"
+    },
+    {
+     "key": "D",
+     "text": "Ignore small amounts of yellow crust because infection is inevitable after circumcision"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: gauze with petroleum jelly on the tip/diaper prevents sticking; continue dab of petroleum jelly during healing. MedlinePlus: apply petroleum jelly after diaper changes to protect the healing incision; yellow crust can be normal.",
+    "B": "Incorrect. Vigorous scrubbing can disrupt healing; gentle cleansing is taught.",
+    "C": "Incorrect. Petroleum jelly is used specifically to protect the site and prevent diaper adherence.",
+    "D": "Incorrect. Mild yellow crust may be normal healing, but infection is not inevitable and concerning signs need evaluation."
+   },
+   "sources": [
+    {
+     "title": "24.1 Basic Newborn Care",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/24-1-basic-newborn-care",
+     "section": "Care of the Circumcised Newborn",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Petroleum jelly gauze on tip/diaper; yellow discharge/crust may be normal healing; report active bleeding.",
+     "added_by": "author"
+    },
+    {
+     "title": "Circumcision - series—Aftercare",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/presentations/100081_4.htm",
+     "section": "Overview",
+     "source_date": "Review Date 10/7/2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractor D",
+     "evidence": "Apply petroleum jelly after diaper changes; some swelling and yellow crust normal.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-358a8bf2) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + MedlinePlus circumcision petroleum dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B51-WAVE42",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn",
+    "pediatric"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0059",
+   "format": "matrix_multiple_choice",
+   "specialty": "Maternity/Newborn",
+   "topic": "NGN matrix — newborn circumcision aftercare indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "newborn-circumcision-ngn-matrix-aftercare",
+   "tags": [
+    "NGN",
+    "matrix",
+    "BCC",
+    "circumcision",
+    "newborn"
+   ],
+   "stem": "For parents of a newly circumcised newborn, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Apply petroleum jelly so the penis does not stick to the diaper"
+     },
+     {
+      "key": "R2",
+      "text": "Watch for the first void after the procedure and report problems voiding"
+     },
+     {
+      "key": "R3",
+      "text": "Scrub crusted yellow healing tissue off the glans daily"
+     },
+     {
+      "key": "R4",
+      "text": "Seek care for active bleeding that does not stop with brief direct pressure"
+     },
+     {
+      "key": "R5",
+      "text": "Leave gauze dry without ointment so the diaper always adheres to the wound"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Petroleum jelly prevents diaper sticking during healing.",
+    "R2": "Indicated. Nurses/parents monitor voiding after circumcision.",
+    "R3": "Not indicated. Yellow crust can be normal healing and should not be forcibly removed.",
+    "R4": "Indicated. Persistent active bleeding requires pressure and provider/urgent evaluation.",
+    "R5": "Not indicated. Dry adherence to the diaper is what petroleum jelly is meant to prevent."
+   },
+   "sources": [
+    {
+     "title": "24.1 Basic Newborn Care",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/24-1-basic-newborn-care",
+     "section": "Care of the Circumcised Newborn",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Rows R1–R5",
+     "evidence": "Petroleum jelly gauze; monitor first void; yellow crust may be normal; pressure/notify for active bleeding.",
+     "added_by": "author"
+    },
+    {
+     "title": "Circumcision - series—Aftercare",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/presentations/100081_4.htm",
+     "section": "Overview",
+     "source_date": "Review Date 10/7/2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Rows R1,R3",
+     "evidence": "Petroleum jelly after diaper changes; yellow crust formation can be normal.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-358a8bf2) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + MedlinePlus circumcision matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B51-WAVE42",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CPS/CFPC recommend routine IM vitamin K for all newborns in Canada; oral regimens only if parents decline IM and are counselled that oral is less protective.",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn",
+    "pediatric"
+   ],
+   "jurisdiction": "Canada-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-HPM-0066",
+   "format": "multiple_choice",
+   "specialty": "Maternity/Newborn",
+   "topic": "Newborn vitamin K IM prophylaxis to prevent vitamin K deficiency bleeding",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "newborn-vitamin-k-im-prophylaxis-vkdb",
+   "tags": [
+    "HPM",
+    "maternity",
+    "vitamin-K",
+    "newborn",
+    "Canada"
+   ],
+   "stem": "Parents ask why their healthy term newborn is offered a vitamin K injection soon after birth. Which explanation is best?",
+   "options": [
+    {
+     "key": "A",
+     "text": "A single intramuscular vitamin K dose helps prevent vitamin K deficiency bleeding, which can cause serious hemorrhage"
+    },
+    {
+     "key": "B",
+     "text": "Vitamin K is given only to treat already-diagnosed jaundice and has no preventive role"
+    },
+    {
+     "key": "C",
+     "text": "Oral vitamin K once at birth is proven more effective than intramuscular vitamin K for late bleeding prevention"
+    },
+    {
+     "key": "D",
+     "text": "Vitamin K injections are unnecessary for breastfed newborns because breast milk is high in vitamin K"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CPS: routine IM vitamin K effectively prevents VKDB; recommended for all newborns. Merck: phytonadione IM within 6 hours prevents hemorrhagic disease of the newborn.",
+    "B": "Incorrect. Vitamin K prophylaxis is preventive, not a jaundice treatment.",
+    "C": "Incorrect. CPS states oral regimens are less effective than IM, especially for late VKDB.",
+    "D": "Incorrect. Breast milk is relatively low in vitamin K; exclusively breastfed infants are at risk for late VKDB without prophylaxis."
+   },
+   "sources": [
+    {
+     "title": "Guidelines for vitamin K prophylaxis in newborns",
+     "publisher": "Canadian Paediatric Society",
+     "url": "https://cps.ca/en/documents/position/vitamin-k-prophylaxis-in-newborns",
+     "section": "RECOMMENDATIONS / PREVENTION OF LATE VKDB",
+     "source_date": "Reaffirmed: Jan 11, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A; distractors C–D",
+     "evidence": "Routine IM vitamin K for all newborns; oral less effective than IM for late VKDB; breast milk vitamin K deficiency risk.",
+     "added_by": "author"
+    },
+    {
+     "title": "Initial Evaluation and Preventive Care in the Healthy Term Newborn",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/care-of-newborns-and-infants/initial-evaluation-and-preventive-care-in-the-healthy-term-newborn",
+     "section": "Initial Newborn Care",
+     "source_date": "Last updated: Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "Phytonadione (vitamin K) IM within 6 hours to prevent hemorrhagic disease of the newborn.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-358a8bf2) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CPS vitamin K + Merck newborn preventive care dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B51-WAVE42",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CPS prefers IM vitamin K; oral only if IM declined after counselling.",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn",
+    "pediatric",
+    "canada-us-difference"
+   ],
+   "jurisdiction": "Canada-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-HPM-0067",
+   "format": "matrix_multiple_choice",
+   "specialty": "Maternity/Newborn",
+   "topic": "NGN matrix — newborn vitamin K prophylaxis teaching indicated vs not",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "newborn-vitamin-k-ngn-matrix-teaching",
+   "tags": [
+    "NGN",
+    "matrix",
+    "HPM",
+    "vitamin-K",
+    "Canada"
+   ],
+   "stem": "For parents of a newborn receiving vitamin K counselling, indicate whether each statement is Indicated or Not indicated teaching.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "IM vitamin K helps prevent dangerous bleeding from vitamin K deficiency"
+     },
+     {
+      "key": "R2",
+      "text": "Routine prophylaxis is recommended for newborns, not only sick infants"
+     },
+     {
+      "key": "R3",
+      "text": "If parents decline IM vitamin K, oral dosing is equally protective for late VKDB"
+     },
+     {
+      "key": "R4",
+      "text": "Late vitamin K deficiency bleeding can include intracranial hemorrhage"
+     },
+     {
+      "key": "R5",
+      "text": "Vitamin K is unnecessary because newborns store months of vitamin K before birth"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. IM vitamin K prevents VKDB.",
+    "R2": "Indicated. Routine prophylaxis is recommended for all newborns.",
+    "R3": "Not indicated. Oral regimens are less effective than IM, especially for late VKDB.",
+    "R4": "Indicated. Late VKDB often presents with intracranial hemorrhage.",
+    "R5": "Not indicated. Newborns have inadequate prenatal stores and breast milk is low in vitamin K."
+   },
+   "sources": [
+    {
+     "title": "Guidelines for vitamin K prophylaxis in newborns",
+     "publisher": "Canadian Paediatric Society",
+     "url": "https://cps.ca/en/documents/position/vitamin-k-prophylaxis-in-newborns",
+     "section": "BACKGROUND / PREVENTION OF LATE VKDB / RECOMMENDATIONS",
+     "source_date": "Reaffirmed: Jan 11, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Rows R1–R5",
+     "evidence": "All newborns IM; oral less effective; late VKDB intracranial hemorrhage; low prenatal/breast-milk stores.",
+     "added_by": "author"
+    },
+    {
+     "title": "Initial Evaluation and Preventive Care in the Healthy Term Newborn",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/care-of-newborns-and-infants/initial-evaluation-and-preventive-care-in-the-healthy-term-newborn",
+     "section": "Initial Newborn Care",
+     "source_date": "Last updated: Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Rows R1–R2",
+     "evidence": "Vitamin K IM within 6 hours to prevent hemorrhagic disease of the newborn.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-358a8bf2) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CPS + Merck vitamin K matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B51-WAVE42",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn",
+    "pediatric"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-HPM-0068",
+   "format": "multiple_choice",
+   "specialty": "Maternity/Newborn",
+   "topic": "Caput succedaneum crosses suture lines; cephalohematoma is limited by sutures (subperiosteal)",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "caput-vs-cephalohematoma-suture-lines",
+   "tags": [
+    "HPM",
+    "maternity",
+    "newborn",
+    "assessment"
+   ],
+   "stem": "A newborn has scalp swelling after a long vaginal birth. Which finding best supports caput succedaneum rather than cephalohematoma?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Soft boggy edema that crosses cranial suture lines"
+    },
+    {
+     "key": "B",
+     "text": "A firm swelling sharply limited to one cranial bone that does not cross sutures"
+    },
+    {
+     "key": "C",
+     "text": "A fluctuant mass extending into the neck with signs of shock"
+    },
+    {
+     "key": "D",
+     "text": "Absence of any scalp changes because molding never involves fluid"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: caput is soft/boggy edema that crosses suture lines. Merck: caput typically crosses suture lines.",
+    "B": "Incorrect. That pattern describes cephalohematoma (subperiosteal, limited by sutures).",
+    "C": "Incorrect. Extension with possible shock suggests subgaleal hemorrhage, a different emergency.",
+    "D": "Incorrect. Caput and molding-related extracranial collections are common after birth."
+   },
+   "sources": [
+    {
+     "title": "23.1 Physical Assessment of the Newborn",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/23-1-physical-assessment-of-the-newborn",
+     "section": "Abnormal Variations Commonly Occurring in Newborns",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractor B",
+     "evidence": "Caput crosses sutures, soft/boggy; cephalohematoma deeper, does not cross suture lines.",
+     "added_by": "author"
+    },
+    {
+     "title": "Birth Injuries",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/perinatal-problems/birth-injuries",
+     "section": "Caput succedaneum / Cephalhematoma",
+     "source_date": "Last updated: Feb 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractors B–C",
+     "evidence": "Caput crosses suture lines; cephalhematoma limited by periosteum at sutures; subgaleal can cause significant blood loss.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-358a8bf2) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + Merck caput vs cephalohematoma dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B51-WAVE42",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn",
+    "pediatric"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-HPM-0069",
+   "format": "drop_down_cloze",
+   "specialty": "Maternity/Newborn",
+   "topic": "NGN cloze — powdered formula: measure water first; never microwave",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "powdered-formula-water-first-no-microwave",
+   "tags": [
+    "NGN",
+    "cloze",
+    "HPM",
+    "formula",
+    "infant-safety"
+   ],
+   "stem": "Complete safe powdered infant formula teaching for parents.",
+   "ngn": {
+    "template": "When mixing powdered formula, always {B1}. If warming is desired, {B2}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "measure the water first, then add the powder per label"
+      },
+      {
+       "key": "B1b",
+       "text": "add extra water beyond the label to prevent constipation"
+      },
+      {
+       "key": "B1c",
+       "text": "guess scoop amounts without reading the can"
+      },
+      {
+       "key": "B1d",
+       "text": "mix leftover bottle formula back into the can for later"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "warm under running water or in a warm water bath — never microwave"
+      },
+      {
+       "key": "B2b",
+       "text": "microwave on high for 2 minutes to sterilize"
+      },
+      {
+       "key": "B2c",
+       "text": "boil the prepared bottle for 30 minutes after every feed"
+      },
+      {
+       "key": "B2d",
+       "text": "add boiling oil to raise temperature quickly"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. CDC and OpenStax: always measure water first, then add powder per instructions.",
+    "B1b": "Incorrect. Extra water dilutes nutrients; too little water can strain kidneys.",
+    "B1c": "Incorrect. Exact labeled amounts are required.",
+    "B1d": "Incorrect. Leftover formula after feeding is discarded, not returned to the can.",
+    "B2a": "Correct. Never microwave; uneven hot spots can burn the infant. Warm under/in warm water and wrist-test.",
+    "B2b": "Incorrect. Microwaving creates dangerous hot spots.",
+    "B2c": "Incorrect. Overheating prepared bottles this way is not standard teaching and risks burns/nutrient damage.",
+    "B2d": "Incorrect. Unsafe and unrelated to formula warming."
+   },
+   "sources": [
+    {
+     "title": "24.1 Basic Newborn Care",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/24-1-basic-newborn-care",
+     "section": "Safe Preparation of Formula in the Hospital / Competency: Safety: Preparing Powdered Infant Formula",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "B1–B2",
+     "evidence": "Measure water first then add powder; never warm in microwave; discard leftovers after feeding.",
+     "added_by": "author"
+    },
+    {
+     "title": "Infant Formula Preparation and Storage",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://cdc.gov/infant-toddler-nutrition/formula-feeding/preparation-and-storage.html",
+     "section": "Preparation",
+     "source_date": "May 14, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "B1–B2",
+     "evidence": "Always measure water first then add powder; never use a microwave because of hot spots.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-358a8bf2) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + CDC powdered formula dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B51-WAVE42",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CPS Caring for Kids water safety aligns with CDC drowning prevention on constant supervision; Canada-focused parent teaching.",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric"
+   ],
+   "jurisdiction": "Canada-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-HPM-0070",
+   "format": "multiple_choice",
+   "specialty": "Community/Public Health",
+   "topic": "Drowning prevention — constant adult supervision; never leave child alone in bathtub or near water",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "pediatric-drowning-prevention-supervise-bathtub",
+   "tags": [
+    "HPM",
+    "community",
+    "drowning",
+    "pediatrics",
+    "Canada"
+   ],
+   "stem": "A parent of a toddler asks how to prevent drowning at home. Which teaching is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Never leave a child alone in a bathtub or near water, even briefly; keep toddlers within arm’s reach of an adult"
+    },
+    {
+     "key": "B",
+     "text": "Bath seats make constant adult supervision unnecessary during tub time"
+    },
+    {
+     "key": "C",
+     "text": "Children can be left alone if older siblings are watching from another room"
+    },
+    {
+     "key": "D",
+     "text": "Water wings alone are approved safety devices that replace lifejackets and adult supervision"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CPS: toddlers within arm’s reach; never leave alone in pool/bathtub even for a moment. CDC: designate close constant supervision including bathtubs; drowning is often silent and fast.",
+    "B": "Incorrect. Bath seats give false security; supervision remains mandatory (CPS household safety teaching).",
+    "C": "Incorrect. Other children do not replace adult supervision.",
+    "D": "Incorrect. Water wings/foam toys are not safety devices; supervision and proper flotation as indicated still apply."
+   },
+   "sources": [
+    {
+     "title": "Water safety",
+     "publisher": "Canadian Paediatric Society — Caring for Kids",
+     "url": "https://caringforkids.cps.ca/handouts/safety-and-injury-prevention/water_safety",
+     "section": "Take the following essential precautions",
+     "source_date": "Last updated: March 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A; distractors C–D",
+     "evidence": "Toddlers within arm’s reach; never leave alone in bathtub/pool; water wings are not safety devices.",
+     "added_by": "author"
+    },
+    {
+     "title": "Preventing Drowning",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/drowning/prevention/index.html",
+     "section": "Supervise closely",
+     "source_date": "Sept. 29, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractor D",
+     "evidence": "Constant close supervision in/near water including bathtubs; do not rely on air-filled or foam toys as safety devices.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-358a8bf2) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CPS water safety + CDC drowning prevention dual-cite."
+    }
+   ]
+  }
+ ],
+ "excluded_items": [],
+ "notes": "Prefer thinner Client Needs PSY/BCC + underrepresented Maternity/Community + NGN. Keep import script Prisma.InputJsonValue casts unchanged. Accuracy over volume."
+}

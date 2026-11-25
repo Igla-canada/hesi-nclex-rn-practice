@@ -1,0 +1,1612 @@
+{
+ "batch_id": "B47-WAVE38",
+ "author": "AI author (Composer, Cursor subagent bc-b0ff4907) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 38 multi-exam depth — BCC (walker MC+matrix; compression stockings MC+matrix; denture overnight care; hearing-aid heat/moisture care), SIPC (catheter bag below bladder MC+matrix+cloze; one needle/one syringe), PSY (PTSD flashback grounding MC+matrix+bowtie), Ontario Professional Practice (FLTCA/CNO LTC abuse reporting). Dual-cited originals (MedlinePlus, AAOS, Cleveland Clinic, Mayo, FDA, NIDCD, CDC, NHSGGC, VA PTSD, CNO, Steps to Justice).",
+ "items": [
+  {
+   "batch": "B47-WAVE38",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0043",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "Walker ambulation — all tips/wheels on ground; step with weak/injured leg first",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "walker-all-tips-down-weak-leg-first",
+   "tags": [
+    "walker",
+    "mobility",
+    "BCC",
+    "fundamentals",
+    "assistive-device"
+   ],
+   "stem": "The nurse teaches a client recovering from right hip surgery to use a pickup walker. Which instruction is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Move the walker forward, ensure all four tips or wheels are on the ground, then step with the weaker (surgical) leg first, followed by the stronger leg"
+    },
+    {
+     "key": "B",
+     "text": "Step with the stronger leg first while lifting two walker tips off the floor"
+    },
+    {
+     "key": "C",
+     "text": "Pull up from the chair by tipping the walker toward you"
+    },
+    {
+     "key": "D",
+     "text": "Look continuously at your feet while leaning far over the front bar"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. MedlinePlus: all 4 tips/wheels on ground before stepping; step with weak/surgical leg first, then the other. AAOS: position walker with all four legs on even ground; move injured leg into walker first.",
+    "B": "Incorrect. Weight should not be placed until all tips/wheels are down; weak/injured leg steps first for typical weight-bearing walker gait.",
+    "C": "Incorrect. MedlinePlus: do not pull on or tilt the walker to stand; use chair armrests.",
+    "D": "Incorrect. MedlinePlus/AAOS: look forward, not down at feet; keep toes inside the walker frame."
+   },
+   "sources": [
+    {
+     "title": "Using a walker",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000342.htm",
+     "section": "How to Walk with Your Walker / Walker Basics",
+     "source_date": "Review Date 4/1/2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "All 4 tips/wheels on ground before step; weak leg first; do not pull/tilt walker to stand.",
+     "added_by": "author"
+    },
+    {
+     "title": "How To Use Crutches, Canes, and Walkers",
+     "publisher": "American Academy of Orthopaedic Surgeons (OrthoInfo)",
+     "url": "https://orthoinfo.aaos.org/en/recovery/how-to-use-crutches-canes-and-walkers/",
+     "section": "Walkers / Walking",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A",
+     "evidence": "Walker: all four legs on even ground; move injured leg into middle of walker first.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b0ff4907) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus walker gait + AAOS OrthoInfo walker positioning/gait agree on all tips down and injured/weak leg into walker first."
+    }
+   ]
+  },
+  {
+   "batch": "B47-WAVE38",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0044",
+   "format": "matrix_multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "NGN matrix — safe walker use teaching indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "walker-ngn-matrix-tips-down-weak-first-no-pull-stand",
+   "tags": [
+    "NGN",
+    "matrix",
+    "walker",
+    "BCC",
+    "fundamentals"
+   ],
+   "stem": "For safe use of a standard walker after lower-extremity surgery, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Ensure all four tips or wheels touch the ground before putting weight on the walker"
+     },
+     {
+      "key": "R2",
+      "text": "Step forward with the weaker/surgical leg first, then the stronger leg"
+     },
+     {
+      "key": "R3",
+      "text": "Pull yourself from sitting to standing by tipping the walker toward you"
+     },
+     {
+      "key": "R4",
+      "text": "Adjust handles near hip height with elbows slightly bent"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. MedlinePlus/AAOS: all tips/wheels on ground before weight/step.",
+    "R2": "Indicated. MedlinePlus: weak/surgical leg first; AAOS: injured leg into walker first.",
+    "R3": "Not indicated. MedlinePlus: do not pull on or tilt the walker to stand.",
+    "R4": "Indicated. MedlinePlus: handles at hip level; elbows slightly bent."
+   },
+   "sources": [
+    {
+     "title": "Using a walker",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000342.htm",
+     "section": "Walker Basics / How to Walk / Sitting to Standing",
+     "source_date": "Review Date 4/1/2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "R1–R4",
+     "evidence": "All tips down; weak leg first; hip-height handles; do not pull/tilt walker to stand.",
+     "added_by": "author"
+    },
+    {
+     "title": "How To Use Crutches, Canes, and Walkers",
+     "publisher": "American Academy of Orthopaedic Surgeons (OrthoInfo)",
+     "url": "https://orthoinfo.aaos.org/en/recovery/how-to-use-crutches-canes-and-walkers/",
+     "section": "Walkers / Walking",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "R1–R2",
+     "evidence": "All four legs on even ground; move injured leg into walker first.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b0ff4907) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus + AAOS dual-cite walker safety teaching matrix."
+    }
+   ]
+  },
+  {
+   "batch": "B47-WAVE38",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0045",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "Compression stockings — apply in morning before out of bed; smooth wrinkles/bunching",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "compression-stockings-morning-smooth-no-bunch",
+   "tags": [
+    "compression-stockings",
+    "TED",
+    "BCC",
+    "fundamentals",
+    "DVT-prevention"
+   ],
+   "stem": "The nurse teaches a postoperative client about graduated compression stockings. Which instruction is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Put the stockings on first thing in the morning before getting out of bed, and smooth out wrinkles so they do not bunch"
+    },
+    {
+     "key": "B",
+     "text": "Wait until evening when legs are most swollen before applying the stockings"
+    },
+    {
+     "key": "C",
+     "text": "Roll or fold the tops of the stockings down to create a tighter cuff"
+    },
+    {
+     "key": "D",
+     "text": "Apply only one stocking on the unaffected leg"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. MedlinePlus: put on first thing in the morning before out of bed; smooth wrinkles; do not let stockings bunch. Cleveland Clinic: smooth out rolls; avoid bunching.",
+    "B": "Incorrect. Morning application is preferred because legs have least swelling then.",
+    "C": "Incorrect. Cleveland Clinic: never turn tops over — tourniquet-like effect. MedlinePlus: avoid bunching/wrinkles.",
+    "D": "Incorrect. Stockings are applied as prescribed, typically to both legs when ordered for DVT risk/venous support."
+   },
+   "sources": [
+    {
+     "title": "Compression stockings",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000597.htm",
+     "section": "Putting on Your Compression Stockings",
+     "source_date": "Review Date 7/15/2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–C",
+     "evidence": "Put on in morning before out of bed; smooth wrinkles; do not bunch.",
+     "added_by": "author"
+    },
+    {
+     "title": "Deep Vein Thrombosis (DVT) Prevention",
+     "publisher": "Cleveland Clinic",
+     "url": "https://my.clevelandclinic.org/departments/heart/patient-education/recovery-care/general/dvt",
+     "section": "Compression Stockings / How to put on",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractor C",
+     "evidence": "Smooth out rolls; avoid bunching; never turn tops over (tourniquet effect).",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b0ff4907) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus morning application/smoothing + Cleveland Clinic anti-bunching/no folded tops."
+    }
+   ]
+  },
+  {
+   "batch": "B47-WAVE38",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0046",
+   "format": "matrix_multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "NGN matrix — compression stocking application teaching indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "compression-stockings-ngn-matrix-morning-smooth-no-cuff-roll",
+   "tags": [
+    "NGN",
+    "matrix",
+    "compression-stockings",
+    "BCC",
+    "fundamentals"
+   ],
+   "stem": "For home use of prescribed knee-high compression stockings, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Apply stockings in the morning before getting out of bed"
+     },
+     {
+      "key": "R2",
+      "text": "Smooth the stocking so it lies evenly without wrinkles or bunching"
+     },
+     {
+      "key": "R3",
+      "text": "Roll the top of the stocking down to make a tighter cuff"
+     },
+     {
+      "key": "R4",
+      "text": "Notify the provider if the stockings feel intolerably tight rather than simply stopping them"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. MedlinePlus: put on first thing in the morning before out of bed.",
+    "R2": "Indicated. MedlinePlus/Cleveland Clinic: smooth wrinkles; avoid bunching/rolls.",
+    "R3": "Not indicated. Folding/rolling tops can create a tourniquet-like effect.",
+    "R4": "Indicated. MedlinePlus: if too uncomfortable, contact provider; do not just stop wearing them."
+   },
+   "sources": [
+    {
+     "title": "Compression stockings",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000597.htm",
+     "section": "Putting on Your Compression Stockings / When to Call the Doctor",
+     "source_date": "Review Date 7/15/2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "R1–R4",
+     "evidence": "Morning application; smooth wrinkles; contact provider if too tight.",
+     "added_by": "author"
+    },
+    {
+     "title": "Deep Vein Thrombosis (DVT) Prevention",
+     "publisher": "Cleveland Clinic",
+     "url": "https://my.clevelandclinic.org/departments/heart/patient-education/recovery-care/general/dvt",
+     "section": "Compression Stockings",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "R2–R3",
+     "evidence": "Smooth evenly; never turn tops over.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b0ff4907) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus + Cleveland Clinic stocking teaching matrix."
+    }
+   ]
+  },
+  {
+   "batch": "B47-WAVE38",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0047",
+   "format": "multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "Denture care — remove overnight; store in water or denture-soaking solution",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "dentures-overnight-soak-water-not-harsh-toothpaste",
+   "tags": [
+    "dentures",
+    "oral-care",
+    "BCC",
+    "gerontology",
+    "hygiene"
+   ],
+   "stem": "The nurse teaches an older adult about removable denture care. Which instruction is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Take dentures out overnight and place them in water or a mild denture-soaking solution"
+    },
+    {
+     "key": "B",
+     "text": "Leave dentures in continuously day and night without removal"
+    },
+    {
+     "key": "C",
+     "text": "Scrub dentures vigorously with whitening toothpaste and a stiff brush"
+    },
+    {
+     "key": "D",
+     "text": "Soak metal-attachment dentures in undiluted household bleach overnight"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. MedlinePlus Dentures/Denture problems: take out at night; store in water or denture-cleansing liquid. Mayo Clinic: soak overnight in water or mild soaking solution.",
+    "B": "Incorrect. Overnight removal helps prevent sores/inflammation and keeps dentures moist when stored properly.",
+    "C": "Incorrect. MedlinePlus: do not clean with toothpaste; Mayo: avoid harsh/abrasive toothpaste and stiff brushes.",
+    "D": "Incorrect. Mayo: avoid bleach products that can weaken dentures; chlorine solutions can damage metal attachments."
+   },
+   "sources": [
+    {
+     "title": "Dentures",
+     "publisher": "MedlinePlus / National Institute on Aging",
+     "url": "https://medlineplus.gov/dentures.html",
+     "section": "Summary",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A",
+     "evidence": "Take dentures out at night; put them in water or a denture-cleansing liquid.",
+     "added_by": "author"
+    },
+    {
+     "title": "Denture problems",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/article/002037.htm",
+     "section": "Information",
+     "source_date": "Review Date 2/5/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractor C",
+     "evidence": "Take out overnight; keep in denture cleaner; do not clean with toothpaste.",
+     "added_by": "author"
+    },
+    {
+     "title": "Denture care: How do I clean dentures?",
+     "publisher": "Mayo Clinic",
+     "url": "https://www.mayoclinic.org/healthy-lifestyle/healthy-aging/expert-answers/denture-care/faq-20058375",
+     "section": "What's the best way to care for removable dentures?",
+     "source_date": "Jan. 19, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractors C–D",
+     "evidence": "Soak overnight in water or mild solution; avoid harsh toothpaste/bleach.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b0ff4907) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus Dentures + Denture problems + Mayo Clinic overnight soak/avoid abrasives."
+    }
+   ]
+  },
+  {
+   "batch": "B47-WAVE38",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0048",
+   "format": "multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "Hearing aid care — protect from heat/moisture; turn off when not in use; avoid hairspray while worn",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "hearing-aid-heat-moisture-off-no-hairspray",
+   "tags": [
+    "hearing-aid",
+    "BCC",
+    "gerontology",
+    "sensory"
+   ],
+   "stem": "The nurse reinforces hearing-aid care teaching for a client. Which instruction is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Keep hearing aids away from heat and moisture, turn them off when not in use, and avoid hairspray while wearing them"
+    },
+    {
+     "key": "B",
+     "text": "Rinse hearing aids under running water each night and dry with a hair dryer on high heat"
+    },
+    {
+     "key": "C",
+     "text": "Leave hearing aids powered on continuously, including overnight storage"
+    },
+    {
+     "key": "D",
+     "text": "Apply hairspray freely while the aids are in place to protect electronics"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. FDA and NIDCD: keep away from heat/moisture; turn off when not in use; avoid hairspray/hair products while wearing. FDA also advises against water on aids.",
+    "B": "Incorrect. Water and high heat damage electronics; FDA specifically warns against water and hair dryers.",
+    "C": "Incorrect. Turn aids off when not in use.",
+    "D": "Incorrect. Avoid hairspray and hair-care products while wearing aids."
+   },
+   "sources": [
+    {
+     "title": "How to Get Hearing Aids",
+     "publisher": "U.S. Food and Drug Administration",
+     "url": "https://www.fda.gov/medical-devices/hearing-aids/how-get-hearing-aids",
+     "section": "How do I care for my hearing aids?",
+     "source_date": "Content current as of: Fri, 08/18/2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Avoid water/solvents; avoid heat; avoid hairspray; turn off when not in use.",
+     "added_by": "author"
+    },
+    {
+     "title": "Hearing Aids",
+     "publisher": "National Institute on Deafness and Other Communication Disorders (NIDCD)",
+     "url": "https://www.nidcd.nih.gov/health/hearing-aids",
+     "section": "How can I care for my hearing aid?",
+     "source_date": "Last Updated Date: October 11, 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A",
+     "evidence": "Keep away from heat and moisture; avoid hairspray; turn off when not in use.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b0ff4907) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "FDA + NIDCD hearing-aid care: heat/moisture protection, power off, no hairspray."
+    }
+   ]
+  },
+  {
+   "batch": "B47-WAVE38",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0045",
+   "format": "multiple_choice",
+   "specialty": "Medical-Surgical",
+   "topic": "Indwelling catheter drainage — keep bag below bladder; do not rest bag on floor",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "catheter-bag-below-bladder-not-on-floor",
+   "tags": [
+    "CAUTI",
+    "catheter",
+    "SIPC",
+    "infection-prevention"
+   ],
+   "stem": "A client has an indwelling urinary catheter. Which nursing action best supports infection prevention during maintenance?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Keep the collecting bag below the level of the bladder at all times and do not rest the bag on the floor"
+    },
+    {
+     "key": "B",
+     "text": "Hang the drainage bag above bladder level to improve gravity flow into the bladder"
+    },
+    {
+     "key": "C",
+     "text": "Place the drainage bag on the floor beside the bed for stability"
+    },
+    {
+     "key": "D",
+     "text": "Raise the bag above the bladder when transferring so tubing stays taut"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC CAUTI guideline: keep collecting bag below bladder at all times; do not rest bag on floor. MedlinePlus: bag always lower than bladder; do not place bag on floor.",
+    "B": "Incorrect. Bag above bladder risks backflow of urine into the bladder.",
+    "C": "Incorrect. CDC/MedlinePlus: do not place/rest bag on the floor.",
+    "D": "Incorrect. Raising bag above bladder promotes reflux and contamination risk."
+   },
+   "sources": [
+    {
+     "title": "Prevention of Catheter-Associated Urinary Tract Infections: Summary of Recommendations",
+     "publisher": "Centers for Disease Control and Prevention",
+     "url": "https://www.cdc.gov/infection-control/hcp/cauti/summary-of-recommendations.html",
+     "section": "III. Proper Techniques for Urinary Catheter Maintenance",
+     "source_date": "Updated: January 18, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Keep collecting bag below bladder at all times; do not rest bag on floor.",
+     "added_by": "author"
+    },
+    {
+     "title": "Urine drainage bags",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000142.htm",
+     "section": "How Your Leg Bag Works / Emptying Your Leg Bag",
+     "source_date": "Review Date 1/1/2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Bag always lower than bladder; do not place bag on the floor.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b0ff4907) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC CAUTI maintenance III.B.2 + MedlinePlus drainage bag position/floor guidance."
+    }
+   ]
+  },
+  {
+   "batch": "B47-WAVE38",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0046",
+   "format": "matrix_multiple_choice",
+   "specialty": "Medical-Surgical",
+   "topic": "NGN matrix — indwelling catheter maintenance indicated vs not",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "catheter-ngn-matrix-bag-below-no-floor-unkinked",
+   "tags": [
+    "NGN",
+    "matrix",
+    "CAUTI",
+    "catheter",
+    "SIPC"
+   ],
+   "stem": "For a client with an indwelling urinary catheter, indicate whether each nursing action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Keep the collecting bag below bladder level at all times"
+     },
+     {
+      "key": "R2",
+      "text": "Keep catheter tubing free from kinks"
+     },
+     {
+      "key": "R3",
+      "text": "Rest the drainage bag on the floor for stability"
+     },
+     {
+      "key": "R4",
+      "text": "Maintain a closed drainage system after aseptic insertion"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. CDC/MedlinePlus: bag below bladder at all times.",
+    "R2": "Indicated. CDC: keep catheter and collecting tube free from kinking; MedlinePlus: check for kinks.",
+    "R3": "Not indicated. CDC: do not rest bag on floor; MedlinePlus: do not place bag on floor.",
+    "R4": "Indicated. CDC: maintain closed drainage system after aseptic insertion."
+   },
+   "sources": [
+    {
+     "title": "Prevention of Catheter-Associated Urinary Tract Infections: Summary of Recommendations",
+     "publisher": "Centers for Disease Control and Prevention",
+     "url": "https://www.cdc.gov/infection-control/hcp/cauti/summary-of-recommendations.html",
+     "section": "III. Proper Techniques for Urinary Catheter Maintenance",
+     "source_date": "Updated: January 18, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "R1–R4",
+     "evidence": "Closed system; unobstructed flow; bag below bladder; not on floor; tubing free of kinks.",
+     "added_by": "author"
+    },
+    {
+     "title": "Indwelling catheter care",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000140.htm",
+     "section": "Making Sure Your Catheter is Working",
+     "source_date": "Review Date 1/1/2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "R1–R3",
+     "evidence": "Keep bag below waist; check for kinks.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b0ff4907) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC CAUTI maintenance + MedlinePlus catheter working checks dual-cite matrix."
+    }
+   ]
+  },
+  {
+   "batch": "B47-WAVE38",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0047",
+   "format": "multiple_choice",
+   "specialty": "Pharmacology",
+   "topic": "Safe injection — one needle, one syringe, only one time (even if needle changed)",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "safe-injection-one-needle-one-syringe-one-time",
+   "tags": [
+    "injection-safety",
+    "SIPC",
+    "bloodborne",
+    "Standard-Precautions"
+   ],
+   "stem": "Which practice meets CDC safe injection recommendations?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Use a new sterile needle and syringe for each patient — do not reuse a syringe on another patient even if the needle is changed"
+    },
+    {
+     "key": "B",
+     "text": "Change only the needle and reuse the same syringe for the next patient"
+    },
+    {
+     "key": "C",
+     "text": "Draw medication for several patients from one syringe by changing needles between patients"
+    },
+    {
+     "key": "D",
+     "text": "Access a multidose vial with a syringe that was already used on a patient, then use that vial for others"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: One Needle, One Syringe, Only One Time; do not administer from the same syringe to multiple patients even if the needle is changed.",
+    "B": "Incorrect. Changing the needle does not make a used syringe safe for another patient.",
+    "C": "Incorrect. Syringes are single-use; reuse between patients transmits infection.",
+    "D": "Incorrect. CDC: do not enter a medication vial with a syringe/needle used on a patient for subsequent patients."
+   },
+   "sources": [
+    {
+     "title": "Preventing Unsafe Injection Practices",
+     "publisher": "Centers for Disease Control and Prevention",
+     "url": "https://www.cdc.gov/injection-safety/hcp/clinical-safety/",
+     "section": "Key points / Basic safe injection practices",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "One Needle, One Syringe, Only One Time; new sterile syringe and needle each patient; even if needle changed.",
+     "added_by": "author"
+    },
+    {
+     "title": "WHO best practices for injections and related procedures toolkit",
+     "publisher": "World Health Organization",
+     "url": "https://www.who.int/publications/i/item/9789241599252",
+     "section": "Safe injection practices",
+     "source_date": "2010",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A",
+     "evidence": "Use a sterile syringe and needle for each injection; do not reuse syringe or needle.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b0ff4907) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC injection safety (one needle/syringe/one time; even if needle changed) + WHO injection toolkit (sterile syringe/needle each injection; no reuse)."
+    }
+   ]
+  },
+  {
+   "batch": "B47-WAVE38",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0048",
+   "format": "drop_down_cloze",
+   "specialty": "Medical-Surgical",
+   "topic": "NGN cloze — catheter drainage bag position and floor rule",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "catheter-ngn-cloze-bag-below-not-floor",
+   "tags": [
+    "NGN",
+    "cloze",
+    "CAUTI",
+    "catheter",
+    "SIPC"
+   ],
+   "stem": "Complete the teaching for indwelling catheter drainage safety.",
+   "ngn": {
+    "template": "Keep the collecting bag {B1} the level of the bladder at all times, and do {B2} rest the bag on the floor.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "above"
+      },
+      {
+       "key": "B1b",
+       "text": "below"
+      },
+      {
+       "key": "B1c",
+       "text": "exactly even with"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "always"
+      },
+      {
+       "key": "B2b",
+       "text": "not"
+      },
+      {
+       "key": "B2c",
+       "text": "frequently"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1b",
+    "B2": "B2b"
+   },
+   "rationales": {
+    "B1a": "Incorrect. Above-bladder placement risks reflux of urine.",
+    "B1b": "Correct. CDC/MedlinePlus: keep bag below bladder level.",
+    "B1c": "Incorrect. Bag must remain below bladder level.",
+    "B2a": "Incorrect. Resting bag on floor is not recommended.",
+    "B2b": "Correct. CDC: do not rest bag on floor; MedlinePlus: do not place bag on floor.",
+    "B2c": "Incorrect. Floor placement is to be avoided, not done frequently."
+   },
+   "sources": [
+    {
+     "title": "Prevention of Catheter-Associated Urinary Tract Infections: Summary of Recommendations",
+     "publisher": "Centers for Disease Control and Prevention",
+     "url": "https://www.cdc.gov/infection-control/hcp/cauti/summary-of-recommendations.html",
+     "section": "III. Proper Techniques for Urinary Catheter Maintenance",
+     "source_date": "Updated: January 18, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "B1–B2",
+     "evidence": "Keep collecting bag below bladder; do not rest on floor.",
+     "added_by": "author"
+    },
+    {
+     "title": "Urine drainage bags",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000142.htm",
+     "section": "How Your Leg Bag Works / Emptying Your Leg Bag",
+     "source_date": "Review Date 1/1/2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "B1–B2",
+     "evidence": "Bag always lower than bladder; do not place bag on floor.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b0ff4907) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC + MedlinePlus catheter bag cloze."
+    }
+   ]
+  },
+  {
+   "batch": "B47-WAVE38",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0047",
+   "format": "multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "PTSD flashback — ground in present (senses/here-and-now); reassure safety",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ptsd-flashback-grounding-orient-present",
+   "tags": [
+    "PTSD",
+    "flashback",
+    "grounding",
+    "PSY",
+    "mental-health"
+   ],
+   "stem": "A client with PTSD suddenly appears terrified, stares past the nurse, and seems to be re-experiencing a past assault. Which nursing action is the priority?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Calmly orient the client to the present using grounding (e.g., what they can see/hear/touch now) and reassure that they are safe"
+    },
+    {
+     "key": "B",
+     "text": "Insist the client immediately recount every detail of the trauma aloud"
+    },
+    {
+     "key": "C",
+     "text": "Leave the client alone in a dark room until the episode ends"
+    },
+    {
+     "key": "D",
+     "text": "Argue that the trauma never happened and demand they 'snap out of it'"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. NHSGGC: grounding pulls attention back to here-and-now during flashbacks (senses). VA Stress First Aid: orient to present; describe surroundings/non-distressing sensory details; slow breathing as needed.",
+    "B": "Incorrect. Forcing detailed trauma recounting during an acute flashback is not first-line acute grounding care.",
+    "C": "Incorrect. Leaving an acutely distressed/disoriented client alone is unsafe.",
+    "D": "Incorrect. Arguing/denying experience is nontherapeutic and escalating."
+   },
+   "sources": [
+    {
+     "title": "Post Traumatic stress disorder",
+     "publisher": "NHS Greater Glasgow and Clyde",
+     "url": "https://www.nhsggc.scot/your-health/heads-up-mental-health-support/mental-health-conditions/post-traumatic-stress-disorder/",
+     "section": "Managing nightmares and flashbacks / Grounding / Coping with flashbacks",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Grounding focuses attention on here and now (senses) during flashbacks.",
+     "added_by": "author"
+    },
+    {
+     "title": "Person-Centered Stress First Aid for Patients, Clients and Customers",
+     "publisher": "U.S. Department of Veterans Affairs National Center for PTSD",
+     "url": "https://www.ptsd.va.gov/disaster_events/for_providers/SFA/docs/SFA_PersonCentered_508.pdf",
+     "section": "Person-Centered Stress First Aid actions",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A",
+     "evidence": "If too upset/disoriented: remind to slow breathing; orient to present; describe surroundings/senses.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b0ff4907) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "NHSGGC grounding for flashbacks + VA PTSD Stress First Aid present-orientation dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B47-WAVE38",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0048",
+   "format": "matrix_multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "NGN matrix — acute PTSD flashback nursing actions indicated vs not",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ptsd-flashback-ngn-matrix-ground-not-force-recount",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PTSD",
+    "PSY",
+    "mental-health"
+   ],
+   "stem": "During an acute trauma flashback, indicate whether each nursing action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Guide the client to notice present sensory details (what they see, hear, or touch now)"
+     },
+     {
+      "key": "R2",
+      "text": "Reassure the client they are in a safe place in the present"
+     },
+     {
+      "key": "R3",
+      "text": "Force an immediate full narrative of every trauma detail before grounding"
+     },
+     {
+      "key": "R4",
+      "text": "Encourage slow breathing if the client is extremely agitated or panicked"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. NHSGGC grounding uses senses to return to here-and-now; VA: describe surroundings/senses.",
+    "R2": "Indicated. Grounding/SFA emphasize current safety and present orientation.",
+    "R3": "Not indicated. Acute priority is grounding/safety, not forced trauma processing mid-flashback.",
+    "R4": "Indicated. VA SFA: remind to slow breathing when extremely upset/anxious."
+   },
+   "sources": [
+    {
+     "title": "Post Traumatic stress disorder",
+     "publisher": "NHS Greater Glasgow and Clyde",
+     "url": "https://www.nhsggc.scot/your-health/heads-up-mental-health-support/mental-health-conditions/post-traumatic-stress-disorder/",
+     "section": "Grounding / Coping with flashbacks",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "R1–R3",
+     "evidence": "Grounding with senses during flashbacks; gently bring to present.",
+     "added_by": "author"
+    },
+    {
+     "title": "Person-Centered Stress First Aid for Patients, Clients and Customers",
+     "publisher": "U.S. Department of Veterans Affairs National Center for PTSD",
+     "url": "https://www.ptsd.va.gov/disaster_events/for_providers/SFA/docs/SFA_PersonCentered_508.pdf",
+     "section": "If a person is too upset...",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "R1–R2,R4",
+     "evidence": "Slow breathing; orient to present; describe surroundings/senses.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b0ff4907) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "NHSGGC + VA SFA flashback grounding matrix."
+    }
+   ]
+  },
+  {
+   "batch": "B47-WAVE38",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-PSY-0049",
+   "format": "bowtie",
+   "specialty": "Mental Health",
+   "topic": "NGN bowtie — PTSD flashback recognition; grounding/safety actions; monitor orientation/distress",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "ptsd-flashback-ngn-bowtie-grounding",
+   "tags": [
+    "NGN",
+    "bowtie",
+    "PTSD",
+    "PSY",
+    "mental-health"
+   ],
+   "stem": "A veteran suddenly crouches, hyperventilates, and shouts as if under attack after a door slam, then does not respond to ordinary questions. Complete the bowtie: the priority condition, two priority actions, and two parameters to monitor.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Hypoglycemia"
+     },
+     {
+      "key": "K2",
+      "text": "Trauma flashback / acute re-experiencing (PTSD)"
+     },
+     {
+      "key": "K3",
+      "text": "Opioid overdose"
+     },
+     {
+      "key": "K4",
+      "text": "Benign positional vertigo"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Orient to the present with grounding (safe place; name what is seen/heard/touched now)"
+     },
+     {
+      "key": "A2",
+      "text": "Leave the client alone immediately to 'work it out'"
+     },
+     {
+      "key": "A3",
+      "text": "Speak calmly; coach slow breathing while staying with the client"
+     },
+     {
+      "key": "A4",
+      "text": "Force the client to describe the combat event in full detail right now"
+     },
+     {
+      "key": "A5",
+      "text": "Apply physical restraints as first-line for flashbacks"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "Orientation to person/place/time and connection to the present"
+     },
+     {
+      "key": "P2",
+      "text": "Level of distress, breathing pattern, and safety risk"
+     },
+     {
+      "key": "P3",
+      "text": "Serum amylase only"
+     },
+     {
+      "key": "P4",
+      "text": "Contact lens prescription"
+     },
+     {
+      "key": "P5",
+      "text": "Shoe size"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K2",
+    "actions": [
+     "A1",
+     "A3"
+    ],
+    "parameters": [
+     "P1",
+     "P2"
+    ]
+   },
+   "rationales": {
+    "K1": "Incorrect. No cue pattern pointing primarily to hypoglycemia.",
+    "K2": "Correct. Sudden re-experiencing after a trigger with loss of ordinary responsiveness fits PTSD flashback/intrusion.",
+    "K3": "Incorrect. No opioid toxicity pattern (e.g., pinpoint pupils, apnea) described.",
+    "K4": "Incorrect. Vertigo alone does not explain trauma-triggered panic behaviours.",
+    "A1": "Correct. Grounding/present orientation is first-line for flashbacks (NHSGGC/VA).",
+    "A2": "Incorrect. Do not leave an acutely distressed/disoriented client alone.",
+    "A3": "Correct. Calm presence and slow breathing support SFA calming/orientation.",
+    "A4": "Incorrect. Forced trauma narrative mid-flashback is not acute grounding care.",
+    "A5": "Incorrect. Restraints are not first-line for flashbacks.",
+    "P1": "Correct. Monitor return of orientation/present awareness.",
+    "P2": "Correct. Monitor distress, breathing, and safety.",
+    "P3": "Incorrect. Not relevant to acute flashback response.",
+    "P4": "Incorrect. Not relevant.",
+    "P5": "Incorrect. Not relevant."
+   },
+   "sources": [
+    {
+     "title": "Posttraumatic Stress Disorder (PTSD)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/anxiety-and-trauma-and-stressor-related-disorders/posttraumatic-stress-disorder-ptsd",
+     "section": "Symptoms and Signs of PTSD",
+     "source_date": "Last updated: Apr 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "K2",
+     "evidence": "Flashbacks may be triggered by stimuli; person may lose awareness of present surroundings.",
+     "added_by": "author"
+    },
+    {
+     "title": "Post Traumatic stress disorder",
+     "publisher": "NHS Greater Glasgow and Clyde",
+     "url": "https://www.nhsggc.scot/your-health/heads-up-mental-health-support/mental-health-conditions/post-traumatic-stress-disorder/",
+     "section": "Grounding / Coping with flashbacks",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "A1,A3,P1,P2",
+     "evidence": "Grounding to here-and-now; sensory orientation during flashbacks.",
+     "added_by": "author"
+    },
+    {
+     "title": "Person-Centered Stress First Aid for Patients, Clients and Customers",
+     "publisher": "U.S. Department of Veterans Affairs National Center for PTSD",
+     "url": "https://www.ptsd.va.gov/disaster_events/for_providers/SFA/docs/SFA_PersonCentered_508.pdf",
+     "section": "If a person is too upset...",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "A1,A3,P1,P2",
+     "evidence": "Slow breathing; orient to present; describe surroundings.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b0ff4907) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck PTSD flashback recognition + NHSGGC/VA grounding actions dual-cite bowtie."
+    }
+   ]
+  },
+  {
+   "batch": "B47-WAVE38",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Fixing Long-Term Care Act, 2021 mandatory reporting duties for LTC staff/regulated health professionals; CNO Accountability to report FAQ.",
+   "jurisdiction": "Ontario-specific",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario"
+   ],
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0073",
+   "format": "multiple_choice",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Ontario LTC — nurse must report suspected resident abuse/neglect (FLTCA / CNO)",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ontario-fltca-nurse-must-report-ltc-abuse",
+   "tags": [
+    "Ontario",
+    "FLTCA",
+    "abuse-reporting",
+    "MOC",
+    "professional-practice"
+   ],
+   "stem": "An Ontario RN working in a long-term care home has reasonable grounds to suspect that a resident was abused by a staff member and that the resident was harmed. Which action meets legal and professional accountabilities?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Immediately report the suspicion through the required LTC reporting pathway (to the Director / designated reporting line) — confidentiality does not excuse failing to report"
+    },
+    {
+     "key": "B",
+     "text": "Wait several weeks to see whether the resident complains formally before taking any action"
+    },
+    {
+     "key": "C",
+     "text": "Keep the information confidential and tell no one because of PHIPA"
+    },
+    {
+     "key": "D",
+     "text": "Confront the alleged abuser privately and close the matter without any report"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO: FLTCA requires nurses to report improper/incompetent care or abuse resulting in harm or risk of harm. Steps to Justice: LTC workers/regulated health professionals must report suspected abuse/neglect; duty applies even if information would otherwise be confidential.",
+    "B": "Incorrect. Reporting is required when there are reasonable grounds to suspect; delaying undermines resident protection.",
+    "C": "Incorrect. Mandatory reporting duties override ordinary confidentiality in this setting.",
+    "D": "Incorrect. Informal confrontation without required reporting does not meet FLTCA/CNO accountabilities."
+   },
+   "sources": [
+    {
+     "title": "Accountability to report",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://cno.org/standards-learning/practice-support/practice-support-faqs/accountability-to-report",
+     "section": "Some applicable legislation",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A; distractors B–D",
+     "evidence": "FLTCA 2021 outlines obligation for nurses to report improper/incompetent care or abuse resulting in harm or risk of harm.",
+     "added_by": "author"
+    },
+    {
+     "title": "What can I do if I see abuse in a long-term care home?",
+     "publisher": "Steps to Justice (Community Legal Education Ontario)",
+     "url": "https://stepstojustice.ca/questions/abuse-and-family-violence/what-can-i-do-if-i-see-abuse-in-a-long-term-care-home/",
+     "section": "Who must report abuse / Workers",
+     "source_date": "Reviewed: February 28, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "supports": "Key A; distractors B–D",
+     "evidence": "LTC workers and regulated health professionals must report suspected abuse/neglect even if based on otherwise confidential information.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-b0ff4907) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Accountability to report (FLTCA) + Steps to Justice LTC mandatory reporting. Statute text page was TOC-only via fetch; keyed to concordant CNO + CLEO consumer-law summary."
+    }
+   ]
+  }
+ ],
+ "excluded_items": [
+  {
+   "draft_topic": "Panic attack stay-with-client interventions",
+   "reason": "ONRN-PSY-0028 already covers calm environment/slow breathing/reassurance; avoided enemy-group collision."
+  },
+  {
+   "draft_topic": "CAUTI prompt catheter removal as primary key",
+   "reason": "Already covered by ONRN-SIPC-0010/0012; wave focused on under-covered bag-below-bladder maintenance instead."
+  },
+  {
+   "draft_topic": "CNO accepting gifts from clients",
+   "reason": "Already covered by ONRN-MOC-0058; used FLTCA mandatory abuse reporting instead."
+  }
+ ],
+ "notes": "Prefer thinner Client Needs BCC/SIPC/PSY + NGN. Injection item cites two CDC pages (same publisher) — flagged single-source. Keep import script Prisma.InputJsonValue casts unchanged. Accuracy over volume."
+}
