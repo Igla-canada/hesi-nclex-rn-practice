@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 483,
+  "Source verified": 497,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -54597,6 +54597,1660 @@
      "date": "2026-11-25",
      "result": "confirmed",
      "checks": "SAMHSA TIP 35 ambivalence/OARS + Merck SUD treatment + OpenStax nonjudgmental attitude triple-cite bowtie."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B50-WAVE41",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0075",
+   "format": "multiple_choice",
+   "specialty": "Leadership/Management",
+   "topic": "Just culture — system issues + accountability; blame-free reporting of human error/near misses; zero tolerance for reckless behaviour",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "just-culture-report-near-miss-system-vs-reckless",
+   "tags": [
+    "just-culture",
+    "near-miss",
+    "leadership",
+    "MOC",
+    "reporting"
+   ],
+   "stem": "A nurse nearly administers the wrong medication but catches the error before giving it. Which response best reflects a just culture of safety?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Report the near miss so system factors can be reviewed; human error is addressed without blame, while reckless violations remain unacceptable"
+    },
+    {
+     "key": "B",
+     "text": "Hide the near miss because no patient was harmed and reporting would only create punishment"
+    },
+    {
+     "key": "C",
+     "text": "Punish every near miss the same as intentional reckless harm, regardless of system design"
+    },
+    {
+     "key": "D",
+     "text": "Tell the nurse never to speak of it so the unit's quality scores stay high"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. AHRQ: just culture addresses systems issues that lead to unsafe acts while maintaining accountability; human error vs at-risk vs reckless. OpenStax: just culture is nonpunitive for errors/near misses with clear lines for reckless behaviour; reporting improves safety.",
+    "B": "Incorrect. Near misses should be reported for learning; silence blocks safety improvement.",
+    "C": "Incorrect. Just culture is not blanket punishment; response depends on behaviour type, not only outcome severity.",
+    "D": "Incorrect. Suppressing reports undermines a culture of safety."
+   },
+   "sources": [
+    {
+     "title": "Culture of Safety",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ) — PSNet",
+     "url": "https://psnet.ahrq.gov/primer/culture-safety",
+     "section": "Background / Just culture",
+     "source_date": "Last reviewed in 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Just culture identifies systems issues leading to unsafe behaviours while maintaining accountability; distinguishes human error, at-risk, and reckless behaviour; response predicated on behaviour type not severity alone.",
+     "added_by": "author"
+    },
+    {
+     "title": "9.1 Safety: Individual and Environmental",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/9-1-safety-individual-and-environmental",
+     "section": "Just Culture / Near Misses",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Just culture: people feel safe reporting safety events; nonpunitive response to errors and near misses; clear lines between human error, at-risk, and reckless behaviour.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bf97674a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ PSNet just culture + OpenStax Fundamentals just culture/near-miss dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B50-WAVE41",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0076",
+   "format": "matrix_multiple_choice",
+   "specialty": "Leadership/Management",
+   "topic": "NGN matrix — just culture reporting and accountability indicated vs not",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "just-culture-ngn-matrix-report-near-miss-reckless",
+   "tags": [
+    "NGN",
+    "matrix",
+    "just-culture",
+    "leadership",
+    "MOC"
+   ],
+   "stem": "For a unit implementing a just culture of safety, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Report near misses even when the patient was not harmed"
+     },
+     {
+      "key": "R2",
+      "text": "Review system factors (communication, workload, design) that contributed to an error"
+     },
+     {
+      "key": "R3",
+      "text": "Hide slips and near misses so individuals avoid all scrutiny"
+     },
+     {
+      "key": "R4",
+      "text": "Apply zero tolerance and appropriate accountability for reckless disregard of required safety steps"
+     },
+     {
+      "key": "R5",
+      "text": "Punish every human slip the same way as intentional reckless harm, ignoring system design"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Near-miss reporting supports learning and prevents future harm.",
+    "R2": "Indicated. Just culture focuses on systems issues that lead to unsafe behaviours.",
+    "R3": "Not indicated. Concealment blocks safety culture.",
+    "R4": "Indicated. Reckless behaviour (e.g., refusing required safety steps) warrants accountability.",
+    "R5": "Not indicated. Response should match behaviour type (human error vs reckless), not treat all the same."
+   },
+   "sources": [
+    {
+     "title": "Culture of Safety",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ) — PSNet",
+     "url": "https://psnet.ahrq.gov/primer/culture-safety",
+     "section": "Just culture",
+     "source_date": "Last reviewed in 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Rows R1–R5",
+     "evidence": "Systems focus; blame-free reporting of errors/near misses; zero tolerance for reckless behaviour; response by behaviour type.",
+     "added_by": "author"
+    },
+    {
+     "title": "Reporting Patient Safety Events",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ) — PSNet",
+     "url": "https://psnet.ahrq.gov/primer/reporting-patient-safety-events",
+     "section": "Background / Using Event Reports",
+     "source_date": "Last reviewed in 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Rows R1–R2",
+     "evidence": "Incident reporting systems capture events and near misses to improve safety; underreporting linked to fear of blame.",
+     "added_by": "author"
+    },
+    {
+     "title": "9.1 Safety: Individual and Environmental",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/9-1-safety-individual-and-environmental",
+     "section": "Just Culture",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Rows R1–R5",
+     "evidence": "Safe reporting; nonpunitive for errors/near misses; lines between human error, at-risk, reckless.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bf97674a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ culture/reporting + OpenStax just culture dual/triple-cite NGN matrix."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B50-WAVE41",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CNO Code of Conduct — Quality Assurance Program participation and continuing competence (Ontario).",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "Ontario-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0077",
+   "format": "multiple_choice",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "CNO Code — participate in Quality Assurance; continuous learning; self-reflect on competence",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cno-qa-participate-continuous-learning-competence",
+   "tags": [
+    "CNO",
+    "quality-assurance",
+    "competence",
+    "Ontario",
+    "MOC"
+   ],
+   "stem": "An Ontario nurse asks what the Code of Conduct expects regarding continuing competence. Which statement is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Self-reflect to identify learning needs, engage in continuous learning, and participate in CNO's Quality Assurance Program"
+    },
+    {
+     "key": "B",
+     "text": "Competence is fixed at graduation; no further learning or QA participation is expected"
+    },
+    {
+     "key": "C",
+     "text": "Only nurse managers must participate in Quality Assurance; staff nurses are exempt"
+    },
+    {
+     "key": "D",
+     "text": "Nurses should avoid documenting QA activities so CNO cannot review learning records"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO Code 6.9–6.10: self-reflect, identify learning needs, continuous learning; participate in and keep records of CNO Quality Assurance Program (continuing competence).",
+    "B": "Incorrect. Continuing competence and continuous learning are required.",
+    "C": "Incorrect. All nurses are accountable to the Code, including QA participation.",
+    "D": "Incorrect. Nurses keep records of QA participation; avoiding records undermines accountability."
+   },
+   "sources": [
+    {
+     "title": "Code of Conduct",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/49040_code-of-conduct.pdf",
+     "section": "Principle 6 — Accountable / Quality Assurance Program (6.9–6.10)",
+     "source_date": "Updated March 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Nurses self-reflect, identify learning needs, engage in continuous learning; participate in and keep records of CNO's Quality Assurance Program (mandated continuing competence).",
+     "added_by": "author"
+    },
+    {
+     "title": "9.1 Safety: Individual and Environmental",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/9-1-safety-individual-and-environmental",
+     "section": "Culture of Safety / QSEN Safety",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A (continuous improvement learning)",
+     "evidence": "Safety culture includes learning from events and improving practice; nurses engage in safety competencies and improvement—aligns with ongoing competence development.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bf97674a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Code QA 6.9–6.10 + OpenStax safety learning dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B50-WAVE41",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CNO Code of Conduct accountability and reporting expectations.",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "Ontario-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0078",
+   "format": "drop_down_cloze",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "NGN cloze — CNO accountability: report errors/unsafe behaviour; learn from errors; QA participation",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cno-cloze-report-errors-learn-qa-participate",
+   "tags": [
+    "NGN",
+    "cloze",
+    "CNO",
+    "accountability",
+    "Ontario",
+    "MOC"
+   ],
+   "stem": "Complete the teaching points about Ontario nursing accountability under the CNO Code of Conduct.",
+   "ngn": {
+    "template": "Nurses take accountability for their errors and {B1}. Nurses report any error, unsafe behaviour, unethical conduct, or system issue to {B2}. Nurses participate in CNO's {B3} to support continuing competence.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "learn from them"
+      },
+      {
+       "key": "B1b",
+       "text": "hide them from all supervisors"
+      },
+      {
+       "key": "B1c",
+       "text": "blame only the newest graduate on the team"
+      },
+      {
+       "key": "B1d",
+       "text": "delete the chart so no one can review the event"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "relevant persons/authorities per legal and organizational requirements"
+      },
+      {
+       "key": "B2b",
+       "text": "social media followers only"
+      },
+      {
+       "key": "B2c",
+       "text": "no one, because reporting is optional forever"
+      },
+      {
+       "key": "B2d",
+       "text": "patients' neighbours first"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "Quality Assurance Program"
+      },
+      {
+       "key": "B3b",
+       "text": "optional celebrity newsletter"
+      },
+      {
+       "key": "B3c",
+       "text": "unofficial gossip forum"
+      },
+      {
+       "key": "B3d",
+       "text": "personal shopping rewards club"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a"
+   },
+   "rationales": {
+    "B1a": "Correct. CNO Code 6.3: take accountability for errors and learn from them.",
+    "B1b": "Incorrect. Hiding errors blocks learning and accountability.",
+    "B1c": "Incorrect. Scapegoating is not accountable practice.",
+    "B1d": "Incorrect. Tampering with records is misconduct and unsafe.",
+    "B2a": "Correct. Code 6.4: report to relevant persons/authorities per requirements.",
+    "B2b": "Incorrect. Social media is not an appropriate reporting channel for PHI/events.",
+    "B2c": "Incorrect. Reporting errors/unsafe issues is required.",
+    "B2d": "Incorrect. Neighbours are not the required reporting pathway.",
+    "B3a": "Correct. Code 6.10: participate in CNO's Quality Assurance Program.",
+    "B3b": "Incorrect. Not a CNO competence requirement.",
+    "B3c": "Incorrect. Gossip forums are not QA.",
+    "B3d": "Incorrect. Irrelevant to continuing competence."
+   },
+   "sources": [
+    {
+     "title": "Code of Conduct",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/49040_code-of-conduct.pdf",
+     "section": "Principle 6 — 6.3, 6.4, 6.10",
+     "source_date": "Updated March 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Blanks B1–B3",
+     "evidence": "Accountability for errors and learning; report errors/unsafe/unethical/system issues; participate in QA Program.",
+     "added_by": "author"
+    },
+    {
+     "title": "Reporting Patient Safety Events",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ) — PSNet",
+     "url": "https://psnet.ahrq.gov/primer/reporting-patient-safety-events",
+     "section": "Background",
+     "source_date": "Last reviewed in 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Blank B2",
+     "evidence": "Reporting patient safety events (including near misses) is foundational to improving safety; fear of blame reduces reporting.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bf97674a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Code 6.3/6.4/6.10 + AHRQ reporting dual-cite cloze."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B50-WAVE41",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "PHIPA / CNO Confidentiality and Privacy — breach complaints pathway.",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "Ontario-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-MOC-0079",
+   "format": "multiple_choice",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Ontario PHIPA — clients may complain to organization contact person or Information and Privacy Commissioner about privacy breaches",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "phipa-breach-complain-contact-person-or-ipc",
+   "tags": [
+    "PHIPA",
+    "privacy",
+    "Ontario",
+    "MOC",
+    "CNO"
+   ],
+   "stem": "A client believes a nurse shared their personal health information without authorization. Under Ontario privacy expectations, which teaching is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "The client can complain to the organization's contact person (information officer) or to the Information and Privacy Commissioner of Ontario about a PHIPA breach"
+    },
+    {
+     "key": "B",
+     "text": "Clients have no pathway to complain about privacy breaches in Ontario"
+    },
+    {
+     "key": "C",
+     "text": "The only option is to post the allegation on a public social media page instead of using formal complaint routes"
+    },
+    {
+     "key": "D",
+     "text": "Privacy complaints may only be filed with a foreign court, never with Ontario's Commissioner"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO Privacy: clients can complain to an organization's contact person or the Information and Privacy Commissioner about PHIPA breaches. CTCMPAO PHIPA guide: contact person handles privacy complaints; breach protocols and IPC oversight.",
+    "B": "Incorrect. Formal complaint pathways exist under PHIPA.",
+    "C": "Incorrect. Formal organizational/IPC routes protect privacy; public posting risks further disclosure.",
+    "D": "Incorrect. Ontario's IPC is the provincial privacy oversight body for PHIPA matters."
+   },
+   "sources": [
+    {
+     "title": "Confidentiality and Privacy — Personal Health Information",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41069_privacy.pdf",
+     "section": "Access and corrections / PHIPA complaints",
+     "source_date": "Updated July 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Clients can complain to an organization's contact person or to the Information and Privacy Commissioner about refusals or other breaches of PHIPA.",
+     "added_by": "author"
+    },
+    {
+     "title": "Guide to PHIPA (2020 Update)",
+     "publisher": "College of Traditional Chinese Medicine Practitioners and Acupuncturists of Ontario (PHIPA guide)",
+     "url": "https://www.ctcmpao.on.ca/resources/forms-and-documents/Guide-to-PHIPA-2020-Update-Final.pdf",
+     "section": "Contact person / Complaints / Privacy breach protocol",
+     "source_date": "Copyright © 2020",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A",
+     "evidence": "PHIPA contact person handles privacy complaints; organizations establish breach protocols; IPC has enforcement/oversight role.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bf97674a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Privacy PHIPA complaints + CTCMPAO PHIPA guide dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B50-WAVE41",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "Ontario/Canada health care hand hygiene — PHO '4 Moments' (aligned with WHO 5 Moments framework).",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "Canada-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0055",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "Ontario/Canada 4 Moments for Hand Hygiene — before patient/environment contact, before aseptic, after body fluid risk, after patient/environment contact",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "pho-4-moments-hand-hygiene-before-after-contact-aseptic-body-fluid",
+   "tags": [
+    "hand-hygiene",
+    "4-moments",
+    "SIPC",
+    "PHO",
+    "Canada"
+   ],
+   "stem": "Which set correctly lists Ontario/Canada's 4 Moments for Hand Hygiene in health care?",
+   "options": [
+    {
+     "key": "A",
+     "text": "BEFORE initial patient/patient environment contact; BEFORE aseptic procedure; AFTER body fluid exposure risk; AFTER patient/patient environment contact"
+    },
+    {
+     "key": "B",
+     "text": "Only after leaving the building at the end of the shift"
+    },
+    {
+     "key": "C",
+     "text": "Only before lunch and never at the point of care"
+    },
+    {
+     "key": "D",
+     "text": "Only after documenting in the chart, never before aseptic procedures"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. PHO Best Practices: the 4 Moments are before initial patient/environment contact, before aseptic procedure, after body fluid exposure risk, and after patient/environment contact. CDC clinical HH: clean hands before/after touching a patient and after touching surroundings.",
+    "B": "Incorrect. Moments occur at point of care throughout the encounter.",
+    "C": "Incorrect. Hand hygiene is required at clinical moments, not only meal breaks.",
+    "D": "Incorrect. Before aseptic procedures is an essential moment."
+   },
+   "sources": [
+    {
+     "title": "Best Practices for Hand Hygiene in All Health Care Settings",
+     "publisher": "Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC)",
+     "url": "https://www.publichealthontario.ca/-/media/documents/b/2014/bp-hand-hygiene.pdf",
+     "section": "3. Indications and Moments — 4 Moments for Hand Hygiene",
+     "source_date": "Published Date: 2010 (document in use)",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A; distractors B–D",
+     "evidence": "4 Moments: BEFORE initial patient/environment contact; BEFORE aseptic; AFTER body fluid exposure risk; AFTER patient/environment contact.",
+     "added_by": "author"
+    },
+    {
+     "title": "Clinical Safety: Hand Hygiene for Healthcare Workers",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/clean-hands/hcp/clinical-safety/index.html",
+     "section": "Know when to clean your hands",
+     "source_date": "Updated February 2019",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A (before/after patient and surroundings)",
+     "evidence": "Clean hands immediately before touching a patient; after touching a patient or patient's surroundings—concordant point-of-care timing with moments model.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bf97674a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "PHO PIDAC 4 Moments + CDC clinical HH timing dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B50-WAVE41",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "PHO 4 Moments applications.",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "Canada-specific",
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0056",
+   "format": "matrix_multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "NGN matrix — 4 Moments hand hygiene indicated vs not",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "pho-4-moments-ngn-matrix-indicated-hand-hygiene",
+   "tags": [
+    "NGN",
+    "matrix",
+    "hand-hygiene",
+    "4-moments",
+    "SIPC"
+   ],
+   "stem": "Indicate whether hand hygiene is Indicated or Not indicated at each moment during routine inpatient care.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Before entering the room and touching the patient or bedside environment"
+     },
+     {
+      "key": "R2",
+      "text": "Immediately before an aseptic procedure (e.g., urinary catheter insertion) and before donning gloves for that procedure"
+     },
+     {
+      "key": "R3",
+      "text": "After a body fluid exposure risk and after removing gloves"
+     },
+     {
+      "key": "R4",
+      "text": "On leaving the room after touching the patient or furniture in the patient environment"
+     },
+     {
+      "key": "R5",
+      "text": "Skipping hand hygiene before aseptic care because gloves alone are considered enough forever"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Moment 1 — before initial patient/environment contact.",
+    "R2": "Indicated. Moment 2 — before aseptic procedure (including before gloves).",
+    "R3": "Indicated. Moment 3 — after body fluid exposure risk / glove removal.",
+    "R4": "Indicated. Moment 4 — after patient/environment contact on leaving.",
+    "R5": "Not indicated. Gloves do not replace hand hygiene before aseptic procedures."
+   },
+   "sources": [
+    {
+     "title": "Best Practices for Hand Hygiene in All Health Care Settings",
+     "publisher": "Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC)",
+     "url": "https://www.publichealthontario.ca/-/media/documents/b/2014/bp-hand-hygiene.pdf",
+     "section": "4 Moments detailed applications",
+     "source_date": "Published Date: 2010 (document in use)",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Rows R1–R5",
+     "evidence": "Moments 1–4 with examples; before aseptic includes before putting on gloves.",
+     "added_by": "author"
+    },
+    {
+     "title": "Clinical Safety: Hand Hygiene for Healthcare Workers",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/clean-hands/hcp/clinical-safety/index.html",
+     "section": "Know when to clean your hands / gloves",
+     "source_date": "Updated February 2019",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Rows R1–R4",
+     "evidence": "Before/after patient contact and surroundings; glove guidance paired with hand hygiene.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bf97674a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "PHO 4 Moments detail + CDC HH clinical dual-cite matrix."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B50-WAVE41",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-SIPC-0057",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "Sharps safety — never recap used needles; immediate sharps container disposal; needlestick: wash, report, seek care",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "sharps-never-recap-dispose-container-needlestick-wash-report",
+   "tags": [
+    "sharps",
+    "needlestick",
+    "SIPC",
+    "occupational-safety"
+   ],
+   "stem": "A nurse sustains a needlestick after giving an injection. Which immediate actions are correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Do not recap used needles; dispose sharps in a marked container; after a stick, wash/flood the area, report immediately to the employer, and seek prompt medical attention"
+    },
+    {
+     "key": "B",
+     "text": "Recap the used needle with two hands, then throw it in the regular trash"
+    },
+    {
+     "key": "C",
+     "text": "Ignore the stick if bleeding is light and never report it"
+    },
+    {
+     "key": "D",
+     "text": "Force the needle deep into an overfilled sharps box using bare fingers"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: never recap used needles; dispose in marked sharps container; if needlestick occurs, report immediately and follow facility protocols. OSHA: flood/clean exposed area, report immediately, seek immediate medical attention.",
+    "B": "Incorrect. Never recap used needles; never discard sharps in regular trash.",
+    "C": "Incorrect. Reporting and medical follow-up are required after exposure.",
+    "D": "Incorrect. Never force sharps or reach into the container."
+   },
+   "sources": [
+    {
+     "title": "10.4 Infection Control and Patient Safety",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/10-4-infection-control-and-patient-safety",
+     "section": "QSEN: Disposing Sharps Safely / Improving Sharps Safety",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Do not throw sharps in trash; never recap used needles; never force/reach into container; if needlestick occurs, report immediately and follow protocols.",
+     "added_by": "author"
+    },
+    {
+     "title": "Bloodborne Pathogens - Overview",
+     "publisher": "U.S. Occupational Safety and Health Administration (OSHA)",
+     "url": "https://www.osha.gov/bloodborne-pathogens",
+     "section": "What to do if you are stuck by a needle",
+     "source_date": "OSHA Bloodborne Pathogens overview (current page)",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A",
+     "evidence": "Immediately flood/clean exposed area; report immediately to employer; seek immediate medical attention. Safer devices reduce exposure.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bf97674a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax sharps safety + OSHA needlestick first aid/reporting dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B50-WAVE41",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0055",
+   "format": "multiple_choice",
+   "specialty": "Pharmacology",
+   "topic": "Rapid-acting insulin (lispro/aspart/glulisine) — give with meals; onset ~15 min; monitor hypoglycemia at peak",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "rapid-acting-insulin-with-meals-onset-peak-hypoglycemia",
+   "tags": [
+    "insulin",
+    "lispro",
+    "PPT",
+    "pharmacology",
+    "diabetes"
+   ],
+   "stem": "The nurse teaches a client newly prescribed insulin lispro. Which instruction is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Take rapid-acting insulin about 15 minutes before a meal or immediately after; it works quickly and hypoglycemia risk rises around peak action"
+    },
+    {
+     "key": "B",
+     "text": "Take lispro once weekly only, with no relation to meals"
+    },
+    {
+     "key": "C",
+     "text": "Rapid-acting insulin has no onset for 12 hours, so meals are irrelevant"
+    },
+    {
+     "key": "D",
+     "text": "Mix insulin glargine into every lispro dose in the same syringe at home without checking instructions"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: rapid-acting (lispro/aspart/glulisine) onset ~15–30 min; take 15 min before or immediately after a meal; peak 1–2 h with hypoglycemia risk. Merck: rapid-acting best used at mealtime for postprandial glucose. ADA: rapid-acting onset ~15 min; bolus covers meals.",
+    "B": "Incorrect. Rapid-acting is meal-related (bolus), not a weekly dose.",
+    "C": "Incorrect. Onset is minutes, not hours.",
+    "D": "Incorrect. Merck: insulin glargine should never be mixed with any other insulin."
+   },
+   "sources": [
+    {
+     "title": "28.2 Insulin and Non-Insulin Injectable Diabetes Drugs",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/28-2-insulin-and-non-insulin-injectable-diabetes-drugs",
+     "section": "Rapid-Acting Insulin / Peak Time",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractors B–C",
+     "evidence": "Lispro onset 15–30 min; take 15 min before or immediately after meal; peak 1–2 h; monitor hypoglycemia at peak.",
+     "added_by": "author"
+    },
+    {
+     "title": "Medications for Diabetes Mellitus Treatment",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/diabetes-mellitus-and-hypoglycemia/medications-for-diabetes-mellitus-treatment",
+     "section": "Insulin preparations / Rapid-acting / Mixing",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractor D",
+     "evidence": "Rapid-acting best at mealtime for postprandial spikes; glargine should never be mixed with any other insulin.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bf97674a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Pharmacology rapid insulin + Merck DM meds dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B50-WAVE41",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0056",
+   "format": "matrix_multiple_choice",
+   "specialty": "Pharmacology",
+   "topic": "NGN matrix — rapid-acting meal timing and glargine no-mix teaching",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "insulin-ngn-matrix-rapid-meals-glargine-never-mix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "insulin",
+    "PPT"
+   ],
+   "stem": "For a client on basal-bolus insulin (glargine + lispro), indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Inject rapid-acting (lispro) about 15 minutes before a meal or immediately after eating"
+     },
+     {
+      "key": "R2",
+      "text": "Watch for hypoglycemia especially around rapid-acting insulin peak"
+     },
+     {
+      "key": "R3",
+      "text": "Never mix insulin glargine with any other insulin in the same syringe"
+     },
+     {
+      "key": "R4",
+      "text": "Skip all mealtime insulin forever because basal insulin alone covers every carb"
+     },
+     {
+      "key": "R5",
+      "text": "Premix glargine and lispro in one home bottle for convenience without manufacturer guidance"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Rapid-acting is timed to meals.",
+    "R2": "Indicated. Peak action increases hypoglycemia risk.",
+    "R3": "Indicated. Glargine must not be mixed with other insulins.",
+    "R4": "Not indicated. Bolus/prandial coverage is needed for meals in basal-bolus regimens.",
+    "R5": "Not indicated. Do not premix glargine with other insulins."
+   },
+   "sources": [
+    {
+     "title": "28.2 Insulin and Non-Insulin Injectable Diabetes Drugs",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/28-2-insulin-and-non-insulin-injectable-diabetes-drugs",
+     "section": "Rapid-Acting / Long-Acting / Nursing Implications",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Rows R1–R2",
+     "evidence": "Meal timing for rapid-acting; monitor hypoglycemia at peak; long-acting often combined with rapid-/short-acting.",
+     "added_by": "author"
+    },
+    {
+     "title": "Medications for Diabetes Mellitus Treatment",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/diabetes-mellitus-and-hypoglycemia/medications-for-diabetes-mellitus-treatment",
+     "section": "Insulin mixing / Rapid-acting / Long-acting",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Rows R1,R3–R5",
+     "evidence": "Mealtime rapid-acting; glargine never mixed; basal-bolus physiologic regimens.",
+     "added_by": "author"
+    },
+    {
+     "title": "Giving an insulin injection",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000660.htm",
+     "section": "Filling the Syringe — two Types of Insulin",
+     "source_date": "Review Date 7/21/2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Rows R3,R5",
+     "evidence": "Never mix two types unless told; many insulins cannot be mixed; do not mix/dilute concentrated insulin with any other insulin.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bf97674a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + Merck + MedlinePlus insulin dual/triple-cite matrix."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B50-WAVE41",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-PPT-0057",
+   "format": "drop_down_cloze",
+   "specialty": "Pharmacology",
+   "topic": "NGN cloze — rapid-acting with meals; glargine not mixed; hypoglycemia at peak",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "insulin-ngn-cloze-rapid-meals-glargine-peak",
+   "tags": [
+    "NGN",
+    "cloze",
+    "insulin",
+    "PPT"
+   ],
+   "stem": "Complete the insulin safety teaching for a basal-bolus regimen.",
+   "ngn": {
+    "template": "Rapid-acting insulin is given {B1}. Insulin glargine should {B2}. The nurse monitors closely for hypoglycemia especially {B3}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "about 15 minutes before a meal or immediately after a meal"
+      },
+      {
+       "key": "B1b",
+       "text": "once a month only, unrelated to food"
+      },
+      {
+       "key": "B1c",
+       "text": "only when the client has no food available for 24 hours"
+      },
+      {
+       "key": "B1d",
+       "text": "exclusively by crushing tablets into juice"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "never be mixed with any other insulin"
+      },
+      {
+       "key": "B2b",
+       "text": "always be shaken vigorously with NPH in one bottle at home"
+      },
+      {
+       "key": "B2c",
+       "text": "be mixed with lispro in every home syringe without checking"
+      },
+      {
+       "key": "B2d",
+       "text": "be discontinued if meals contain any carbohydrate"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "around the peak action of the insulin"
+      },
+      {
+       "key": "B3b",
+       "text": "only during dental cleanings years later"
+      },
+      {
+       "key": "B3c",
+       "text": "never, because insulin cannot lower glucose"
+      },
+      {
+       "key": "B3d",
+       "text": "only when reading shoe sizes"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a"
+   },
+   "rationales": {
+    "B1a": "Correct. Rapid-acting insulin is meal-timed (~15 min before or immediately after).",
+    "B1b": "Incorrect. Rapid-acting is not a once-monthly unrelated dose.",
+    "B1c": "Incorrect. Meal coverage requires food timing, not prolonged fasting.",
+    "B1d": "Incorrect. Insulin is injected (or inhaled formulations), not crushed tablets.",
+    "B2a": "Correct. Merck: insulin glargine should never be mixed with any other insulin.",
+    "B2b": "Incorrect. Do not mix glargine with NPH in one bottle.",
+    "B2c": "Incorrect. Do not mix glargine with lispro.",
+    "B2d": "Incorrect. Basal insulin is not stopped merely because meals contain carbohydrate.",
+    "B3a": "Correct. Hypoglycemia risk is highest around peak action.",
+    "B3b": "Incorrect. Monitoring is tied to pharmacologic peak, not dental visits.",
+    "B3c": "Incorrect. Insulin lowers glucose; hypoglycemia is a key risk.",
+    "B3d": "Incorrect. Irrelevant."
+   },
+   "sources": [
+    {
+     "title": "28.2 Insulin and Non-Insulin Injectable Diabetes Drugs",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/28-2-insulin-and-non-insulin-injectable-diabetes-drugs",
+     "section": "Rapid-Acting / Peak Time / Nursing Implications",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Blanks B1,B3",
+     "evidence": "Meal timing; monitor for hypoglycemic reaction during peak.",
+     "added_by": "author"
+    },
+    {
+     "title": "Medications for Diabetes Mellitus Treatment",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/diabetes-mellitus-and-hypoglycemia/medications-for-diabetes-mellitus-treatment",
+     "section": "Insulin glargine mixing",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Blank B2",
+     "evidence": "Insulin glargine should never be mixed with any other insulin.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bf97674a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + Merck insulin cloze dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B50-WAVE41",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0056",
+   "format": "multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "MRI safety screening — report implants/devices; remove ferromagnetic objects; unknown devices assumed unsafe until cleared",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "mri-screening-implants-remove-metal-unknown-unsafe",
+   "tags": [
+    "MRI",
+    "safety",
+    "RRP",
+    "gerontology",
+    "screening"
+   ],
+   "stem": "Before an older adult enters the MRI scanner room, which nursing action is the priority safety teaching/screening step?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Screen for implants/devices (e.g., pacemaker, aneurysm clips) and remove ferromagnetic objects; do not proceed with unknown devices until MRI safety status is confirmed"
+    },
+    {
+     "key": "B",
+     "text": "Bring steel oxygen tanks and loose keys into the magnet room to save time"
+    },
+    {
+     "key": "C",
+     "text": "Assume all pacemakers are automatically safe without identifying the model"
+    },
+    {
+     "key": "D",
+     "text": "Skip screening because MRI never interacts with metal"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. RadiologyInfo: screen for implants; remove metallic belongings; magnet can move ferromagnetic objects/implants; some devices may malfunction. FDA: careful screening; patients with implants should not receive MRI unless device is identified as MR Safe or MR Conditional; unknown status assumed MR Unsafe.",
+    "B": "Incorrect. Ferromagnetic objects can become projectiles.",
+    "C": "Incorrect. Exact device type must be known; many require special conditions or are unsafe.",
+    "D": "Incorrect. MRI magnetic fields interact strongly with ferromagnetic materials and some implants."
+   },
+   "sources": [
+    {
+     "title": "MRI Safety",
+     "publisher": "Radiological Society of North America / RadiologyInfo.org",
+     "url": "https://www.radiologyinfo.org/en/info/safety-mr",
+     "section": "How safe is MRI? / How should I prepare",
+     "source_date": "Last reviewed on December 22, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Screening for implants; remove metallic objects; ferromagnetic attraction hazards; pacemakers/ICDs and other implants may be hazards unless cleared.",
+     "added_by": "author"
+    },
+    {
+     "title": "Benefits and Risks",
+     "publisher": "U.S. Food and Drug Administration",
+     "url": "https://www.fda.gov/radiation-emitting-products/mri-magnetic-resonance-imaging/benefits-and-risks",
+     "section": "Risks / Patients with implants",
+     "source_date": "Content current as of FDA MRI page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Strong field attracts magnetic objects — careful screening critical; implants only if MR Safe/Conditional; unknown assumed MR Unsafe.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bf97674a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "RadiologyInfo MRI safety + FDA MRI benefits/risks dual-cite."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B50-WAVE41",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-RRP-0057",
+   "format": "matrix_multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "NGN matrix — MRI safety screening indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "mri-ngn-matrix-screening-remove-metal-implants",
+   "tags": [
+    "NGN",
+    "matrix",
+    "MRI",
+    "RRP",
+    "gerontology"
+   ],
+   "stem": "Before MRI, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Complete a screening form about implants, devices, and metallic fragments"
+     },
+     {
+      "key": "R2",
+      "text": "Remove jewelry, keys, phones, hearing aids, and clothing with metal before entering the magnet room"
+     },
+     {
+      "key": "R3",
+      "text": "Inform MRI staff of a pacemaker/ICD and provide device manufacturer details before scanning"
+     },
+     {
+      "key": "R4",
+      "text": "Carry ferromagnetic tools into the scanner room to adjust the table faster"
+     },
+     {
+      "key": "R5",
+      "text": "Proceed with MRI when implant MRI safety status is unknown without further evaluation"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Comprehensive screening identifies hazards.",
+    "R2": "Indicated. External metal must be removed.",
+    "R3": "Indicated. Device type/manufacturer must be known for MR conditions.",
+    "R4": "Not indicated. Ferromagnetic objects can become projectiles.",
+    "R5": "Not indicated. Unknown devices are treated as MR Unsafe until cleared."
+   },
+   "sources": [
+    {
+     "title": "MRI Safety",
+     "publisher": "Radiological Society of North America / RadiologyInfo.org",
+     "url": "https://www.radiologyinfo.org/en/info/safety-mr",
+     "section": "Preparation / hazard items list",
+     "source_date": "Last reviewed on December 22, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Rows R1–R4",
+     "evidence": "Screening form; remove metallic belongings; list includes pacemakers/ICDs; projectile risk from ferromagnetic objects.",
+     "added_by": "author"
+    },
+    {
+     "title": "Benefits and Risks",
+     "publisher": "U.S. Food and Drug Administration",
+     "url": "https://www.fda.gov/radiation-emitting-products/mri-magnetic-resonance-imaging/benefits-and-risks",
+     "section": "Patients with implants",
+     "source_date": "Content current as of FDA MRI page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Rows R3,R5",
+     "evidence": "Implants only if MR Safe/Conditional; unknown MRI safety status assumed MR Unsafe.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bf97674a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "RadiologyInfo + FDA MRI dual-cite matrix."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B50-WAVE41",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "scoring_model": "zero_one",
+   "id": "ONRN-BCC-0055",
+   "format": "multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "Cataract surgery recovery — protect eye; light activity; avoid heavy lifting/excessive bending; use prescribed drops",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cataract-postop-protect-eye-avoid-heavy-lift-bending-drops",
+   "tags": [
+    "cataract",
+    "postop",
+    "BCC",
+    "gerontology",
+    "teaching"
+   ],
+   "stem": "The nurse teaches an older adult after cataract surgery. Which instruction is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Protect the eye as directed (shield/sunglasses), use prescribed drops, prefer light activity, and avoid heavy lifting and excessive forward bending until cleared"
+    },
+    {
+     "key": "B",
+     "text": "Start heavy weightlifting and vigorous forward bending the evening of surgery to speed healing"
+    },
+    {
+     "key": "C",
+     "text": "Rub the operative eye firmly several times each hour"
+    },
+    {
+     "key": "D",
+     "text": "Stop all prescribed antibiotic/anti-inflammatory eye drops immediately after leaving the OR without orders"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. MedlinePlus: patch/shield as directed; sunglasses; light activities; check before strenuous activity. Merck: activity may be restricted (bending/heavy lifting prohibited); protective shield; avoid rubbing, heavy lifting, excessive forward bending; use prescribed drops.",
+    "B": "Incorrect. Heavy lifting/bending are restricted early after surgery.",
+    "C": "Incorrect. Rubbing the eye is contraindicated.",
+    "D": "Incorrect. Prescribed drops reduce inflammation/infection risk during healing."
+   },
+   "sources": [
+    {
+     "title": "Cataract removal",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/article/002957.htm",
+     "section": "After the Procedure",
+     "source_date": "Review Date 7/24/2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Eye patch; eyedrops; sunglasses; light activities best; check with doctor before strenuous activity.",
+     "added_by": "author"
+    },
+    {
+     "title": "Cataract",
+     "publisher": "Merck Manual Consumer Version",
+     "url": "https://www.merckmanuals.com/home/eye-disorders/cataract/cataract",
+     "section": "Recovery",
+     "source_date": "Last updated: Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Restricted activity (bending/heavy lifting); shield while sleeping; avoid rubbing, heavy lifting, excessive forward bending; steroid/NSAID/antibiotic drops.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-bf97674a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus cataract postop + Merck Consumer recovery dual-cite."
     }
    ],
    "exam_version_published": null,
