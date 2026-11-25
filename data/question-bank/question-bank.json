@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 18,
+  "Source verified": 28,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -1929,6 +1929,1071 @@
     "CNO",
     "Ontario"
    ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B12-WAVE3",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "transfusion",
+    "blood-products",
+    "safety"
+   ],
+   "jurisdiction_note": "",
+   "units_note": "",
+   "id": "ONRN-RRP-0002",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "Fifteen minutes after starting a packed red blood cell transfusion, a client reports chills and new flank pain. Temperature has risen from 36.8°C to 38.2°C. After the nurse stops the transfusion, which concurrent action is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Flush the blood tubing with the remaining packed cells to clear the line."
+    },
+    {
+     "key": "B",
+     "text": "Keep the intravenous line open with normal saline using new tubing, and notify the blood bank."
+    },
+    {
+     "key": "C",
+     "text": "Restart the same unit at a slower rate after giving acetaminophen."
+    },
+    {
+     "key": "D",
+     "text": "Discard the blood bag immediately so it cannot be returned for investigation."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. The transfusion must remain stopped; continuing to infuse residual cells from the implicated unit risks further hemolysis.",
+    "B": "Correct. For suspected transfusion reaction (fever, chills, flank pain), stop the transfusion, keep venous access open with normal saline, and send the remaining product and samples to the blood bank for investigation.",
+    "C": "Incorrect. The same unit must not be restarted. Febrile symptoms can herald acute hemolytic reaction and require investigation first.",
+    "D": "Incorrect. The remainder of the blood product is needed for blood-bank investigation; it should not be discarded."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Transfusion reaction — stop infusion and keep IV open with saline",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "Complications of Transfusion",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/hematology/transfusion-medicine/complications-of-transfusion",
+     "section": "Complications of Transfusion — early recognition",
+     "source_date": "Last updated Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "If chills, fever, dyspnea, flank pain (other than localized urticaria/itching) occur, stop transfusion immediately; keep IV open with normal saline; send remainder of product for investigation; do not restart the unit.",
+     "added_by": "author"
+    },
+    {
+     "title": "13.4 Blood Transfusions",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/13-4-blood-transfusions",
+     "section": "Transfusion Reactions; Managing a Blood or Blood Product Transfusion Reaction",
+     "source_date": "Citation date Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Nurses must recognize transfusion reactions and stop the transfusion; management includes maintaining IV access and following reaction protocols with blood bank notification.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key and all rationales checked against live-fetched Merck (Oct 2026) and OpenStax Clinical Nursing Skills 13.4. Localized urticaria-only exception in Merck is not tested."
+    }
+   ],
+   "enemy_group": "transfusion-reaction-stop-keep-iv-saline",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B12-WAVE3",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "shock",
+    "hypovolemia",
+    "postoperative"
+   ],
+   "jurisdiction_note": "",
+   "units_note": "",
+   "id": "ONRN-PA-0004",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A postoperative client has brisk wound drainage into a surgical drain. The client is anxious. Capillary refill is delayed, skin is cool and clammy, heart rate is 118 beats/min, and blood pressure is 118/78 mm Hg. Which interpretation best fits these findings?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Early compensatory response to hypovolemia; tachycardia can precede frank hypotension."
+    },
+    {
+     "key": "B",
+     "text": "Cardiogenic shock is most likely because blood pressure is still near the client's baseline."
+    },
+    {
+     "key": "C",
+     "text": "Findings are reassuring; hypovolemic shock is excluded until systolic blood pressure falls below 90 mm Hg."
+    },
+    {
+     "key": "D",
+     "text": "Neurogenic shock is most likely because the client is anxious after surgery."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. In early hypovolemic compensation, sympathetic activation raises heart rate and vascular tone; blood pressure may remain normal or only slightly changed while tachycardia, cool clammy skin, and anxiety appear.",
+    "B": "Incorrect. Cardiogenic shock involves pump failure; this picture of volume loss with compensatory tachycardia fits hypovolemia, not a primary cardiac pump problem.",
+    "C": "Incorrect. Hypotension is common in shock but is not required early; clients may be normotensive while compensation is still effective.",
+    "D": "Incorrect. Neurogenic shock typically features bradycardia and warm dry skin from loss of sympathetic tone, not compensatory tachycardia with cool clammy skin."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "Hypovolemic shock — early compensatory tachycardia",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "Shock",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/critical-care-medicine/shock-and-fluid-resuscitation/shock",
+     "section": "Pathophysiology of Shock; Etiology — Hypovolemic shock; Compensation",
+     "source_date": "Last updated Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; rationale C",
+     "evidence": "Symptoms include tachycardia, hypotension, oliguria; hypotension common but not required — some patients normotensive early; hypovolemia triggers sympathetic tachycardia and vasoconstriction.",
+     "added_by": "author"
+    },
+    {
+     "title": "23.2 Hypovolemic Shock",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/23-2-hypovolemic-shock",
+     "section": "Pathophysiology of Hypovolemic Shock; Clinical Manifestations",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; rationales",
+     "evidence": "Early hypovolemic shock: SNS raises heart rate/contractility; BP normal to slightly elevated early; later hypotension with tachycardia; classic signs include tachycardia, cool clammy skin, anxiety.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Keyed early compensation (tachycardia with preserved BP) confirmed in Merck Shock and OpenStax 23.2. Neurogenic contrast from standard shock classification in Merck."
+    }
+   ],
+   "enemy_group": "hypovolemic-shock-early-compensatory-tachycardia",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B12-WAVE3",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn",
+    "canada-us-difference"
+   ],
+   "tags": [
+    "prenatal",
+    "folic-acid",
+    "health-promotion"
+   ],
+   "jurisdiction_note": "Keyed to PHAC healthy-pregnancy guidance (0.4 mg daily multivitamin). Merck recommends 400–800 mcg, which includes the Canadian 0.4 mg teaching point.",
+   "units_note": "",
+   "id": "ONRN-HPM-0002",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "At a preconception visit in Canada, a client who could become pregnant asks what daily folic acid dose is recommended to help prevent neural tube defects, assuming no high-risk history. Which teaching is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Take a daily multivitamin that provides 0.4 mg (400 mcg) of folic acid."
+    },
+    {
+     "key": "B",
+     "text": "Take 4 mg of folic acid daily without speaking with a health-care provider."
+    },
+    {
+     "key": "C",
+     "text": "Folic acid is needed only after the pregnancy is confirmed on ultrasound."
+    },
+    {
+     "key": "D",
+     "text": "Dietary folate alone is sufficient; a supplement is unnecessary for most people."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. PHAC and Merck advise a daily multivitamin with 0.4 mg (400 mcg) folic acid for people who could become pregnant, to reduce neural tube defect risk.",
+    "B": "Incorrect. Higher doses (for example, about 4 mg) are reserved for selected higher-risk situations and require provider guidance; routine self-escalation is not advised.",
+    "C": "Incorrect. Neural tube closure occurs in the first weeks of pregnancy, often before pregnancy is recognized; supplementation should start before conception when possible.",
+    "D": "Incorrect. Diet alone is not enough to reach the folic acid level needed for neural tube defect prevention; a supplement is recommended."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Folic acid — 0.4 mg daily for neural tube defect prevention",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "Canada-specific",
+   "sources": [
+    {
+     "title": "Your Guide to a Healthy Pregnancy — Folic acid",
+     "publisher": "Public Health Agency of Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/public-health/services/health-promotion/healthy-pregnancy/healthy-pregnancy-guide.html",
+     "section": "Folic acid",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; rationales B,C,D",
+     "evidence": "If you could become pregnant, are planning pregnancy or are pregnant, take a multivitamin with 0.4 mg folic acid every day; diet alone is not enough; talk to provider before doses >1 mg.",
+     "added_by": "author"
+    },
+    {
+     "title": "Evaluation of the Obstetric Patient",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/approach-to-the-pregnant-woman-and-prenatal-care/evaluation-of-the-obstetric-patient",
+     "section": "Management — Diet and supplements; Prevention",
+     "source_date": "Last updated Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; rationale B",
+     "evidence": "Advise folic acid 400–800 mcg daily to reduce neural tube defects; prior NTD pregnancy: 4000 mcg (4 mg) daily with timed preconception use.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "PHAC 0.4 mg and Merck 400–800 mcg agree on routine dose; high-dose 4 mg kept as distractor with provider caveat. Maternity flag set."
+    }
+   ],
+   "enemy_group": "folic-acid-0-4mg-ntd-prevention",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B12-WAVE3",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario"
+   ],
+   "tags": [
+    "consent",
+    "ontario",
+    "HCCA",
+    "CNO"
+   ],
+   "jurisdiction_note": "Elements keyed to Ontario HCCA s. 11 and CNO Consent practice guideline (updated July 2025).",
+   "units_note": "",
+   "id": "ONRN-MOC-0003",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "An Ontario nurse reviews what must be included for consent to treatment to be informed under the Health Care Consent Act and CNO Consent guideline. Which pieces of information must be provided? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "The nature of the proposed treatment"
+    },
+    {
+     "key": "B",
+     "text": "The expected benefits of the treatment"
+    },
+    {
+     "key": "C",
+     "text": "The material risks and material side effects of the treatment"
+    },
+    {
+     "key": "D",
+     "text": "Alternative courses of action"
+    },
+    {
+     "key": "E",
+     "text": "The likely consequences of not having the treatment"
+    },
+    {
+     "key": "F",
+     "text": "A guarantee that the treatment will succeed"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. Informed consent requires information about the nature of the treatment.",
+    "B": "Correct. Expected benefits must be explained.",
+    "C": "Correct. Material risks and material side effects must be disclosed.",
+    "D": "Correct. Alternative courses of action must be included.",
+    "E": "Correct. Likely consequences of declining the treatment must be included.",
+    "F": "Incorrect. Neither the HCCA nor CNO requires a guarantee of success; promising certainty is not an element of informed consent."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Informed consent — required information elements (HCCA/CNO)",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Understanding",
+   "jurisdiction": "Ontario-specific",
+   "sources": [
+    {
+     "title": "Consent (Practice Guideline)",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41020_consent.pdf",
+     "section": "What is informed consent?",
+     "source_date": "Updated July 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Keys A–E; rationale F",
+     "evidence": "Information must include nature, expected benefits, material risks and side effects, alternative courses of action, and likely consequences of not having the treatment.",
+     "added_by": "author"
+    },
+    {
+     "title": "Health Care Consent Act, 1996",
+     "publisher": "Government of Ontario (e-Laws)",
+     "url": "https://www.ontario.ca/laws/statute/96h02",
+     "section": "s. 11 — Elements of consent; Informed consent",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "supports": "Keys A–E",
+     "evidence": "Informed consent requires nature, expected benefits, material risks, material side effects, alternatives, and likely consequences of not having the treatment.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "All five keyed elements match CNO Consent and HCCA s.11(3). Guarantee of success is not an element."
+    }
+   ],
+   "enemy_group": "hcca-informed-consent-required-elements",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B12-WAVE3",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "delegation",
+    "management-of-care",
+    "UCP"
+   ],
+   "jurisdiction_note": "Uses NCSBN/ANA national delegation guidelines and OpenStax; Ontario nurses must also follow CNO/employer scope rules (not separately keyed).",
+   "units_note": "",
+   "id": "ONRN-MOC-0004",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An RN is organizing care with an unregulated care provider (UCP/assistive personnel). Which activity must the RN retain and NOT delegate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Assisting a stable client to the bathroom after the RN has assessed mobility"
+    },
+    {
+     "key": "B",
+     "text": "Delivering a meal tray to a client who is able to feed themselves"
+    },
+    {
+     "key": "C",
+     "text": "Performing the initial assessment of a newly admitted client who has new chest pain"
+    },
+    {
+     "key": "D",
+     "text": "Reminding a stable client to use an incentive spirometer as previously taught"
+    }
+   ],
+   "correct_answer": [
+    "C"
+   ],
+   "rationales": {
+    "A": "Incorrect. Assisting with toileting for a stable client after nursing assessment can be an appropriate delegated/assigned supportive task when policy and competence allow.",
+    "B": "Incorrect. Routine delivery of a meal tray does not require nursing judgment and may be assigned to assistive personnel.",
+    "C": "Correct. Clinical reasoning, nursing judgment, and critical decision-making — including assessing a new symptomatic client — cannot be delegated.",
+    "D": "Incorrect. Reminding a stable client to use previously taught incentive spirometry is a supportive task that does not transfer nursing judgment."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "Delegation — nursing judgment cannot be delegated",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "National Guidelines for Nursing Delegation",
+     "publisher": "NCSBN / American Nurses Association",
+     "url": "https://www.ncsbn.org/public-files/NGND-PosPaper_06.pdf",
+     "section": "Delegation principles — nursing judgment",
+     "source_date": "Effective Date: 4/29/2019",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key C",
+     "evidence": "Licensed nurse cannot delegate nursing judgment or any activity involving nursing judgment or critical decision making; clinical reasoning cannot be delegated.",
+     "added_by": "author"
+    },
+    {
+     "title": "15.4 Nursing Standards of Delegation",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/15-4-nursing-standards-of-delegation",
+     "section": "Principles for Delegation",
+     "source_date": "Citation date Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key C; rationales A,B,D",
+     "evidence": "While elements of nursing care may be delegated, the nursing process cannot; decisions consider patient complexity and supervision needs.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key confirmed vs NCSBN/ANA 2019 guidelines and OpenStax 15.4. Distractors are supportive tasks, not nursing judgment."
+    }
+   ],
+   "enemy_group": "delegation-nursing-judgment-cannot-delegate",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B12-WAVE3",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "MRSA",
+    "contact-precautions",
+    "IPAC"
+   ],
+   "jurisdiction_note": "PHO clinical syndromes list Contact (+ Droplet if sputum/coughing). Stem specifies no cough so Contact is keyed; CDC recommends Contact Precautions for MRSA colonization/infection.",
+   "units_note": "",
+   "id": "ONRN-SIPC-0004",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client is newly identified as colonized with methicillin-resistant Staphylococcus aureus (MRSA) on a wound swab. The client has no cough. In addition to routine/standard practices and hand hygiene, which precautions should the nurse initiate for direct care?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Airborne precautions with an N95 respirator as the only required PPE"
+    },
+    {
+     "key": "B",
+     "text": "Contact precautions, including gown and gloves for direct care"
+    },
+    {
+     "key": "C",
+     "text": "Droplet precautions alone, with a surgical mask and no gown"
+    },
+    {
+     "key": "D",
+     "text": "No additional precautions; colonization never requires PPE beyond hand hygiene"
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. MRSA is not managed with airborne precautions; N95-only airborne precautions are for pathogens such as tuberculosis.",
+    "B": "Correct. CDC and Ontario PHO guidance place MRSA on Contact Precautions; gown and gloves are used for direct care in addition to hand hygiene.",
+    "C": "Incorrect. Droplet precautions alone are not the baseline for MRSA colonization without a specified respiratory indication.",
+    "D": "Incorrect. Colonized as well as infected clients with MRSA warrant Contact Precautions in acute care settings per CDC; PHO likewise lists MRSA under Contact Precautions."
+   },
+   "specialty": "Fundamentals",
+   "topic": "MRSA — Contact Precautions with gown and gloves",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "Infection Control Guidance: Preventing MRSA in Healthcare Facilities",
+     "publisher": "Centers for Disease Control and Prevention",
+     "url": "https://www.cdc.gov/mrsa/hcp/infection-control/index.html",
+     "section": "For acute care settings: Contact Precautions",
+     "source_date": "Updated Nov 24, 2026 (page also notes Published May 15, 2024)",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B; rationale D",
+     "evidence": "CDC recommends Contact Precautions for patients colonized or infected with MRSA in inpatient acute care settings.",
+     "added_by": "author"
+    },
+    {
+     "title": "Infection Prevention and Control for Home and Community Care",
+     "publisher": "Public Health Ontario",
+     "url": "https://www.publichealthontario.ca/-/media/Documents/I/25/ipac-home-community-care.pdf",
+     "section": "Contact Precautions — Antibiotic Resistant Organisms / MRSA",
+     "source_date": "1st Revision November 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B",
+     "evidence": "MRSA listed among organisms requiring Contact Precautions; wear gown and gloves when providing direct care.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "CDC Contact Precautions for MRSA colonization/infection and PHO gown/gloves for MRSA direct care confirmed. Droplet add-on for coughing not keyed because stem has no cough."
+    }
+   ],
+   "enemy_group": "mrsa-contact-precautions-gown-gloves",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B12-WAVE3",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "emergency"
+   ],
+   "tags": [
+    "opioids",
+    "naloxone",
+    "respiratory-depression"
+   ],
+   "jurisdiction_note": "",
+   "units_note": "",
+   "id": "ONRN-PPT-0005",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client who received IV morphine becomes difficult to arouse. Respirations are 6 breaths/min and shallow. After supporting the airway and calling for help, which medication should the nurse prepare to reverse the opioid effect?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Flumazenil"
+    },
+    {
+     "key": "B",
+     "text": "Naloxone"
+    },
+    {
+     "key": "C",
+     "text": "Acetylcysteine"
+    },
+    {
+     "key": "D",
+     "text": "Protamine sulfate"
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Flumazenil antagonizes benzodiazepines, not opioids.",
+    "B": "Correct. Naloxone is an opioid antagonist indicated to reverse opioid-induced respiratory depression and overdose.",
+    "C": "Incorrect. Acetylcysteine is the antidote used for acetaminophen toxicity, not opioid overdose.",
+    "D": "Incorrect. Protamine is used to reverse heparin anticoagulation, not opioid effects."
+   },
+   "specialty": "Pharmacology",
+   "topic": "Naloxone — reverse opioid-induced respiratory depression",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "Treatment of Pain — Opioid antagonists",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/pain/treatment-of-pain",
+     "section": "Opioid antagonists",
+     "source_date": "Last updated Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B",
+     "evidence": "Opioid antagonists reverse overdose symptoms, particularly respiratory depression; naloxone is used for this purpose.",
+     "added_by": "author"
+    },
+    {
+     "title": "Naloxone Hydrochloride Injection USP — Product Monograph",
+     "publisher": "Health Canada (Hikma Canada)",
+     "url": "https://pdf.hres.ca/dpd_pm/00065950.PDF",
+     "section": "INDICATIONS AND CLINICAL USE",
+     "source_date": "Date of Preparation: May 13, 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "drug_monograph_label",
+     "supports": "Key B",
+     "evidence": "Indicated for complete or partial reversal of opioid depression, including respiratory depression, and diagnosis of suspected acute opioid overdosage.",
+     "added_by": "author"
+    },
+    {
+     "title": "14.3 Opioid Agonists and Antagonists",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/14-3-opioid-agonists-and-antagonists",
+     "section": "Naloxone Hydrochloride",
+     "source_date": "Citation date May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Naloxone is an opioid receptor antagonist used as antidote for opioid overdose with severe CNS and respiratory depression.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key confirmed vs Merck opioid antagonists, Health Canada PM, and OpenStax. Distractor antidotes are classically different toxicities (benzodiazepine, acetaminophen, heparin)."
+    }
+   ],
+   "enemy_group": "naloxone-reverse-opioid-respiratory-depression",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B12-WAVE3",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "pain",
+    "comfort",
+    "assessment"
+   ],
+   "jurisdiction_note": "",
+   "units_note": "",
+   "id": "ONRN-BCC-0003",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client rates postoperative pain as 8 on a 0–10 numeric scale while talking calmly with visitors. Vital signs are near baseline. Which nursing action best reflects evidence-based pain assessment?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Document the pain as mild because the client is conversing calmly."
+    },
+    {
+     "key": "B",
+     "text": "Accept the client's self-report of pain intensity and proceed with the pain-management plan."
+    },
+    {
+     "key": "C",
+     "text": "Withhold analgesia until vital signs show tachycardia and hypertension."
+    },
+    {
+     "key": "D",
+     "text": "Ask visitors to leave and reassess only after the client appears distressed."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Calm behaviour does not override a client's reported intensity; pain is subjective and may not show outward distress.",
+    "B": "Correct. Pain is a subjective experience; the client's report should be respected and used to guide management.",
+    "C": "Incorrect. Vital-sign changes are inconsistent markers and are not required before treating reported pain.",
+    "D": "Incorrect. Delaying care until visible distress appears dismisses the client's report and is not therapeutic."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Pain assessment — respect client self-report",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Caring",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "Overview of Pain",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/pain/overview-of-pain",
+     "section": "Overview of Pain — key concepts",
+     "source_date": "Last updated Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationale A",
+     "evidence": "Experience of pain is always subjective; an individual's report of pain should always be respected.",
+     "added_by": "author"
+    },
+    {
+     "title": "30.4 Pain Assessment",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/30-4-pain-assessment",
+     "section": "Learning Objectives; Collecting Subjective Data",
+     "source_date": "Citation date Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Pain is a subjective experience and may not be outwardly displayed; comprehensive assessment relies heavily on subjective client data including severity.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Merck (respect self-report; pain subjective) and OpenStax 30.4 agree. Distractors reject self-report based on demeanour/vitals."
+    }
+   ],
+   "enemy_group": "pain-assessment-respect-self-report",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B12-WAVE3",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "heart-failure",
+    "orthopnea",
+    "pulmonary-edema"
+   ],
+   "jurisdiction_note": "",
+   "units_note": "",
+   "id": "ONRN-PA-0005",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with known left-sided heart failure reports increasing shortness of breath when lying flat and needs three pillows to sleep. On auscultation, the nurse hears early inspiratory basilar crackles that do not clear with coughing. Which problem do these findings best indicate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Pulmonary congestion from elevated left-sided filling pressures"
+    },
+    {
+     "key": "B",
+     "text": "Isolated right-sided failure with systemic venous congestion only"
+    },
+    {
+     "key": "C",
+     "text": "Community-acquired pneumonia as the only plausible explanation"
+    },
+    {
+     "key": "D",
+     "text": "Acute hypovolemia from inadequate oral fluid intake"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Left-sided failure causes dyspnea, orthopnea, and pulmonary findings such as basilar crackles from elevated pulmonary venous pressures and pulmonary edema.",
+    "B": "Incorrect. Isolated right-sided failure more classically produces systemic congestion (for example, jugular venous distention, peripheral edema) rather than orthopnea with pulmonary crackles as the primary picture.",
+    "C": "Incorrect. Pneumonia can cause crackles, but orthopnea with known left-sided HF and non-clearing basilar crackles fits pulmonary congestion from HF; pneumonia is not the only or best explanation here.",
+    "D": "Incorrect. Hypovolemia would not explain orthopnea with pulmonary crackles; HF congestion reflects fluid backing into the lungs."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Left-sided heart failure — orthopnea and pulmonary crackles",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "Acute Heart Failure",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/heart-failure/heart-failure-hf",
+     "section": "Symptoms and Signs — History; Examination",
+     "source_date": "Last updated Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "In LV failure, common symptoms are dyspnea and fatigue from increased pulmonary venous pressures with/without pulmonary edema; exam may show early inspiratory basilar crackles that do not clear with coughing.",
+     "added_by": "author"
+    },
+    {
+     "title": "12.3 Heart Failure",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/12-3-heart-failure",
+     "section": "Clinical Manifestations",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Dyspnea and orthopnea (sleeping on more than two pillows) occur; lung assessment may reveal crackles in the pulmonary bases from fluid backing into the lungs.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Orthopnea + non-clearing basilar crackles keyed to LV failure / pulmonary congestion using Merck Acute HF and OpenStax 12.3."
+    }
+   ],
+   "enemy_group": "left-sided-hf-orthopnea-basilar-crackles",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B12-WAVE3",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency",
+    "possible-ambiguity"
+   ],
+   "tags": [
+    "transfusion",
+    "ordered-response",
+    "safety"
+   ],
+   "jurisdiction_note": "",
+   "units_note": "",
+   "id": "ONRN-RRP-0003",
+   "format": "ordered_response",
+   "scoring_model": "dichotomous",
+   "stem": "A client receiving a unit of packed red blood cells develops sudden dyspnea, fever, and back pain. Place the nurse's actions in the correct order from first to last.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Notify the health-care provider and the blood bank, and send the remaining product and required blood samples for investigation."
+    },
+    {
+     "key": "B",
+     "text": "Stop the transfusion immediately."
+    },
+    {
+     "key": "C",
+     "text": "Maintain intravenous access with normal saline (new tubing as per protocol)."
+    },
+    {
+     "key": "D",
+     "text": "Document the event and continue close monitoring of vital signs and urine output."
+    }
+   ],
+   "correct_answer": [
+    "B",
+    "C",
+    "A",
+    "D"
+   ],
+   "rationales": {
+    "B": "Correct (first). Stopping the transfusion immediately is the priority when a reaction is suspected.",
+    "C": "Correct (second). Keep the IV line open with normal saline so access is preserved for treatment and sampling.",
+    "A": "Correct (third). After the infusion is stopped and access secured, notify the provider/blood bank and send the product and samples for investigation.",
+    "D": "Correct (fourth). Documentation and ongoing monitoring continue after immediate safety and reporting steps."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Transfusion reaction — priority action sequence",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "sources": [
+    {
+     "title": "Complications of Transfusion",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/hematology/transfusion-medicine/complications-of-transfusion",
+     "section": "Complications of Transfusion — early recognition",
+     "source_date": "Last updated Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Order B then C then investigation/reporting",
+     "evidence": "Stop transfusion immediately; keep IV open with normal saline; send remainder of product and patient samples to blood bank for investigation.",
+     "added_by": "author"
+    },
+    {
+     "title": "13.4 Blood Transfusions",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/13-4-blood-transfusions",
+     "section": "What If Your Patient Experiences a Transfusion Reaction?; Managing a Blood or Blood Product Transfusion Reaction",
+     "source_date": "Citation date Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Order emphasizing stop first, then protocol management/notification",
+     "evidence": "Nurses must stop the transfusion and follow reaction management protocols including notification and monitoring.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Order keyed stop → keep IV saline → notify/investigate → document/monitor. Same enemy-group family as RRP-0002 but distinct sequence skill; same clinical event type — assign different enemy_group."
+    }
+   ],
+   "enemy_group": "transfusion-reaction-action-sequence",
    "exam_version_published": null,
    "exam_version_provisional": null
   }
