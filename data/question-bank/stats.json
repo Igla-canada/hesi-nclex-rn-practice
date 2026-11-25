@@ -1,9 +1,9 @@
 {
  "generated": "2026-11-25",
- "total_items": 68,
+ "total_items": 81,
  "by_status": {
   "Draft": 0,
-  "Source verified": 68,
+  "Source verified": 81,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -22,7 +22,7 @@
   },
   "SIPC": {
    "Draft": 0,
-   "Source verified": 6,
+   "Source verified": 12,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -67,7 +67,7 @@
   },
   "RRP": {
    "Draft": 0,
-   "Source verified": 8,
+   "Source verified": 15,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -100,32 +100,32 @@
  },
  "all_active": {
   "by_format": {
-   "multiple_choice": 58,
-   "select_all_that_apply": 7,
+   "multiple_choice": 69,
+   "select_all_that_apply": 9,
    "matrix_multiple_choice": 1,
    "calculation": 1,
    "ordered_response": 1
   },
   "by_jurisdiction": {
-   "General (Canada/US concordant)": 58,
+   "General (Canada/US concordant)": 71,
    "Ontario-specific": 5,
    "Canada-specific": 5
   }
  },
- "excluded_draft_topics": 23,
+ "excluded_draft_topics": 27,
  "archived_items": 0,
  "source_citations_by_publisher": {
-  "Merck Manual Professional Edition": 47,
-  "OpenStax — Medical-Surgical Nursing": 19,
-  "OpenStax — Fundamentals of Nursing": 11,
+  "Merck Manual Professional Edition": 57,
+  "OpenStax — Medical-Surgical Nursing": 26,
+  "OpenStax — Fundamentals of Nursing": 13,
   "OpenStax — Pharmacology for Nurses": 10,
+  "U.S. Centers for Disease Control and Prevention (CDC)": 9,
   "OpenStax — Psychiatric-Mental Health Nursing": 7,
   "College of Nurses of Ontario": 5,
-  "U.S. Centers for Disease Control and Prevention (CDC)": 4,
+  "OpenStax — Clinical Nursing Skills": 5,
   "OpenStax — Maternal-Newborn Nursing": 4,
   "Government of Ontario — e-Laws": 3,
   "Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC)": 3,
-  "OpenStax — Clinical Nursing Skills": 3,
   "Public Health Agency of Canada / Canada.ca": 3,
   "Diabetes Canada": 2,
   "Health Canada Drug Product Database — Pharmascience Inc. product monograph": 2,

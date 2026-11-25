@@ -1,6 +1,6 @@
 # Source verification report — Ontario/Canada question bank
 
-**Updated:** 2026-11-25, ~7:05 AM (America/New_York)
+**Updated:** 2026-11-25, ~7:25 AM (America/New_York)
 **Scope:** Author-level **Source verified** only. Not an independent verifier pass. Not clinical review.
 **Rule:** Every keyed answer and rationale rests on sources fetched in-session; citations were not invented.
 
@@ -10,26 +10,26 @@
 
 | Metric | Count |
 | --- | ---: |
-| Items Source verified | **68** |
+| Items Source verified | **81** |
 | Items with independent verifier `confirmed` | 0 |
 | Items clinically reviewed / approved / published | **0** |
-| Excluded draft topics logged | 23 |
+| Excluded draft topics logged | 27 |
 
 ### Citation publishers (citation instances across items)
 
 | Publisher | Citations |
 | --- | ---: |
-| Merck Manual Professional Edition | 47 |
-| OpenStax — Medical-Surgical Nursing | 19 |
-| OpenStax — Fundamentals of Nursing | 11 |
+| Merck Manual Professional Edition | 57 |
+| OpenStax — Medical-Surgical Nursing | 26 |
+| OpenStax — Fundamentals of Nursing | 13 |
 | OpenStax — Pharmacology for Nurses | 10 |
+| U.S. Centers for Disease Control and Prevention (CDC) | 9 |
 | OpenStax — Psychiatric-Mental Health Nursing | 7 |
 | College of Nurses of Ontario | 5 |
-| U.S. Centers for Disease Control and Prevention (CDC) | 4 |
+| OpenStax — Clinical Nursing Skills | 5 |
 | OpenStax — Maternal-Newborn Nursing | 4 |
 | Government of Ontario — e-Laws | 3 |
 | Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC) | 3 |
-| OpenStax — Clinical Nursing Skills | 3 |
 | Public Health Agency of Canada / Canada.ca | 3 |
 | Diabetes Canada | 2 |
 | Health Canada Drug Product Database — Pharmascience Inc. product monograph | 2 |
@@ -57,78 +57,91 @@
 
 | ID | Batch | Format | Client Needs | Jurisdiction | Sources | High-priority clinical review | Flags |
 | --- | --- | --- | --- | --- | ---: | --- | --- |
-| ONRN-MOC-0001 | B00-PILOT | multiple_choice | Management of Care | Ontario-specific | 2 | yes | legal-ontario |
 | ONRN-PA-0001 | B00-PILOT | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 4 | no | lab-range-varies |
 | ONRN-PA-0002 | B00-PILOT | matrix_multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | high-alert-medication, canada-us-difference |
-| ONRN-PPT-0001 | B00-PILOT | calculation | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | dose-calculation |
+| ONRN-MOC-0001 | B00-PILOT | multiple_choice | Management of Care | Ontario-specific | 2 | yes | legal-ontario |
 | ONRN-SIPC-0001 | B00-PILOT | select_all_that_apply | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | canada-us-difference |
+| ONRN-PPT-0001 | B00-PILOT | calculation | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | dose-calculation |
+| ONRN-SIPC-0002 | B11-WAVE2 | multiple_choice | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | — |
+| ONRN-SIPC-0003 | B11-WAVE2 | multiple_choice | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | canada-us-difference |
 | ONRN-BCC-0001 | B11-WAVE2 | multiple_choice | Basic Care and Comfort | General (Canada/US concordant) | 2 | no | — |
 | ONRN-BCC-0002 | B11-WAVE2 | multiple_choice | Basic Care and Comfort | General (Canada/US concordant) | 2 | no | — |
-| ONRN-HPM-0001 | B11-WAVE2 | select_all_that_apply | Health Promotion and Maintenance | General (Canada/US concordant) | 2 | yes | maternity-newborn |
-| ONRN-MOC-0002 | B11-WAVE2 | multiple_choice | Management of Care | Ontario-specific | 2 | no | legal-ontario |
 | ONRN-PA-0003 | B11-WAVE2 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | high-alert-medication, lab-range-varies |
 | ONRN-PPT-0002 | B11-WAVE2 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | high-alert-medication, lab-range-varies |
 | ONRN-PPT-0003 | B11-WAVE2 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | high-alert-medication |
 | ONRN-PPT-0004 | B11-WAVE2 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | high-alert-medication |
+| ONRN-RRP-0001 | B11-WAVE2 | multiple_choice | Reduction of Risk Potential | Canada-specific | 2 | yes | emergency, canada-us-difference |
+| ONRN-HPM-0001 | B11-WAVE2 | select_all_that_apply | Health Promotion and Maintenance | General (Canada/US concordant) | 2 | yes | maternity-newborn |
 | ONRN-PSY-0001 | B11-WAVE2 | multiple_choice | Psychosocial Integrity | General (Canada/US concordant) | 2 | yes | mental-health-safety |
 | ONRN-PSY-0002 | B11-WAVE2 | multiple_choice | Psychosocial Integrity | General (Canada/US concordant) | 2 | no | — |
-| ONRN-RRP-0001 | B11-WAVE2 | multiple_choice | Reduction of Risk Potential | Canada-specific | 2 | yes | emergency, canada-us-difference |
-| ONRN-SIPC-0002 | B11-WAVE2 | multiple_choice | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | — |
-| ONRN-SIPC-0003 | B11-WAVE2 | multiple_choice | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | canada-us-difference |
-| ONRN-BCC-0003 | B12-WAVE3 | multiple_choice | Basic Care and Comfort | General (Canada/US concordant) | 2 | no | — |
+| ONRN-MOC-0002 | B11-WAVE2 | multiple_choice | Management of Care | Ontario-specific | 2 | no | legal-ontario |
+| ONRN-RRP-0002 | B12-WAVE3 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | emergency |
+| ONRN-PA-0004 | B12-WAVE3 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | emergency |
 | ONRN-HPM-0002 | B12-WAVE3 | multiple_choice | Health Promotion and Maintenance | Canada-specific | 2 | yes | maternity-newborn, canada-us-difference |
 | ONRN-MOC-0003 | B12-WAVE3 | select_all_that_apply | Management of Care | Ontario-specific | 2 | yes | legal-ontario |
 | ONRN-MOC-0004 | B12-WAVE3 | multiple_choice | Management of Care | General (Canada/US concordant) | 2 | no | — |
-| ONRN-PA-0004 | B12-WAVE3 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | emergency |
-| ONRN-PA-0005 | B12-WAVE3 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | no | — |
-| ONRN-PPT-0005 | B12-WAVE3 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 3 | yes | high-alert-medication, emergency |
-| ONRN-RRP-0002 | B12-WAVE3 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | emergency |
-| ONRN-RRP-0003 | B12-WAVE3 | ordered_response | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | emergency, possible-ambiguity |
 | ONRN-SIPC-0004 | B12-WAVE3 | multiple_choice | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | — |
-| ONRN-HPM-0003 | B13-WAVE4 | multiple_choice | Health Promotion and Maintenance | General (Canada/US concordant) | 2 | yes | maternity-newborn |
-| ONRN-HPM-0004 | B13-WAVE4 | multiple_choice | Health Promotion and Maintenance | General (Canada/US concordant) | 2 | yes | maternity-newborn |
-| ONRN-MOC-0005 | B13-WAVE4 | multiple_choice | Management of Care | Ontario-specific | 2 | yes | legal-ontario, guideline-version-sensitive |
-| ONRN-PSY-0004 | B13-WAVE4 | select_all_that_apply | Psychosocial Integrity | General (Canada/US concordant) | 2 | yes | mental-health-safety, high-alert-medication |
-| ONRN-PSY-0005 | B13-WAVE4 | multiple_choice | Psychosocial Integrity | General (Canada/US concordant) | 2 | yes | mental-health-safety |
+| ONRN-PPT-0005 | B12-WAVE3 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 3 | yes | high-alert-medication, emergency |
+| ONRN-BCC-0003 | B12-WAVE3 | multiple_choice | Basic Care and Comfort | General (Canada/US concordant) | 2 | no | — |
+| ONRN-PA-0005 | B12-WAVE3 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | no | — |
+| ONRN-RRP-0003 | B12-WAVE3 | ordered_response | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | emergency, possible-ambiguity |
 | ONRN-RRP-0004 | B13-WAVE4 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | no | — |
 | ONRN-RRP-0005 | B13-WAVE4 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 3 | no | — |
-| ONRN-RRP-0006 | B13-WAVE4 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | emergency |
+| ONRN-HPM-0003 | B13-WAVE4 | multiple_choice | Health Promotion and Maintenance | General (Canada/US concordant) | 2 | yes | maternity-newborn |
+| ONRN-HPM-0004 | B13-WAVE4 | multiple_choice | Health Promotion and Maintenance | General (Canada/US concordant) | 2 | yes | maternity-newborn |
+| ONRN-PSY-0004 | B13-WAVE4 | select_all_that_apply | Psychosocial Integrity | General (Canada/US concordant) | 2 | yes | mental-health-safety, high-alert-medication |
+| ONRN-PSY-0005 | B13-WAVE4 | multiple_choice | Psychosocial Integrity | General (Canada/US concordant) | 2 | yes | mental-health-safety |
 | ONRN-SIPC-0005 | B13-WAVE4 | multiple_choice | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | — |
+| ONRN-MOC-0005 | B13-WAVE4 | multiple_choice | Management of Care | Ontario-specific | 2 | yes | legal-ontario, guideline-version-sensitive |
+| ONRN-RRP-0006 | B13-WAVE4 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | emergency |
 | ONRN-BCC-0004 | B14-WAVE5 | multiple_choice | Basic Care and Comfort | General (Canada/US concordant) | 2 | no | — |
 | ONRN-BCC-0005 | B14-WAVE5 | multiple_choice | Basic Care and Comfort | General (Canada/US concordant) | 2 | no | — |
 | ONRN-HPM-0005 | B14-WAVE5 | select_all_that_apply | Health Promotion and Maintenance | Canada-specific | 3 | yes | maternity-newborn, pediatric, canada-us-difference |
+| ONRN-PSY-0003 | B14-WAVE5 | multiple_choice | Psychosocial Integrity | General (Canada/US concordant) | 2 | yes | mental-health-safety |
 | ONRN-PA-0006 | B14-WAVE5 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | emergency |
 | ONRN-PPT-0006 | B14-WAVE5 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | no | — |
 | ONRN-PPT-0007 | B14-WAVE5 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | high-alert-medication |
-| ONRN-PSY-0003 | B14-WAVE5 | multiple_choice | Psychosocial Integrity | General (Canada/US concordant) | 2 | yes | mental-health-safety |
-| ONRN-PA-0007 | B15-WAVE6 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | emergency, high-alert-medication, possible-ambiguity |
-| ONRN-PA-0008 | B15-WAVE6 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | no | — |
-| ONRN-PA-0009 | B15-WAVE6 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | no | — |
-| ONRN-PA-0010 | B15-WAVE6 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | lab-range-varies |
+| ONRN-RRP-0007 | B15-WAVE6 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | lab-range-varies |
+| ONRN-RRP-0008 | B15-WAVE6 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | — |
 | ONRN-PPT-0008 | B15-WAVE6 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | high-alert-medication, lab-range-varies |
 | ONRN-PPT-0009 | B15-WAVE6 | multiple_choice | Pharmacological and Parenteral Therapies | Canada-specific | 2 | yes | canada-us-difference, high-alert-medication |
 | ONRN-PPT-0010 | B15-WAVE6 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | no | — |
 | ONRN-PPT-0011 | B15-WAVE6 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | high-alert-medication, canada-us-difference |
 | ONRN-PPT-0012 | B15-WAVE6 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | high-alert-medication, dose-calculation |
-| ONRN-RRP-0007 | B15-WAVE6 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | lab-range-varies |
-| ONRN-RRP-0008 | B15-WAVE6 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | — |
+| ONRN-PA-0007 | B15-WAVE6 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | emergency, high-alert-medication, possible-ambiguity |
+| ONRN-PA-0008 | B15-WAVE6 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | no | — |
+| ONRN-PA-0009 | B15-WAVE6 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | no | — |
 | ONRN-SIPC-0006 | B15-WAVE6 | select_all_that_apply | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | — |
+| ONRN-PA-0010 | B15-WAVE6 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | lab-range-varies |
 | ONRN-BCC-0006 | B16-WAVE7 | multiple_choice | Basic Care and Comfort | General (Canada/US concordant) | 2 | no | — |
 | ONRN-BCC-0007 | B16-WAVE7 | multiple_choice | Basic Care and Comfort | General (Canada/US concordant) | 2 | no | — |
 | ONRN-BCC-0008 | B16-WAVE7 | multiple_choice | Basic Care and Comfort | General (Canada/US concordant) | 2 | no | — |
 | ONRN-HPM-0006 | B16-WAVE7 | multiple_choice | Health Promotion and Maintenance | Canada-specific | 2 | yes | maternity-newborn, canada-us-difference |
 | ONRN-HPM-0007 | B16-WAVE7 | multiple_choice | Health Promotion and Maintenance | General (Canada/US concordant) | 2 | no | — |
 | ONRN-HPM-0008 | B16-WAVE7 | multiple_choice | Health Promotion and Maintenance | General (Canada/US concordant) | 2 | no | — |
-| ONRN-HPM-0009 | B16-WAVE7 | select_all_that_apply | Health Promotion and Maintenance | General (Canada/US concordant) | 2 | no | — |
-| ONRN-MOC-0006 | B16-WAVE7 | multiple_choice | Management of Care | Ontario-specific | 2 | yes | legal-ontario |
-| ONRN-MOC-0007 | B16-WAVE7 | multiple_choice | Management of Care | General (Canada/US concordant) | 2 | no | canada-us-difference |
 | ONRN-PSY-0006 | B16-WAVE7 | multiple_choice | Psychosocial Integrity | General (Canada/US concordant) | 2 | yes | mental-health-safety |
 | ONRN-PSY-0007 | B16-WAVE7 | multiple_choice | Psychosocial Integrity | General (Canada/US concordant) | 2 | yes | mental-health-safety |
 | ONRN-PSY-0008 | B16-WAVE7 | multiple_choice | Psychosocial Integrity | General (Canada/US concordant) | 2 | no | — |
+| ONRN-MOC-0006 | B16-WAVE7 | multiple_choice | Management of Care | Ontario-specific | 2 | yes | legal-ontario |
+| ONRN-MOC-0007 | B16-WAVE7 | multiple_choice | Management of Care | General (Canada/US concordant) | 2 | no | canada-us-difference |
+| ONRN-HPM-0009 | B16-WAVE7 | select_all_that_apply | Health Promotion and Maintenance | General (Canada/US concordant) | 2 | no | — |
+| ONRN-SIPC-0007 | B17-WAVE8 | multiple_choice | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | — |
+| ONRN-SIPC-0008 | B17-WAVE8 | multiple_choice | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | — |
+| ONRN-SIPC-0009 | B17-WAVE8 | multiple_choice | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | — |
+| ONRN-SIPC-0010 | B17-WAVE8 | multiple_choice | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | — |
+| ONRN-SIPC-0011 | B17-WAVE8 | multiple_choice | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | — |
+| ONRN-SIPC-0012 | B17-WAVE8 | select_all_that_apply | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | — |
+| ONRN-RRP-0009 | B17-WAVE8 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | emergency |
+| ONRN-RRP-0010 | B17-WAVE8 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | no | lab-range-varies |
+| ONRN-RRP-0011 | B17-WAVE8 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | no | lab-range-varies |
+| ONRN-RRP-0012 | B17-WAVE8 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | emergency |
+| ONRN-RRP-0013 | B17-WAVE8 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | no | — |
+| ONRN-RRP-0014 | B17-WAVE8 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | no | — |
+| ONRN-RRP-0015 | B17-WAVE8 | select_all_that_apply | Reduction of Risk Potential | General (Canada/US concordant) | 2 | no | — |
 
 ---
 
 ## Notes
 
-- Wave 7 (`B16-WAVE7`): 12 dual-cited items focused on MOC/HPM/PSY/BCC; validator `TOTAL ERRORS: 0`.
+- Wave 8 (`B17-WAVE8`): 13 dual-cited items focused on SIPC/RRP; validator `TOTAL ERRORS: 0`.
 - Approved / clinically reviewed remains **0** until licensed clinician review.

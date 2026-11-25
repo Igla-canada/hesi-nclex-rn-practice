@@ -1,6 +1,6 @@
 # Question bank status — Ontario/Canada HESI/NCLEX practice
 
-**Updated:** 2026-11-25, ~7:05 AM (America/New_York)  
+**Updated:** 2026-11-25, ~7:25 AM (America/New_York)  
 **Honesty:** Counts below are **actual**. AI authoring may reach **Source verified** only. **Published / clinically reviewed = 0.** No claim of HESI/NCLEX item authenticity.
 
 Companion: [source-verification-report.md](./source-verification-report.md) · bank root: `/cursor/stores/self/internal/question-bank/`
@@ -11,16 +11,16 @@ Companion: [source-verification-report.md](./source-verification-report.md) · b
 
 | Metric | Count |
 | --- | ---: |
-| **Total active items** | **68** |
-| **Source verified** | **68** |
+| **Total active items** | **81** |
+| **Source verified** | **81** |
 | Awaiting clinical review | 0 |
 | Clinically reviewed | 0 |
 | Approved / published | **0** |
 | Draft (in compiled bank) | 0 |
 | Archived | 0 |
-| Excluded draft topics (logged) | 23 |
+| Excluded draft topics (logged) | 27 |
 
-Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after merge of `B00-PILOT` + `B11-WAVE2` + `B12-WAVE3` + `B13-WAVE4` + `B14-WAVE5` + `B15-WAVE6` + `B16-WAVE7`.
+Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after merge of `B00-PILOT` + `B11-WAVE2` + `B12-WAVE3` + `B13-WAVE4` + `B14-WAVE5` + `B15-WAVE6` + `B16-WAVE7` + `B17-WAVE8`.
 
 ---
 
@@ -29,17 +29,17 @@ Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after mer
 | Code | Subcategory | Source verified | Gap vs 150-item form quota* |
 | --- | --- | ---: | ---: |
 | MOC | Management of Care | 7 | 20 |
-| SIPC | Safety and Infection Prevention and Control | 6 | 14 |
+| SIPC | Safety and Infection Prevention and Control | 12 | 8 |
 | HPM | Health Promotion and Maintenance | 9 | 4 |
 | PSY | Psychosocial Integrity | 8 | 5 |
 | BCC | Basic Care and Comfort | 8 | 5 |
 | PPT | Pharmacological and Parenteral Therapies | 12 | 12 |
-| RRP | Reduction of Risk Potential | 8 | 10 |
+| RRP | Reduction of Risk Potential | 15 | 3 |
 | PA | Physiological Adaptation | 10 | 11 |
 
 *Quota for one 150-item HESI-style form (see blueprint). Five forms need ~750 Source-verified → clinically reviewed items. **No form is publishable yet.**
 
-Wave 7 raised thinner Client Needs (MOC 5→7, HPM 5→9, PSY 5→8, BCC 5→8) with dual-cited originals.
+Wave 8 raised thinner Client Needs (SIPC 6→12, RRP 8→15) with dual-cited originals (Merck, OpenStax, CDC).
 
 ---
 
@@ -47,15 +47,15 @@ Wave 7 raised thinner Client Needs (MOC 5→7, HPM 5→9, PSY 5→8, BCC 5→8) 
 
 | Format | n |
 | --- | ---: |
-| multiple_choice | 58 |
-| select_all_that_apply | 7 |
+| multiple_choice | 69 |
+| select_all_that_apply | 9 |
 | matrix_multiple_choice | 1 |
 | calculation | 1 |
 | ordered_response | 1 |
 
 | Jurisdiction | n |
 | --- | ---: |
-| General (Canada/US concordant) | 58 |
+| General (Canada/US concordant) | 71 |
 | Ontario-specific | 5 |
 | Canada-specific | 5 |
 
@@ -72,6 +72,7 @@ Wave 7 raised thinner Client Needs (MOC 5→7, HPM 5→9, PSY 5→8, BCC 5→8) 
 | B14-WAVE5 | 7 | Source verified (wave 5 — BCC/HPM/PSY + PPT/PA) |
 | B15-WAVE6 | 12 | Source verified (wave 6 — PPT/PA/RRP/SIPC focus) |
 | B16-WAVE7 | 12 | Source verified (wave 7 — MOC/HPM/PSY/BCC focus) |
+| B17-WAVE8 | 13 | Source verified (wave 8 — SIPC/RRP focus) |
 | B01–B10 | 0 JSON | Prior fetch logs only; no authored batches completed |
 
 ---
@@ -93,7 +94,7 @@ Compiled bank copied into the GitHub app repo under `data/question-bank/` with a
 
 ## Next priorities
 
-1. Independent verifier pass on B00 + B11 + B12 + B13 + B14 + B15 + B16 → Awaiting clinical review.  
-2. Licensed clinician review (especially high-priority: digoxin, warfarin, DKA, suicide, maternity/RhIg/safe sleep/skin-to-skin, Ontario legal/privacy/consent refusal, dose calc, transfusion, naloxone, alcohol withdrawal, febrile neutropenia, seizure airway, insulin peak, hallucinations, heparin aPTT, metformin/contrast, IV potassium, anaphylaxis epinephrine, beta-blocker bradycardia, IPV screening).  
-3. Continue authoring toward blueprint gaps (MOC still largest; SIPC, PA, RRP, PPT form-level gaps remain) with live-fetched dual sources only.  
+1. Independent verifier pass on B00 + B11–B17 → Awaiting clinical review.  
+2. Licensed clinician review (especially high-priority: digoxin, warfarin, DKA, suicide, maternity/RhIg/safe sleep/skin-to-skin, Ontario legal/privacy/consent refusal, dose calc, transfusion, naloxone, alcohol withdrawal, febrile neutropenia, seizure airway, insulin peak, hallucinations, heparin aPTT, metformin/contrast, IV potassium, anaphylaxis epinephrine, beta-blocker bradycardia, IPV screening, compartment syndrome).  
+3. Continue authoring toward blueprint gaps (MOC still largest; PA and PPT form-level gaps remain; SIPC/RRP narrowed) with live-fetched dual sources only.  
 4. Do **not** pad counts; exclude when a second independent source cannot be confirmed.

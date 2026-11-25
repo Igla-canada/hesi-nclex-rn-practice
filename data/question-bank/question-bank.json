@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 68,
+  "Source verified": 81,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -7213,6 +7213,1379 @@
      "by": "AI author (Composer, Cursor subagent bc-b6799b38) — not a licensed clinician",
      "date": "2026-11-25",
      "result": "SATA keys dual-confirmed vs Merck Osteoporosis risk-factor modification and OpenStax 13.1 lifestyle table. Near-overlap with ONRN-HPM-0007 accepted as SATA expansion of same teaching cluster with distinct enemy_group."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B17-WAVE8",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "integrated_process": "Nursing Process",
+   "id": "ONRN-SIPC-0007",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "After completing a venipuncture with a nonsafety needle and syringe, which action best reduces the risk of needlestick injury?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Recap the used needle carefully using both hands before carrying it to the utility room."
+    },
+    {
+     "key": "B",
+     "text": "Place the used needle and attached device immediately into a marked sharps container without recapping."
+    },
+    {
+     "key": "C",
+     "text": "Leave the uncapped needle on the bedside table until housekeeping empties the room."
+    },
+    {
+     "key": "D",
+     "text": "Bend the needle tip against a hard surface so it cannot puncture skin, then discard in regular trash."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Recapping used nonsafety needles increases needlestick risk and is not recommended when a sharps container is available.",
+    "B": "Correct. Used blood-collection devices should be deposited immediately into an appropriate sharps container; OpenStax likewise directs immediate disposal in a marked sharps container and never recapping a used needle.",
+    "C": "Incorrect. Leaving uncapped needles exposed creates an occupational hazard for staff and others.",
+    "D": "Incorrect. Bending needles and discarding sharps in regular trash are unsafe practices that increase injury and blood-borne pathogen risk."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Sharps safety — never recap used needle; immediate sharps-container disposal",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "sharps-no-recap-immediate-container",
+   "tags": [
+    "sharps",
+    "needlestick",
+    "standard-precautions",
+    "occupational-safety"
+   ],
+   "sources": [
+    {
+     "title": "How To Do Venous Blood Sampling",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/critical-care-medicine/how-to-do-peripheral-vascular-procedures/how-to-do-venous-blood-sampling",
+     "section": "Additional Considerations",
+     "source_date": "Last updated Oct 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Deposit used devices into appropriate container immediately; do not recap nonsafety needles before disposal.",
+     "added_by": "author"
+    },
+    {
+     "title": "10.4 Infection Control and Patient Safety",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/10-4-infection-control-and-patient-safety",
+     "section": "QSEN Competency: Safety: Disposing Sharps Safely",
+     "source_date": "Citation date Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Dispose of sharps in a marked container immediately after use; never recap a used needle.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-3739509a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: Merck venous sampling Additional Considerations (no recap; immediate container) + OpenStax Fundamentals 10.4 sharps QSEN."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B17-WAVE8",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "integrated_process": "Nursing Process",
+   "id": "ONRN-SIPC-0008",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "The nurse prepares to irrigate a bleeding wound that is likely to splash blood and body fluids. Which personal protective equipment is most appropriate in addition to gloves?",
+   "options": [
+    {
+     "key": "A",
+     "text": "No additional PPE is needed because gloves alone provide complete mucous-membrane protection."
+    },
+    {
+     "key": "B",
+     "text": "Protective eyewear such as goggles or a face shield to protect the eyes (and face as indicated) from splashes."
+    },
+    {
+     "key": "C",
+     "text": "An N95 respirator only, without eye or face barrier protection."
+    },
+    {
+     "key": "D",
+     "text": "Shoe covers alone, without any eye or face protection."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Gloves protect hands but do not protect eye, nose, or mouth mucous membranes from splashes.",
+    "B": "Correct. Eyewear/face shields are indicated for tasks that may produce splashes of blood or body fluids; CDC Standard Precautions likewise require PPE for eyes, nose, and mouth during splash-generating procedures.",
+    "C": "Incorrect. An N95 alone does not address splash protection of the eyes and is selected for airborne/aerosol risks, not as a substitute for eye protection during splash-generating wound care.",
+    "D": "Incorrect. Shoe covers do not protect facial mucous membranes from splashes."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Standard Precautions — eye/face protection for splash-generating procedures",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "ppe-eye-protection-splash-procedures",
+   "tags": [
+    "PPE",
+    "eye-protection",
+    "standard-precautions",
+    "splash"
+   ],
+   "sources": [
+    {
+     "title": "6.2 Asepsis and PPE",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/6-2-asepsis-and-ppe",
+     "section": "Eyewear and Shields",
+     "source_date": "Citation date Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Eyewear and shields protect eyes, nose, and mouth when tasks could produce splashes of bodily fluids or blood.",
+     "added_by": "author"
+    },
+    {
+     "title": "CDC Isolation Precautions Recommendations",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/recommendations.html",
+     "section": "IV.B.4. Mouth, nose, eye protection",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B",
+     "evidence": "Use PPE to protect mucous membranes of eyes, nose, and mouth during procedures likely to generate splashes or sprays of blood/body fluids.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-3739509a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: OpenStax Clinical Skills 6.2 Eyewear and Shields + CDC Isolation Precautions IV.B.4. Merck wound-care PPE list also concordant (face mask, safety glasses/face shield)."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B17-WAVE8",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "integrated_process": "Nursing Process",
+   "id": "ONRN-SIPC-0009",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A nursing student asks when Standard Precautions should be used. Which response by the nurse is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Only for clients with a confirmed multidrug-resistant organism."
+    },
+    {
+     "key": "B",
+     "text": "For all clients, regardless of diagnosis or presumed infection status."
+    },
+    {
+     "key": "C",
+     "text": "Only during sterile surgical procedures in the operating room."
+    },
+    {
+     "key": "D",
+     "text": "Only after laboratory confirmation of a blood-borne infection."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Multidrug-resistant organisms typically require Transmission-Based Precautions in addition to Standard Precautions, not Standard Precautions alone as the only time they apply.",
+    "B": "Correct. Standard Precautions are the first tier of infection control and apply to all patients regardless of diagnosis or presumed infection status; CDC likewise recommends Standard Precautions for all patient interactions.",
+    "C": "Incorrect. Surgical asepsis is procedure-specific; Standard Precautions apply broadly across care settings, not only in the OR.",
+    "D": "Incorrect. Waiting for laboratory confirmation would leave unprotected exposures; Standard Precautions assume all blood and body fluids may be infectious."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Standard Precautions — apply to all clients regardless of diagnosis",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Recognize Cues",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "standard-precautions-all-patients",
+   "tags": [
+    "standard-precautions",
+    "infection-control"
+   ],
+   "sources": [
+    {
+     "title": "10.4 Infection Control and Patient Safety",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/10-4-infection-control-and-patient-safety",
+     "section": "Standard Precautions: Tier 1",
+     "source_date": "Citation date Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Standard precautions apply to all patients, regardless of their diagnosis or presumed infection status.",
+     "added_by": "author"
+    },
+    {
+     "title": "CDC Isolation Precautions Recommendations",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/recommendations.html",
+     "section": "VI.F.1; IV. Standard Precautions",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B",
+     "evidence": "Use Standard Precautions as recommended for all patient interactions (Category IA).",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-3739509a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: OpenStax Fundamentals 10.4 Standard Precautions Tier 1 + CDC Isolation Precautions VI.F.1 all patient interactions."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B17-WAVE8",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "integrated_process": "Nursing Process",
+   "id": "ONRN-SIPC-0010",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "Which nursing action is the most effective strategy to prevent catheter-associated urinary tract infection (CAUTI) in a hospitalized adult?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Leave the indwelling catheter in place indefinitely once inserted to avoid repeated catheterization."
+    },
+    {
+     "key": "B",
+     "text": "Avoid unnecessary catheterization and remove the indwelling catheter as soon as it is no longer needed."
+    },
+    {
+     "key": "C",
+     "text": "Open the closed drainage system daily to irrigate with antiseptic solution."
+    },
+    {
+     "key": "D",
+     "text": "Insert an indwelling catheter for convenience when managing incontinence without other indications."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Prolonged catheterization is the major CAUTI risk factor; catheters should not remain indefinitely without indication.",
+    "B": "Correct. The most effective preventive measures are avoiding unnecessary catheterization and removing catheters as soon as possible; CDC likewise recommends inserting only for appropriate indications and leaving in place only as long as needed.",
+    "C": "Incorrect. Maintaining a closed drainage system reduces risk; routinely opening the system for antiseptic irrigation is not recommended prevention.",
+    "D": "Incorrect. Using catheters solely to manage incontinence is an avoidable indication that increases CAUTI risk."
+   },
+   "specialty": "Fundamentals",
+   "topic": "CAUTI prevention — avoid unnecessary catheters; remove as soon as possible",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cauti-remove-catheter-asap",
+   "tags": [
+    "CAUTI",
+    "catheter",
+    "infection-prevention"
+   ],
+   "sources": [
+    {
+     "title": "Catheter-Associated Urinary Tract Infections",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/urinary-tract-infections/catheter-associated-urinary-tract-infections",
+     "section": "Prevention of Catheter-Associated UTIs",
+     "source_date": "Last updated Mar 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Most effective preventive measures: avoiding catheterization and removing catheters as soon as possible; maintain closed drainage.",
+     "added_by": "author"
+    },
+    {
+     "title": "Prevention of Catheter-Associated Urinary Tract Infections: Summary of Recommendations",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/cauti/summary-of-recommendations.html",
+     "section": "I. Appropriate Urinary Catheter Use (I.A, I.A.1, I.A.2)",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B; rationales A,D",
+     "evidence": "Insert catheters only for appropriate indications and leave in place only as long as needed; avoid catheters for incontinence management.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-3739509a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: Merck CAUTI Prevention + CDC CAUTI guideline I.A/I.A.1/I.A.2. Distinct from excluded bag-below-bladder topic."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B17-WAVE8",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "integrated_process": "Nursing Process",
+   "id": "ONRN-SIPC-0011",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "After providing care that required gloves, the nurse prepares to see the next client. Which practice is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Wash the same pair of gloves with soap and water and reuse them for the next client."
+    },
+    {
+     "key": "B",
+     "text": "Remove the gloves after the client encounter, perform hand hygiene, and don a new pair for the next client."
+    },
+    {
+     "key": "C",
+     "text": "Keep the same gloves on between clients if neither client has a known infection."
+    },
+    {
+     "key": "D",
+     "text": "Remove gloves only at the end of the shift to conserve supplies."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Washing gloves for reuse has been associated with pathogen transmission and is not acceptable.",
+    "B": "Correct. Gloves are single-use; remove them after contact with a client/environment and perform hand hygiene; do not wear the same pair for more than one patient.",
+    "C": "Incorrect. The same gloves must not be worn for care of more than one patient, regardless of known infection status.",
+    "D": "Incorrect. Delayed glove removal contaminates the environment and hands and violates Standard Precautions."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Glove use — single-use; remove and hand hygiene between clients",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "gloves-single-use-hand-hygiene-between-clients",
+   "tags": [
+    "gloves",
+    "PPE",
+    "hand-hygiene",
+    "standard-precautions"
+   ],
+   "sources": [
+    {
+     "title": "6.2 Asepsis and PPE",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/6-2-asepsis-and-ppe",
+     "section": "Gloves",
+     "source_date": "Citation date Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Remove gloves and perform hand hygiene after contact ends; the same pair of gloves should never be worn more than once.",
+     "added_by": "author"
+    },
+    {
+     "title": "CDC Isolation Precautions Recommendations",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/recommendations.html",
+     "section": "IV.B.2. Gloves (IV.B.2.c); IV.A.3.f hand hygiene after removing gloves",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B",
+     "evidence": "Do not wear the same pair of gloves for more than one patient; do not wash gloves for reuse; hand hygiene after removing gloves.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-3739509a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: OpenStax Clinical Skills 6.2 Gloves + CDC Isolation Precautions IV.B.2.c and IV.A.3.f."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B17-WAVE8",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "integrated_process": "Nursing Process",
+   "id": "ONRN-SIPC-0012",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "Which actions help reduce the risk of catheter-associated urinary tract infection (CAUTI)? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Insert an indwelling catheter only when there is an appropriate clinical indication."
+    },
+    {
+     "key": "B",
+     "text": "Remove the indwelling catheter as soon as it is no longer needed."
+    },
+    {
+     "key": "C",
+     "text": "Maintain a closed urinary drainage system."
+    },
+    {
+     "key": "D",
+     "text": "Use an indwelling catheter routinely for all incontinent nursing-home residents without other indications."
+    },
+    {
+     "key": "E",
+     "text": "Open the drainage system daily to culture the bag routinely in asymptomatic clients."
+    },
+    {
+     "key": "F",
+     "text": "Use aseptic technique for catheter insertion."
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "F"
+   ],
+   "rationales": {
+    "A": "Correct. Catheters should be inserted only for appropriate indications.",
+    "B": "Correct. Prompt removal when no longer needed is a core CAUTI prevention strategy.",
+    "C": "Correct. Maintaining a closed drainage system reduces infection risk.",
+    "D": "Incorrect. Avoid using catheters solely to manage incontinence.",
+    "E": "Incorrect. Routinely opening the system for asymptomatic culture of the bag breaks closed drainage and is not recommended prevention.",
+    "F": "Correct. Aseptic insertion technique is part of CAUTI prevention bundles."
+   },
+   "specialty": "Fundamentals",
+   "topic": "CAUTI prevention SATA — indication, prompt removal, closed system, asepsis",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cauti-prevention-sata-indication-removal-closed-asepsis",
+   "tags": [
+    "CAUTI",
+    "SATA",
+    "catheter",
+    "infection-prevention"
+   ],
+   "sources": [
+    {
+     "title": "Catheter-Associated Urinary Tract Infections",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/urinary-tract-infections/catheter-associated-urinary-tract-infections",
+     "section": "Prevention of Catheter-Associated UTIs; Key Points",
+     "source_date": "Last updated Mar 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Keys A,B,C,F; rationales D,E",
+     "evidence": "Avoid catheterization/remove ASAP; optimize aseptic technique; maintain closed drainage.",
+     "added_by": "author"
+    },
+    {
+     "title": "Prevention of Catheter-Associated Urinary Tract Infections: Summary of Recommendations",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/cauti/summary-of-recommendations.html",
+     "section": "I. Appropriate Urinary Catheter Use; III. Proper Maintenance",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Keys A,B,C,F; rationale D",
+     "evidence": "Appropriate indications; leave only as long as needed; avoid for incontinence; aseptic insertion; maintain closed drainage.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-3739509a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "SATA keys dual-confirmed Merck CAUTI Prevention/Key Points + CDC CAUTI I.A and III.A. Distinct enemy_group from ONRN-SIPC-0010 MC."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B17-WAVE8",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "integrated_process": "Nursing Process",
+   "id": "ONRN-RRP-0009",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client begins a generalized tonic-clonic seizure at the bedside. Which nursing action is most appropriate during the seizure?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Force a padded tongue blade between the teeth to protect the tongue."
+    },
+    {
+     "key": "B",
+     "text": "Restrain the limbs tightly against the mattress to stop the movements."
+    },
+    {
+     "key": "C",
+     "text": "Protect the client from injury, turn to the side when feasible, and do not place objects in the mouth."
+    },
+    {
+     "key": "D",
+     "text": "Leave the client alone to obtain a full set of vital signs from the nursing station first."
+    }
+   ],
+   "correct_answer": [
+    "C"
+   ],
+   "rationales": {
+    "A": "Incorrect. Attempting to protect the tongue with objects is futile and risks dental injury and rescuer injury.",
+    "B": "Incorrect. Forcing restraint of convulsing limbs can cause injury; allow free movement while removing nearby hazards.",
+    "C": "Correct. During a generalized tonic-clonic seizure, prevent injury (e.g., loosen clothing at the neck, protect the head), roll the client onto the side to help protect the airway/prevent aspiration, and never place objects or fingers in the mouth.",
+    "D": "Incorrect. The nurse should stay with the client, ensure safety, and observe/time the seizure rather than leaving."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Seizure safety — side-lying, protect from injury, nothing in the mouth",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "seizure-side-lying-nothing-in-mouth",
+   "tags": [
+    "seizure",
+    "airway",
+    "patient-safety",
+    "emergency"
+   ],
+   "sources": [
+    {
+     "title": "Seizure Disorders",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/seizure-disorders/seizure-disorders",
+     "section": "Treatment of Seizure Disorders — General measures",
+     "source_date": "Last updated Mar 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key C; rationales A,B",
+     "evidence": "Loosen clothing around neck; pillow under head; protecting tongue futile/dangerous; roll onto side to prevent aspiration.",
+     "added_by": "author"
+    },
+    {
+     "title": "17.5 Seizures",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/17-5-seizures",
+     "section": "Prioritizing Hypotheses, Generating Solutions, and Taking Action — Care during seizures",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key C; rationales A,B,D",
+     "evidence": "Remove hazards; pillow under head; turn on side for airway; never place fingers or barrier between teeth.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-3739509a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: Merck Seizure Disorders General measures + OpenStax Med-Surg 17.5 care during seizures."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B17-WAVE8",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "Potassium in mmol/L equals mEq/L numerically; laboratory reference intervals vary.",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "lab-range-varies"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "integrated_process": "Nursing Process",
+   "id": "ONRN-RRP-0010",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with chronic kidney disease has a serum potassium of 6.4 mmol/L (6.4 mEq/L). Which electrocardiogram (ECG) change is most consistent with hyperkalemia?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Tall, peaked (tented) T waves"
+    },
+    {
+     "key": "B",
+     "text": "Prominent U waves with flattened T waves"
+    },
+    {
+     "key": "C",
+     "text": "Shortened PR interval with no T-wave changes"
+    },
+    {
+     "key": "D",
+     "text": "Isolated Q waves without T-wave peaking"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Early ECG changes of hyperkalemia include tall, symmetric, peaked T waves; conduction slowing and QRS widening occur as potassium rises further.",
+    "B": "Incorrect. Flattened T waves and U waves are associated with hypokalemia, not hyperkalemia.",
+    "C": "Incorrect. Hyperkalemia typically lengthens the PR interval as conduction slows, rather than shortening it without T-wave changes.",
+    "D": "Incorrect. Pathologic Q waves suggest infarction patterns and are not the characteristic early ECG finding of hyperkalemia."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Hyperkalemia — tall peaked T waves on ECG",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Recognize Cues",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "hyperkalemia-peaked-t-waves-ecg",
+   "tags": [
+    "hyperkalemia",
+    "ECG",
+    "electrolytes",
+    "lab-monitoring"
+   ],
+   "sources": [
+    {
+     "title": "Hyperkalemia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/nephrology/electrolyte-disorders/hyperkalemia",
+     "section": "ECG",
+     "source_date": "Last updated Jun 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; rationales B,C",
+     "evidence": "Tall, symmetric, peaked T waves are visible initially; PR prolongs and QRS widens as potassium rises.",
+     "added_by": "author"
+    },
+    {
+     "title": "10.3 Electrolyte Imbalance",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-3-electrolyte-imbalance",
+     "section": "Potassium Imbalances — clinical manifestations / diagnostic tests (Hyperkalemia)",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; rationale B",
+     "evidence": "Hyperkalemia: tall, peaked T waves, widened QRS, prolonged PR; hypokalemia associated with depressed T waves/U waves.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-3739509a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: Merck Hyperkalemia ECG section + OpenStax Med-Surg 10.3 potassium imbalance table. Distinct from hypokalemia ONRN-RRP-0007."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B17-WAVE8",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "Potassium in mmol/L equals mEq/L numerically.",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "lab-range-varies"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "integrated_process": "Nursing Process",
+   "id": "ONRN-RRP-0011",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A hospitalized client’s potassium is 6.2 mmol/L (6.2 mEq/L) and the client reports a fluttering sensation in the chest. Which nursing action is the priority?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Encourage unrestricted intake of potassium-rich foods such as bananas and orange juice."
+    },
+    {
+     "key": "B",
+     "text": "Place the client on continuous cardiac (telemetry) monitoring and notify the provider promptly."
+    },
+    {
+     "key": "C",
+     "text": "Administer the scheduled potassium supplement as ordered."
+    },
+    {
+     "key": "D",
+     "text": "Document the finding and recheck the potassium in 24 hours without further action."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Dietary potassium should be restricted, not increased, in hyperkalemia.",
+    "B": "Correct. Hyperkalemia can cause lethal dysrhythmias; continuous telemetry monitoring and prompt provider notification are priority nursing actions.",
+    "C": "Incorrect. Additional potassium would worsen hyperkalemia and should not be given.",
+    "D": "Incorrect. Symptomatic or significant hyperkalemia requires immediate monitoring and provider communication, not delayed recheck alone."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Hyperkalemia — continuous cardiac monitoring priority",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "hyperkalemia-telemetry-monitoring-priority",
+   "tags": [
+    "hyperkalemia",
+    "telemetry",
+    "electrolytes",
+    "cardiac-monitoring"
+   ],
+   "sources": [
+    {
+     "title": "10.3 Electrolyte Imbalance",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-3-electrolyte-imbalance",
+     "section": "Nursing Care of Patients with Hyperkalemia — Prioritizing Hypotheses, Generating Solutions, and Taking Action",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Closely monitor cardiovascular function with continuous telemetry; hyperkalemia risks lethal dysrhythmias.",
+     "added_by": "author"
+    },
+    {
+     "title": "Hyperkalemia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/nephrology/electrolyte-disorders/hyperkalemia",
+     "section": "ECG; Treatment of Hyperkalemia",
+     "source_date": "Last updated Jun 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationale A",
+     "evidence": "ECG should be done; progression to ventricular fibrillation/asystole possible; reduce potassium intake for milder cases.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-3739509a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: OpenStax hyperkalemia nursing care (telemetry) + Merck Hyperkalemia ECG/treatment urgency. Distinct enemy_group from peaked-T recognition item."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B17-WAVE8",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "jurisdiction": "General (Canada/US concordant)",
+   "integrated_process": "Nursing Process",
+   "id": "ONRN-RRP-0012",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with a tibial fracture in a cast reports pain that is steadily worsening and out of proportion to the injury, with new numbness and a cool, pale foot. Which action is the priority?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Elevate the limb above the heart and apply ice tightly over the entire cast without further assessment."
+    },
+    {
+     "key": "B",
+     "text": "Encourage the client to ambulate vigorously to improve circulation."
+    },
+    {
+     "key": "C",
+     "text": "Suspect compartment syndrome, complete a focused neurovascular assessment, and notify the provider immediately."
+    },
+    {
+     "key": "D",
+     "text": "Reassure the client that cast discomfort is expected and reassess in 8 hours."
+    }
+   ],
+   "correct_answer": [
+    "C"
+   ],
+   "rationales": {
+    "A": "Incorrect. Suspected compartment syndrome requires immediate provider notification; tight circumferential icing/elevation alone does not replace urgent evaluation and may be inappropriate depending on orders.",
+    "B": "Incorrect. Ambulation does not treat acute compartment syndrome and delays emergency care.",
+    "C": "Correct. Pain out of proportion, neurovascular changes (paresthesia, pallor, coolness, diminished pulse) suggest compartment syndrome; the nurse must assess and alert the provider immediately to protect limb viability.",
+    "D": "Incorrect. Progressive pain with neurovascular changes is not routine cast discomfort and must not wait hours."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Compartment syndrome — pain out of proportion; immediate provider notification",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "compartment-syndrome-pain-neurovascular-notify",
+   "tags": [
+    "compartment-syndrome",
+    "fracture",
+    "neurovascular",
+    "cast",
+    "emergency"
+   ],
+   "sources": [
+    {
+     "title": "Overview of Fractures",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/injuries-poisoning/fractures/overview-of-fractures",
+     "section": "Evaluation of Fractures; Complications",
+     "source_date": "Last updated Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key C; rationales B,D",
+     "evidence": "Evaluate for compartment syndrome (pain out of proportion, pallor, paresthesias, coolness, pulselessness); threatens limb viability.",
+     "added_by": "author"
+    },
+    {
+     "title": "13.3 Bone Fractures",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/13-3-bone-fractures",
+     "section": "Compartment Syndrome; Recognizing Cues — neurovascular 5 Ps",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key C",
+     "evidence": "Suspect compartment syndrome with pulse/pallor/paresthesia/movement changes; alert the treating provider immediately.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-3739509a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: Merck Overview of Fractures evaluation/complications + OpenStax Med-Surg 13.3 Compartment Syndrome (notify provider immediately)."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B17-WAVE8",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "integrated_process": "Nursing Process",
+   "id": "ONRN-RRP-0013",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An immobile hospitalized adult is at high risk for pressure injury. Which nursing intervention best reduces pressure-related tissue injury risk?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Keep the client in one position for as long as possible to promote rest."
+    },
+    {
+     "key": "B",
+     "text": "Reposition the client at least every 2 hours (or more often as needed) and offload bony prominences."
+    },
+    {
+     "key": "C",
+     "text": "Massage reddened bony prominences vigorously every hour."
+    },
+    {
+     "key": "D",
+     "text": "Place a ring-shaped “donut” cushion under the sacrum for continuous sitting."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Unrelieved pressure is the primary cause of pressure injury; prolonged single positioning increases risk.",
+    "B": "Correct. Frequent repositioning (commonly at least every 2 hours for bedridden clients) with pressure offloading is the cornerstone of pressure-injury prevention.",
+    "C": "Incorrect. Vigorous massage of reddened areas is not recommended and may worsen tissue injury.",
+    "D": "Incorrect. Donut-type devices can increase sacral pressure and are not recommended prevention devices."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Pressure injury prevention — reposition at least every 2 hours; offload pressure",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "pressure-injury-reposition-every-2-hours",
+   "tags": [
+    "pressure-injury",
+    "repositioning",
+    "skin-integrity",
+    "prevention"
+   ],
+   "sources": [
+    {
+     "title": "Pressure Injuries",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/dermatologic-disorders/pressure-injury/pressure-injuries",
+     "section": "Pressure reduction",
+     "source_date": "Last updated Feb 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationale A",
+     "evidence": "Frequent repositioning is most important; bedridden patients turned at least every 2 hours.",
+     "added_by": "author"
+    },
+    {
+     "title": "28.3 Pressure Injury",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/28-3-pressure-injury",
+     "section": "Prevention",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationales A,D",
+     "evidence": "Cornerstone is reducing pressure; turning/repositioning every two hours for at-risk patients; donut pillows increase sacral pressure.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-3739509a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: Merck Pressure Injuries pressure-reduction (q2h) + OpenStax Med-Surg 28.3 Prevention."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B17-WAVE8",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "integrated_process": "Nursing Process",
+   "id": "ONRN-RRP-0014",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "On the first postoperative day after abdominal surgery, which nursing intervention best helps reduce the risk of deep vein thrombosis (DVT)?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Maintain strict bed rest and discourage any leg movement until discharge."
+    },
+    {
+     "key": "B",
+     "text": "Encourage early and frequent ambulation as soon as it is safe, with leg exercises as ordered."
+    },
+    {
+     "key": "C",
+     "text": "Massage the calves vigorously every hour to “break up” clots."
+    },
+    {
+     "key": "D",
+     "text": "Keep both legs dependent and motionless in a chair for most of the day."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Immobility increases venous stasis and DVT risk; early mobilization is preferred when safe.",
+    "B": "Correct. Early and frequent ambulation stimulates blood flow and reduces stasis; Merck likewise advises ambulation/physical therapy as soon as safely possible for postoperative thromboembolism prophylaxis.",
+    "C": "Incorrect. Massaging calves is not a prevention strategy and is unsafe if a DVT is present or suspected.",
+    "D": "Incorrect. Prolonged motionless dependency promotes stasis rather than preventing DVT."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Postoperative DVT prevention — early ambulation",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "postop-dvt-early-ambulation",
+   "tags": [
+    "DVT",
+    "VTE",
+    "ambulation",
+    "postoperative",
+    "prevention"
+   ],
+   "sources": [
+    {
+     "title": "Postoperative Care",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/special-subjects/care-of-the-surgical-patient/postoperative-care",
+     "section": "Thromboembolism prophylaxis",
+     "source_date": "Last updated Jun 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationale A",
+     "evidence": "Patients should ambulate or undergo physical therapy to facilitate mobilization as soon as it is safe.",
+     "added_by": "author"
+    },
+    {
+     "title": "27.3 Hospitalized Postoperative Patient",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/27-3-hospitalized-postoperative-patient",
+     "section": "Identifying Normal versus Concerning Findings — DVT/PE prevention",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Early and frequent ambulation is key to stimulating blood flow and avoiding stasis; also leg exercises and compression devices as indicated.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-3739509a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: Merck Postoperative Care thromboembolism prophylaxis + OpenStax Med-Surg 27.3 early/frequent ambulation for DVT prevention."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B17-WAVE8",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "jurisdiction": "General (Canada/US concordant)",
+   "integrated_process": "Nursing Process",
+   "id": "ONRN-RRP-0015",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "Which nursing interventions help prevent postoperative deep vein thrombosis (DVT)? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Encourage early ambulation when safe."
+    },
+    {
+     "key": "B",
+     "text": "Teach and assist with prescribed leg exercises or ankle pumps."
+    },
+    {
+     "key": "C",
+     "text": "Apply sequential compression devices or compression stockings as ordered."
+    },
+    {
+     "key": "D",
+     "text": "Maintain continuous strict bed rest for all postoperative clients regardless of risk."
+    },
+    {
+     "key": "E",
+     "text": "Administer prophylactic anticoagulant medication when prescribed."
+    },
+    {
+     "key": "F",
+     "text": "Massage the calves firmly every 2 hours for all clients."
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. Early ambulation reduces venous stasis and DVT risk.",
+    "B": "Correct. Leg exercises/ankle pumps promote circulation.",
+    "C": "Correct. Mechanical prophylaxis (SCDs/compression stockings) is used to reduce clot risk as ordered.",
+    "D": "Incorrect. Unnecessary immobility increases DVT risk.",
+    "E": "Correct. Pharmacologic prophylaxis is used based on risk when prescribed.",
+    "F": "Incorrect. Routine calf massage is not a recommended DVT prevention intervention and may be harmful if thrombosis is present."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Postoperative DVT prevention SATA — ambulation, exercises, SCDs, anticoagulants",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "postop-dvt-prevention-sata-ambulation-scd-anticoagulant",
+   "tags": [
+    "DVT",
+    "VTE",
+    "SATA",
+    "postoperative",
+    "prevention"
+   ],
+   "sources": [
+    {
+     "title": "27.3 Hospitalized Postoperative Patient",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/27-3-hospitalized-postoperative-patient",
+     "section": "Identifying Normal versus Concerning Findings — DVT/PE prevention; Table 27.4 DVT nursing actions",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Keys A,B,C,E; rationales D,F",
+     "evidence": "Early ambulation, leg exercises, compression stockings/SCDs, and prophylactic anticoagulants as ordered.",
+     "added_by": "author"
+    },
+    {
+     "title": "Deep Venous Thrombosis (DVT) Prevention",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/peripheral-venous-disorders/deep-venous-thrombosis-dvt-prevention",
+     "section": "Deep Venous Thrombosis (DVT) Prevention — preventive measures",
+     "source_date": "Last updated May 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Keys A,C,E",
+     "evidence": "Preventive measures include ambulation/prevention of immobility, prophylactic anticoagulation, and intermittent pneumatic compression.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-3739509a) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "SATA keys dual-confirmed OpenStax 27.3 DVT prevention actions + Merck DVT Prevention measures. Distinct enemy_group from ONRN-RRP-0014 MC."
     }
    ],
    "exam_version_published": null,
