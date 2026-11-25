@@ -1,6 +1,6 @@
 # Source verification report — Ontario/Canada question bank
 
-**Updated:** 2026-11-25, ~9:25 AM (America/New_York)
+**Updated:** 2026-11-25, ~9:45 AM (America/New_York)
 **Scope:** Author-level **Source verified** only. Not an independent verifier pass. Not clinical review.
 **Rule:** Every keyed answer and rationale rests on sources fetched in-session; citations were not invented.
 
@@ -10,55 +10,56 @@
 
 | Metric | Count |
 | --- | ---: |
-| Items Source verified | **217** |
+| Items Source verified | **229** |
 | Items with independent verifier `confirmed` | 0 |
 | Items clinically reviewed / approved / published | **0** |
-| Excluded draft topics logged | 66 |
+| Excluded draft topics logged | 69 |
 
 ### Citation publishers (citation instances across items)
 
 | Publisher | Citations |
 | --- | ---: |
-| Merck Manual Professional Edition | 139 |
-| OpenStax — Fundamentals of Nursing | 52 |
-| OpenStax — Medical-Surgical Nursing | 52 |
+| Merck Manual Professional Edition | 150 |
+| OpenStax — Medical-Surgical Nursing | 54 |
+| OpenStax — Fundamentals of Nursing | 53 |
+| U.S. Centers for Disease Control and Prevention (CDC) | 35 |
 | College of Nurses of Ontario | 32 |
-| U.S. Centers for Disease Control and Prevention (CDC) | 32 |
-| OpenStax — Pharmacology for Nurses | 23 |
-| OpenStax — Psychiatric-Mental Health Nursing | 20 |
-| OpenStax — Clinical Nursing Skills | 14 |
+| OpenStax — Pharmacology for Nurses | 24 |
+| OpenStax — Psychiatric-Mental Health Nursing | 21 |
+| OpenStax — Clinical Nursing Skills | 16 |
 | OpenStax — Maternal-Newborn Nursing | 10 |
 | Public Health Agency of Canada / Canada.ca | 10 |
 | Government of Ontario — e-Laws | 7 |
-| U.S. National Library of Medicine — DailyMed | 5 |
 | Canadian Paediatric Society | 5 |
 | OpenStax — Population Health for Nurses | 5 |
+| U.S. National Library of Medicine — DailyMed | 5 |
+| NCBI Bookshelf (Open RN / WisTech Open) | 4 |
+| Canadian Paediatric Society — Caring for Kids | 3 |
 | Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC) | 3 |
 | World Health Organization | 3 |
-| Canadian Paediatric Society — Caring for Kids | 3 |
-| Diabetes Canada | 2 |
-| Health Canada Drug Product Database — Pharmascience Inc. product monograph | 2 |
-| NCSBN / American Nurses Association | 2 |
-| Centers for Disease Control and Prevention | 2 |
-| Health Canada / Canada.ca | 2 |
 | Agency for Healthcare Research and Quality (AHRQ) | 2 |
 | Agency for Healthcare Research and Quality (AHRQ) — PSNet | 2 |
-| U.S. Centers for Disease Control and Prevention (CDC/HICPAC) | 1 |
+| Centers for Disease Control and Prevention | 2 |
+| Diabetes Canada | 2 |
+| Health Canada / Canada.ca | 2 |
+| Health Canada Drug Product Database — Pharmascience Inc. product monograph | 2 |
+| NCSBN / American Nurses Association | 2 |
+| American Diabetes Association | 1 |
+| Government of Ontario (e-Laws) | 1 |
+| Health Canada (Hikma Canada) | 1 |
+| Health Canada Drug Product Database — Apotex Inc. product monograph | 1 |
+| Health Canada Drug Product Database — Laboratoire Riva Inc. product monograph | 1 |
 | Health Canada Drug Product Database — Sandoz Canada Inc. product monograph | 1 |
 | Health Canada Drug Product Database — Taro Pharmaceuticals Inc. product monograph | 1 |
 | Heart & Stroke — Canadian Stroke Best Practices | 1 |
-| Government of Ontario (e-Laws) | 1 |
-| Public Health Ontario | 1 |
-| Health Canada (Hikma Canada) | 1 |
-| NCBI Bookshelf (Open RN / WisTech Open) | 1 |
-| StatPearls / NCBI Bookshelf | 1 |
+| OpenStax — Anatomy and Physiology 2e | 1 |
 | OpenStax — Microbiology | 1 |
-| Health Canada Drug Product Database — Laboratoire Riva Inc. product monograph | 1 |
-| Health Canada Drug Product Database — Apotex Inc. product monograph | 1 |
+| Public Health Ontario | 1 |
+| StatPearls / NCBI Bookshelf | 1 |
 | U.S. Centers for Disease Control and Prevention (CDC) / SHEA (stacks.cdc.gov) | 1 |
-| U.S. National Highway Traffic Safety Administration (NHTSA) | 1 |
+| U.S. Centers for Disease Control and Prevention (CDC/HICPAC) | 1 |
 | U.S. Department of Homeland Security — Ready.gov | 1 |
-| American Diabetes Association | 1 |
+| U.S. National Highway Traffic Safety Administration (NHTSA) | 1 |
 
 
 ## Wave 19 item inventory (B28-WAVE19)
@@ -129,3 +130,11 @@ Full compiled inventory (historical wave-17 note): then 193 items; superseded by
 ## Honesty statement
 
 These items are **AI-drafted originals** for practice. They are **not** HESI/NCLEX exam items. **Source verified ≠ clinically reviewed ≠ approved for publication.**
+
+## Wave 20 (B29-WAVE20)
+
+- **12** new Source-verified items (autonomic dysreflexia, status epilepticus NGN bowtie, heatstroke cooling, shingles ≥50, pediatric pneumococcal <5, NMS + NGN cloze, SIADH fluid restriction, cardiac tamponade, clarify incomplete orders, autonomic dysreflexia NGN matrix, Guillain-Barré respiratory priority).
+- Dual publishers this wave: Merck, OpenStax, CDC, WTCS Open RN.
+- **3** topics excluded (incident-report charting rule; infant choking sequence; TeamSTEPPS script) for insufficient dual citation.
+- Compiled bank after merge: **229** Source verified; **0** approved/published.
+

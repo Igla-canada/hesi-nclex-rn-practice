@@ -1,6 +1,6 @@
 # Question bank status — Ontario/Canada HESI/NCLEX practice
 
-**Updated:** 2026-11-25, ~9:25 AM (America/New_York)  
+**Updated:** 2026-11-25, ~9:45 AM (America/New_York)  
 **Honesty:** Counts below are **actual**. AI authoring may reach **Source verified** only. **Published / clinically reviewed = 0.** No claim of HESI/NCLEX item authenticity.
 
 Companion: [source-verification-report.md](./source-verification-report.md) · bank root: `/cursor/stores/self/internal/question-bank/`
@@ -11,16 +11,16 @@ Companion: [source-verification-report.md](./source-verification-report.md) · b
 
 | Metric | Count |
 | --- | ---: |
-| **Total active items** | **217** |
-| **Source verified** | **217** |
+| **Total active items** | **229** |
+| **Source verified** | **229** |
 | Awaiting clinical review | 0 |
 | Clinically reviewed | 0 |
 | Approved / published | **0** |
 | Draft (in compiled bank) | 0 |
 | Archived | 0 |
-| Excluded draft topics (logged) | 66 |
+| Excluded draft topics (logged) | 69 |
 
-Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after merge of `B00-PILOT` + `B11-WAVE2` + `B12-WAVE3` + `B13-WAVE4` + `B14-WAVE5` + `B15-WAVE6` + `B16-WAVE7` + `B17-WAVE8` + `B18-WAVE9` + `B19-WAVE10` + `B20-WAVE11` + `B21-WAVE12` + `B22-WAVE13` + `B23-WAVE14` + `B24-WAVE15` + `B25-WAVE16` + `B26-WAVE17` + `B27-WAVE18` + `B28-WAVE19`.
+Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after merge of `B00-PILOT` + `B11-WAVE2` + `B12-WAVE3` + `B13-WAVE4` + `B14-WAVE5` + `B15-WAVE6` + `B16-WAVE7` + `B17-WAVE8` + `B18-WAVE9` + `B19-WAVE10` + `B20-WAVE11` + `B21-WAVE12` + `B22-WAVE13` + `B23-WAVE14` + `B24-WAVE15` + `B25-WAVE16` + `B26-WAVE17` + `B27-WAVE18` + `B28-WAVE19` + `B29-WAVE20`.
 
 ---
 
@@ -28,19 +28,19 @@ Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after mer
 
 | Code | Subcategory | Source verified | Gap vs 150-item form quota* |
 | --- | --- | ---: | ---: |
-| MOC | Management of Care | 38 | 0† |
+| MOC | Management of Care | 39 | 0† |
 | SIPC | Safety and Infection Prevention and Control | 22 | 0† |
-| HPM | Health Promotion and Maintenance | 26 | 0† |
-| PSY | Psychosocial Integrity | 19 | 0† |
+| HPM | Health Promotion and Maintenance | 28 | 0† |
+| PSY | Psychosocial Integrity | 20 | 0† |
 | BCC | Basic Care and Comfort | 18 | 0† |
-| PPT | Pharmacological and Parenteral Therapies | 32 | 0† |
-| RRP | Reduction of Risk Potential | 27 | 0† |
-| PA | Physiological Adaptation | 35 | 0† |
+| PPT | Pharmacological and Parenteral Therapies | 33 | 0† |
+| RRP | Reduction of Risk Potential | 29 | 0† |
+| PA | Physiological Adaptation | 40 | 0† |
 
 \*Quota for one 150-item HESI-style form (see blueprint). Five forms need ~750 Source-verified → clinically reviewed items. **No form is publishable yet.**  
-†Surplus vs base single-form quota supports multi-form depth (MOC 38/27, SIPC 22/20, HPM 26/13–14, PSY 19/13–14, BCC 18/13–14, PPT 32/24, RRP 27/18, PA 35/21).
+†Surplus vs base single-form quota supports multi-form depth (MOC 39/27, SIPC 22/20, HPM 28/13–14, PSY 20/13–14, BCC 18/13–14, PPT 33/24, RRP 29/18, PA 40/21).
 
-Wave 19 added multi-exam depth with underrepresented specialties (Critical Care/Emergency, Community/Public Health, Leadership/Management, Pediatrics) and NGN **bowtie** + **drop-down cloze** + **matrix** (plus SATA), dual-cited originals only (Merck, OpenStax, CDC, StatPearls/NCBI). **All eight Client Needs single-form quotas remain met at Source verified.**
+Wave 20 added multi-exam depth with underrepresented specialties (Critical Care/Emergency, Community/Public Health, Leadership/Management, Pediatrics) and NGN **bowtie** + **drop-down cloze** + **matrix**, dual-cited originals only (Merck, OpenStax, CDC, WTCS Open RN). **All eight Client Needs single-form quotas remain met at Source verified.**
 
 ---
 
@@ -48,17 +48,17 @@ Wave 19 added multi-exam depth with underrepresented specialties (Critical Care/
 
 | Format | n |
 | --- | ---: |
-| multiple_choice | 178 |
+| multiple_choice | 187 |
 | select_all_that_apply | 26 |
-| matrix_multiple_choice | 6 |
+| matrix_multiple_choice | 7 |
+| drop_down_cloze | 3 |
+| bowtie | 3 |
 | ordered_response | 2 |
-| drop_down_cloze | 2 |
-| bowtie | 2 |
 | calculation | 1 |
 
 | Jurisdiction | n |
 | --- | ---: |
-| General (Canada/US concordant) | 178 |
+| General (Canada/US concordant) | 190 |
 | Ontario-specific | 30 |
 | Canada-specific | 9 |
 
@@ -87,6 +87,7 @@ Wave 19 added multi-exam depth with underrepresented specialties (Critical Care/
 | B26-WAVE17 | 12 | Source verified (wave 17 — gero/peds/leadership/community + NGN) |
 | B27-WAVE18 | 12 | Source verified (wave 18 — community/peds/leadership/gero/critical care + NGN bowtie/cloze) |
 | B28-WAVE19 | 12 | Source verified (wave 19 — critical care/community/leadership/peds + NGN bowtie/cloze/matrix) |
+| B29-WAVE20 | 12 | Source verified (wave 20 — critical care/community/leadership/peds + NGN bowtie/cloze/matrix) |
 | B01–B10 | 0 JSON | Prior fetch logs only; no authored batches completed |
 
 ---
@@ -108,7 +109,7 @@ Compiled bank copied into the GitHub app repo under `data/question-bank/` with a
 
 ## Next priorities
 
-1. Independent verifier pass on B00 + B11–B28 → Awaiting clinical review.  
-2. Licensed clinician review (especially high-priority: digoxin, warfarin, DKA, suicide, maternity/RhIg/safe sleep/skin-to-skin/exclusive breastfeeding/prenatal tobacco/PPH fundal massage/magnesium toxicity/preeclampsia/mastitis, Ontario legal/privacy/consent refusal/boundaries/advocacy/restraints/near-miss reporting/conscientious objection/UCP delegation/assignment/CYFSA reporting/capacity/conflict/social media/documentation/culturally safe care/incomplete orders, dose calc, transfusion/TACO/reaction stop, naloxone, alcohol withdrawal, febrile neutropenia, seizure airway, insulin peak, hallucinations, heparin aPTT, metformin/contrast, IV potassium, anaphylaxis epinephrine, beta-blocker bradycardia, IPV screening, compartment syndrome, asthma SABA, mania safety, cast neurovascular, wound evisceration, lithium monitoring, opioid respiratory depression, ICP positioning, tension pneumothorax, sepsis antibiotics, nitroglycerin/PDE-5, CLABSI hub scrub, measles airborne, PE, aminoglycoside toxicity, varicella, pertussis, hypocalcemia, hypokalemia, meningococcal droplet, childhood immunization aftercare, elder abuse, pressure-injury repositioning, pediatric ORS/bronchiolitis/car seat, SSRI onset/suicidality monitoring, least-restrictive MH care, lead primary prevention, older-adult lowest-dose/polypharmacy, fall-risk medication review, hearing communication, home fall hazards, near-miss reporting, pediatric aspirin/Reye, croup dexamethasone, CF pancreatic enzymes, fracture neurovascular 5 Ps, delirium supportive care/precipitants/anticholinergic-opioid contributors, orthostatic rise-slowly, epiglottitis airway/recognition, UCP competence/Right Circumstance, float competency-based assignment, aspiration mealtime precautions, PPE donning sequence, tertiary stroke rehab, community naloxone, Lyme prevention, febrile seizure first aid, impaired-colleague reporting, NGN insulin peak cloze, NGN anaphylaxis bowtie, burn airway priority, asthma exacerbation matrix, dementia environment/communication, severe hypoglycemia glucagon, NGN stroke bowtie, compartment syndrome/matrix, wound evisceration, flu vaccine ≥65, handwashing key times, triage/ABCDE prioritization, NGN digoxin cloze, sickle cell VOC, C. difficile soap-and-water hygiene).  
+1. Independent verifier pass on B00 + B11–B29 → Awaiting clinical review.  
+2. Licensed clinician review (especially high-priority items flagged in clinical-review-queue).  
 3. Continue authoring toward **five-form** depth (~750 Source-verified → clinically reviewed), prioritizing underrepresented specialties (Pediatrics, Gerontology, Community/Public Health, Leadership/Management, Critical Care/Emergency) with live-fetched dual sources only.  
 4. Do **not** pad counts; exclude when a second independent source cannot be confirmed.
