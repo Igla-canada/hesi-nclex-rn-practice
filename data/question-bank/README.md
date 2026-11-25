@@ -1,7 +1,7 @@
 # Compiled question bank snapshot
 
 **Generated:** 2026-11-25  
-**Active items:** 707  
+**Active items:** 721  
 **Status:** Source verified (AI author pass) — **0** clinically reviewed / published
 
 Import:

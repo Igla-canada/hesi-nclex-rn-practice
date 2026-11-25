@@ -1,0 +1,1676 @@
+{
+ "batch_id": "B66-WAVE57",
+ "author": "AI author (Composer, Cursor subagent bc-0fb16478) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 57 multi-exam depth — thinner CN PSY/RRP/HPM + Mental Health/Critical Care/Community/Pediatrics with NGN matrix/cloze. PSY: BPD DBT gold standard + consistent limits/de-escalation/safety (OpenStax PMH+Merck). RRP Critical Care: transfusion reaction stop/NS keep open + two-nurse verify/first-15-min monitoring (Merck+OpenStax Skills/MS). HPM Community/Peds: firearm unload-lock-secure ammo (RCMP+CDC); sports concussion remove/no same-day/clearance (CDC HEADS UP+CPS Caring for Kids); NIHL ≥85 dBA hearing protection (NIDCD+CDC/NIOSH). Strict dual independent publishers; zero single-source.",
+ "items": [
+  {
+   "batch": "B66-WAVE57",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PSY-0083",
+   "format": "multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "Borderline personality disorder — DBT as gold-standard psychotherapy",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "bpd-dbt-gold-standard",
+   "tags": [
+    "PSY",
+    "BPD",
+    "DBT",
+    "NGN-partner",
+    "mental-health"
+   ],
+   "stem": "A client with borderline personality disorder asks which psychotherapy approach is considered the gold standard for this diagnosis. Which response is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Dialectical behavior therapy (DBT), which teaches skills such as mindfulness and distress tolerance"
+    },
+    {
+     "key": "B",
+     "text": "Benzodiazepines alone are first-line and replace the need for any psychotherapy"
+    },
+    {
+     "key": "C",
+     "text": "Only electroconvulsive therapy is effective for borderline personality disorder"
+    },
+    {
+     "key": "D",
+     "text": "No psychotherapy helps; medication cures the core personality pattern"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: DBT was created for BPD and is considered the gold standard; skills include mindfulness, distress tolerance, interpersonal effectiveness, and emotion regulation. Merck: psychotherapy is the mainstay; CBT approaches include dialectical behavioral therapy.",
+    "B": "Incorrect. Merck: benzodiazepines are not recommended; psychotherapy is the mainstay.",
+    "C": "Incorrect. ECT is not the gold-standard first-line treatment for BPD core features.",
+    "D": "Incorrect. Psychotherapy is primary treatment; medications are adjunctive and not consistently effective for core BPD symptoms."
+   },
+   "sources": [
+    {
+     "title": "18.3 Nursing Care and Treatment Approaches",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/18-3-nursing-care-and-treatment-approaches",
+     "section": "Dialectical Behavior Therapy",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "DBT originally created for BPD; gold standard; mindfulness, distress tolerance, interpersonal effectiveness, emotion regulation."
+    },
+    {
+     "title": "Borderline Personality Disorder (BPD)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/personality-disorders/borderline-personality-disorder-bpd",
+     "section": "Treatment of Borderline Personality Disorder — Psychotherapy",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Mainstay is psychotherapy; CBT includes dialectical behavioral therapy (individual/group with behavior coaches)."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0fb16478) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax PMH DBT gold standard + Merck BPD psychotherapy/DBT dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B66-WAVE57",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PSY-0084",
+   "format": "matrix_multiple_choice",
+   "specialty": "Mental Health",
+   "topic": "NGN matrix — BPD nursing: consistent limits, de-escalation, safety",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "bpd-nursing-actions-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PSY",
+    "BPD",
+    "mental-health"
+   ],
+   "stem": "For a hospitalized adult with borderline personality disorder who is escalating emotionally, indicate whether each nursing action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Set clear limits early and enforce them consistently across team members"
+     },
+     {
+      "key": "R2",
+      "text": "Speak in a calm voice; use active listening; avoid arguing and judgmental comments"
+     },
+     {
+      "key": "R3",
+      "text": "Argue heatedly with the client to prove who is right during splitting"
+     },
+     {
+      "key": "R4",
+      "text": "Assess suicide/self-harm risk and implement the safety/crisis plan as needed"
+     },
+     {
+      "key": "R5",
+      "text": "Touch the agitated client without permission to force compliance"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. OpenStax: set limits early and enforce consistently across team; set clear consistent boundaries.",
+    "R2": "Indicated. OpenStax de-escalation: calm voice, active listening, avoid arguing/judgmental comments.",
+    "R3": "Not indicated. Arguing fuels escalation and is explicitly to be avoided.",
+    "R4": "Indicated. OpenStax lists risk for suicide/self-mutilation; crisis intervention and safety planning are core; Merck notes suicidal gestures are common.",
+    "R5": "Not indicated. OpenStax: avoid touching without permission."
+   },
+   "sources": [
+    {
+     "title": "18.3 Nursing Care and Treatment Approaches",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/18-3-nursing-care-and-treatment-approaches",
+     "section": "Take Action: Knowing How and When to De-Escalate; Planning Nursing Care",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Consistent limits; calm voice; avoid arguing/touch without permission; safety/crisis planning; suicide risk nursing diagnoses."
+    },
+    {
+     "title": "Borderline Personality Disorder (BPD)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/personality-disorders/borderline-personality-disorder-bpd",
+     "section": "Symptoms and Signs; Treatment",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R4",
+     "evidence": "Suicidal gestures/self-harm risk; psychotherapy mainstay; identify/treat coexisting disorders."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0fb16478) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax BPD de-escalation/limits/safety + Merck BPD suicide risk dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B66-WAVE57",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PSY-0085",
+   "format": "drop_down_cloze",
+   "specialty": "Mental Health",
+   "topic": "NGN cloze — DBT originated for BPD; core skill domains",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "bpd-dbt-skills-ngn-cloze",
+   "tags": [
+    "NGN",
+    "cloze",
+    "PSY",
+    "BPD",
+    "DBT"
+   ],
+   "stem": "Complete the teaching about dialectical behavior therapy (DBT).",
+   "ngn": {
+    "template": "DBT was originally developed for {B1}. Clients learn skill domains that include {B2} and {B3} to reduce impulsive crisis responses and improve relationships.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "borderline personality disorder"
+      },
+      {
+       "key": "B1b",
+       "text": "uncomplicated viral pharyngitis only"
+      },
+      {
+       "key": "B1c",
+       "text": "fracture casting aftercare alone"
+      },
+      {
+       "key": "B1d",
+       "text": "routine dental cleaning only"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "mindfulness and distress tolerance"
+      },
+      {
+       "key": "B2b",
+       "text": "ignoring all emotions forever"
+      },
+      {
+       "key": "B2c",
+       "text": "arguing to win every interpersonal conflict"
+      },
+      {
+       "key": "B2d",
+       "text": "stopping all prescribed medicines suddenly"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "interpersonal effectiveness and emotion regulation"
+      },
+      {
+       "key": "B3b",
+       "text": "mandatory public humiliation of peers"
+      },
+      {
+       "key": "B3c",
+       "text": "secrecy about all safety concerns"
+      },
+      {
+       "key": "B3d",
+       "text": "encouraging reckless spending as coping"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a"
+   },
+   "rationales": {
+    "B1a": "Correct. OpenStax: DBT originally created for BPD; Merck lists dialectical behavioral therapy among effective psychotherapies.",
+    "B1b": "Incorrect. DBT was not developed for viral pharyngitis.",
+    "B1c": "Incorrect. Unrelated to orthopedic casting.",
+    "B1d": "Incorrect. Unrelated to dental care.",
+    "B2a": "Correct. OpenStax lists mindfulness and distress tolerance among DBT strategies.",
+    "B2b": "Incorrect. DBT teaches skillful emotion awareness, not emotional erasure.",
+    "B2c": "Incorrect. Interpersonal effectiveness is collaborative, not win-at-all-costs arguing.",
+    "B2d": "Incorrect. Abrupt medication stops are unsafe teaching.",
+    "B3a": "Correct. OpenStax: interpersonal effectiveness and emotion regulation are DBT skill domains.",
+    "B3b": "Incorrect. Humiliation is nontherapeutic.",
+    "B3c": "Incorrect. Safety concerns should be shared with the care team.",
+    "B3d": "Incorrect. Impulsive spending is a BPD risk behavior, not a skill."
+   },
+   "sources": [
+    {
+     "title": "18.3 Nursing Care and Treatment Approaches",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/18-3-nursing-care-and-treatment-approaches",
+     "section": "Dialectical Behavior Therapy",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B1–B3",
+     "evidence": "DBT created for BPD; mindfulness, distress tolerance, interpersonal effectiveness, emotion regulation."
+    },
+    {
+     "title": "Borderline Personality Disorder (BPD)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/personality-disorders/borderline-personality-disorder-bpd",
+     "section": "Psychotherapy",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "B1",
+     "evidence": "Dialectical behavioral therapy listed under effective CBT-related interventions for BPD."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0fb16478) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax DBT skill domains + Merck DBT for BPD dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B66-WAVE57",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-RRP-0086",
+   "format": "multiple_choice",
+   "specialty": "Critical Care/Emergency",
+   "topic": "Suspected transfusion reaction — stop transfusion immediately; keep IV open with normal saline",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "transfusion-reaction-stop-ns",
+   "tags": [
+    "RRP",
+    "transfusion",
+    "critical-care",
+    "NGN-partner"
+   ],
+   "stem": "Five minutes after starting packed red blood cells, a client reports chills, dyspnea, and back pain. What is the nurse’s priority action?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Stop the transfusion immediately and keep the IV line open with normal saline"
+    },
+    {
+     "key": "B",
+     "text": "Increase the infusion rate to finish the unit faster before notifying anyone"
+    },
+    {
+     "key": "C",
+     "text": "Ignore symptoms for 30 minutes because reactions never occur early"
+    },
+    {
+     "key": "D",
+     "text": "Restart the same unit after a brief pause without further investigation"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: if reaction symptoms occur, stop transfusion immediately and keep IV open with normal saline; send product/samples for investigation. OpenStax Skills: immediately stop the transfusion and notify the provider.",
+    "B": "Incorrect. Speeding the infusion worsens exposure during a possible hemolytic/allergic reaction.",
+    "C": "Incorrect. Most reactions occur in the first 15–20 minutes; early symptoms require action.",
+    "D": "Incorrect. Merck: the implicated unit should not be restarted."
+   },
+   "sources": [
+    {
+     "title": "Complications of Transfusion",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/hematology-and-oncology/transfusion-medicine/complications-of-transfusion",
+     "section": "Complications of Transfusion — initial management",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Stop transfusion immediately; keep IV open with normal saline; do not restart the unit; investigate with blood bank."
+    },
+    {
+     "title": "13.4 Blood Transfusions",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/13-4-blood-transfusions",
+     "section": "Transfusion Reactions",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "If you suspect a reaction, immediately stop the transfusion and notify the provider; remain for first 15 minutes because most reactions occur early."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0fb16478) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck stop transfusion + NS open + OpenStax Skills stop/notify dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B66-WAVE57",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-RRP-0087",
+   "format": "matrix_multiple_choice",
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN matrix — blood transfusion safety actions indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "transfusion-safety-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "RRP",
+    "transfusion",
+    "critical-care"
+   ],
+   "stem": "For a client starting a PRBC transfusion, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Two qualified nurses verify patient identity and product compatibility before starting"
+     },
+     {
+      "key": "R2",
+      "text": "Remain at the bedside for the first 15 minutes and monitor for reaction symptoms"
+     },
+     {
+      "key": "R3",
+      "text": "If chills, dyspnea, or back pain occur, stop the transfusion and keep IV open with normal saline"
+     },
+     {
+      "key": "R4",
+      "text": "Restart the same implicated unit after symptoms resolve without blood-bank investigation"
+     },
+     {
+      "key": "R5",
+      "text": "Leave the client alone for the first 15 minutes because reactions never happen early"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. OpenStax Skills: two nurses verify order/label/bracelet; match type, Rh, expiration.",
+    "R2": "Indicated. Remain at bedside first 15 minutes; most reactions occur early.",
+    "R3": "Indicated. Merck and OpenStax: stop immediately; keep IV open with normal saline.",
+    "R4": "Not indicated. Merck: do not restart the implicated unit.",
+    "R5": "Not indicated. Early bedside monitoring is required."
+   },
+   "sources": [
+    {
+     "title": "13.4 Blood Transfusions",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/13-4-blood-transfusions",
+     "section": "Verification Protocols; Starting a Blood Transfusion; Transfusion Reactions",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Two-nurse verification; remain first 15 minutes; stop transfusion if reaction suspected."
+    },
+    {
+     "title": "Complications of Transfusion",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/hematology-and-oncology/transfusion-medicine/complications-of-transfusion",
+     "section": "Complications of Transfusion — initial management",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R3–R4",
+     "evidence": "Stop immediately; NS keep open; do not restart unit; investigate."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0fb16478) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Skills verification/15-min/stop + Merck stop/NS/no restart dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B66-WAVE57",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-RRP-0084",
+   "format": "drop_down_cloze",
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN cloze — transfusion reaction: stop; NS keep vein open; notify",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "transfusion-reaction-ngn-cloze",
+   "tags": [
+    "NGN",
+    "cloze",
+    "RRP",
+    "transfusion"
+   ],
+   "stem": "Complete the priority actions for a suspected acute transfusion reaction.",
+   "ngn": {
+    "template": "The nurse should first {B1}, then {B2}, and {B3}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "stop the transfusion immediately"
+      },
+      {
+       "key": "B1b",
+       "text": "speed the infusion to empty the bag"
+      },
+      {
+       "key": "B1c",
+       "text": "add potassium chloride to the blood tubing"
+      },
+      {
+       "key": "B1d",
+       "text": "ignore symptoms until the unit finishes"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "keep the IV open with normal saline"
+      },
+      {
+       "key": "B2b",
+       "text": "flush the blood tubing with D5W into the same set"
+      },
+      {
+       "key": "B2c",
+       "text": "restart the same unit without notifying anyone"
+      },
+      {
+       "key": "B2d",
+       "text": "remove all IV access permanently"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "notify the provider and blood bank for investigation"
+      },
+      {
+       "key": "B3b",
+       "text": "discard the bag so no one can investigate"
+      },
+      {
+       "key": "B3c",
+       "text": "document nothing about the event"
+      },
+      {
+       "key": "B3d",
+       "text": "tell the client reactions are imaginary"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a"
+   },
+   "rationales": {
+    "B1a": "Correct. OpenStax/Merck: stop transfusion immediately when reaction is suspected.",
+    "B1b": "Incorrect. Faster infusion increases exposure.",
+    "B1c": "Incorrect. Do not add medications to blood tubing.",
+    "B1d": "Incorrect. Early action is required.",
+    "B2a": "Correct. Merck: keep IV open with normal saline; OpenStax MS: disconnect blood tubing and infuse NS to keep vein open.",
+    "B2b": "Incorrect. D5W is not the standard keep-open fluid for transfusion reactions.",
+    "B2c": "Incorrect. Do not restart the implicated unit.",
+    "B2d": "Incorrect. Maintain IV access for emergency treatment.",
+    "B3a": "Correct. Notify provider; send product/samples to blood bank for investigation.",
+    "B3b": "Incorrect. Retain bag/tubing for investigation.",
+    "B3c": "Incorrect. Document and report the event.",
+    "B3d": "Incorrect. Symptoms must be taken seriously."
+   },
+   "sources": [
+    {
+     "title": "Complications of Transfusion",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/hematology-and-oncology/transfusion-medicine/complications-of-transfusion",
+     "section": "Complications of Transfusion — initial management",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "B1–B3",
+     "evidence": "Stop immediately; keep IV open with NS; send remainder and samples to blood bank."
+    },
+    {
+     "title": "16.7 Blood Products and Transfusion Principles",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/16-7-blood-products-and-transfusion-principles",
+     "section": "Prioritizing Hypotheses, Generating Solutions, and Taking Action",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B1–B3",
+     "evidence": "Stop transfusion; disconnect blood tubing; prime new tubing with NS keep-vein-open; notify provider; send bag/tubing to blood bank."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0fb16478) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck stop/NS/blood bank + OpenStax MS reaction action steps dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B66-WAVE57",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "RCMP safe storage rules (unload/lock; ammunition not readily accessible unless locked) aligned with CDC/Project ChildSafe unload-lock-secure-ammo teaching.",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "Canada-specific",
+   "id": "ONRN-HPM-0085",
+   "format": "multiple_choice",
+   "specialty": "Community/Public Health",
+   "topic": "Firearm injury prevention — store unloaded and locked; secure ammunition",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "firearm-safe-storage",
+   "tags": [
+    "HPM",
+    "firearm",
+    "community",
+    "Canada",
+    "NGN-partner"
+   ],
+   "stem": "A community health nurse teaches a Canadian household that keeps a non-restricted firearm. Which storage teaching is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Store the firearm unloaded and locked (or otherwise rendered inoperable/secured), and keep ammunition locked or not readily accessible"
+    },
+    {
+     "key": "B",
+     "text": "Leave firearms loaded and unlocked on a closet shelf because out of sight equals safe storage"
+    },
+    {
+     "key": "C",
+     "text": "Store loaded firearms under a child’s bed for quick access during play"
+    },
+    {
+     "key": "D",
+     "text": "Never use locks because locking devices always make firearms safer to leave loaded"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. RCMP: unload and lock firearms; store ammunition separately or lock it up. CDC: store unloaded and locked with ammunition secured separately; out of sight/reach is not enough.",
+    "B": "Incorrect. CDC: out of sight/reach is not safe storage.",
+    "C": "Incorrect. Loaded unlocked access by children is a preventable injury risk.",
+    "D": "Incorrect. Locking devices and secure storage are recommended/required."
+   },
+   "sources": [
+    {
+     "title": "Storing, transporting and displaying firearms",
+     "publisher": "Royal Canadian Mounted Police / Canada.ca",
+     "url": "https://rcmp.ca/en/firearms/firearms-safety-training-transport-and-storage/storing-transporting-and-displaying-firearms",
+     "section": "Storing firearms safely",
+     "source_date": "Date modified: 2024-11-12",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Unload and lock; store ammunition separately or lock it up (may be same locked container)."
+    },
+    {
+     "title": "Preventing Firearm Injury and Death",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/firearm-violence/prevention/",
+     "section": "How can you securely store your firearm?",
+     "source_date": "July 5, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Secure storage (safe/lock box); out of sight/reach insufficient; Project ChildSafe: unloaded and locked, ammunition secured separately."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0fb16478) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "RCMP unload/lock/ammo + CDC secure storage/unload-lock-ammo dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B66-WAVE57",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "RCMP storage rules + CDC secure-storage injury-prevention teaching (concordant unload/lock/secure ammo).",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "Canada-specific",
+   "id": "ONRN-HPM-0086",
+   "format": "matrix_multiple_choice",
+   "specialty": "Community/Public Health",
+   "topic": "NGN matrix — firearm safe-storage teaching indicated vs not",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "firearm-storage-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "HPM",
+    "firearm",
+    "community",
+    "Canada"
+   ],
+   "stem": "For household firearm injury prevention teaching, indicate whether each point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Store firearms unloaded when not in use"
+     },
+     {
+      "key": "R2",
+      "text": "Use a secure lock/safe/cabinet so unauthorized persons (including children) cannot access the firearm"
+     },
+     {
+      "key": "R3",
+      "text": "Keep ammunition locked or otherwise not readily accessible to unauthorized users"
+     },
+     {
+      "key": "R4",
+      "text": "Rely only on placing a loaded firearm on a high shelf out of sight"
+     },
+     {
+      "key": "R5",
+      "text": "Leave keys to firearm locks where children can freely access them"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. RCMP and CDC/Project ChildSafe emphasize unloaded storage.",
+    "R2": "Indicated. RCMP locking devices/locked containers; CDC safe/lock box.",
+    "R3": "Indicated. Ammunition separately locked or not readily accessible.",
+    "R4": "Not indicated. CDC: out of sight/reach is not enough.",
+    "R5": "Not indicated. Keys must be secured from children/unauthorized users (safe storage intent)."
+   },
+   "sources": [
+    {
+     "title": "Storing, transporting and displaying firearms",
+     "publisher": "Royal Canadian Mounted Police / Canada.ca",
+     "url": "https://rcmp.ca/en/firearms/firearms-safety-training-transport-and-storage/storing-transporting-and-displaying-firearms",
+     "section": "Storing firearms safely",
+     "source_date": "Date modified: 2024-11-12",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R3",
+     "evidence": "Unload and lock; ammunition separately or locked."
+    },
+    {
+     "title": "Preventing Firearm Injury and Death",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/firearm-violence/prevention/",
+     "section": "How can you securely store your firearm?",
+     "source_date": "July 5, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Secure storage; out of sight insufficient; unloaded and locked with ammunition secured separately."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0fb16478) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "RCMP + CDC firearm storage matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B66-WAVE57",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-HPM-0087",
+   "format": "multiple_choice",
+   "specialty": "Pediatrics",
+   "topic": "Sports concussion — remove from play; no same-day return; medical clearance",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "concussion-remove-no-same-day",
+   "tags": [
+    "HPM",
+    "concussion",
+    "pediatrics",
+    "community",
+    "NGN-partner"
+   ],
+   "stem": "A teen athlete collides during a game and shows confusion and headache suggesting concussion. What is the most appropriate immediate guidance?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Remove the athlete from play now; do not return the same day; seek healthcare clearance before return to sport"
+    },
+    {
+     "key": "B",
+     "text": "Finish the game if the athlete says they feel fine after a water break"
+    },
+    {
+     "key": "C",
+     "text": "Return to full contact immediately to 'shake it off'"
+    },
+    {
+     "key": "D",
+     "text": "Allow same-day return whenever symptoms last less than 2 minutes"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC HEADS UP: remove right away; keep out the day of injury until cleared by a healthcare provider. CPS Caring for Kids: no return until cleared by a doctor; stepwise return-to-play.",
+    "B": "Incorrect. Athletes should not judge severity themselves; same-day return is unsafe.",
+    "C": "Incorrect. Early return increases risk of repeat concussion.",
+    "D": "Incorrect. Brief symptom duration does not authorize same-day return."
+   },
+   "sources": [
+    {
+     "title": "Responding to a Sports-related Concussion",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/heads-up/response/index.html",
+     "section": "Key points; Steps to take",
+     "source_date": "Sept. 15, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Remove right away; keep out same day of injury until cleared by a healthcare provider."
+    },
+    {
+     "title": "Sport-related concussion: Information for parents, coaches and trainers",
+     "publisher": "Canadian Paediatric Society — Caring for Kids",
+     "url": "https://caringforkids.cps.ca/handouts/safety-and-injury-prevention/sport_related_concussion",
+     "section": "When can my child return to playing sports?",
+     "source_date": "Last updated: September 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "No child should return to sport until cleared by a doctor; stepwise stages each ≥1 day."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0fb16478) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC HEADS UP remove/no same-day/clearance + CPS Caring for Kids medical clearance dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B66-WAVE57",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-HPM-0088",
+   "format": "matrix_multiple_choice",
+   "specialty": "Pediatrics",
+   "topic": "NGN matrix — sports concussion response and return-to-play teaching",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "concussion-rtp-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "HPM",
+    "concussion",
+    "pediatrics"
+   ],
+   "stem": "For a youth athlete with a suspected sport-related concussion, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Remove the athlete from sports participation immediately"
+     },
+     {
+      "key": "R2",
+      "text": "Do not return to play on the same day as the injury"
+     },
+     {
+      "key": "R3",
+      "text": "Obtain healthcare provider clearance before returning to sport"
+     },
+     {
+      "key": "R4",
+      "text": "Return to full-contact play the same afternoon if the athlete feels better after 10 minutes"
+     },
+     {
+      "key": "R5",
+      "text": "Ignore worsening headache, repeated vomiting, or seizure after the injury"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. CDC and CPS: remove from play immediately when concussion suspected.",
+    "R2": "Indicated. CDC: keep out the same day; CPS stepwise RTP after clearance.",
+    "R3": "Indicated. Medical clearance required before return to sport.",
+    "R4": "Not indicated. Same-day return is unsafe even if symptoms briefly improve.",
+    "R5": "Not indicated. CPS lists worsening symptoms (e.g., vomiting, seizure) as reasons for urgent medical care."
+   },
+   "sources": [
+    {
+     "title": "Responding to a Sports-related Concussion",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/heads-up/response/index.html",
+     "section": "Key points; Steps to take; Returning to sports too soon",
+     "source_date": "Sept. 15, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R4",
+     "evidence": "Remove immediately; no same-day return; clearance by healthcare provider; early return raises repeat-concussion risk."
+    },
+    {
+     "title": "Sport-related concussion: Information for parents, coaches and trainers",
+     "publisher": "Canadian Paediatric Society — Caring for Kids",
+     "url": "https://caringforkids.cps.ca/handouts/safety-and-injury-prevention/sport_related_concussion",
+     "section": "When should a child go to a doctor?; When can my child return to playing sports?",
+     "source_date": "Last updated: September 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "R3–R5",
+     "evidence": "Urgent return for worsening symptoms; doctor clearance before sport; staged RTP."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0fb16478) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC HEADS UP + CPS Caring for Kids concussion matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B66-WAVE57",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-HPM-0089",
+   "format": "multiple_choice",
+   "specialty": "Community/Public Health",
+   "topic": "Noise-induced hearing loss — protect hearing at ≥85 dBA with earplugs/earmuffs",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "nihl-hearing-protection-85dba",
+   "tags": [
+    "HPM",
+    "hearing",
+    "community",
+    "NGN-partner"
+   ],
+   "stem": "A community nurse teaches workers about preventing noise-induced hearing loss. Which instruction is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Wear hearing protection (earplugs or earmuffs) during loud noise exposure around 85 dBA or higher, and reduce time near the noise when possible"
+    },
+    {
+     "key": "B",
+     "text": "Hearing protection is never needed because NIHL always reverses completely overnight"
+    },
+    {
+     "key": "C",
+     "text": "Stand closer to loud machinery so exposure time is shorter and safer"
+    },
+    {
+     "key": "D",
+     "text": "Only protect hearing after permanent deafness is already diagnosed"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. NIDCD: long/repeated exposure ≥85 dBA can cause NIHL; wear earplugs/protective devices; move away if needed. CDC/NIOSH: REL 85 dBA/8 hours; always wear hearing protection in noisy areas; reduce time in noisy areas.",
+    "B": "Incorrect. NIHL can be permanent; prevention is key.",
+    "C": "Incorrect. Closer exposure increases intensity/risk.",
+    "D": "Incorrect. Prevention should occur before irreversible loss."
+   },
+   "sources": [
+    {
+     "title": "Noise-Induced Hearing Loss (NIHL)",
+     "publisher": "National Institute on Deafness and Other Communication Disorders (NIDCD)",
+     "url": "https://www.nidcd.nih.gov/health/noise-induced-hearing-loss",
+     "section": "What causes NIHL?; Can NIHL be prevented?",
+     "source_date": "Last Updated Date: April 16, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "≥85 dBA long/repeated exposure can cause NIHL; wear earplugs/protective devices; move away from noise."
+    },
+    {
+     "title": "Noise-Induced Hearing Loss",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC) / NIOSH",
+     "url": "https://www.cdc.gov/niosh/noise/about/noise.html",
+     "section": "Key points; Prevention steps for workers",
+     "source_date": "Jan. 30, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "NIOSH REL 85 dBA over 8 hours; always wear hearing protection in noisy areas; reduce time in noisy areas."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0fb16478) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "NIDCD ≥85 dBA + earplugs + CDC/NIOSH REL/PPE dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B66-WAVE57",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-HPM-0090",
+   "format": "matrix_multiple_choice",
+   "specialty": "Community/Public Health",
+   "topic": "NGN matrix — NIHL prevention teaching indicated vs not",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "nihl-prevention-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "HPM",
+    "hearing",
+    "community"
+   ],
+   "stem": "For preventing noise-induced hearing loss, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Recognize that repeated exposure around 85 dBA or louder can damage hearing"
+     },
+     {
+      "key": "R2",
+      "text": "Wear earplugs or protective earmuffs during loud activities or work"
+     },
+     {
+      "key": "R3",
+      "text": "Move away from the noise source or take breaks from noisy areas when possible"
+     },
+     {
+      "key": "R4",
+      "text": "Tell teens that permanent NIHL is impossible before age 40 so protection is unnecessary"
+     },
+     {
+      "key": "R5",
+      "text": "Advise removing hearing protection during the loudest moments to 'toughen' the ears"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. NIDCD and NIOSH identify ~85 dBA as a hazardous threshold with sufficient duration.",
+    "R2": "Indicated. Both sources recommend earplugs/earmuffs in loud settings.",
+    "R3": "Indicated. Move away / reduce time in noisy areas.",
+    "R4": "Not indicated. NIHL can affect teens and young adults; it is preventable at any age.",
+    "R5": "Not indicated. Removing protection during peak noise increases damage risk."
+   },
+   "sources": [
+    {
+     "title": "Noise-Induced Hearing Loss (NIHL)",
+     "publisher": "National Institute on Deafness and Other Communication Disorders (NIDCD)",
+     "url": "https://www.nidcd.nih.gov/health/noise-induced-hearing-loss",
+     "section": "Who is affected by NIHL?; Can NIHL be prevented?",
+     "source_date": "Last Updated Date: April 16, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Teens can show NIHL features; ≥85 dBA risk; earplugs; move away; protect children’s ears."
+    },
+    {
+     "title": "Noise-Induced Hearing Loss",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC) / NIOSH",
+     "url": "https://www.cdc.gov/niosh/noise/about/noise.html",
+     "section": "Key points; Prevention steps for workers",
+     "source_date": "Jan. 30, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R3,R5",
+     "evidence": "REL 85 dBA/8h; always wear protection in noisy areas; reduce time; wear correctly."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0fb16478) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "NIDCD + CDC/NIOSH NIHL prevention matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B66-WAVE57",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-RRP-0085",
+   "format": "multiple_choice",
+   "specialty": "Critical Care/Emergency",
+   "topic": "Blood transfusion — remain at bedside first 15 minutes to detect early reactions",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "transfusion-bedside-first-15",
+   "tags": [
+    "RRP",
+    "transfusion",
+    "critical-care",
+    "NGN-partner"
+   ],
+   "stem": "A nurse starts a unit of packed red blood cells. Which action best reduces the risk of missing an early transfusion reaction?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Start slowly and remain at the bedside for the first 15 minutes while monitoring for adverse reactions"
+    },
+    {
+     "key": "B",
+     "text": "Leave immediately after hanging the blood because reactions only occur after 24 hours"
+    },
+    {
+     "key": "C",
+     "text": "Run the entire unit as an IV push within 2 minutes to minimize observation time"
+    },
+    {
+     "key": "D",
+     "text": "Skip baseline vital signs because they never change during transfusion"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax Skills: start slowly; remain for first 15 minutes; most reactions occur within first 15–20 minutes. OpenStax MS reinforces immediate recognition/action for reactions.",
+    "B": "Incorrect. Early reactions are common; bedside monitoring is required.",
+    "C": "Incorrect. Rapid push increases risk and violates timed administration guidance.",
+    "D": "Incorrect. Baseline and serial vital signs are essential for detecting reactions."
+   },
+   "sources": [
+    {
+     "title": "13.4 Blood Transfusions",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/13-4-blood-transfusions",
+     "section": "Starting a Blood Transfusion; Transfusion Reactions",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Start slowly; remain bedside first 15 minutes; most reactions within first 15–20 minutes."
+    },
+    {
+     "title": "Complications of Transfusion",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/hematology-and-oncology/transfusion-medicine/complications-of-transfusion",
+     "section": "Complications of Transfusion; Acute hemolytic transfusion reaction",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Prompt recognition of reaction symptoms is essential; AHTR often begins within about 1 hour of starting and may be abrupt early in transfusion."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0fb16478) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Skills first-15-minutes monitoring + Merck early reaction recognition dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B66-WAVE57",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-HPM-0091",
+   "format": "drop_down_cloze",
+   "specialty": "Pediatrics",
+   "topic": "NGN cloze — concussion: remove from play; no same-day return; medical clearance",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "concussion-rtp-ngn-cloze",
+   "tags": [
+    "NGN",
+    "cloze",
+    "HPM",
+    "concussion",
+    "pediatrics"
+   ],
+   "stem": "Complete the concussion safety teaching for coaches and parents.",
+   "ngn": {
+    "template": "If concussion is suspected, {B1}. The athlete should {B2} and may return to sport only after {B3}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "remove the athlete from play right away"
+      },
+      {
+       "key": "B1b",
+       "text": "keep playing through dizziness to build toughness"
+      },
+      {
+       "key": "B1c",
+       "text": "increase contact drills immediately"
+      },
+      {
+       "key": "B1d",
+       "text": "withhold all fluids for 24 hours"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "not return to sports the same day as the injury"
+      },
+      {
+       "key": "B2b",
+       "text": "return to full contact after a 5-minute rest if they insist they are fine"
+      },
+      {
+       "key": "B2c",
+       "text": "drive alone immediately after loss of consciousness"
+      },
+      {
+       "key": "B2d",
+       "text": "skip telling any adult about the hit"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "clearance by a healthcare provider / doctor"
+      },
+      {
+       "key": "B3b",
+       "text": "permission from a teammate only"
+      },
+      {
+       "key": "B3c",
+       "text": "winning the next game without evaluation"
+      },
+      {
+       "key": "B3d",
+       "text": "a social-media poll of followers"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a"
+   },
+   "rationales": {
+    "B1a": "Correct. CDC/CPS: remove from participation immediately.",
+    "B1b": "Incorrect. Playing through symptoms risks worsening injury.",
+    "B1c": "Incorrect. Contact should stop, not increase.",
+    "B1d": "Incorrect. Fluid restriction is unrelated/harmful teaching.",
+    "B2a": "Correct. CDC: keep out the same day of the injury.",
+    "B2b": "Incorrect. Athlete self-report does not authorize same-day return.",
+    "B2c": "Incorrect. Unsafe after head injury.",
+    "B2d": "Incorrect. Adults/providers must be informed.",
+    "B3a": "Correct. CDC healthcare clearance; CPS doctor clearance before return to sport.",
+    "B3b": "Incorrect. Teammates cannot medically clear.",
+    "B3c": "Incorrect. Competition does not replace medical clearance.",
+    "B3d": "Incorrect. Nonclinical and unsafe."
+   },
+   "sources": [
+    {
+     "title": "Responding to a Sports-related Concussion",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/heads-up/response/index.html",
+     "section": "Key points; Steps to take",
+     "source_date": "Sept. 15, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "B1–B3",
+     "evidence": "Remove right away; keep out same day until cleared by healthcare provider."
+    },
+    {
+     "title": "Sport-related concussion: Information for parents, coaches and trainers",
+     "publisher": "Canadian Paediatric Society — Caring for Kids",
+     "url": "https://caringforkids.cps.ca/handouts/safety-and-injury-prevention/sport_related_concussion",
+     "section": "When can my child return to playing sports?",
+     "source_date": "Last updated: September 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "B3",
+     "evidence": "No child should go back to a sport until cleared by a doctor."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-0fb16478) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC HEADS UP + CPS Caring for Kids concussion cloze dual-cite."
+    }
+   ]
+  }
+ ],
+ "excluded_items": []
+}
