@@ -1,9 +1,9 @@
 {
  "generated": "2026-11-25",
- "total_items": 623,
+ "total_items": 637,
  "by_status": {
   "Draft": 0,
-  "Source verified": 623,
+  "Source verified": 637,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -13,7 +13,7 @@
  "by_client_needs_x_status": {
   "MOC": {
    "Draft": 0,
-   "Source verified": 97,
+   "Source verified": 99,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -31,7 +31,7 @@
   },
   "HPM": {
    "Draft": 0,
-   "Source verified": 80,
+   "Source verified": 82,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -40,7 +40,7 @@
   },
   "PSY": {
    "Draft": 0,
-   "Source verified": 74,
+   "Source verified": 76,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -49,7 +49,7 @@
   },
   "BCC": {
    "Draft": 0,
-   "Source verified": 75,
+   "Source verified": 77,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -58,7 +58,7 @@
   },
   "PPT": {
    "Draft": 0,
-   "Source verified": 73,
+   "Source verified": 77,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -67,7 +67,7 @@
   },
   "RRP": {
    "Draft": 0,
-   "Source verified": 73,
+   "Source verified": 75,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -100,41 +100,41 @@
  },
  "all_active": {
   "by_format": {
-   "multiple_choice": 412,
-   "matrix_multiple_choice": 87,
-   "drop_down_cloze": 49,
+   "multiple_choice": 419,
+   "matrix_multiple_choice": 92,
+   "drop_down_cloze": 51,
    "select_all_that_apply": 46,
    "bowtie": 26,
    "ordered_response": 2,
    "calculation": 1
   },
   "by_jurisdiction": {
-   "General (Canada/US concordant)": 537,
-   "Ontario-specific": 58,
-   "Canada-specific": 28
+   "General (Canada/US concordant)": 547,
+   "Ontario-specific": 60,
+   "Canada-specific": 30
   }
  },
  "excluded_draft_topics": 147,
  "archived_items": 0,
  "source_citations_by_publisher": {
-  "Merck Manual Professional Edition": 330,
+  "Merck Manual Professional Edition": 332,
+  "U.S. Centers for Disease Control and Prevention (CDC)": 109,
+  "OpenStax — Fundamentals of Nursing": 107,
   "OpenStax — Medical-Surgical Nursing": 105,
-  "U.S. Centers for Disease Control and Prevention (CDC)": 105,
-  "OpenStax — Fundamentals of Nursing": 105,
   "OpenStax — Psychiatric-Mental Health Nursing": 72,
-  "College of Nurses of Ontario": 68,
-  "OpenStax — Pharmacology for Nurses": 57,
-  "OpenStax — Maternal-Newborn Nursing": 46,
-  "OpenStax — Clinical Nursing Skills": 43,
+  "College of Nurses of Ontario": 70,
+  "OpenStax — Pharmacology for Nurses": 59,
+  "OpenStax — Maternal-Newborn Nursing": 48,
+  "OpenStax — Clinical Nursing Skills": 45,
   "MedlinePlus / U.S. National Library of Medicine": 40,
   "Agency for Healthcare Research and Quality (AHRQ)": 29,
-  "NCBI Bookshelf (Open RN / WisTech Open)": 20,
-  "Health Canada / Canada.ca": 18,
+  "NCBI Bookshelf (Open RN / WisTech Open)": 24,
+  "Health Canada / Canada.ca": 20,
   "Agency for Healthcare Research and Quality (AHRQ) — PSNet": 18,
   "Public Health Agency of Canada / Canada.ca": 15,
+  "Canadian Paediatric Society — Caring for Kids": 14,
   "World Health Organization": 12,
-  "Canadian Paediatric Society — Caring for Kids": 12,
-  "Government of Ontario — e-Laws": 9,
+  "Government of Ontario — e-Laws": 11,
   "U.S. National Library of Medicine — DailyMed": 9,
   "OpenStax — Population Health for Nurses": 9,
   "StatPearls / NCBI Bookshelf": 9,
@@ -176,6 +176,7 @@
   "National Institute on Aging": 2,
   "Thompson Rivers University — Personal Care Skills for Health Care Assistants (Pressbooks)": 2,
   "Canadian Cancer Society": 2,
+  "Office on Women's Health (U.S. HHS)": 2,
   "U.S. Centers for Disease Control and Prevention (CDC/HICPAC)": 1,
   "Health Canada Drug Product Database — Sandoz Canada Inc. product monograph": 1,
   "Health Canada Drug Product Database — Taro Pharmaceuticals Inc. product monograph": 1,
