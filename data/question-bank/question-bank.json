@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 289,
+  "Source verified": 301,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -31880,6 +31880,1449 @@
      "source_type": "textbook_open",
      "supports": "Key and distractors",
      "evidence": "Jaundice in first 24 hours is pathologic/nonphysiologic; earlier treatment often phototherapy.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B35-WAVE26",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-SIPC-0027",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "scabies",
+    "community",
+    "infection-control",
+    "NGN",
+    "matrix",
+    "SIPC"
+   ],
+   "stem": "A public health nurse teaches a household about classic scabies. For each statement, select Accurate or Not accurate.",
+   "ngn": {
+    "columns": [
+     "Accurate",
+     "Not accurate"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Scabies is most commonly spread by direct, prolonged skin-to-skin contact with a person who has scabies"
+     },
+     {
+      "key": "R2",
+      "text": "All household members and close contacts should be treated at the same time, even if they have no symptoms yet"
+     },
+     {
+      "key": "R3",
+      "text": "Clothing, towels, and bedding used next to the skin should be washed in hot water or otherwise decontaminated as directed"
+     },
+     {
+      "key": "R4",
+      "text": "Scabies mites live for months on furniture and clothing, so environmental cleaning is useless and only the index client needs treatment"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Accurate",
+    "R2": "Accurate",
+    "R3": "Accurate",
+    "R4": "Not accurate"
+   },
+   "rationales": {
+    "R1": "Accurate. CDC: human scabies most commonly spreads by direct, prolonged skin-to-skin contact. Merck: transmission involves close contact.",
+    "R2": "Accurate. CDC: treat all household members and close contacts at the same time. Merck: empiric treatment of close contacts even if asymptomatic.",
+    "R3": "Accurate. CDC: wash clothing/towels/bedding in hot water or dry-clean/seal items. Merck: environmental decontamination is a prevention strategy.",
+    "R4": "Not accurate. Mites generally do not survive more than 2–3 days away from human skin (CDC); contacts need concurrent treatment (CDC; Merck)."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "NGN matrix — scabies transmission, concurrent contact treatment, laundry/decontamination",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ngn-matrix-scabies-skin-contact-treat-household-hot-laundry",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-aea65a06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC About Scabies: prolonged skin-to-skin spread; treat household/close contacts together; hot laundry. Merck Scabies Prevention: treat close contacts even if asymptomatic; environmental decontamination"
+    }
+   ],
+   "sources": [
+    {
+     "title": "About Scabies",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/scabies/about/index.html",
+     "section": "How it spreads; Prevention/Control; Treatment and recovery",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key and distractors",
+     "evidence": "Prolonged skin-to-skin spread; treat household/close contacts together; hot wash bedding.",
+     "added_by": "author"
+    },
+    {
+     "title": "Scabies",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/dermatologic-disorders/parasitic-skin-infections/scabies",
+     "section": "Prevention",
+     "source_date": "Last updated: Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Empiric treatment of close contacts even if asymptomatic; environmental decontamination.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B35-WAVE26",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "id": "ONRN-SIPC-0028",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "tags": [
+    "neutropenia",
+    "infection-prevention",
+    "oncology",
+    "SATA",
+    "SIPC"
+   ],
+   "stem": "A client receiving chemotherapy has severe neutropenia. Which nursing actions support neutropenic (protective) precautions and infection risk reduction? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Perform meticulous hand hygiene and uphold aseptic technique before client contact"
+    },
+    {
+     "key": "B",
+     "text": "Avoid fresh flowers in the room because of infection risk (e.g., Aspergillus)"
+    },
+    {
+     "key": "C",
+     "text": "Teach avoidance of fresh fruit and uncooked meats that may carry foodborne contaminants"
+    },
+    {
+     "key": "D",
+     "text": "Room the client with another client who has active influenza to 'boost immunity'"
+    },
+    {
+     "key": "E",
+     "text": "Ignore new fever because localized infection signs are always obvious in neutropenia"
+    },
+    {
+     "key": "F",
+     "text": "Ensure visitors/staff follow masking and other protective measures as ordered to reduce opportunistic exposure"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "F"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: meticulous hand hygiene and aseptic technique reduce nosocomial infection in neutropenia.",
+    "B": "Correct. OpenStax neutropenic precautions: avoid fresh flowers (Aspergillus/chemical exposure risk).",
+    "C": "Correct. OpenStax: avoid fresh fruit and uncooked meats to reduce foodborne contaminants.",
+    "D": "Incorrect. Protective precautions aim to reduce pathogen exposure; placing with influenza increases risk.",
+    "E": "Incorrect. Merck: focal infection signs may be muted in neutropenia, but fever is present in most serious infections and warrants immediate empiric antibiotics.",
+    "F": "Correct. OpenStax: providers, staff, and visitors wear masks to protect the patient from opportunistic infections."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "Neutropenic precautions — hand hygiene, avoid flowers/raw foods, mask visitors; fever not ignored",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "neutropenic-precautions-hand-hygiene-no-flowers-raw-food-masks",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-aea65a06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Med-Surg 16.5: neutropenic precautions (hand hygiene, no flowers, avoid fresh fruit/uncooked meats, masks). Merck Neutropenia: muted focal signs; fever implies infection needing immediate empiric broad-spectrum antibiotics"
+    }
+   ],
+   "sources": [
+    {
+     "title": "16.5 Neutropenia",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/16-5-neutropenia",
+     "section": "Nursing Care — neutropenic precautions",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Hand hygiene; avoid flowers and uncooked meats/fresh fruit; staff/visitor masks.",
+     "added_by": "author"
+    },
+    {
+     "title": "Neutropenia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/hematology/leukopenias/neutropenia",
+     "section": "Overview; Treatment — Acute neutropenia",
+     "source_date": "Last updated: Apr 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Focal infection signs may be muted; fever → presume infection; immediate empiric broad-spectrum antibiotics.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B35-WAVE26",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-MOC-0047",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "TeamSTEPPS",
+    "debrief",
+    "leadership",
+    "MOC"
+   ],
+   "stem": "After a critical resuscitation, the charge nurse wants a short TeamSTEPPS after-action review focused on learning. Which action best matches a debrief?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Facilitate a brief end-of-event discussion (often initiated by the leader) that reviews what went well and what to improve, reinforces successful behaviours, and captures lessons for the next plan—without assigning individual blame."
+    },
+    {
+     "key": "B",
+     "text": "Skip any review so the team never discusses performance."
+    },
+    {
+     "key": "C",
+     "text": "Publicly shame one team member for any perceived mistake."
+    },
+    {
+     "key": "D",
+     "text": "Wait until the next annual performance appraisal to discuss the event for the first time."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. AHRQ: debriefs recount/analyze events, discuss lessons, reinforce what went well, avoid blame; often short and leader-facilitated. OpenStax: TeamSTEPPS debrief checklist at the end for reflection and continuous improvement.",
+    "B": "Incorrect. TeamSTEPPS advocates after-action debriefs after critical team events (AHRQ).",
+    "C": "Incorrect. AHRQ: avoid assigning blame; focus on performance improvement and learning.",
+    "D": "Incorrect. Debriefs are timely after events (AHRQ), not deferred to annual appraisal only."
+   },
+   "specialty": "Leadership/Management",
+   "topic": "TeamSTEPPS debrief — after-action learning without blame",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Evaluate Outcomes",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "teamstepps-debrief-end-of-event-learning-no-blame",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-aea65a06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ Debrief: after-action review, lessons learned, reinforce successes, avoid blame, leader-facilitated. OpenStax Fundamentals 15.6: debrief checklist at end for successes/struggles and feedback"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Reviewing the Team's Performance: Debrief",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/teamstepps-program/curriculum/team/tools/debrief.html",
+     "section": "Debrief elements and guidance",
+     "source_date": "last reviewed December 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key and distractors",
+     "evidence": "Debrief after critical events; lessons learned; reinforce what went well; avoid blame.",
+     "added_by": "author"
+    },
+    {
+     "title": "15.6 Interprofessional Approach to Health Care",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/15-6-interprofessional-approach-to-health-care",
+     "section": "Providing Leadership Training — Debrief Checklist",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "TeamSTEPPS debrief checklist at end for reflection and continuous improvement.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B35-WAVE26",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn"
+   ],
+   "id": "ONRN-PA-0055",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "hyperemesis",
+    "pregnancy",
+    "dehydration",
+    "maternity",
+    "PA"
+   ],
+   "stem": "A pregnant client in the first trimester has persistent severe vomiting with signs of significant dehydration, ketosis, and weight loss. Which interpretation is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "This presentation is consistent with hyperemesis gravidarum and may require hospitalization for fluid and electrolyte replacement and further management."
+    },
+    {
+     "key": "B",
+     "text": "Severe vomiting with dehydration and weight loss in early pregnancy is always harmless 'morning sickness' that never needs evaluation."
+    },
+    {
+     "key": "C",
+     "text": "All first-trimester nausea requires immediate chemotherapy."
+    },
+    {
+     "key": "D",
+     "text": "Weight loss and ketosis prove the client should stop all prenatal care."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: hyperemesis gravidarum is persistent severe pregnancy-induced vomiting causing significant dehydration, often with electrolyte abnormalities, ketosis, and weight loss. OpenStax: severe nausea/vomiting with electrolyte imbalance, weight loss, malnutrition, and dehydration may require hospitalization for fluid/electrolyte replacement.",
+    "B": "Incorrect. Ordinary nausea/vomiting of pregnancy is common; hyperemesis is the severe form needing evaluation/possible hospital care (Merck; OpenStax).",
+    "C": "Incorrect. Not the treatment pathway described for hyperemesis in these sources.",
+    "D": "Incorrect. Clients need supportive care and prenatal follow-up, not cessation of care."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Hyperemesis gravidarum — severe vomiting with dehydration/ketosis/weight loss may need hospital fluids",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "hyperemesis-gravidarum-dehydration-ketosis-weight-loss-hospital-fluids",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-aea65a06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Nausea/Vomiting Early Pregnancy: hyperemesis = persistent severe vomiting with significant dehydration, electrolytes, ketosis, weight loss. OpenStax 12.2: hyperemesis with electrolyte imbalance/weight loss/malnutrition/dehydration; may require hospitalization for fluid/electrolyte replacement"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Nausea and Vomiting During Early Pregnancy",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/symptoms-during-pregnancy/nausea-and-vomiting-during-early-pregnancy",
+     "section": "Definition — Hyperemesis gravidarum",
+     "source_date": "Last updated: Feb 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Hyperemesis: persistent severe vomiting with significant dehydration, electrolytes, ketosis, weight loss.",
+     "added_by": "author"
+    },
+    {
+     "title": "12.2 Conditions Limited to Pregnancy",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+     "section": "Hyperemesis Gravidarum",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Severe nausea/vomiting with electrolyte imbalance, weight loss, malnutrition, dehydration; may need hospital fluids.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B35-WAVE26",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn",
+    "emergency"
+   ],
+   "id": "ONRN-PA-0056",
+   "format": "drop_down_cloze",
+   "scoring_model": "zero_one",
+   "tags": [
+    "HELLP",
+    "preeclampsia",
+    "maternity",
+    "NGN",
+    "cloze",
+    "PA"
+   ],
+   "stem": "Complete the teaching for a pregnant client about HELLP syndrome associated with severe preeclampsia.",
+   "ngn": {
+    "template": "HELLP stands for {B1}, elevated liver enzymes, and {B2}. It can develop in some clients with severe preeclampsia/eclampsia and requires {B3}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "hemolysis"
+      },
+      {
+       "key": "B1b",
+       "text": "hypercalcemia"
+      },
+      {
+       "key": "B1c",
+       "text": "hyponatremia only"
+      },
+      {
+       "key": "B1d",
+       "text": "high hemoglobin concentration"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "low platelet count"
+      },
+      {
+       "key": "B2b",
+       "text": "elevated platelet count"
+      },
+      {
+       "key": "B2c",
+       "text": "low bilirubin only"
+      },
+      {
+       "key": "B2d",
+       "text": "increased clotting factor VII only"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "prompt evaluation and close monitoring because it can be life-threatening to the pregnant person and fetus"
+      },
+      {
+       "key": "B3b",
+       "text": "no follow-up because HELLP is always harmless"
+      },
+      {
+       "key": "B3c",
+       "text": "routine delayed outpatient labs in 6 months only"
+      },
+      {
+       "key": "B3d",
+       "text": "immediate homeopathy without clinician involvement"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a"
+   },
+   "rationales": {
+    "B1a": "Correct. Merck and OpenStax: H = hemolysis in HELLP.",
+    "B1b": "Incorrect. Hypercalcemia is not the H in HELLP.",
+    "B1c": "Incorrect. Hyponatremia is not the defining H component.",
+    "B1d": "Incorrect. HELLP involves hemolysis, not high hemoglobin as the acronym letter.",
+    "B2a": "Correct. Merck/OpenStax: LP = low platelets.",
+    "B2b": "Incorrect. Platelets are low, not elevated.",
+    "B2c": "Incorrect. Low bilirubin alone is not the LP component.",
+    "B2d": "Incorrect. Not the LP meaning in HELLP.",
+    "B3a": "Correct. OpenStax: HELLP can be life-threatening; close monitoring and prompt evaluation are necessary. Merck: HELLP develops in a subset with severe preeclampsia/eclampsia.",
+    "B3b": "Incorrect. HELLP is a serious complication.",
+    "B3c": "Incorrect. Prompt evaluation is required, not remote delayed labs only.",
+    "B3d": "Incorrect. Not evidence-based management from cited sources."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "NGN cloze — HELLP = hemolysis, elevated liver enzymes, low platelets; prompt monitoring",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Understanding",
+   "enemy_group": "ngn-cloze-hellp-hemolysis-elevated-liver-low-platelets",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-aea65a06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Preeclampsia: HELLP = hemolysis, elevated liver enzymes, low platelets; develops in ~10–20% with severe preeclampsia/eclampsia. OpenStax 12.2 HELLP Syndrome: same acronym; life-threatening; prompt evaluation/close monitoring"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Preeclampsia and Eclampsia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/antenatal-complications/preeclampsia-and-eclampsia",
+     "section": "Pathophysiology — HELLP syndrome",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "HELLP: hemolysis, elevated liver enzymes, low platelets; subset of severe preeclampsia/eclampsia.",
+     "added_by": "author"
+    },
+    {
+     "title": "12.2 Conditions Limited to Pregnancy",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+     "section": "HELLP Syndrome",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "HELLP acronym; can be life-threatening; prompt evaluation and close monitoring.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B35-WAVE26",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn"
+   ],
+   "id": "ONRN-BCC-0022",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "engorgement",
+    "breastfeeding",
+    "lactation",
+    "BCC",
+    "maternity"
+   ],
+   "stem": "A breastfeeding client on postpartum day 4 has firm, swollen, painful breasts with a flattened nipple that makes latch difficult. Which teaching is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Use warm compress or a warm shower and hand-express a small amount of milk to soften the breast and help the nipple protrude for latch; continue frequent feeding; cool compresses between feedings may reduce inflammation."
+    },
+    {
+     "key": "B",
+     "text": "Stop breastfeeding permanently at the first sign of engorgement."
+    },
+    {
+     "key": "C",
+     "text": "Avoid any feeding or expression so milk pressure rises indefinitely."
+    },
+    {
+     "key": "D",
+     "text": "Apply ice packs continuously for 24 hours without feeding the infant."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: warm compress/shower and hand expression to soften for latch; cool compress between feedings. Merck: expressing milk (warm shower/pump) temporarily for pressure relief and breastfeeding on a regular schedule for those who will breastfeed.",
+    "B": "Incorrect. Engorgement is managed while continuing lactation support for breastfeeding clients (both sources).",
+    "C": "Incorrect. Regular feeding/appropriate expression relieves engorgement (Merck; OpenStax).",
+    "D": "Incorrect. Continuous icing without feeding is not the cited breastfeeding engorgement plan; cool packs are adjunct between feeds (OpenStax)."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Breast engorgement — warm soften/hand express for latch, frequent feeding, cool between feeds",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "breast-engorgement-warm-express-frequent-feed-cool-between",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-aea65a06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax 21.3 Engorgement: warm compress/shower, hand express to soften nipple for latch; cool compress between feeds. Merck Postpartum Breast engorgement: warm shower/hand or pump expression as needed; regular breastfeeding schedule"
+    }
+   ],
+   "sources": [
+    {
+     "title": "21.3 Breasts and Breast-Feeding",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/21-3-breasts-and-breast-feeding",
+     "section": "Engorgement",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Warm compress/shower and hand expression for latch; cool compress between feedings.",
+     "added_by": "author"
+    },
+    {
+     "title": "Postpartum Care",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/postpartum-care-and-associated-disorders/postpartum-care",
+     "section": "Breast engorgement",
+     "source_date": "Last updated: Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Hand expression in warm shower or pump as needed; regular breastfeeding schedule.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B35-WAVE26",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn"
+   ],
+   "id": "ONRN-HPM-0037",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "lochia",
+    "postpartum",
+    "maternity",
+    "NGN",
+    "matrix",
+    "HPM"
+   ],
+   "stem": "A nurse teaches expected postpartum lochia changes. For each statement, select Accurate or Not accurate.",
+   "ngn": {
+    "columns": [
+     "Accurate",
+     "Not accurate"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Lochia rubra is grossly bloody/red discharge expected in the first few postpartum days"
+     },
+     {
+      "key": "R2",
+      "text": "Lochia then typically becomes pale brown (serosa) and later yellowish white (alba)"
+     },
+     {
+      "key": "R3",
+      "text": "Saturating a peripad in less than 1 hour is considered excessive and needs prompt uterine assessment"
+     },
+     {
+      "key": "R4",
+      "text": "Foul-smelling discharge is expected normal lochia and never needs clinician contact"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Accurate",
+    "R2": "Accurate",
+    "R3": "Accurate",
+    "R4": "Not accurate"
+   },
+   "rationales": {
+    "R1": "Accurate. Merck: lochia rubra grossly bloody for ~3–4 days. OpenStax: lochia rubra bright/dark red for about the first 1–4 days.",
+    "R2": "Accurate. Merck: pale brown (serosa) then yellowish white (alba). OpenStax describes progression of lochia types with assessment teaching.",
+    "R3": "Accurate. OpenStax: saturating a pad in <1 hour is excessive and requires immediate uterine assessment. Merck advises contacting clinician for concern about heavy bleeding.",
+    "R4": "Not accurate. OpenStax: foul odor may signal uterine infection—contact the provider."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "NGN matrix — lochia rubra→serosa→alba; heavy pad soak and foul odor are red flags",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Evaluate Outcomes",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ngn-matrix-lochia-rubra-serosa-alba-heavy-pad-foul-odor",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-aea65a06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Postpartum Care: lochia rubra→serosa→alba sequence. OpenStax 20.1: lochia rubra days 1–4; pad soak <1h excessive; foul odor may indicate infection"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Postpartum Care",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/postpartum-care-and-associated-disorders/postpartum-care",
+     "section": "Clinical parameters — lochia",
+     "source_date": "Last updated: Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Lochia rubra bloody 3–4 days; then serosa pale brown; then alba yellowish white.",
+     "added_by": "author"
+    },
+    {
+     "title": "20.1 Physiologic Changes During the Postpartum Period",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/20-1-physiologic-changes-during-the-postpartum-period",
+     "section": "Uterus and Lochia; Lochia Assessment",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Lochia rubra first days; pad soak <1 hour excessive; foul odor may indicate infection.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B35-WAVE26",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-PSY-0029",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "tags": [
+    "delirium",
+    "prevention",
+    "gerontology",
+    "SATA",
+    "PSY"
+   ],
+   "stem": "Which nursing strategies help prevent or reduce hospital delirium risk in an older adult? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Maintain orientation with cues (e.g., date/time, staff names, visual reminders) and involve family for familiarity when appropriate"
+    },
+    {
+     "key": "B",
+     "text": "Promote sleep hygiene and protect rest when possible"
+    },
+    {
+     "key": "C",
+     "text": "Support mobility/assistance with movement and address pain, nutrition, and hydration"
+    },
+    {
+     "key": "D",
+     "text": "Add as many new psychoactive medications as possible without review"
+    },
+    {
+     "key": "E",
+     "text": "Keep the same caregivers as much as possible to reduce confusion"
+    },
+    {
+     "key": "F",
+     "text": "Leave sensory aids (glasses/hearing devices) unavailable all admission so the client 'adjusts'"
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. Merck prevention: maintain orientation; family can help. OpenStax: whiteboards/cues and family familiarity.",
+    "B": "Correct. Merck: ensure sleep. OpenStax: promote sleep hygiene.",
+    "C": "Correct. Merck: mobility, nutrition, hydration, pain relief. OpenStax: assist with movement; treat pain; proper nutrition.",
+    "D": "Incorrect. Merck: reduce number/doses of medications if possible; new meds can precipitate delirium.",
+    "E": "Correct. OpenStax: keep the same caregivers as much as possible.",
+    "F": "Incorrect. Sensory impairment predisposes to delirium (Merck); aids should be available, not withheld."
+   },
+   "specialty": "Gerontology",
+   "topic": "Delirium prevention — orientation, sleep, mobility, nutrition/hydration/pain, consistent caregivers",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "delirium-prevention-orient-sleep-mobility-nutrition-family-cues",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-aea65a06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Prevention of Delirium: orientation, mobility, cognition, sleep, nutrition/hydration, pain relief; reduce meds; family help. OpenStax PMH 14.2: family familiarity, visual cues/dates, same caregivers, sleep hygiene, movement, pain, nutrition"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Delirium",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/delirium-and-dementia/delirium",
+     "section": "Prevention of Delirium",
+     "source_date": "Last updated: Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Maintain orientation, mobility, sleep, nutrition/hydration, pain relief; reduce medications; involve family.",
+     "added_by": "author"
+    },
+    {
+     "title": "14.2 Delirium",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/14-2-delirium",
+     "section": "Nursing Treatment of Delirium",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Family familiarity; visual cues; same caregivers; sleep hygiene; movement; pain; nutrition.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B35-WAVE26",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric"
+   ],
+   "id": "ONRN-HPM-0038",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "asthma",
+    "action-plan",
+    "education",
+    "community",
+    "HPM"
+   ],
+   "stem": "A nurse educates a client with asthma and the caregiver about self-management. Which teaching point is most strongly supported?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Provide a written asthma action plan describing day-to-day management and what to do for exacerbations (often guided by the client's best personal peak flow), plus inhaler/spacer technique and trigger awareness."
+    },
+    {
+     "key": "B",
+     "text": "Tell the client never to have any written plan because asthma cannot be self-monitored."
+    },
+    {
+     "key": "C",
+     "text": "Advise using peak-flow–based decisions only against a stranger's predicted normal value and never the client's personal best."
+    },
+    {
+     "key": "D",
+     "text": "Recommend waiting until severe respiratory failure before any early glucocorticoid use discussed in an action plan."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: every patient should have a written action plan for daily and acute management based on best personal peak flow; education includes triggers and inhaler/spacer technique. OpenStax: implement an asthma action plan to monitor symptoms and adjust medications; written personalized plans help caregivers/patients stay safe.",
+    "B": "Incorrect. Written action plans improve control/adherence (Merck; OpenStax).",
+    "C": "Incorrect. Merck emphasizes the patient's best personal peak flow rather than predicted normal alone.",
+    "D": "Incorrect. Merck notes importance of early glucocorticoid use in exacerbations as part of education."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Asthma written action plan — personal best peak flow, inhaler/spacer, triggers",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "asthma-written-action-plan-personal-best-peak-flow-inhaler",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-aea65a06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Asthma Patient education: written action plan based on best personal peak flow; inhaler/spacer; triggers; early glucocorticoids. OpenStax Med-Surg 11.4: asthma action plan; written personalized plan; inhaler and peak flow education"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Asthma",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pulmonary-disorders/asthma-and-related-disorders/asthma",
+     "section": "Patient education",
+     "source_date": "Last updated: May 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Written action plan based on best personal peak flow; inhaler/spacer technique; trigger education.",
+     "added_by": "author"
+    },
+    {
+     "title": "11.4 Disorders of the Lower Respiratory System: Asthma",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/11-4-disorders-of-the-lower-respiratory-system-asthma",
+     "section": "Taking Action — asthma action plan",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Asthma action plan; written personalized plan; inhaler and peak flow meter teaching.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B35-WAVE26",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "Glucose thresholds vary by source/protocol; item keys risk recognition and feeding/IV dextrose management, not a single cut-off number.",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn",
+    "pediatric",
+    "lab-range-varies"
+   ],
+   "id": "ONRN-RRP-0039",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "hypoglycemia",
+    "newborn",
+    "maternity",
+    "RRP"
+   ],
+   "stem": "A nurse cares for a large-for-gestational-age newborn of a mother with diabetes. Which priority approach is most appropriate regarding neonatal hypoglycemia risk?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Follow facility protocol for glucose monitoring of at-risk newborns, support early feeding (often within the first hour), and treat confirmed hypoglycemia with enteral feeding or IV dextrose as ordered—do not wait for seizures before acting."
+    },
+    {
+     "key": "B",
+     "text": "Never monitor glucose in infants of diabetic mothers because hypoglycemia never occurs in this group."
+    },
+    {
+     "key": "C",
+     "text": "Withhold all feeds for 12 hours to 'test' hypoglycemia tolerance."
+    },
+    {
+     "key": "D",
+     "text": "Treat only with adult oral hypoglycemic tablets crushed into formula."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: risk factors include maternal diabetes; treatment is enteral feeding or IV dextrose; signs can include seizures/apnea. OpenStax: IDM/LGA are at risk; monitor at-risk newborns per policy; encourage early breastfeeding; prevent cold stress; do not wait for all term newborns to become symptomatic before protocol monitoring.",
+    "B": "Incorrect. Infants of diabetic mothers are a classic risk group (Merck; OpenStax).",
+    "C": "Incorrect. Early feeding is preventive/supportive (OpenStax; Merck treatment includes feeding).",
+    "D": "Incorrect. Not the neonatal pathway in cited sources (feeding/IV dextrose)."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Neonatal hypoglycemia risk (IDM/LGA) — protocol monitoring, early feeding, IV dextrose if needed",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "neonatal-hypoglycemia-idm-lga-early-feed-monitor-iv-dextrose",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-aea65a06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck Neonatal Hypoglycemia: maternal diabetes risk; treat with enteral feeding or IV dextrose. OpenStax 24.2: IDM/LGA risk; protocol monitoring of at-risk newborns; early breastfeeding; skin-to-skin to prevent cold stress"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Neonatal Hypoglycemia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/metabolic-electrolyte-and-toxic-disorders-in-neonates/neonatal-hypoglycemia",
+     "section": "Etiology; Treatment",
+     "source_date": "Last updated: Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Risk includes maternal diabetes; treatment enteral feeding or IV dextrose.",
+     "added_by": "author"
+    },
+    {
+     "title": "24.2 Care of Common Problems in the Newborn",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/24-2-care-of-common-problems-in-the-newborn",
+     "section": "Care of the Newborn with Hypoglycemia",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "IDM/LGA at risk; monitor at-risk newborns per policy; early breastfeeding initiation.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B35-WAVE26",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency",
+    "high-alert-medication"
+   ],
+   "id": "ONRN-PA-0057",
+   "format": "bowtie",
+   "scoring_model": "zero_one",
+   "tags": [
+    "neutropenia",
+    "fever",
+    "sepsis-risk",
+    "NGN",
+    "bowtie",
+    "PA"
+   ],
+   "stem": "A client with chemotherapy-related severe neutropenia develops a new fever. Complete the bowtie: identify the priority condition, two actions, and two parameters to monitor.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Febrile neutropenia / presumed serious infection due to severe neutropenia"
+     },
+     {
+      "key": "K2",
+      "text": "Uncomplicated seasonal allergies without infection risk"
+     },
+     {
+      "key": "K3",
+      "text": "Stable iron-deficiency anemia only"
+     },
+     {
+      "key": "K4",
+      "text": "Resolved otitis externa from childhood"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Notify the provider and initiate ordered empiric high-dose broad-spectrum IV antibiotics promptly"
+     },
+     {
+      "key": "A2",
+      "text": "Delay all antibiotics for 48 hours to 'see if fever resolves alone'"
+     },
+     {
+      "key": "A3",
+      "text": "Obtain ordered cultures and implement protective/neutropenic precautions (hand hygiene, limit exposure)"
+     },
+     {
+      "key": "A4",
+      "text": "Send the client to a crowded public event without masking"
+     },
+     {
+      "key": "A5",
+      "text": "Stop temperature monitoring for the shift"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "Temperature / fever trend"
+     },
+     {
+      "key": "P2",
+      "text": "Absolute neutrophil count and signs of clinical instability (e.g., hypotension)"
+     },
+     {
+      "key": "P3",
+      "text": "Favourite television channel only"
+     },
+     {
+      "key": "P4",
+      "text": "Shoe size"
+     },
+     {
+      "key": "P5",
+      "text": "Hair colour"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K1",
+    "actions": [
+     "A1",
+     "A3"
+    ],
+    "parameters": [
+     "P1",
+     "P2"
+    ]
+   },
+   "rationales": {
+    "K1": "Correct. Merck: with fever in neutropenia, infection is presumed and immediate empiric broad-spectrum antibiotics are necessary.",
+    "K2": "Incorrect. Not the acute life-threatening problem described.",
+    "K3": "Incorrect. Does not explain febrile neutropenia urgency.",
+    "K4": "Incorrect. Irrelevant childhood history.",
+    "A1": "Correct. Merck: immediate empiric high-dose broad-spectrum IV antibiotics when fever/hypotension present.",
+    "A2": "Incorrect. Delaying antibiotics is unsafe in febrile neutropenia (Merck).",
+    "A3": "Correct. Cultures are part of infection evaluation; OpenStax emphasizes protective precautions and infection surveillance.",
+    "A4": "Incorrect. Increases opportunistic exposure (OpenStax precautions).",
+    "A5": "Incorrect. OpenStax: routine temperature surveillance is essential.",
+    "P1": "Correct. Fever drives urgent treatment decisions (Merck); OpenStax monitors temperature.",
+    "P2": "Correct. Neutrophil count severity and hypotension guide urgency (Merck); OpenStax monitors ANC and infection signs.",
+    "P3": "Incorrect. Not a clinical parameter for this emergency.",
+    "P4": "Incorrect. Not relevant.",
+    "P5": "Incorrect. Not relevant."
+   },
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN bowtie — febrile neutropenia: empiric IV antibiotics, cultures/precautions, monitor fever/ANC",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "ngn-bowtie-febrile-neutropenia-empiric-iv-antibiotics-monitor-fever-anc",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-aea65a06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: fever in neutropenia → presume infection; immediate empiric broad-spectrum IV antibiotics. OpenStax 16.5: neutropenic precautions, temperature surveillance, ANC monitoring"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Neutropenia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/hematology/leukopenias/neutropenia",
+     "section": "Overview; Treatment — Acute neutropenia",
+     "source_date": "Last updated: Apr 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "Fever → presume infection; immediate empiric high-dose broad-spectrum IV antibiotics.",
+     "added_by": "author"
+    },
+    {
+     "title": "16.5 Neutropenia",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/16-5-neutropenia",
+     "section": "Nursing Care — neutropenic precautions and surveillance",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Protective precautions; temperature and ANC surveillance.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B35-WAVE26",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn"
+   ],
+   "id": "ONRN-RRP-0040",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "tags": [
+    "preeclampsia",
+    "hypertension",
+    "pregnancy",
+    "RRP",
+    "maternity"
+   ],
+   "stem": "Which finding best aligns with the definition of preeclampsia used in standard clinical references?",
+   "options": [
+    {
+     "key": "A",
+     "text": "New-onset (or worsening) hypertension with proteinuria after 20 weeks' gestation (with evaluation for end-organ involvement as indicated)"
+    },
+    {
+     "key": "B",
+     "text": "Isolated mild headache at 8 weeks with normal blood pressure and no proteinuria"
+    },
+    {
+     "key": "C",
+     "text": "Chronic hypertension diagnosed years before pregnancy with no change after 20 weeks and no proteinuria"
+    },
+    {
+     "key": "D",
+     "text": "Postprandial fullness in the second trimester without hypertension"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: preeclampsia is new onset or worsening hypertension with proteinuria after 20 weeks, with evaluation for end-organ damage. OpenStax covers hypertensive disorders of pregnancy including preeclampsia after mid-pregnancy with monitoring/management implications.",
+    "B": "Incorrect. Too early and lacks hypertension/proteinuria criteria (Merck: after 20 weeks).",
+    "C": "Incorrect. Pre-existing chronic hypertension without new features is a different category (OpenStax/Merck distinguish hypertensive disorders).",
+    "D": "Incorrect. Not diagnostic for preeclampsia."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Preeclampsia definition — hypertension with proteinuria after 20 weeks",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "preeclampsia-definition-htn-proteinuria-after-20-weeks",
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-aea65a06) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck: preeclampsia = new/worsening HTN with proteinuria after 20 weeks. OpenStax 12.2 Hypertensive Disorders of Pregnancy / Preeclampsia sections support post-20-week hypertensive disease framework"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Preeclampsia and Eclampsia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/antenatal-complications/preeclampsia-and-eclampsia",
+     "section": "Definition overview",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key and distractors",
+     "evidence": "New onset or worsening hypertension with proteinuria after 20 weeks gestation.",
+     "added_by": "author"
+    },
+    {
+     "title": "12.2 Conditions Limited to Pregnancy",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+     "section": "Hypertensive Disorders of Pregnancy — Preeclampsia",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key and distractors",
+     "evidence": "Hypertensive disorders including preeclampsia in the second/third trimester framework.",
      "added_by": "author"
     }
    ],
