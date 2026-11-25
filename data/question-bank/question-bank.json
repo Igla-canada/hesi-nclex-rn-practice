@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 37,
+  "Source verified": 44,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -3944,6 +3944,761 @@
      "evidence": "Fever is a clinical manifestation of infection in neutropenia; acute neutropenia requires hospitalization and reverse/neutropenic precautions such as avoiding fresh flowers and fresh fruit.",
      "added_by": "author"
     }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-BCC-0004",
+   "batch": "B14-WAVE5",
+   "item_version": 1,
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An ambulatory adult client reports hard stools every 4 to 5 days and abdominal bloating. The nurse is teaching nonpharmacologic measures to promote bowel regularity. Which instruction is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Restrict oral fluids so the stool becomes firmer and easier to pass."
+    },
+    {
+     "key": "B",
+     "text": "Increase dietary fibre and fluid intake and maintain regular physical activity."
+    },
+    {
+     "key": "C",
+     "text": "Remain on bed rest until bowel movements return to once daily."
+    },
+    {
+     "key": "D",
+     "text": "Stop eating fruits and vegetables to reduce intestinal gas and bloating."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Adequate hydration softens stool; restricting fluids worsens constipation.",
+    "B": "Correct. Constipation is commonly linked to low fibre, dehydration, and decreased activity; teaching fibre-rich foods, adequate fluids, and regular activity supports bowel regularity.",
+    "C": "Incorrect. Decreased activity slows peristalsis and contributes to constipation rather than relieving it.",
+    "D": "Incorrect. Fruits and vegetables are recommended fibre sources for constipation; eliminating them is counterproductive."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Constipation — fibre, fluids, and activity teaching",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "sources": [
+    {
+     "title": "Constipation",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gastrointestinal-disorders/symptoms-of-gastrointestinal-disorders/constipation",
+     "section": "Treatment of Constipation; Diet and behavior",
+     "source_date": "Last updated Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A, D",
+     "evidence": "Treatment includes increase in dietary fiber; diet should contain enough fiber (typically 15–20 g/day); fibre absorbs fluid, making stools softer.",
+     "added_by": "author"
+    },
+    {
+     "title": "27.4 Common Conditions Affecting Bowel Elimination",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/27-4-common-conditions-affecting-bowel-elimination",
+     "section": "Constipation; Nursing Management",
+     "source_date": "Citation date Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationales A, C, D",
+     "evidence": "Constipation linked to decreased activity, dehydration, lack of fiber; nurses educate on fiber-rich diets, adequate hydration, and regular physical activity.",
+     "added_by": "author"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key and rationales checked vs live-fetched Merck Constipation (Oct 2026; increase dietary fibre / Diet and behavior) and OpenStax Fundamentals 27.4 (Sep 2024; fibre, hydration, activity). Exact g/day fibre amount not keyed."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "enemy_group": "constipation-fiber-fluids-activity",
+   "tags": [
+    "constipation",
+    "elimination",
+    "nutrition",
+    "teaching"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-BCC-0005",
+   "batch": "B14-WAVE5",
+   "item_version": 1,
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client reports difficulty falling asleep most nights. The nurse is teaching sleep hygiene. Which client statement shows correct understanding?",
+   "options": [
+    {
+     "key": "A",
+     "text": "I will drink coffee after supper to stay awake until a later bedtime."
+    },
+    {
+     "key": "B",
+     "text": "I will keep a consistent sleep–wake schedule even on days off."
+    },
+    {
+     "key": "C",
+     "text": "I will use my phone in bed until I feel drowsy."
+    },
+    {
+     "key": "D",
+     "text": "I will do vigorous exercise right before lights out so I am exhausted."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Caffeine near bedtime (and for sensitive people even in the afternoon) impairs sleep hygiene.",
+    "B": "Correct. Maintaining a consistent sleep–wake schedule supports sleep promotion; irregular schedules make it harder to establish restful sleep.",
+    "C": "Incorrect. Electronic device light and stimulation make falling asleep more difficult; devices should be avoided before sleep.",
+    "D": "Incorrect. Exercise or excitement late in the evening can impair sleep; vigorous activity immediately before bedtime is poor sleep hygiene."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Sleep hygiene — consistent schedule; avoid late caffeine, electronics, and late vigorous exercise",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Evaluate Outcomes",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "sources": [
+    {
+     "title": "Insomnia and Excessive Daytime Sleepiness (EDS)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/sleep-and-wakefulness-disorders/insomnia-and-excessive-daytime-sleepiness-eds",
+     "section": "Inadequate sleep hygiene",
+     "source_date": "Last updated Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B (regular schedule contrast); rationales A, D",
+     "evidence": "Inadequate sleep hygiene includes caffeine/stimulants near bedtime, exercise or excitement late in the evening, and an irregular sleep–wake schedule.",
+     "added_by": "author"
+    },
+    {
+     "title": "28.4 Nursing Care to Promote Sleep and Rest",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/28-4-nursing-care-to-promote-sleep-and-rest",
+     "section": "Education to Encourage Good Sleep Hygiene Practices; Maintain a Consistent Schedule for Sleep; Avoid Electronics Prior to Sleep",
+     "source_date": "Citation date Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationales A, C",
+     "evidence": "Maintain a consistent sleep schedule; caffeine noted among sleep disruptors; avoid electronics before sleep because device light and stimulation hinder falling asleep.",
+     "added_by": "author"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Keyed consistent schedule and distractors (late caffeine, electronics, late vigorous exercise) confirmed in Merck Inadequate sleep hygiene and OpenStax 28.4 sleep hygiene education."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "enemy_group": "sleep-hygiene-consistent-schedule",
+   "tags": [
+    "sleep",
+    "rest",
+    "teaching",
+    "hygiene"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-HPM-0005",
+   "batch": "B14-WAVE5",
+   "item_version": 1,
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "The nurse is teaching new parents about reducing the risk of sudden infant death and sleep-related infant death. Which instructions should the nurse include? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Place the baby on the back for every sleep, including naps."
+    },
+    {
+     "key": "B",
+     "text": "Use a firm, flat crib, cradle, or bassinet mattress with a fitted sheet."
+    },
+    {
+     "key": "C",
+     "text": "Add bumper pads and a soft quilt to keep the baby warm and protected."
+    },
+    {
+     "key": "D",
+     "text": "Keep soft toys, pillows, and loose bedding out of the sleep space."
+    },
+    {
+     "key": "E",
+     "text": "Have the baby sleep alone in the crib while room-sharing with parents."
+    },
+    {
+     "key": "F",
+     "text": "Place the baby prone for sleep if the baby spit up during the last feed."
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "D",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. Back (supine) sleep for every sleep reduces SIDS risk and is recommended in Canadian and OpenStax/CDC–AAP aligned teaching.",
+    "B": "Correct. A firm, flat sleep surface in a crib, cradle, or bassinet is the safest infant sleep surface.",
+    "C": "Incorrect. Soft bedding, bumper pads, quilts, and similar items increase suffocation risk and should not be in the sleep space.",
+    "D": "Correct. Soft objects and loose bedding should be kept out of the infant sleep area.",
+    "E": "Correct. Room-sharing without bed-sharing (baby alone in crib in parents’ room) is recommended; Canada specifies the first 6 months for room-sharing.",
+    "F": "Incorrect. Even infants who regurgitate should be placed on their backs; prone sleep increases SIDS risk."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Newborn safe sleep — back, alone, crib; no soft bedding",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "Canada-specific",
+   "jurisdiction_note": "Canadian Joint Statement / Health Canada safe-sleep guidance keyed (back, alone, crib/cradle/bassinet, no soft bedding, room-share). OpenStax cites CDC/AAP with concordant ABC messaging; Canada’s room-sharing duration (first 6 months) is noted but not over-precise in options.",
+   "units_note": "",
+   "sources": [
+    {
+     "title": "Joint Statement on Safe Sleep: Reducing Sudden Infant Deaths in Canada",
+     "publisher": "Public Health Agency of Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/public-health/services/publications/healthy-living/joint-statement-on-safe-sleep.html",
+     "section": "Principles of safe sleep",
+     "source_date": "Updated 2016",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Keys A,B,D,E; rationales C,F",
+     "evidence": "Infants on backs for every sleep; safest place is crib/cradle/bassinet with firm flat mattress; free of soft bedding/toys; even infants who regurgitate on backs; prone/lateral linked to higher SIDS.",
+     "added_by": "author"
+    },
+    {
+     "title": "Safe sleep tips",
+     "publisher": "Health Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/health-canada/services/safe-sleep/safe-sleep-tips.html",
+     "section": "Safe sleep for every sleep; ABCs of Safe Sleep",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Keys A,B,D,E; rationale C",
+     "evidence": "Always place baby on back; flat firm space free of soft bedding; alone in crib/cradle/bassinet; room-share first 6 months; ABCs — Alone on Back in Crib.",
+     "added_by": "author"
+    },
+    {
+     "title": "24.3 Newborn Discharge Planning and Parent Education",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/24-3-newborn-discharge-planning-and-parent-education",
+     "section": "Safe Sleep Practices",
+     "source_date": "Citation date Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Keys A,B,D,E; rationale C",
+     "evidence": "Place baby on back for all sleep; firm flat crib mattress; eliminate soft bedding/toys; room-share but not bed-share.",
+     "added_by": "author"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "SATA keys dual-confirmed across Canadian Joint Statement/Health Canada tips and OpenStax Maternal-Newborn 24.3. Prone-for-spit-up distractor contradicted by Joint Statement. Soft bedding ban concordant. Health Canada and PHAC are same federal family; OpenStax provides independent publisher."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn",
+    "pediatric",
+    "canada-us-difference"
+   ],
+   "enemy_group": "newborn-safe-sleep-back-alone-crib",
+   "tags": [
+    "SIDS",
+    "safe-sleep",
+    "newborn",
+    "parent-teaching"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-PSY-0003",
+   "batch": "B14-WAVE5",
+   "item_version": 1,
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with schizophrenia stares at an empty corner and says, “Angry voices are telling me I am in danger.” The client is distressed but not expressing a command to harm self or others. Which nursing response is most therapeutic?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Those voices are not real — ignore them and you will be fine."
+    },
+    {
+     "key": "B",
+     "text": "I do not hear those voices, but that must be very frightening for you."
+    },
+    {
+     "key": "C",
+     "text": "Prove to me that someone is speaking so we can call security."
+    },
+    {
+     "key": "D",
+     "text": "You should argue with the voices until they stop talking."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Trying to convince the client the hallucinations are not real and offering false reassurance is nontherapeutic and can increase distress.",
+    "B": "Correct. Offer your perception of reality without arguing, and acknowledge the client’s feelings with empathy.",
+    "C": "Incorrect. Challenging or demanding proof of the hallucination/delusional content increases defensiveness and erodes trust.",
+    "D": "Incorrect. Arguing with or challenging psychotic content is not a therapeutic strategy and can escalate distress."
+   },
+   "specialty": "Mental Health",
+   "topic": "Auditory hallucinations — acknowledge feelings; do not argue or convince",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "sources": [
+    {
+     "title": "Chapter 11 Psychosis and Schizophrenia — Nursing: Mental Health and Community Concepts",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK590027/",
+     "section": "Helping Clients Who Are Experiencing Hallucinations",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationales A, C, D",
+     "evidence": "Do not try to convince the client hallucinations are not real; offer your perception and convey empathy (e.g., I don’t hear angry voices… but that must be very frightening).",
+     "added_by": "author"
+    },
+    {
+     "title": "3.1 Therapeutic Communication and Relationships",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/3-1-therapeutic-communication-and-relationships",
+     "section": "Barriers to Therapeutic Communication — Disagreeing with the Client; Providing False Reassurance",
+     "source_date": "Citation date Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationales A, C, D",
+     "evidence": "Disagreeing/challenging the client’s perception creates a barrier; false reassurance is also a barrier; avoid challenging, disagreeing, and false reassurances.",
+     "added_by": "author"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key paraphrases NCBI hallucination guidance; OpenStax independently supports not disagreeing/challenging and avoiding false reassurance. Command-hallucination safety pathway not tested (stem excludes harm commands)."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "enemy_group": "hallucination-acknowledge-do-not-argue",
+   "tags": [
+    "schizophrenia",
+    "hallucinations",
+    "therapeutic-communication"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-PA-0006",
+   "batch": "B14-WAVE5",
+   "item_version": 1,
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client suddenly develops a generalized tonic-clonic seizure. Which nursing action best protects the airway during the seizure?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Insert a padded tongue blade between the teeth."
+    },
+    {
+     "key": "B",
+     "text": "Hold the client supine and restrain the arms and legs."
+    },
+    {
+     "key": "C",
+     "text": "Turn the client onto the side and do not place objects in the mouth."
+    },
+    {
+     "key": "D",
+     "text": "Sit the client upright and offer sips of water between convulsions."
+    }
+   ],
+   "correct_answer": [
+    "C"
+   ],
+   "rationales": {
+    "A": "Incorrect. Attempting to protect the tongue with objects in the mouth is futile and risks dental injury and rescuer injury.",
+    "B": "Incorrect. Restraining limbs can cause injury; the priority airway measure is side-lying positioning, not forced restraint.",
+    "C": "Correct. Rolling the client onto the side helps prevent aspiration, and nothing should be placed in the mouth during the seizure.",
+    "D": "Incorrect. Oral fluids during a seizure risk aspiration; upright sitting is not the recommended airway-protective position during convulsions."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Seizure — side-lying position; nothing in the mouth",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "sources": [
+    {
+     "title": "Seizure Disorders",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/seizure-disorders/seizure-disorders",
+     "section": "Treatment of Seizure Disorders — General measures",
+     "source_date": "Last updated Mar 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key C; rationales A, B",
+     "evidence": "During generalized tonic-clonic seizure: loosen clothing, pillow under head; protecting the tongue is futile and may damage teeth/rescuer fingers; roll patient onto side to prevent aspiration.",
+     "added_by": "author"
+    },
+    {
+     "title": "17.5 Seizures",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/17-5-seizures",
+     "section": "Prioritizing Hypotheses, Generating Solutions, and Taking Action",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key C; rationale A",
+     "evidence": "Place pillow under head and turn patient on side to keep tongue from blocking airway; never place fingers in the mouth or a barrier between the teeth.",
+     "added_by": "author"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Side-lying + nothing-in-mouth dual-confirmed in Merck General measures and OpenStax 17.5. Status epilepticus medication pathway not tested."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "enemy_group": "seizure-side-lying-nothing-in-mouth",
+   "tags": [
+    "seizure",
+    "airway",
+    "safety",
+    "neurology"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-PPT-0006",
+   "batch": "B14-WAVE5",
+   "item_version": 1,
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client started ramipril 3 weeks ago for hypertension. At follow-up the client reports a persistent dry, irritating cough with no fever, sputum, or dyspnea. Which nursing action is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Reassure the client that cough always means pneumonia and schedule a chest radiograph first."
+    },
+    {
+     "key": "B",
+     "text": "Recognize that a dry cough is a common ACE inhibitor adverse effect and notify the provider."
+    },
+    {
+     "key": "C",
+     "text": "Advise the client to double the next ramipril dose so the cough adapts more quickly."
+    },
+    {
+     "key": "D",
+     "text": "Tell the client to stop all antihypertensive therapy immediately without contacting the provider."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. A dry, nonproductive ACE inhibitor cough is a common adverse effect; assuming pneumonia without clinical features of infection is not the first nursing interpretation.",
+    "B": "Correct. A persistent dry, irritating cough is the most common ACE inhibitor adverse effect; the nurse should recognize it and communicate with the provider about possible medication change.",
+    "C": "Incorrect. Increasing the dose does not treat ACE inhibitor cough and may worsen adverse effects; dose changes require a provider order.",
+    "D": "Incorrect. Abrupt unsupervised cessation of antihypertensives is unsafe; the provider should guide any change (often to an ARB if cough is intolerable)."
+   },
+   "specialty": "Pharmacology",
+   "topic": "ACE inhibitors — dry cough as common adverse effect",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "sources": [
+    {
+     "title": "Medications for Hypertension",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/hypertension/medications-for-hypertension",
+     "section": "ACE Inhibitors for Hypertension",
+     "source_date": "Last updated Dec 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationale D (provider-guided change)",
+     "evidence": "A dry, irritating cough is the most common adverse effect of ACE inhibitors (up to ~20% in North America/Europe); angioedema is most serious; may also raise potassium.",
+     "added_by": "author"
+    },
+    {
+     "title": "18.2 Angiotensin-Converting Enzyme (ACE) Inhibitors",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/18-2-angiotensin-converting-enzyme-ace-inhibitors",
+     "section": "Adverse Effects and Contraindications",
+     "source_date": "Citation date May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Adverse effects include nonproductive cough; clients may develop a persistent dry, itchy ACE inhibitor–associated cough, hyperkalemia, or hypotension.",
+     "added_by": "author"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Dry cough as common ACEI adverse effect dual-confirmed Merck Medications for Hypertension and OpenStax Pharmacology 18.2. Exact ARB switch not keyed as sole answer to avoid over-claiming nursing scope."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "enemy_group": "acei-dry-cough-adverse-effect",
+   "tags": [
+    "ACE-inhibitor",
+    "ramipril",
+    "cough",
+    "hypertension"
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "id": "ONRN-PPT-0007",
+   "batch": "B14-WAVE5",
+   "item_version": 1,
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A nurse is teaching a client who uses mealtime insulin about hypoglycemia risk. Which statement by the nurse is accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Hypoglycemia risk is highest when insulin is peaking."
+    },
+    {
+     "key": "B",
+     "text": "Insulin never causes low blood glucose if meals are skipped."
+    },
+    {
+     "key": "C",
+     "text": "Long-acting basal insulin has the sharpest peak and highest hypoglycemia risk of all types."
+    },
+    {
+     "key": "D",
+     "text": "Hypoglycemia is a rare complication that nurses can ignore during peak times."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Peak time is when insulin’s glucose-lowering effect is strongest, and clients are at higher risk of hypoglycemia symptoms then.",
+    "B": "Incorrect. Skipping meals while insulin is active increases hypoglycemia risk.",
+    "C": "Incorrect. Common long-acting basal insulins are described as having little or no peak relative to mealtime insulins; they are not the sharpest-peaking type.",
+    "D": "Incorrect. Hypoglycemia is the most common complication of insulin treatment and warrants monitoring, especially around peak action."
+   },
+   "specialty": "Pharmacology",
+   "topic": "Insulin — hypoglycemia risk highest around peak action",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Understanding",
+   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "sources": [
+    {
+     "title": "28.2 Insulin and Non-Insulin Injectable Diabetes Drugs",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/28-2-insulin-and-non-insulin-injectable-diabetes-drugs",
+     "section": "Peak Time; Long-Acting Insulin",
+     "source_date": "Citation date May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; rationales C, D",
+     "evidence": "Peak time is maximum glucose-lowering strength; higher hypoglycemia risk when insulin is peaking; long-acting examples have no peak time and act up to 24 hours.",
+     "added_by": "author"
+    },
+    {
+     "title": "Medications for Diabetes Mellitus Treatment",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/diabetes-mellitus-and-hypoglycemia/medications-for-diabetes-mellitus-treatment",
+     "section": "Complications of insulin treatment",
+     "source_date": "Last updated Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; rationales B, D",
+     "evidence": "Most common complication of insulin treatment is hypoglycemia; occurs more often as patients intensify therapy toward glycemic targets.",
+     "added_by": "author"
+    }
+   ],
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Peak-related hypoglycemia risk from OpenStax Peak Time; Merck confirms hypoglycemia as most common insulin complication. Exact minute ranges for each insulin product not keyed to avoid label-specific conflicts."
+    }
+   ],
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "enemy_group": "insulin-peak-hypoglycemia-risk",
+   "tags": [
+    "insulin",
+    "hypoglycemia",
+    "diabetes",
+    "teaching"
    ],
    "exam_version_published": null,
    "exam_version_provisional": null
