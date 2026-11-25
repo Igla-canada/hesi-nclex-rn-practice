@@ -1,0 +1,1607 @@
+{
+ "batch_id": "B45-WAVE36",
+ "author": "AI author (Composer, Cursor subagent bc-200ae005) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 36 multi-exam depth — BCC/Gero (home oxygen MC + NGN matrix; postop early ambulation), SIPC/Peds/Gero (rubella Droplet 7 days MC + NGN cloze; disseminated zoster Airborne+Contact), PPT (insulin site rotation MC + NGN cloze), RRP/Fundamentals (IV infiltration; phlebitis), PSY/MH (mania communication MC + NGN matrix; acute dystonia NGN bowtie), Ontario Professional Practice (capacity treatment-specific). Dual-cited originals (MedlinePlus, COPD Foundation, OpenStax, Merck, CDC, NCBI Open RN, CNO).",
+ "items": [
+  {
+   "batch": "B45-WAVE36",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "oxygen",
+    "fire-safety",
+    "BCC",
+    "gerontology",
+    "COPD"
+   ],
+   "id": "ONRN-BCC-0036",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Gerontology",
+   "topic": "Home oxygen safety — no smoking; keep away from open flame/heat; avoid petroleum-based lotions",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "home-oxygen-no-smoking-away-from-flame-no-petroleum",
+   "stem": "The nurse teaches a client starting home oxygen therapy. Which instruction is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Do not smoke or allow smoking near oxygen; keep oxygen away from open flames/heat sources; avoid petroleum-based lotions on the face or upper body"
+    },
+    {
+     "key": "B",
+     "text": "Smoking is safe if the oxygen flow is turned down to 1 L/min"
+    },
+    {
+     "key": "C",
+     "text": "Petroleum jelly is preferred on the nose and face while oxygen is in use"
+    },
+    {
+     "key": "D",
+     "text": "Place oxygen equipment next to a wood stove to warm the gas before use"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. MedlinePlus: no smoking where oxygen is used; keep oxygen about 6 feet from heat; avoid Vaseline/petroleum creams unless advised. COPD Foundation: do not smoke; keep equipment 5–10 feet from open flames; avoid oil/petroleum-based products on face/upper chest.",
+    "B": "Incorrect. Smoking near oxygen is prohibited regardless of flow rate.",
+    "C": "Incorrect. Petroleum-based products are discouraged; water-based preferred.",
+    "D": "Incorrect. Keep oxygen away from open flames/heat."
+   },
+   "sources": [
+    {
+     "title": "Oxygen safety",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000049.htm",
+     "section": "Have Your Home Ready / Other Safety Tips",
+     "source_date": "Review Date 1/14/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–D",
+     "evidence": "No smoking; ~6 ft from heat; avoid petroleum creams.",
+     "added_by": "author"
+    },
+    {
+     "title": "Oxygen Therapy",
+     "publisher": "COPD Foundation",
+     "url": "https://www.copdfoundation.org/Learn-More/I-am-a-Person-with-COPD/Oxygen-Therapy.aspx",
+     "section": "Oxygen Safety Tips",
+     "source_date": "Reviewed May 11, 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key A; distractors B–D",
+     "evidence": "No smoking; 5–10 ft from flames; avoid petroleum lotions.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-200ae005) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus + COPD Foundation home oxygen fire safety (no smoking; distance from flame/heat; avoid petroleum)."
+    }
+   ]
+  },
+  {
+   "batch": "B45-WAVE36",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "oxygen",
+    "NGN",
+    "matrix",
+    "BCC",
+    "gerontology"
+   ],
+   "id": "ONRN-BCC-0037",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Gerontology",
+   "topic": "NGN matrix — home oxygen fire-safety teaching actions",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "home-oxygen-ngn-matrix-fire-safety-teaching",
+   "stem": "For a client prescribed continuous home oxygen, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Post and enforce a no-smoking rule wherever oxygen is used"
+     },
+     {
+      "key": "R2",
+      "text": "Keep oxygen equipment several feet away from open flames and heat sources (e.g., stove, fireplace, candles)"
+     },
+     {
+      "key": "R3",
+      "text": "Apply petroleum jelly liberally to the nares and face while oxygen is running"
+     },
+     {
+      "key": "R4",
+      "text": "Encourage visitors to smoke in the same room if the window is open"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. MedlinePlus/COPD Foundation: no smoking where oxygen is used.",
+    "R2": "Indicated. Keep oxygen away from open flames/heat (≈6 ft MedlinePlus; 5–10 ft COPD Foundation).",
+    "R3": "Not indicated. Avoid petroleum-based lotions on face/upper body.",
+    "R4": "Not indicated. Smoking near oxygen is prohibited."
+   },
+   "sources": [
+    {
+     "title": "Oxygen safety",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000049.htm",
+     "section": "Have Your Home Ready / Other Safety Tips",
+     "source_date": "Review Date 1/14/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "R1–R4",
+     "evidence": "No smoking; distance from heat; avoid petroleum.",
+     "added_by": "author"
+    },
+    {
+     "title": "Oxygen Therapy",
+     "publisher": "COPD Foundation",
+     "url": "https://www.copdfoundation.org/Learn-More/I-am-a-Person-with-COPD/Oxygen-Therapy.aspx",
+     "section": "Oxygen Safety Tips",
+     "source_date": "Reviewed May 11, 2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "R1–R4",
+     "evidence": "No smoking; distance from flames; avoid petroleum products.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-200ae005) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "MedlinePlus + COPD Foundation oxygen safety mapped to NGN matrix rows."
+    }
+   ]
+  },
+  {
+   "batch": "B45-WAVE36",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "DVT",
+    "ambulation",
+    "BCC",
+    "fundamentals",
+    "postoperative"
+   ],
+   "id": "ONRN-BCC-0038",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Fundamentals",
+   "topic": "Postoperative DVT prevention — early ambulation / prevent immobility",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "postop-dvt-early-ambulation-prevent-immobility",
+   "stem": "Which nursing action best supports prevention of postoperative deep vein thrombosis related to mobility?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Promote early ambulation and limit prolonged immobility as the client’s condition allows"
+    },
+    {
+     "key": "B",
+     "text": "Keep the client on strict bed rest for several days even when medically cleared to walk"
+    },
+    {
+     "key": "C",
+     "text": "Discourage all leg movement so the surgical incision can rest completely"
+    },
+    {
+     "key": "D",
+     "text": "Massage the calves vigorously every hour to break up clots"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: early mobilization/ambulation supports thromboprophylaxis. Merck: preventive measures include ambulation and prevention of immobility.",
+    "B": "Incorrect. Prolonged immobility increases DVT risk.",
+    "C": "Incorrect. Mobility supports venous return.",
+    "D": "Incorrect. Vigorous calf massage is not evidence-based prevention."
+   },
+   "sources": [
+    {
+     "title": "27.4 Postoperative Nursing Care Plan",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/27-4-postoperative-nursing-care-plan",
+     "section": "Decreasing Clot Risk",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Early mobilization among DVT prevention strategies.",
+     "added_by": "author"
+    },
+    {
+     "title": "Deep Venous Thrombosis (DVT) Prevention",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/peripheral-venous-disorders/deep-venous-thrombosis-dvt-prevention",
+     "section": "Deep Venous Thrombosis (DVT) Prevention",
+     "source_date": "Last updated: May 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "Ambulation and prevention of immobility.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-200ae005) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax postop early mobilization for clot risk; Merck DVT Prevention ambulation/prevent immobility."
+    }
+   ]
+  },
+  {
+   "batch": "B45-WAVE36",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric"
+   ],
+   "tags": [
+    "rubella",
+    "droplet",
+    "SIPC",
+    "pediatrics"
+   ],
+   "id": "ONRN-SIPC-0038",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Pediatrics",
+   "topic": "Rubella — Droplet Precautions until 7 days after rash onset",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "rubella-droplet-until-7-days-after-rash",
+   "stem": "A school-age client is admitted with confirmed rubella (German measles). Which isolation plan is appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Droplet Precautions until 7 days after the onset of the rash"
+    },
+    {
+     "key": "B",
+     "text": "Airborne Precautions only until the fever resolves"
+    },
+    {
+     "key": "C",
+     "text": "Standard Precautions alone with no transmission-based isolation"
+    },
+    {
+     "key": "D",
+     "text": "Contact Precautions for 24 hours after starting antibiotics"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC Appendix A: Droplet + Standard until 7 days after rash onset. Merck: isolate 7 days after rash; droplet precautions in hospital.",
+    "B": "Incorrect. Rubella uses Droplet, not Airborne.",
+    "C": "Incorrect. Droplet Precautions are required.",
+    "D": "Incorrect. Not keyed to antibiotics."
+   },
+   "sources": [
+    {
+     "title": "Appendix A: Type and Duration of Precautions",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html",
+     "section": "Rubella (German measles)",
+     "source_date": "Updated: September 11, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A",
+     "evidence": "Droplet + Standard until 7 days after onset of rash.",
+     "added_by": "author"
+    },
+    {
+     "title": "Rubella",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/viral-exanthems-in-infants-and-children/rubella",
+     "section": "Prevention of Rubella",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "Isolate 7 days after rash onset; droplet precautions.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-200ae005) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Appendix A rubella Droplet+Standard until 7 days after rash; Merck isolate 7 days + droplet precautions."
+    }
+   ]
+  },
+  {
+   "batch": "B45-WAVE36",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "pediatric"
+   ],
+   "tags": [
+    "rubella",
+    "NGN",
+    "cloze",
+    "SIPC",
+    "pediatrics"
+   ],
+   "id": "ONRN-SIPC-0039",
+   "format": "drop_down_cloze",
+   "scoring_model": "zero_one",
+   "specialty": "Pediatrics",
+   "topic": "NGN cloze — rubella Droplet Precautions and 7-day isolation duration",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "rubella-ngn-cloze-droplet-7-days",
+   "stem": "Complete the following for inpatient rubella care.",
+   "ngn": {
+    "template": "Place the client on {B1} Precautions and continue isolation until {B2} after the onset of the rash.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "Airborne"
+      },
+      {
+       "key": "B1b",
+       "text": "Droplet"
+      },
+      {
+       "key": "B1c",
+       "text": "Contact only"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "24 hours"
+      },
+      {
+       "key": "B2b",
+       "text": "7 days"
+      },
+      {
+       "key": "B2c",
+       "text": "21 days"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1b",
+    "B2": "B2b"
+   },
+   "rationales": {
+    "B1a": "Incorrect. Not Airborne for rubella.",
+    "B1b": "Correct. CDC/Merck: droplet precautions.",
+    "B1c": "Incorrect. Contact-only insufficient.",
+    "B2a": "Incorrect. Not 24 hours.",
+    "B2b": "Correct. Isolate until 7 days after rash onset.",
+    "B2c": "Incorrect. Not 21 days."
+   },
+   "sources": [
+    {
+     "title": "Appendix A: Type and Duration of Precautions",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html",
+     "section": "Rubella (German measles)",
+     "source_date": "Updated: September 11, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "B1b,B2b",
+     "evidence": "Droplet + Standard; 7 days after rash onset.",
+     "added_by": "author"
+    },
+    {
+     "title": "Rubella",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/viral-exanthems-in-infants-and-children/rubella",
+     "section": "Prevention of Rubella",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "B1b,B2b",
+     "evidence": "Isolate 7 days; droplet precautions.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-200ae005) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Appendix A + Merck rubella for cloze Droplet / 7 days."
+    }
+   ]
+  },
+  {
+   "batch": "B45-WAVE36",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "single-source"
+   ],
+   "tags": [
+    "herpes-zoster",
+    "shingles",
+    "airborne",
+    "contact",
+    "SIPC",
+    "gerontology"
+   ],
+   "id": "ONRN-SIPC-0040",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Gerontology",
+   "topic": "Disseminated herpes zoster — Airborne + Contact Precautions",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "disseminated-zoster-airborne-plus-contact",
+   "stem": "An older adult is admitted with disseminated herpes zoster (shingles with lesions outside the primary dermatomes). Which precautions are required?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Airborne and Contact Precautions (with Standard Precautions) for the duration of illness / until lesions are dry and crusted"
+    },
+    {
+     "key": "B",
+     "text": "Droplet Precautions only for 24 hours after starting antivirals"
+    },
+    {
+     "key": "C",
+     "text": "Standard Precautions alone with lesions left uncovered in a shared room"
+    },
+    {
+     "key": "D",
+     "text": "Contact Precautions without airborne isolation for disseminated disease"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC Appendix A: disseminated zoster — Airborne + Contact + Standard for duration of illness. CDC shingles IC: disseminated — Airborne and Contact until lesions dry and scabbed.",
+    "B": "Incorrect. Requires Airborne + Contact, not Droplet-only.",
+    "C": "Incorrect. Transmission-based precautions required.",
+    "D": "Incorrect. Airborne also required when disseminated."
+   },
+   "sources": [
+    {
+     "title": "Appendix A: Type and Duration of Precautions",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html",
+     "section": "Herpes zoster — disseminated",
+     "source_date": "Updated: September 11, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A",
+     "evidence": "Airborne + Contact + Standard; duration of illness.",
+     "added_by": "author"
+    },
+    {
+     "title": "Preventing VZV Transmission in Healthcare Settings",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://archive.cdc.gov/www_cdc_gov/shingles/hcp/infection-control/index.html",
+     "section": "Management of Patients with Herpes Zoster",
+     "source_date": "Apr. 19, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A",
+     "evidence": "Disseminated: Airborne and Contact until lesions dry and scabbed.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-200ae005) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Appendix A disseminated zoster Airborne+Contact duration of illness; CDC shingles IC Airborne+Contact until lesions dry/scabbed (CDC disease-specific page)."
+    }
+   ]
+  },
+  {
+   "batch": "B45-WAVE36",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "tags": [
+    "insulin",
+    "injection-sites",
+    "PPT",
+    "pharmacology",
+    "diabetes"
+   ],
+   "id": "ONRN-PPT-0049",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Pharmacology",
+   "topic": "Insulin injection — rotate sites; avoid repeated use of lumpy sites",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "insulin-rotate-injection-sites-avoid-lipohypertrophy",
+   "stem": "The nurse teaches a client who self-injects insulin subcutaneously. Which teaching point is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Rotate injection sites and avoid repeatedly using the same spot, especially areas that are lumpy, firm, or numb"
+    },
+    {
+     "key": "B",
+     "text": "Always inject into the exact same abdominal spot for consistent absorption"
+    },
+    {
+     "key": "C",
+     "text": "Inject only into bruised areas so healing tissue absorbs insulin faster"
+    },
+    {
+     "key": "D",
+     "text": "Shake NPH insulin vigorously until foamy before every dose"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: rotate sites to prevent fatty deposits and site irritation. MedlinePlus: keep a chart so you do not inject the same place all the time; avoid lumpy, firm, or numb spots.",
+    "B": "Incorrect. Repeated same-site use risks lipohypertrophy/poor absorption.",
+    "C": "Incorrect. Avoid bruised/swollen/tender spots.",
+    "D": "Incorrect. Cloudy insulin is rolled, not shaken vigorously (OpenStax/MedlinePlus teaching)."
+   },
+   "sources": [
+    {
+     "title": "28.2 Insulin and Non-Insulin Injectable Diabetes Drugs",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/28-2-insulin-and-non-insulin-injectable-diabetes-drugs",
+     "section": "Administration of Insulin",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; distractor D",
+     "evidence": "Rotate injection sites to prevent fatty deposits and irritation.",
+     "added_by": "author"
+    },
+    {
+     "title": "Giving an insulin injection",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000660.htm",
+     "section": "Giving the Injection",
+     "source_date": "Review Date 7/21/2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; distractors B–C",
+     "evidence": "Chart sites; do not use same place all the time; avoid lumpy/firm/numb.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-200ae005) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Pharm: rotate insulin sites to prevent fatty deposits/irritation; MedlinePlus: chart sites so not same place; avoid lumpy/firm/numb spots."
+    }
+   ]
+  },
+  {
+   "batch": "B45-WAVE36",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "tags": [
+    "insulin",
+    "NGN",
+    "cloze",
+    "PPT",
+    "pharmacology"
+   ],
+   "id": "ONRN-PPT-0050",
+   "format": "drop_down_cloze",
+   "scoring_model": "zero_one",
+   "specialty": "Pharmacology",
+   "topic": "NGN cloze — insulin subcutaneous site rotation teaching",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "insulin-ngn-cloze-rotate-sites",
+   "stem": "Complete the teaching for subcutaneous insulin self-injection.",
+   "ngn": {
+    "template": "Teach the client to {B1} injection sites and to avoid spots that feel {B2}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "always reuse the identical"
+      },
+      {
+       "key": "B1b",
+       "text": "rotate"
+      },
+      {
+       "key": "B1c",
+       "text": "limit to one lifetime"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "lumpy, firm, or numb"
+      },
+      {
+       "key": "B2b",
+       "text": "warm and soft only"
+      },
+      {
+       "key": "B2c",
+       "text": "clean and dry only"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1b",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Incorrect. Reusing the identical spot risks lipohypertrophy.",
+    "B1b": "Correct. Rotate sites (OpenStax/MedlinePlus).",
+    "B1c": "Incorrect. Multiple appropriate sites exist.",
+    "B2a": "Correct. MedlinePlus: avoid lumpy, firm, or numb spots.",
+    "B2b": "Incorrect. Not the keyed avoidance cue.",
+    "B2c": "Incorrect. Clean/dry describes preparation, not the avoidance finding."
+   },
+   "sources": [
+    {
+     "title": "28.2 Insulin and Non-Insulin Injectable Diabetes Drugs",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/28-2-insulin-and-non-insulin-injectable-diabetes-drugs",
+     "section": "Administration of Insulin",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "B1b",
+     "evidence": "Rotate injection sites to prevent fatty deposits.",
+     "added_by": "author"
+    },
+    {
+     "title": "Giving an insulin injection",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/ency/patientinstructions/000660.htm",
+     "section": "Giving the Injection",
+     "source_date": "Review Date 7/21/2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "B1b,B2a",
+     "evidence": "Do not inject same place always; avoid lumpy/firm/numb.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-200ae005) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + MedlinePlus insulin site rotation for NGN cloze."
+    }
+   ]
+  },
+  {
+   "batch": "B45-WAVE36",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "IV",
+    "infiltration",
+    "RRP",
+    "fundamentals"
+   ],
+   "id": "ONRN-RRP-0054",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Fundamentals",
+   "topic": "IV infiltration — cool swollen site; stop infusion and remove catheter",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "iv-infiltration-cool-swollen-stop-remove",
+   "stem": "A peripheral IV site is swollen and cool to the touch, and the client reports pain at the site. What is the priority nursing action?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Stop the infusion and remove the IV catheter per protocol, then restart access at another site if still needed"
+    },
+    {
+     "key": "B",
+     "text": "Increase the infusion rate to clear the swelling"
+    },
+    {
+     "key": "C",
+     "text": "Ignore the findings if the pump is not alarming"
+    },
+    {
+     "key": "D",
+     "text": "Flush forcefully with 20 mL of undiluted potassium chloride"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: infiltration causes pain, swelling, cool skin; stop IV fluids immediately and remove the IV. NCBI Open RN: discontinue the site and relocate the IV per policy.",
+    "B": "Incorrect. Increasing rate worsens tissue fluid extravasation.",
+    "C": "Incorrect. Clinical signs require action even without pump alarms.",
+    "D": "Incorrect. Dangerous and unrelated; do not force flush into an infiltrated site."
+   },
+   "sources": [
+    {
+     "title": "13.1 Principles of Intravenous Therapy",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/13-1-principles-of-intravenous-therapy",
+     "section": "Damage to the Vein and Surrounding Tissue",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Infiltration: pain, swelling, cool skin; stop fluids and remove IV.",
+     "added_by": "author"
+    },
+    {
+     "title": "Chapter 23 IV Therapy Management",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK593209/",
+     "section": "Complications of IV Therapy",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Infiltration: pain, swelling, cool skin; discontinue and relocate IV.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-200ae005) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax CNS: infiltration — pain, swelling, cool skin; stop fluids, remove IV. NCBI Open RN Nursing Skills: same cues; discontinue/relocate."
+    }
+   ]
+  },
+  {
+   "batch": "B45-WAVE36",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "IV",
+    "phlebitis",
+    "RRP",
+    "fundamentals"
+   ],
+   "id": "ONRN-RRP-0055",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Fundamentals",
+   "topic": "IV phlebitis — redness and tenderness along the vein; stop and remove catheter",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Recognize Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "iv-phlebitis-redness-tenderness-remove",
+   "stem": "Which finding best suggests phlebitis at a peripheral IV site, requiring the nurse to stop the infusion and remove the catheter?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Redness and tenderness along the path of the vein"
+    },
+    {
+     "key": "B",
+     "text": "A cool, pale swollen area without vein inflammation signs"
+    },
+    {
+     "key": "C",
+     "text": "A dry intact dressing with no client discomfort"
+    },
+    {
+     "key": "D",
+     "text": "Blood return present with a soft, nontender site"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: phlebitis causes redness and tenderness along the vein; stop fluids and remove IV. NCBI Open RN: phlebitis can cause redness and tenderness along the vein.",
+    "B": "Incorrect. Cool swollen site is more consistent with infiltration.",
+    "C": "Incorrect. No complication cues.",
+    "D": "Incorrect. Expected patent nontender site."
+   },
+   "sources": [
+    {
+     "title": "13.1 Principles of Intravenous Therapy",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/13-1-principles-of-intravenous-therapy",
+     "section": "Extravasation Leading to Long-Term Scarring / phlebitis",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Phlebitis: redness and tenderness along the vein; remove IV.",
+     "added_by": "author"
+    },
+    {
+     "title": "Chapter 23 IV Therapy Management",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK593209/",
+     "section": "Complications of IV Therapy",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Phlebitis can cause redness and tenderness along the vein.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-200ae005) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax: phlebitis — redness/tenderness along vein; stop/remove IV. NCBI Open RN: redness and tenderness along vein."
+    }
+   ]
+  },
+  {
+   "batch": "B45-WAVE36",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "tags": [
+    "mania",
+    "bipolar",
+    "PSY",
+    "mental-health"
+   ],
+   "id": "ONRN-PSY-0041",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Mental Health",
+   "topic": "Acute mania — calm clear communication; do not challenge grandiosity; prioritize safety",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "mania-calm-clear-no-challenge-grandiosity-safety",
+   "stem": "A client in acute mania is agitated, speaking rapidly, and making grandiose plans to leave against advice. Which nursing approach is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Use a calm demeanor, give concise clear directions, avoid arguing about grandiose ideas, and prioritize a safe environment"
+    },
+    {
+     "key": "B",
+     "text": "Loudly debate each grandiose claim until the client admits they are false"
+    },
+    {
+     "key": "C",
+     "text": "Encourage a large stimulating group activity to burn off energy"
+    },
+    {
+     "key": "D",
+     "text": "Leave the client unsupervised in a crowded waiting area"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: during manic phases maintain a calm demeanor, provide concise clear directions, avoid challenging grandiosity, and ensure a safe environment. Merck: manic episodes involve severe impairment/risky behavior that may require hospitalization — safety is priority.",
+    "B": "Incorrect. Challenging grandiosity can escalate agitation.",
+    "C": "Incorrect. High stimulation is counterproductive in acute mania.",
+    "D": "Incorrect. Safety requires supervision/structured environment."
+   },
+   "sources": [
+    {
+     "title": "16.4 Bipolar Disorders",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/16-4-bipolar-disorders",
+     "section": "Planning Nursing Care for a Client with Bipolar Disorder",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Calm demeanor; concise clear directions; avoid challenging grandiosity; safe environment.",
+     "added_by": "author"
+    },
+    {
+     "title": "Bipolar Disorders",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/mood-disorders/bipolar-disorders",
+     "section": "Diagnosis of Bipolar Disorders / manic episode",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "Mania causes severe impairment or hospitalization need; risky behaviors.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-200ae005) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax PMH: mania — calm demeanor, concise clear directions, avoid challenging grandiosity; ensure safe environment. Merck: mania may require hospitalization; severe impairment/risky behavior."
+    }
+   ]
+  },
+  {
+   "batch": "B45-WAVE36",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety",
+    "high-alert-medication"
+   ],
+   "tags": [
+    "EPS",
+    "dystonia",
+    "antipsychotic",
+    "NGN",
+    "bowtie",
+    "PSY",
+    "pharmacology"
+   ],
+   "id": "ONRN-PSY-0042",
+   "format": "bowtie",
+   "scoring_model": "zero_one",
+   "specialty": "Mental Health",
+   "topic": "NGN bowtie — acute dystonia from antipsychotic: recognize and treat with benztropine/diphenhydramine",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Hard",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "acute-dystonia-bowtie-benztropine-diphenhydramine",
+   "stem": "A client who recently started a first-generation antipsychotic develops sudden torticollis and tongue spasms. Complete the bowtie: most likely condition, two priority actions, and two parameters to monitor.",
+   "ngn": {
+    "conditions": [
+     {
+      "key": "K1",
+      "text": "Tardive dyskinesia only (late irreversible choreiform movements)"
+     },
+     {
+      "key": "K2",
+      "text": "Acute dystonic reaction (extrapyramidal)"
+     },
+     {
+      "key": "K3",
+      "text": "Serotonin syndrome"
+     },
+     {
+      "key": "K4",
+      "text": "Hypoglycemic seizure"
+     }
+    ],
+    "actions": [
+     {
+      "key": "A1",
+      "text": "Notify the provider and administer benztropine or diphenhydramine as ordered (IV/IM)"
+     },
+     {
+      "key": "A2",
+      "text": "Hold further doses of the causative antipsychotic pending provider guidance"
+     },
+     {
+      "key": "A3",
+      "text": "Encourage the client to ignore the spasms and continue the same antipsychotic dose without assessment"
+     },
+     {
+      "key": "A4",
+      "text": "Start a high-dose SSRI immediately as first-line therapy for the spasms"
+     },
+     {
+      "key": "A5",
+      "text": "Force oral intake of a large high-carbohydrate meal as the only intervention"
+     }
+    ],
+    "parameters": [
+     {
+      "key": "P1",
+      "text": "Airway patency and ability to swallow/speak (watch for laryngeal involvement)"
+     },
+     {
+      "key": "P2",
+      "text": "Resolution of muscle spasms / dystonic movements after treatment"
+     },
+     {
+      "key": "P3",
+      "text": "Peak expiratory flow only as the sole monitoring plan"
+     },
+     {
+      "key": "P4",
+      "text": "Urine specific gravity every minute without neuromuscular assessment"
+     },
+     {
+      "key": "P5",
+      "text": "Orthostatic blood pressure after sprint exercise only"
+     }
+    ]
+   },
+   "correct_answer": {
+    "condition": "K2",
+    "actions": [
+     "A1",
+     "A2"
+    ],
+    "parameters": [
+     "P1",
+     "P2"
+    ]
+   },
+   "rationales": {
+    "K1": "Incorrect. Tardive dyskinesia is a late effect, not the acute spasmodic torticollis/tongue spasm picture.",
+    "K2": "Correct. OpenStax: dystonia includes spasms of tongue, back, legs, neck — an EPS of antipsychotics. Merck: acute dystonic reactions (e.g., torticollis, oculogyric crisis).",
+    "K3": "Incorrect. Serotonin syndrome is a different toxidrome.",
+    "K4": "Incorrect. Not a hypoglycemic presentation.",
+    "A1": "Correct. Merck: treat acute dystonia with benztropine IV/IM or diphenhydramine IV/IM.",
+    "A2": "Correct. OpenStax/Merck: monitor EPS so treatment can be given and antipsychotic regimen adjusted/changed.",
+    "A3": "Incorrect. Acute dystonia requires prompt treatment.",
+    "A4": "Incorrect. SSRIs are not treatment for dystonia.",
+    "A5": "Incorrect. Not the antidote pathway.",
+    "P1": "Correct. Merck notes laryngeal dystonia may threaten airway.",
+    "P2": "Correct. Reassess spasm resolution after anticholinergic/antihistamine therapy.",
+    "P3": "Incorrect. Peak flow alone misses airway/neuromuscular priorities.",
+    "P4": "Incorrect. Omits essential neuromuscular/airway assessment.",
+    "P5": "Incorrect. Not priority monitoring for acute dystonia."
+   },
+   "sources": [
+    {
+     "title": "13.2 Antipsychotics",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/13-2-antipsychotics",
+     "section": "Antipsychotics / Adverse Effects",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Condition K2; actions",
+     "evidence": "EPS include dystonia (spasms of tongue, neck, etc.); monitor and change therapy.",
+     "added_by": "author"
+    },
+    {
+     "title": "Antipsychotic Medications",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/schizophrenia-and-related-disorders/antipsychotic-medications",
+     "section": "Treatment of Acute Adverse Effects of Antipsychotics",
+     "source_date": "Last updated: Dec 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Condition K2; A1; P1",
+     "evidence": "Acute dystonia: benztropine or diphenhydramine IV/IM; laryngeal dystonia airway risk.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-200ae005) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Pharm EPS dystonia (tongue/neck spasms); Merck: acute dystonia treated with benztropine or diphenhydramine IV/IM."
+    }
+   ]
+  },
+  {
+   "batch": "B45-WAVE36",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "jurisdiction": "General (Canada/US concordant)",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "tags": [
+    "mania",
+    "NGN",
+    "matrix",
+    "PSY",
+    "mental-health"
+   ],
+   "id": "ONRN-PSY-0043",
+   "format": "matrix_multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Mental Health",
+   "topic": "NGN matrix — acute mania nursing actions indicated vs not",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "mania-ngn-matrix-calm-clear-safety-actions",
+   "stem": "For a client in acute mania, indicate whether each nursing action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Speak calmly and give short, clear directions"
+     },
+     {
+      "key": "R2",
+      "text": "Avoid arguing with or challenging grandiose beliefs"
+     },
+     {
+      "key": "R3",
+      "text": "Escalate stimulation with loud music and a crowded dayroom"
+     },
+     {
+      "key": "R4",
+      "text": "Prioritize environmental safety while mood-stabilizing treatment is adjusted"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. OpenStax: calm demeanor; concise clear directions.",
+    "R2": "Indicated. OpenStax: avoid challenging grandiosity to prevent escalation.",
+    "R3": "Not indicated. Increased stimulation is not appropriate in acute mania.",
+    "R4": "Indicated. OpenStax: ensure safe environment; Merck: mania can be severely impairing/hospitalization-level."
+   },
+   "sources": [
+    {
+     "title": "16.4 Bipolar Disorders",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/16-4-bipolar-disorders",
+     "section": "Planning Nursing Care for a Client with Bipolar Disorder",
+     "source_date": "Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "R1–R4",
+     "evidence": "Calm clear directions; avoid challenging grandiosity; safe environment.",
+     "added_by": "author"
+    },
+    {
+     "title": "Bipolar Disorders",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/mood-disorders/bipolar-disorders",
+     "section": "Diagnosis / manic episode criteria",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "R4",
+     "evidence": "Mania causes severe impairment or necessitates hospitalization.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-200ae005) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax mania nursing communication/safety actions for indicated/not matrix; Merck mania severity supports safety priority."
+    }
+   ]
+  },
+  {
+   "batch": "B45-WAVE36",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CNO Consent practice guideline under Ontario HCCA: capacity assessed relative to a specific treatment.",
+   "jurisdiction": "Ontario-specific",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario",
+    "single-source"
+   ],
+   "tags": [
+    "consent",
+    "capacity",
+    "CNO",
+    "Ontario",
+    "MOC",
+    "professional-practice"
+   ],
+   "id": "ONRN-MOC-0071",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Ontario consent — capacity is treatment-specific; capable client decides",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "ontario-consent-capacity-treatment-specific-capable-decides",
+   "stem": "An Ontario nurse reviews consent for two different procedures proposed for the same client. Which statement reflects CNO/HCCA capacity principles?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Capacity is treatment-specific — a client may be capable for one treatment and incapable for another; if capable, the client decides"
+    },
+    {
+     "key": "B",
+     "text": "Once found incapable for any decision, the client is permanently incapable for all future treatments"
+    },
+    {
+     "key": "C",
+     "text": "Nurses may independently override a capable client’s refusal whenever the nurse disagrees"
+    },
+    {
+     "key": "D",
+     "text": "A family member may consent for a clearly capable adult who refuses treatment"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CNO Consent: capacity relates to a specific treatment; a person could be capable for one treatment and incapable for another; if the client is capable, the client makes the decision.",
+    "B": "Incorrect. Capacity is decision/treatment-specific and can change.",
+    "C": "Incorrect. Practitioners lack authority to decide for capable clients except limited emergencies.",
+    "D": "Incorrect. Capable clients decide for themselves; SDM is used when the client is incapable."
+   },
+   "sources": [
+    {
+     "title": "Consent",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41020_consent.pdf",
+     "section": "Steps to obtaining consent / Assess capacity",
+     "source_date": "Updated July 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A; distractors B–D",
+     "evidence": "Capacity is treatment-specific; capable client decides; SDM if incapable.",
+     "added_by": "author"
+    },
+    {
+     "title": "Code of Conduct",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/49040_code-of-conduct.pdf",
+     "section": "Principle 1 / informed consent",
+     "source_date": "Updated 03/2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key A",
+     "evidence": "Obtain informed consent from clients or SDMs when clients unable.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-200ae005) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CNO Consent guideline: capacity is treatment-specific; capable client decides; if incapable use SDM. Code of Conduct 1.8 reinforces consent/SDM."
+    }
+   ]
+  }
+ ],
+ "excluded_items": [
+  {
+   "draft_topic": "Antiembolism stocking wrinkle-smoothing numeric fit rules",
+   "reason": "OpenStax supports wrinkle teaching; could not confirm a second independent publisher with the same application details without relying on commercial skill sites — excluded."
+  },
+  {
+   "draft_topic": "Hearing aid battery/water care specifics",
+   "reason": "OpenStax FON encourages hearing-aid use but lacked dual-cited device-care steps (keep dry/open battery door) from a second authoritative page fetched this session."
+  },
+  {
+   "draft_topic": "NFPA medical oxygen tip-sheet numeric distances",
+   "reason": "NFPA tip-sheet URL returned 404; oxygen items instead dual-cited MedlinePlus + COPD Foundation."
+  }
+ ],
+ "notes": "Prefer thinner Client Needs BCC/SIPC/PSY and underrepresented Gerontology/Pharmacology/Professional Practice + NGN. Keep import script Prisma.InputJsonValue casts unchanged. Accuracy over volume."
+}

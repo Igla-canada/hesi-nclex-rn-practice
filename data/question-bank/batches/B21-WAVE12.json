@@ -1,0 +1,1502 @@
+{
+ "batch_id": "B21-WAVE12",
+ "author": "AI author (Composer, Cursor subagent bc-f3bcbe57) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 12 expansion prioritizing thinner Client Needs MOC then PPT/SIPC/PA with dual-cited originals (CNO, Ontario e-Laws/CYFSA, CDC, DailyMed, Merck, OpenStax).",
+ "items": [
+  {
+   "batch": "B21-WAVE12",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "CNO Discontinuing or Declining to Provide Care is the Ontario regulator standard for conscientious objection and continuity of care; OpenStax supports communicating conscientious objections promptly so care is not left unresolved.",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario",
+    "guideline-version-sensitive"
+   ],
+   "integrated_process": "Caring",
+   "jurisdiction": "Ontario-specific",
+   "id": "ONRN-MOC-0013",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A nurse has a conscientious objection to providing a requested procedure that is within nursing scope. According to College of Nurses of Ontario expectations, which action is required?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Refuse care and leave the client without arranging another care provider."
+    },
+    {
+     "key": "B",
+     "text": "Ensure a timely referral or alternative care replacement so the client’s access to care continues."
+    },
+    {
+     "key": "C",
+     "text": "Conceal the objection and provide the care while documenting that the nurse agrees with the request."
+    },
+    {
+     "key": "D",
+     "text": "Advise the client that no nurse in Ontario may ever decline care for a conscientious reason."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. CNO states nurses cannot abandon or neglect clients to whom they have a commitment to provide care; leaving without alternative arrangements is unsafe.",
+    "B": "Correct. CNO requires nurses who conscientiously object to ensure timely referral or an alternative care replacement; OpenStax directs nurses with a conscientious objection to communicate that clearly to leadership immediately so care is not left unresolved.",
+    "C": "Incorrect. Concealing an objection and falsely documenting agreement does not meet professional honesty or the standard’s referral expectations.",
+    "D": "Incorrect. CNO recognizes conscientious objection as a situation in which a nurse may discontinue or decline care, with requirements to protect ongoing access to care."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Conscientious objection — timely referral; no abandonment",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cno-conscientious-objection-timely-referral-no-abandonment",
+   "tags": [
+    "CNO",
+    "conscientious-objection",
+    "continuity-of-care",
+    "MOC"
+   ],
+   "sources": [
+    {
+     "title": "Discontinuing or Declining to Provide Care",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/ps-discontinuing-or-declining-to-provide-care-en.pdf",
+     "section": "Duty to provide care; conscientious objection — timely referral/alternative care replacement",
+     "source_date": "Updated March 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Nurses cannot abandon or neglect clients; nurses who conscientiously object must ensure timely referral or an alternative care replacement is implemented.",
+     "added_by": "author"
+    },
+    {
+     "title": "16.3 Legal Dimensions of Care",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/16-3-legal-dimensions-of-care",
+     "section": "Prevention of Liability for Nurses — conscientious objection",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationale A",
+     "evidence": "If there is a conscientious objection to following an order, communicate that clearly to the appropriate member of leadership immediately.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-f3bcbe57) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: CNO Discontinuing standard timely referral/no abandonment + OpenStax communicate conscientious objection to leadership immediately."
+    }
+   ]
+  },
+  {
+   "batch": "B21-WAVE12",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "CNO Working With Unregulated Care Providers defines Ontario delegation/assignment/supervision expectations; OpenStax Five Rights of Delegation is a concordant second source for RN accountability when directing others' work.",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario"
+   ],
+   "integrated_process": "Nursing Process",
+   "jurisdiction": "Ontario-specific",
+   "id": "ONRN-MOC-0014",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An RN plans for an unregulated care provider (UCP/assistive personnel) to help with client care. Which statement best reflects safe practice when working with UCPs?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Once a task is assigned, the RN no longer needs to monitor the UCP’s performance."
+    },
+    {
+     "key": "B",
+     "text": "The RN remains accountable for decisions about teaching, delegating, assigning, and supervising, including monitoring and directing UCP activities as appropriate."
+    },
+    {
+     "key": "C",
+     "text": "Any controlled-act procedure may be transferred to a UCP without meeting delegation requirements."
+    },
+    {
+     "key": "D",
+     "text": "UCPs independently assess changing client conditions and revise the nursing plan of care without RN oversight."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. CNO describes supervising as monitoring and directing specific UCP activities; OpenStax Right Supervision requires ongoing oversight after delegation.",
+    "B": "Correct. CNO outlines RN responsibilities for teaching, delegating, assigning, and supervising UCPs, including monitoring and directing performance; OpenStax states that when an RN designates work to another staff member, the RN remains responsible for ensuring it is performed appropriately (Five Rights, including supervision).",
+    "C": "Incorrect. CNO states nurses who delegate controlled acts to UCPs must follow Scope of Practice/delegation requirements; controlled acts are not freely transferable without those requirements.",
+    "D": "Incorrect. CNO expects ongoing assessment of the client’s needs and judgment about effectiveness of UCP interventions to remain with the nurse; assessment/plan revision is not an independent UCP role."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Working with UCPs — RN accountability for delegation/supervision",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cno-ucp-rn-accountability-delegation-supervision",
+   "tags": [
+    "UCP",
+    "delegation",
+    "supervision",
+    "CNO",
+    "MOC"
+   ],
+   "sources": [
+    {
+     "title": "Working With Unregulated Care Providers",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41014_workingucp.pdf",
+     "section": "Teaching, Delegating, Assigning and Supervising; Expectations for nurses who work with UCPs",
+     "source_date": "Updated July 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Delegation transfers authority for a controlled act; supervising involves monitoring and directing specific UCP activities; nurse ensures ongoing assessment of client needs and judges effectiveness of UCP interventions; nurses who delegate must follow Scope of Practice requirements.",
+     "added_by": "author"
+    },
+    {
+     "title": "15.4 Nursing Standards of Delegation",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/15-4-nursing-standards-of-delegation",
+     "section": "Five Rights of Nursing Delegation; Right Supervision",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationale A",
+     "evidence": "When an RN designates a job to another staff member, that RN is still responsible for ensuring the job is performed appropriately; five rights include right supervision.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-f3bcbe57) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: CNO UCP teaching/delegating/assigning/supervising accountabilities + OpenStax RN remains responsible with Right Supervision."
+    }
+   ]
+  },
+  {
+   "batch": "B21-WAVE12",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "CYFSA s. 125 is Ontario’s statutory duty to report a child in need of protection; OpenStax Reporting Obligations supports the general professional duty to report suspected abuse/neglect to authorities.",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario",
+    "pediatric"
+   ],
+   "integrated_process": "Communication and Documentation",
+   "jurisdiction": "Ontario-specific",
+   "id": "ONRN-MOC-0015",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A nurse in Ontario has reasonable grounds to suspect that a child has suffered physical harm from the person having charge of the child. What is the nurse’s legal obligation under the Child, Youth and Family Services Act, 2017?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Wait until absolute proof is obtained in court before telling anyone."
+    },
+    {
+     "key": "B",
+     "text": "Immediately report the suspicion and the information on which it is based to a children’s aid society."
+    },
+    {
+     "key": "C",
+     "text": "Discuss the suspicion only with the alleged caregiver and take no further action if they deny it."
+    },
+    {
+     "key": "D",
+     "text": "Document the concern privately at home and avoid any official report."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. CYFSA requires reporting based on reasonable grounds to suspect, not waiting for courtroom proof.",
+    "B": "Correct. CYFSA s. 125(1) requires a person who has reasonable grounds to suspect listed harms (including physical harm by the person in charge) to immediately report the suspicion and supporting information to a society; OpenStax states nurses may be legally required to report suspected abuse/neglect to the correct authorities.",
+    "C": "Incorrect. Confronting only the alleged caregiver and stopping there does not meet the statutory duty to report to a society.",
+    "D": "Incorrect. Private informal notes without reporting to a society do not fulfill CYFSA’s immediate reporting duty."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "CYFSA — duty to report child in need of protection",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cyfsa-duty-to-report-child-protection-society",
+   "tags": [
+    "CYFSA",
+    "mandatory-reporting",
+    "child-protection",
+    "MOC"
+   ],
+   "sources": [
+    {
+     "title": "Child, Youth and Family Services Act, 2017, S.O. 2017, c. 14, Sched. 1",
+     "publisher": "Government of Ontario — e-Laws",
+     "url": "https://www.ontario.ca/laws/statute/17c14",
+     "section": "s. 125(1) — Duty to report child in need of protection",
+     "source_date": "Current consolidation (e-Laws)",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "If a person has reasonable grounds to suspect listed circumstances (including physical harm inflicted by the person having charge), the person shall immediately report the suspicion and the information on which it is based to a society.",
+     "added_by": "author"
+    },
+    {
+     "title": "16.3 Legal Dimensions of Care",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/16-3-legal-dimensions-of-care",
+     "section": "Reporting Obligations",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationale A",
+     "evidence": "When a nurse suspects a patient of being abused or neglected, they may be legally required to report their suspicions to the correct authorities.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-f3bcbe57) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: CYFSA s.125(1) immediate report to a society + OpenStax reporting obligations for suspected abuse/neglect."
+    }
+   ]
+  },
+  {
+   "batch": "B21-WAVE12",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "CNO Confidentiality and Privacy standard and Code of Conduct govern Ontario PHI practices; OpenStax privacy/informatics supports need-to-know access as a concordant second publisher (US HIPAA framing labelled in evidence).",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario"
+   ],
+   "integrated_process": "Communication and Documentation",
+   "jurisdiction": "Ontario-specific",
+   "id": "ONRN-MOC-0016",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "Which nursing action best protects a client’s personal health information in a hospital hallway?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Discuss detailed diagnosis and test results loudly with a colleague while waiting for the elevator."
+    },
+    {
+     "key": "B",
+     "text": "Avoid discussing the client’s personal health information in public places such as elevators, cafeterias, and hallways."
+    },
+    {
+     "key": "C",
+     "text": "Post identifiable client details on a personal social media page for teaching purposes without consent."
+    },
+    {
+     "key": "D",
+     "text": "Allow any visitor who asks to read the client’s entire electronic chart without a care role or authorization."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. CNO directs nurses not to discuss client information in public places such as elevators, cafeterias, and hallways.",
+    "B": "Correct. CNO Confidentiality and Privacy lists not discussing client information in public places (elevators, cafeterias, hallways); CNO Code Principle 5.3 requires not sharing PHI except for therapeutic reasons and in compliance with privacy laws/standards; OpenStax emphasizes protecting PHI and need-to-know access.",
+    "C": "Incorrect. Sharing identifiable PHI on personal social media without authorization breaches confidentiality expectations.",
+    "D": "Incorrect. CNO expects nurses to deny access to people who are not part of the health care team and to access information only for professional purpose."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Privacy — do not discuss PHI in public places",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "cno-privacy-no-phi-discussion-public-places",
+   "tags": [
+    "PHIPA",
+    "privacy",
+    "confidentiality",
+    "MOC"
+   ],
+   "sources": [
+    {
+     "title": "Confidentiality and Privacy — Personal Health Information",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41069_privacy.pdf",
+     "section": "Personal health information practices — public places; access for care purpose only",
+     "source_date": "Updated July 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Not discussing client information with colleagues or the client in public places such as elevators, cafeterias and hallways; accessing information for her/his clients only and not accessing information for which there is no professional purpose; denying people who are not part of the health care team access to personal health information.",
+     "added_by": "author"
+    },
+    {
+     "title": "9.3 Security: Privacy and Informatics",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/9-3-security-privacy-and-informatics",
+     "section": "Privacy; Protected Health Information; Alleviating Patient Concerns When Using Technology",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationale D",
+     "evidence": "Nurses protect patient information and can reassure patients that their information is only accessed on a need-to-know basis.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-f3bcbe57) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: CNO privacy standard no PHI discussion in elevators/hallways + OpenStax need-to-know PHI protection."
+    }
+   ]
+  },
+  {
+   "batch": "B21-WAVE12",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "Keyed behaviours are from CNO Code of Conduct Principles 5 and related discontinuing-care expectations; OpenStax supports conscientious-objection communication and privacy need-to-know as second-publisher corroboration for selected elements.",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario"
+   ],
+   "integrated_process": "Caring",
+   "jurisdiction": "Ontario-specific",
+   "id": "ONRN-MOC-0017",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "Which nursing actions align with College of Nurses of Ontario accountabilities for conflict of interest, personal gain, and continuity of care? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Identify and prevent situations that cause a conflict of interest in the therapeutic relationship."
+    },
+    {
+     "key": "B",
+     "text": "Place professional responsibilities ahead of personal gain (for example, cash gifts or rewards)."
+    },
+    {
+     "key": "C",
+     "text": "If conscientiously objecting to care, ensure timely referral or alternative care replacement rather than abandoning the client."
+    },
+    {
+     "key": "D",
+     "text": "Accept large personal gifts that create an expectation of special treatment for the client."
+    },
+    {
+     "key": "E",
+     "text": "Discuss identifiable client health details in a crowded cafeteria to save time."
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "rationales": {
+    "A": "Correct. CNO Code 5.5 requires nurses to identify, prevent, and not practise in conflict-of-interest situations.",
+    "B": "Correct. CNO Code 5.6 requires nurses to place professional responsibilities ahead of personal gain; the glossary includes monetary gifts/rewards as personal gain.",
+    "C": "Correct. CNO Discontinuing or Declining to Provide Care requires timely referral/alternative care replacement and prohibits abandoning clients; OpenStax directs immediate communication of conscientious objections to leadership.",
+    "D": "Incorrect. CNO Therapeutic Relationships warns that gifts can blur boundaries and that risks increase as gifts become more valuable/personal; expecting special treatment is unsafe.",
+    "E": "Incorrect. CNO privacy standard prohibits discussing client information in public places such as cafeterias."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "CNO Code — conflict of interest, personal gain, continuity (SATA)",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "cno-conflict-interest-personal-gain-continuity-sata",
+   "tags": [
+    "CNO",
+    "conflict-of-interest",
+    "gifts",
+    "MOC",
+    "SATA"
+   ],
+   "sources": [
+    {
+     "title": "Code of Conduct",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/49040_code-of-conduct.pdf",
+     "section": "Principle 5 — 5.5 conflict of interest; 5.6 personal gain",
+     "source_date": "Updated March 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Keys A,B; rationale D",
+     "evidence": "Nurses identify, prevent and do not practice in situations that cause a conflict of interest; nurses place professional responsibilities ahead of personal gain; personal gain can be monetary (cash, gifts, or rewards).",
+     "added_by": "author"
+    },
+    {
+     "title": "Discontinuing or Declining to Provide Care",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/ps-discontinuing-or-declining-to-provide-care-en.pdf",
+     "section": "Conscientious objection; duty to provide care",
+     "source_date": "Updated March 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key C",
+     "evidence": "Nurses cannot abandon or neglect clients; nurses who conscientiously object must ensure timely referral or an alternative care replacement.",
+     "added_by": "author"
+    },
+    {
+     "title": "16.3 Legal Dimensions of Care",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/16-3-legal-dimensions-of-care",
+     "section": "Prevention of Liability — conscientious objection",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key C",
+     "evidence": "If there is a conscientious objection to following an order, communicate that clearly to the appropriate member of leadership immediately.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-f3bcbe57) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Keys A,B from CNO Code 5.5/5.6; Key C dual CNO Discontinuing timely referral/no abandonment + OpenStax communicate conscientious objection; D/E contradicted by CNO gifts/privacy guidance."
+    }
+   ]
+  },
+  {
+   "batch": "B21-WAVE12",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "emergency"
+   ],
+   "integrated_process": "Nursing Process",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PPT-0018",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "Before giving sublingual nitroglycerin for angina, which concurrent medication history is the priority contraindication to clarify because of risk of severe hypotension?",
+   "options": [
+    {
+     "key": "A",
+     "text": "A recent dose of a phosphodiesterase type 5 (PDE-5) inhibitor such as sildenafil or tadalafil."
+    },
+    {
+     "key": "B",
+     "text": "A daily multivitamin taken with breakfast."
+    },
+    {
+     "key": "C",
+     "text": "Topical emollient cream applied to dry skin on the legs."
+    },
+    {
+     "key": "D",
+     "text": "Acetaminophen used yesterday for mild headache."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax lists concomitant PDE inhibitors (e.g., sildenafil, tadalafil) as contraindications to nitrates; DailyMed states nitroglycerin sublingual tablets are contraindicated with PDE-5 inhibitors because concomitant use can cause severe hypotension, syncope, or myocardial ischemia.",
+    "B": "Incorrect. A routine multivitamin is not the priority nitrate–PDE-5 interaction contraindication described in these sources.",
+    "C": "Incorrect. Topical emollients are unrelated to the nitrate–PDE-5 hypotensive interaction.",
+    "D": "Incorrect. Prior acetaminophen for headache is not the PDE-5 contraindication for nitrates."
+   },
+   "specialty": "Pharmacology",
+   "topic": "Nitroglycerin — contraindicated with PDE-5 inhibitors",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Analyze Cues",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "nitroglycerin-contraindicated-with-pde5-inhibitors",
+   "tags": [
+    "nitroglycerin",
+    "PDE-5",
+    "sildenafil",
+    "PPT"
+   ],
+   "sources": [
+    {
+     "title": "18.7 Nitrates",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/18-7-nitrates",
+     "section": "Adverse Effects and Contraindications",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; rationales B,C,D",
+     "evidence": "Contraindications include concomitant use of phosphodiesterase (PDE) inhibitors such as tadalafil and sildenafil.",
+     "added_by": "author"
+    },
+    {
+     "title": "Nitroglycerin Sublingual Tablets — DailyMed drug label",
+     "publisher": "U.S. National Library of Medicine — DailyMed",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=041f127e-5166-4484-bc1a-0a373d1187ae",
+     "section": "4 CONTRAINDICATIONS; 4.1 PDE-5-Inhibitors and sGC-Stimulators",
+     "source_date": "not stated on page (DailyMed SPL via openFDA accessed 2026-11-25)",
+     "accessed_date": "2026-11-25",
+     "source_type": "drug_monograph_label",
+     "supports": "Key A",
+     "evidence": "Do not use nitroglycerin sublingual tablets in patients taking PDE-5 inhibitors such as sildenafil or tadalafil; concomitant use can cause severe hypotension, syncope, or myocardial ischemia.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-f3bcbe57) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: OpenStax nitrates PDE inhibitor contraindication + DailyMed nitroglycerin PDE-5 severe hypotension warning."
+    }
+   ]
+  },
+  {
+   "batch": "B21-WAVE12",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication",
+    "emergency"
+   ],
+   "integrated_process": "Nursing Process",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PPT-0019",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client with known stable angina has chest pain at home and uses prescribed sublingual nitroglycerin. Which teaching point is correct?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Take one tablet every 5 minutes for up to three doses; if pain persists after three tablets in about 15 minutes, seek emergency care."
+    },
+    {
+     "key": "B",
+     "text": "Swallow all three tablets at once with a full glass of water at the first twinge of pain."
+    },
+    {
+     "key": "C",
+     "text": "Continue taking a new tablet every minute indefinitely until the bottle is empty, without calling for help."
+    },
+    {
+     "key": "D",
+     "text": "Sublingual nitroglycerin is never used for acute chest pain and is only an antibiotic."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax teaches one sublingual nitrate every 5 minutes times three doses if chest pain persists, then call emergency services; DailyMed states one additional tablet may be given every 5 minutes, no more than three tablets within a 15-minute period, and to seek prompt medical attention if pain persists after three tablets.",
+    "B": "Incorrect. Tablets are taken sublingually (dissolve under the tongue), not swallowed as a three-tablet oral bolus.",
+    "C": "Incorrect. Dosing is limited (about three tablets/15 minutes) with emergency care if pain persists; indefinite every-minute dosing is unsafe.",
+    "D": "Incorrect. Sublingual nitroglycerin is used for acute anginal symptom management, not as an antibiotic."
+   },
+   "specialty": "Pharmacology",
+   "topic": "Sublingual nitroglycerin — 3 doses q5min then emergency care",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "sl-nitroglycerin-three-doses-then-emergency-care",
+   "tags": [
+    "nitroglycerin",
+    "angina",
+    "teaching",
+    "PPT"
+   ],
+   "sources": [
+    {
+     "title": "18.7 Nitrates",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/18-7-nitrates",
+     "section": "Nursing Implications — client teaching for sublingual nitrates",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; rationales B,C,D",
+     "evidence": "Take one sublingual nitrate every 5 minutes times three doses if chest pain persists; if chest pain continues, call 911.",
+     "added_by": "author"
+    },
+    {
+     "title": "Nitroglycerin Sublingual Tablets — DailyMed drug label",
+     "publisher": "U.S. National Library of Medicine — DailyMed",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=041f127e-5166-4484-bc1a-0a373d1187ae",
+     "section": "2 DOSAGE AND ADMINISTRATION",
+     "source_date": "not stated on page (DailyMed SPL via openFDA accessed 2026-11-25)",
+     "accessed_date": "2026-11-25",
+     "source_type": "drug_monograph_label",
+     "supports": "Key A",
+     "evidence": "One additional tablet may be administered every 5 minutes until relief; no more than three tablets within a 15-minute period; if pain persists after a total of 3 tablets, seek prompt medical attention.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-f3bcbe57) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: OpenStax SL nitrate q5min ×3 then 911 + DailyMed max 3 tablets/15 min then seek care."
+    }
+   ]
+  },
+  {
+   "batch": "B21-WAVE12",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "Glucose monitoring units follow the client’s meter/lab (mmol/L in Canada).",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "integrated_process": "Nursing Process",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PPT-0020",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client has taken oral corticosteroids for several weeks. Which teaching point is the priority?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Stop the drug suddenly as soon as symptoms improve to avoid dependence."
+    },
+    {
+     "key": "B",
+     "text": "Do not stop the drug abruptly; taper as directed, and report signs of infection such as fever or sore throat."
+    },
+    {
+     "key": "C",
+     "text": "Corticosteroids never affect blood glucose, so clients with diabetes need no glucose monitoring."
+    },
+    {
+     "key": "D",
+     "text": "Corticosteroids eliminate all infection risk, so hand hygiene is unnecessary."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Abrupt cessation after prolonged therapy can lead to adrenal insufficiency; OpenStax teaches not to stop abruptly.",
+    "B": "Correct. OpenStax nursing implications and teaching state not to stop corticosteroids abruptly (taper after long-term therapy) and to report signs of infection such as fever or sore throat; Merck notes exogenous glucocorticoids/Cushing physiology include reduced resistance to infection and glucose intolerance/hyperglycemia risk.",
+    "C": "Incorrect. OpenStax directs glucose monitoring in clients with diabetes; hyperglycemia is a listed adverse effect; Merck links glucocorticoid excess with glucose intolerance/hyperglycemia.",
+    "D": "Incorrect. Corticosteroids increase susceptibility to infection; infection-prevention behaviours remain essential."
+   },
+   "specialty": "Pharmacology",
+   "topic": "Corticosteroids — no abrupt stop; infection/glucose monitoring",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "corticosteroid-no-abrupt-stop-infection-glucose",
+   "tags": [
+    "corticosteroids",
+    "adrenal",
+    "infection",
+    "PPT"
+   ],
+   "sources": [
+    {
+     "title": "25.2 Corticosteroids",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/25-2-corticosteroids",
+     "section": "Adverse Effects; Nursing Implications; client teaching",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Do not stop abruptly because adrenal insufficiency may occur; monitor for signs of infection; report fever or sore throat; monitor glucose in diabetes; hyperglycemia listed among adverse effects.",
+     "added_by": "author"
+    },
+    {
+     "title": "Cushing Syndrome",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/adrenal-disorders/cushing-syndrome",
+     "section": "Etiology; Symptoms and Signs; Treatment (hyperglycemia)",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales C,D",
+     "evidence": "Cushing syndrome may result from receiving glucocorticoids; reduced resistance to infection and glucose intolerance are common; hyperglycemia should be treated depending on severity.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-f3bcbe57) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-supported: OpenStax no abrupt stop + report infection/monitor glucose; Merck glucocorticoid excess infection risk and hyperglycemia."
+    }
+   ]
+  },
+  {
+   "batch": "B21-WAVE12",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "integrated_process": "Nursing Process",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PPT-0021",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client starts a dihydropyridine calcium channel blocker (for example, amlodipine) for hypertension. Which adverse effect should the nurse include in teaching as commonly associated with this class?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Peripheral edema (swelling in the legs/feet)."
+    },
+    {
+     "key": "B",
+     "text": "Complete inability of the kidneys to produce any urine within minutes of the first dose in all clients."
+    },
+    {
+     "key": "C",
+     "text": "Guaranteed cure of all bacterial infections within 24 hours."
+    },
+    {
+     "key": "D",
+     "text": "Permanent blue-green skin discoloration as the intended therapeutic effect."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax lists swelling in the legs and feet among calcium channel blocker adverse effects; Merck lists peripheral edema among selected adverse effects of dihydropyridine calcium channel blockers such as amlodipine.",
+    "B": "Incorrect. Immediate total anuria in all clients is not a described class effect in these sources.",
+    "C": "Incorrect. Calcium channel blockers are antihypertensive/antianginal agents, not antibiotics that cure bacterial infections.",
+    "D": "Incorrect. Permanent blue-green discoloration is not an intended therapeutic effect of this class."
+   },
+   "specialty": "Pharmacology",
+   "topic": "Calcium channel blockers — peripheral edema teaching",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "ccb-peripheral-edema-client-teaching",
+   "tags": [
+    "amlodipine",
+    "calcium-channel-blockers",
+    "edema",
+    "PPT"
+   ],
+   "sources": [
+    {
+     "title": "18.5 Calcium Channel Blockers",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/18-5-calcium-channel-blockers",
+     "section": "Adverse Effects and Contraindications",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; rationales B,C,D",
+     "evidence": "Adverse effects include dizziness, constipation, palpitations, fatigue, flushing, nausea, rash, headache, and swelling in the legs and feet.",
+     "added_by": "author"
+    },
+    {
+     "title": "Medications for Hypertension",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/hypertension/medications-for-hypertension",
+     "section": "Calcium Channel Blockers for Hypertension — table (amlodipine adverse effects)",
+     "source_date": "Last updated: Dec 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "Selected adverse effects for amlodipine include dizziness, flushing, headache, weakness, nausea, heartburn, peripheral edema, and tachycardia.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-f3bcbe57) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: OpenStax CCB leg/foot swelling + Merck amlodipine peripheral edema."
+    }
+   ]
+  },
+  {
+   "batch": "B21-WAVE12",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "integrated_process": "Nursing Process",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-SIPC-0015",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "Before accessing a central venous catheter hub to administer IV medication, which action best reduces CLABSI risk?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Vigorously scrub the hub/access port with an appropriate antiseptic and allow it to dry before access."
+    },
+    {
+     "key": "B",
+     "text": "Wipe the hub once with tap water and connect immediately while still wet with water."
+    },
+    {
+     "key": "C",
+     "text": "Skip disinfection if the same nurse accessed the line earlier in the shift."
+    },
+    {
+     "key": "D",
+     "text": "Blow on the hub to dry saliva used as a cleaning agent."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC STRIVE materials direct scrubbing the hub vigorously for at least 5 seconds with an appropriate antiseptic and allowing it to dry prior to every access; OpenStax instructs scrubbing catheter access ports/needleless connectors with chlorhexidine or another approved antiseptic before access and using aseptic technique in CVC maintenance bundles.",
+    "B": "Incorrect. Tap water is not an appropriate antiseptic scrub for hub disinfection before access.",
+    "C": "Incorrect. Disinfection is required prior to every access, not only the first access of the shift.",
+    "D": "Incorrect. Saliva is not an antiseptic; this practice contaminates the hub."
+   },
+   "specialty": "Fundamentals",
+   "topic": "CLABSI prevention — scrub the hub before access",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "clabsi-scrub-the-hub-before-every-access",
+   "tags": [
+    "CLABSI",
+    "central-line",
+    "asepsis",
+    "SIPC"
+   ],
+   "sources": [
+    {
+     "title": "CDC STRIVE — Maintenance and Removal of Central Venous Catheters",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/media/pdfs/Strive-CLABSI104-508.pdf",
+     "section": "Proper Access of CVC — scrub the hub",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; rationales B,C,D",
+     "evidence": "Scrub the hub vigorously for at least 5 seconds with an appropriate antiseptic and allow to dry prior to every access; access CVC only with sterile devices.",
+     "added_by": "author"
+    },
+    {
+     "title": "13.3 Intravenous Infusion",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/13-3-intravenous-infusion",
+     "section": "Central Venous Catheter Maintenance Bundles; CLABSI Guidelines",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Scrub catheter access ports and needleless connectors with chlorhexidine (or other approved antiseptic) prior to accessing; CVC maintenance includes aseptic technique for accessing and changing tubing.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-f3bcbe57) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: CDC STRIVE scrub hub ≥5 sec + dry before every access + OpenStax scrub ports with approved antiseptic before access."
+    }
+   ]
+  },
+  {
+   "batch": "B21-WAVE12",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "Airborne Precautions for measles are concordant in CDC isolation guidance and OpenStax nursing texts; facility room/PPE details follow local IPC policy.",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency",
+    "canada-us-difference"
+   ],
+   "integrated_process": "Nursing Process",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-SIPC-0016",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client is suspected of having measles (rubeola). Which transmission-based precaution is required in addition to Standard Precautions?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Airborne Precautions (e.g., appropriate airborne infection isolation measures and respirator use per protocol)."
+    },
+    {
+     "key": "B",
+     "text": "No precautions beyond ordinary conversation distance without any PPE considerations."
+    },
+    {
+     "key": "C",
+     "text": "Contact Precautions only, because measles never spreads through the air."
+    },
+    {
+     "key": "D",
+     "text": "Droplet Precautions alone are always sufficient and Airborne Precautions are never used for measles."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC Isolation Precautions Appendix A lists measles (rubeola) as Airborne + Standard; OpenStax states patients on airborne precautions such as those treated for measles should be placed with airborne isolation measures (e.g., negative-pressure room when available) and fit-tested N95 or higher respirator PPE.",
+    "B": "Incorrect. Measles requires Airborne + Standard Precautions, not ordinary unprotected proximity care.",
+    "C": "Incorrect. Measles is transmitted via airborne droplet nuclei; Contact-only is incorrect as the keyed precaution set.",
+    "D": "Incorrect. CDC specifies Airborne + Standard for measles, not Droplet alone."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Measles — Airborne Precautions",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "measles-airborne-plus-standard-precautions",
+   "tags": [
+    "measles",
+    "airborne",
+    "IPC",
+    "SIPC"
+   ],
+   "sources": [
+    {
+     "title": "Appendix A: Type and Duration of Precautions Recommended for Selected Infections and Conditions",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html",
+     "section": "Measles (rubeola)",
+     "source_date": "Updated: September 11, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key A; rationales B,C,D",
+     "evidence": "Measles (rubeola): Airborne + Standard.",
+     "added_by": "author"
+    },
+    {
+     "title": "10.4 Infection Control and Patient Safety",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/10-4-infection-control-and-patient-safety",
+     "section": "Airborne Precautions",
+     "source_date": "Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Patients on airborne precautions, such as those being treated for chicken pox or measles, should be placed in negative pressure rooms when available; PPE includes fit-tested N95 or higher-level respirator.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-f3bcbe57) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: CDC Appendix A measles Airborne+Standard + OpenStax airborne precautions for measles with N95/negative pressure."
+    }
+   ]
+  },
+  {
+   "batch": "B21-WAVE12",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "Neutrophil counts in Merck use ×10⁹/L (SI); infection risk rises as counts fall.",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "high-alert-medication"
+   ],
+   "integrated_process": "Nursing Process",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-SIPC-0017",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "A client with severe neutropenia is on protective infection-prevention measures. Which actions are appropriate? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Practice meticulous hand hygiene before contact with the client."
+    },
+    {
+     "key": "B",
+     "text": "Avoid fresh flowers in the room to reduce exposure to environmental fungi such as Aspergillus."
+    },
+    {
+     "key": "C",
+     "text": "Encourage unrestricted fresh fruit and uncooked meats without food-safety precautions."
+    },
+    {
+     "key": "D",
+     "text": "Monitor for fever because serious infection may present with muted focal findings."
+    },
+    {
+     "key": "E",
+     "text": "Stop all hand hygiene because gloves alone replace cleaning hands."
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax neutropenia care includes meticulous hand hygiene to reduce nosocomial infection.",
+    "B": "Correct. OpenStax states fresh flowers are avoided to decrease exposure to chemicals or Aspergillus fungi.",
+    "C": "Incorrect. OpenStax states fresh fruit and uncooked meats are avoided to reduce foodborne contaminants.",
+    "D": "Correct. Merck notes fever is present during most serious infections in neutropenia and that the inflammatory response may be muted; OpenStax includes fever among infection manifestations and emphasizes temperature surveillance.",
+    "E": "Incorrect. Hand hygiene remains essential; gloves do not replace hand hygiene between contacts."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Neutropenia — protective precautions SATA",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "neutropenia-protective-precautions-hand-hygiene-flowers-fever",
+   "tags": [
+    "neutropenia",
+    "protective-precautions",
+    "SIPC",
+    "SATA"
+   ],
+   "sources": [
+    {
+     "title": "16.5 Neutropenia",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/16-5-neutropenia",
+     "section": "Nursing Care — protective measures; clinical manifestations",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Keys A,B,D; rationales C,E",
+     "evidence": "Fresh flowers avoided; fresh fruit and uncooked meats avoided; meticulous hand hygiene; routine temperature surveillance; fever listed among infection manifestations.",
+     "added_by": "author"
+    },
+    {
+     "title": "Neutropenia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/hematology/leukopenias/neutropenia",
+     "section": "Symptoms and Signs; Key Points; Treatment of acute neutropenia",
+     "source_date": "Last updated: Apr 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key D; rationale A",
+     "evidence": "Fever is present during most serious infections; inflammatory response may be muted; if fever is present, infection is presumed and empiric antibiotics are necessary when neutropenia is severe.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-f3bcbe57) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Keys A,B from OpenStax protective measures; Key D dual OpenStax fever surveillance + Merck fever/muted findings in neutropenia. Distinct from RRP febrile-neutropenia empiric antibiotics item."
+    }
+   ]
+  },
+  {
+   "batch": "B21-WAVE12",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "integrated_process": "Nursing Process",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PA-0018",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A postoperative client suddenly develops shortness of breath and sharp chest pain that worsens with inhalation. Which complication should the nurse suspect first?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Pulmonary embolism."
+    },
+    {
+     "key": "B",
+     "text": "Uncomplicated seasonal allergic rhinitis without respiratory distress."
+    },
+    {
+     "key": "C",
+     "text": "Resolved postoperative pain that requires no further assessment."
+    },
+    {
+     "key": "D",
+     "text": "A dietary craving for ice cream."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax describes PE manifestations including sudden shortness of breath and chest pain sharper with inhalation; Merck lists dyspnea and pleuritic chest pain among PE symptoms and tachypnea/tachycardia among signs.",
+    "B": "Incorrect. Sudden dyspnea with pleuritic chest pain is not explained by uncomplicated allergic rhinitis.",
+    "C": "Incorrect. New sudden respiratory symptoms require urgent evaluation, not dismissal as resolved pain.",
+    "D": "Incorrect. Irrelevant to acute dyspnea and pleuritic pain."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Pulmonary embolism — sudden dyspnea and pleuritic pain",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Recognize Cues",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "enemy_group": "pe-sudden-dyspnea-pleuritic-chest-pain",
+   "tags": [
+    "PE",
+    "VTE",
+    "dyspnea",
+    "PA"
+   ],
+   "sources": [
+    {
+     "title": "Pulmonary Embolism (PE)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pulmonary-disorders/pulmonary-embolism/pulmonary-embolism-pe",
+     "section": "Symptoms and Signs of Pulmonary Embolism",
+     "source_date": "Last updated: Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; rationales B,C",
+     "evidence": "Symptoms include dyspnea and pleuritic chest pain; signs may include tachypnea and tachycardia.",
+     "added_by": "author"
+    },
+    {
+     "title": "16.6 Thrombotic Disorder",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/16-6-thrombotic-disorder",
+     "section": "Clinical Manifestations of VTE — pulmonary embolism",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "PE manifestations include sudden shortness of breath, anxiety, and chest pain that is sharper with inhalation, with tachycardia and exertional dyspnea.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-f3bcbe57) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: Merck PE dyspnea/pleuritic pain + OpenStax sudden SOB and inhalation-worsened chest pain."
+    }
+   ]
+  },
+  {
+   "batch": "B21-WAVE12",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "Serum sodium in mmol/L (= mEq/L); OpenStax table uses >145 mEq/L for hypernatremia; reference intervals vary by laboratory.",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "lab-range-varies"
+   ],
+   "integrated_process": "Nursing Process",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PA-0019",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "Which finding is an early symptom the nurse should associate with rising serum sodium (hypernatremia)?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Thirst."
+    },
+    {
+     "key": "B",
+     "text": "Complete absence of any fluid or neurologic symptoms in every client with severe hypernatremia."
+    },
+    {
+     "key": "C",
+     "text": "Sudden productive cough with green sputum as the defining early feature of hypernatremia."
+    },
+    {
+     "key": "D",
+     "text": "Bright yellow skin as the first and only sign of high sodium."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax states that in early hypernatremia one of the only symptoms may be thirst, with confusion or seizures as sodium rises; Merck identifies thirst as the major symptom of hypernatremia and CNS signs (confusion, seizures, coma) from brain-cell shrinkage.",
+    "B": "Incorrect. Hypernatremia produces thirst and can progress to neurologic dysfunction; it is not asymptomatic by definition when severe.",
+    "C": "Incorrect. Productive green sputum suggests pulmonary infection, not the early hallmark of hypernatremia.",
+    "D": "Incorrect. Jaundice-like yellow skin is not the early defining sign of hypernatremia."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Hypernatremia — thirst as early cue",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Physiological Adaptation",
+   "cj_step": "Recognize Cues",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "hypernatremia-thirst-early-neurologic-progression",
+   "tags": [
+    "hypernatremia",
+    "sodium",
+    "fluid-electrolyte",
+    "PA"
+   ],
+   "sources": [
+    {
+     "title": "10.3 Electrolyte Imbalance",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-3-electrolyte-imbalance",
+     "section": "Nursing Care of Patients with Hypernatremia — Recognizing and Analyzing Cues",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A; rationales B,C,D",
+     "evidence": "In early hypernatremia, one of the only symptoms may be thirst; as sodium increases, confusion or seizures may occur.",
+     "added_by": "author"
+    },
+    {
+     "title": "Hypernatremia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/nephrology/electrolyte-disorders/hypernatremia",
+     "section": "Symptoms and Signs of Hypernatremia",
+     "source_date": "Last updated: Jun 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A",
+     "evidence": "The major symptom of hypernatremia is thirst; major signs result from CNS dysfunction due to brain cell shrinkage (confusion, seizures, or coma may result).",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-f3bcbe57) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed: OpenStax early thirst in hypernatremia + Merck thirst as major symptom with later CNS signs."
+    }
+   ]
+  }
+ ],
+ "excluded_items": [
+  {
+   "draft_topic": "Wound evisceration — sterile saline moist dressing / low Fowler's",
+   "reason": "Strong OpenStax Clinical Skills dual detail; second independent publisher with matching actionable nursing steps not confirmed this session (Merck/StatPearls fetches failed or blocked)."
+  },
+  {
+   "draft_topic": "Professional boundaries — gift acceptance as standalone MC (non-SATA)",
+   "reason": "CNO Therapeutic Relationships supports gifts content, but an independent non-CNO second publisher with matching gift-boundary teaching was not confirmed; conflict-of-interest/personal-gain covered via Code in MOC-0017 instead."
+  },
+  {
+   "draft_topic": "Compartment syndrome as PA item",
+   "reason": "Already dual-cited as ONRN-RRP-0012; avoided near-duplicate."
+  },
+  {
+   "draft_topic": "Hospital fall prevention as SIPC item",
+   "reason": "Already dual-cited as ONRN-RRP-0005; avoided near-duplicate."
+  },
+  {
+   "draft_topic": "Benzodiazepine flumazenil reversal as PPT key",
+   "reason": "OpenStax supports flumazenil clearly; Merck GAD page supports sedation/dependence but not flumazenil reversal wording confirmed this session — excluded rather than single-source a high-alert reversal key."
+  }
+ ],
+ "notes": "Accuracy over volume. Avoided duplicates of RRP compartment syndrome, RRP falls, RRP febrile neutropenia antibiotics, and PSY professional-boundaries social dual relationship. No Clinically reviewed/Approved statuses."
+}
