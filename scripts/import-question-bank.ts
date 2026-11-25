@@ -13,6 +13,7 @@
 import fs from "fs";
 import path from "path";
 import crypto from "crypto";
+import type { Prisma } from "@prisma/client";
 
 type BankItem = {
   id: string;
@@ -238,7 +239,7 @@ async function main() {
             format: item.format,
             ngn: item.ngn,
             correct: item.correct_answer,
-          },
+          } as Prisma.InputJsonValue,
           pointsMax: 1,
         },
       });
@@ -250,7 +251,7 @@ async function main() {
           data: {
             questionId: q.id,
             optionId: optionIdByKey.get(key) ?? null,
-            answerKey: { key },
+            answerKey: { key } as Prisma.InputJsonValue,
             pointsMax: 1,
           },
         });
@@ -263,7 +264,7 @@ async function main() {
       await prisma.correctAnswer.create({
         data: {
           questionId: q.id,
-          answerKey: item.correct_answer as object,
+          answerKey: item.correct_answer as Prisma.InputJsonValue,
           pointsMax: 1,
         },
       });
