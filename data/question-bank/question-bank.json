@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 28,
+  "Source verified": 37,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -2994,6 +2994,957 @@
     }
    ],
    "enemy_group": "transfusion-reaction-action-sequence",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B13-WAVE4",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "postoperative",
+    "atelectasis",
+    "incentive-spirometry"
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key and rationales checked vs live-fetched Merck Atelectasis (Apr 2025; cough/deep breathing/incentive spirometry) and OpenStax Medical-Surgical Nursing 27.3 (Oct 2024; routine incentive spirometer for postop atelectasis/pneumonia risk)."
+    }
+   ],
+   "id": "ONRN-RRP-0004",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client is on the first postoperative day after open abdominal surgery. Oxygen saturation is 94% on room air. Breath sounds are diminished at both bases. Which nursing action best helps reduce the risk of atelectasis?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Encourage the client to remain flat in bed to conserve oxygen."
+    },
+    {
+     "key": "B",
+     "text": "Coach the client to use an incentive spirometer and take deep breaths with coughing as tolerated."
+    },
+    {
+     "key": "C",
+     "text": "Withhold prescribed analgesia so the client will not become sedated."
+    },
+    {
+     "key": "D",
+     "text": "Limit oral fluids until the lungs are fully clear on auscultation."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Prolonged supine rest and limited lung expansion increase atelectasis risk after abdominal surgery.",
+    "B": "Correct. Postoperative clients are at risk for atelectasis; lung-expansion measures such as incentive spirometry, deep breathing, and coughing (with adequate analgesia) help reopen collapsed alveoli and clear secretions.",
+    "C": "Incorrect. Uncontrolled incision pain impairs deep breathing and coughing; adequate analgesia supports pulmonary expansion rather than being withheld.",
+    "D": "Incorrect. Restricting fluids is not a standard measure to prevent atelectasis and does not expand alveoli."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Postoperative atelectasis prevention — incentive spirometry and deep breathing",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "postop-atelectasis-incentive-spirometry",
+   "sources": [
+    {
+     "title": "Atelectasis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pulmonary-disorders/bronchiectasis-and-atelectasis/atelectasis",
+     "section": "Treatment of Atelectasis; Prevention of Atelectasis",
+     "source_date": "Last updated Apr 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C",
+     "evidence": "Treatment emphasizes maximizing cough and deep breathing; lung expansion techniques include deep breathing and frequent incentive spirometer use.",
+     "added_by": "author"
+    },
+    {
+     "title": "27.3 Hospitalized Postoperative Patient",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/27-3-hospitalized-postoperative-patient",
+     "section": "Postoperative Priorities",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Postoperative patients are susceptible to atelectasis and pneumonia; routine incentive spirometer use helps identify and reduce respiratory complications.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B13-WAVE4",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "falls",
+    "older-adult",
+    "safety"
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key checked vs Merck Hospital Care and Older Adults (Jan 2026; bed lowest, rails discouraged, restraints discouraged) and Merck Falls in Older Adults (Aug 2025; restraints generally not used) plus OpenStax Fundamentals 9.1 (clear pathways, reasonable bed height, environmental fall hazards)."
+    }
+   ],
+   "id": "ONRN-RRP-0005",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An older adult client is admitted after a fall at home. The client is oriented but unsteady when standing. Which intervention is most appropriate to reduce in-hospital fall risk?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Raise all four bed rails and apply a waist restraint so the client cannot leave the bed."
+    },
+    {
+     "key": "B",
+     "text": "Keep the bed at its lowest position when care is not being given, clear pathways, and place the call light within reach."
+    },
+    {
+     "key": "C",
+     "text": "Encourage the client to walk alone to the bathroom at night to rebuild confidence."
+    },
+    {
+     "key": "D",
+     "text": "Administer a routine bedtime hypnotic to keep the client asleep until morning."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Physical restraints and routinely raised bed rails can increase agitation and fall injury risk; restraints should generally not be used as a fall-prevention strategy.",
+    "B": "Correct. Evidence-based fall-risk reduction includes keeping the bed low when not providing care, removing clutter and hazards from pathways, and ensuring the client can call for help.",
+    "C": "Incorrect. Unsupervised nighttime ambulation to the bathroom is a common setting for hospital falls in older adults.",
+    "D": "Incorrect. Hypnotics and sedatives increase fall and delirium risk in older adults and should be minimized."
+   },
+   "specialty": "Gerontology",
+   "topic": "Hospital fall prevention — low bed, clear pathways, avoid restraints",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "hospital-fall-prevention-low-bed-clear-path",
+   "sources": [
+    {
+     "title": "Hospital Care and Older Adults",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/geriatrics/providing-care-to-older-adults/hospital-care-and-older-adults",
+     "section": "Falls; Prevention of falls",
+     "source_date": "Last updated Jan 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Beds at lowest level for fall risk; bed rails generally discouraged; prefer correcting risk factors over physical/chemical restraints; hypnotics increase fall risk.",
+     "added_by": "author"
+    },
+    {
+     "title": "Falls in Older Adults",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/geriatrics/falls-in-older-adults/falls-in-older-adults",
+     "section": "Prevention of Falls and Injury Mitigation — Environmental and situational management",
+     "source_date": "Last updated Aug 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Rationale A (restraints)",
+     "evidence": "Environmental hazards such as clutter should be mitigated; restraints may lead to more falls and generally should not be used.",
+     "added_by": "author"
+    },
+    {
+     "title": "9.1 Safety: Individual and Environmental",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/9-1-safety-individual-and-environmental",
+     "section": "Impaired Mobility; Risk for Falls",
+     "source_date": "Citation date Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Clear pathways of clutter; keep bed at a reasonable height; address environmental fall hazards such as throw rugs.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B13-WAVE4",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn"
+   ],
+   "tags": [
+    "newborn",
+    "thermoregulation",
+    "hypothermia"
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key checked vs Merck Hypothermia in Neonates (Feb 2025; dry immediately, skin-to-skin, swaddle) and OpenStax Maternal-Newborn 22.3 (Jun 2024; evaporation from amniotic fluid; drying/skin-to-skin/swaddling)."
+    }
+   ],
+   "id": "ONRN-HPM-0003",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "Immediately after a term vaginal birth, the vigorous newborn is placed on the birthing person's chest. Which nursing action best prevents evaporative heat loss in the first minutes of life?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Delay drying until the first bath so vernix can protect the skin."
+    },
+    {
+     "key": "B",
+     "text": "Dry the newborn thoroughly and then keep the infant covered or in skin-to-skin contact."
+    },
+    {
+     "key": "C",
+     "text": "Place the wet newborn under a fan to promote convective cooling."
+    },
+    {
+     "key": "D",
+     "text": "Leave the newborn uncovered on a cool scale for an immediate accurate weight."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Amniotic fluid on the skin causes evaporative heat loss; drying should not be delayed for that reason in the delivery setting.",
+    "B": "Correct. Evaporative heat loss occurs as wet amniotic fluid vaporizes; immediate drying followed by covering or skin-to-skin contact is a primary prevention step for neonatal hypothermia.",
+    "C": "Incorrect. Forced cool airflow increases convective heat loss and is opposite of thermal protection.",
+    "D": "Incorrect. Contact with a cool surface and prolonged exposure promote conductive and radiant heat loss."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Newborn thermoregulation — prevent evaporative heat loss by drying",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "newborn-dry-immediately-evaporative-loss",
+   "sources": [
+    {
+     "title": "Hypothermia in Neonates",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pediatrics/perinatal-problems/hypothermia-in-neonates",
+     "section": "Prevention of Hypothermia in Neonates; Key Points",
+     "source_date": "Last updated Feb 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Dry neonates immediately and, when possible, place in skin-to-skin contact and cover; evaporative loss occurs when neonates are wet with amniotic fluid.",
+     "added_by": "author"
+    },
+    {
+     "title": "22.3 Neutral Thermal Environment",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/22-3-neutral-thermal-environment",
+     "section": "Evaporation; Thermoregulation in the Newborn",
+     "source_date": "Citation date Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Evaporation from amniotic fluid/blood cools the neonate; thermoneutral care includes swaddling and skin-to-skin contact.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B13-WAVE4",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn"
+   ],
+   "tags": [
+    "rhogam",
+    "postpartum",
+    "alloimmunization"
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key checked vs Merck Postpartum Care (Jul 2026; Rho(D) IG 300 mcg IM within 72 h) and OpenStax Maternal-Newborn 20.3 Rh Immune Globulin (Jun 2024; 300 mcg IM within 72 hours after birth)."
+    }
+   ],
+   "id": "ONRN-HPM-0004",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A postpartum client has Rh-negative blood and is not already sensitized. The newborn's blood type is Rh-positive. Which action is indicated?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Administer Rho(D) immune globulin within 72 hours of birth."
+    },
+    {
+     "key": "B",
+     "text": "Withhold Rho(D) immune globulin because sensitization only occurs in subsequent pregnancies and never after the first birth."
+    },
+    {
+     "key": "C",
+     "text": "Give Rho(D) immune globulin only if the client's direct Coombs test is already positive."
+    },
+    {
+     "key": "D",
+     "text": "Delay Rho(D) immune globulin until the 6-week postpartum visit so antibodies can form first."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. An unsensitized Rh-negative parent who delivers an Rh-positive newborn should receive Rho(D) immune globulin, typically within 72 hours, to prevent alloimmunization that could harm future pregnancies.",
+    "B": "Incorrect. Fetomaternal hemorrhage at birth can sensitize the parent after the current pregnancy; postpartum prophylaxis exists to prevent that sensitization.",
+    "C": "Incorrect. Prophylaxis is for clients who are not already sensitized; a positive antibody screen indicating sensitization changes management and is not the indication for routine Rho(D) immune globulin.",
+    "D": "Incorrect. Waiting weeks allows time for sensitization; the standard window is within 72 hours after birth."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Postpartum Rh immune globulin within 72 hours",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "rhig-within-72h-postpartum",
+   "sources": [
+    {
+     "title": "Postpartum Care",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/postpartum-care-and-associated-disorders/postpartum-care",
+     "section": "Postpartum Preventive Care — Prevention of Rh sensitization",
+     "source_date": "Last updated Jul 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; rationales B,D",
+     "evidence": "Rh-negative women with Rh-positive infant who are not sensitized should receive Rho(D) immune globulin 300 mcg IM within 72 hours of delivery.",
+     "added_by": "author"
+    },
+    {
+     "title": "20.3 Nursing Care During the Postpartum Period",
+     "publisher": "OpenStax — Maternal-Newborn Nursing",
+     "url": "https://openstax.org/books/maternal-newborn-nursing/pages/20-3-nursing-care-during-the-postpartum-period",
+     "section": "Rh Immune Globulin",
+     "source_date": "Citation date Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "Route/dosage includes 300 mcg IM within 72 hours after birth; nurse gives immune globulin IM within first 72 hours when newborn is Rh-positive.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B13-WAVE4",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety",
+    "high-alert-medication"
+   ],
+   "tags": [
+    "alcohol-withdrawal",
+    "thiamine",
+    "benzodiazepine"
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "SATA keys A/B checked vs Merck (benzodiazepines mainstay; thiamine 100 mg IV to prevent Wernicke) and OpenStax 19.2 (benzodiazepines for withdrawal; IV thiamine with dextrose to prevent Wernicke). Distractors aligned with Merck phenytoin/antipsychotic/continuation cautions."
+    }
+   ],
+   "id": "ONRN-PSY-0004",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "A client with alcohol use disorder is beginning medically supervised withdrawal. Which interventions are appropriate components of withdrawal care? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Administer prescribed benzodiazepines based on withdrawal severity."
+    },
+    {
+     "key": "B",
+     "text": "Give thiamine to help prevent Wernicke encephalopathy."
+    },
+    {
+     "key": "C",
+     "text": "Start routine daily phenytoin for every client even without a seizure disorder."
+    },
+    {
+     "key": "D",
+     "text": "Use haloperidol alone as the first medication for autonomic hyperactivity."
+    },
+    {
+     "key": "E",
+     "text": "Continue high-dose benzodiazepines indefinitely after detoxification for craving control."
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B"
+   ],
+   "rationales": {
+    "A": "Correct. Benzodiazepines are the mainstay for alcohol-withdrawal agitation and seizure prevention.",
+    "B": "Correct. Thiamine is given during withdrawal care to help prevent Wernicke encephalopathy associated with thiamine deficiency.",
+    "C": "Incorrect. Routine phenytoin is not indicated for uncomplicated alcohol-withdrawal seizures.",
+    "D": "Incorrect. Antipsychotics are not recommended as initial monotherapy and may lower the seizure threshold.",
+    "E": "Incorrect. Benzodiazepines used for detoxification should not continue after the detoxification period."
+   },
+   "specialty": "Mental Health",
+   "topic": "Alcohol withdrawal care — benzodiazepines and thiamine",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "alcohol-withdrawal-benzos-and-thiamine",
+   "sources": [
+    {
+     "title": "Alcohol Toxicity and Withdrawal",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/alcohol-use-disorder/alcohol-toxicity-and-withdrawal",
+     "section": "Treatment of Alcohol Toxicity and Withdrawal — Withdrawal",
+     "source_date": "Last updated Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Keys A,B; rationales C,D,E",
+     "evidence": "IV thiamine to prevent Wernicke encephalopathy; benzodiazepines mainstay; routine phenytoin unnecessary; antipsychotics not initial monotherapy; do not continue benzodiazepines after detoxification.",
+     "added_by": "author"
+    },
+    {
+     "title": "19.2 Alcohol Use Disorder",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/19-2-alcohol-use-disorder",
+     "section": "Treatment for Withdrawal from Alcohol Use",
+     "source_date": "Citation date Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Keys A,B",
+     "evidence": "Benzodiazepines treat withdrawal agitation and help prevent seizures/DTs; clients typically receive IV thiamine with dextrose to prevent Wernicke encephalopathy.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B13-WAVE4",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "tags": [
+    "delirium",
+    "older-adult",
+    "acute-confusion"
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key checked vs Merck Delirium (Aug 2026; acute transient fluctuating disturbance in attention/cognition; distinct from dementia) and OpenStax Psychiatric-Mental Health 14.2 (Jun 2024; sudden onset temporary confusion; resolves when underlying condition treated; distinguish from dementia)."
+    }
+   ],
+   "id": "ONRN-PSY-0005",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An 78-year-old hospitalized client develops sudden confusion that worsens at night, has difficulty focusing attention, and returns nearly to baseline later the same day. Which interpretation is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Findings are typical of Alzheimer dementia because cognition declined overnight."
+    },
+    {
+     "key": "B",
+     "text": "Findings suggest delirium: an acute, fluctuating disturbance of attention and cognition that warrants evaluation for a medical cause."
+    },
+    {
+     "key": "C",
+     "text": "Fluctuating attention excludes delirium and confirms a primary psychotic disorder."
+    },
+    {
+     "key": "D",
+     "text": "No further assessment is needed once orientation returns briefly to baseline."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Dementia typically has a more gradual course and primarily affects memory; an abrupt, fluctuating inattention pattern is characteristic of delirium, which can occur in people with or without underlying dementia.",
+    "B": "Correct. Delirium is an acute, usually reversible, fluctuating disturbance in attention, cognition, and consciousness that often signals an underlying medical problem and requires prompt evaluation.",
+    "C": "Incorrect. Fluctuating attention is a hallmark of delirium, not a finding that excludes it.",
+    "D": "Incorrect. Temporary clearing does not remove the need to identify and treat the precipitating cause."
+   },
+   "specialty": "Mental Health",
+   "topic": "Delirium — acute fluctuating disturbance of attention",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "delirium-acute-fluctuating-attention",
+   "sources": [
+    {
+     "title": "Delirium",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/delirium-and-dementia/delirium",
+     "section": "Overview; distinction from dementia",
+     "source_date": "Last updated Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C",
+     "evidence": "Delirium is an acute, transient, usually reversible, fluctuating disturbance in attention, cognition, and consciousness; delirium mainly affects attention and is often reversible versus dementia.",
+     "added_by": "author"
+    },
+    {
+     "title": "14.2 Delirium",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/14-2-delirium",
+     "section": "Diagnosing Delirium",
+     "source_date": "Citation date Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Delirium usually starts suddenly; client becomes temporarily confused and unable to think clearly; it can indicate a life-threatening medical condition and resolves with treatment of the cause.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B13-WAVE4",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "tags": [
+    "droplet-precautions",
+    "influenza",
+    "PPE"
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key checked vs CDC influenza IPC (updated Sep 29, 2026; don facemask on entry) and CDC Isolation Precautions V.C.3.a plus OpenStax Fundamentals 10.4 Droplet Precautions (don mask on entering, discard before exiting)."
+    }
+   ],
+   "id": "ONRN-SIPC-0005",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client is admitted with suspected seasonal influenza and is placed on Droplet Precautions in a private room. Which personal protective equipment action is required when the nurse enters the room for routine care?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Don a fit-tested N95 respirator and keep the door closed at all times as for airborne isolation."
+    },
+    {
+     "key": "B",
+     "text": "Don a facemask upon room entry and remove it after leaving the room, with hand hygiene."
+    },
+    {
+     "key": "C",
+     "text": "Enter without a mask if standing more than one metre from the client."
+    },
+    {
+     "key": "D",
+     "text": "Wear sterile gloves and a sterile gown for every entry, even without anticipated contact with body fluids."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Seasonal influenza is managed with Droplet Precautions; an N95 and airborne (negative-pressure) setup are not the routine requirement for standard droplet care.",
+    "B": "Correct. For Droplet Precautions, including suspected or confirmed influenza, health-care personnel don a facemask on room entry and remove/dispose of it on exit with hand hygiene.",
+    "C": "Incorrect. Guidance directs masking upon entry into the droplet precaution space, not only during close contact at an arbitrary distance.",
+    "D": "Incorrect. Sterile gown and sterile gloves are not the droplet PPE standard for routine entry; gown/gloves follow Standard Precautions when contact with body fluids is anticipated."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Droplet Precautions — mask on room entry for influenza",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "droplet-precautions-mask-on-entry",
+   "sources": [
+    {
+     "title": "Infection Prevention and Control Strategies for Seasonal Influenza in Healthcare Settings",
+     "publisher": "Centers for Disease Control and Prevention",
+     "url": "https://www.cdc.gov/flu/hcp/infection-control/healthcare-settings.html",
+     "section": "Recommendations — Adhere to droplet precautions",
+     "source_date": "Updated September 29, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B; rationale A",
+     "evidence": "HCP should don a facemask when entering the room of a patient with suspected or confirmed influenza; remove when leaving and perform hand hygiene.",
+     "added_by": "author"
+    },
+    {
+     "title": "10.4 Infection Control and Patient Safety",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/10-4-infection-control-and-patient-safety",
+     "section": "Droplet Precautions",
+     "source_date": "Citation date Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Droplet PPE includes donning a mask upon entering a room and discarding it before exiting; place patient in a single patient space when possible.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B13-WAVE4",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "Keyed to CNO Confidentiality and Privacy practice standard and Ontario PHIPA s. 30 limiting collection/use/disclosure to what is reasonably necessary. US HIPAA has analogous minimization concepts but this item is framed for Ontario practice.",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario",
+    "guideline-version-sensitive"
+   ],
+   "tags": [
+    "privacy",
+    "PHIPA",
+    "CNO",
+    "confidentiality"
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key checked vs CNO Confidentiality and Privacy PDF (current; access only for professional purpose; do not discuss in cafeterias) and Ontario PHIPA s. 30 (not collect/use/disclose more PHI than reasonably necessary). 2026 CNO revision (in effect Dec 1, 2026) also states access the least amount required; principle unchanged across transition."
+    }
+   ],
+   "id": "ONRN-MOC-0005",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A nurse in Ontario finishes documenting for an assigned client. A colleague asks the nurse to look up laboratory results in the electronic record of a neighbour who is not on the nurse's assignment and for whom the nurse has no care role. Which response best meets confidentiality and privacy accountabilities?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Access the neighbour's chart briefly because curiosity among staff is an accepted professional purpose."
+    },
+    {
+     "key": "B",
+     "text": "Decline to access the record, explaining that personal health information may be accessed only when needed for an authorized care purpose."
+    },
+    {
+     "key": "C",
+     "text": "Print the full chart and leave it at the nursing station so anyone on the unit can answer questions."
+    },
+    {
+     "key": "D",
+     "text": "Share the neighbour's results aloud in the cafeteria so the colleague does not need system access."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Accessing a record without a professional care purpose violates CNO confidentiality standards and PHIPA limits on collection and use.",
+    "B": "Correct. Nurses must access only the personal health information needed for an authorized purpose; PHIPA requires that no more personal health information be collected, used, or disclosed than is reasonably necessary.",
+    "C": "Incorrect. Leaving identifiable charts available for unnecessary viewing increases unauthorized access risk.",
+    "D": "Incorrect. Discussing client information in public places such as cafeterias breaches confidentiality."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Confidentiality — access PHI only for authorized care purpose",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "Ontario-specific",
+   "enemy_group": "phipa-access-only-for-care-purpose",
+   "sources": [
+    {
+     "title": "Confidentiality and Privacy — Personal Health Information",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41069_privacy.pdf",
+     "section": "Confidentiality indicators — access and discussion",
+     "source_date": "Updated July 2025 (practice standard PDF)",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key B; rationales A,D",
+     "evidence": "Access information for the nurse's clients only and not for which there is no professional purpose; do not discuss client information with colleagues in public places such as elevators, cafeterias and hallways.",
+     "added_by": "author"
+    },
+    {
+     "title": "Personal Health Information Protection Act, 2004, S.O. 2004, c. 3, Sched. A",
+     "publisher": "Government of Ontario — e-Laws",
+     "url": "https://www.ontario.ca/laws/statute/04p03",
+     "section": "s. 30 Other information — limiting collection, use and disclosure",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "supports": "Key B",
+     "evidence": "A health information custodian shall not collect, use or disclose more personal health information than is reasonably necessary to meet the purpose of the collection, use or disclosure.",
+     "added_by": "author"
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B13-WAVE4",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "Temperature reported in °C (38.5°C).",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "emergency"
+   ],
+   "tags": [
+    "neutropenia",
+    "fever",
+    "chemotherapy"
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key checked vs Merck Neutropenia (Apr 2026; if fever present infection presumed and immediate empiric broad-spectrum antibiotics necessary) and OpenStax Medical-Surgical 16.5 (fever as infection cue; acute neutropenia requires hospitalization and neutropenic precautions including avoid fresh flowers/fruit). Distractor C uses OpenStax precaution detail."
+    }
+   ],
+   "id": "ONRN-RRP-0006",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client receiving chemotherapy has severe neutropenia. The client reports feeling unwell. Oral temperature is 38.5°C. There is no obvious focus of infection on brief examination. Which action is the priority?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Document the temperature and reassess in 4 hours before notifying the provider."
+    },
+    {
+     "key": "B",
+     "text": "Recognize fever as a presumed serious infection and promptly notify the provider so empiric broad-spectrum antibiotics can be started."
+    },
+    {
+     "key": "C",
+     "text": "Encourage fresh fruit and a floral arrangement to improve nutrition and mood while awaiting culture results."
+    },
+    {
+     "key": "D",
+     "text": "Hold all antimicrobial therapy until a definitive organism is identified on culture."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. In severe neutropenia, fever is treated as a medical emergency; waiting hours delays needed empiric therapy.",
+    "B": "Correct. When severe neutropenia is present, fever usually indicates infection even if a focus is not obvious, and immediate empiric broad-spectrum antibiotics are required.",
+    "C": "Incorrect. Neutropenic precautions include avoiding fresh fruit and fresh flowers because of infection risk; these are not supportive measures during febrile neutropenia.",
+    "D": "Incorrect. Empiric antibiotics are started promptly; waiting for culture identification is unsafe in febrile neutropenia."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Febrile neutropenia — fever warrants prompt empiric antibiotics",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Reduction of Risk Potential",
+   "cj_step": "Prioritize Hypotheses",
+   "integrated_process": "Clinical Judgment",
+   "difficulty": "Moderate",
+   "cognitive_level": "Analyzing",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "febrile-neutropenia-empiric-antibiotics",
+   "sources": [
+    {
+     "title": "Neutropenia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/hematology/leukopenias/neutropenia",
+     "section": "Overview; Treatment of Neutropenia — Acute neutropenia",
+     "source_date": "Last updated Apr 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,D",
+     "evidence": "Focal symptoms may be muted, but fever is present during most serious infections; if fever is present, infection is presumed and immediate empiric broad-spectrum antibiotics are necessary, especially if neutropenia is severe.",
+     "added_by": "author"
+    },
+    {
+     "title": "16.5 Neutropenia",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/16-5-neutropenia",
+     "section": "Clinical Manifestations; Prioritizing Hypotheses, Generating Solutions, and Taking Action",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B (fever as infection); rationale C",
+     "evidence": "Fever is a clinical manifestation of infection in neutropenia; acute neutropenia requires hospitalization and reverse/neutropenic precautions such as avoiding fresh flowers and fresh fruit.",
+     "added_by": "author"
+    }
+   ],
    "exam_version_published": null,
    "exam_version_provisional": null
   }

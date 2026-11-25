@@ -1,6 +1,6 @@
 # Source verification report — Ontario/Canada question bank
 
-**Updated:** 2026-11-25, ~7:10 AM (America/New_York)
+**Updated:** 2026-11-25, ~8:15 AM (America/New_York)
 **Scope:** Author-level **Source verified** only. Not an independent verifier pass. Not clinical review.
 **Rule:** Every keyed answer and rationale rests on sources fetched in-session; citations were not invented.
 
@@ -10,39 +10,39 @@
 
 | Metric | Count |
 | --- | ---: |
-| Items Source verified | **28** |
+| Items Source verified | **37** |
 | Items with independent verifier `confirmed` | 0 |
 | Items clinically reviewed / approved / published | **0** |
-| Excluded draft topics logged | 6 |
+| Excluded draft topics logged | 9 |
 
 ### Citation publishers (citation instances across items)
 
 | Publisher | Citations |
 | --- | ---: |
-| Merck Manual Professional Edition | 16 |
-| OpenStax — Medical-Surgical Nursing | 6 |
+| Merck Manual Professional Edition | 24 |
+| OpenStax — Medical-Surgical Nursing | 8 |
+| OpenStax — Fundamentals of Nursing | 6 |
+| College of Nurses of Ontario | 4 |
 | OpenStax — Pharmacology for Nurses | 4 |
-| OpenStax — Fundamentals of Nursing | 4 |
-| College of Nurses of Ontario | 3 |
+| OpenStax — Psychiatric-Mental Health Nursing | 4 |
+| OpenStax — Maternal-Newborn Nursing | 3 |
 | Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC) | 3 |
+| Centers for Disease Control and Prevention | 2 |
 | Diabetes Canada | 2 |
-| U.S. Centers for Disease Control and Prevention (CDC) | 2 |
+| Government of Ontario — e-Laws | 2 |
 | Health Canada Drug Product Database — Pharmascience Inc. product monograph | 2 |
-| OpenStax — Psychiatric-Mental Health Nursing | 2 |
 | OpenStax — Clinical Nursing Skills | 2 |
-| Government of Ontario — e-Laws | 1 |
-| U.S. Centers for Disease Control and Prevention (CDC/HICPAC) | 1 |
+| U.S. Centers for Disease Control and Prevention (CDC) | 2 |
+| Government of Ontario (e-Laws) | 1 |
+| Health Canada (Hikma Canada) | 1 |
 | Health Canada Drug Product Database — Sandoz Canada Inc. product monograph | 1 |
-| U.S. National Library of Medicine — DailyMed | 1 |
 | Health Canada Drug Product Database — Taro Pharmaceuticals Inc. product monograph | 1 |
 | Heart & Stroke — Canadian Stroke Best Practices | 1 |
-| OpenStax — Maternal-Newborn Nursing | 1 |
-| Public Health Agency of Canada / Canada.ca | 1 |
-| Government of Ontario (e-Laws) | 1 |
 | NCSBN / American Nurses Association | 1 |
-| Centers for Disease Control and Prevention | 1 |
+| Public Health Agency of Canada / Canada.ca | 1 |
 | Public Health Ontario | 1 |
-| Health Canada (Hikma Canada) | 1 |
+| U.S. Centers for Disease Control and Prevention (CDC/HICPAC) | 1 |
+| U.S. National Library of Medicine — DailyMed | 1 |
 
 ---
 
@@ -78,6 +78,16 @@
 | ONRN-BCC-0003 | B12-WAVE3 | multiple_choice | Basic Care and Comfort | General (Canada/US concordant) | 2 | no | — |
 | ONRN-PA-0005 | B12-WAVE3 | multiple_choice | Physiological Adaptation | General (Canada/US concordant) | 2 | no | — |
 | ONRN-RRP-0003 | B12-WAVE3 | ordered_response | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | emergency, possible-ambiguity |
+| ONRN-RRP-0004 | B13-WAVE4 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | no | — |
+| ONRN-RRP-0005 | B13-WAVE4 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 3 | no | — |
+| ONRN-HPM-0003 | B13-WAVE4 | multiple_choice | Health Promotion and Maintenance | General (Canada/US concordant) | 2 | yes | maternity-newborn |
+| ONRN-HPM-0004 | B13-WAVE4 | multiple_choice | Health Promotion and Maintenance | General (Canada/US concordant) | 2 | yes | maternity-newborn |
+| ONRN-PSY-0004 | B13-WAVE4 | select_all_that_apply | Psychosocial Integrity | General (Canada/US concordant) | 2 | yes | mental-health-safety, high-alert-medication |
+| ONRN-PSY-0005 | B13-WAVE4 | multiple_choice | Psychosocial Integrity | General (Canada/US concordant) | 2 | yes | mental-health-safety |
+| ONRN-SIPC-0005 | B13-WAVE4 | multiple_choice | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | — |
+| ONRN-MOC-0005 | B13-WAVE4 | multiple_choice | Management of Care | Ontario-specific | 2 | yes | legal-ontario, guideline-version-sensitive |
+| ONRN-RRP-0006 | B13-WAVE4 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | emergency |
+
 
 ---
 
@@ -88,9 +98,16 @@
 - **Validator:** `TOTAL ERRORS: 0` on `batches/B12-WAVE3.json`.
 - **High-priority clinical review flags in wave 3:** transfusion reaction items, hypovolemic shock, folic acid (maternity), Ontario informed consent, naloxone.
 
+## Wave 4 (B13-WAVE4) author notes
+
+- **Added:** 9 Source-verified originals prioritizing RRP, HPM, PSY, and MOC gaps.
+- **Excluded (3):** Neutropenic diet absolute bans (second publisher diet list not confirmed); therapeutic silence (second independent publisher not confirmed); standalone alcohol-withdrawal benzo MC (near-duplicate of SATA kept in batch).
+- **Validator:** `TOTAL ERRORS: 0` on `batches/B13-WAVE4.json`.
+- **High-priority clinical review flags in wave 4:** newborn thermoregulation, RhIg, alcohol withdrawal (benzos/thiamine), delirium, Ontario privacy/PHIPA, febrile neutropenia.
+
 ## Honesty statement
 
-Counts are actual compiled-bank totals after B00 + B11 + B12. No padding. AI may not set Clinically reviewed or Approved.
+Counts are actual compiled-bank totals after B00 + B11 + B12 + B13. No padding. AI may not set Clinically reviewed or Approved.
 
 ---
 

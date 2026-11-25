@@ -1,9 +1,9 @@
 {
  "generated": "2026-11-25",
- "total_items": 28,
+ "total_items": 37,
  "by_status": {
   "Draft": 0,
-  "Source verified": 28,
+  "Source verified": 37,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -13,7 +13,7 @@
  "by_client_needs_x_status": {
   "MOC": {
    "Draft": 0,
-   "Source verified": 4,
+   "Source verified": 5,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -22,7 +22,7 @@
   },
   "SIPC": {
    "Draft": 0,
-   "Source verified": 4,
+   "Source verified": 5,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -31,7 +31,7 @@
   },
   "HPM": {
    "Draft": 0,
-   "Source verified": 2,
+   "Source verified": 4,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -40,7 +40,7 @@
   },
   "PSY": {
    "Draft": 0,
-   "Source verified": 2,
+   "Source verified": 4,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -67,7 +67,7 @@
   },
   "RRP": {
    "Draft": 0,
-   "Source verified": 3,
+   "Source verified": 6,
    "Awaiting clinical review": 0,
    "Clinically reviewed": 0,
    "Approved": 0,
@@ -100,43 +100,43 @@
  },
  "all_active": {
   "by_format": {
-   "multiple_choice": 22,
-   "select_all_that_apply": 3,
+   "multiple_choice": 30,
+   "select_all_that_apply": 4,
    "matrix_multiple_choice": 1,
    "calculation": 1,
    "ordered_response": 1
   },
   "by_jurisdiction": {
-   "General (Canada/US concordant)": 23,
-   "Ontario-specific": 3,
+   "General (Canada/US concordant)": 31,
+   "Ontario-specific": 4,
    "Canada-specific": 2
   }
  },
- "excluded_draft_topics": 6,
+ "excluded_draft_topics": 9,
  "archived_items": 0,
  "source_citations_by_publisher": {
-  "Merck Manual Professional Edition": 16,
-  "OpenStax — Medical-Surgical Nursing": 6,
+  "Merck Manual Professional Edition": 24,
+  "OpenStax — Medical-Surgical Nursing": 8,
+  "OpenStax — Fundamentals of Nursing": 6,
+  "College of Nurses of Ontario": 4,
   "OpenStax — Pharmacology for Nurses": 4,
-  "OpenStax — Fundamentals of Nursing": 4,
-  "College of Nurses of Ontario": 3,
+  "OpenStax — Psychiatric-Mental Health Nursing": 4,
   "Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC)": 3,
+  "OpenStax — Maternal-Newborn Nursing": 3,
   "Diabetes Canada": 2,
+  "Government of Ontario — e-Laws": 2,
   "U.S. Centers for Disease Control and Prevention (CDC)": 2,
   "Health Canada Drug Product Database — Pharmascience Inc. product monograph": 2,
-  "OpenStax — Psychiatric-Mental Health Nursing": 2,
   "OpenStax — Clinical Nursing Skills": 2,
-  "Government of Ontario — e-Laws": 1,
+  "Centers for Disease Control and Prevention": 2,
   "U.S. Centers for Disease Control and Prevention (CDC/HICPAC)": 1,
   "Health Canada Drug Product Database — Sandoz Canada Inc. product monograph": 1,
   "U.S. National Library of Medicine — DailyMed": 1,
   "Health Canada Drug Product Database — Taro Pharmaceuticals Inc. product monograph": 1,
   "Heart & Stroke — Canadian Stroke Best Practices": 1,
-  "OpenStax — Maternal-Newborn Nursing": 1,
   "Public Health Agency of Canada / Canada.ca": 1,
   "Government of Ontario (e-Laws)": 1,
   "NCSBN / American Nurses Association": 1,
-  "Centers for Disease Control and Prevention": 1,
   "Public Health Ontario": 1,
   "Health Canada (Hikma Canada)": 1
  },
