@@ -1,6 +1,6 @@
 # Question bank status — Ontario/Canada HESI/NCLEX practice
 
-**Updated:** 2026-11-25, ~11:20 AM (America/New_York)  
+**Updated:** 2026-11-25, ~11:40 AM (America/New_York)  
 **Honesty:** Counts below are **actual**. AI authoring may reach **Source verified** only. **Published / clinically reviewed = 0.** No claim of HESI/NCLEX item authenticity.
 
 Companion: [source-verification-report.md](./source-verification-report.md) · bank root: `/cursor/stores/self/internal/question-bank/`
@@ -11,16 +11,16 @@ Companion: [source-verification-report.md](./source-verification-report.md) · b
 
 | Metric | Count |
 | --- | ---: |
-| **Total active items** | **361** |
-| **Source verified** | **361** |
+| **Total active items** | **386** |
+| **Source verified** | **386** |
 | Awaiting clinical review | 0 |
 | Clinically reviewed | 0 |
 | Approved / published | **0** |
 | Draft (in compiled bank) | 0 |
 | Archived | 0 |
-| Excluded draft topics (logged) | 123 |
+| Excluded draft topics (logged) | 129 |
 
-Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after merge of `B00-PILOT` + `B11-WAVE2` + `B12-WAVE3` + `B13-WAVE4` + `B14-WAVE5` + `B15-WAVE6` + `B16-WAVE7` + `B17-WAVE8` + `B18-WAVE9` + `B19-WAVE10` + `B20-WAVE11` + `B21-WAVE12` + `B22-WAVE13` + `B23-WAVE14` + `B24-WAVE15` + `B25-WAVE16` + `B26-WAVE17` + `B27-WAVE18` + `B28-WAVE19` + `B29-WAVE20` + `B30-WAVE21` + `B31-WAVE22` + `B32-WAVE23` + `B33-WAVE24` + `B34-WAVE25` + `B35-WAVE26` + `B36-WAVE27` + `B37-WAVE28` + `B38-WAVE29` + `B39-WAVE30` + `B40-WAVE31`.
+Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after merge of `B00-PILOT` + `B11-WAVE2` + `B12-WAVE3` + `B13-WAVE4` + `B14-WAVE5` + `B15-WAVE6` + `B16-WAVE7` + `B17-WAVE8` + `B18-WAVE9` + `B19-WAVE10` + `B20-WAVE11` + `B21-WAVE12` + `B22-WAVE13` + `B23-WAVE14` + `B24-WAVE15` + `B25-WAVE16` + `B26-WAVE17` + `B27-WAVE18` + `B28-WAVE19` + `B29-WAVE20` + `B30-WAVE21` + `B31-WAVE22` + `B32-WAVE23` + `B33-WAVE24` + `B34-WAVE25` + `B35-WAVE26` + `B36-WAVE27` + `B37-WAVE28` + `B38-WAVE29` + `B39-WAVE30` + `B40-WAVE31` + `B41-WAVE32` + `B42-WAVE33`.
 
 ---
 
@@ -28,19 +28,19 @@ Source: `internal/question-bank/build/stats.json` generated 2026-11-25 after mer
 
 | Code | Subcategory | Source verified | Gap vs 150-item form quota* |
 | --- | --- | ---: | ---: |
-| MOC | Management of Care | 62 | 0† |
-| SIPC | Safety and Infection Prevention and Control | 31 | 0† |
-| HPM | Health Promotion and Maintenance | 50 | 0† |
-| PSY | Psychosocial Integrity | 34 | 0† |
-| BCC | Basic Care and Comfort | 27 | 0† |
-| PPT | Pharmacological and Parenteral Therapies | 43 | 0† |
-| RRP | Reduction of Risk Potential | 47 | 0† |
-| PA | Physiological Adaptation | 67 | 0† |
+| MOC | Management of Care | 67 | 0† |
+| SIPC | Safety and Infection Prevention and Control | 33 | 0† |
+| HPM | Health Promotion and Maintenance | 55 | 0† |
+| PSY | Psychosocial Integrity | 39 | 0† |
+| BCC | Basic Care and Comfort | 29 | 0† |
+| PPT | Pharmacological and Parenteral Therapies | 46 | 0† |
+| RRP | Reduction of Risk Potential | 48 | 0† |
+| PA | Physiological Adaptation | 69 | 0† |
 
-\*Quota for one 150-item HESI-style form (see blueprint). Five forms need ~750 Source-verified → clinically reviewed items. **No form is publishable yet.**  
-†Surplus vs base single-form quota supports multi-form depth (MOC 62/27, SIPC 31/20, HPM 50/13–14, PSY 34/13–14, BCC 27/13–14, PPT 43/24, RRP 47/18, PA 67/21).
+*Quota for one 150-item HESI-style form (see blueprint). Five forms need ~750 Source-verified → clinically reviewed items. **No form is publishable yet.**  
+†Surplus vs base single-form quota supports multi-form depth (MOC 67/27, SIPC 33/20, HPM 55/13–14, PSY 39/13–14, BCC 29/13–14, PPT 46/24, RRP 48/18, PA 69/21).
 
-Wave 31 added Professional Practice–first CNO sexual-abuse / gift boundaries and virtual-care privacy + in-person escalation, Leadership TeamSTEPPS check-back NGN cloze + formative feedback, Community radon testing (Canada/US concordant teaching without conflicting numeric thresholds) + SATA, and Gerontology delirium-vs-dementia (MC + NGN matrix) plus aspiration oral hygiene and NGN delirium bowtie; dual-cited originals only (CNO, AHRQ, AHA, Health Canada, CDC, Merck, OpenStax). **All eight Client Needs single-form quotas remain met at Source verified.**
+Wave 33 added Pharmacology (spironolactone K-sparing; levothyroxine NGN cloze; acetaminophen 4000 mg/24h), Critical Care acetaminophen-overdose NGN bowtie, Fundamentals/SIPC (norovirus Contact Precautions; PPE doff except respirator), Pediatrics safe-sleep (MC + NGN matrix), Maternity (RhIG within 72h; Apgar 1/5 not individual prognosis), and Mental Health anorexia (hospitalization MC + NGN matrix); dual-cited originals (OpenStax, Merck, DailyMed, CDC, CPS Caring for Kids). **All eight Client Needs single-form quotas remain met at Source verified.**
 
 ---
 
@@ -48,19 +48,19 @@ Wave 31 added Professional Practice–first CNO sexual-abuse / gift boundaries a
 
 | Format | n |
 | --- | ---: |
-| multiple_choice | 269 |
-| select_all_that_apply | 42 |
-| matrix_multiple_choice | 19 |
-| drop_down_cloze | 14 |
-| bowtie | 14 |
+| multiple_choice | 284 |
+| select_all_that_apply | 44 |
+| matrix_multiple_choice | 23 |
+| drop_down_cloze | 16 |
+| bowtie | 16 |
 | ordered_response | 2 |
 | calculation | 1 |
 
 | Jurisdiction | n |
 | --- | ---: |
-| General (Canada/US concordant) | 313 |
-| Ontario-specific | 37 |
-| Canada-specific | 11 |
+| General (Canada/US concordant) | 335 |
+| Ontario-specific | 38 |
+| Canada-specific | 13 |
 
 ---
 
@@ -99,6 +99,8 @@ Wave 31 added Professional Practice–first CNO sexual-abuse / gift boundaries a
 | B38-WAVE29 | 12 | Source verified (wave 29 — Leadership/Community/Gero-first + frostbite/adrenal/DI/trauma-informed + NGN matrix/cloze/bowtie) |
 | B39-WAVE30 | 12 | Source verified (wave 30 — Professional Practice/Leadership/Community/MH/Peds-first + NGN matrix/cloze/bowtie) |
 | B40-WAVE31 | 12 | Source verified (wave 31 — Professional Practice/Leadership/Community/Gero-first + NGN matrix/cloze/bowtie) |
+| B41-WAVE32 | 13 | Source verified (wave 32 — Leadership/MH/BCC/Community/Professional Practice + NGN matrix/cloze/bowtie) |
+| B42-WAVE33 | 12 | Source verified (wave 33 — Pharmacology/Peds/Fundamentals/Maternity/MH + NGN cloze/matrix/bowtie) |
 | B01–B10 | 0 JSON | Prior fetch logs only; no authored batches completed |
 
 ---
@@ -120,7 +122,7 @@ Compiled bank copied into the GitHub app repo under `data/question-bank/` with a
 
 ## Next priorities
 
-1. Independent verifier pass on B00 + B11–B40 → Awaiting clinical review.  
+1. Independent verifier pass on B00 + B11–B42 → Awaiting clinical review.  
 2. Licensed clinician review (especially high-priority items flagged in clinical-review-queue).  
-3. Continue authoring toward **five-form** depth (~750 Source-verified → clinically reviewed), prioritizing remaining thinner specialties (Leadership 31; Mental Health 31; Community/Professional Practice now 32; BCC still thinner at Client Needs 27).  
+3. Continue authoring toward **five-form** depth (~750 Source-verified → clinically reviewed), prioritizing remaining thinner Client Needs (BCC 29; SIPC 33) and specialties still below peak depth.  
 4. Do **not** pad counts; exclude when a second independent source cannot be confirmed.

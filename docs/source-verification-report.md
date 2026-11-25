@@ -1,6 +1,6 @@
 # Source verification report — Ontario/Canada question bank
 
-**Updated:** 2026-11-25, ~11:20 AM (America/New_York)
+**Updated:** 2026-11-25, ~11:40 AM (America/New_York)
 **Scope:** Author-level **Source verified** only. Not an independent verifier pass. Not clinical review.
 **Rule:** Every keyed answer and rationale rests on sources fetched in-session; citations were not invented.
 
@@ -10,46 +10,45 @@
 
 | Metric | Count |
 | --- | ---: |
-| Items Source verified | **361** |
+| Items Source verified | **386** |
 | Items with independent verifier `confirmed` | 0 |
 | Items clinically reviewed / approved / published | **0** |
-| Excluded draft topics logged | 123 |
+| Excluded draft topics logged | 129 |
 
 ### Citation publishers (citation instances across items)
 
-Compiled from `internal/question-bank/build/stats.json` / item sources after wave 31. Leading publishers remain Merck Manual Professional Edition, OpenStax nursing texts, CDC, CNO, AHRQ, and Canadian regulators. Wave 31 added CNO Professional Boundaries + Virtual Care PDFs, AHRQ check-back / formative feedback (+ TeamSTEPPS pocket guide), AHA closed-loop toolkit page, Health Canada radon factsheet/guide, CDC radon testing/reduce pages, Merck delirium/dementia overview + aspiration pneumonia prevention, and OpenStax PMH/Med-Surg/Fundamentals dual cites.
+Compiled from `internal/question-bank/build/stats.json` / item sources after wave 33. Leading publishers remain Merck Manual Professional Edition, OpenStax nursing texts, CDC, CNO, AHRQ, and Canadian regulators. Wave 33 added OpenStax Pharmacology (K-sparing diuretics, thyroid, nonopioids), Maternal-Newborn (RhIG, Apgar), PMH (anorexia), Fundamentals PPE; Merck HF MRA / APAP poisoning / postpartum Rh / neonatal Apgar / anorexia; DailyMed levothyroxine; CDC norovirus + PPE sequence + safe sleep; CPS Caring for Kids safe sleep.
 
 ---
 
-## Wave 31 item inventory (B40-WAVE31)
+## Wave 33 item inventory (B42-WAVE33)
 
 | ID | Format | Client Needs | Jurisdiction | Sources | High-priority clinical review | Flags |
 | --- | --- | ---: | --- | ---: | --- | --- |
-| ONRN-MOC-0057 | multiple_choice | Management of Care | Ontario-specific | 2 | yes | legal-ontario, guideline-version-sensitive |
-| ONRN-MOC-0058 | multiple_choice | Management of Care | Ontario-specific | 2 | yes | legal-ontario, guideline-version-sensitive |
-| ONRN-MOC-0059 | multiple_choice | Management of Care | Ontario-specific | 2 | yes | legal-ontario, guideline-version-sensitive |
-| ONRN-MOC-0060 | drop_down_cloze | Management of Care | General (Canada/US concordant) | 3 | no | — |
-| ONRN-MOC-0061 | multiple_choice | Management of Care | General (Canada/US concordant) | 3 | no | — |
-| ONRN-MOC-0062 | multiple_choice | Management of Care | Ontario-specific | 2 | yes | legal-ontario, guideline-version-sensitive |
-| ONRN-HPM-0049 | multiple_choice | Health Promotion and Maintenance | Canada-specific | 2 | no | canada-us-difference |
-| ONRN-HPM-0050 | select_all_that_apply | Health Promotion and Maintenance | Canada-specific | 3 | no | canada-us-difference |
-| ONRN-RRP-0046 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | — |
-| ONRN-RRP-0047 | matrix_multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 3 | yes | — |
-| ONRN-BCC-0027 | multiple_choice | Basic Care and Comfort | General (Canada/US concordant) | 2 | yes | — |
-| ONRN-PA-0068 | bowtie | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | emergency |
+| ONRN-PPT-0044 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | high-alert-medication, lab-range-varies |
+| ONRN-PPT-0045 | drop_down_cloze | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | no | — |
+| ONRN-PPT-0046 | multiple_choice | Pharmacological and Parenteral Therapies | General (Canada/US concordant) | 2 | yes | high-alert-medication |
+| ONRN-PA-0070 | bowtie | Physiological Adaptation | General (Canada/US concordant) | 2 | yes | emergency, high-alert-medication, mental-health-safety |
+| ONRN-SIPC-0032 | multiple_choice | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | — |
+| ONRN-SIPC-0033 | multiple_choice | Safety and Infection Prevention and Control | General (Canada/US concordant) | 2 | no | — |
+| ONRN-HPM-0053 | multiple_choice | Health Promotion and Maintenance | Canada-specific | 2 | yes | pediatric |
+| ONRN-HPM-0054 | matrix_multiple_choice | Health Promotion and Maintenance | Canada-specific | 2 | yes | pediatric |
+| ONRN-RRP-0048 | multiple_choice | Reduction of Risk Potential | General (Canada/US concordant) | 2 | yes | maternity-newborn |
+| ONRN-HPM-0055 | multiple_choice | Health Promotion and Maintenance | General (Canada/US concordant) | 2 | yes | maternity-newborn, pediatric |
+| ONRN-PSY-0038 | multiple_choice | Psychosocial Integrity | General (Canada/US concordant) | 2 | yes | mental-health-safety, pediatric, emergency |
+| ONRN-PSY-0039 | matrix_multiple_choice | Psychosocial Integrity | General (Canada/US concordant) | 2 | yes | mental-health-safety |
 
-### Excluded this wave (4)
+### Excluded this wave (3)
 
 | Draft topic | Reason |
 | --- | --- |
-| Breast cancer mammogram start age / interval | USPSTF (biennial from 40) vs ACS (annual from 45 with optional earlier start) conflict; excluded rather than key a contested number. |
-| Radon numeric action level as the keyed fact | Canada 200 Bq/m³ vs US EPA 4 pCi/L; keyed only concordant testing/mitigation/smoking-risk teaching. |
-| TeamSTEPPS check-back for client teach-back understanding | Enemy overlap risk with ONRN-MOC-0045; used closed-loop sender/receiver/confirm for verbal orders instead. |
-| Aspiration HOB >30° as sole new item | Already covered (e.g., ONRN-BCC-0006); authored oral-hygiene prevention angle instead. |
+| PPE doffing exact glove→goggle→gown→mask ordered_response | OpenStax defers to CDC without listing each removal step; kept dual-cited MC on remove-PPE-except-respirator-before-exit. |
+| Incentive spirometry numeric frequency teaching | Could not dual-cite a specific frequency/technique target from two independent live sources. |
+| Health Canada APO-levothyroxine monograph empty-stomach wording | PDF fetch failed (pypdf unavailable); used OpenStax + DailyMed for levothyroxine timing. |
 
-### Dual-cite method (wave 31)
+### Dual-cite method (wave 33)
 
-Live fetch via `tools/fetch_source.py` (and `--register-file` when WebFetch captured blocked CNO/CDC/canada.ca/AHA pages) for CNO Boundaries + Virtual Care, AHRQ TeamSTEPPS check-back/feedback + pocket guide, AHA closed-loop page, Health Canada radon, CDC radon, Merck delirium/aspiration, and OpenStax PMH/Med-Surg/Fundamentals. Grep confirmed keyed facts before authoring. Validator: `TOTAL ERRORS: 0`.
+Live fetch via `tools/fetch_source.py` (and `--register-file` when WebFetch captured blocked CDC/CPS pages) for OpenStax Pharmacology/Fundamentals/Maternal-Newborn/PMH, Merck HF/APAP/postpartum/Apgar/anorexia, DailyMed levothyroxine, CDC norovirus/PPE/safe sleep, CPS Caring for Kids safe sleep. Grep confirmed keyed facts before authoring. Validator: `TOTAL ERRORS: 0`.
 
 ### Honesty constraints
 
