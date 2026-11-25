@@ -1,0 +1,463 @@
+// HESI RN & NCLEX-RN Practice — relational schema
+// Compatible with Neon / Supabase Postgres
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  STUDENT
+  AUTHOR
+  CLINICAL_REVIEWER
+  ADMIN
+}
+
+/// NCSBN public scoring models (+ dichotomous alias for classic MCQ)
+enum ScoringModel {
+  DICHOTOMOUS
+  ZERO_ONE
+  PLUS_MINUS
+  RATIONALE
+}
+
+/// 2026 NCLEX-RN Client Needs categories
+enum ClientNeeds {
+  MANAGEMENT_OF_CARE
+  SAFETY_INFECTION_PREVENTION_CONTROL
+  HEALTH_PROMOTION_MAINTENANCE
+  PSYCHOSOCIAL_INTEGRITY
+  BASIC_CARE_COMFORT
+  PHARMACOLOGICAL_PARENTERAL
+  REDUCTION_OF_RISK_POTENTIAL
+  PHYSIOLOGICAL_ADAPTATION
+}
+
+/// Practice context the item's correctness depends on.
+/// UNIVERSAL = not jurisdiction-dependent; ONTARIO = CNO scope/standards;
+/// CANADA = national guidance (e.g. Diabetes Canada, Heart & Stroke, PHAC).
+enum Jurisdiction {
+  UNIVERSAL
+  ONTARIO
+  CANADA
+  UNITED_STATES
+}
+
+enum LabUnitSystem {
+  NONE
+  SI
+  CONVENTIONAL
+}
+
+enum CjmmStep {
+  RECOGNIZE_CUES
+  ANALYZE_CUES
+  PRIORITIZE_HYPOTHESES
+  GENERATE_SOLUTIONS
+  TAKE_ACTION
+  EVALUATE_OUTCOMES
+}
+
+enum VerificationStatus {
+  DRAFT
+  SOURCE_VERIFIED
+  AWAITING_CLINICAL_REVIEW
+  CLINICALLY_REVIEWED
+  APPROVED
+  REQUIRES_REVISION
+  ARCHIVED
+}
+
+enum QuestionType {
+  MULTIPLE_CHOICE
+  MULTIPLE_RESPONSE
+  NGN_MATRIX
+  NGN_BOW_TIE
+  NGN_CLOZE
+  NGN_HIGHLIGHT
+  NGN_DRAG_DROP
+  NGN_TREND
+}
+
+enum ExamMode {
+  EXAM
+  STUDY
+  CUSTOM
+  RANDOMIZED
+  NCLEX_FIXED
+  NCLEX_CAT_LITE
+  HESI_STYLE
+  NGN_CASE_DRILL
+  WEAK_AREA
+}
+
+enum AttemptStatus {
+  IN_PROGRESS
+  SUBMITTED
+  TIMED_OUT
+  ABANDONED
+}
+
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  name          String?
+  role          Role      @default(STUDENT)
+  passwordHash  String?
+  image         String?
+  emailVerified DateTime?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  accounts       Account[]
+  sessions       Session[]
+  attempts       Attempt[]
+  bookmarks      Bookmark[]
+  studyProgress  StudyProgress[]
+  revisions      Revision[]       @relation("RevisionAuthor")
+  verifications  VerificationRecord[] @relation("VerificationActor")
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model Question {
+  id                 String             @id @default(cuid())
+  stem               String             @db.Text
+  questionType       QuestionType       @default(MULTIPLE_CHOICE)
+  scoringModel       ScoringModel       @default(DICHOTOMOUS)
+  clientNeeds        ClientNeeds?
+  cjmmStep           CjmmStep?
+  jurisdiction       Jurisdiction       @default(UNIVERSAL)
+  labUnitSystem      LabUnitSystem      @default(NONE)
+  topic              String?
+  subcategory        String?
+  difficulty         Int?               // 1–5
+  verificationStatus VerificationStatus @default(DRAFT)
+  isExample          Boolean            @default(true)
+  contentHash        String?            // duplicate detection hook
+  currentVersionId   String?            @unique
+  createdAt          DateTime           @default(now())
+  updatedAt          DateTime           @updatedAt
+
+  options            Option[]
+  correctAnswers     CorrectAnswer[]
+  rationales         Rationale[]
+  clinicalRefs       QuestionClinicalReference[]
+  sources            QuestionSource[]
+  versions           QuestionVersion[]  @relation("QuestionVersions")
+  currentVersion     QuestionVersion?   @relation("CurrentVersion", fields: [currentVersionId], references: [id])
+  examQuestions      ExamQuestion[]
+  bookmarks          Bookmark[]
+  verifications      VerificationRecord[]
+  revisions          Revision[]
+  studyProgress      StudyProgress[]
+
+  @@index([verificationStatus])
+  @@index([clientNeeds])
+  @@index([jurisdiction])
+  @@index([topic])
+  @@index([contentHash])
+}
+
+/// Evidence registry (seeded from docs/source-registry.md concepts)
+model Source {
+  id              String   @id @default(cuid())
+  title           String
+  organization    String
+  url             String
+  licenseClass    String?  // e.g. cite_link_only, public_domain, cc_by_nc_sa
+  jurisdiction    Jurisdiction @default(UNIVERSAL)
+  notes           String?  @db.Text
+  lastVerifiedAt  DateTime?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  questions QuestionSource[]
+}
+
+model QuestionSource {
+  questionId   String
+  sourceId     String
+  citationNote String?
+  question     Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  source       Source   @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+
+  @@id([questionId, sourceId])
+}
+
+/// Immutable snapshot used by attempts so historical scoring stays stable
+model QuestionVersion {
+  id                 String             @id @default(cuid())
+  questionId         String
+  versionNumber      Int
+  stem               String             @db.Text
+  questionType       QuestionType
+  scoringModel       ScoringModel       @default(DICHOTOMOUS)
+  clientNeeds        ClientNeeds?
+  cjmmStep           CjmmStep?
+  jurisdiction       Jurisdiction       @default(UNIVERSAL)
+  labUnitSystem      LabUnitSystem      @default(NONE)
+  topic              String?
+  subcategory        String?
+  difficulty         Int?
+  verificationStatus VerificationStatus
+  optionsJson        Json               // [{id,label,text}]
+  correctJson        Json               // scoring payload — server only
+  rationaleJson      Json?
+  ngnScoringJson     Json?              // partial-credit stub config
+  createdAt          DateTime           @default(now())
+
+  question           Question           @relation("QuestionVersions", fields: [questionId], references: [id], onDelete: Cascade)
+  currentFor         Question?          @relation("CurrentVersion")
+  responses          Response[]
+  examQuestions      ExamQuestion[]
+
+  @@unique([questionId, versionNumber])
+}
+
+model Option {
+  id         String  @id @default(cuid())
+  questionId String
+  label      String  // A, B, C, D…
+  text       String  @db.Text
+  sortOrder  Int     @default(0)
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@index([questionId])
+}
+
+model CorrectAnswer {
+  id         String  @id @default(cuid())
+  questionId String
+  optionId   String?
+  answerKey  Json    // flexible for NGN (arrays, matrices, etc.)
+  pointsMax  Float   @default(1)
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@index([questionId])
+}
+
+model Rationale {
+  id         String  @id @default(cuid())
+  questionId String
+  body       String  @db.Text
+  optionId   String? // per-option rationale when present
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@index([questionId])
+}
+
+model ClinicalReference {
+  id        String   @id @default(cuid())
+  title     String
+  source    String
+  url       String?
+  citation  String?  @db.Text
+  notes     String?  @db.Text
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  questions QuestionClinicalReference[]
+}
+
+model QuestionClinicalReference {
+  questionId  String
+  referenceId String
+  question    Question          @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  reference   ClinicalReference @relation(fields: [referenceId], references: [id], onDelete: Cascade)
+
+  @@id([questionId, referenceId])
+}
+
+model ExamVersion {
+  id              String   @id @default(cuid())
+  name            String
+  slug            String   @unique
+  description     String?  @db.Text
+  questionCount   Int      @default(150)
+  durationMinutes Int      @default(240)
+  allowBacktrack  Boolean  @default(true)
+  isPublished     Boolean  @default(false)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  examQuestions ExamQuestion[]
+  attempts      Attempt[]
+}
+
+model ExamQuestion {
+  id                String  @id @default(cuid())
+  examVersionId     String
+  questionId        String
+  questionVersionId String
+  sortOrder         Int
+  examVersion       ExamVersion     @relation(fields: [examVersionId], references: [id], onDelete: Cascade)
+  question          Question        @relation(fields: [questionId], references: [id])
+  questionVersion   QuestionVersion @relation(fields: [questionVersionId], references: [id])
+
+  @@unique([examVersionId, questionId])
+  @@index([examVersionId, sortOrder])
+}
+
+model Attempt {
+  id                String        @id @default(cuid())
+  userId            String
+  examVersionId     String?
+  mode              ExamMode      @default(EXAM)
+  status            AttemptStatus @default(IN_PROGRESS)
+  questionCount     Int
+  durationMinutes   Int
+  allowBacktrack    Boolean       @default(true)
+  /// Furthest question reached; with allowBacktrack=false earlier items are locked
+  currentIndex      Int           @default(0)
+  /// True when the pool included items not yet APPROVED (shown on results)
+  includesUnverified Boolean      @default(false)
+  filtersJson       Json?
+  startedAt         DateTime      @default(now())
+  endsAt            DateTime?
+  submittedAt       DateTime?
+  resumedAt         DateTime?
+  localPersistKey   String?
+  createdAt         DateTime      @default(now())
+  updatedAt         DateTime      @updatedAt
+
+  user        User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  examVersion ExamVersion? @relation(fields: [examVersionId], references: [id])
+  responses   Response[]
+  score       Score?
+
+  @@index([userId, status])
+}
+
+model Response {
+  id                String   @id @default(cuid())
+  attemptId         String
+  questionVersionId String
+  sortOrder         Int
+  answerJson        Json?    // student selection — never includes correct key from client trust
+  flagged           Boolean  @default(false)
+  pointsEarned      Float?
+  pointsPossible    Float?
+  isCorrect         Boolean?
+  timeSpentMs       Int?
+  answeredAt        DateTime?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  attempt         Attempt         @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  questionVersion QuestionVersion @relation(fields: [questionVersionId], references: [id])
+
+  @@unique([attemptId, questionVersionId])
+  @@index([attemptId, sortOrder])
+}
+
+model Score {
+  id               String   @id @default(cuid())
+  attemptId        String   @unique
+  pointsEarned     Float
+  pointsPossible   Float
+  accuracyPercent  Float    // separate from points (NGN partial credit)
+  correctCount     Int
+  incorrectCount   Int
+  unansweredCount  Int
+  benchmarkPercent Float    @default(85)
+  metBenchmark     Boolean  @default(false)
+  ngnBreakdownJson Json?    // stub for partial-credit detail
+  scoredAt         DateTime @default(now())
+
+  attempt Attempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+}
+
+model Bookmark {
+  id         String   @id @default(cuid())
+  userId     String
+  questionId String
+  note       String?
+  createdAt  DateTime @default(now())
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, questionId])
+}
+
+model VerificationRecord {
+  id         String             @id @default(cuid())
+  questionId String
+  actorId    String?
+  fromStatus VerificationStatus?
+  toStatus   VerificationStatus
+  notes      String?            @db.Text
+  createdAt  DateTime           @default(now())
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  actor    User?    @relation("VerificationActor", fields: [actorId], references: [id])
+
+  @@index([questionId])
+}
+
+model Revision {
+  id         String   @id @default(cuid())
+  questionId String
+  authorId   String?
+  summary    String
+  diffJson   Json?
+  createdAt  DateTime @default(now())
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  author   User?    @relation("RevisionAuthor", fields: [authorId], references: [id])
+
+  @@index([questionId])
+}
+
+model StudyProgress {
+  id              String   @id @default(cuid())
+  userId          String
+  questionId      String
+  timesSeen       Int      @default(0)
+  timesCorrect    Int      @default(0)
+  lastResult      String?
+  lastSeenAt      DateTime @default(now())
+  masteryLevel    Int      @default(0)
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, questionId])
+}

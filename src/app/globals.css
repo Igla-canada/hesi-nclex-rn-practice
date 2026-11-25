@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f3f6f4;
+  --surface: #ffffff;
+  --surface-2: #e8efea;
+  --ink: #14241c;
+  --muted: #4d6358;
+  --border: #c5d4cb;
+  --accent: #0f6b4c;
+  --accent-2: #1d6b8a;
+  --accent-soft: #d7efe4;
+  --warn: #9a5b00;
+  --danger: #9b1c1c;
+  --chart: #1d6b8a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1511;
+    --surface: #15201a;
+    --surface-2: #1c2b23;
+    --ink: #e8f0eb;
+    --muted: #a3b5ab;
+    --border: #2c3f34;
+    --accent: #3dba8a;
+    --accent-soft: #1a3a2c;
+    --warn: #e0a44a;
+    --danger: #f07171;
+    --chart: #6eb6d4;
+  }
+}
+
+@theme inline {
+  --color-background: var(--bg);
+  --color-foreground: var(--ink);
+  --font-sans: var(--font-source-sans);
+  --font-display: var(--font-fraunces);
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 10% -10%, color-mix(in oklab, var(--accent) 18%, transparent), transparent),
+    radial-gradient(900px 500px at 100% 0%, color-mix(in oklab, var(--chart) 14%, transparent), transparent),
+    var(--bg);
+  color: var(--ink);
+  font-family: var(--font-source-sans), "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-fraunces), "Fraunces", Georgia, serif;
+}
