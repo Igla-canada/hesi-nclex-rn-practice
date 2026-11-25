@@ -4,7 +4,7 @@
  "disclaimer": "Original AI-drafted, evidence-cited practice items. No item has been reviewed by a licensed clinician. Not previously administered HESI or NCLEX items. Not affiliated with NCSBN, Elsevier/HESI, Pearson, or CNO.",
  "counts_by_status": {
   "Draft": 0,
-  "Source verified": 56,
+  "Source verified": 68,
   "Awaiting clinical review": 0,
   "Clinically reviewed": 0,
   "Approved": 0,
@@ -5960,6 +5960,1261 @@
    "previously_administered": false,
    "verification_status": "Source verified",
    "jurisdiction_note": "",
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B16-WAVE7",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-BCC-0006",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A hospitalized adult with decreased level of consciousness is at risk for aspiration. Which nursing action best reduces aspiration risk during care?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Keep the client flat in a fully supine position for all oral care and feeding attempts."
+    },
+    {
+     "key": "B",
+     "text": "Elevate the head of the bed to greater than 30 degrees (semi-upright) unless contraindicated, and avoid oral intake while consciousness is decreased."
+    },
+    {
+     "key": "C",
+     "text": "Offer large boluses of thin liquids quickly to clear residual oral secretions."
+    },
+    {
+     "key": "D",
+     "text": "Increase sedating medications so the client sleeps through meals."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Fully supine positioning increases gastroesophageal reflux and aspiration risk compared with semi-upright positioning.",
+    "B": "Correct. For clients with decreased consciousness, elevating the head of the bed above 30 degrees and avoiding oral feeding/medications are evidence-based aspiration-prevention strategies; OpenStax likewise advises an upright position of at least 30 degrees.",
+    "C": "Incorrect. Rapid large thin-liquid boluses increase aspiration risk and are not a protective strategy.",
+    "D": "Incorrect. Sedating medications should be minimized or stopped when possible because sedation worsens protective airway reflexes."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Aspiration precautions — elevate head of bed >30°; avoid oral intake if LOC decreased",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "aspiration-hob-above-30-decreased-loc",
+   "tags": [
+    "aspiration",
+    "positioning",
+    "patient-safety"
+   ],
+   "sources": [
+    {
+     "title": "Chemical Pneumonitis and Aspiration Pneumonia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pulmonary-disorders/pneumonia/chemical-pneumonitis-and-aspiration-pneumonia",
+     "section": "Prevention of Chemical Pneumonitis and Aspiration Pneumonia",
+     "source_date": "Last updated Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Decreased LOC: avoid oral feeding/medications; elevate head of bed >30 degrees; stop sedating medications.",
+     "added_by": "author"
+    },
+    {
+     "title": "11.7 Disorders of the Lower Respiratory System: Pneumonia and Aspiration",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/11-7-disorders-of-the-lower-respiratory-system-pneumonia-and-aspiration",
+     "section": "Evidence-Based Practice: Strategies to Prevent Aspiration Pneumonia",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Upright position at least 30 degrees, appropriate head position, and remaining upright after eating decrease aspiration risk.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-b6799b38) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key and rationales checked vs live-fetched Merck Aspiration Prevention (Sept 2026) and OpenStax Med-Surg 11.7 (Oct 2024). Exact degree wording keyed to concordant ≥/>30°."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B16-WAVE7",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-BCC-0007",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An immobile client after a stroke has flaccid extremities and cannot participate in active exercise. Which nursing intervention best helps prevent joint contractures?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Keep all joints immobilized in a fully flexed position to promote rest."
+    },
+    {
+     "key": "B",
+     "text": "Perform passive range-of-motion exercises through each joint’s normal range several times daily."
+    },
+    {
+     "key": "C",
+     "text": "Restrict turning and repositioning to once every 8 hours to conserve energy."
+    },
+    {
+     "key": "D",
+     "text": "Apply resistive exercises to the flaccid limbs immediately to build strength quickly."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Prolonged immobilization in flexion promotes contractures rather than preventing them.",
+    "B": "Correct. Passive range-of-motion through each joint’s normal range (several times daily when the client cannot move actively) helps prevent contractures associated with immobility and flaccid extremities.",
+    "C": "Incorrect. Immobile clients need frequent repositioning; limiting turns worsens immobility complications including pressure injury and stiffness.",
+    "D": "Incorrect. Resistive exercise on hemiplegic/flaccid limbs early may be controversial or inappropriate; passive ROM is the initial contracture-prevention measure when the client cannot participate."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Immobility — passive ROM to prevent contractures",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "immobility-passive-rom-prevent-contractures",
+   "tags": [
+    "immobility",
+    "contractures",
+    "ROM",
+    "stroke"
+   ],
+   "sources": [
+    {
+     "title": "Stroke Rehabilitation",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/special-subjects/rehabilitation/stroke-rehabilitation",
+     "section": "Stroke Rehabilitation (early rehab / flaccid extremities)",
+     "source_date": "Last updated Dec 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,D",
+     "evidence": "To prevent contractures, each joint is passively exercised through its normal ROM 3–4 times/day when extremities are flaccid.",
+     "added_by": "author"
+    },
+    {
+     "title": "9.2 Assessing Mobility",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/9-2-assessing-mobility",
+     "section": "Effects of Immobility on Major Body Systems — Musculoskeletal Effects",
+     "source_date": "Citation date Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationale C",
+     "evidence": "Immobility shortens connective tissue and risks joint contractures; interventions include range-of-motion exercises and proper positioning.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-b6799b38) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key checked vs Merck Stroke Rehabilitation (Dec 2025) passive ROM 3–4×/day and OpenStax Clinical Skills 9.2 immobility→contractures + ROM. Exact frequency not over-keyed beyond 'several times daily'."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B16-WAVE7",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-BCC-0008",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "The nurse prepares to provide oral care for a dependent adult who cannot manage secretions independently. Which action is most appropriate to reduce aspiration risk during the procedure?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Place the client flat and irrigate the mouth with large volumes of water."
+    },
+    {
+     "key": "B",
+     "text": "Raise the head of the bed to 30–45 degrees and ensure suction equipment is available."
+    },
+    {
+     "key": "C",
+     "text": "Omit oral care until the client can sit independently at the edge of the bed."
+    },
+    {
+     "key": "D",
+     "text": "Have the client drink a full glass of water immediately before brushing."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Flat positioning and large fluid volumes increase aspiration risk during oral care.",
+    "B": "Correct. For clients needing assisted oral care, elevating the head of the bed to 30–45 degrees and having suction available helps prevent aspiration of fluids and secretions.",
+    "C": "Incorrect. Dependent clients still require oral hygiene; delaying care allows bacterial colonization that contributes to aspiration pneumonia risk.",
+    "D": "Incorrect. Forcing oral fluid intake before care is not an aspiration-prevention measure and may worsen risk if swallowing is impaired."
+   },
+   "specialty": "Fundamentals",
+   "topic": "Oral care — HOB 30–45° and suction available for dependent clients",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "oral-care-hob-30-45-suction",
+   "tags": [
+    "oral-care",
+    "aspiration",
+    "hygiene"
+   ],
+   "sources": [
+    {
+     "title": "25.3 The Nurse’s Role in Hygiene",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/25-3-the-nurses-role-in-hygiene",
+     "section": "Oral Care",
+     "source_date": "Citation date Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Ensure suction available to prevent aspiration; raise head of bed to 30–45 degrees; suction excess fluid/secretions.",
+     "added_by": "author"
+    },
+    {
+     "title": "Chemical Pneumonitis and Aspiration Pneumonia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/pulmonary-disorders/pneumonia/chemical-pneumonitis-and-aspiration-pneumonia",
+     "section": "Prevention of Chemical Pneumonitis and Aspiration Pneumonia",
+     "source_date": "Last updated Sept 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B context",
+     "evidence": "Elevation of the head of the bed to >30 degrees and avoiding oral intake with decreased consciousness help prevent aspiration.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-b6799b38) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key checked vs OpenStax Fundamentals 25.3 Oral Care (HOB 30–45 + suction) and Merck Aspiration Prevention (HOB >30). Concordant elevation principle dual-cited."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B16-WAVE7",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "Keyed to PHAC Family-Centred Maternity and Newborn Care Chapter 6 and Canadian Paediatric Society SSC position (immediate uninterrupted SSC ≥1 hour / until first feed).",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "maternity-newborn",
+    "canada-us-difference"
+   ],
+   "id": "ONRN-HPM-0006",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "Immediately after an uncomplicated vaginal birth of a healthy term newborn, which action best supports breastfeeding initiation and newborn transition?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Separate the newborn for a routine nursery bath and full examination before any parental contact."
+    },
+    {
+     "key": "B",
+     "text": "Place the newborn in uninterrupted skin-to-skin contact with the birthing parent for at least the first hour or until the first feeding is completed."
+    },
+    {
+     "key": "C",
+     "text": "Keep the newborn wrapped tightly beside the parent but delay any chest-to-chest contact for 6 hours."
+    },
+    {
+     "key": "D",
+     "text": "Offer formula supplementation before any attempt at breastfeeding to check glucose."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Routine separation for baths/exams interrupts skin-to-skin care that should begin immediately after birth unless resuscitation is required.",
+    "B": "Correct. Canadian guidance recommends immediate, uninterrupted skin-to-skin contact for at least an hour or until the first feed is completed to support breastfeeding initiation and physiologic transition.",
+    "C": "Incorrect. Delayed skin-to-skin contact undermines early breastfeeding behaviours that typically emerge within the first hour.",
+    "D": "Incorrect. Routine early formula before breastfeeding is not indicated for a healthy term newborn and can interfere with breastfeeding establishment."
+   },
+   "specialty": "Maternity/Newborn",
+   "topic": "Newborn skin-to-skin contact — uninterrupted ≥1 hour after birth",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "Canada-specific",
+   "enemy_group": "newborn-skin-to-skin-first-hour",
+   "tags": [
+    "skin-to-skin",
+    "breastfeeding",
+    "newborn",
+    "canada"
+   ],
+   "sources": [
+    {
+     "title": "Family-Centred Maternity and Newborn Care: National Guidelines — Chapter 6 Breastfeeding",
+     "publisher": "Public Health Agency of Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/public-health/services/publications/healthy-living/maternity-newborn-care-guidelines-chapter-6.html",
+     "section": "4. Skin-to-Skin Contact Immediately Following Birth",
+     "source_date": "Published: 2019",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Place babies in uninterrupted skin-to-skin contact immediately following birth for at least an hour or until completion of the first feeding.",
+     "added_by": "author"
+    },
+    {
+     "title": "Skin-to-skin care (SSC) for term and preterm infants",
+     "publisher": "Canadian Paediatric Society",
+     "url": "https://cps.ca/en/documents/position/skin-to-skin-care",
+     "section": "Recommendations / Table 1 (immediate SSC)",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Key B",
+     "evidence": "SSC begins immediately after birth; continue uninterrupted for at least an hour post-birth unless advanced resuscitation is required.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-b6799b38) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed vs PHAC Chapter 6 (WebFetch-registered) and CPS SSC position (WebFetch-registered). Resuscitation exception acknowledged in rationales."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B16-WAVE7",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-HPM-0007",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A postmenopausal client asks how to help protect bone health and reduce fracture risk. Which teaching point is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Avoid all weight-bearing activity because it stresses fragile bones."
+    },
+    {
+     "key": "B",
+     "text": "Include regular weight-bearing physical activity and ensure adequate calcium and vitamin D intake."
+    },
+    {
+     "key": "C",
+     "text": "Increase daily alcohol intake to improve bone density."
+    },
+    {
+     "key": "D",
+     "text": "Stop all dairy and plant calcium sources once a bisphosphonate is prescribed."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Weight-bearing exercise helps maintain or improve bone mineral density and is recommended, not avoided.",
+    "B": "Correct. Risk-factor modification for osteoporosis includes weight-bearing exercise plus adequate calcium and vitamin D from diet or supplements as needed.",
+    "C": "Incorrect. Alcohol should be moderated; excess intake is not a bone-protective strategy.",
+    "D": "Incorrect. Adequate calcium and vitamin D remain important alongside pharmacotherapy; dietary sources should not be stopped without clinical reason."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Osteoporosis prevention — weight-bearing exercise; calcium and vitamin D",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "osteoporosis-weight-bearing-calcium-vitd",
+   "tags": [
+    "osteoporosis",
+    "prevention",
+    "exercise",
+    "nutrition"
+   ],
+   "sources": [
+    {
+     "title": "Osteoporosis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/osteoporosis/osteoporosis",
+     "section": "Risk factor modification; Calcium and vitamin D",
+     "source_date": "Last updated Jul 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Weight-bearing exercise and adequate calcium and vitamin D are critical to maintaining bone mineral density.",
+     "added_by": "author"
+    },
+    {
+     "title": "13.1 Osteoporosis and Osteopenia",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/13-1-osteoporosis-and-osteopenia",
+     "section": "Medical Therapies and Related Care / Nursing Care",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B",
+     "evidence": "Lifestyle teaching includes regular weight-bearing activity and increased dietary calcium and vitamin D.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-b6799b38) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key checked vs Merck Osteoporosis (Jul 2025) and OpenStax Med-Surg 13.1 (Oct 2024). Exact mg calcium targets not keyed."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B16-WAVE7",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-HPM-0008",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A community health nurse is explaining levels of prevention to nursing students. Which example correctly illustrates primary prevention?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Mammography to detect early breast cancer before symptoms appear."
+    },
+    {
+     "key": "B",
+     "text": "Administering routine immunizations to prevent infectious disease before it occurs."
+    },
+    {
+     "key": "C",
+     "text": "Cardiac rehabilitation after myocardial infarction to limit disability."
+    },
+    {
+     "key": "D",
+     "text": "Screening blood pressure to identify hypertension in its earliest stages."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Screening for early disease (e.g., mammography) is secondary prevention.",
+    "B": "Correct. Primary prevention intervenes before health effects occur; immunizations/vaccinations are classic primary prevention.",
+    "C": "Incorrect. Rehabilitation after established disease is tertiary prevention.",
+    "D": "Incorrect. Blood pressure screening to detect disease early is secondary prevention."
+   },
+   "specialty": "Community/Public Health",
+   "topic": "Levels of prevention — immunization as primary prevention",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Analyze Cues",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "primary-prevention-immunization-example",
+   "tags": [
+    "prevention",
+    "immunization",
+    "community-health"
+   ],
+   "sources": [
+    {
+     "title": "2.5 Levels of Prevention",
+     "publisher": "OpenStax — Population Health for Nurses",
+     "url": "https://openstax.org/books/population-health/pages/2-5-levels-of-prevention",
+     "section": "Levels of Prevention",
+     "source_date": "Citation date May 15, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Primary prevention prevents adverse outcomes before they occur; immunizations are an example. Screening is secondary.",
+     "added_by": "author"
+    },
+    {
+     "title": "PREVENTION",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://stacks.cdc.gov/view/cdc/142637/cdc_142637_DS1.pdf",
+     "section": "WHAT IS PREVENTION?",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Primary prevention: intervening before health effects occur (e.g., vaccinations). Secondary: screening. Tertiary: manage post-diagnosis.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-b6799b38) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed vs OpenStax Population Health 2.5 and CDC PREVENTION PDF (stacks.cdc.gov, WebFetch-registered)."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B16-WAVE7",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "id": "ONRN-PSY-0006",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "An adult client presents for a routine clinic visit accompanied by a partner. The nurse plans intimate partner violence screening. Which action is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Ask screening questions while the partner remains in the room to show transparency."
+    },
+    {
+     "key": "B",
+     "text": "Ensure the client is alone in a private setting before screening, asking the partner to step away."
+    },
+    {
+     "key": "C",
+     "text": "Skip screening whenever a partner attends because disclosure is unlikely."
+    },
+    {
+     "key": "D",
+     "text": "Leave a printed screening form for the couple to complete together at home."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Screening with a partner present can endanger the client and suppress disclosure.",
+    "B": "Correct. IPV screening requires privacy and confidentiality; clients should be alone, and accompanying persons (including partners) should be asked to step away.",
+    "C": "Incorrect. Partner presence is a reason to create private screening opportunity, not to omit screening.",
+    "D": "Incorrect. Home or shared completion with a partner compromises confidentiality and safety."
+   },
+   "specialty": "Mental Health",
+   "topic": "Intimate partner violence — screen privately when client is alone",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "ipv-screen-client-alone-privacy",
+   "tags": [
+    "IPV",
+    "screening",
+    "privacy",
+    "safety"
+   ],
+   "sources": [
+    {
+     "title": "Intimate Partner Violence",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/special-subjects/intimate-partner-violence-and-sexual-assault/intimate-partner-violence",
+     "section": "Screening for Intimate Partner Violence",
+     "source_date": "Last updated Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Ensure privacy: screen patients when they are alone; ask partner and others to step away; assure confidentiality.",
+     "added_by": "author"
+    },
+    {
+     "title": "A Better Approach for Screening Women for Intimate Partner Violence in Primary Care",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/ncepcr/about/impact-stories/better-approach.html",
+     "section": "Intervention features",
+     "source_date": "last reviewed April 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Key B",
+     "evidence": "Medical assistant ensured the patient was alone in the exam room to complete IPV screening.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-b6799b38) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed vs Merck IPV Screening (Aug 2026) and AHRQ IPV screening impact story (Apr 2025). Mandatory reporting nuances not keyed."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B16-WAVE7",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "mental-health-safety"
+   ],
+   "id": "ONRN-PSY-0007",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "The nurse is planning a home safety assessment for a client with progressive dementia who still lives at home. Which focus is the priority?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Encourage leaving medications in unmarked bowls on the kitchen table for easy access."
+    },
+    {
+     "key": "B",
+     "text": "Identify and reduce environmental hazards (for example, throw rugs, poor lighting, unsafe kitchen appliances) that increase fall and injury risk."
+    },
+    {
+     "key": "C",
+     "text": "Remove all familiar furniture so the home feels like a new therapeutic environment."
+    },
+    {
+     "key": "D",
+     "text": "Advise the family to keep the stove fully available without safeguards so cooking independence is preserved at all costs."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Unsecured medications increase poisoning and dosing errors in cognitively impaired clients.",
+    "B": "Correct. Dementia care includes assessing the environment for safety hazards (falls, kitchen risks) and arranging protective measures as cognition declines.",
+    "C": "Incorrect. Familiar environments are preferred; abrupt removal of familiar cues can increase confusion.",
+    "D": "Incorrect. When deficits are present, protective measures such as disabling or securing the stove may be required to prevent accidents."
+   },
+   "specialty": "Mental Health",
+   "topic": "Dementia — home environmental hazard assessment and safety",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "dementia-home-environment-hazard-assessment",
+   "tags": [
+    "dementia",
+    "safety",
+    "falls",
+    "home-care"
+   ],
+   "sources": [
+    {
+     "title": "Dementia",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/neurologic-disorders/delirium-and-dementia/dementia",
+     "section": "Patient safety",
+     "source_date": "Last updated Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key B; rationale D",
+     "evidence": "Evaluate function in settings such as the kitchen; protective measures may include hiding knives and disabling the stove.",
+     "added_by": "author"
+    },
+    {
+     "title": "14.3 Dementia",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/14-3-dementia",
+     "section": "Planning Nursing Care for a Client with Major NCD",
+     "source_date": "Citation date Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key B; rationale C",
+     "evidence": "Assess environment for safety: throw rugs as tripping hazards, grab bars, adequate lighting, and stairs.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-b6799b38) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed vs Merck Dementia Patient safety (Nov 2026) and OpenStax PMH 14.3 environmental assessment (Jun 2024)."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B16-WAVE7",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-PSY-0008",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A client whose spouse died 2 weeks ago says, “I still can’t believe this is real,” and begins to cry. Which nursing response is most therapeutic?",
+   "options": [
+    {
+     "key": "A",
+     "text": "“You need to stay strong now for everyone else in the family.”"
+    },
+    {
+     "key": "B",
+     "text": "“Try not to cry; focusing on happy memories will make this pass faster.”"
+    },
+    {
+     "key": "C",
+     "text": "Sit with the client, listen, and acknowledge that disbelief and sadness are understandable responses to loss."
+    },
+    {
+     "key": "D",
+     "text": "“You should avoid talking about the death until at least 6 months have passed.”"
+    }
+   ],
+   "correct_answer": [
+    "C"
+   ],
+   "rationales": {
+    "A": "Incorrect. Telling a grieving person to “stay strong” dismisses emotion and is nontherapeutic.",
+    "B": "Incorrect. Discouraging crying and imposing a timeline minimizes grief and blocks expression.",
+    "C": "Correct. Therapeutic support includes presence, listening, and validating grief reactions such as disbelief and sadness; psychological support and allowing expression of concerns are first-line approaches.",
+    "D": "Incorrect. Avoiding discussion of the loss can increase isolation; clients should be supported to express grief in their own time."
+   },
+   "specialty": "Mental Health",
+   "topic": "Grief — supportive presence, listening, and validation",
+   "client_needs_category": "Psychosocial Integrity",
+   "client_needs_subcategory": "Psychosocial Integrity",
+   "cj_step": "Take Action",
+   "integrated_process": "Caring",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "grief-listen-validate-presence",
+   "tags": [
+    "grief",
+    "bereavement",
+    "therapeutic-communication"
+   ],
+   "sources": [
+    {
+     "title": "9.2 Grief and Loss",
+     "publisher": "OpenStax — Psychiatric-Mental Health Nursing",
+     "url": "https://openstax.org/books/psychiatric-mental-health/pages/9-2-grief-and-loss",
+     "section": "Kübler-Ross Model of Grief — Denial / Depression stages (nursing actions)",
+     "source_date": "Citation date Jun 12, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key C; rationales A,B,D",
+     "evidence": "Nurses validate feelings, use empathetic communication, encourage expression of emotion, and provide a supportive presence.",
+     "added_by": "author"
+    },
+    {
+     "title": "Symptom Relief for the Dying Patient",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/special-subjects/the-dying-patient/symptom-relief-for-the-dying-patient",
+     "section": "Stress and Grief Surrounding the Dying Patient",
+     "source_date": "Last updated Nov 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key C",
+     "evidence": "Providing psychological support and allowing patients/families to express concerns and feelings is usually the best approach; team members aid by listening.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-b6799b38) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed vs OpenStax PMH 9.2 nursing actions in grief and Merck dying-patient Stress and Grief (Nov 2026). Stages not keyed as mandatory sequence."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B16-WAVE7",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "Keyed to Ontario Health Care Consent Act, 1996 s. 10 (no treatment without consent) and CNO Consent practice guideline (right to refuse). Emergency exceptions not tested.",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "high",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "legal-ontario"
+   ],
+   "id": "ONRN-MOC-0006",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A capable adult client in Ontario clearly refuses a recommended non-emergency medication after receiving information about risks and benefits. What is the nurse’s most appropriate action?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Administer the medication anyway because the provider ordered it."
+    },
+    {
+     "key": "B",
+     "text": "Honour the refusal, do not administer the medication, and notify the provider / document according to organizational policy."
+    },
+    {
+     "key": "C",
+     "text": "Ask the spouse to override the client’s refusal and sign consent."
+    },
+    {
+     "key": "D",
+     "text": "Wait until the client is asleep and then give the dose covertly."
+    }
+   ],
+   "correct_answer": [
+    "B"
+   ],
+   "rationales": {
+    "A": "Incorrect. Under the Health Care Consent Act, a health practitioner must not administer treatment to a capable person without that person’s consent.",
+    "B": "Correct. Capable clients have a legal and ethical right to refuse treatment; consent may also be withdrawn. The nurse does not administer the refused treatment and follows communication/documentation requirements.",
+    "C": "Incorrect. A spouse cannot override a capable client’s refusal; substitute decision-makers act only when the client is incapable with respect to the treatment.",
+    "D": "Incorrect. Covert administration violates consent requirements and professional obligations."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Consent — capable client’s right to refuse treatment (HCCA/CNO)",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "Ontario-specific",
+   "enemy_group": "hcca-capable-client-right-to-refuse",
+   "tags": [
+    "consent",
+    "refusal",
+    "HCCA",
+    "Ontario",
+    "CNO"
+   ],
+   "sources": [
+    {
+     "title": "Health Care Consent Act, 1996, S.O. 1996, c. 2, Sched. A",
+     "publisher": "Government of Ontario — e-Laws",
+     "url": "https://www.ontario.ca/laws/statute/96h02",
+     "section": "Consent to Treatment — s. 10 No treatment without consent; s. 14 Withdrawal of consent",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "supports": "Key B; rationales A,C,D",
+     "evidence": "Health practitioner shall not administer treatment unless capable person consents; consent may be withdrawn by a capable person at any time.",
+     "added_by": "author"
+    },
+    {
+     "title": "Consent (Practice Guideline)",
+     "publisher": "College of Nurses of Ontario",
+     "url": "https://www.cno.org/Assets/CNO/Documents/Standard-and-Learning/Practice-Standards/41020_consent.pdf",
+     "section": "Basic Facts / closing principles",
+     "source_date": "Updated July 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "regulator_standard",
+     "supports": "Key B",
+     "evidence": "Clients have a legal and ethical right to information about their care and treatment, and a right to refuse that treatment.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-b6799b38) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed vs HCCA s.10/s.14 (WebFetch-registered e-Laws) and CNO Consent PDF (Updated July 2025). Emergency/Board pathways not keyed."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B16-WAVE7",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "Tests the concordant purpose of advance directives/living will/proxy. Ontario naming often emphasizes Power of Attorney for Personal Care / advance care planning; US sources use living will and durable power of attorney for health care.",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [
+    "canada-us-difference"
+   ],
+   "id": "ONRN-MOC-0007",
+   "format": "multiple_choice",
+   "scoring_model": "zero_one",
+   "stem": "A capable adult asks why the nurse is encouraging completion of an advance directive (living will / health-care proxy documents). Which explanation is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Advance directives allow the client to communicate care preferences in case of future incapacity."
+    },
+    {
+     "key": "B",
+     "text": "Advance directives are only for clients older than 80 years."
+    },
+    {
+     "key": "C",
+     "text": "Once signed, advance directives prevent any change in treatment preferences forever."
+    },
+    {
+     "key": "D",
+     "text": "Advance directives authorize the nurse to make all medical decisions without consulting anyone."
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Advance directives (such as a living will and/or appointment of a health-care proxy/agent) communicate preferences and decision-maker choices before the person becomes unable to decide.",
+    "B": "Incorrect. Adults of any age can complete advance directives; they are not limited to the oldest clients.",
+    "C": "Incorrect. Preferences can be reviewed and updated while the person remains capable; documents should be revisited as circumstances change.",
+    "D": "Incorrect. Directives guide care and may appoint a proxy; they do not transfer decision-making authority to the nurse unilaterally."
+   },
+   "specialty": "Professional Practice (Ontario/Canada)",
+   "topic": "Advance directives — document care preferences before incapacity",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "advance-directive-purpose-before-incapacity",
+   "tags": [
+    "advance-directives",
+    "living-will",
+    "autonomy"
+   ],
+   "sources": [
+    {
+     "title": "Advance Directives",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/special-subjects/medicolegal-issues/advance-directives",
+     "section": "Advance Directives; Living will; Durable power of attorney for health care",
+     "source_date": "Last updated Aug 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Key A; rationales B,C,D",
+     "evidence": "Advance directives extend control over health care decisions if the person becomes incapacitated; living will expresses preferences; DPOA names a proxy.",
+     "added_by": "author"
+    },
+    {
+     "title": "36.4 Legal and Ethical Considerations",
+     "publisher": "OpenStax — Fundamentals of Nursing",
+     "url": "https://openstax.org/books/fundamentals-nursing/pages/36-4-legal-and-ethical-considerations",
+     "section": "Advance Directive",
+     "source_date": "Citation date Sep 4, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Key A",
+     "evidence": "An advance directive (living will) details interventions wanted/not wanted if the person becomes unable to express wishes; may name a healthcare proxy.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-b6799b38) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "Key dual-confirmed vs Merck Advance Directives (Aug 2025) and OpenStax Fundamentals 36.4. Ontario-specific form names noted but not over-keyed."
+    }
+   ],
+   "exam_version_published": null,
+   "exam_version_provisional": null
+  },
+  {
+   "batch": "B16-WAVE7",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "jurisdiction_note": "",
+   "units_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "id": "ONRN-HPM-0009",
+   "format": "select_all_that_apply",
+   "scoring_model": "plus_minus",
+   "stem": "The nurse is teaching a client with osteopenia about lifestyle measures to support bone health. Which instructions should the nurse include? Select all that apply.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Perform regular weight-bearing physical activity as tolerated."
+    },
+    {
+     "key": "B",
+     "text": "Ensure adequate calcium intake from diet and supplements if needed."
+    },
+    {
+     "key": "C",
+     "text": "Ensure adequate vitamin D intake."
+    },
+    {
+     "key": "D",
+     "text": "Remain on strict bed rest to protect the bones."
+    },
+    {
+     "key": "E",
+     "text": "Stop smoking."
+    },
+    {
+     "key": "F",
+     "text": "Drink large amounts of alcohol daily to stimulate bone formation."
+    }
+   ],
+   "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "E"
+   ],
+   "rationales": {
+    "A": "Correct. Weight-bearing exercise helps maintain bone mineral density.",
+    "B": "Correct. Adequate calcium intake (diet ± supplements) supports bone health.",
+    "C": "Correct. Adequate vitamin D is required along with calcium for bone health.",
+    "D": "Incorrect. Immobility/bed rest worsens bone loss; activity is encouraged as tolerated.",
+    "E": "Correct. Smoking cessation is a recommended risk-factor modification.",
+    "F": "Incorrect. Alcohol should be moderated; excess intake is not bone-protective."
+   },
+   "specialty": "Medical-Surgical",
+   "topic": "Osteoporosis/osteopenia lifestyle teaching — exercise, calcium, vitamin D, smoking cessation",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "jurisdiction": "General (Canada/US concordant)",
+   "enemy_group": "osteoporosis-lifestyle-sata-weightbearing-calcium-vitd-smoke",
+   "tags": [
+    "osteoporosis",
+    "SATA",
+    "lifestyle"
+   ],
+   "sources": [
+    {
+     "title": "Osteoporosis",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/osteoporosis/osteoporosis",
+     "section": "Risk factor modification; Calcium and vitamin D",
+     "source_date": "Last updated Jul 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "supports": "Keys A,B,C,E; rationales D,F",
+     "evidence": "Measures include weight-bearing exercise, smoking cessation, alcohol moderation, and adequate calcium and vitamin D.",
+     "added_by": "author"
+    },
+    {
+     "title": "13.1 Osteoporosis and Osteopenia",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/13-1-osteoporosis-and-osteopenia",
+     "section": "Medical Therapies and Related Care",
+     "source_date": "Citation date Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "supports": "Keys A,B,C,E",
+     "evidence": "Lifestyle modifications: smoking cessation, reduced alcohol, regular weight-bearing activity, increased calcium and vitamin D.",
+     "added_by": "author"
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author",
+     "by": "AI author (Composer, Cursor subagent bc-b6799b38) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "SATA keys dual-confirmed vs Merck Osteoporosis risk-factor modification and OpenStax 13.1 lifestyle table. Near-overlap with ONRN-HPM-0007 accepted as SATA expansion of same teaching cluster with distinct enemy_group."
+    }
+   ],
    "exam_version_published": null,
    "exam_version_provisional": null
   }

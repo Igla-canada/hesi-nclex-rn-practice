@@ -1,10 +1,16 @@
-# Question bank import snapshot
+# Compiled question bank snapshot
 
-Compiled Ontario/Canada practice items at **Source verified** status only.
+**Generated:** 2026-11-25  
+**Active items:** 68  
+**Status:** Source verified (AI author pass) — **0** clinically reviewed / published
 
-- **Source verified:** 56
-- **Approved / published / clinically reviewed:** 0
-- Latest author batch: `B15-WAVE6` (12 items)
-- Import with `scripts/import-question-bank.ts` (requires `DATABASE_URL`). Items map to `SOURCE_VERIFIED` and are **not published**.
+Batches: B00-PILOT (5) + B11-WAVE2 (13) + B12-WAVE3 (10) + B13-WAVE4 (9) + B14-WAVE5 (7) + B15-WAVE6 (12) + B16-WAVE7 (12).
 
-See `docs/question-bank-status.md` for Client Needs coverage and honesty notes.
+Import:
+
+```bash
+# with DATABASE_URL set
+npx tsx scripts/import-question-bank.ts
+```
+
+Maps to Prisma `SOURCE_VERIFIED`, `isExample=false`. Does not create published exams.
