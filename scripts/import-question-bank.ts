@@ -13,6 +13,7 @@
 import fs from "fs";
 import path from "path";
 import crypto from "crypto";
+import type { Prisma } from "@prisma/client";
 
 type BankItem = {
   id: string;
@@ -115,7 +116,6 @@ async function main() {
   }
 
   const {
-    Prisma,
     PrismaClient,
     VerificationStatus,
     QuestionType,
