@@ -37,7 +37,17 @@ Open [http://localhost:3000](http://localhost:3000).
 | `npm test` | Unit tests (scoring, timer, blueprint) |
 | `npx prisma migrate dev` | Apply migrations |
 | `npx prisma db seed` | Seed sources + ~8 EXAMPLE draft items |
+| `npx prisma migrate deploy` | Apply migrations on a hosted database |
+| `npx tsx scripts/import-question-bank.ts` | Import `data/question-bank/question-bank.json` as `SOURCE_VERIFIED` (not clinically approved) |
 | `npx tsx scripts/import-questions.ts file.json` | Bulk draft import hook |
+
+## Exam sessions
+
+Exam selection, the live exam, and custom practice prefer **source-verified** items from Postgres (`isExample = false`, `verificationStatus = SOURCE_VERIFIED`). Starting a session from the exam or practice form writes an `Attempt` and immutable `QuestionVersion` rows when the database has those items. Correct answers stay on the server. Items are never marked clinically approved.
+
+`GET /exam?mode=nclex85` (and the other modes) renders a session without writing an attempt. If `DATABASE_URL` is missing, or the database is empty or unreachable, that page loads `data/question-bank/question-bank.json` and says the Supabase import is still pending. Labeled example placeholders are used only when that file cannot be read.
+
+Anonymous sessions are stored on a non-login practice user (`practice-sessions@invalid.local`) so the existing schema can hold them. A signed-in student owns their own attempts.
 
 ## Exam modes (scaffold)
 
