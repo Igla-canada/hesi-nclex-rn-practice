@@ -1,0 +1,1616 @@
+{
+ "batch_id": "B67-WAVE58",
+ "author": "AI author (Composer, Cursor subagent bc-a0f01e6b) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 58 multi-exam depth — thinner CN SIPC + underrepresented Leadership/Maternity/Gerontology/Critical Care with NGN matrix/cloze. SIPC: localized immunocompetent zoster Standard/Routine + cover until crusted (CDC Appendix A+PHO); multidose vial single-patient dedication (CDC Injection Safety+OpenStax Skills); occupational HIV wash/report/PEP ASAP ≤72h (CDC+Merck). HPM Maternity: pregnancy Listeria safer foods (CDC+PHAC); Tdap every pregnancy (CDC+NACI). MOC Leadership: medication reconciliation at transitions (AHRQ MATCH+OpenStax Pharmacology). Strict dual independent publishers; zero single-source.",
+ "items": [
+  {
+   "batch": "B67-WAVE58",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CDC Standard Precautions ≈ Canadian Routine Practices for localized coverable shingles in immunocompetent hosts.",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-SIPC-0085",
+   "format": "multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "Localized herpes zoster (immunocompetent, coverable) — Standard/Routine Practices until lesions dry and crusted",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "localized-zoster-standard-precautions",
+   "tags": [
+    "SIPC",
+    "zoster",
+    "isolation",
+    "NGN-partner",
+    "gerontology"
+   ],
+   "stem": "An immunocompetent older adult has localized herpes zoster (shingles) on the trunk; lesions can be completely covered with a dressing. Which infection-control approach is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Standard Precautions (Routine Practices) with lesions covered until dry and crusted"
+    },
+    {
+     "key": "B",
+     "text": "Airborne and Contact Precautions in a negative-pressure room for the entire admission regardless of immune status"
+    },
+    {
+     "key": "C",
+     "text": "Droplet Precautions only for 24 hours after the first vesicle appears"
+    },
+    {
+     "key": "D",
+     "text": "No precautions are needed even if lesions are uncovered and draining"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC Appendix A: localized zoster in immunocompetent hosts with containable/coverable lesions → Standard Precautions until lesions dry and crusted. PHO: localized shingles require Routine Practices (vs airborne+contact for disseminated).",
+    "B": "Incorrect. Airborne + Contact is for disseminated disease or localized disease in immunocompromised hosts until dissemination is ruled out.",
+    "C": "Incorrect. Zoster is not managed with Droplet-only precautions for 24 hours.",
+    "D": "Incorrect. Covering lesions and Standard/Routine Practices are required until crusted; uncovered draining lesions increase transmission risk."
+   },
+   "sources": [
+    {
+     "title": "Appendix A: Type and Duration of Precautions Recommended for Selected Infections and Conditions",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html",
+     "section": "Herpes zoster (varicella-zoster) (shingles) — Localized vs Disseminated",
+     "source_date": "Updated: September 11, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Localized immunocompetent with lesions contained/covered: Standard until lesions dry and crusted."
+    },
+    {
+     "title": "Infection Prevention and Control for Home and Community Care",
+     "publisher": "Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC)",
+     "url": "https://www.publichealthontario.ca/-/media/Documents/I/25/ipac-home-community-care.pdf",
+     "section": "Varicella (Chickenpox) and Shingles (herpes zoster)",
+     "source_date": "1st revision: November 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Chickenpox and disseminated shingles require Airborne and Contact; localized shingles require Routine Practices."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a0f01e6b) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Appendix A localized immunocompetent Standard until crusted + PHO localized shingles Routine Practices dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B67-WAVE58",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-SIPC-0086",
+   "format": "matrix_multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "NGN matrix — localized vs disseminated herpes zoster precautions",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "localized-zoster-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "SIPC",
+    "zoster",
+    "gerontology"
+   ],
+   "stem": "For an immunocompetent adult with localized, coverable herpes zoster lesions, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Cover lesions completely and use Standard/Routine Practices until lesions are dry and crusted"
+     },
+     {
+      "key": "R2",
+      "text": "Place immediately in airborne isolation for disseminated disease without assessing lesion extent or immune status"
+     },
+     {
+      "key": "R3",
+      "text": "Prefer immune caregivers when available; avoid susceptible HCWs providing direct care if alternatives exist"
+     },
+     {
+      "key": "R4",
+      "text": "Leave vesicles uncovered in shared spaces to 'air dry' faster"
+     },
+     {
+      "key": "R5",
+      "text": "Escalate to Airborne + Contact if disease is disseminated or the host is immunocompromised until dissemination is ruled out"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Not indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. CDC: Standard until dry/crusted when localized and coverable; PHO: Routine Practices for localized shingles.",
+    "R2": "Not indicated. Airborne isolation is not automatic for localized immunocompetent coverable disease.",
+    "R3": "Indicated. CDC notes susceptible HCWs should not provide direct care when immune caregivers are available.",
+    "R4": "Not indicated. Lesions should be covered to reduce transmission.",
+    "R5": "Indicated. CDC: disseminated (any patient) or localized immunocompromised until dissemination ruled out → Airborne + Contact."
+   },
+   "sources": [
+    {
+     "title": "Appendix A: Type and Duration of Precautions Recommended for Selected Infections and Conditions",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html",
+     "section": "Herpes zoster (varicella-zoster) (shingles) — Localized vs Disseminated",
+     "source_date": "Updated: September 11, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Localized coverable immunocompetent: Standard until crusted; disseminated/immunocompromised localized: Airborne+Contact; susceptible HCW guidance."
+    },
+    {
+     "title": "Infection Prevention and Control for Home and Community Care",
+     "publisher": "Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC)",
+     "url": "https://www.publichealthontario.ca/-/media/Documents/I/25/ipac-home-community-care.pdf",
+     "section": "Varicella (Chickenpox) and Shingles (herpes zoster)",
+     "source_date": "1st revision: November 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "R1,R5",
+     "evidence": "Localized shingles → Routine Practices; chickenpox/disseminated shingles → Airborne and Contact; continue until crusted/dried."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a0f01e6b) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Appendix A + PHO localized vs disseminated zoster precautions dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B67-WAVE58",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-SIPC-0087",
+   "format": "drop_down_cloze",
+   "specialty": "Gerontology",
+   "topic": "NGN cloze — localized zoster cover lesions; Standard/Routine until crusted",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "localized-zoster-ngn-cloze",
+   "tags": [
+    "NGN",
+    "cloze",
+    "SIPC",
+    "zoster"
+   ],
+   "stem": "Complete the infection-control teaching for localized herpes zoster in an immunocompetent adult.",
+   "ngn": {
+    "template": "For localized, coverable shingles in an immunocompetent client, use {B1} and keep lesions {B2} until they are {B3}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "Standard Precautions / Routine Practices"
+      },
+      {
+       "key": "B1b",
+       "text": "Airborne isolation for every localized case"
+      },
+      {
+       "key": "B1c",
+       "text": "Droplet Precautions alone for 24 hours"
+      },
+      {
+       "key": "B1d",
+       "text": "No precautions of any kind"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "completely covered"
+      },
+      {
+       "key": "B2b",
+       "text": "fully uncovered at all times"
+      },
+      {
+       "key": "B2c",
+       "text": "soaked continuously with alcohol"
+      },
+      {
+       "key": "B2d",
+       "text": "shared uncovered with roommates"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "dry and crusted"
+      },
+      {
+       "key": "B3b",
+       "text": "still blistering and wet"
+      },
+      {
+       "key": "B3c",
+       "text": "painted with talcum powder only"
+      },
+      {
+       "key": "B3d",
+       "text": "left open overnight intentionally"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a"
+   },
+   "rationales": {
+    "B1a": "Correct. CDC Standard Precautions / PHO Routine Practices for localized shingles.",
+    "B1b": "Incorrect. Airborne is for disseminated or immunocompromised localized until ruled out.",
+    "B1c": "Incorrect. Not a Droplet-only 24-hour rule.",
+    "B1d": "Incorrect. Precautions and covering are required.",
+    "B2a": "Correct. CDC specifies lesions that can be contained/covered.",
+    "B2b": "Incorrect. Covering reduces transmission.",
+    "B2c": "Incorrect. Not an isolation teaching point.",
+    "B2d": "Incorrect. Increases exposure risk.",
+    "B3a": "Correct. Duration is until lesions dry and crusted (CDC/PHO).",
+    "B3b": "Incorrect. Wet vesicles remain infectious.",
+    "B3c": "Incorrect. Unrelated and inappropriate.",
+    "B3d": "Incorrect. Contradicts covering until crusted."
+   },
+   "sources": [
+    {
+     "title": "Appendix A: Type and Duration of Precautions Recommended for Selected Infections and Conditions",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html",
+     "section": "Herpes zoster (varicella-zoster) (shingles) — Localized vs Disseminated",
+     "source_date": "Updated: September 11, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "B1–B3",
+     "evidence": "Localized immunocompetent coverable: Standard until dry and crusted."
+    },
+    {
+     "title": "Infection Prevention and Control for Home and Community Care",
+     "publisher": "Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC)",
+     "url": "https://www.publichealthontario.ca/-/media/Documents/I/25/ipac-home-community-care.pdf",
+     "section": "Varicella (Chickenpox) and Shingles (herpes zoster)",
+     "source_date": "1st revision: November 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "B1–B3",
+     "evidence": "Localized shingles → Routine Practices; continue until lesions crusted and dried for related VZV disease."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a0f01e6b) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Appendix A + PHO dual-cite cloze for localized zoster precautions."
+    }
+   ]
+  },
+  {
+   "batch": "B67-WAVE58",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-SIPC-0088",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "Multidose vials — dedicate to a single patient when possible; new sterile needle/syringe each entry",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "multidose-vial-single-patient",
+   "tags": [
+    "SIPC",
+    "injection-safety",
+    "NGN-partner",
+    "fundamentals"
+   ],
+   "stem": "Which practice best reduces infection risk when using a multidose medication vial?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Dedicate the multidose vial to a single patient when possible and use a new sterile needle and syringe for every entry"
+    },
+    {
+     "key": "B",
+     "text": "Leave a needle in the vial septum between doses so the vial stays 'open' for faster access"
+    },
+    {
+     "key": "C",
+     "text": "Reuse the same syringe for several patients if only the needle is changed"
+    },
+    {
+     "key": "D",
+     "text": "Carry one multidose vial from room to room and enter it with previously used syringes"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: dedicate multidose vials to a single patient whenever possible; new sterile syringe/needle each patient. OpenStax: dedicate to single patient when possible; new needles/syringes every injection; do not leave needles in vials.",
+    "B": "Incorrect. CDC/OpenStax: do not leave a needle in the septum (contamination pathway).",
+    "C": "Incorrect. CDC: never reuse a syringe for more than one patient even if the needle is changed.",
+    "D": "Incorrect. If a multidose vial enters a patient treatment area it must be single-patient only; never enter with used syringes."
+   },
+   "sources": [
+    {
+     "title": "Preventing Unsafe Injection Practices",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/injection-safety/hcp/clinical-safety/index.html",
+     "section": "Basic safe injection practices; Key points for multi-dose vials",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Limit multidose vials; dedicate to single patient whenever possible; new sterile syringe/needle; no needle left in septum."
+    },
+    {
+     "title": "12.3 Preparing Unit-Dose Packaged Medications",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/12-3-preparing-unit-dose-packaged-medications",
+     "section": "Multidose Vials",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Multidose vials dedicated to a single patient when possible; new needles/syringes every injection; do not leave needles in vials."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a0f01e6b) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC injection safety multidose dedicate single patient + OpenStax multidose vial dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B67-WAVE58",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-SIPC-0089",
+   "format": "matrix_multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "NGN matrix — multidose vial and safe injection practices indicated vs not",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "multidose-vial-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "SIPC",
+    "injection-safety"
+   ],
+   "stem": "Indicate whether each medication-preparation action is Indicated or Not indicated for safe multidose vial use.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Assign the multidose vial to one patient whenever possible"
+     },
+     {
+      "key": "R2",
+      "text": "Use a new sterile needle and syringe for every access, even for the same patient"
+     },
+     {
+      "key": "R3",
+      "text": "Leave a needle parked in the vial septum between withdrawals"
+     },
+     {
+      "key": "R4",
+      "text": "If the vial enters a patient room/bay, treat it as single-patient use only"
+     },
+     {
+      "key": "R5",
+      "text": "Enter a multidose vial with a syringe that already injected another patient after changing only the needle"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. CDC and OpenStax: dedicate multidose vials to a single patient when possible.",
+    "R2": "Indicated. OpenStax: new needles/syringes for every injection; CDC: new sterile syringe and needle.",
+    "R3": "Not indicated. Both sources prohibit leaving a needle in the septum.",
+    "R4": "Indicated. CDC/OpenStax: vial entering immediate patient treatment area → single-patient only.",
+    "R5": "Not indicated. Never enter a vial with a syringe used on another patient; never reuse syringes across patients."
+   },
+   "sources": [
+    {
+     "title": "Preventing Unsafe Injection Practices",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/injection-safety/hcp/clinical-safety/index.html",
+     "section": "Basic safe injection practices; Key points for multi-dose vials",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Dedicate multidose vials; clean prep area if multi-patient; single-patient if enters treatment area; no used syringe entry; no needle left in septum."
+    },
+    {
+     "title": "12.3 Preparing Unit-Dose Packaged Medications",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/12-3-preparing-unit-dose-packaged-medications",
+     "section": "Multidose Vials",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Single-patient dedication; new needle/syringe each injection; do not leave needles in vials; room entry → that patient only."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a0f01e6b) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC + OpenStax multidose/safe injection matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B67-WAVE58",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-SIPC-0090",
+   "format": "multiple_choice",
+   "specialty": "Critical Care/Emergency",
+   "topic": "Occupational blood exposure — wash, report, start HIV PEP as soon as possible (within 72 hours)",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "occupational-hiv-pep",
+   "tags": [
+    "SIPC",
+    "PEP",
+    "bloodborne",
+    "NGN-partner",
+    "critical-care"
+   ],
+   "stem": "A nurse sustains a needlestick with a hollow-bore needle used on a client with known HIV infection. After washing the site with soap and water, which next action is the priority?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Report the exposure immediately and seek urgent evaluation so HIV PEP can start as soon as possible (within 72 hours)"
+    },
+    {
+     "key": "B",
+     "text": "Wait 1 week to see if a rash develops before reporting"
+    },
+    {
+     "key": "C",
+     "text": "Squeeze the puncture site forcefully to 'bleed out' the virus and skip occupational health"
+    },
+    {
+     "key": "D",
+     "text": "Delay care until the source client's full genotype results return next month"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: wash skin after contact; report and get medical care right away; PEP must start within 72 hours; sooner is better. Merck: start PEP as soon after exposure as possible; ideally within 24–36 hours and no later than 72 hours.",
+    "B": "Incorrect. Delay beyond the urgent window reduces PEP effectiveness.",
+    "C": "Incorrect. Do not rely on squeezing; report and follow exposure protocol.",
+    "D": "Incorrect. Do not delay PEP while awaiting non-urgent source details (CDC/Merck emphasize prompt start)."
+   },
+   "sources": [
+    {
+     "title": "HIV at Work",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/hiv/causes/occupational-transmission.html",
+     "section": "Prevent HIV exposures at work; Managing HIV exposures at work",
+     "source_date": "Updated: August 6, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Wash skin after contact; report exposure and seek care right away; PEP within 72 hours; every hour counts."
+    },
+    {
+     "title": "Human Immunodeficiency Virus (HIV) Infection",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/human-immunodeficiency-virus-hiv/human-immunodeficiency-virus-hiv-infection",
+     "section": "Postexposure prophylaxis (PEP)",
+     "source_date": "Last updated: Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "PEP after needlestick with HIV-infected blood; start as soon as possible; ideally 24–36 h; no later than 72 h; 28-day course."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a0f01e6b) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC HIV at Work wash/report/PEP ≤72h + Merck PEP ASAP ideally 24–36h dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B67-WAVE58",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-SIPC-0091",
+   "format": "matrix_multiple_choice",
+   "specialty": "Critical Care/Emergency",
+   "topic": "NGN matrix — occupational HIV exposure first actions indicated vs not",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Safety and Infection Prevention and Control",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "occupational-hiv-pep-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "SIPC",
+    "PEP",
+    "bloodborne"
+   ],
+   "stem": "After a percutaneous exposure to blood from a client with HIV, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Wash the exposed skin with soap and water immediately"
+     },
+     {
+      "key": "R2",
+      "text": "Report the exposure and obtain urgent medical evaluation for PEP"
+     },
+     {
+      "key": "R3",
+      "text": "Start PEP as soon as possible, within 72 hours of exposure"
+     },
+     {
+      "key": "R4",
+      "text": "Wait several days 'to see what happens' before seeking care"
+     },
+     {
+      "key": "R5",
+      "text": "Assume household soap is unnecessary because gloves were worn earlier in the shift"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. CDC: wash hands/skin immediately after blood/body-fluid contact.",
+    "R2": "Indicated. CDC: report and see a clinician/ER right away; Merck: follow occupational exposure PEP policies.",
+    "R3": "Indicated. CDC ≤72 h; Merck ideally 24–36 h and no later than 72 h.",
+    "R4": "Not indicated. Delay reduces benefit of PEP.",
+    "R5": "Not indicated. Immediate washing after exposure is still required."
+   },
+   "sources": [
+    {
+     "title": "HIV at Work",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/hiv/causes/occupational-transmission.html",
+     "section": "Prevent HIV exposures at work; Managing HIV exposures at work",
+     "source_date": "Updated: August 6, 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Wash after contact; report; PEP within 72 hours; act immediately."
+    },
+    {
+     "title": "Human Immunodeficiency Virus (HIV) Infection",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/infectious-diseases/human-immunodeficiency-virus-hiv/human-immunodeficiency-virus-hiv-infection",
+     "section": "Postexposure prophylaxis (PEP)",
+     "source_date": "Last updated: Aug 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R2–R4",
+     "evidence": "PEP for penetrating injuries with HIV-infected blood; start ASAP; ≤72 hours."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a0f01e6b) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC + Merck occupational HIV exposure response matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B67-WAVE58",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-HPM-0092",
+   "format": "multiple_choice",
+   "specialty": "Maternity/Newborn",
+   "topic": "Pregnancy Listeria prevention — avoid unheated deli meats and unpasteurized soft cheeses",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "pregnancy-listeria-food-safety",
+   "tags": [
+    "HPM",
+    "listeria",
+    "pregnancy",
+    "NGN-partner",
+    "maternity"
+   ],
+   "stem": "Which teaching point best reduces Listeria risk in pregnancy?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Avoid unheated deli meats/cold cuts and cheeses made with unpasteurized milk; choose safer heated or pasteurized options"
+    },
+    {
+     "key": "B",
+     "text": "Eat only raw sprouts and refrigerated pâté because they are safest in pregnancy"
+    },
+    {
+     "key": "C",
+     "text": "Listeria cannot affect pregnancy, so no dietary changes are needed"
+    },
+    {
+     "key": "D",
+     "text": "Unpasteurized soft cheeses are preferred over pasteurized hard cheeses"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC safer choices: reheat deli meats; avoid unpasteurized milk cheeses. PHAC: higher-risk foods include non-dried deli meats, soft/semi-soft cheeses, unpasteurized milk; pregnant people are high risk.",
+    "B": "Incorrect. CDC lists raw sprouts and refrigerated pâté among foods to avoid/choose safer alternatives.",
+    "C": "Incorrect. Pregnancy is a high-risk group; infection can harm the fetus/newborn (PHAC).",
+    "D": "Incorrect. Unpasteurized soft cheeses are higher risk; pasteurized hard cheeses are safer choices."
+   },
+   "sources": [
+    {
+     "title": "Preventing Listeria Infection",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/listeria/prevention/index.html",
+     "section": "Who is at risk; Safer Food Choices",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Pregnant people at higher risk; avoid unheated deli meats and unpasteurized milk cheeses; reheat deli meats; choose pasteurized dairy."
+    },
+    {
+     "title": "Listeria (listeriosis): Spread, prevention and risks",
+     "publisher": "Public Health Agency of Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/public-health/services/diseases/listeriosis/prevention-listeriosis.html",
+     "section": "Risks of getting listeriosis; Who is most at risk",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Higher-risk foods include non-dried deli meats and soft cheeses/unpasteurized milk; pregnant people and newborns at highest risk."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a0f01e6b) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Listeria safer food choices + PHAC higher-risk foods in pregnancy dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B67-WAVE58",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-HPM-0093",
+   "format": "matrix_multiple_choice",
+   "specialty": "Maternity/Newborn",
+   "topic": "NGN matrix — pregnancy Listeria safer food choices indicated vs not",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "pregnancy-listeria-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "HPM",
+    "listeria",
+    "maternity"
+   ],
+   "stem": "For a pregnant client learning Listeria prevention, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Reheat deli meats, cold cuts, or hot dogs until steaming hot before eating"
+     },
+     {
+      "key": "R2",
+      "text": "Choose cheeses made with pasteurized milk rather than unpasteurized soft cheeses"
+     },
+     {
+      "key": "R3",
+      "text": "Encourage refrigerated pâté and meat spreads as daily pregnancy snacks"
+     },
+     {
+      "key": "R4",
+      "text": "Recognize pregnancy as a higher-risk group for severe Listeria outcomes"
+     },
+     {
+      "key": "R5",
+      "text": "Recommend raw (unpasteurized) milk as the preferred dairy choice"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. CDC: reheat deli meats/hot dogs to steaming hot.",
+    "R2": "Indicated. CDC/PHAC: avoid unpasteurized milk cheeses; prefer pasteurized options.",
+    "R3": "Not indicated. Refrigerated pâté/meat spreads are higher-risk (CDC/PHAC).",
+    "R4": "Indicated. Both list pregnant people among those at highest risk.",
+    "R5": "Not indicated. Raw unpasteurized milk is higher risk."
+   },
+   "sources": [
+    {
+     "title": "Preventing Listeria Infection",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/listeria/prevention/index.html",
+     "section": "Who is at risk; Safer Food Choices",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Safer food table: reheat deli meats; pasteurized cheeses; avoid refrigerated pâté and raw milk; pregnancy high risk."
+    },
+    {
+     "title": "Listeria (listeriosis): Spread, prevention and risks",
+     "publisher": "Public Health Agency of Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/public-health/services/diseases/listeriosis/prevention-listeriosis.html",
+     "section": "Risks of getting listeriosis; Who is most at risk",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Higher-risk foods include deli meats, soft cheeses, unpasteurized milk, refrigerated pâtés; pregnant people high risk."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a0f01e6b) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC + PHAC pregnancy Listeria food-safety matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B67-WAVE58",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-HPM-0094",
+   "format": "drop_down_cloze",
+   "specialty": "Maternity/Newborn",
+   "topic": "NGN cloze — pregnancy Listeria: reheat deli meat; avoid unpasteurized soft cheese",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "pregnancy-listeria-ngn-cloze",
+   "tags": [
+    "NGN",
+    "cloze",
+    "HPM",
+    "listeria",
+    "maternity"
+   ],
+   "stem": "Complete the pregnancy food-safety teaching to lower Listeria risk.",
+   "ngn": {
+    "template": "Because pregnancy increases Listeria risk, teach the client to {B1} before eating deli meats and to avoid {B2}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "reheat them until steaming hot"
+      },
+      {
+       "key": "B1b",
+       "text": "eat them cold straight from the package always"
+      },
+      {
+       "key": "B1c",
+       "text": "soak them in raw milk overnight"
+      },
+      {
+       "key": "B1d",
+       "text": "leave them unrefrigerated for days"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "soft cheeses made with unpasteurized milk"
+      },
+      {
+       "key": "B2b",
+       "text": "hard cheeses clearly labeled as pasteurized"
+      },
+      {
+       "key": "B2c",
+       "text": "thoroughly cooked homemade meals"
+      },
+      {
+       "key": "B2d",
+       "text": "pasteurized yogurt from sealed containers"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a"
+   },
+   "rationales": {
+    "B1a": "Correct. CDC: reheat deli meats/cold cuts until steaming hot.",
+    "B1b": "Incorrect. Unheated deli meats are higher risk.",
+    "B1c": "Incorrect. Unsafe and unrelated.",
+    "B1d": "Incorrect. Increases bacterial growth risk.",
+    "B2a": "Correct. CDC/PHAC: unpasteurized soft cheeses are higher-risk foods.",
+    "B2b": "Incorrect. Pasteurized hard cheeses are safer choices.",
+    "B2c": "Incorrect. Proper cooking reduces risk.",
+    "B2d": "Incorrect. Pasteurized sealed yogurt is a safer choice."
+   },
+   "sources": [
+    {
+     "title": "Preventing Listeria Infection",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/listeria/prevention/index.html",
+     "section": "Who is at risk; Safer Food Choices",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Reheat deli meats; avoid unpasteurized milk cheeses."
+    },
+    {
+     "title": "Listeria (listeriosis): Spread, prevention and risks",
+     "publisher": "Public Health Agency of Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/public-health/services/diseases/listeriosis/prevention-listeriosis.html",
+     "section": "Risks of getting listeriosis; Who is most at risk",
+     "source_date": "Accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Non-dried deli meats and soft/unpasteurized cheeses are higher-risk; pregnancy high risk."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a0f01e6b) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC + PHAC cloze for pregnancy Listeria safer choices dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B67-WAVE58",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "CDC prefers early 27–36 weeks; NACI ideally 27–32 weeks; both recommend Tdap in every pregnancy.",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-HPM-0095",
+   "format": "multiple_choice",
+   "specialty": "Maternity/Newborn",
+   "topic": "Tdap in every pregnancy to protect the newborn from pertussis",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Generate Solutions",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "tdap-every-pregnancy",
+   "tags": [
+    "HPM",
+    "Tdap",
+    "pertussis",
+    "NGN-partner",
+    "maternity"
+   ],
+   "stem": "A pregnant client asks whether Tdap is needed this pregnancy after receiving Tdap 2 years ago. Which response is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Yes — Tdap is recommended during every pregnancy (ideally in the third trimester) to protect the newborn from pertussis"
+    },
+    {
+     "key": "B",
+     "text": "No — one lifetime Tdap dose means no further doses are ever given in pregnancy"
+    },
+    {
+     "key": "C",
+     "text": "Tdap is contraindicated in all pregnancies and must wait until the child is age 5"
+    },
+    {
+     "key": "D",
+     "text": "Only live-virus Tdap is used, and it must be given in the first trimester exclusively"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. CDC: Tdap during each pregnancy irrespective of prior history; preferably early 27–36 weeks. NACI: Tdap every pregnancy irrespective of history; ideally 27–32 weeks.",
+    "B": "Incorrect. Prior Tdap does not remove the every-pregnancy recommendation.",
+    "C": "Incorrect. Tdap in pregnancy is recommended and considered safe in cited guidance.",
+    "D": "Incorrect. Tdap is not a live-virus vaccine; timing is third-trimester focused, not first-trimester exclusive."
+   },
+   "sources": [
+    {
+     "title": "Guidelines for Vaccinating Pregnant Women",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/",
+     "section": "Tetanus, Diphtheria, and Pertussis (Tdap)",
+     "source_date": "Aug. 22, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Administer Tdap during each pregnancy irrespective of prior Tdap; preferably early 27–36 weeks."
+    },
+    {
+     "title": "Update on immunization in pregnancy with Tdap vaccine",
+     "publisher": "Public Health Agency of Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/public-health/services/publications/healthy-living/update-immunization-pregnancy-tdap-vaccine.html",
+     "section": "V Recommendations — Tdap every pregnancy",
+     "source_date": "Published: February 2018",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Offer Tdap in every pregnancy irrespective of previous Tdap; ideally 27–32 weeks."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a0f01e6b) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC Tdap each pregnancy 27–36 + NACI Tdap every pregnancy ideally 27–32 dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B67-WAVE58",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-HPM-0096",
+   "format": "matrix_multiple_choice",
+   "specialty": "Maternity/Newborn",
+   "topic": "NGN matrix — Tdap every pregnancy teaching indicated vs not",
+   "client_needs_category": "Health Promotion and Maintenance",
+   "client_needs_subcategory": "Health Promotion and Maintenance",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "tdap-every-pregnancy-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "HPM",
+    "Tdap",
+    "maternity"
+   ],
+   "stem": "Indicate whether each teaching statement about maternal Tdap is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Recommend Tdap during every pregnancy, even if Tdap was given previously"
+     },
+     {
+      "key": "R2",
+      "text": "Explain that vaccination in pregnancy helps protect the newborn from pertussis in early infancy"
+     },
+     {
+      "key": "R3",
+      "text": "State that Tdap is ideally timed in the third trimester (about 27–36 weeks; NACI often cites 27–32)"
+     },
+     {
+      "key": "R4",
+      "text": "Tell the client a dose 5 years ago means no Tdap is ever needed again in future pregnancies"
+     },
+     {
+      "key": "R5",
+      "text": "Advise delaying all Tdap until the infant finishes kindergarten regardless of pregnancy"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. CDC and NACI: every pregnancy irrespective of prior Tdap.",
+    "R2": "Indicated. Purpose is newborn protection via maternal antibodies (CDC/NACI).",
+    "R3": "Indicated. CDC early 27–36; NACI ideally 27–32 — both third-trimester windows.",
+    "R4": "Not indicated. Prior dose does not replace every-pregnancy dosing.",
+    "R5": "Not indicated. Delaying until childhood misses infant protection."
+   },
+   "sources": [
+    {
+     "title": "Guidelines for Vaccinating Pregnant Women",
+     "publisher": "U.S. Centers for Disease Control and Prevention (CDC)",
+     "url": "https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/",
+     "section": "Tetanus, Diphtheria, and Pertussis (Tdap)",
+     "source_date": "Aug. 22, 2025",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Tdap each pregnancy irrespective of history; preferably early 27–36 weeks for infant protection."
+    },
+    {
+     "title": "Update on immunization in pregnancy with Tdap vaccine",
+     "publisher": "Public Health Agency of Canada / Canada.ca",
+     "url": "https://www.canada.ca/en/public-health/services/publications/healthy-living/update-immunization-pregnancy-tdap-vaccine.html",
+     "section": "V Recommendations — Tdap every pregnancy",
+     "source_date": "Published: February 2018",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Tdap every pregnancy irrespective of history; ideally 27–32 weeks to protect infants."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a0f01e6b) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "CDC + NACI Tdap-every-pregnancy teaching matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B67-WAVE58",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-MOC-0113",
+   "format": "multiple_choice",
+   "specialty": "Leadership/Management",
+   "topic": "Medication reconciliation at care transitions — compare complete home list to orders",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Easy",
+   "cognitive_level": "Understanding",
+   "enemy_group": "med-reconciliation-transitions",
+   "tags": [
+    "MOC",
+    "medication-reconciliation",
+    "NGN-partner",
+    "leadership"
+   ],
+   "stem": "Which action best describes medication reconciliation at a care transition?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Create/verify a complete current medication list (including OTCs) and compare it with new orders to find and resolve discrepancies"
+    },
+    {
+     "key": "B",
+     "text": "Skip home medications and chart only whatever is easiest to remember from shift report"
+    },
+    {
+     "key": "C",
+     "text": "Reconcile only brand-name drugs and ignore vitamins, supplements, and OTC products"
+    },
+    {
+     "key": "D",
+     "text": "Perform reconciliation solely at annual wellness visits, never at admission or discharge"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: identify/verify accurate list (name, dose, frequency, route, why) including OTCs/vitamins/supplements; compare to provider list at any transition. AHRQ MATCH: single shared medication list as one source of truth for ordering/reconciliation across disciplines.",
+    "B": "Incorrect. Incomplete lists drive transition errors.",
+    "C": "Incorrect. OTCs/vitamins/supplements must be included (OpenStax).",
+    "D": "Incorrect. Reconciliation is required at admission, transfer, discharge, and related transitions."
+   },
+   "sources": [
+    {
+     "title": "Chapter 3. Developing Change: Designing the Medication Reconciliation Process",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/patient-safety/settings/hospital/match/chapter-3.html",
+     "section": "Guiding Principles; One Source of Truth",
+     "source_date": "Last reviewed July 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "One Source of Truth shared medication list used by all disciplines for ordering decisions and reconciliation."
+    },
+    {
+     "title": "2.1 Drug Administration and the Nursing Process",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/2-1-drug-administration-and-the-nursing-process",
+     "section": "Principles of Safe Drug Administration — Medication reconciliation",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Medication reconciliation verifies accurate list including OTCs/vitamins/supplements and compares to provider list at any transition in care."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a0f01e6b) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ MATCH one-source-of-truth med rec + OpenStax pharmacology med reconciliation at transitions dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B67-WAVE58",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-MOC-0114",
+   "format": "matrix_multiple_choice",
+   "specialty": "Leadership/Management",
+   "topic": "NGN matrix — medication reconciliation actions indicated vs not",
+   "client_needs_category": "Safe and Effective Care Environment",
+   "client_needs_subcategory": "Management of Care",
+   "cj_step": "Take Action",
+   "integrated_process": "Communication and Documentation",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "med-reconciliation-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "MOC",
+    "medication-reconciliation",
+    "leadership"
+   ],
+   "stem": "At hospital admission, indicate whether each medication-reconciliation action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Obtain a complete list of prescription drugs, OTCs, vitamins, and supplements with dose/frequency/route"
+     },
+     {
+      "key": "R2",
+      "text": "Compare the home list with admission orders to identify omissions, duplications, or dosing errors"
+     },
+     {
+      "key": "R3",
+      "text": "Use one shared, updatable medication list as the reference point for the team"
+     },
+     {
+      "key": "R4",
+      "text": "Ignore discrepancies because 'the pharmacy will notice eventually'"
+     },
+     {
+      "key": "R5",
+      "text": "Omit reconciliation at transfer/discharge because admission paperwork already exists"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Indicated",
+    "R4": "Not indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. OpenStax requires complete list including OTCs/vitamins/supplements.",
+    "R2": "Indicated. OpenStax: compare lists and scrutinize duplications/incorrect dosages/omissions; AHRQ centers reconciliation on that comparison.",
+    "R3": "Indicated. AHRQ MATCH: one source of truth shared by all disciplines.",
+    "R4": "Not indicated. Discrepancies must be identified and resolved, not deferred passively.",
+    "R5": "Not indicated. Reconciliation is needed at each transition (admission, transfer, discharge)."
+   },
+   "sources": [
+    {
+     "title": "Chapter 3. Developing Change: Designing the Medication Reconciliation Process",
+     "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+     "url": "https://www.ahrq.gov/patient-safety/settings/hospital/match/chapter-3.html",
+     "section": "Guiding Principles; One Source of Truth",
+     "source_date": "Last reviewed July 2022",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "added_by": "author",
+     "supports": "R2–R5",
+     "evidence": "Single shared list; roles for reviewing/updating; reconciliation design across the episode of care."
+    },
+    {
+     "title": "2.1 Drug Administration and the Nursing Process",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/2-1-drug-administration-and-the-nursing-process",
+     "section": "Principles of Safe Drug Administration — Medication reconciliation",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Complete verified list including OTCs; compare at any transition; identify duplications/omissions/incorrect dosages."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-a0f01e6b) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "AHRQ + OpenStax medication reconciliation NGN matrix dual-cite."
+    }
+   ]
+  }
+ ],
+ "notes": "Prefer thinner Client Needs SIPC + Leadership/Maternity/Gerontology + NGN. Keep import script Prisma.InputJsonValue casts unchanged. Accuracy over volume."
+}
