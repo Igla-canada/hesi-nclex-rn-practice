@@ -33,6 +33,18 @@ describe("compiled question bank", () => {
     expect(JSON.stringify(first)).not.toContain("correct_answer");
   });
 
+  it("draws 150 unique NCLEX items when the practice pool asks for the maximum", () => {
+    const session = compiledSessionQuestions({
+      mode: "nclex85",
+      total: 150,
+      blueprint: true,
+    });
+    expect(session).toHaveLength(150);
+    expect(new Set(session.map((item) => item.id)).size).toBe(150);
+    expect(JSON.stringify(session)).not.toContain(RATIONALE_SENTENCE);
+    expect(JSON.stringify(session)).not.toContain("correct_answer");
+  });
+
   it("keeps the potassium ECG rationale off the client item", () => {
     const item = loadCompiledItems().find((row) => row.id === "ONRN-PA-0001");
     expect(item).toBeTruthy();

@@ -4,13 +4,28 @@ import { io } from "next/cache";
 import { PageShell } from "@/components/PageShell";
 import { ExamPoolBanner } from "@/components/ExamPoolBanner";
 import { ExamRunner } from "@/components/ExamRunner";
-import { isSessionModeId } from "@/lib/exam-config";
-import { loadStoredAttempt, renderLiveSession, type RenderedExam } from "@/lib/exam-session";
+import { isSessionModeId, SESSION_MODES } from "@/lib/exam-config";
+import {
+  loadStoredAttempt,
+  renderLiveSession,
+  sessionEndsAtIso,
+  type RenderedExam,
+} from "@/lib/exam-session";
 
 export const metadata = { title: "Live examination" };
 
 function ExamFallback({ children }: { children: React.ReactNode }) {
   return <p className="text-sm text-[var(--muted)]">{children}</p>;
+}
+
+function PracticeLengthNote() {
+  return (
+    <p className="mb-4 text-sm text-[var(--muted)]">
+      Practice length runs from 85 to 150 items drawn from the bank without repeats. Fifteen items
+      are unscored and do not affect the stop rule. You cannot go back. The clock is 180 minutes.
+      Results use a practice stop rule, not an NCLEX pass.
+    </p>
+  );
 }
 
 function LiveSessionView({
@@ -22,10 +37,12 @@ function LiveSessionView({
   endsAtIso: string;
   note?: string;
 }) {
+  const practiceLength = SESSION_MODES[session.mode].practiceLength;
   return (
     <>
       <ExamPoolBanner source={session.source} notice={session.notice} />
       {note ? <p className="mb-4 text-sm">{note}</p> : null}
+      {practiceLength ? <PracticeLengthNote /> : null}
       <p className="mb-4 text-sm text-[var(--muted)]">
         Mode: <strong className="text-[var(--ink)]">{session.modeLabel}</strong>. Answers stay in
         this browser. Correct answers are not sent to the client in Exam Mode.
@@ -36,6 +53,7 @@ function LiveSessionView({
         questions={session.questions}
         endsAtIso={endsAtIso}
         allowBacktrack={session.allowBacktrack}
+        practiceLength={practiceLength}
       />
     </>
   );
@@ -57,9 +75,11 @@ async function ExamSession({
   if (params.attempt) {
     const loaded = await loadStoredAttempt(params.attempt);
     if (loaded) {
+      const practiceLength = SESSION_MODES[loaded.mode].practiceLength;
       return (
         <>
           <ExamPoolBanner source="database" notice={loaded.notice} />
+          {practiceLength ? <PracticeLengthNote /> : null}
           <p className="mb-4 text-sm text-[var(--muted)]">
             Mode: <strong className="text-[var(--ink)]">{loaded.modeLabel}</strong>. Answers stay in
             this browser. Correct answers are not sent to the client in Exam Mode.
@@ -70,14 +90,13 @@ async function ExamSession({
             questions={loaded.questions}
             endsAtIso={loaded.endsAtIso}
             allowBacktrack={loaded.allowBacktrack}
+            practiceLength={practiceLength}
           />
         </>
       );
     }
     const session = await renderLiveSession({ mode: "nclex85" });
-    const endsAtIso = new Date(
-      Date.now() + session.durationMinutes * 60_000,
-    ).toISOString();
+    const endsAtIso = sessionEndsAtIso(session.durationMinutes);
     return (
       <LiveSessionView
         session={session}
@@ -107,7 +126,7 @@ async function ExamSession({
             href="/exam?mode=nclex85"
             className="font-medium text-[var(--accent)] hover:underline"
           >
-            NCLEX-style 85
+            NCLEX-style practice length
           </Link>
         </div>
       </div>
@@ -120,7 +139,7 @@ async function ExamSession({
     clientNeeds: params.clientNeeds,
     count: Number.isFinite(count) ? count : undefined,
   });
-  const endsAtIso = new Date(Date.now() + session.durationMinutes * 60_000).toISOString();
+  const endsAtIso = sessionEndsAtIso(session.durationMinutes);
   return <LiveSessionView session={session} endsAtIso={endsAtIso} />;
 }
 

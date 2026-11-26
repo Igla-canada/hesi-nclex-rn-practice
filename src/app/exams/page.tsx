@@ -56,7 +56,7 @@ export default function ExamsPage() {
   return (
     <PageShell
       title="Exam selection"
-      description="Choose NCLEX-style fixed practice (85 or 150), HESI-style mock (~150), or a randomized set. A session loads source-verified practice items. Clinically approved items stay at zero until a reviewer approves them."
+      description="Choose NCLEX-style practice length (85 to 150), a fixed 150-item NCLEX-style form, a HESI-style mock (~150), or a randomized set. A session loads source-verified practice items. Clinically approved items stay at zero until a reviewer approves them."
     >
       <Suspense fallback={<p className="mb-4 text-sm text-[var(--muted)]">Checking the question bank…</p>}>
         <ExamChooser />
