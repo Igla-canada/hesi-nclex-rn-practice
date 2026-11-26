@@ -30,8 +30,7 @@ export default function HomePage() {
             {APP_NAME}
           </h1>
           <p className="mt-4 text-lg text-[var(--muted)]">
-            Timed exam simulations, study mode, and answer review with
-            server-side scoring.
+            Timed exam simulations and answer review with server-side scoring.
           </p>
           <Suspense
             fallback={
@@ -46,12 +45,6 @@ export default function HomePage() {
               className="rounded-md bg-[var(--accent)] px-5 py-2.5 text-sm font-semibold text-white hover:opacity-90"
             >
               Start an exam
-            </Link>
-            <Link
-              href="/dashboard"
-              className="rounded-md border border-[var(--border)] bg-[var(--surface)] px-5 py-2.5 text-sm font-semibold text-[var(--ink)] hover:bg-[var(--surface-2)]"
-            >
-              Student dashboard
             </Link>
           </div>
         </div>

@@ -17,8 +17,8 @@ export default function Page() {
           <Link href="/exams" className="text-sm font-medium text-[var(--accent)] hover:underline">
             Exam selection
           </Link>
-          <Link href="/dashboard" className="text-sm font-medium text-[var(--accent)] hover:underline">
-            Dashboard
+          <Link href="/review" className="text-sm font-medium text-[var(--accent)] hover:underline">
+            Answer review
           </Link>
           <Link href="/" className="text-sm font-medium text-[var(--accent)] hover:underline">
             Home
