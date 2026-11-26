@@ -33,12 +33,12 @@ Open [http://localhost:3000](http://localhost:3000).
 | Command | Purpose |
 | --- | --- |
 | `npm run dev` | Dev server |
-| `npm run build` / `npm start` | Production |
+| `npm run build` / `npm start` | Production. When `DATABASE_URL` is set, the build runs `npx prisma migrate deploy` and then the question-bank import before `next build`. |
 | `npm test` | Unit tests (scoring, timer, blueprint) |
 | `npx prisma migrate dev` | Apply migrations |
 | `npx prisma db seed` | Seed sources + ~8 EXAMPLE draft items |
 | `npx prisma migrate deploy` | Apply migrations on a hosted database |
-| `npx tsx scripts/import-question-bank.ts` | Import `data/question-bank/question-bank.json` as `SOURCE_VERIFIED` (not clinically approved) |
+| `npx tsx scripts/import-question-bank.ts` | Upsert `data/question-bank/question-bank.json` by question id as `SOURCE_VERIFIED` (not clinically approved) |
 | `npx tsx scripts/import-questions.ts file.json` | Bulk draft import hook |
 
 ## Exam sessions
@@ -64,7 +64,7 @@ Default practice benchmark: **85%** accuracy (configurable). Points and accuracy
 
 1. Import **`Igla-canada/hesi-nclex-rn-practice`** in the [Vercel dashboard](https://vercel.com/new).
 2. Add environment variables from `.env.example` (`DATABASE_URL`, `AUTH_SECRET`, `AUTH_URL`, optional OAuth).
-3. Use a hosted Postgres (Neon or Supabase). Run migrations (`npx prisma migrate deploy`) in a build/release command or one-off job.
+3. Use a hosted Postgres (Neon or Supabase). A Supabase transaction pooler URL (port 6543) is enough: the production build derives session mode (port 5432) for `npx prisma migrate deploy`, then imports the question bank. Runtime queries add `pgbouncer=true` and do not use prepared statements. Local `npm run build` without `DATABASE_URL` skips both steps.
 4. Deploy. Set `AUTH_URL` to the production URL.
 
 Do not commit secrets. `.env*` is gitignored except `.env.example`.
