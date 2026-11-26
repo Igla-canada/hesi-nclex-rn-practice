@@ -1,0 +1,1684 @@
+{
+ "batch_id": "B65-WAVE56",
+ "author": "AI author (Composer, Cursor subagent bc-6ec9d8fb) — not a licensed clinician",
+ "created": "2026-11-25",
+ "scope": "Wave 56 multi-exam depth — thinner CN BCC/PPT + Gerontology/Pediatrics/Fundamentals with NGN matrix/cloze. BCC Gero: GERD HOB elevation/post-meal upright (Merck+MedlinePlus); CVI leg elevation/compression (Merck+OpenStax MS). PPT: phenytoin gingival hyperplasia/oral hygiene (OpenStax Pharm+MedlinePlus); fentanyl patch no-cut/no-heat (HC PM+NCBI Open RN; FDA disposal support); allopurinol stop for rash + fluids (HC PM+MedlinePlus); otic pinna adult up-back / young child down-back (OpenStax Skills+MedlinePlus). Strict dual independent publishers; zero single-source.",
+ "items": [
+  {
+   "batch": "B65-WAVE56",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-BCC-0082",
+   "format": "multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "GERD — elevate head of bed; avoid lying down soon after eating",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "gerd-hob-elevation",
+   "tags": [
+    "BCC",
+    "GERD",
+    "gerontology",
+    "NGN-partner"
+   ],
+   "stem": "An older adult with GERD asks how to reduce nighttime heartburn. Which teaching point is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Raise the head of the bed and avoid lying down for several hours after eating"
+    },
+    {
+     "key": "B",
+     "text": "Lie flat immediately after large evening meals to promote digestion"
+    },
+    {
+     "key": "C",
+     "text": "Place pillows under the knees only; head-of-bed elevation never helps reflux"
+    },
+    {
+     "key": "D",
+     "text": "Skip all lifestyle measures because only surgery treats GERD"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck Treatment of GERD: elevate head of bed; limit food within 4 hours of bedtime. MedlinePlus: raise head of bed; avoid lying down 2–3 hours after eating.",
+    "B": "Incorrect. Lying down soon after eating worsens reflux (MedlinePlus/Merck).",
+    "C": "Incorrect. Head-of-bed elevation is a standard nonpharmacologic measure.",
+    "D": "Incorrect. Most people manage GERD with lifestyle changes and medicines; surgery is uncommon first-line."
+   },
+   "sources": [
+    {
+     "title": "Gastroesophageal Reflux Disease (GERD)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gastrointestinal-disorders/esophageal-and-swallowing-disorders/gastroesophageal-reflux-disease-gerd",
+     "section": "Treatment of GERD",
+     "source_date": "Last updated: Feb 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Limit food within 4 hours of bedtime; elevate head of bed ~15 cm with blocks or wedge."
+    },
+    {
+     "title": "GERD",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/gerd.html",
+     "section": "How is GERD treated?",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Lifestyle: avoid lying down ≥2–3 hours after eating; raise the head of your bed."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6ec9d8fb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck GERD Treatment + MedlinePlus GERD treatment dual-cite for HOB elevation and post-meal upright timing."
+    }
+   ]
+  },
+  {
+   "batch": "B65-WAVE56",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-BCC-0083",
+   "format": "matrix_multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "NGN matrix — GERD lifestyle teaching indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "gerd-lifestyle-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "BCC",
+    "GERD",
+    "gerontology"
+   ],
+   "stem": "For an older adult with uncomplicated GERD, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Elevate the head of the bed for sleep (blocks or wedge)"
+     },
+     {
+      "key": "R2",
+      "text": "Avoid lying down for about 2–3 hours after meals"
+     },
+     {
+      "key": "R3",
+      "text": "Lie flat right after a large bedtime snack to settle the stomach"
+     },
+     {
+      "key": "R4",
+      "text": "Consider weight loss and smoking cessation when appropriate"
+     },
+     {
+      "key": "R5",
+      "text": "Tell the client lifestyle measures never matter if antacids are available"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Merck and MedlinePlus support raising the head of the bed.",
+    "R2": "Indicated. MedlinePlus: avoid lying down for at least 2–3 hours after eating; Merck: limit food near bedtime.",
+    "R3": "Not indicated. Lying flat soon after eating worsens reflux.",
+    "R4": "Indicated. Both sources list weight loss and smoking cessation when appropriate.",
+    "R5": "Not indicated. Lifestyle modification is first-line nonpharmacologic care alongside acid suppression when needed."
+   },
+   "sources": [
+    {
+     "title": "Gastroesophageal Reflux Disease (GERD)",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/gastrointestinal-disorders/esophageal-and-swallowing-disorders/gastroesophageal-reflux-disease-gerd",
+     "section": "Treatment of GERD",
+     "source_date": "Last updated: Feb 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "HOB elevation; limit bedtime eating; weight loss and smoking cessation when appropriate."
+    },
+    {
+     "title": "GERD",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/gerd.html",
+     "section": "How is GERD treated?; Can GERD be prevented?",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Raise head of bed; avoid lying down 2–3 hours after eating; weight and smoking advice."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6ec9d8fb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck + MedlinePlus GERD lifestyle matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B65-WAVE56",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-BCC-0084",
+   "format": "multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "Chronic venous insufficiency — elevate legs and use compression",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "cvi-leg-elevation-compression",
+   "tags": [
+    "BCC",
+    "venous-insufficiency",
+    "gerontology",
+    "NGN-partner"
+   ],
+   "stem": "An older adult with chronic venous insufficiency has dependent leg edema. Which self-care instruction is most appropriate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Elevate the legs periodically and use prescribed compression stockings"
+    },
+    {
+     "key": "B",
+     "text": "Keep the legs dangling dependent all day to improve arterial inflow"
+    },
+    {
+     "key": "C",
+     "text": "Avoid compression because stockings always worsen venous edema"
+    },
+    {
+     "key": "D",
+     "text": "Never change position; prolonged standing is preferred therapy"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Merck: elevate legs above the right atrium ≥3 times/day for ≥30 minutes; compression is recommended. OpenStax: compression stockings and elevating legs assist venous return.",
+    "B": "Incorrect. Dependent dangling worsens venous pooling/edema.",
+    "C": "Incorrect. Compression is a mainstay of CVI treatment.",
+    "D": "Incorrect. Prolonged standing worsens symptoms; position changes are encouraged."
+   },
+   "sources": [
+    {
+     "title": "Chronic Venous Insufficiency and Post-Thrombotic Syndrome",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/peripheral-venous-disorders/chronic-venous-insufficiency-and-postphlebitic-syndrome",
+     "section": "Treatment of Chronic Venous Insufficiency",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Elevate leg above right atrium ≥3×/day ≥30 min; compression recommended for edema/ulcers."
+    },
+    {
+     "title": "12.7 Peripheral Vascular Disease",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/12-7-peripheral-vascular-disease",
+     "section": "Venous Insufficiency: Clinical Manifestations and Nursing Care",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Wear compression stockings; rest and elevate legs; change positions to avoid prolonged standing."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6ec9d8fb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck CVI Treatment + OpenStax MS venous nursing care dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B65-WAVE56",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-BCC-0085",
+   "format": "matrix_multiple_choice",
+   "specialty": "Gerontology",
+   "topic": "NGN matrix — chronic venous insufficiency comfort actions indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Basic Care and Comfort",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "cvi-care-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "BCC",
+    "venous-insufficiency",
+    "gerontology"
+   ],
+   "stem": "For a client with chronic venous insufficiency and leg edema, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Elevate the legs above heart level for periods during the day"
+     },
+     {
+      "key": "R2",
+      "text": "Apply prescribed compression stockings as directed"
+     },
+     {
+      "key": "R3",
+      "text": "Advise prolonged uninterrupted standing throughout the shift"
+     },
+     {
+      "key": "R4",
+      "text": "Encourage position changes to avoid prolonged standing"
+     },
+     {
+      "key": "R5",
+      "text": "Tell the client to keep legs dangling dependent at all times"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. Merck: elevation decreases venous hypertension and edema.",
+    "R2": "Indicated. Merck/OpenStax: compression for edema and venous return.",
+    "R3": "Not indicated. Prolonged standing worsens venous pooling.",
+    "R4": "Indicated. OpenStax: change positions often to avoid prolonged standing.",
+    "R5": "Not indicated. Dependent dangling promotes edema."
+   },
+   "sources": [
+    {
+     "title": "Chronic Venous Insufficiency and Post-Thrombotic Syndrome",
+     "publisher": "Merck Manual Professional Edition",
+     "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/peripheral-venous-disorders/chronic-venous-insufficiency-and-postphlebitic-syndrome",
+     "section": "Treatment of Chronic Venous Insufficiency",
+     "source_date": "Last updated: Oct 2026",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Elevation and compression are core treatments for CVI edema."
+    },
+    {
+     "title": "12.7 Peripheral Vascular Disease",
+     "publisher": "OpenStax — Medical-Surgical Nursing",
+     "url": "https://openstax.org/books/medical-surgical-nursing/pages/12-7-peripheral-vascular-disease",
+     "section": "Venous Insufficiency: Clinical Manifestations and Nursing Care",
+     "source_date": "Oct 16, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Compression stockings; elevate legs; change positions; avoid prolonged standing."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6ec9d8fb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Merck + OpenStax CVI matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B65-WAVE56",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PPT-0082",
+   "format": "multiple_choice",
+   "specialty": "Pharmacology",
+   "topic": "Phenytoin — gingival hyperplasia; emphasize oral hygiene",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "phenytoin-gingival-hygiene",
+   "tags": [
+    "PPT",
+    "phenytoin",
+    "oral-care",
+    "NGN-partner"
+   ],
+   "stem": "A client starting long-term phenytoin asks about mouth care. Which teaching is most accurate?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Phenytoin can cause gum overgrowth; good oral hygiene and dental follow-up help reduce gum damage"
+    },
+    {
+     "key": "B",
+     "text": "Phenytoin never affects the gums, so toothbrushing can be skipped"
+    },
+    {
+     "key": "C",
+     "text": "Mouth care is unnecessary because phenytoin sterilizes the oral cavity"
+    },
+    {
+     "key": "D",
+     "text": "Clients should stop all dental visits while taking phenytoin"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: long-term hydantoins (phenytoin) can cause gingival hyperplasia. MedlinePlus: care for teeth/gums/mouth is very important to decrease gum damage risk.",
+    "B": "Incorrect. Gingival hyperplasia is a recognized long-term effect.",
+    "C": "Incorrect. Phenytoin does not sterilize the mouth; oral care remains essential.",
+    "D": "Incorrect. Dental awareness/follow-up supports gum health during therapy."
+   },
+   "sources": [
+    {
+     "title": "12.1 Epilepsy and Anticonvulsant Drugs",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/12-1-epilepsy-and-anticonvulsant-drugs",
+     "section": "Hydantoins",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Long-term hydantoin use can lead to gingival hyperplasia (gum overgrowth)."
+    },
+    {
+     "title": "Phenytoin",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/druginfo/meds/a682022.html",
+     "section": "Before taking phenytoin",
+     "source_date": "Last Revised - 12/15/2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Talk with clinician about best way to care for teeth, gums, and mouth; proper mouth care decreases gum damage risk."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6ec9d8fb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax hydantoins gingival hyperplasia + MedlinePlus phenytoin oral care dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B65-WAVE56",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PPT-0083",
+   "format": "matrix_multiple_choice",
+   "specialty": "Pharmacology",
+   "topic": "NGN matrix — phenytoin gingival/oral-care teaching indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "phenytoin-oral-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PPT",
+    "phenytoin"
+   ],
+   "stem": "For a client on long-term phenytoin, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Explain that gum overgrowth (gingival hyperplasia) can occur with long-term use"
+     },
+     {
+      "key": "R2",
+      "text": "Encourage consistent oral hygiene and discussion of dental/mouth care with the provider"
+     },
+     {
+      "key": "R3",
+      "text": "Advise skipping toothbrushing because phenytoin protects the gums"
+     },
+     {
+      "key": "R4",
+      "text": "Remind the client to tell the dentist they take phenytoin before dental procedures"
+     },
+     {
+      "key": "R5",
+      "text": "Tell the client gum changes never happen so oral care is optional"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. OpenStax lists gingival hyperplasia with long-term hydantoins.",
+    "R2": "Indicated. MedlinePlus stresses proper mouth care to decrease gum damage risk.",
+    "R3": "Not indicated. Oral hygiene remains essential.",
+    "R4": "Indicated. MedlinePlus: tell dentist you take phenytoin before dental surgery.",
+    "R5": "Not indicated. Gum overgrowth is a recognized risk; oral care is not optional."
+   },
+   "sources": [
+    {
+     "title": "12.1 Epilepsy and Anticonvulsant Drugs",
+     "publisher": "OpenStax — Pharmacology for Nurses",
+     "url": "https://openstax.org/books/pharmacology/pages/12-1-epilepsy-and-anticonvulsant-drugs",
+     "section": "Hydantoins",
+     "source_date": "May 29, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Long-term use can lead to gingival hyperplasia."
+    },
+    {
+     "title": "Phenytoin",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/druginfo/meds/a682022.html",
+     "section": "Before taking phenytoin",
+     "source_date": "Last Revised - 12/15/2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Mouth/gum care important; inform dentist about phenytoin."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6ec9d8fb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + MedlinePlus phenytoin oral-care matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B65-WAVE56",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PPT-0084",
+   "format": "multiple_choice",
+   "specialty": "Pharmacology",
+   "topic": "Fentanyl patch — do not cut; avoid external heat over the patch",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "fentanyl-patch-heat-cut",
+   "tags": [
+    "PPT",
+    "fentanyl",
+    "transdermal",
+    "NGN-partner",
+    "opioids"
+   ],
+   "stem": "A client with a fentanyl transdermal patch asks about home safety. Which instruction is most important?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Do not cut or alter the patch, and avoid heating pads or other direct external heat over the application site"
+    },
+    {
+     "key": "B",
+     "text": "Cut the patch in half if pain is mild so the dose is smaller"
+    },
+    {
+     "key": "C",
+     "text": "Apply a heating pad over the patch to speed pain relief"
+    },
+    {
+     "key": "D",
+     "text": "Hot tubs and electric blankets over the patch are encouraged"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Health Canada Sandoz PM: do not use if altered/cut/damaged; avoid direct external heat (heating pads, electric blankets, saunas, etc.). NCBI Open RN: never apply heat over fentanyl patches—increases release and can cause overdose.",
+    "B": "Incorrect. Cutting/altering the patch is contraindicated and unsafe.",
+    "C": "Incorrect. External heat increases absorption and overdose risk.",
+    "D": "Incorrect. Hot whirlpool/sauna/electric blankets are listed heat sources to avoid."
+   },
+   "sources": [
+    {
+     "title": "Sandoz Fentanyl Patch Product Monograph",
+     "publisher": "Health Canada Drug Product Database — Sandoz Canada Inc. product monograph",
+     "url": "https://pdf.hres.ca/dpd_pm/00055220.PDF",
+     "section": "External Heat Sources; DOSAGE AND ADMINISTRATION / patient advice",
+     "source_date": "Last Revised: February 26, 2020",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Do not use if altered, cut, or damaged; avoid heating pads, electric blankets, saunas, hot whirlpool baths, etc."
+    },
+    {
+     "title": "Chapter 16 Administration of Medications Via Other Routes",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK593196/",
+     "section": "Topical and Transdermal Medications",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Heat should never be applied over fentanyl patches because it increases drug release and can cause overdose."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6ec9d8fb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Health Canada fentanyl PM (cut/heat) + NCBI Open RN Skills (never heat over fentanyl) dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B65-WAVE56",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PPT-0085",
+   "format": "matrix_multiple_choice",
+   "specialty": "Pharmacology",
+   "topic": "NGN matrix — fentanyl patch safety teaching indicated vs not",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "fentanyl-patch-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PPT",
+    "fentanyl",
+    "opioids"
+   ],
+   "stem": "For a client using a fentanyl transdermal patch, indicate whether each teaching point is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "Do not cut, fold to expose only part of the drug surface, or use a damaged patch"
+     },
+     {
+      "key": "R2",
+      "text": "Avoid heating pads, electric blankets, saunas, or hot whirlpool baths over the patch site"
+     },
+     {
+      "key": "R3",
+      "text": "Place a heating pad directly on the patch to intensify analgesia"
+     },
+     {
+      "key": "R4",
+      "text": "Keep used and unused patches secured away from children and pets; dispose per label/agency policy"
+     },
+     {
+      "key": "R5",
+      "text": "Cut the patch to titrate a smaller homemade dose"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. HC PM: do not use if altered, cut, or damaged; do not fold so only part is exposed.",
+    "R2": "Indicated. HC PM/NCBI: avoid external heat sources over the patch.",
+    "R3": "Not indicated. Heat increases absorption and overdose risk.",
+    "R4": "Indicated. FDA consumer guidance and labeling stress secure storage and proper disposal because residual drug can harm others.",
+    "R5": "Not indicated. Cutting to create a smaller dose is unsafe and prohibited."
+   },
+   "sources": [
+    {
+     "title": "Sandoz Fentanyl Patch Product Monograph",
+     "publisher": "Health Canada Drug Product Database — Sandoz Canada Inc. product monograph",
+     "url": "https://pdf.hres.ca/dpd_pm/00055220.PDF",
+     "section": "External Heat Sources; patient application advice",
+     "source_date": "Last Revised: February 26, 2020",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "No cut/alter/damage; avoid listed external heat sources."
+    },
+    {
+     "title": "Make sure fentanyl patches are stored, used and disposed of properly",
+     "publisher": "U.S. Food and Drug Administration",
+     "url": "https://www.fda.gov/consumers/consumer-updates/accidental-exposures-fentanyl-patches-continue-be-deadly-children",
+     "section": "How to Dispose of Fentanyl Patches; Cut the Risk of Accidental Exposure",
+     "source_date": "Content current as of: 09/04/2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R4",
+     "evidence": "Secure storage; fold sticky sides together and flush used patches; residual drug can kill children/pets."
+    },
+    {
+     "title": "Chapter 16 Administration of Medications Via Other Routes",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK593196/",
+     "section": "Topical and Transdermal Medications",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R2–R3",
+     "evidence": "Never apply heat over fentanyl patches—overdose risk."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6ec9d8fb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "HC PM + FDA consumer + NCBI Open RN fentanyl safety matrix; ≥2 independent publishers on each keyed fact."
+    }
+   ]
+  },
+  {
+   "batch": "B65-WAVE56",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PPT-0086",
+   "format": "multiple_choice",
+   "specialty": "Pharmacology",
+   "topic": "Allopurinol — stop immediately and seek care for rash (SJS/TEN risk)",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "allopurinol-rash-stop",
+   "tags": [
+    "PPT",
+    "allopurinol",
+    "gout",
+    "NGN-partner"
+   ],
+   "stem": "A client taking allopurinol for gout develops a new widespread itchy rash. What is the priority teaching action?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Stop allopurinol immediately and seek urgent medical care because rash may precede severe hypersensitivity reactions"
+    },
+    {
+     "key": "B",
+     "text": "Double the next dose to treat the rash as a gout flare"
+    },
+    {
+     "key": "C",
+     "text": "Continue allopurinol and ignore any skin changes"
+    },
+    {
+     "key": "D",
+     "text": "Apply a heating pad to the rash and keep taking the tablets"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. Health Canada Apo-Allopurinol PM: discontinue immediately at appearance of skin rash—may progress to SJS/TEN/DRESS. MedlinePlus: stop and call doctor/get emergency care for rash, itching, hives, blistering.",
+    "B": "Incorrect. Dose increase is dangerous with possible hypersensitivity; stop the drug.",
+    "C": "Incorrect. Rash requires immediate stop and evaluation.",
+    "D": "Incorrect. Heat/rash self-treatment does not address hypersensitivity risk."
+   },
+   "sources": [
+    {
+     "title": "APO-ALLOPURINOL TABLETS Product Monograph",
+     "publisher": "Health Canada Drug Product Database — Apotex Inc. product monograph",
+     "url": "https://pdf.hres.ca/dpd_pm/00076177.PDF",
+     "section": "3 SERIOUS WARNINGS AND PRECAUTIONS BOX",
+     "source_date": "Last Revised: JUL 05, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Discontinue immediately at appearance of a skin rash; may be followed by SJS, TEN, or DRESS."
+    },
+    {
+     "title": "Allopurinol",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/druginfo/meds/a682673.html",
+     "section": "Some side effects can be serious",
+     "source_date": "Last Revised - 09/15/2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Stop taking allopurinol and call doctor immediately or get emergency treatment for rash, itching, hives, peeling/blistering skin."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6ec9d8fb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "Health Canada allopurinol PM + MedlinePlus dual-cite for immediate stop with rash."
+    }
+   ]
+  },
+  {
+   "batch": "B65-WAVE56",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PPT-0087",
+   "format": "drop_down_cloze",
+   "specialty": "Pharmacology",
+   "topic": "NGN cloze — allopurinol stop for rash; maintain fluid intake",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "allopurinol-rash-fluids-ngn-cloze",
+   "tags": [
+    "NGN",
+    "cloze",
+    "PPT",
+    "allopurinol"
+   ],
+   "stem": "Complete the allopurinol safety teaching.",
+   "ngn": {
+    "template": "If a skin rash appears while taking allopurinol, the client should {B1} because rash may precede severe reactions such as {B2}. Unless the provider directs otherwise, the client should also {B3} each day.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "stop the medicine and seek care immediately"
+      },
+      {
+       "key": "B1b",
+       "text": "take an extra dose and wait a week"
+      },
+      {
+       "key": "B1c",
+       "text": "crush all tablets into juice for better absorption"
+      },
+      {
+       "key": "B1d",
+       "text": "switch brands without telling anyone"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "Stevens–Johnson syndrome / TEN / DRESS"
+      },
+      {
+       "key": "B2b",
+       "text": "improved athletic performance"
+      },
+      {
+       "key": "B2c",
+       "text": "harmless tooth whitening only"
+      },
+      {
+       "key": "B2d",
+       "text": "mandatory vitamin C deficiency"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "drink plenty of fluids (e.g., about eight 240 mL cups of water/liquids unless directed otherwise)"
+      },
+      {
+       "key": "B3b",
+       "text": "avoid all oral fluids for 24 hours after each dose"
+      },
+      {
+       "key": "B3c",
+       "text": "replace water with only grapefruit juice"
+      },
+      {
+       "key": "B3d",
+       "text": "restrict fluids to one sip per day"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a"
+   },
+   "rationales": {
+    "B1a": "Correct. HC PM/MedlinePlus: stop immediately and seek care for rash.",
+    "B1b": "Incorrect. Extra dosing is unsafe with hypersensitivity.",
+    "B1c": "Incorrect. Irrelevant and unsafe instruction.",
+    "B1d": "Incorrect. Brand switching does not address rash risk.",
+    "B2a": "Correct. HC PM lists SJS, TEN, and DRESS among serious dermatologic/hypersensitivity syndromes.",
+    "B2b": "Incorrect. Not related.",
+    "B2c": "Incorrect. Not related.",
+    "B2d": "Incorrect. Not related.",
+    "B3a": "Correct. MedlinePlus: drink at least eight 8-oz (240 mL) cups of water/liquids daily unless directed otherwise.",
+    "B3b": "Incorrect. Fluid restriction is not the teaching.",
+    "B3c": "Incorrect. Not the recommended hydration teaching.",
+    "B3d": "Incorrect. Inadequate fluids contradict MedlinePlus guidance."
+   },
+   "sources": [
+    {
+     "title": "APO-ALLOPURINOL TABLETS Product Monograph",
+     "publisher": "Health Canada Drug Product Database — Apotex Inc. product monograph",
+     "url": "https://pdf.hres.ca/dpd_pm/00076177.PDF",
+     "section": "3 SERIOUS WARNINGS AND PRECAUTIONS BOX",
+     "source_date": "Last Revised: JUL 05, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "B1–B2",
+     "evidence": "Discontinue immediately for skin rash; may progress to SJS/TEN/DRESS."
+    },
+    {
+     "title": "Allopurinol",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/druginfo/meds/a682673.html",
+     "section": "Some side effects can be serious; What special dietary instructions should I follow?",
+     "source_date": "Last Revised - 09/15/2023",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "B1,B3",
+     "evidence": "Stop for rash and seek care; drink ≥ eight 240 mL cups of fluids daily unless directed otherwise."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6ec9d8fb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "HC allopurinol PM + MedlinePlus cloze dual-cite (rash stop + fluids)."
+    }
+   ]
+  },
+  {
+   "batch": "B65-WAVE56",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PPT-0088",
+   "format": "multiple_choice",
+   "specialty": "Fundamentals",
+   "topic": "Adult ear drops — pull auricle/pinna up and back to straighten canal",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "otic-adult-pinna-up-back",
+   "tags": [
+    "PPT",
+    "otic",
+    "ear-drops",
+    "NGN-partner"
+   ],
+   "stem": "The nurse prepares to instill prescribed otic drops for an adult client. How should the nurse straighten the ear canal?",
+   "options": [
+    {
+     "key": "A",
+     "text": "Gently pull the auricle (pinna) upward and backward"
+    },
+    {
+     "key": "B",
+     "text": "Pull the auricle firmly downward and forward only"
+    },
+    {
+     "key": "C",
+     "text": "Never touch the pinna; insert the dropper deep into the middle ear"
+    },
+    {
+     "key": "D",
+     "text": "Pull both earlobes toward the nose simultaneously"
+    }
+   ],
+   "correct_answer": [
+    "A"
+   ],
+   "rationales": {
+    "A": "Correct. OpenStax: for an adult, pull the auricle up and back. MedlinePlus: pull the ear backward and upward (adult).",
+    "B": "Incorrect. Down-and-back is the pediatric/young-child technique, not the adult default.",
+    "C": "Incorrect. Dropper should not be forced deep; tip should stay clean and not traumatize the canal.",
+    "D": "Incorrect. Not a recommended canal-straightening method."
+   },
+   "sources": [
+    {
+     "title": "14.2 Administering Ear Medications",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/14-2-administering-ear-medications",
+     "section": "Procedural Steps for Ear Medication Administration",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "For an adult, pull the auricle up and back to straighten the canal."
+    },
+    {
+     "title": "How to Use Ear Drops",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/druginfo/meds/a601169.html",
+     "section": "How to Use Ear Drops",
+     "source_date": "Last Reviewed - 09/01/2010",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "Key A",
+     "evidence": "Pull the ear backward and upward (adult); for a child younger than 3, pull backward and downward."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6ec9d8fb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax Clinical Nursing Skills ear procedure + MedlinePlus How to Use Ear Drops dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B65-WAVE56",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PPT-0089",
+   "format": "matrix_multiple_choice",
+   "specialty": "Pediatrics",
+   "topic": "NGN matrix — otic drop pinna positioning adult vs young child",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "otic-pinna-age-ngn-matrix",
+   "tags": [
+    "NGN",
+    "matrix",
+    "PPT",
+    "otic",
+    "pediatrics"
+   ],
+   "stem": "When instilling ear drops, indicate whether each action is Indicated or Not indicated.",
+   "ngn": {
+    "columns": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     {
+      "key": "R1",
+      "text": "For an adult, pull the auricle up and back before instilling drops"
+     },
+     {
+      "key": "R2",
+      "text": "For a young child, pull the auricle down and back (backward and downward) before instilling drops"
+     },
+     {
+      "key": "R3",
+      "text": "Use ice-cold drops straight from the refrigerator to improve comfort"
+     },
+     {
+      "key": "R4",
+      "text": "Warm drops toward body/room temperature before instillation when possible"
+     },
+     {
+      "key": "R5",
+      "text": "Force the dropper tip deep through the tympanic membrane for better delivery"
+     }
+    ]
+   },
+   "correct_answer": {
+    "R1": "Indicated",
+    "R2": "Indicated",
+    "R3": "Not indicated",
+    "R4": "Indicated",
+    "R5": "Not indicated"
+   },
+   "rationales": {
+    "R1": "Indicated. OpenStax/MedlinePlus adult technique: up and back / backward and upward.",
+    "R2": "Indicated. OpenStax pediatric: down and back; MedlinePlus <3 years: backward and downward.",
+    "R3": "Not indicated. OpenStax: administer at room temperature; cold solutions increase vertigo/discomfort.",
+    "R4": "Indicated. OpenStax/MedlinePlus: warm toward body/room temperature before use.",
+    "R5": "Not indicated. Do not traumatize the canal or eardrum with the dropper tip."
+   },
+   "sources": [
+    {
+     "title": "14.2 Administering Ear Medications",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/14-2-administering-ear-medications",
+     "section": "Procedural Steps for Ear Medication Administration",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "R1–R5",
+     "evidence": "Adult up and back; pediatric down and back; room-temperature drops."
+    },
+    {
+     "title": "How to Use Ear Drops",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/druginfo/meds/a601169.html",
+     "section": "How to Use Ear Drops",
+     "source_date": "Last Reviewed - 09/01/2010",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "R1–R4",
+     "evidence": "Warm drops in hand; adult backward/upward; child <3 backward/downward."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6ec9d8fb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + MedlinePlus otic positioning/temperature matrix dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B65-WAVE56",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PPT-0090",
+   "format": "drop_down_cloze",
+   "specialty": "Pharmacology",
+   "topic": "NGN cloze — fentanyl patch: no cutting; no external heat",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Teaching/Learning",
+   "difficulty": "Moderate",
+   "cognitive_level": "Applying",
+   "enemy_group": "fentanyl-heat-cut-ngn-cloze",
+   "tags": [
+    "NGN",
+    "cloze",
+    "PPT",
+    "fentanyl",
+    "opioids"
+   ],
+   "stem": "Complete the fentanyl transdermal patch safety teaching.",
+   "ngn": {
+    "template": "A fentanyl patch {B1} before application. While wearing the patch, the client should {B2} because heat can {B3}.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "must not be cut, altered, or used if damaged"
+      },
+      {
+       "key": "B1b",
+       "text": "should be cut in half for milder pain"
+      },
+      {
+       "key": "B1c",
+       "text": "should be microwaved to activate the drug"
+      },
+      {
+       "key": "B1d",
+       "text": "must be chewed before skin placement"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "avoid heating pads, electric blankets, saunas, and hot whirlpool baths over the site"
+      },
+      {
+       "key": "B2b",
+       "text": "apply a heating pad continuously over the patch"
+      },
+      {
+       "key": "B2c",
+       "text": "sunbathe with the patch uncovered for better effect"
+      },
+      {
+       "key": "B2d",
+       "text": "soak in a hot tub with the patch each hour"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "increase fentanyl release/absorption and risk overdose"
+      },
+      {
+       "key": "B3b",
+       "text": "inactivate the opioid completely"
+      },
+      {
+       "key": "B3c",
+       "text": "convert fentanyl into an antibiotic"
+      },
+      {
+       "key": "B3d",
+       "text": "remove the need for secure storage"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a"
+   },
+   "rationales": {
+    "B1a": "Correct. HC PM: do not use if altered, cut, or damaged.",
+    "B1b": "Incorrect. Cutting is unsafe.",
+    "B1c": "Incorrect. Not an activation method.",
+    "B1d": "Incorrect. Transdermal use only; never chew.",
+    "B2a": "Correct. HC PM lists these external heat sources to avoid.",
+    "B2b": "Incorrect. Heat over the patch is dangerous.",
+    "B2c": "Incorrect. Intensive sunbathing is a listed heat exposure to avoid.",
+    "B2d": "Incorrect. Hot whirlpool baths are contraindicated exposures.",
+    "B3a": "Correct. HC PM/NCBI: heat increases release/absorption and can cause overdose/death.",
+    "B3b": "Incorrect. Heat increases, not inactivates, delivery.",
+    "B3c": "Incorrect. Irrelevant.",
+    "B3d": "Incorrect. Storage safety remains essential."
+   },
+   "sources": [
+    {
+     "title": "Sandoz Fentanyl Patch Product Monograph",
+     "publisher": "Health Canada Drug Product Database — Sandoz Canada Inc. product monograph",
+     "url": "https://pdf.hres.ca/dpd_pm/00055220.PDF",
+     "section": "External Heat Sources; patient application advice",
+     "source_date": "Last Revised: February 26, 2020",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "B1–B3",
+     "evidence": "No cut/alter/damage; avoid heating pads/electric blankets/saunas/hot whirlpools; heat increases release."
+    },
+    {
+     "title": "Chapter 16 Administration of Medications Via Other Routes",
+     "publisher": "NCBI Bookshelf (Open RN / WisTech Open)",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK593196/",
+     "section": "Topical and Transdermal Medications",
+     "source_date": "not stated on page",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B2–B3",
+     "evidence": "Never apply heat over fentanyl patches—increases release and can cause overdose/death."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6ec9d8fb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "HC fentanyl PM + NCBI Open RN cloze dual-cite."
+    }
+   ]
+  },
+  {
+   "batch": "B65-WAVE56",
+   "item_version": 1,
+   "verified_date": "2026-11-25",
+   "origin": "Original — evidence-based practice item (AI-drafted)",
+   "previously_administered": false,
+   "verification_status": "Source verified",
+   "units_note": "",
+   "jurisdiction_note": "",
+   "clinical_review": {
+    "required": true,
+    "priority": "standard",
+    "reviewer": null,
+    "credentials": null,
+    "date": null,
+    "verdict": null,
+    "notes": null
+   },
+   "review_flags": [],
+   "scoring_model": "zero_one",
+   "jurisdiction": "General (Canada/US concordant)",
+   "id": "ONRN-PPT-0091",
+   "format": "drop_down_cloze",
+   "specialty": "Pediatrics",
+   "topic": "NGN cloze — ear drop pinna direction by age",
+   "client_needs_category": "Physiological Integrity",
+   "client_needs_subcategory": "Pharmacological and Parenteral Therapies",
+   "cj_step": "Take Action",
+   "integrated_process": "Nursing Process",
+   "difficulty": "Easy",
+   "cognitive_level": "Applying",
+   "enemy_group": "otic-age-pinna-ngn-cloze",
+   "tags": [
+    "NGN",
+    "cloze",
+    "PPT",
+    "otic",
+    "pediatrics"
+   ],
+   "stem": "Complete the teaching about positioning the ear for otic drops.",
+   "ngn": {
+    "template": "For an adult, straighten the canal by pulling the auricle {B1}. For a young child, pull the auricle {B2}. Drops should be closer to {B3} before instillation when possible.",
+    "blanks": {
+     "B1": [
+      {
+       "key": "B1a",
+       "text": "up and back (backward and upward)"
+      },
+      {
+       "key": "B1b",
+       "text": "down and forward only"
+      },
+      {
+       "key": "B1c",
+       "text": "toward the opposite shoulder forcefully"
+      },
+      {
+       "key": "B1d",
+       "text": "in a circular twisting motion"
+      }
+     ],
+     "B2": [
+      {
+       "key": "B2a",
+       "text": "down and back (backward and downward)"
+      },
+      {
+       "key": "B2b",
+       "text": "straight up toward the scalp only"
+      },
+      {
+       "key": "B2c",
+       "text": "across the face to the nose"
+      },
+      {
+       "key": "B2d",
+       "text": "not at all because children never need canal straightening"
+      }
+     ],
+     "B3": [
+      {
+       "key": "B3a",
+       "text": "room or body temperature"
+      },
+      {
+       "key": "B3b",
+       "text": "freezing cold from ice"
+      },
+      {
+       "key": "B3c",
+       "text": "boiling hot from a kettle"
+      },
+      {
+       "key": "B3d",
+       "text": "any extreme temperature for faster effect"
+      }
+     ]
+    }
+   },
+   "correct_answer": {
+    "B1": "B1a",
+    "B2": "B2a",
+    "B3": "B3a"
+   },
+   "rationales": {
+    "B1a": "Correct. Adult technique per OpenStax/MedlinePlus.",
+    "B1b": "Incorrect. Not the adult method.",
+    "B1c": "Incorrect. Unsafe/irrelevant.",
+    "B1d": "Incorrect. Not recommended.",
+    "B2a": "Correct. Pediatric/young-child technique per OpenStax/MedlinePlus.",
+    "B2b": "Incorrect. Not the child method.",
+    "B2c": "Incorrect. Irrelevant.",
+    "B2d": "Incorrect. Canal straightening is needed in children as well.",
+    "B3a": "Correct. Warm toward room/body temperature; cold increases discomfort/vertigo risk.",
+    "B3b": "Incorrect. Cold drops are uncomfortable and may cause vertigo.",
+    "B3c": "Incorrect. Hot drops can injure tissues.",
+    "B3d": "Incorrect. Extremes are unsafe."
+   },
+   "sources": [
+    {
+     "title": "14.2 Administering Ear Medications",
+     "publisher": "OpenStax — Clinical Nursing Skills",
+     "url": "https://openstax.org/books/clinical-nursing-skills/pages/14-2-administering-ear-medications",
+     "section": "Procedural Steps for Ear Medication Administration",
+     "source_date": "Jun 26, 2024",
+     "accessed_date": "2026-11-25",
+     "source_type": "textbook_open",
+     "added_by": "author",
+     "supports": "B1–B3",
+     "evidence": "Adult up/back; pediatric down/back; room-temperature medication."
+    },
+    {
+     "title": "How to Use Ear Drops",
+     "publisher": "MedlinePlus / U.S. National Library of Medicine",
+     "url": "https://medlineplus.gov/druginfo/meds/a601169.html",
+     "section": "How to Use Ear Drops",
+     "source_date": "Last Reviewed - 09/01/2010",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_reference",
+     "added_by": "author",
+     "supports": "B1–B3",
+     "evidence": "Warm in hand; adult backward/upward; child <3 backward/downward."
+    }
+   ],
+   "verification_log": [
+    {
+     "pass": "author_source_verification",
+     "by": "AI author (Composer, Cursor subagent bc-6ec9d8fb) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "confirmed",
+     "checks": "OpenStax + MedlinePlus otic age-based cloze dual-cite."
+    }
+   ]
+  }
+ ],
+ "excluded_items": []
+}
