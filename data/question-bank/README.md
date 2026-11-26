@@ -11,5 +11,5 @@ Import:
 npx tsx scripts/import-question-bank.ts
 ```
 
-Maps to Prisma `SOURCE_VERIFIED`, `isExample=false`. Does not create published exams.
+Maps to Prisma `SOURCE_VERIFIED`, `isExample=false`. Upserts by question id, so running it again does not duplicate items. Does not create published exams and does not mark items clinically approved.
 Json `answerKey` fields use `Prisma.InputJsonValue` casts in the import script.

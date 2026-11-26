@@ -7,6 +7,10 @@ generator client {
 
 datasource db {
   provider = "postgresql"
+  // Runtime reads DATABASE_URL. A Supabase transaction pooler URL (port 6543)
+  // is opened with pgbouncer=true so Prisma Client does not use prepared
+  // statements. Migrations use a session-mode URL derived from the same value
+  // (port 5432 on the shared pooler) and do not need a second secret.
   url      = env("DATABASE_URL")
 }
 
