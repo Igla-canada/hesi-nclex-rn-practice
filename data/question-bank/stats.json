@@ -109,8 +109,8 @@
    "calculation": 1
   },
   "by_jurisdiction": {
-   "General (Canada/US concordant)": 651,
-   "Ontario-specific": 67,
+   "General (Canada/US concordant)": 650,
+   "Ontario-specific": 68,
    "Canada-specific": 32
   }
  },
@@ -133,7 +133,7 @@
   "Agency for Healthcare Research and Quality (AHRQ) — PSNet": 22,
   "Public Health Agency of Canada / Canada.ca": 20,
   "Canadian Paediatric Society — Caring for Kids": 19,
-  "Government of Ontario — e-Laws": 16,
+  "Government of Ontario — e-Laws": 17,
   "World Health Organization": 12,
   "Public Health Ontario — Provincial Infectious Diseases Advisory Committee (PIDAC)": 10,
   "U.S. National Library of Medicine — DailyMed": 9,
@@ -145,7 +145,7 @@
   "Centers for Disease Control and Prevention": 7,
   "U.S. Occupational Safety and Health Administration (OSHA)": 7,
   "MedlinePlus (U.S. National Library of Medicine)": 6,
-  "Diabetes Canada": 4,
+  "Diabetes Canada": 5,
   "Health Canada Drug Product Database — Sandoz Canada Inc. product monograph": 4,
   "NCSBN / American Nurses Association": 4,
   "Public Health Ontario": 4,
@@ -183,7 +183,7 @@
   "Open RN / Nursing Advanced Skills (NCBI Bookshelf)": 2,
   "The Royal Children's Hospital Melbourne": 2,
   "AboutKidsHealth (SickKids)": 2,
-  "Government of Ontario — Ministry of Children, Community and Social Services": 2,
+  "Government of Ontario — Ministry of Children, Community and Social Services": 3,
   "Royal Canadian Mounted Police / Canada.ca": 2,
   "U.S. Centers for Disease Control and Prevention (CDC/HICPAC)": 1,
   "Health Canada Drug Product Database — Taro Pharmaceuticals Inc. product monograph": 1,
@@ -202,7 +202,8 @@
   "Steps to Justice (Community Legal Education Ontario)": 1,
   "Simcoe Muskoka District Health Unit": 1,
   "Virginia Department of Health": 1,
-  "OpenStax — Nutrition for Nurses": 1
+  "OpenStax — Nutrition for Nurses": 1,
+  "Canadian Centre for Elder Law": 1
  },
  "near_duplicate_pairs": [],
  "merge_problems": [],

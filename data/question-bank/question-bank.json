@@ -185,7 +185,7 @@
    },
    "rationales": {
     "R1": "Indicated. Mild-to-moderate hypoglycemia in a conscious adult is treated with 15 g of fast-acting carbohydrate; Diabetes Canada prefers glucose or sucrose tablets or solution.",
-    "R2": "Indicated. Blood glucose is retested about 15 minutes after treatment, and another 15 g is given only if it is still low (Diabetes Canada: below 4.0 mmol/L).",
+    "R2": "Indicated. Blood glucose is retested about 15 minutes after treatment, and another 15 g is given only if it is still low. Diabetes Canada’s 2018 chapter 14 used below 4.0 mmol/L; the 2023 hypoglycemia update uses below 3.9 mmol/L. This item does not score that cutoff. The stem value of 3.1 mmol/L is low under both.",
     "R3": "Not indicated. Glucagon 1 mg SC/IM is reserved for severe hypoglycemia when the person cannot take oral carbohydrate (for example, is unconscious) and IV access is not available. This client is alert and can swallow.",
     "R4": "Not indicated. Re-treatment depends on the 15-minute recheck. Giving extra carbohydrate without rechecking risks overtreatment, which can cause rebound hyperglycemia and weight gain.",
     "R5": "Indicated. Once hypoglycemia is reversed, a snack with about 15 g of carbohydrate plus a protein source is recommended when the next meal is more than 1 hour away, to prevent recurrence."
@@ -199,7 +199,7 @@
    "difficulty": "Moderate",
    "cognitive_level": "Applying",
    "jurisdiction": "General (Canada/US concordant)",
-   "jurisdiction_note": "Diabetes Canada defines hypoglycemia (insulin/secretagogue users) as plasma glucose <4.0 mmol/L and re-treats if still <4.0; Merck (US) uses <3.9 mmol/L (70 mg/dL) and re-treats if not >4.4 mmol/L (80 mg/dL). The stem value (3.1 mmol/L) is low under both, and the threshold difference is not tested.",
+   "jurisdiction_note": "The stem glucose of 3.1 mmol/L is low under both Canadian cutoffs, and the numeric re-treat threshold is not scored. Diabetes Canada’s 2018 chapter 14 used <4.0 mmol/L and re-treatment if still <4.0. The 2023 hypoglycemia update uses an alert value <3.9 mmol/L and re-treats if still <3.9. Merck uses about <3.9 mmol/L (70 mg/dL) and a higher post-treatment target in some passages. Keyed actions match both Diabetes Canada versions: 15 g carbohydrate, recheck at 15 minutes, no second dose before that recheck, no glucagon while the client is alert and able to swallow, and a carbohydrate-plus-protein snack if the next meal is more than 1 hour away.",
    "units_note": "Glucose 3.1 mmol/L × 18 ≈ 56 mg/dL.",
    "sources": [
     {
@@ -225,6 +225,18 @@
      "supports": "R1, R2, R3, R5",
      "evidence": "Rule of 15s: 15 g glucose or sucrose, recheck at 15 minutes; then a snack with complex carbohydrate and protein; glucagon 1 mg SC/IM (≥25 kg) for those unable to eat or drink.",
      "added_by": "author"
+    },
+    {
+     "title": "Hypoglycemia — 2023 chapter update",
+     "publisher": "Diabetes Canada",
+     "url": "https://guidelines.diabetes.ca/cpg/chapter-14-2023-update",
+     "section": "Treatment of hypoglycemia, recommendations 8 and 12",
+     "source_date": "2023 chapter update",
+     "accessed_date": "2026-11-25",
+     "source_type": "clinical_practice_guideline",
+     "supports": "Rows R1, R2, R3, R4, R5; re-treat cutoff not scored",
+     "evidence": "Level 1 and 2 hypoglycemia: ingest 15 g fast-acting carbohydrate, preferably glucose or sucrose; retest at about 15 minutes and re-treat with 15 g if still <3.9 mmol/L. If the next meal is more than 1 hour away, give a snack with 15 g carbohydrate and protein. Glucagon 1 mg SC/IM is for severe hypoglycemia when the person cannot swallow.",
+     "added_by": "independent_source_review"
     }
    ],
    "verified_date": "2026-11-25",
@@ -237,6 +249,13 @@
      "by": "AI author (Claude) — not a licensed clinician",
      "date": "2026-11-25",
      "result": "All five rows checked against Diabetes Canada Ch.14 and Merck (Dec 2025). Threshold differences between sources noted in jurisdiction_note and deliberately not tested."
+    },
+    {
+     "pass": "independent_public_source_review",
+     "by": "AI reviewer (Cursor cloud agent) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "rationale_currency_corrected",
+     "checks": "Matrix key unchanged. Rationale R2 no longer states <4.0 mmol/L as the only Diabetes Canada re-treat cutoff. 2018 chapter 14 uses <4.0; the 2023 hypoglycemia update uses <3.9. Stem glucose 3.1 mmol/L is low under both. Not a clinical approval."
     }
    ],
    "clinical_review": {
@@ -250,7 +269,8 @@
    },
    "review_flags": [
     "high-alert-medication",
-    "canada-us-difference"
+    "canada-us-difference",
+    "guideline-version-sensitive"
    ],
    "enemy_group": "hypoglycemia-rule-of-15-conscious",
    "tags": [
@@ -12753,7 +12773,7 @@
    "origin": "Original — evidence-based practice item (AI-drafted)",
    "previously_administered": false,
    "verification_status": "Source verified",
-   "jurisdiction_note": "CYFSA s. 125 is Ontario’s statutory duty to report a child in need of protection; OpenStax Reporting Obligations supports the general professional duty to report suspected abuse/neglect to authorities.",
+   "jurisdiction_note": "CYFSA s. 125(1) requires an immediate report to a children’s aid society. Subsection 125(4) limits that mandatory duty to children under 16; a report about a 16- or 17-year-old may be made but is not required (MCCSS duty-to-report guide).",
    "units_note": "",
    "clinical_review": {
     "required": true,
@@ -12773,7 +12793,7 @@
    "id": "ONRN-MOC-0015",
    "format": "multiple_choice",
    "scoring_model": "zero_one",
-   "stem": "A nurse in Ontario has reasonable grounds to suspect that a child has suffered physical harm from the person having charge of the child. What is the nurse’s legal obligation under the Child, Youth and Family Services Act, 2017?",
+   "stem": "A nurse in Ontario has reasonable grounds to suspect that a child under 16 years of age has suffered physical harm from the person having charge of the child. What is the nurse’s legal obligation under the Child, Youth and Family Services Act, 2017?",
    "options": [
     {
      "key": "A",
@@ -12797,7 +12817,7 @@
    ],
    "rationales": {
     "A": "Incorrect. CYFSA requires reporting based on reasonable grounds to suspect, not waiting for courtroom proof.",
-    "B": "Correct. CYFSA s. 125(1) requires a person who has reasonable grounds to suspect listed harms (including physical harm by the person in charge) to immediately report the suspicion and supporting information to a society; OpenStax states nurses may be legally required to report suspected abuse/neglect to the correct authorities.",
+    "B": "Correct. CYFSA s. 125(1) requires a person who has reasonable grounds to suspect listed harms, including physical harm by the person in charge, to immediately report the suspicion and the supporting information to a children’s aid society. Subsection 125(4) limits this mandatory duty to children under 16. A report about a 16- or 17-year-old may be made but is not required.",
     "C": "Incorrect. Confronting only the alleged caregiver and stopping there does not meet the statutory duty to report to a society.",
     "D": "Incorrect. Private informal notes without reporting to a society do not fulfill CYFSA’s immediate reporting duty."
    },
@@ -12820,12 +12840,12 @@
      "title": "Child, Youth and Family Services Act, 2017, S.O. 2017, c. 14, Sched. 1",
      "publisher": "Government of Ontario — e-Laws",
      "url": "https://www.ontario.ca/laws/statute/17c14",
-     "section": "s. 125(1) — Duty to report child in need of protection",
+     "section": "s. 125(1) duty to report; s. 125(4) age limit",
      "source_date": "Current consolidation (e-Laws)",
      "accessed_date": "2026-11-25",
      "source_type": "legislation",
-     "supports": "Key B; rationales A,C,D",
-     "evidence": "If a person has reasonable grounds to suspect listed circumstances (including physical harm inflicted by the person having charge), the person shall immediately report the suspicion and the information on which it is based to a society.",
+     "supports": "Key B; stem age limit; rationales A, C, D",
+     "evidence": "If a person has reasonable grounds to suspect listed circumstances, including physical harm inflicted by the person having charge, the person shall immediately report the suspicion and the information on which it is based to a society. The mandatory duty does not apply where the child is 16 or 17; a report may still be made.",
      "added_by": "author"
     },
     {
@@ -12839,6 +12859,18 @@
      "supports": "Key B; rationale A",
      "evidence": "When a nurse suspects a patient of being abused or neglected, they may be legally required to report their suspicions to the correct authorities.",
      "added_by": "author"
+    },
+    {
+     "title": "Reporting Child Abuse and Neglect: It’s Your Duty",
+     "publisher": "Government of Ontario — Ministry of Children, Community and Social Services",
+     "url": "https://files.ontario.ca/pdf-3/mccss-report-child-abuse-and-neglect-en-2022-03-31.pdf",
+     "section": "What is the age of the children to whom the duty to report applies?",
+     "source_date": "2022-03-31",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Stem age limit; key B; rationale B",
+     "evidence": "The duty to report applies to any child who is, or appears to be, under 16. A person who is concerned that a 16- or 17-year-old is in need of protection may report to a society but is not required to. Reports are made directly to a children’s aid society.",
+     "added_by": "independent_source_review"
     }
    ],
    "verification_log": [
@@ -12847,6 +12879,13 @@
      "by": "AI author (Composer, Cursor subagent bc-f3bcbe57) — not a licensed clinician",
      "date": "2026-11-25",
      "result": "Key dual-confirmed: CYFSA s.125(1) immediate report to a society + OpenStax reporting obligations for suspected abuse/neglect."
+    },
+    {
+     "pass": "independent_public_source_review",
+     "by": "AI reviewer (Cursor cloud agent) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "stem_precision_corrected",
+     "checks": "Key letter unchanged (report immediately to a children’s aid society). Stem and rationale now limit the mandatory CYFSA s. 125 duty to children under 16, matching s. 125(4) and the MCCSS duty-to-report guide. Not a clinical approval."
     }
    ],
    "exam_version_published": null,
@@ -30587,8 +30626,8 @@
    "previously_administered": false,
    "verification_status": "Source verified",
    "units_note": "",
-   "jurisdiction_note": "",
-   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "Private interview is concordant. Mandatory referral to Adult Protective Services is common US practice and is not Ontario’s rule for community-dwelling older adults. The Fixing Long-Term Care Act, 2021, s. 28, requires an immediate report to the Director for long-term care residents; retirement homes have a parallel duty (Canadian Centre for Elder Law).",
+   "jurisdiction": "Ontario-specific",
    "clinical_review": {
     "required": true,
     "priority": "high",
@@ -30605,9 +30644,20 @@
      "date": "2026-11-25",
      "result": "confirmed",
      "checks": "Merck: if elder abuse suspected, interview patient alone at least part of time; refer to Adult Protective Services when identified/suspected. OpenStax: report suspected abuse to adult protective services/ombudsman/police; listen to older adults"
+    },
+    {
+     "pass": "independent_public_source_review",
+     "by": "AI reviewer (Cursor cloud agent) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "keyed_claim_corrected",
+     "checks": "Private interview remains correct. Mandatory Adult Protective Services referral was removed as a Canada/US-concordant duty. Ontario FLTCA s. 28 requires an immediate report for long-term care residents; CCEL documents no general community APS statute. Not a clinical approval."
     }
    ],
-   "review_flags": [],
+   "review_flags": [
+    "mental-health-safety",
+    "legal-ontario",
+    "canada-us-difference"
+   ],
    "id": "ONRN-PSY-0026",
    "format": "multiple_choice",
    "scoring_model": "zero_one",
@@ -30617,11 +30667,11 @@
     "safety",
     "PSY"
    ],
-   "stem": "An older adult arrives with unexplained bruises in several stages of healing and appears fearful when the caregiver answers for them. Which nursing action is the priority first step when elder abuse is suspected?",
+   "stem": "An older adult in Ontario arrives with unexplained bruises in several stages of healing and appears fearful when the caregiver answers for them. Which nursing action is most appropriate?",
    "options": [
     {
      "key": "A",
-     "text": "Interview the older adult alone (at least for part of the encounter) using private, direct questions about safety and possible mistreatment, and follow mandatory reporting pathways (e.g., adult protective services) when abuse is suspected or identified."
+     "text": "Interview the older adult alone (at least for part of the encounter) with private, direct questions about safety and possible mistreatment. In Ontario, immediately report suspected abuse of a long-term care or retirement-home resident; do not assume a universal duty to report community-dwelling older adults to adult protective services."
     },
     {
      "key": "B",
@@ -30640,13 +30690,13 @@
     "A"
    ],
    "rationales": {
-    "A": "Correct. Merck: if elder abuse is suspected, interview the patient alone at least part of the time and ask direct questions; referral to Adult Protective Services is required in most jurisdictions when abuse is identified or suspected. OpenStax: report suspected elder abuse to adult protective services (or equivalent) and listen to older adults.",
+    "A": "Correct. Interview the older adult alone and ask directly about mistreatment. Merck describes referral to Adult Protective Services, which reflects common US duties and is not Ontario law for older adults living in the community. Ontario’s Fixing Long-Term Care Act, 2021, s. 28, requires an immediate report to the Director when a long-term care resident is abused or neglected with harm or risk of harm, and a parallel duty applies in retirement homes. Do not rely only on the caregiver’s history.",
     "B": "Incorrect. Merck warns caregiver reluctance to leave the older adult alone with a clinician is concerning; private interview is essential.",
     "C": "Incorrect. Unexplained injuries and inconsistent histories are red flags requiring assessment and documentation (Merck).",
-    "D": "Incorrect. Merck advises avoiding confrontation that escalates risk; structured private assessment and reporting are required."
+    "D": "Incorrect. Confronting the caregiver in front of the client can escalate risk. Assess privately, then follow the Ontario reporting duty that applies to the setting rather than a universal adult-protective-services mandate."
    },
    "specialty": "Gerontology",
-   "topic": "Elder abuse — private interview and mandatory protective-services reporting",
+   "topic": "Elder abuse — private interview; Ontario reporting depends on the setting",
    "client_needs_category": "Psychosocial Integrity",
    "client_needs_subcategory": "Psychosocial Integrity",
    "cj_step": "Take Action",
@@ -30663,8 +30713,8 @@
      "source_date": "Last updated: Jan 2026",
      "accessed_date": "2026-11-25",
      "source_type": "clinical_reference",
-     "supports": "Key and distractors",
-     "evidence": "Interview alone if abuse suspected; refer to Adult Protective Services when identified/suspected.",
+     "supports": "Private interview when abuse is suspected; US Adult Protective Services referral is not the Ontario community rule",
+     "evidence": "If elder abuse is suspected, interview the patient alone at least part of the time and ask direct questions. Merck’s referral to Adult Protective Services describes US practice and is not Ontario’s community reporting rule.",
      "added_by": "author"
     },
     {
@@ -30675,9 +30725,33 @@
      "source_date": "May 15, 2024",
      "accessed_date": "2026-11-25",
      "source_type": "textbook_open",
-     "supports": "Key and distractors",
-     "evidence": "Report abuse or suspected abuse to adult protective services, ombudsmen, or police; listen to older adults.",
+     "supports": "Listen to the older adult; US-style protective-services reporting is not the Ontario community rule",
+     "evidence": "OpenStax tells nurses to listen to older adults and to report suspected abuse to adult protective services, an ombudsman, or police. That reporting pathway is not a universal Ontario duty for community-dwelling older adults.",
      "added_by": "author"
+    },
+    {
+     "title": "Fixing Long-Term Care Act, 2021, S.O. 2021, c. 39, Sched. 1",
+     "publisher": "Government of Ontario — e-Laws",
+     "url": "https://www.ontario.ca/laws/statute/21f39",
+     "section": "s. 28 — Reporting certain matters to the Director",
+     "source_date": "S.O. 2021, c. 39, Sched. 1",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "supports": "Key A — Ontario long-term care reporting duty; not a community adult-protective-services mandate",
+     "evidence": "A person with reasonable grounds to suspect abuse of a resident by anyone, or neglect by the licensee or staff, that resulted in harm or a risk of harm shall immediately report the suspicion and the information on which it is based to the Director. The duty applies to regulated health professionals even when the information is otherwise confidential.",
+     "added_by": "independent_source_review"
+    },
+    {
+     "title": "Practical Guide to Elder Abuse — Ontario",
+     "publisher": "Canadian Centre for Elder Law",
+     "url": "https://ccelderlaw.ca/ontario/",
+     "section": "3.5 Mandatory reporting; 4. Home and Community Care",
+     "source_date": "Guide current as accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "supports": "Key A — LTC and retirement-home duties versus no general community reporting statute",
+     "evidence": "Ontario requires a report of suspected abuse of an adult living in long-term care or a retirement home. There is no general statute requiring a public report of abuse or neglect of older adults living in the community; home and community care agencies must keep a plan to prevent, recognize, and address abuse.",
+     "added_by": "independent_source_review"
     }
    ],
    "exam_version_published": null,
