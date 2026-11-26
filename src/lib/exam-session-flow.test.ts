@@ -6,7 +6,7 @@ import {
   SESSION_MODES,
 } from "./exam-config";
 import { applySkip, recordedAnswers } from "./exam-skip";
-import { reviewCompiledSubmission } from "./exam-review";
+import { revealBankAnswer, reviewCompiledSubmission } from "./exam-review";
 import type { ClientExamQuestion, StoredAnswer } from "./exam-config";
 
 describe("NCLEX 85 duration", () => {
@@ -68,6 +68,17 @@ describe("skip", () => {
     const saved = recordedAnswers(questions, {}, ["order-1"]);
     expect(saved["order-1"]).toBeUndefined();
     expect(saved["order-2"]?.selectedOptionIds).toEqual(["C", "D"]);
+  });
+});
+
+describe("show answer", () => {
+  it("returns the correct answer for the requested question only", () => {
+    const shown = revealBankAnswer("ONRN-PA-0001");
+    expect(shown?.id).toBe("ONRN-PA-0001");
+    expect(shown?.correctAnswer).toContain("Tall, narrow, peaked T waves");
+    expect(shown?.rationale).toContain("usually the first visible ECG change");
+    expect(Object.keys(shown ?? {}).sort()).toEqual(["correctAnswer", "id", "rationale"]);
+    expect(revealBankAnswer("not-a-question")).toBeNull();
   });
 });
 

@@ -60,6 +60,19 @@ function rationaleText(rationales: Record<string, string> | undefined): string {
   return lines.map(([key, text]) => `${key}. ${text}`).join("\n");
 }
 
+export type RevealedAnswer = {
+  id: string;
+  correctAnswer: string;
+  rationale: string;
+};
+
+/** Student-facing key for one item. Scoring fields stay on the server. */
+export function revealBankAnswer(id: string): RevealedAnswer | null {
+  const key = keyFromBank(id);
+  if (!key) return null;
+  return { id, correctAnswer: key.correctAnswer, rationale: key.rationale };
+}
+
 export function keyFromBank(id: string): KeyedItem | null {
   const item = bankItems.get(id);
   if (!item) return null;
