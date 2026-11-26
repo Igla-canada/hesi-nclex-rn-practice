@@ -8,7 +8,6 @@ import {
   allocateBlueprintQuotas,
   NCLEX_MAX_ITEMS,
   NCLEX_MIN_ITEMS,
-  NCLEX_TIME_HOURS,
 } from "@/lib/blueprint";
 import { SESSION_MODES, type SessionModeId } from "@/lib/exam-config";
 import { getPoolStatus } from "@/lib/exam-session";
@@ -25,16 +24,12 @@ async function ExamChooser() {
       <div className="grid gap-4 md:grid-cols-2">
         {CHOICES.map((mode) => {
           const spec = SESSION_MODES[mode];
-          const detail =
-            mode === "nclex85"
-              ? `${NCLEX_MIN_ITEMS} items · up to ${NCLEX_TIME_HOURS}h · no backtrack`
-              : spec.detail;
           return (
             <form key={mode} action={startExam}>
               <input type="hidden" name="mode" value={mode} />
               <SubmitButton className="w-full rounded-xl border border-[var(--border)] bg-[var(--surface)] p-5 text-left hover:border-[var(--accent)] disabled:opacity-60">
                 <span className="font-display block text-lg font-semibold">{spec.label}</span>
-                <span className="mt-1 block text-sm text-[var(--muted)]">{detail}</span>
+                <span className="mt-1 block text-sm text-[var(--muted)]">{spec.detail}</span>
               </SubmitButton>
             </form>
           );
