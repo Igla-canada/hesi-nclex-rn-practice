@@ -58,8 +58,8 @@ Wave 59 (**final stretch**) added PSY (acamprosate AUD maintenance with counseli
 
 | Jurisdiction | n |
 | --- | ---: |
-| General (Canada/US concordant) | 651 |
-| Ontario-specific | 67 |
+| General (Canada/US concordant) | 650 |
+| Ontario-specific | 68 |
 | Canada-specific | 32 |
 
 ---

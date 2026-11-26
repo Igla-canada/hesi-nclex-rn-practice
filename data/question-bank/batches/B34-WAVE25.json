@@ -125,8 +125,8 @@
    "previously_administered": false,
    "verification_status": "Source verified",
    "units_note": "",
-   "jurisdiction_note": "",
-   "jurisdiction": "General (Canada/US concordant)",
+   "jurisdiction_note": "Private interview is concordant. Mandatory referral to Adult Protective Services is common US practice and is not Ontario’s rule for community-dwelling older adults. The Fixing Long-Term Care Act, 2021, s. 28, requires an immediate report to the Director for long-term care residents; retirement homes have a parallel duty (Canadian Centre for Elder Law).",
+   "jurisdiction": "Ontario-specific",
    "clinical_review": {
     "required": true,
     "priority": "high",
@@ -143,9 +143,20 @@
      "date": "2026-11-25",
      "result": "confirmed",
      "checks": "Merck: if elder abuse suspected, interview patient alone at least part of time; refer to Adult Protective Services when identified/suspected. OpenStax: report suspected abuse to adult protective services/ombudsman/police; listen to older adults"
+    },
+    {
+     "pass": "independent_public_source_review",
+     "by": "AI reviewer (Cursor cloud agent) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "keyed_claim_corrected",
+     "checks": "Private interview remains correct. Mandatory Adult Protective Services referral was removed as a Canada/US-concordant duty. Ontario FLTCA s. 28 requires an immediate report for long-term care residents; CCEL documents no general community APS statute. Not a clinical approval."
     }
    ],
-   "review_flags": [],
+   "review_flags": [
+    "mental-health-safety",
+    "legal-ontario",
+    "canada-us-difference"
+   ],
    "id": "ONRN-PSY-0026",
    "format": "multiple_choice",
    "scoring_model": "zero_one",
@@ -155,11 +166,11 @@
     "safety",
     "PSY"
    ],
-   "stem": "An older adult arrives with unexplained bruises in several stages of healing and appears fearful when the caregiver answers for them. Which nursing action is the priority first step when elder abuse is suspected?",
+   "stem": "An older adult in Ontario arrives with unexplained bruises in several stages of healing and appears fearful when the caregiver answers for them. Which nursing action is most appropriate?",
    "options": [
     {
      "key": "A",
-     "text": "Interview the older adult alone (at least for part of the encounter) using private, direct questions about safety and possible mistreatment, and follow mandatory reporting pathways (e.g., adult protective services) when abuse is suspected or identified."
+     "text": "Interview the older adult alone (at least for part of the encounter) with private, direct questions about safety and possible mistreatment. In Ontario, immediately report suspected abuse of a long-term care or retirement-home resident; do not assume a universal duty to report community-dwelling older adults to adult protective services."
     },
     {
      "key": "B",
@@ -178,13 +189,13 @@
     "A"
    ],
    "rationales": {
-    "A": "Correct. Merck: if elder abuse is suspected, interview the patient alone at least part of the time and ask direct questions; referral to Adult Protective Services is required in most jurisdictions when abuse is identified or suspected. OpenStax: report suspected elder abuse to adult protective services (or equivalent) and listen to older adults.",
+    "A": "Correct. Interview the older adult alone and ask directly about mistreatment. Merck describes referral to Adult Protective Services, which reflects common US duties and is not Ontario law for older adults living in the community. Ontario’s Fixing Long-Term Care Act, 2021, s. 28, requires an immediate report to the Director when a long-term care resident is abused or neglected with harm or risk of harm, and a parallel duty applies in retirement homes. Do not rely only on the caregiver’s history.",
     "B": "Incorrect. Merck warns caregiver reluctance to leave the older adult alone with a clinician is concerning; private interview is essential.",
     "C": "Incorrect. Unexplained injuries and inconsistent histories are red flags requiring assessment and documentation (Merck).",
-    "D": "Incorrect. Merck advises avoiding confrontation that escalates risk; structured private assessment and reporting are required."
+    "D": "Incorrect. Confronting the caregiver in front of the client can escalate risk. Assess privately, then follow the Ontario reporting duty that applies to the setting rather than a universal adult-protective-services mandate."
    },
    "specialty": "Gerontology",
-   "topic": "Elder abuse — private interview and mandatory protective-services reporting",
+   "topic": "Elder abuse — private interview; Ontario reporting depends on the setting",
    "client_needs_category": "Psychosocial Integrity",
    "client_needs_subcategory": "Psychosocial Integrity",
    "cj_step": "Take Action",
@@ -201,8 +212,8 @@
      "source_date": "Last updated: Jan 2026",
      "accessed_date": "2026-11-25",
      "source_type": "clinical_reference",
-     "supports": "Key and distractors",
-     "evidence": "Interview alone if abuse suspected; refer to Adult Protective Services when identified/suspected.",
+     "supports": "Private interview when abuse is suspected; US Adult Protective Services referral is not the Ontario community rule",
+     "evidence": "If elder abuse is suspected, interview the patient alone at least part of the time and ask direct questions. Merck’s referral to Adult Protective Services describes US practice and is not Ontario’s community reporting rule.",
      "added_by": "author"
     },
     {
@@ -213,9 +224,33 @@
      "source_date": "May 15, 2024",
      "accessed_date": "2026-11-25",
      "source_type": "textbook_open",
-     "supports": "Key and distractors",
-     "evidence": "Report abuse or suspected abuse to adult protective services, ombudsmen, or police; listen to older adults.",
+     "supports": "Listen to the older adult; US-style protective-services reporting is not the Ontario community rule",
+     "evidence": "OpenStax tells nurses to listen to older adults and to report suspected abuse to adult protective services, an ombudsman, or police. That reporting pathway is not a universal Ontario duty for community-dwelling older adults.",
      "added_by": "author"
+    },
+    {
+     "title": "Fixing Long-Term Care Act, 2021, S.O. 2021, c. 39, Sched. 1",
+     "publisher": "Government of Ontario — e-Laws",
+     "url": "https://www.ontario.ca/laws/statute/21f39",
+     "section": "s. 28 — Reporting certain matters to the Director",
+     "source_date": "S.O. 2021, c. 39, Sched. 1",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "supports": "Key A — Ontario long-term care reporting duty; not a community adult-protective-services mandate",
+     "evidence": "A person with reasonable grounds to suspect abuse of a resident by anyone, or neglect by the licensee or staff, that resulted in harm or a risk of harm shall immediately report the suspicion and the information on which it is based to the Director. The duty applies to regulated health professionals even when the information is otherwise confidential.",
+     "added_by": "independent_source_review"
+    },
+    {
+     "title": "Practical Guide to Elder Abuse — Ontario",
+     "publisher": "Canadian Centre for Elder Law",
+     "url": "https://ccelderlaw.ca/ontario/",
+     "section": "3.5 Mandatory reporting; 4. Home and Community Care",
+     "source_date": "Guide current as accessed 2026-11-25",
+     "accessed_date": "2026-11-25",
+     "source_type": "legislation",
+     "supports": "Key A — LTC and retirement-home duties versus no general community reporting statute",
+     "evidence": "Ontario requires a report of suspected abuse of an adult living in long-term care or a retirement home. There is no general statute requiring a public report of abuse or neglect of older adults living in the community; home and community care agencies must keep a plan to prevent, recognize, and address abuse.",
+     "added_by": "independent_source_review"
     }
    ]
   },

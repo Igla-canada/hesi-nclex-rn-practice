@@ -219,7 +219,7 @@
    "origin": "Original — evidence-based practice item (AI-drafted)",
    "previously_administered": false,
    "verification_status": "Source verified",
-   "jurisdiction_note": "CYFSA s. 125 is Ontario’s statutory duty to report a child in need of protection; OpenStax Reporting Obligations supports the general professional duty to report suspected abuse/neglect to authorities.",
+   "jurisdiction_note": "CYFSA s. 125(1) requires an immediate report to a children’s aid society. Subsection 125(4) limits that mandatory duty to children under 16; a report about a 16- or 17-year-old may be made but is not required (MCCSS duty-to-report guide).",
    "units_note": "",
    "clinical_review": {
     "required": true,
@@ -239,7 +239,7 @@
    "id": "ONRN-MOC-0015",
    "format": "multiple_choice",
    "scoring_model": "zero_one",
-   "stem": "A nurse in Ontario has reasonable grounds to suspect that a child has suffered physical harm from the person having charge of the child. What is the nurse’s legal obligation under the Child, Youth and Family Services Act, 2017?",
+   "stem": "A nurse in Ontario has reasonable grounds to suspect that a child under 16 years of age has suffered physical harm from the person having charge of the child. What is the nurse’s legal obligation under the Child, Youth and Family Services Act, 2017?",
    "options": [
     {
      "key": "A",
@@ -263,7 +263,7 @@
    ],
    "rationales": {
     "A": "Incorrect. CYFSA requires reporting based on reasonable grounds to suspect, not waiting for courtroom proof.",
-    "B": "Correct. CYFSA s. 125(1) requires a person who has reasonable grounds to suspect listed harms (including physical harm by the person in charge) to immediately report the suspicion and supporting information to a society; OpenStax states nurses may be legally required to report suspected abuse/neglect to the correct authorities.",
+    "B": "Correct. CYFSA s. 125(1) requires a person who has reasonable grounds to suspect listed harms, including physical harm by the person in charge, to immediately report the suspicion and the supporting information to a children’s aid society. Subsection 125(4) limits this mandatory duty to children under 16. A report about a 16- or 17-year-old may be made but is not required.",
     "C": "Incorrect. Confronting only the alleged caregiver and stopping there does not meet the statutory duty to report to a society.",
     "D": "Incorrect. Private informal notes without reporting to a society do not fulfill CYFSA’s immediate reporting duty."
    },
@@ -286,12 +286,12 @@
      "title": "Child, Youth and Family Services Act, 2017, S.O. 2017, c. 14, Sched. 1",
      "publisher": "Government of Ontario — e-Laws",
      "url": "https://www.ontario.ca/laws/statute/17c14",
-     "section": "s. 125(1) — Duty to report child in need of protection",
+     "section": "s. 125(1) duty to report; s. 125(4) age limit",
      "source_date": "Current consolidation (e-Laws)",
      "accessed_date": "2026-11-25",
      "source_type": "legislation",
-     "supports": "Key B; rationales A,C,D",
-     "evidence": "If a person has reasonable grounds to suspect listed circumstances (including physical harm inflicted by the person having charge), the person shall immediately report the suspicion and the information on which it is based to a society.",
+     "supports": "Key B; stem age limit; rationales A, C, D",
+     "evidence": "If a person has reasonable grounds to suspect listed circumstances, including physical harm inflicted by the person having charge, the person shall immediately report the suspicion and the information on which it is based to a society. The mandatory duty does not apply where the child is 16 or 17; a report may still be made.",
      "added_by": "author"
     },
     {
@@ -305,6 +305,18 @@
      "supports": "Key B; rationale A",
      "evidence": "When a nurse suspects a patient of being abused or neglected, they may be legally required to report their suspicions to the correct authorities.",
      "added_by": "author"
+    },
+    {
+     "title": "Reporting Child Abuse and Neglect: It’s Your Duty",
+     "publisher": "Government of Ontario — Ministry of Children, Community and Social Services",
+     "url": "https://files.ontario.ca/pdf-3/mccss-report-child-abuse-and-neglect-en-2022-03-31.pdf",
+     "section": "What is the age of the children to whom the duty to report applies?",
+     "source_date": "2022-03-31",
+     "accessed_date": "2026-11-25",
+     "source_type": "government_public_health",
+     "supports": "Stem age limit; key B; rationale B",
+     "evidence": "The duty to report applies to any child who is, or appears to be, under 16. A person who is concerned that a 16- or 17-year-old is in need of protection may report to a society but is not required to. Reports are made directly to a children’s aid society.",
+     "added_by": "independent_source_review"
     }
    ],
    "verification_log": [
@@ -313,6 +325,13 @@
      "by": "AI author (Composer, Cursor subagent bc-f3bcbe57) — not a licensed clinician",
      "date": "2026-11-25",
      "result": "Key dual-confirmed: CYFSA s.125(1) immediate report to a society + OpenStax reporting obligations for suspected abuse/neglect."
+    },
+    {
+     "pass": "independent_public_source_review",
+     "by": "AI reviewer (Cursor cloud agent) — not a licensed clinician",
+     "date": "2026-11-25",
+     "result": "stem_precision_corrected",
+     "checks": "Key letter unchanged (report immediately to a children’s aid society). Stem and rationale now limit the mandatory CYFSA s. 125 duty to children under 16, matching s. 125(4) and the MCCSS duty-to-report guide. Not a clinical approval."
     }
    ]
   },
