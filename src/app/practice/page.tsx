@@ -84,8 +84,8 @@ async function PracticeForm({ none }: { none: boolean }) {
         <Link href="/exams" className="font-medium text-[var(--accent)] hover:underline">
           Exam selection
         </Link>
-        <Link href="/dashboard" className="font-medium text-[var(--accent)] hover:underline">
-          Dashboard
+        <Link href="/" className="font-medium text-[var(--accent)] hover:underline">
+          Home
         </Link>
       </div>
     </>

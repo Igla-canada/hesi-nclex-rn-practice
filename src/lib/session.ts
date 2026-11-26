@@ -37,7 +37,7 @@ export async function requireRole(
   nextPath?: string,
 ): Promise<CurrentUser> {
   const user = await requireUser(nextPath);
-  if (!roles.includes(user.role)) redirect("/dashboard?denied=1");
+  if (!roles.includes(user.role)) redirect("/");
   return user;
 }
 
