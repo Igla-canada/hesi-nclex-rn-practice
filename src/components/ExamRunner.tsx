@@ -72,8 +72,17 @@ export function ExamRunner({
   const [practiceStop, setPracticeStop] = useState<PracticeStopResult | null>(null);
   const [practiceStopError, setPracticeStopError] = useState(false);
   const [deliveredCount, setDeliveredCount] = useState(questions.length);
+  const [shownAnswer, setShownAnswer] = useState<{
+    versionId: string;
+    correctAnswer: string;
+    rationale: string;
+  } | null>(null);
+  const [answerError, setAnswerError] = useState(false);
+  const [answerLoading, setAnswerLoading] = useState(false);
   const reviewStarted = useRef(false);
   const checkLock = useRef(false);
+  const revealGeneration = useRef(0);
+  const visibleVersionId = questions[index]?.versionId ?? "";
 
   useEffect(() => {
     const tick = () => setNow(Date.now());
@@ -81,6 +90,15 @@ export function ExamRunner({
     const timer = setInterval(tick, 1000);
     return () => clearInterval(timer);
   }, []);
+
+  useEffect(() => {
+    revealGeneration.current += 1;
+    // A revealed key belongs to the question on screen. Clear it when that question changes.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setShownAnswer(null);
+    setAnswerError(false);
+    setAnswerLoading(false);
+  }, [visibleVersionId]);
 
   useEffect(() => {
     try {
@@ -401,6 +419,56 @@ export function ExamRunner({
     });
   }
 
+  function submitExam() {
+    finish(persist(), {
+      ended: practiceLength ? "submit" : undefined,
+      count: index + 1,
+    });
+  }
+
+  async function showAnswer() {
+    if (answerLoading || shownAnswer?.versionId === question.versionId) return;
+    const generation = ++revealGeneration.current;
+    const versionId = question.versionId;
+    const itemId = question.id;
+    setAnswerLoading(true);
+    setAnswerError(false);
+    try {
+      const response = await fetch("/api/exam/reveal", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ id: itemId }),
+      });
+      if (revealGeneration.current !== generation) return;
+      if (!response.ok) {
+        setAnswerError(true);
+        return;
+      }
+      const body = (await response.json()) as {
+        id?: unknown;
+        correctAnswer?: unknown;
+        rationale?: unknown;
+      };
+      if (
+        revealGeneration.current !== generation ||
+        body.id !== itemId ||
+        typeof body.correctAnswer !== "string"
+      ) {
+        if (revealGeneration.current === generation) setAnswerError(true);
+        return;
+      }
+      setShownAnswer({
+        versionId,
+        correctAnswer: body.correctAnswer,
+        rationale: typeof body.rationale === "string" ? body.rationale : "",
+      });
+    } catch {
+      if (revealGeneration.current === generation) setAnswerError(true);
+    } finally {
+      if (revealGeneration.current === generation) setAnswerLoading(false);
+    }
+  }
+
   const orderedOptions =
     kind === "order"
       ? (selected.length > 0 ? selected : question.options.map((option) => option.id))
@@ -408,8 +476,27 @@ export function ExamRunner({
           .filter((option): option is NonNullable<typeof option> => Boolean(option))
       : question.options;
 
+  const submitButton = (
+    <button
+      type="button"
+      data-exam-control="submit"
+      disabled={checking}
+      onClick={submitExam}
+      className={
+        allowBacktrack
+          ? "ml-auto rounded-md bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-white disabled:opacity-40"
+          : "rounded-md border border-[var(--border)] bg-[var(--surface)] px-4 py-2 text-sm font-semibold hover:bg-[var(--surface-2)] disabled:opacity-40"
+      }
+    >
+      Submit exam
+    </button>
+  );
+
   return (
     <div className="space-y-6">
+      {allowBacktrack ? null : (
+        <div className="flex justify-end">{submitButton}</div>
+      )}
       <div className="flex flex-wrap items-center justify-between gap-3 rounded-lg border border-[var(--border)] bg-[var(--surface)] px-4 py-3 text-sm">
         <span>
           Question {index + 1}
@@ -624,44 +711,74 @@ export function ExamRunner({
         ) : null}
       </article>
 
-      <div className="flex flex-wrap gap-3">
+      <div className="rounded-lg border border-dashed border-[var(--border)] bg-[var(--surface)] p-4">
         <button
           type="button"
-          disabled={!allowBacktrack || index === 0 || checking}
-          onClick={() => go(-1)}
-          className="rounded-md border border-[var(--border)] px-4 py-2 text-sm disabled:opacity-40"
+          data-exam-control="show-answer"
+          disabled={answerLoading || shownAnswer?.versionId === question.versionId}
+          onClick={() => void showAnswer()}
+          className="rounded-md border border-[var(--border)] px-4 py-2 text-sm font-semibold disabled:opacity-40"
         >
-          Previous
+          {answerLoading ? "Loading answer…" : "Show answer"}
         </button>
+        <p className="mt-2 text-sm text-[var(--muted)]">
+          Shows the correct answer for this question only.
+        </p>
+        {shownAnswer?.versionId === question.versionId ? (
+          <div role="status" className="mt-4 space-y-3 text-sm">
+            <div>
+              <p className="font-semibold">Correct answer</p>
+              <p className="mt-1 whitespace-pre-wrap">{shownAnswer.correctAnswer}</p>
+            </div>
+            {shownAnswer.rationale ? (
+              <div>
+                <p className="font-semibold">Rationale</p>
+                <p className="mt-1 whitespace-pre-wrap">{shownAnswer.rationale}</p>
+              </div>
+            ) : null}
+          </div>
+        ) : null}
+        {answerError ? (
+          <p className="mt-3 text-sm" role="alert">
+            The answer for this question could not be loaded.
+          </p>
+        ) : null}
+      </div>
+
+      <div className="flex flex-wrap gap-3">
+        {allowBacktrack ? (
+          <button
+            type="button"
+            disabled={index === 0 || checking}
+            onClick={() => go(-1)}
+            className="rounded-md border border-[var(--border)] px-4 py-2 text-sm disabled:opacity-40"
+          >
+            Previous
+          </button>
+        ) : null}
         <button
           type="button"
+          data-exam-control="next"
           disabled={index >= questions.length - 1 || checking}
           onClick={() => go(1)}
-          className="rounded-md border border-[var(--border)] px-4 py-2 text-sm disabled:opacity-40"
+          className={
+            allowBacktrack
+              ? "rounded-md border border-[var(--border)] px-4 py-2 text-sm disabled:opacity-40"
+              : "rounded-md bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-white disabled:opacity-40"
+          }
         >
           Next
         </button>
         <button
           type="button"
+          data-exam-control="skip"
           disabled={locked || checking}
           onClick={skip}
           className="rounded-md border border-[var(--border)] px-4 py-2 text-sm disabled:opacity-40"
         >
           Skip
         </button>
-        <button
-          type="button"
-          disabled={checking}
-          onClick={() =>
-            finish(persist(), {
-              ended: practiceLength ? "submit" : undefined,
-              count: index + 1,
-            })
-          }
-          className="ml-auto rounded-md bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-white disabled:opacity-40"
-        >
-          Submit exam
-        </button>
+        {allowBacktrack ? submitButton : null}
       </div>
     </div>
   );

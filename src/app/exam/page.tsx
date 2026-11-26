@@ -45,7 +45,7 @@ function LiveSessionView({
       {practiceLength ? <PracticeLengthNote /> : null}
       <p className="mb-4 text-sm text-[var(--muted)]">
         Mode: <strong className="text-[var(--ink)]">{session.modeLabel}</strong>. Answers stay in
-        this browser. Correct answers are not sent to the client in Exam Mode.
+        this browser. Show answer loads the correct answer for the current question only.
       </p>
       <ExamRunner
         key={session.attemptId}
@@ -82,7 +82,7 @@ async function ExamSession({
           {practiceLength ? <PracticeLengthNote /> : null}
           <p className="mb-4 text-sm text-[var(--muted)]">
             Mode: <strong className="text-[var(--ink)]">{loaded.modeLabel}</strong>. Answers stay in
-            this browser. Correct answers are not sent to the client in Exam Mode.
+            this browser. Show answer loads the correct answer for the current question only.
           </p>
           <ExamRunner
             key={loaded.attemptId}
