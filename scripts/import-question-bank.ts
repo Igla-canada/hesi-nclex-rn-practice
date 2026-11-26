@@ -234,11 +234,13 @@ async function main() {
       await prisma.correctAnswer.create({
         data: {
           questionId: q.id,
-          answerKey: {
-            format: item.format,
-            ngn: item.ngn,
-            correct: item.correct_answer,
-          },
+          answerKey: JSON.parse(
+            JSON.stringify({
+              format: item.format,
+              ngn: item.ngn,
+              correct: item.correct_answer,
+            }),
+          ),
           pointsMax: 1,
         },
       });
