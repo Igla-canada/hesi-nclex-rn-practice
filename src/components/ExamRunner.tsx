@@ -7,9 +7,10 @@ import type {
   LocalExamPersistence,
   StoredAnswer,
 } from "@/lib/exam-config";
-import { LOCAL_PERSIST_PREFIX } from "@/lib/exam-config";
+import { LOCAL_PERSIST_PREFIX, NCLEX85_MIN_ITEMS } from "@/lib/exam-config";
 import type { ReviewResponse } from "@/lib/exam-followup";
 import { applySkip, recordedAnswers } from "@/lib/exam-skip";
+import type { PracticeDecision, PracticeEnd, PracticeStopResult } from "@/lib/practice-stop";
 import { remainingMs } from "@/lib/scoring";
 import { ExamFollowUp } from "@/components/ExamFollowUp";
 
@@ -18,6 +19,7 @@ type Props = {
   questions: ClientExamQuestion[];
   endsAtIso: string;
   allowBacktrack?: boolean;
+  practiceLength?: boolean;
   onAutosave?: (payload: LocalExamPersistence) => void;
   onSubmit?: (payload: LocalExamPersistence) => void;
 };
@@ -51,6 +53,7 @@ export function ExamRunner({
   questions,
   endsAtIso,
   allowBacktrack = true,
+  practiceLength = false,
   onAutosave,
   onSubmit,
 }: Props) {
@@ -65,7 +68,12 @@ export function ExamRunner({
   const [submitted, setSubmitted] = useState(false);
   const [review, setReview] = useState<ReviewResponse | null>(null);
   const [reviewError, setReviewError] = useState(false);
+  const [checking, setChecking] = useState(false);
+  const [practiceStop, setPracticeStop] = useState<PracticeStopResult | null>(null);
+  const [practiceStopError, setPracticeStopError] = useState(false);
+  const [deliveredCount, setDeliveredCount] = useState(questions.length);
   const reviewStarted = useRef(false);
+  const checkLock = useRef(false);
 
   useEffect(() => {
     const tick = () => setNow(Date.now());
@@ -123,36 +131,105 @@ export function ExamRunner({
     [answers, flagged, index, skipped, snapshot],
   );
 
+  const postDecision = useCallback(
+    async (
+      count: number,
+      ended: PracticeEnd,
+      currentAnswers: Record<string, StoredAnswer>,
+      currentSkipped: string[],
+    ): Promise<PracticeDecision> => {
+      const prefix = questions.slice(0, count);
+      const recorded = recordedAnswers(prefix, currentAnswers, currentSkipped);
+      const response = await fetch("/api/exam/adaptive", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          poolIds: questions.map((item) => item.id),
+          ended,
+          items: prefix.map((item) => ({
+            id: item.id,
+            versionId: item.versionId,
+            answer: recorded[item.versionId] ?? null,
+          })),
+        }),
+      });
+      if (!response.ok) throw new Error("adaptive");
+      const decision = (await response.json()) as PracticeDecision;
+      if (decision.action !== "continue" && decision.action !== "stop") {
+        throw new Error("adaptive");
+      }
+      return decision;
+    },
+    [questions],
+  );
+
   const finish = useCallback(
-    (payload: LocalExamPersistence) => {
+    (
+      payload: LocalExamPersistence,
+      options?: { count?: number; ended?: PracticeEnd; decision?: PracticeDecision },
+    ) => {
       if (reviewStarted.current) return;
       reviewStarted.current = true;
+      const delivered = practiceLength
+        ? Math.min(questions.length, options?.count ?? index + 1)
+        : questions.length;
+      setDeliveredCount(delivered);
       setSubmitted(true);
       onSubmit?.(payload);
+      const prefix = questions.slice(0, delivered);
+      const recorded = practiceLength
+        ? recordedAnswers(prefix, payload.answers, payload.skipped ?? [])
+        : payload.answers;
+      const reviewQuestions = practiceLength ? prefix : questions;
+
       void (async () => {
-        try {
-          const response = await fetch("/api/exam/review", {
-            method: "POST",
-            headers: { "content-type": "application/json" },
-            body: JSON.stringify({
-              items: questions.map((item) => ({
-                id: item.id,
-                versionId: item.versionId,
-                answer: payload.answers[item.versionId] ?? null,
-              })),
-            }),
-          });
-          if (!response.ok) {
-            setReviewError(true);
-            return;
-          }
-          setReview((await response.json()) as ReviewResponse);
-        } catch {
+        const reviewPromise = fetch("/api/exam/review", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({
+            items: reviewQuestions.map((item) => ({
+              id: item.id,
+              versionId: item.versionId,
+              answer: recorded[item.versionId] ?? null,
+            })),
+          }),
+        });
+        const decisionPromise: Promise<PracticeDecision | null> =
+          practiceLength && options?.decision
+            ? Promise.resolve(options.decision)
+            : practiceLength
+              ? postDecision(
+                  delivered,
+                  options?.ended ?? "submit",
+                  payload.answers,
+                  payload.skipped ?? [],
+                )
+              : Promise.resolve(null);
+
+        const [reviewResult, decisionResult] = await Promise.allSettled([
+          reviewPromise,
+          decisionPromise,
+        ]);
+
+        if (reviewResult.status === "fulfilled" && reviewResult.value.ok) {
+          setReview((await reviewResult.value.json()) as ReviewResponse);
+        } else {
           setReviewError(true);
         }
+
+        if (!practiceLength) return;
+        if (
+          decisionResult.status === "fulfilled" &&
+          decisionResult.value?.action === "stop"
+        ) {
+          setPracticeStop(decisionResult.value);
+          setPracticeStopError(false);
+          return;
+        }
+        setPracticeStopError(true);
       })();
     },
-    [onSubmit, questions],
+    [index, onSubmit, postDecision, practiceLength, questions],
   );
 
   useEffect(() => {
@@ -166,9 +243,9 @@ export function ExamRunner({
   useEffect(() => {
     if (submitted || now == null) return;
     if (remainingMs(endsAt, new Date(now)) <= 0) {
-      finish(persist());
+      finish(persist(), { ended: "time", count: index + 1 });
     }
-  }, [endsAt, finish, now, persist, submitted]);
+  }, [endsAt, finish, index, now, persist, submitted]);
 
   const question = questions[index];
   const leftMs = now == null ? null : remainingMs(endsAt, new Date(now));
@@ -176,14 +253,20 @@ export function ExamRunner({
   const secs = leftMs == null ? null : Math.floor((leftMs % 60_000) / 1000);
 
   if (submitted) {
+    const deliveredQuestions = practiceLength
+      ? questions.slice(0, deliveredCount)
+      : questions;
     return (
       <ExamFollowUp
-        questions={questions}
+        questions={deliveredQuestions}
         answers={answers}
         flagged={flagged}
         skipped={skipped}
         review={review}
         reviewError={reviewError}
+        practiceLength={practiceLength}
+        practiceStop={practiceStop}
+        practiceStopError={practiceStopError}
       />
     );
   }
@@ -204,8 +287,52 @@ export function ExamRunner({
     setAnswers((prev) => ({ ...prev, [question.versionId]: next }));
   }
 
+  async function leaveForward(next: {
+    answers: Record<string, StoredAnswer>;
+    flagged: string[];
+    skipped: string[];
+    nextIndex: number;
+  }) {
+    if (checkLock.current || reviewStarted.current) return;
+    const completed = index + 1;
+    setAnswers(next.answers);
+    setFlagged(next.flagged);
+    setSkipped(next.skipped);
+    const atEnd = next.nextIndex >= questions.length || next.nextIndex === index;
+    const needsRule = practiceLength && (completed >= NCLEX85_MIN_ITEMS || atEnd);
+    if (!needsRule) {
+      snapshot(next.answers, next.nextIndex, next.flagged, next.skipped);
+      setIndex(next.nextIndex);
+      return;
+    }
+
+    checkLock.current = true;
+    setChecking(true);
+    setPracticeStopError(false);
+    try {
+      const ended: PracticeEnd = atEnd || completed >= questions.length ? "maximum" : "advance";
+      const decision = await postDecision(completed, ended, next.answers, next.skipped);
+      if (decision.action === "stop" || atEnd) {
+        const payload = snapshot(next.answers, index, next.flagged, next.skipped);
+        finish(payload, {
+          count: completed,
+          ended,
+          decision: decision.action === "stop" ? decision : undefined,
+        });
+        return;
+      }
+      snapshot(next.answers, next.nextIndex, next.flagged, next.skipped);
+      setIndex(next.nextIndex);
+    } catch {
+      setPracticeStopError(true);
+    } finally {
+      checkLock.current = false;
+      setChecking(false);
+    }
+  }
+
   function skip() {
-    if (locked) return;
+    if (locked || checkLock.current) return;
     const next = applySkip({
       versionId: question.versionId,
       index,
@@ -214,11 +341,12 @@ export function ExamRunner({
       flagged,
       skipped,
     });
-    setAnswers(next.answers);
-    setFlagged(next.flagged);
-    setSkipped(next.skipped);
-    setIndex(next.index);
-    snapshot(next.answers, next.index, next.flagged, next.skipped);
+    void leaveForward({
+      answers: next.answers,
+      flagged: next.flagged,
+      skipped: next.skipped,
+      nextIndex: next.index,
+    });
   }
 
   function toggleOption(optionId: string, multi: boolean) {
@@ -258,8 +386,19 @@ export function ExamRunner({
   }
 
   function go(delta: number) {
-    if (!allowBacktrack && delta < 0) return;
-    setIndex((current) => Math.min(questions.length - 1, Math.max(0, current + delta)));
+    if (checkLock.current) return;
+    if (delta < 0) {
+      if (!allowBacktrack) return;
+      setIndex((current) => Math.max(0, current + delta));
+      return;
+    }
+    if (index >= questions.length - 1) return;
+    void leaveForward({
+      answers,
+      flagged,
+      skipped,
+      nextIndex: index + 1,
+    });
   }
 
   const orderedOptions =
@@ -273,7 +412,12 @@ export function ExamRunner({
     <div className="space-y-6">
       <div className="flex flex-wrap items-center justify-between gap-3 rounded-lg border border-[var(--border)] bg-[var(--surface)] px-4 py-3 text-sm">
         <span>
-          Question {index + 1} / {questions.length}
+          Question {index + 1}
+          {practiceLength ? (
+            <span className="text-[var(--muted)]"> · 85–150</span>
+          ) : (
+            <> / {questions.length}</>
+          )}
         </span>
         <span aria-live="polite" className="font-mono tabular-nums">
           {mins == null || secs == null
@@ -300,7 +444,20 @@ export function ExamRunner({
           Skipped. No answer was recorded, and this question stays closed until after you submit.
         </p>
       ) : null}
+      {checking ? (
+        <p className="text-sm text-[var(--muted)]" role="status">
+          Checking the practice length rule…
+        </p>
+      ) : null}
+      {practiceStopError && !submitted ? (
+        <p className="text-sm" role="alert">
+          The practice length check did not complete. Stay on this question and choose Next again.
+        </p>
+      ) : null}
       <article
+        data-question-id={question.id}
+        data-question-number={index + 1}
+        data-response-kind={kind}
         className={`rounded-xl border border-[var(--border)] bg-[var(--surface)] p-6 ${
           locked ? "pointer-events-none opacity-70" : ""
         }`}
@@ -470,7 +627,7 @@ export function ExamRunner({
       <div className="flex flex-wrap gap-3">
         <button
           type="button"
-          disabled={!allowBacktrack || index === 0}
+          disabled={!allowBacktrack || index === 0 || checking}
           onClick={() => go(-1)}
           className="rounded-md border border-[var(--border)] px-4 py-2 text-sm disabled:opacity-40"
         >
@@ -478,7 +635,7 @@ export function ExamRunner({
         </button>
         <button
           type="button"
-          disabled={index >= questions.length - 1}
+          disabled={index >= questions.length - 1 || checking}
           onClick={() => go(1)}
           className="rounded-md border border-[var(--border)] px-4 py-2 text-sm disabled:opacity-40"
         >
@@ -486,7 +643,7 @@ export function ExamRunner({
         </button>
         <button
           type="button"
-          disabled={locked}
+          disabled={locked || checking}
           onClick={skip}
           className="rounded-md border border-[var(--border)] px-4 py-2 text-sm disabled:opacity-40"
         >
@@ -494,8 +651,14 @@ export function ExamRunner({
         </button>
         <button
           type="button"
-          onClick={() => finish(persist())}
-          className="ml-auto rounded-md bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-white"
+          disabled={checking}
+          onClick={() =>
+            finish(persist(), {
+              ended: practiceLength ? "submit" : undefined,
+              count: index + 1,
+            })
+          }
+          className="ml-auto rounded-md bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-white disabled:opacity-40"
         >
           Submit exam
         </button>

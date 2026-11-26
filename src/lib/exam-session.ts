@@ -681,6 +681,10 @@ export async function renderLiveSession(input: {
   };
 }
 
+export function sessionEndsAtIso(durationMinutes: number): string {
+  return new Date(Date.now() + durationMinutes * 60_000).toISOString();
+}
+
 export function fallbackNotice(reason: "empty" | "unreachable"): string {
   return poolNotice({ source: "example-fallback", reason });
 }

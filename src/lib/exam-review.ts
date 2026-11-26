@@ -142,13 +142,31 @@ export function keyFromBank(id: string): KeyedItem | null {
   };
 }
 
-function toStudentAnswer(answer: StoredAnswer | null): StudentAnswer | null {
+/** Bank keys are letters. Imported rows use ids like `ONRN-PA-0001:option:1:B`. */
+export function canonicalOptionId(id: string): string {
+  const marker = ":option:";
+  const at = id.lastIndexOf(marker);
+  if (at === -1) return id;
+  const key = id.slice(at + marker.length).split(":").pop();
+  return key && key.length > 0 ? key : id;
+}
+
+export function toStudentAnswer(answer: StoredAnswer | null): StudentAnswer | null {
   if (!answer) return null;
   const numeric = answer.numericValue?.trim();
-  if (!numeric) return answer;
+  const selected = answer.selectedOptionIds?.map(canonicalOptionId);
+  const ngn = answer.ngnResponses
+    ? Object.fromEntries(
+        Object.entries(answer.ngnResponses).map(([key, value]) => [
+          key,
+          Array.isArray(value) ? value.map(canonicalOptionId) : canonicalOptionId(value),
+        ]),
+      )
+    : undefined;
+  if (!numeric) return { selectedOptionIds: selected, ngnResponses: ngn };
   return {
-    selectedOptionIds: answer.selectedOptionIds,
-    ngnResponses: { ...(answer.ngnResponses ?? {}), value: numeric },
+    selectedOptionIds: selected,
+    ngnResponses: { ...(ngn ?? {}), value: numeric },
   };
 }
 

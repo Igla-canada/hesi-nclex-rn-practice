@@ -53,10 +53,10 @@ Anonymous sessions are stored on a non-login practice user (`practice-sessions@i
 
 | Mode | Notes |
 | --- | --- |
-| NCLEX fixed (85 / 150) | Blueprint quotas from 2026 Client Needs midpoints |
+| NCLEX practice length (85–150) | 180 minutes, no backtrack. 15 unscored items. Stops early when scored points are clearly away from an 85% practice threshold. Near the line, continues up to 150. **Not** an NCLEX pass, logit, or 95% confidence rule |
+| NCLEX fixed (150) | Blueprint quotas from 2026 Client Needs midpoints |
 | HESI-style mock (~150) | Fixed-form inspired by **public** Elsevier structure only |
 | Study / custom / randomized | Tutor rationales; filters by Client Needs / CJMM |
-| CAT-lite (planned) | Adaptive practice — **not** official CAT |
 
 Default practice benchmark: **85%** accuracy (configurable). Points and accuracy are reported separately for NGN partial credit.
 

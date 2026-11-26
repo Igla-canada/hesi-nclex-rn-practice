@@ -9,6 +9,17 @@ export const EXAM_EXTENDED_DURATION_MINUTES = Number(
 );
 /** NCLEX-style 85 practice limit. The 150-item mode keeps the extended limit above. */
 export const NCLEX85_DURATION_MINUTES = 180;
+/** Practice-length bounds for the NCLEX 85 exam. The pool drawn is the maximum. */
+export const NCLEX85_MIN_ITEMS = 85;
+export const NCLEX85_MAX_ITEMS = 150;
+export const NCLEX85_PRETEST_ITEMS = 15;
+/**
+ * Practice threshold: percent of points on scored items.
+ * A stand-in only. It is not the NCSBN 0.00 logit.
+ */
+export const NCLEX85_PRACTICE_THRESHOLD_PERCENT = 85;
+/** Fixed band around the threshold. Inside it, the practice exam continues. */
+export const NCLEX85_CLEAR_MARGIN_POINTS = 10;
 export const PRACTICE_BENCHMARK_PERCENT = Number(
   process.env.NEXT_PUBLIC_PRACTICE_BENCHMARK_PERCENT ?? 85,
 );
@@ -82,18 +93,21 @@ export type SessionModeSpec = {
   durationMinutes: number;
   allowBacktrack: boolean;
   blueprint: boolean;
+  /** Variable 85–150 length with a practice stop rule. */
+  practiceLength: boolean;
 };
 
 export const SESSION_MODES: Record<SessionModeId, SessionModeSpec> = {
   nclex85: {
     id: "nclex85",
-    label: "NCLEX-style fixed (85)",
-    detail: "85 items · up to 3h · no backtrack",
+    label: "NCLEX-style practice length (85–150)",
+    detail: "85–150 items · 15 unscored · up to 3h · no backtrack",
     examMode: "NCLEX_FIXED",
-    questionCount: 85,
+    questionCount: NCLEX85_MAX_ITEMS,
     durationMinutes: NCLEX85_DURATION_MINUTES,
     allowBacktrack: false,
     blueprint: true,
+    practiceLength: true,
   },
   nclex150: {
     id: "nclex150",
@@ -104,6 +118,7 @@ export const SESSION_MODES: Record<SessionModeId, SessionModeSpec> = {
     durationMinutes: EXAM_EXTENDED_DURATION_MINUTES,
     allowBacktrack: false,
     blueprint: true,
+    practiceLength: false,
   },
   hesi150: {
     id: "hesi150",
@@ -114,6 +129,7 @@ export const SESSION_MODES: Record<SessionModeId, SessionModeSpec> = {
     durationMinutes: EXAM_DEFAULT_DURATION_MINUTES,
     allowBacktrack: true,
     blueprint: true,
+    practiceLength: false,
   },
   practice: {
     id: "practice",
@@ -124,6 +140,7 @@ export const SESSION_MODES: Record<SessionModeId, SessionModeSpec> = {
     durationMinutes: 40,
     allowBacktrack: true,
     blueprint: false,
+    practiceLength: false,
   },
 };
 

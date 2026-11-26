@@ -3,6 +3,7 @@
 import { useState } from "react";
 import type { ClientExamQuestion, StoredAnswer } from "@/lib/exam-config";
 import type { ReviewResponse } from "@/lib/exam-followup";
+import type { PracticeStopResult } from "@/lib/practice-stop";
 
 type Props = {
   questions: ClientExamQuestion[];
@@ -11,6 +12,9 @@ type Props = {
   skipped: string[];
   review: ReviewResponse | null;
   reviewError: boolean;
+  practiceLength?: boolean;
+  practiceStop?: PracticeStopResult | null;
+  practiceStopError?: boolean;
 };
 
 function answerText(question: ClientExamQuestion, answer: StoredAnswer | undefined): string {
@@ -35,6 +39,9 @@ export function ExamFollowUp({
   skipped,
   review,
   reviewError,
+  practiceLength = false,
+  practiceStop = null,
+  practiceStopError = false,
 }: Props) {
   const flaggedIds = new Set(flagged);
   const skippedIds = new Set(skipped);
@@ -46,8 +53,72 @@ export function ExamFollowUp({
   const [practiceAnswers, setPracticeAnswers] = useState<Record<string, string[]>>({});
   const current = practice[practiceIndex];
 
+  const outcomeLabel =
+    practiceStop?.outcome === "met"
+      ? "Practice rule met"
+      : practiceStop?.outcome === "not-met"
+        ? "Practice rule not met"
+        : null;
+
   return (
     <div className="space-y-8">
+      {practiceLength ? (
+        <section
+          aria-labelledby="results-heading"
+          className="rounded-xl border border-[var(--border)] bg-[var(--surface)] p-6"
+        >
+          <h2 id="results-heading" className="font-display text-xl font-semibold">
+            Results
+          </h2>
+          <p className="mt-2 text-sm font-semibold">
+            This is a practice stop rule, not an NCLEX pass.
+          </p>
+          {practiceStop ? (
+            <>
+              <p className="mt-3 text-lg font-semibold">{outcomeLabel}</p>
+              <p className="mt-2 text-sm">{practiceStop.summary}</p>
+              <dl className="mt-4 grid gap-2 text-sm sm:grid-cols-2">
+                <div>
+                  <dt className="text-[var(--muted)]">Items completed</dt>
+                  <dd>{practiceStop.administered}</dd>
+                </div>
+                <div>
+                  <dt className="text-[var(--muted)]">Unscored pretest items</dt>
+                  <dd>{practiceStop.pretestCount}</dd>
+                </div>
+                <div>
+                  <dt className="text-[var(--muted)]">Scored items</dt>
+                  <dd>{practiceStop.scoredCount}</dd>
+                </div>
+                <div>
+                  <dt className="text-[var(--muted)]">Scored points</dt>
+                  <dd>
+                    {practiceStop.pointsEarned} / {practiceStop.pointsPossible} (
+                    {practiceStop.scoredPercent}%)
+                  </dd>
+                </div>
+                <div>
+                  <dt className="text-[var(--muted)]">Practice threshold</dt>
+                  <dd>{practiceStop.thresholdPercent}% of scored points</dd>
+                </div>
+                <div>
+                  <dt className="text-[var(--muted)]">Early stop lines</dt>
+                  <dd>
+                    {practiceStop.clearlyBelowPercent}% or {practiceStop.clearlyAbovePercent}%
+                  </dd>
+                </div>
+              </dl>
+              <p className="mt-4 text-sm text-[var(--muted)]">{practiceStop.disclaimer}</p>
+            </>
+          ) : (
+            <p className="mt-3 text-sm text-[var(--muted)]">
+              {practiceStopError
+                ? "The practice rule result could not be loaded. This is still a practice stop rule, not an NCLEX pass."
+                : "Scoring the practice rule…"}
+            </p>
+          )}
+        </section>
+      ) : null}
       <section className="rounded-xl border border-[var(--border)] bg-[var(--surface)] p-6">
         <h2 className="font-display text-xl font-semibold">After the exam</h2>
         <p className="mt-2 text-sm text-[var(--muted)]">
@@ -254,7 +325,7 @@ function MistakePractice({
   return (
     <ul className="mt-4 space-y-2">
       {question.options.map((option) => {
-        const isCorrect = correct.has(option.id);
+        const isCorrect = correct.has(option.id) || correct.has(option.label);
         const checked = selected.includes(option.id);
         return (
           <li key={option.id}>
