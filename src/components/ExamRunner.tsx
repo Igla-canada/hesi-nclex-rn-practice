@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type {
   ClientExamQuestion,
   ClientResponseKind,
@@ -8,7 +8,10 @@ import type {
   StoredAnswer,
 } from "@/lib/exam-config";
 import { LOCAL_PERSIST_PREFIX } from "@/lib/exam-config";
+import type { ReviewResponse } from "@/lib/exam-followup";
+import { applySkip, recordedAnswers } from "@/lib/exam-skip";
 import { remainingMs } from "@/lib/scoring";
+import { ExamFollowUp } from "@/components/ExamFollowUp";
 
 type Props = {
   attemptId: string;
@@ -56,9 +59,13 @@ export function ExamRunner({
 
   const [index, setIndex] = useState(0);
   const [flagged, setFlagged] = useState<string[]>([]);
+  const [skipped, setSkipped] = useState<string[]>([]);
   const [answers, setAnswers] = useState<Record<string, StoredAnswer>>({});
   const [now, setNow] = useState<number | null>(null);
   const [submitted, setSubmitted] = useState(false);
+  const [review, setReview] = useState<ReviewResponse | null>(null);
+  const [reviewError, setReviewError] = useState(false);
+  const reviewStarted = useRef(false);
 
   useEffect(() => {
     const tick = () => setNow(Date.now());
@@ -73,8 +80,11 @@ export function ExamRunner({
       if (!raw) return;
       const parsed = JSON.parse(raw) as LocalExamPersistence;
       if (parsed.attemptId !== attemptId) return;
+      // Local progress is read after mount so the server render stays free of saved answers.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setIndex(parsed.currentIndex ?? 0);
       setFlagged(parsed.flagged ?? []);
+      setSkipped(parsed.skipped ?? []);
       setAnswers(parsed.answers ?? {});
     } catch {
       /* ignore corrupt local state */
@@ -82,23 +92,18 @@ export function ExamRunner({
   }, [attemptId, storageKey]);
 
   const snapshot = useCallback(
-    (currentAnswers: Record<string, StoredAnswer>, currentIndex: number, currentFlagged: string[]) => {
-      const nextAnswers = { ...currentAnswers };
-      for (const question of questions) {
-        if (
-          kindOf(question) === "order" &&
-          !nextAnswers[question.versionId]?.selectedOptionIds?.length
-        ) {
-          nextAnswers[question.versionId] = {
-            ...nextAnswers[question.versionId],
-            selectedOptionIds: question.options.map((option) => option.id),
-          };
-        }
-      }
+    (
+      currentAnswers: Record<string, StoredAnswer>,
+      currentIndex: number,
+      currentFlagged: string[],
+      currentSkipped: string[],
+    ) => {
+      const nextAnswers = recordedAnswers(questions, currentAnswers, currentSkipped);
       const payload: LocalExamPersistence = {
         attemptId,
         currentIndex,
         flagged: currentFlagged,
+        skipped: currentSkipped,
         answers: nextAnswers,
         updatedAt: new Date().toISOString(),
       };
@@ -114,8 +119,40 @@ export function ExamRunner({
   );
 
   const persist = useCallback(
-    () => snapshot(answers, index, flagged),
-    [answers, flagged, index, snapshot],
+    () => snapshot(answers, index, flagged, skipped),
+    [answers, flagged, index, skipped, snapshot],
+  );
+
+  const finish = useCallback(
+    (payload: LocalExamPersistence) => {
+      if (reviewStarted.current) return;
+      reviewStarted.current = true;
+      setSubmitted(true);
+      onSubmit?.(payload);
+      void (async () => {
+        try {
+          const response = await fetch("/api/exam/review", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify({
+              items: questions.map((item) => ({
+                id: item.id,
+                versionId: item.versionId,
+                answer: payload.answers[item.versionId] ?? null,
+              })),
+            }),
+          });
+          if (!response.ok) {
+            setReviewError(true);
+            return;
+          }
+          setReview((await response.json()) as ReviewResponse);
+        } catch {
+          setReviewError(true);
+        }
+      })();
+    },
+    [onSubmit, questions],
   );
 
   useEffect(() => {
@@ -129,15 +166,27 @@ export function ExamRunner({
   useEffect(() => {
     if (submitted || now == null) return;
     if (remainingMs(endsAt, new Date(now)) <= 0) {
-      setSubmitted(true);
-      onSubmit?.(persist());
+      finish(persist());
     }
-  }, [endsAt, now, onSubmit, persist, submitted]);
+  }, [endsAt, finish, now, persist, submitted]);
 
   const question = questions[index];
   const leftMs = now == null ? null : remainingMs(endsAt, new Date(now));
   const mins = leftMs == null ? null : Math.floor(leftMs / 60_000);
   const secs = leftMs == null ? null : Math.floor((leftMs % 60_000) / 1000);
+
+  if (submitted) {
+    return (
+      <ExamFollowUp
+        questions={questions}
+        answers={answers}
+        flagged={flagged}
+        skipped={skipped}
+        review={review}
+        reviewError={reviewError}
+      />
+    );
+  }
 
   if (!question) {
     return <p className="text-[var(--muted)]">No questions loaded.</p>;
@@ -148,8 +197,28 @@ export function ExamRunner({
   const selected = answer.selectedOptionIds ?? [];
   const ngn = answer.ngnResponses ?? {};
 
+  const locked = skipped.includes(question.versionId);
+
   function write(next: StoredAnswer) {
+    if (locked) return;
     setAnswers((prev) => ({ ...prev, [question.versionId]: next }));
+  }
+
+  function skip() {
+    if (locked) return;
+    const next = applySkip({
+      versionId: question.versionId,
+      index,
+      questionCount: questions.length,
+      answers,
+      flagged,
+      skipped,
+    });
+    setAnswers(next.answers);
+    setFlagged(next.flagged);
+    setSkipped(next.skipped);
+    setIndex(next.index);
+    snapshot(next.answers, next.index, next.flagged, next.skipped);
   }
 
   function toggleOption(optionId: string, multi: boolean) {
@@ -226,7 +295,16 @@ export function ExamRunner({
         </button>
       </div>
 
-      <article className="rounded-xl border border-[var(--border)] bg-[var(--surface)] p-6">
+      {locked ? (
+        <p className="text-sm text-[var(--muted)]">
+          Skipped. No answer was recorded, and this question stays closed until after you submit.
+        </p>
+      ) : null}
+      <article
+        className={`rounded-xl border border-[var(--border)] bg-[var(--surface)] p-6 ${
+          locked ? "pointer-events-none opacity-70" : ""
+        }`}
+      >
         <p className="text-xs uppercase tracking-wide text-[var(--muted)]">
           {question.topic ?? TYPE_LABEL[question.questionType] ?? question.questionType}
         </p>
@@ -408,21 +486,20 @@ export function ExamRunner({
         </button>
         <button
           type="button"
-          onClick={() => {
-            setSubmitted(true);
-            onSubmit?.(persist());
-          }}
+          disabled={locked}
+          onClick={skip}
+          className="rounded-md border border-[var(--border)] px-4 py-2 text-sm disabled:opacity-40"
+        >
+          Skip
+        </button>
+        <button
+          type="button"
+          onClick={() => finish(persist())}
           className="ml-auto rounded-md bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-white"
         >
           Submit exam
         </button>
       </div>
-      {submitted ? (
-        <p className="text-sm text-[var(--warn)]" role="status">
-          Submitted (or auto-submitted on timeout). Scoring runs on the server — correct answers
-          are not available in Exam Mode until review.
-        </p>
-      ) : null}
     </div>
   );
 }

@@ -283,7 +283,7 @@ async function main() {
       description:
         "Blueprint-balanced shell using 2026 Client Needs midpoints. Demo exam version; example items only.",
       questionCount: 85,
-      durationMinutes: 300,
+      durationMinutes: 180,
       allowBacktrack: false,
       isPublished: false,
     },

@@ -7,6 +7,8 @@ export const EXAM_DEFAULT_DURATION_MINUTES = Number(
 export const EXAM_EXTENDED_DURATION_MINUTES = Number(
   process.env.EXAM_EXTENDED_DURATION_MINUTES ?? 300,
 );
+/** NCLEX-style 85 practice limit. The 150-item mode keeps the extended limit above. */
+export const NCLEX85_DURATION_MINUTES = 180;
 export const PRACTICE_BENCHMARK_PERCENT = Number(
   process.env.NEXT_PUBLIC_PRACTICE_BENCHMARK_PERCENT ?? 85,
 );
@@ -63,6 +65,8 @@ export type LocalExamPersistence = {
   attemptId: string;
   currentIndex: number;
   flagged: string[];
+  /** Skipped items stay unanswered. Order defaults must not be filled in for these. */
+  skipped?: string[];
   answers: Record<string, StoredAnswer>;
   updatedAt: string;
 };
@@ -84,10 +88,10 @@ export const SESSION_MODES: Record<SessionModeId, SessionModeSpec> = {
   nclex85: {
     id: "nclex85",
     label: "NCLEX-style fixed (85)",
-    detail: "85 items · up to 5h · no backtrack",
+    detail: "85 items · up to 3h · no backtrack",
     examMode: "NCLEX_FIXED",
     questionCount: 85,
-    durationMinutes: EXAM_EXTENDED_DURATION_MINUTES,
+    durationMinutes: NCLEX85_DURATION_MINUTES,
     allowBacktrack: false,
     blueprint: true,
   },
