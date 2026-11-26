@@ -231,7 +231,7 @@ async function main() {
         optionIdByKey.set(opt.key, createdOpt.id);
       }
     } else if (item.ngn) {
-      // Store NGN structure as a single answerKey payload; UI for NGN is Phase 2.
+      // `ngn` is the prompt the exam runner may show. `correct` stays server-side.
       await prisma.correctAnswer.create({
         data: {
           questionId: q.id,
@@ -245,7 +245,16 @@ async function main() {
       });
     }
 
-    if (Array.isArray(item.correct_answer)) {
+    if (item.format === "ordered_response" && Array.isArray(item.correct_answer)) {
+      // One payload so the sequence survives import. Per-key rows would drop order.
+      await prisma.correctAnswer.create({
+        data: {
+          questionId: q.id,
+          answerKey: { order: item.correct_answer } as Prisma.InputJsonValue,
+          pointsMax: 1,
+        },
+      });
+    } else if (Array.isArray(item.correct_answer)) {
       for (const key of item.correct_answer as string[]) {
         await prisma.correctAnswer.create({
           data: {
@@ -310,8 +319,24 @@ async function main() {
     created += 1;
   }
 
+  const sourceVerified = await prisma.question.count({
+    where: {
+      isExample: false,
+      verificationStatus: VerificationStatus.SOURCE_VERIFIED,
+    },
+  });
+  const clinicallyApproved = await prisma.question.count({
+    where: {
+      verificationStatus: {
+        in: [
+          VerificationStatus.APPROVED,
+          VerificationStatus.CLINICALLY_REVIEWED,
+        ],
+      },
+    },
+  });
   console.log(
-    `Import done. created=${created} updated=${updated} skipped=${skipped}. Published exams unchanged (0).`,
+    `Import done. created=${created} updated=${updated} skipped=${skipped}. sourceVerified=${sourceVerified} clinicallyApproved=${clinicallyApproved}. Published exams unchanged (0).`,
   );
   await prisma.$disconnect();
 }

@@ -1,5 +1,8 @@
-import Link from "next/link";
+import { Suspense } from "react";
 import { PageShell } from "@/components/PageShell";
+import { ExamPoolBanner } from "@/components/ExamPoolBanner";
+import { SubmitButton } from "@/components/SubmitButton";
+import { startExam } from "@/app/exam/actions";
 import {
   CLIENT_NEEDS_2026,
   allocateBlueprintQuotas,
@@ -7,12 +10,49 @@ import {
   NCLEX_MIN_ITEMS,
   NCLEX_TIME_HOURS,
 } from "@/lib/blueprint";
-import {
-  EXAM_DEFAULT_DURATION_MINUTES,
-  EXAM_EXTENDED_DURATION_MINUTES,
-} from "@/lib/exam-config";
+import { SESSION_MODES, type SessionModeId } from "@/lib/exam-config";
+import { getPoolStatus } from "@/lib/exam-session";
 
 export const metadata = { title: "Exam selection" };
+
+const CHOICES: SessionModeId[] = ["nclex85", "nclex150", "hesi150"];
+
+async function ExamChooser() {
+  const status = await getPoolStatus();
+  return (
+    <>
+      <ExamPoolBanner source={status.source} notice={status.notice} />
+      <div className="grid gap-4 md:grid-cols-2">
+        {CHOICES.map((mode) => {
+          const spec = SESSION_MODES[mode];
+          const detail =
+            mode === "nclex85"
+              ? `${NCLEX_MIN_ITEMS} items · up to ${NCLEX_TIME_HOURS}h · no backtrack`
+              : spec.detail;
+          return (
+            <form key={mode} action={startExam}>
+              <input type="hidden" name="mode" value={mode} />
+              <SubmitButton className="w-full rounded-xl border border-[var(--border)] bg-[var(--surface)] p-5 text-left hover:border-[var(--accent)] disabled:opacity-60">
+                <span className="font-display block text-lg font-semibold">{spec.label}</span>
+                <span className="mt-1 block text-sm text-[var(--muted)]">{detail}</span>
+              </SubmitButton>
+            </form>
+          );
+        })}
+        <form action={startExam}>
+          <input type="hidden" name="mode" value="practice" />
+          <input type="hidden" name="count" value="20" />
+          <SubmitButton className="w-full rounded-xl border border-[var(--border)] bg-[var(--surface)] p-5 text-left hover:border-[var(--accent)] disabled:opacity-60">
+            <span className="font-display block text-lg font-semibold">Custom / randomized</span>
+            <span className="mt-1 block text-sm text-[var(--muted)]">
+              20 items across Client Needs. Open custom practice to filter.
+            </span>
+          </SubmitButton>
+        </form>
+      </div>
+    </>
+  );
+}
 
 export default function ExamsPage() {
   const plan85 = allocateBlueprintQuotas(NCLEX_MIN_ITEMS);
@@ -21,41 +61,11 @@ export default function ExamsPage() {
   return (
     <PageShell
       title="Exam selection"
-      description="Choose NCLEX-style fixed practice (85 or 150), HESI-style mock (~150), or randomized blueprint-balanced sets. Blueprint quotas use 2026 NCLEX-RN Client Needs midpoints."
+      description="Choose NCLEX-style fixed practice (85 or 150), HESI-style mock (~150), or a randomized set. A session loads source-verified practice items. Clinically approved items stay at zero until a reviewer approves them."
     >
-      <div className="grid gap-4 md:grid-cols-2">
-        {[
-          {
-            href: "/exam?mode=nclex85",
-            title: "NCLEX-style fixed (85)",
-            detail: `${NCLEX_MIN_ITEMS} items · up to ${NCLEX_TIME_HOURS}h · no backtrack default`,
-          },
-          {
-            href: "/exam?mode=nclex150",
-            title: "NCLEX-style fixed (150)",
-            detail: `${NCLEX_MAX_ITEMS} items · ${EXAM_EXTENDED_DURATION_MINUTES} min optional`,
-          },
-          {
-            href: "/exam?mode=hesi150",
-            title: "HESI-style mock (150)",
-            detail: `Fixed-form · ${EXAM_DEFAULT_DURATION_MINUTES} min default · public structure only`,
-          },
-          {
-            href: "/practice",
-            title: "Custom / randomized",
-            detail: "Pick Client Needs filters or randomize within blueprint",
-          },
-        ].map((card) => (
-          <Link
-            key={card.href}
-            href={card.href}
-            className="rounded-xl border border-[var(--border)] bg-[var(--surface)] p-5 hover:border-[var(--accent)]"
-          >
-            <h2 className="font-display text-lg font-semibold">{card.title}</h2>
-            <p className="mt-1 text-sm text-[var(--muted)]">{card.detail}</p>
-          </Link>
-        ))}
-      </div>
+      <Suspense fallback={<p className="mb-4 text-sm text-[var(--muted)]">Checking the question bank…</p>}>
+        <ExamChooser />
+      </Suspense>
 
       <section className="mt-10">
         <h2 className="font-display text-xl font-semibold">
@@ -76,14 +86,14 @@ export default function ExamsPage() {
               </tr>
             </thead>
             <tbody>
-              {CLIENT_NEEDS_2026.map((c) => (
-                <tr key={c.id} className="border-t border-[var(--border)]">
-                  <td className="px-3 py-2">{c.label}</td>
+              {CLIENT_NEEDS_2026.map((category) => (
+                <tr key={category.id} className="border-t border-[var(--border)]">
+                  <td className="px-3 py-2">{category.label}</td>
                   <td className="px-3 py-2 tabular-nums">
-                    {c.minPercent}–{c.maxPercent}% (avg {c.avgPercent}%)
+                    {category.minPercent}–{category.maxPercent}% (avg {category.avgPercent}%)
                   </td>
-                  <td className="px-3 py-2 tabular-nums">{plan85[c.id]}</td>
-                  <td className="px-3 py-2 tabular-nums">{plan150[c.id]}</td>
+                  <td className="px-3 py-2 tabular-nums">{plan85[category.id]}</td>
+                  <td className="px-3 py-2 tabular-nums">{plan150[category.id]}</td>
                 </tr>
               ))}
             </tbody>

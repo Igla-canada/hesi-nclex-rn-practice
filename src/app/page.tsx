@@ -1,7 +1,14 @@
+import { Suspense } from "react";
 import Link from "next/link";
 import { PageShell } from "@/components/PageShell";
 import { APP_NAME } from "@/lib/exam-config";
+import { getPoolStatus } from "@/lib/exam-session";
 import { NAV_ITEMS } from "@/lib/nav";
+
+async function HomeBankStatus() {
+  const status = await getPoolStatus();
+  return <p className="mt-3 max-w-2xl text-sm text-[var(--muted)]">{status.notice}</p>;
+}
 
 export default function HomePage() {
   return (
@@ -24,8 +31,15 @@ export default function HomePage() {
           </h1>
           <p className="mt-4 text-lg text-[var(--muted)]">
             Timed exam simulations, study mode, and answer review with
-            server-side scoring. Example items only until clinically verified.
+            server-side scoring.
           </p>
+          <Suspense
+            fallback={
+              <p className="mt-2 text-sm text-[var(--muted)]">Checking the question bank…</p>
+            }
+          >
+            <HomeBankStatus />
+          </Suspense>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               href="/exams"
