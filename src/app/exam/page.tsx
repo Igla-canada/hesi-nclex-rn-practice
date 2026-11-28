@@ -3,8 +3,14 @@ import Link from "next/link";
 import { io } from "next/cache";
 import { PageShell } from "@/components/PageShell";
 import { ExamPoolBanner } from "@/components/ExamPoolBanner";
-import { ExamRunner } from "@/components/ExamRunner";
-import { isSessionModeId, SESSION_MODES } from "@/lib/exam-config";
+import { ExamRevealGate } from "@/components/ExamRevealGate";
+import {
+  isSessionModeId,
+  SESSION_MODES,
+  type ClientExamQuestion,
+  type SessionModeId,
+} from "@/lib/exam-config";
+import { examOffersRevealChoice } from "@/lib/exam-reveal-choice";
 import {
   loadStoredAttempt,
   renderLiveSession,
@@ -28,6 +34,61 @@ function PracticeLengthNote() {
   );
 }
 
+function ExamWorkspace({
+  mode,
+  modeLabel,
+  attemptId,
+  questions,
+  endsAtIso,
+  allowBacktrack,
+  durationMinutes,
+  clockAnchored,
+  source,
+  notice,
+  note,
+}: {
+  mode: SessionModeId;
+  modeLabel: string;
+  attemptId: string;
+  questions: ClientExamQuestion[];
+  endsAtIso: string;
+  allowBacktrack: boolean;
+  durationMinutes: number;
+  clockAnchored: boolean;
+  source: "database" | "bank-file" | "example-fallback";
+  notice: string;
+  note?: string;
+}) {
+  const practiceLength = SESSION_MODES[mode].practiceLength;
+  const requireChoice = examOffersRevealChoice(mode);
+  return (
+    <>
+      <ExamPoolBanner source={source} notice={notice} />
+      {note ? <p className="mb-4 text-sm">{note}</p> : null}
+      <p className="mb-4 text-sm text-[var(--muted)]">
+        Mode: <strong className="text-[var(--ink)]">{modeLabel}</strong>. Answers stay in this
+        browser.
+        {requireChoice
+          ? null
+          : " Show answer loads the correct answer for the current question only."}
+      </p>
+      <ExamRevealGate
+        key={attemptId}
+        requireChoice={requireChoice}
+        attemptId={attemptId}
+        questions={questions}
+        endsAtIso={endsAtIso}
+        allowBacktrack={allowBacktrack}
+        practiceLength={practiceLength}
+        durationMinutes={durationMinutes}
+        clockAnchored={clockAnchored}
+      >
+        {practiceLength ? <PracticeLengthNote /> : null}
+      </ExamRevealGate>
+    </>
+  );
+}
+
 function LiveSessionView({
   session,
   endsAtIso,
@@ -37,25 +98,20 @@ function LiveSessionView({
   endsAtIso: string;
   note?: string;
 }) {
-  const practiceLength = SESSION_MODES[session.mode].practiceLength;
   return (
-    <>
-      <ExamPoolBanner source={session.source} notice={session.notice} />
-      {note ? <p className="mb-4 text-sm">{note}</p> : null}
-      {practiceLength ? <PracticeLengthNote /> : null}
-      <p className="mb-4 text-sm text-[var(--muted)]">
-        Mode: <strong className="text-[var(--ink)]">{session.modeLabel}</strong>. Answers stay in
-        this browser. Show answer loads the correct answer for the current question only.
-      </p>
-      <ExamRunner
-        key={session.attemptId}
-        attemptId={session.attemptId}
-        questions={session.questions}
-        endsAtIso={endsAtIso}
-        allowBacktrack={session.allowBacktrack}
-        practiceLength={practiceLength}
-      />
-    </>
+    <ExamWorkspace
+      mode={session.mode}
+      modeLabel={session.modeLabel}
+      attemptId={session.attemptId}
+      questions={session.questions}
+      endsAtIso={endsAtIso}
+      allowBacktrack={session.allowBacktrack}
+      durationMinutes={session.durationMinutes}
+      clockAnchored={false}
+      source={session.source}
+      notice={session.notice}
+      note={note}
+    />
   );
 }
 
@@ -75,24 +131,19 @@ async function ExamSession({
   if (params.attempt) {
     const loaded = await loadStoredAttempt(params.attempt);
     if (loaded) {
-      const practiceLength = SESSION_MODES[loaded.mode].practiceLength;
       return (
-        <>
-          <ExamPoolBanner source="database" notice={loaded.notice} />
-          {practiceLength ? <PracticeLengthNote /> : null}
-          <p className="mb-4 text-sm text-[var(--muted)]">
-            Mode: <strong className="text-[var(--ink)]">{loaded.modeLabel}</strong>. Answers stay in
-            this browser. Show answer loads the correct answer for the current question only.
-          </p>
-          <ExamRunner
-            key={loaded.attemptId}
-            attemptId={loaded.attemptId}
-            questions={loaded.questions}
-            endsAtIso={loaded.endsAtIso}
-            allowBacktrack={loaded.allowBacktrack}
-            practiceLength={practiceLength}
-          />
-        </>
+        <ExamWorkspace
+          mode={loaded.mode}
+          modeLabel={loaded.modeLabel}
+          attemptId={loaded.attemptId}
+          questions={loaded.questions}
+          endsAtIso={loaded.endsAtIso}
+          allowBacktrack={loaded.allowBacktrack}
+          durationMinutes={SESSION_MODES[loaded.mode].durationMinutes}
+          clockAnchored
+          source="database"
+          notice={loaded.notice}
+        />
       );
     }
     const session = await renderLiveSession({ mode: "nclex85" });
