@@ -15,6 +15,7 @@ type Props = {
   practiceLength?: boolean;
   practiceStop?: PracticeStopResult | null;
   practiceStopError?: boolean;
+  revealDuringExam?: boolean;
 };
 
 function answerText(question: ClientExamQuestion, answer: StoredAnswer | undefined): string {
@@ -42,6 +43,7 @@ export function ExamFollowUp({
   practiceLength = false,
   practiceStop = null,
   practiceStopError = false,
+  revealDuringExam = true,
 }: Props) {
   const flaggedIds = new Set(flagged);
   const skippedIds = new Set(skipped);
@@ -122,7 +124,10 @@ export function ExamFollowUp({
       <section className="rounded-xl border border-[var(--border)] bg-[var(--surface)] p-6">
         <h2 className="font-display text-xl font-semibold">After the exam</h2>
         <p className="mt-2 text-sm text-[var(--muted)]">
-          The live exam is closed. Correct answers were not available while the timer was running.
+          The live exam is closed.{" "}
+          {revealDuringExam
+            ? "During the exam, Show answer opened the correct answer and explanation for the current question only."
+            : "Correct answers and explanations stayed hidden during the exam. Missed questions below still include the correct answer."}
         </p>
         {review ? (
           <p className="mt-3 text-sm">

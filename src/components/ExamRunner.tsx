@@ -20,6 +20,8 @@ type Props = {
   endsAtIso: string;
   allowBacktrack?: boolean;
   practiceLength?: boolean;
+  /** False hides Show answer for the whole exam. Review after submit is unchanged. */
+  revealDuringExam?: boolean;
   onAutosave?: (payload: LocalExamPersistence) => void;
   onSubmit?: (payload: LocalExamPersistence) => void;
 };
@@ -54,6 +56,7 @@ export function ExamRunner({
   endsAtIso,
   allowBacktrack = true,
   practiceLength = false,
+  revealDuringExam = true,
   onAutosave,
   onSubmit,
 }: Props) {
@@ -285,6 +288,7 @@ export function ExamRunner({
         practiceLength={practiceLength}
         practiceStop={practiceStop}
         practiceStopError={practiceStopError}
+        revealDuringExam={revealDuringExam}
       />
     );
   }
@@ -427,7 +431,7 @@ export function ExamRunner({
   }
 
   async function showAnswer() {
-    if (answerLoading || shownAnswer?.versionId === question.versionId) return;
+    if (!revealDuringExam || answerLoading || shownAnswer?.versionId === question.versionId) return;
     const generation = ++revealGeneration.current;
     const versionId = question.versionId;
     const itemId = question.id;
@@ -711,39 +715,41 @@ export function ExamRunner({
         ) : null}
       </article>
 
-      <div className="rounded-lg border border-dashed border-[var(--border)] bg-[var(--surface)] p-4">
-        <button
-          type="button"
-          data-exam-control="show-answer"
-          disabled={answerLoading || shownAnswer?.versionId === question.versionId}
-          onClick={() => void showAnswer()}
-          className="rounded-md border border-[var(--border)] px-4 py-2 text-sm font-semibold disabled:opacity-40"
-        >
-          {answerLoading ? "Loading answer…" : "Show answer"}
-        </button>
-        <p className="mt-2 text-sm text-[var(--muted)]">
-          Shows the correct answer for this question only.
-        </p>
-        {shownAnswer?.versionId === question.versionId ? (
-          <div role="status" className="mt-4 space-y-3 text-sm">
-            <div>
-              <p className="font-semibold">Correct answer</p>
-              <p className="mt-1 whitespace-pre-wrap">{shownAnswer.correctAnswer}</p>
-            </div>
-            {shownAnswer.rationale ? (
-              <div>
-                <p className="font-semibold">Rationale</p>
-                <p className="mt-1 whitespace-pre-wrap">{shownAnswer.rationale}</p>
-              </div>
-            ) : null}
-          </div>
-        ) : null}
-        {answerError ? (
-          <p className="mt-3 text-sm" role="alert">
-            The answer for this question could not be loaded.
+      {revealDuringExam ? (
+        <div className="rounded-lg border border-dashed border-[var(--border)] bg-[var(--surface)] p-4">
+          <button
+            type="button"
+            data-exam-control="show-answer"
+            disabled={answerLoading || shownAnswer?.versionId === question.versionId}
+            onClick={() => void showAnswer()}
+            className="rounded-md border border-[var(--border)] px-4 py-2 text-sm font-semibold disabled:opacity-40"
+          >
+            {answerLoading ? "Loading answer…" : "Show answer"}
+          </button>
+          <p className="mt-2 text-sm text-[var(--muted)]">
+            Shows the correct answer and explanation for this question only.
           </p>
-        ) : null}
-      </div>
+          {shownAnswer?.versionId === question.versionId ? (
+            <div role="status" className="mt-4 space-y-3 text-sm">
+              <div>
+                <p className="font-semibold">Correct answer</p>
+                <p className="mt-1 whitespace-pre-wrap">{shownAnswer.correctAnswer}</p>
+              </div>
+              {shownAnswer.rationale ? (
+                <div>
+                  <p className="font-semibold">Explanation</p>
+                  <p className="mt-1 whitespace-pre-wrap">{shownAnswer.rationale}</p>
+                </div>
+              ) : null}
+            </div>
+          ) : null}
+          {answerError ? (
+            <p className="mt-3 text-sm" role="alert">
+              The answer for this question could not be loaded.
+            </p>
+          ) : null}
+        </div>
+      ) : null}
 
       <div className="flex flex-wrap gap-3">
         {allowBacktrack ? (
